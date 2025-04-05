@@ -182,12 +182,11 @@ def main():
     config = Config.from_file(config_path)
 
     replacements_map = load_replacements_map(config.replacement_map)
-    # reference_path = prepare_reference(config.reference)
-    reference_path = Path("./.reference")
+    reference_path = prepare_reference(config.reference)
     keyword_colors = load_keyword_colors()
     print(f"Reference downloaded to {reference_path}")
 
-    dist_path = Path("./dist")
+    dist_path = Path("./dist/localize")
     dist_path.mkdir(parents=True, exist_ok=True)
 
     localization_path = Path("./localize")
