@@ -44,7 +44,7 @@
 
 ---
 
-# [!!! Важное уведомление 03.04.2025 !!!](data/readme/3th_april_notice.md)
+# [!!! Важно 03.04.2025 !!!](data/readme/3rd_april_notice.md)
 
 ---
 
