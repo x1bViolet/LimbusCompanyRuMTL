@@ -1,0 +1,32 @@
+[replacement_map]
+repo = "kimght/LimbusFonts"
+# local path if repo is not set, else asset name in repo releases
+path = "replacement_map.json"
+
+[reference]
+repo = "LocalizeLimbusCompany/LocalizeLimbusCompany"
+branch = "main"
+path = "./EN"
+
+[priority]
+order = [
+  "StoryData/*.json"
+]
+
+[keyword_shorthands]
+# \[(?P<keyword_id>[^|]+)\|(?P<text>(?:\\[\[\]]|[^\]])*)\](?:\((?P<color>#[0-9a-fA-F]{6})\))?
+regex = "\\[(?P<keyword_id>[^|]+)\\|(?P<text>(?:\\\\[\\[\\]]|[^\\]])*)\\](?:\\((?P<color>#[0-9a-fA-F]{6})\\))?"
+apply_for = [
+  "Skills*.json",
+  "Passive*.json",
+  "EGOgift_*.json",
+  "PanicInfo*.json",
+  "MentalCondition.json",
+  "BattleKeywords.json",
+  "Bufs.json",
+]
+
+[[font_rules."MainUIText.json"]]
+font = "mikodacs"
+path = "$.dataList.[*].content"
+

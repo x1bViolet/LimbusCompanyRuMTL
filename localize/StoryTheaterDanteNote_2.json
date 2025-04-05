@@ -1,0 +1,44 @@
+﻿{
+  "dataList": [
+    {
+      "id": "Association",
+      "content": "Ассоциации"
+    },
+    {
+      "id": "ShiAsso",
+      "content": "Ассоциация «Ши»"
+    },
+    {
+      "id": "LiuAsso",
+      "content": "Ассоциация «Лю»"
+    },
+    {
+      "id": "Office",
+      "content": "Офисы"
+    },
+    {
+      "id": "LobotomyCorp",
+      "content": "Корпорация «Лоботомия»"
+    },
+    {
+      "id": "Enkephalin",
+      "content": "Энкефалин"
+    },
+    {
+      "id": "Abnormality",
+      "content": "Аномалии"
+    },
+    {
+      "id": "Shank",
+      "content": "Ассоциация «Сэнк»"
+    },
+    {
+      "id": "String",
+      "content": "Цепи"
+    },
+    {
+      "id": "Singularity",
+      "content": "Сингулярности"
+    }
+  ]
+}
