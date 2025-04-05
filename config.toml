@@ -28,5 +28,12 @@ apply_for = [
 
 [[font_rules."MainUIText.json"]]
 font = "mikodacs"
-path = "$.dataList.[*].content"
+path = '$.dataList[?(@.id =~ "mainui_main_button.*")].content'
 
+[[font_rules."ScenarioModelCodes-AutoCreated.json"]]
+font = "bebas"
+path = "$.dataList.[*].name"
+
+[[font_rules."ScenarioModelCodes-AutoCreated.json"]]
+font = "bebas"
+path = "$.dataList.[*].nickName"
