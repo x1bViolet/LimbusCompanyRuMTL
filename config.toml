@@ -103,13 +103,13 @@ font = "mikodacs"
 path = '$.dataList.[*].place'
 
 [[font_rules."ScenarioModelCodes-AutoCreated.json"]]
-font = "bebas"
+font = "mikodacs"
 path = "$.dataList.[*].name"
 
 [[font_rules."ScenarioModelCodes-AutoCreated.json"]]
-font = "bebas"
+font = "mikodacs"
 path = "$.dataList.[*].nickName"
 
 [[font_rules."Personalities.json"]]
-font = "bebas"
+font = "mikodacs"
 path = "$.dataList.[*].title"
