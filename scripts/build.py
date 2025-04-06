@@ -6,6 +6,8 @@ import collections
 import json
 import shutil
 import fnmatch
+import copy
+
 from itertools import zip_longest
 from pathlib import Path
 from jsonpath_ng.ext import parse
@@ -266,9 +268,14 @@ def main():
                 result.append(by_id[ref_id])
             else:
                 result.append(ref)
-            
+        
+        result = {
+            **copy.deepcopy(reference),
+            "dataList": result,
+        }
+        
         with open(dist_file, "w", encoding="utf-8-sig") as f:
-            json.dump(result, f, ensure_ascii=False, indent=4)
+            json.dump(result, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
