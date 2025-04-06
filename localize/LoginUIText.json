@@ -1,4 +1,4 @@
-﻿{
+{
   "dataList": [
     {
       "id": "loginui_sign_in_with_google",
@@ -175,6 +175,18 @@
     {
       "id": "serverstate_error_thirdparty_api",
       "content": "Возникла ошибка при попытке связи с внешним сервером, повторите попытку позже."
+    },
+    {
+      "id": "custom_localize_button",
+      "content": "Локализации"
+    },
+    {
+      "id": "custom_localize_title",
+      "content": "Выбрать другую локализацию"
+    },
+    {
+      "id": "custom_localize_desc",
+      "content": "※ Перезапустите игру после выбора ※"
     }
   ]
 }
