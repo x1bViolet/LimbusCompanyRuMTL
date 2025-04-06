@@ -4,7 +4,7 @@
       "id": 1038,
       "panicName": "Ночь в подворотнях",
       "lowMoraleDescription": "Начало хода: получает 1 [Enhancement], 1 [TakeHpHealIncrease] и 1 [Vulnerable].",
-      "panicDescription": "Начало хода: получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>, 2 <sprite name=\"TakeHpHealIncrease\"><color=#f8c200><u><link=\"TakeHpHealIncrease\">Повышения восстановления ОЗ</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>."
+      "panicDescription": "Начало хода: получает 2 [Enhancement:`Повышения силы атаки`], 2 [TakeHpHealIncrease:`Повышения восстановления ОЗ`] и 1 [Vulnerable:`Уязвимость`]."
     },
     {
       "id": 1039,
