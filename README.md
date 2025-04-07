@@ -48,6 +48,23 @@
 
 ---
 
+# Установка
+## Через лаунчер (рекомендуется)
+Теперь перевод можно автоматически установить через [лаунчер](https://github.com/kimght/LimbusLocalizationManager)!
+
+## Вручную
+### Установи перевод
+1. Скачай [последнюю версию](https://github.com/kimght/LimbusCompanyRuMTL/releases) файла локализации `localize_files.zip`
+2. Чтобы найти папку игры, зайди в библиотеку Steam и нажми ПКМ по Limbus Company в списке игр. В контекстом меню выбери `Управление -> Посмотреть локальные файлы`
+3. Перейди в `LimbusCompany_Data` и создай папку `Lang` если её ещё нет
+4. Внутри папки `Lang` создай папку `ru-mtl` и перенеси туда все файлы из архива с шага 1
+
+### Установи шрифт
+1. Скачай [последнюю версию](https://github.com/kimght/LimbusFonts/releases/latest) шрифта (`merged_font.ttf`)
+2. Перейди в `LimbusCompany_Data/Lang/ru-mtl`, создай папку `Font` и положи в нее шрифт
+
+---
+
 # [Помочь с переводом](https://github.com/kimght/LimbusStory)
 
 # Благодарности
