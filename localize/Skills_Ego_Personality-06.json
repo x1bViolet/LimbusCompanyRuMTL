@@ -465,10 +465,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайно распределяет между целями [Laceration] в количестве половины своей скорости (До 3)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайно распределяет между целями [Laceration:`Кровотечение`] в количестве половины своей скорости (До 3)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайно распределяет между целями [Burst] в количестве половины своей скорости (До 3)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайно распределяет между целями [Burst:`Разрыв`] в количестве половины своей скорости (До 3)</style>"
                 }
               ]
             }
@@ -507,10 +507,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Случайно распределяет между целями [Laceration] в <style=\"highlight\">количестве своей</style> скорости (До <style=\"highlight\">7</style>)"
+                  "desc": "[OnSucceedAttack] Случайно распределяет между целями [Laceration:`Кровотечение`] в <style=\"highlight\">количестве своей</style> скорости (До <style=\"highlight\">7</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Случайно распределяет между целями [Burst] в <style=\"highlight\">количестве своей</style> скорости (До <style=\"highlight\">7</style>)"
+                  "desc": "[OnSucceedAttack] Случайно распределяет между целями [Burst:`Разрыв`] в <style=\"highlight\">количестве своей</style> скорости (До <style=\"highlight\">7</style>)"
                 }
               ]
             }

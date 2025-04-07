@@ -427,10 +427,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`]"
                 }
               ]
             }
@@ -448,7 +448,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [PenetrateTakeDamageUp:`Уязвимости к Пронзающему урону`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">3</style> [Curse:`Проклятия`]"
@@ -469,7 +469,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [PenetrateTakeDamageUp:`Уязвимости к Пронзающему урону`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Curse:`Проклятия`]"
@@ -478,7 +478,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 3 [NailPersonality:`Гвоздя`]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели есть [Curse], на 50% больше урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели есть [Curse:`Проклятие`], на 50% больше урона</style>"
                 }
               ]
             }
@@ -498,10 +498,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`]"
                 }
               ]
             }
@@ -516,7 +516,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [VioletTakeDamageUp:`Уязвимости к Зависти`]"
@@ -537,7 +537,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [VioletTakeDamageUp:`Уязвимости к Зависти`]"
@@ -549,7 +549,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели есть [Curse], на 50% больше урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели есть [Curse:`Проклятие`], на 50% больше урона</style>"
                 }
               ]
             }
@@ -812,7 +812,7 @@
           "level": 1,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "Сила навыка +2 против целей с [Combustion:`Огнём`]\n[EnemyKill] Получает 1 [Enhancement] на следующий ход",
+          "desc": "Сила навыка +2 против целей с [Combustion:`Огнём`]\n[EnemyKill] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -842,7 +842,7 @@
           "level": 4,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "Сила навыка +2 против целей с [Combustion:`Огнём`]\n<style=\"highlight\">Наносит на 5% больше урона за каждый [Combustion] на цели (До 100%)</style>\n[EnemyKill] Получает 2 [Enhancement:`Повышения силы атаки`] на следующий ход",
+          "desc": "Сила навыка +2 против целей с [Combustion:`Огнём`]\n<style=\"highlight\">Наносит на 5% больше урона за каждый [Combustion:`Огонь`] на цели (До 100%)</style>\n[EnemyKill] Получает 2 [Enhancement:`Повышения силы атаки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1677,7 +1677,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] в количестве половины грехов в резонансе Гнева"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] в количестве половины грехов в резонансе Гнева"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Combustion:`Огня`] трём случайным противникам"
@@ -1698,7 +1698,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает границу выносливости на 40% от нанесённого урона</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] в количестве половины грехов в резонансе Гнева"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] в количестве половины грехов в резонансе Гнева"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Combustion:`Огня`] трём случайным противникам"
@@ -1719,7 +1719,7 @@
                   "desc": "[OnSucceedAttackHead] Повышает границу выносливости на 40% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] <style=\"highlight\">в количестве грехов</style> в резонансе Гнева"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] <style=\"highlight\">в количестве грехов</style> в резонансе Гнева"
                 },
                 {
                   "desc": "<style=\"highlight\">[EndSkillHead]</style> Наносит 5 [Combustion:`Огня`] трём случайным противникам"
@@ -1742,7 +1742,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] в количестве грехов в резонансе Гнева всем на поле боя"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] в количестве грехов в резонансе Гнева всем на поле боя"
                 }
               ]
             }
@@ -1757,7 +1757,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] в <style=\"highlight\">двойном</style> количестве грехов в резонансе Гнева всем на поле боя"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] в <style=\"highlight\">двойном</style> количестве грехов в резонансе Гнева всем на поле боя"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает границу выносливости на 60% от нанесённого урона</style>"
@@ -1775,7 +1775,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Наносит [Combustion] в двойном количестве грехов в резонансе Гнева всем на поле боя"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Наносит [Combustion:`Огонь`] в двойном количестве грехов в резонансе Гнева всем на поле боя"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает границу выносливости на 60% от нанесённого урона"
@@ -2840,7 +2840,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 7</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Даёт 1 [VioletResultUp] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход</style>"
                 }
               ]
             }
@@ -2861,7 +2861,7 @@
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 7"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а так же повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а так же повышает свой счётчик [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -3258,7 +3258,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает 2 [Agility:`Спешки`] на следующий ход\nТратит 10 единиц со своего счётчика [Charge:`Заряда`] для нанесения на 1 [Vulnerable] и [DimensionRift] больше этим навыком",
+          "desc": "[CantIdentify] \nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает 2 [Agility:`Спешки`] на следующий ход\nТратит 10 единиц со своего счётчика [Charge:`Заряда`] для нанесения на 1 [Vulnerable:`Уязвимость`] и [DimensionRift:`Пространственный разлом`] больше этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -3293,7 +3293,7 @@
           "level": 1,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 1 [Agility:`Спешку`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp] на следующий ход",
+          "desc": "[EndSkill] Получает 1 [Agility:`Спешку`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3314,7 +3314,7 @@
           "level": 3,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает <style=\"highlight\">2</style> [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp] на следующий ход",
+          "desc": "[EndSkill] Получает <style=\"highlight\">2</style> [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3338,7 +3338,7 @@
           "level": 4,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 2 [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp] на следующий ход",
+          "desc": "[EndSkill] Получает 2 [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3367,7 +3367,7 @@
           "level": 1,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 1 [Agility:`Спешку`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 1 [Agility:`Спешку`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3378,7 +3378,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве [Combustion:`Огня`] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\n- Если [VibrationExplosion] оглушила цель, повышает счётчик [Combustion:`Огня`] на 2 пяти случайным участникам битвы"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] на 2 пяти случайным участникам битвы"
                 }
               ]
             }
@@ -3388,7 +3388,7 @@
           "level": 3,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает <style=\"highlight\">2</style> [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает <style=\"highlight\">2</style> [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3402,7 +3402,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] пяти случайным участникам битвы</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <style=\"highlight\">на 2</style>\n- Если [VibrationExplosion] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style> пяти случайным участникам битвы"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <style=\"highlight\">на 2</style>\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style> пяти случайным участникам битвы"
                 }
               ]
             }
@@ -3412,7 +3412,7 @@
           "level": 4,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 2 [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает 2 [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3426,7 +3426,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`] пяти случайным участникам битвы"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n- Если [VibrationExplosion] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 4</style> пяти случайным участникам битвы"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 4</style> пяти случайным участникам битвы"
                 }
               ]
             }
@@ -3514,7 +3514,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет <style=\"highlight\">15</style> СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n<style=\"highlight\">- Если [VibrationExplosion] оглушила цель, наносит 2 [Combustion:`Огня`] трём случайным участниам битвы</style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n<style=\"highlight\">- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, наносит 2 [Combustion:`Огня`] трём случайным участниам битвы</style>"
                 }
               ]
             }
@@ -4268,7 +4268,7 @@
                   "desc": "[OnSucceedAttackTail] Восстанавливает 4 СД"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 1 [Vulnerable]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 1 [Vulnerable:`Уязвимость`]</style>"
                 }
               ]
             }

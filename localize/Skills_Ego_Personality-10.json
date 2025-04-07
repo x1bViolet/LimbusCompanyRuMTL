@@ -340,7 +340,7 @@
                   "desc": "[EndSkill] Получает щит на (15 + (Число грехов в наибольшем резонансе × 2.5))% от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 25%)"
                 },
                 {
-                  "desc": "- Если уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 "
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2 "
                 },
                 {
                   "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
@@ -364,7 +364,7 @@
                   "desc": "[EndSkill] Получает щит на (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "- Если уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2"
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
                 },
                 {
                   "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
@@ -388,7 +388,7 @@
                   "desc": "[EndSkill] Получает щит на (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "- Если на уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2"
+                  "desc": "- Если на уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
                 },
                 {
                   "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
@@ -480,7 +480,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown], если на цели 4 и более [Curse:`Проклятия`] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`], если на цели 4 и более [Curse:`Проклятия`] (Единожды за ход)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"

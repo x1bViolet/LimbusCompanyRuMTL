@@ -1314,12 +1314,12 @@
         {
           "level": 1,
           "name": "Укрыться",
-          "desc": "[CanDuelGuard]\n[WhenUse] Если Представитель Офиса Точки Хон Лу на поле боя, запрашивает [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 на следующем ходу (Единожды за ход)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Если Представитель Офиса Точки Хон Лу на поле боя, запрашивает [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 на следующем ходу (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                  "desc": "[SuperCoin:`Вечная монета`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1328,12 +1328,12 @@
         {
           "level": 4,
           "name": "Укрыться",
-          "desc": "[CanDuelGuard]\n[WhenUse] Если Представитель Офиса Точки Хон Лу на поле боя, запрашивает [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n<style=\"highlight\">[WinDuel] Наносит 1 [PenetrateResistDown] (Единожды за ход)</style>\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 на следующем ходу (Единожды за ход)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Если Представитель Офиса Точки Хон Лу на поле боя, запрашивает [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n<style=\"highlight\">[WinDuel] Наносит 1 [PenetrateResistDown:`Понижение сопротивления к Пронзающему урону`] (Единожды за ход)</style>\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 на следующем ходу (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                  "desc": "[SuperCoin:`Вечная монета`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1347,22 +1347,22 @@
         {
           "level": 1,
           "name": "Линзовидный разрез",
-          "desc": "[WhenUse] Получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "[WhenUse] Получает 1 [Endurance:`Повышение силы защиты`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]"
                 }
               ]
             }
@@ -1371,22 +1371,22 @@
         {
           "level": 2,
           "name": "Линзовидный разрез",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Получает 1 [Endurance:`Повышение силы защиты`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1400,17 +1400,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1456,7 +1456,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]</style>"
                 }
               ]
             },
@@ -1466,7 +1466,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] (Единожды за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1475,7 +1475,7 @@
         {
           "level": 4,
           "name": "Грозовые облака",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 1 [Endurance:`Повышение силы защиты`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1483,7 +1483,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1493,7 +1493,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] (<style=\"highlight\">Дважды</style> за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] (<style=\"highlight\">Дважды</style> за ход)"
                 }
               ]
             }
@@ -1507,7 +1507,7 @@
         {
           "level": 3,
           "name": "Громовой разрыв",
-          "desc": "Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`] \n[StartBattle] Получает 1 [CloudWall:`Облачную преграду`] на следующий ход\n[WhenUse] Получает 1 [Endurance] на следующий ход (Единожды за ход)",
+          "desc": "Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`] \n[StartBattle] Получает 1 [CloudWall:`Облачную преграду`] на следующий ход\n[WhenUse] Получает 1 [Endurance:`Повышение силы защиты`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1522,7 +1522,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Последняя монета наносит на 10% больше урона"
@@ -1544,7 +1544,7 @@
         {
           "level": 4,
           "name": "Громовой разрыв",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] Получает 1 [CloudWall:`Облачную преграду`] на следующий ход\n[WhenUse] Получает 1 [Endurance] на следующий ход (Единожды за ход)\n<style=\"highlight\">[WinDuel] Получает 1 [BlackCloudBlade] на следущий ход (Единожды за ход)</style>",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] Получает 1 [CloudWall:`Облачную преграду`] на следующий ход\n[WhenUse] Получает 1 [Endurance:`Повышение силы защиты`] на следующий ход (Единожды за ход)\n<style=\"highlight\">[WinDuel] Получает 1 [BlackCloudBlade:`Клинок тёмных туч`] на следущий ход (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1559,7 +1559,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Последняя монета наносит на 10% больше урона<style=\"highlight\"></style>"
@@ -1586,7 +1586,7 @@
         {
           "level": 1,
           "name": "Правила подворотен",
-          "desc": "[DuelCounter]\nЕсли Капитан клана «Курокумо» Измаил на поле боя:\n- Все монеты становятся [SuperCoin:`Вечными`]\n- Итоговая сила этого навыка +3 при проигрыше в столкновении\n[WhenUse] Если имеется [CloudWall], активирует все эффекты повторного подкидывания монеты навыка без условий",
+          "desc": "[DuelCounter]\nЕсли Капитан клана «Курокумо» Измаил на поле боя:\n- Все монеты становятся [SuperCoin:`Вечными`]\n- Итоговая сила этого навыка +3 при проигрыше в столкновении\n[WhenUse] Если имеется [CloudWall:`Облачная преграда`], активирует все эффекты повторного подкидывания монеты навыка без условий",
           "coinlist": [
             {
               "coindescs": [
@@ -1594,10 +1594,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade], заново подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], заново подкидывает монету (Единожды за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle], заново подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], заново подкидывает монету (Единожды за навык)"
                 }
               ]
             }
@@ -1606,7 +1606,7 @@
         {
           "level": 4,
           "name": "Правила подворотен",
-          "desc": "[DuelCounter]\nЕсли Капитан клана «Курокумо» Измаил на поле боя:\n- Все монеты становятся [SuperCoin:`Вечными`]\n- Итоговая сила этого навыка <style=\"highlight\">+4</style> при проигрыше в столкновении\n<style=\"highlight\">Наносит на 10% больше урона за каждый тип отрицательных эффектов на цели (До 100%)</style>\n[WhenUse] Если имеется [CloudWall], активирует все эффекты повторного подкидывания монеты навыка без условий",
+          "desc": "[DuelCounter]\nЕсли Капитан клана «Курокумо» Измаил на поле боя:\n- Все монеты становятся [SuperCoin:`Вечными`]\n- Итоговая сила этого навыка <style=\"highlight\">+4</style> при проигрыше в столкновении\n<style=\"highlight\">Наносит на 10% больше урона за каждый тип отрицательных эффектов на цели (До 100%)</style>\n[WhenUse] Если имеется [CloudWall:`Облачная преграда`], активирует все эффекты повторного подкидывания монеты навыка без условий",
           "coinlist": [
             {
               "coindescs": [
@@ -1614,10 +1614,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade], заново подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], заново подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle], заново подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], заново подкидывает монету (Единожды за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1651,7 +1651,7 @@
         {
           "level": 4,
           "name": "Правила подворотен",
-          "desc": "<style=\"highlight\">Сила в столкновении +1 против целей с 6 и более [Laceration:`Кровотечения`] \nНаносит на 10% больше урона за каждый тип отрицательных эффектов на цели (До 100%)</style>\n[WhenUse] Если имеется [CloudWall], активирует все эффекты повтороного подкидывания монеты без условий",
+          "desc": "<style=\"highlight\">Сила в столкновении +1 против целей с 6 и более [Laceration:`Кровотечения`] \nНаносит на 10% больше урона за каждый тип отрицательных эффектов на цели (До 100%)</style>\n[WhenUse] Если имеется [CloudWall:`Облачная преграда`], активирует все эффекты повтороного подкидывания монеты без условий",
           "coinlist": [
             {
               "coindescs": [

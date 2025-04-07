@@ -820,7 +820,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Переносит 10 [Sinking:`Утопания`] с цели на себя и получает 1 [AttackDmgUp:`Повышение урона`] с 1 [PlusCoinValueUp:`Усилением положительной монеты`] на следующий ход\nС шансом 50% не забирает [Sinking] с цели"
+                  "desc": "[OnSucceedAttack] Переносит 10 [Sinking:`Утопания`] с цели на себя и получает 1 [AttackDmgUp:`Повышение урона`] с 1 [PlusCoinValueUp:`Усилением положительной монеты`] на следующий ход\nС шансом 50% не забирает [Sinking:`Утопание`] с цели"
                 }
               ]
             }
@@ -855,7 +855,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Переносит 10 [Sinking:`Утопания`] с цели на себя и получает <style=\"highlight\">3</style> [AttackDmgUp:`Повышения урона`] и 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход\nС шансом 50% не забирает [Sinking] с цели"
+                  "desc": "[OnSucceedAttack] Переносит 10 [Sinking:`Утопания`] с цели на себя и получает <style=\"highlight\">3</style> [AttackDmgUp:`Повышения урона`] и 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход\nС шансом 50% не забирает [Sinking:`Утопание`] с цели"
                 }
               ]
             }
@@ -1155,7 +1155,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 }
               ]
             },
@@ -1176,7 +1176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 }
               ]
             },
@@ -1226,7 +1226,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 10 [FirePunchFuel:`Топлива 12-го Района`] и наносит 1 [Combustion] двум противникам с его наименьшей силой"
+                  "desc": "[OnSucceedAttack] Тратит 10 [FirePunchFuel:`Топлива 12-го Района`] и наносит 1 [Combustion:`Огонь`] двум противникам с его наименьшей силой"
                 }
               ]
             },
@@ -1245,7 +1245,7 @@
         {
           "level": 2,
           "name": "Я сожгу всю твою грязную кровь до последней капли",
-          "desc": "Сила монет +1 против целей с 6 и более [Combustion:`Огня`]\n<style=\"highlight\">Монеты, которые тратят [FirePunchFuel], наносят на 10% больше урона\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`] на 20% больше урона вместо этого</style>",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:`Огня`]\n<style=\"highlight\">Монеты, которые тратят [FirePunchFuel:`Топливо 12-го Района`], наносят на 10% больше урона\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`] на 20% больше урона вместо этого</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1253,7 +1253,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 10 [FirePunchFuel:`Топлива 12-го Района`] и наносит 1 [Combustion] двум противникам с его наименьшей силой"
+                  "desc": "[OnSucceedAttack] Тратит 10 [FirePunchFuel:`Топлива 12-го Района`] и наносит 1 [Combustion:`Огонь`] двум противникам с его наименьшей силой"
                 }
               ]
             },
@@ -1272,7 +1272,7 @@
         {
           "level": 4,
           "name": "Я сожгу всю твою грязную кровь до последней капли",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Combustion:`Огня`]</style> на цели <style=\"highlight\">(До 2)</style>\nМонеты, которые тратят [FirePunchFuel], наносят на <style=\"highlight\">15%</style> больше урона\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`] на <style=\"highlight\">30%</style> больше урона вместо этого",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Combustion:`Огня`]</style> на цели <style=\"highlight\">(До 2)</style>\nМонеты, которые тратят [FirePunchFuel:`Топливо 12-го Района`], наносят на <style=\"highlight\">15%</style> больше урона\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`] на <style=\"highlight\">30%</style> больше урона вместо этого",
           "coinlist": [
             {
               "coindescs": [
@@ -1304,19 +1304,19 @@
         {
           "level": 3,
           "name": "Огненный кулак",
-          "desc": "Сила монет +1 против целей с 3 и более единицами на счётчике [Combustion:`Огня`]\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:`Огня`] на цели (До 2)\n[WhenUse] Тратит до 25 [FirePunchFuel:`Топлива 12-го Района`] и наносит на 1% больше урона за каждую потраченную навыком единицу (До 25%)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], наносит на 3% больше урона за каждую потраченную навыком единицу вместо этого (До 75%)\n[EndSkill] Если цель убита, или этот навык потратил [FirePunchFuel:`Топливо 12-го Района`], получает 1 [HitDamageUp] на следующий ход",
+          "desc": "Сила монет +1 против целей с 3 и более единицами на счётчике [Combustion:`Огня`]\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:`Огня`] на цели (До 2)\n[WhenUse] Тратит до 25 [FirePunchFuel:`Топлива 12-го Района`] и наносит на 1% больше урона за каждую потраченную навыком единицу (До 25%)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], наносит на 3% больше урона за каждую потраченную навыком единицу вместо этого (До 75%)\n[EndSkill] Если цель убита, или этот навык потратил [FirePunchFuel:`Топливо 12-го Района`], получает 1 [HitDamageUp:`Повышение Дробящего урона`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel], наносит 1 [Combustion] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel:`Топливо 12-го Района`], наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel], наносит 1 [Combustion] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel:`Топливо 12-го Района`], наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1"
                 }
               ]
             },
@@ -1337,14 +1337,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel], наносит <style=\"highlight\">2</style> [Combustion:`Огня`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel:`Топливо 12-го Района`], наносит <style=\"highlight\">2</style> [Combustion:`Огня`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel], наносит <style=\"highlight\">2</style> [Combustion:`Огня`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если было потрачено [FirePunchFuel:`Топливо 12-го Района`], наносит <style=\"highlight\">2</style> [Combustion:`Огня`] и повышает его счётчик на 1"
                 }
               ]
             },
@@ -1365,12 +1365,12 @@
         {
           "level": 1,
           "name": "Я должен продолжать идти ради старшей сестры",
-          "desc": "[DuelCounter]\n[StartBattle] Восполняет [FirePunchFuel] до 100",
+          "desc": "[DuelCounter]\n[StartBattle] Восполняет [FirePunchFuel:`Топливо 12-го Района`] до 100",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 }
               ]
             }
@@ -1379,12 +1379,12 @@
         {
           "level": 4,
           "name": "Я должен продолжать идти ради старшей сестры",
-          "desc": "[DuelCounter]\n[StartBattle] Восполняет [FirePunchFuel] до 100",
+          "desc": "[DuelCounter]\n[StartBattle] Восполняет [FirePunchFuel:`Топливо 12-го Района`] до 100",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 }
               ]
             }

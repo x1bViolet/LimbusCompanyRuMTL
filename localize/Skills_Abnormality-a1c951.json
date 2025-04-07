@@ -1,4 +1,4 @@
-﻿{
+{
   "dataList": [
     {
       "id": 811301,
@@ -43,7 +43,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Удваивает своё [Breath]"
+                  "desc": "[CriticalOnSucceedAttack] Удваивает своё [Breath:`Дыхание`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"

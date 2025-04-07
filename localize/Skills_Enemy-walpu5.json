@@ -34,7 +34,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Smoke:`Дыма`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             },
@@ -44,7 +44,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Smoke:`Дыма`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -58,7 +58,7 @@
         {
           "level": 1,
           "name": "Пар",
-          "desc": "Сила в столкновении +1 за каждые 3 [Smoke:`Дыма`] цели (До 2)\nНаносит на 10% больше урона за каждые 3 [Smoke:`Дыма`] на себе (До 20%)\n[WhenUse] При 10 [Smoke:`Дыма`] на себе, Сила монет +2\n[EndSkill] Тратит весь свой [Smoke]",
+          "desc": "Сила в столкновении +1 за каждые 3 [Smoke:`Дыма`] цели (До 2)\nНаносит на 10% больше урона за каждые 3 [Smoke:`Дыма`] на себе (До 20%)\n[WhenUse] При 10 [Smoke:`Дыма`] на себе, Сила монет +2\n[EndSkill] Тратит весь свой [Smoke:`Дым`]",
           "coinlist": [
             {
               "coindescs": [
@@ -84,7 +84,7 @@
         {
           "level": 1,
           "name": "Приказ уворота",
-          "desc": "[OnSucceedEvade] Получает 3 [Smoke:`Дыма`] и повышает его счётчик на 1\n[OnSucceedEvade] При 10 [Smoke:`Дыма`] на себе, получает 1 [ParryingResultUp] и 3 [Protection:`Защищённости`] на следующий ход (Единожды за ход)",
+          "desc": "[OnSucceedEvade] Получает 3 [Smoke:`Дыма`] и повышает его счётчик на 1\n[OnSucceedEvade] При 10 [Smoke:`Дыма`] на себе, получает 1 [ParryingResultUp:`Повышение силы в столкновении`] и 3 [Protection:`Защищённости`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -131,7 +131,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:`Дыма`] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             },
@@ -141,7 +141,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Smoke:`Дыма`] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
@@ -155,7 +155,7 @@
         {
           "level": 1,
           "name": "Приказ наступления",
-          "desc": "Сила в столкновении +1 за каждые 3 [Smoke:`Дыма`] цели (До 2)\nНаносит на 10% больше урона за каждые 3 [Smoke:`Дыма`] на себе (До 20%)\n[WhenUse] При 10 [Smoke:`Дыма`] на себе, Сила монет +2\n[EndSkill] Тратит весь свой [Smoke]",
+          "desc": "Сила в столкновении +1 за каждые 3 [Smoke:`Дыма`] цели (До 2)\nНаносит на 10% больше урона за каждые 3 [Smoke:`Дыма`] на себе (До 20%)\n[WhenUse] При 10 [Smoke:`Дыма`] на себе, Сила монет +2\n[EndSkill] Тратит весь свой [Smoke:`Дым`]",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
         {
           "level": 1,
           "name": "Приказ уворота",
-          "desc": "[OnSucceedEvade] Получает 3 [Smoke:`Дыма`] и повышает его счётчик на 1\n[OnSucceedEvade] При 10 [Smoke:`Дыма`] на себе, получает 1 [ParryingResultUp] и 3 [Protection:`Защищённости`] на следующий ход (Единожды за ход)",
+          "desc": "[OnSucceedEvade] Получает 3 [Smoke:`Дыма`] и повышает его счётчик на 1\n[OnSucceedEvade] При 10 [Smoke:`Дыма`] на себе, получает 1 [ParryingResultUp:`Повышение силы в столкновении`] и 3 [Protection:`Защищённости`] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -227,7 +227,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Smoke:`Дыма`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -267,7 +267,7 @@
         {
           "level": 1,
           "name": "Шестерня плоти: Стереть",
-          "desc": "Сила монет +1 за каждые 3 [Smoke:`Дыма`] на цели\nНаносит на 20% больше урона за каждые 3 [Smoke:`Дыма`] на себе\n[WhenUse] При 10 [Smoke:`Дыма`] на себе, Сила монет +1\n[EndSkill] Тратит весь свой [Smoke]",
+          "desc": "Сила монет +1 за каждые 3 [Smoke:`Дыма`] на цели\nНаносит на 20% больше урона за каждые 3 [Smoke:`Дыма`] на себе\n[WhenUse] При 10 [Smoke:`Дыма`] на себе, Сила монет +1\n[EndSkill] Тратит весь свой [Smoke:`Дым`]",
           "coinlist": [
             {
               "coindescs": [

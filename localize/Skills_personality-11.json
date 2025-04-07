@@ -582,7 +582,7 @@
         {
           "level": 3,
           "name": "Выстрел магической пулей",
-          "desc": "Выстрел наносит на 0.5% больше урона за каждый [Combustion] на цели (До 15%)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Тратит (Число [FreischutzShotCount:`Магических пуль`] - 1) × 5 СД\n- Число целей меняется на количество [FreischutzShotCount:`Магических пуль`] на руках\n- Атака с шансом в 50% становится неуправляемой при 10 и менее СД\n\n[EndSkill] Если на руках 7 [FreischutzShotCount:`Магических пуль`], их количество обнуляется (Считается за трату последнего [Bullet:`Патрона`])",
+          "desc": "Выстрел наносит на 0.5% больше урона за каждый [Combustion:`Огонь`] на цели (До 15%)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Тратит (Число [FreischutzShotCount:`Магических пуль`] - 1) × 5 СД\n- Число целей меняется на количество [FreischutzShotCount:`Магических пуль`] на руках\n- Атака с шансом в 50% становится неуправляемой при 10 и менее СД\n\n[EndSkill] Если на руках 7 [FreischutzShotCount:`Магических пуль`], их количество обнуляется (Считается за трату последнего [Bullet:`Патрона`])",
           "coinlist": [
             {
               "coindescs": [
@@ -596,7 +596,7 @@
         {
           "level": 4,
           "name": "Выстрел магической пулей",
-          "desc": "Выстрел наносит на <style=\"highlight\">1%</style> больше урона за каждый [Combustion] на цели (До <style=\"highlight\">30%</style>)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Тратит (Число [FreischutzShotCount:`Магических пуль`] - 1) × 5 СД\n- Число целей меняется на количество [FreischutzShotCount:`Магических пуль`] на руках\n- Атака с шансом в 50% становится неуправляемой при 10 и менее СД\n\n[EndSkill] Если на руках 7 [FreischutzShotCount:`Магических пуль`], их количество обнуляется (Считается за трату последнего [Bullet:`Патрона`])",
+          "desc": "Выстрел наносит на <style=\"highlight\">1%</style> больше урона за каждый [Combustion:`Огонь`] на цели (До <style=\"highlight\">30%</style>)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Тратит (Число [FreischutzShotCount:`Магических пуль`] - 1) × 5 СД\n- Число целей меняется на количество [FreischutzShotCount:`Магических пуль`] на руках\n- Атака с шансом в 50% становится неуправляемой при 10 и менее СД\n\n[EndSkill] Если на руках 7 [FreischutzShotCount:`Магических пуль`], их количество обнуляется (Считается за трату последнего [Bullet:`Патрона`])",
           "coinlist": [
             {
               "coindescs": [
@@ -1481,7 +1481,7 @@
         {
           "level": 4,
           "name": "Я сошью тебе новое платье!",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 20)\n[BeforeAttack] Вес атаки +1 <style=\"highlight\">за каждые 10 [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] (До 2)</style>\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила в столкновении +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[EndSkill] Тратит <style=\"highlight\">10</style> [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] за каждый полученный Вес атаки\n[EndSkill] Если цель убита, увеличивает [BloodDinner:`Кровавое пиршество`] на <style=\"highlight\">20</style> и возвращает половину потраченных навыком [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] (Единожды за ход)\n<style=\"highlight\">- Если цель противник был [LineCuttingPersonality:`Целью шитья`], дополнительно увеличивает [BloodDinner] на 20 и восстанавливает 5 [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] (Единожды за ход)</style>",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 20)\n[BeforeAttack] Вес атаки +1 <style=\"highlight\">за каждые 10 [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] (До 2)</style>\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила в столкновении +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[EndSkill] Тратит <style=\"highlight\">10</style> [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] за каждый полученный Вес атаки\n[EndSkill] Если цель убита, увеличивает [BloodDinner:`Кровавое пиршество`] на <style=\"highlight\">20</style> и возвращает половину потраченных навыком [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] (Единожды за ход)\n<style=\"highlight\">- Если цель противник был [LineCuttingPersonality:`Целью шитья`], дополнительно увеличивает [BloodDinner:`Кровавое пиршество`] на 20 и восстанавливает 5 [BloodScissorPersonalityFirst:`Окровавленных лезвий ножниц`] (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1559,14 +1559,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             }
@@ -1580,14 +1580,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 12 и выше, вновь подкидывает монету (Единожды за навык)</style>"
@@ -1604,14 +1604,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] При скорости <style=\"highlight\">10</style> и выше, вновь подкидывает монету (Единожды за навык)"
@@ -1707,24 +1707,24 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] При скорости 10 и выше, вновь подкидывает монету (Единожды за навык)"
@@ -1741,30 +1741,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] При скорости 10 и выше, вновь подкидывает монету (Единожды за навык)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]</style>"
                 }
               ]
             }

@@ -93,7 +93,7 @@
     {
       "id": 1015,
       "panicName": "Бледная паника",
-      "lowMoraleDescription": "[MentalSystemResultDecrease_Typo] +2",
+      "lowMoraleDescription": "[MentalSystemResultDecrease_Typo:`Эффективность потери СД`] +2",
       "panicDescription": "В конце каждого хода получает 2 [Binding:`Связывания`].\nВсе монеты падают решкой."
     },
     {

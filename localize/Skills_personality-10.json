@@ -642,7 +642,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 2.5% больше урона за каждый [Combustion] на цели (До 100%)"
+                  "desc": "На 2.5% больше урона за каждый [Combustion:`Огонь`] на цели (До 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 10 и более [Combustion:`Огня`], наносит 2 [Combustion:`Огня`] (Число наибольшего резонанса) случайным противникам"
@@ -665,7 +665,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">4%</style> больше урона за каждый [Combustion] на цели (До <style=\"highlight\">120%</style>)"
+                  "desc": "На <style=\"highlight\">4%</style> больше урона за каждый [Combustion:`Огонь`] на цели (До <style=\"highlight\">120%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 10 и более [Combustion:`Огня`], наносит 2 [Combustion:`Огня`] (Число наибольшего резонанса) случайным противникам\n<style=\"highlight\">- Если грехом резонанса был Гнев, дополнительно повышает счётчик [Combustion:`Огня`] на 1</style>"

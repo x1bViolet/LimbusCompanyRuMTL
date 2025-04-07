@@ -1044,7 +1044,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`]"
@@ -1057,7 +1057,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 10 и более [Combustion:`Огня`] на себе наносит 1 дополнительный [Combustion]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 10 и более [Combustion:`Огня`] на себе наносит 1 дополнительный [Combustion:`Огонь`]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`]"
@@ -1123,7 +1123,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
@@ -1154,7 +1154,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`]"
@@ -1185,7 +1185,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
@@ -1280,7 +1280,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
@@ -1290,7 +1290,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
@@ -1300,7 +1300,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] На 10% больше урона за каждые 20% потерянных ОЗ (До 30%)"
@@ -1317,7 +1317,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Combustion:`Огня`]"
@@ -1327,7 +1327,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Combustion:`Огня`]"
@@ -1337,7 +1337,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] На 10% больше урона за каждые 20% потерянных ОЗ (До 30%)"

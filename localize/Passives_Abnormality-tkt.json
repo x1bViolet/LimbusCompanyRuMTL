@@ -18,7 +18,7 @@
     {
       "id": 827802,
       "name": "Равные расходы",
-      "desc": "В конце хода получает [EquitableDistribution]."
+      "desc": "В конце хода получает [EquitableDistribution:`Издержки распределённого времени`]."
     },
     {
       "id": 827803,
@@ -28,7 +28,7 @@
     {
       "id": 827804,
       "name": "Вначале у них забери!",
-      "desc": "При менее 60% ОЗ [EquitableDistribution] превращаются в [UnfairDistribution]."
+      "desc": "При менее 60% ОЗ [EquitableDistribution:`Издержки распределённого времени`] превращаются в [UnfairDistribution:`Распри`]."
     }
   ]
 }

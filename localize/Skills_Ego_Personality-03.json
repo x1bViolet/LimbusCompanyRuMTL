@@ -254,7 +254,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "На 0.1% больше урона за каждое [BloodDinner_Common_Accumulation:`Поглощённое кровавое пиршество (общее)`] (До 10%)"
@@ -264,7 +264,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "При 100 и более [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`]: +0.1% к урону за каждую единицу (До 10%)"
@@ -274,7 +274,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "При 200 и более [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`]: +0.1% к урону за каждую единицу (До 20%)"
@@ -284,7 +284,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "При 300 и более [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`]: +0.1% к урону за каждую единицу (До 30%)"
@@ -305,7 +305,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "На 0.1% больше урона за каждое [BloodDinner_Common_Accumulation:`Поглощённое кровавое пиршество (общее)`] (До 10%)<style=\"highlight\"></style>"
@@ -315,7 +315,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "При 100 и более [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`]: +0.1% к урону за каждую единицу (До <style=\"highlight\">15%</style>)"
@@ -366,7 +366,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "При 100 и более [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`]: +0.1% к урону за каждую единицу (До <style=\"highlight\">20%</style>)"

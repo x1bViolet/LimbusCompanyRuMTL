@@ -1554,7 +1554,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -1575,7 +1575,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -1599,7 +1599,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1628,7 +1628,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -1649,7 +1649,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше, повышает счётчик [Burst:`Разрыва`] на 1</style>"
@@ -1673,7 +1673,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] При скорости 10 и выше, повышает счётчик [Burst:`Разрыва`] на 1"
@@ -1686,7 +1686,7 @@
                   "desc": "При скорости 10 и выше, на <style=\"highlight\">30%</style> больше урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]</style>"
                 }
               ]
             }
@@ -1708,14 +1708,14 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -1745,14 +1745,14 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -1768,7 +1768,7 @@
                   "desc": "[OnSucceedAttack] При скорости 10 и выше, вновь подкидывает монету (Единожды за навык)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]</style>"
                 }
               ]
             }

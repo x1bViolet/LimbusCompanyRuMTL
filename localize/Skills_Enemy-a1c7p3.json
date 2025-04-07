@@ -216,7 +216,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Если есть [BloodScissor], Базовая атака +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+          "desc": "[WhenUse] Если есть [BloodScissor:`Окровавленные лезвия ножниц`], Базовая атака +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
           "coinlist": [
             {
               "coindescs": [
@@ -348,7 +348,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Если есть [BloodyHand], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+          "desc": "[WhenUse] Если есть [BloodyHand:`Окровавленная рука`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
           "coinlist": [
             {
               "coindescs": [
