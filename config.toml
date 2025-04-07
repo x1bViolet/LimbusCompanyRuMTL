@@ -26,6 +26,11 @@ apply_for = [
   "Bufs*.json",
 ]
 
+[xml_escape]
+singular_keywords = [
+  "sprite"
+]
+
 [[font_rules."MainUIText.json"]]
 font = "mikodacs"
 path = '$.dataList[?(@.id =~ "mainui_main_button.*")].content'

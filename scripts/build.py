@@ -8,12 +8,13 @@ import shutil
 import fnmatch
 import copy
 import argparse
+import bisect
 
 from itertools import zip_longest
 from pathlib import Path
 from jsonpath_ng.ext import parse
 
-from .models import Config, FontRule, ReplacementMap, Reference
+from .models import Config, FontRule, ReplacementMap, Reference, XmlEscape
 
 
 def prepare_reference(reference: Reference, target_path: Path) -> None:
@@ -148,32 +149,106 @@ def convert_keywords(
             data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
 
 
+def is_in_range(pos: int, ranges: list[tuple[int, int]]) -> bool:
+    if not ranges:
+        return False
+    
+    index = bisect.bisect_left(ranges, (pos + 1,)) - 1
+    if index >= 0 and ranges[index][0] <= pos <= ranges[index][1]:
+        return True
+
+    return False
+
+
+def get_markup_positions(
+    text: str, 
+    singular_keywords: list[str], 
+    escape_short: bool = True,
+    escape_keywords: bool = True,
+) -> list[tuple[int, int]]:
+    if not escape_keywords:
+        return []
+
+    keyword_regex = re.compile(r"<(?P<keyword_id>[A-z]+)[^>]*>")
+    keyword_short = re.compile(r"\[(?P<keyword_id>[A-z]+)\]")
+    to_escape = []
+
+    for match in keyword_regex.finditer(text):
+        keyword_id = match.group("keyword_id")
+        if keyword_id.lower() in singular_keywords:
+            to_escape.append((match.start(), match.end() - 1))
+            continue
+        
+        close_tag = re.compile(fr"</{re.escape(keyword_id)}\s*>")
+        if close_tags := list(close_tag.finditer(text, match.end())):
+            to_escape.append((match.start(), match.end() - 1))
+            to_escape.extend((tag.start(), tag.end() - 1) for tag in close_tags)
+
+    if escape_short:
+        for match in keyword_short.finditer(text):
+            to_escape.append((match.start(), match.end() - 1))
+
+    if not to_escape:
+        return []
+    
+    to_escape.sort(key=lambda x: x[0])
+
+    merged = []
+    current_start, current_end = to_escape[0]
+
+    for next_start, next_end in to_escape[1:]:
+        if next_start <= current_end + 1:
+            current_end = max(current_end, next_end)
+        else:
+            merged.append((current_start, current_end))
+            current_start, current_end = next_start, next_end
+
+    merged.append((current_start, current_end))
+    return merged
+
+
 def apply_font_rule(
-    data: collections.OrderedDict, path: str, replacements: dict[str, str]
+    data: collections.OrderedDict, 
+    rule: FontRule,
+    replacements: dict[str, str],
+    singular_keywords: list[str],
 ) -> None:
     def do_update(value: str, *_) -> str:
+        markup_positions = get_markup_positions(
+            value, 
+            singular_keywords, 
+            rule.escape_short_keywords, 
+            rule.escape_keywords
+        )
+
         result = ""
-        for char in value:
-            if char in replacements:
-                result += replacements[char]
-            else:
+        for i, char in enumerate(value):
+            if is_in_range(i, markup_positions) or char not in replacements:
                 result += char
+            else:
+                result += replacements[char]
         return result
 
-    parse(path).update(data, do_update)
+    parse(rule.path).update(data, do_update)
 
 
 def apply_font_rules(
     data: collections.OrderedDict,
     rules: list[FontRule],
     replacements_map: dict[str, dict[str, str]],
+    xml_escape: XmlEscape,
 ) -> None:
     for rule in rules:
         if rule.font not in replacements_map:
             print(f"Font {rule.font} not found in replacements map!")
             continue
 
-        apply_font_rule(data, rule.path, replacements_map[rule.font])
+        apply_font_rule(
+            data, 
+            rule,
+            replacements_map[rule.font],
+            xml_escape.singular_keywords,
+        )
 
 
 def main():
@@ -244,9 +319,8 @@ def main():
                 localize,
                 rules,
                 replacements_map,
+                config.xml_escape,
             )
-
-            break
 
         data_reference = reference["dataList"]
         data_localize = localize["dataList"]
