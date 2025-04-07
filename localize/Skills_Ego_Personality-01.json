@@ -1,4 +1,4 @@
-﻿{
+{
   "dataList": [
     {
       "id": 2010611,
@@ -7,12 +7,12 @@
           "level": 1,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + число грехов в резонансе Уныния) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + число грехов в резонансе Уныния) [Sinking:`Утопания`] между целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
@@ -22,12 +22,12 @@
           "level": 3,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + число грехов в резонансе Уныния) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + число грехов в резонансе Уныния) [Sinking:`Утопания`] между целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит <style=\"highlight\">2</style> <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит <style=\"highlight\">2</style> [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -37,12 +37,12 @@
           "level": 4,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[EndSkill] Случайным образом распределяет (6 + <style=\"highlight\">(</style>Число грехов в резонансе Уныния <style=\"highlight\">× 1.5)</style>) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> между целями",
+          "desc": "[EndSkill] Случайным образом распределяет (6 + <style=\"highlight\">(</style>Число грехов в резонансе Уныния <style=\"highlight\">× 1.5)</style>) [Sinking:`Утопания`] между целями",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -62,10 +62,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
@@ -80,10 +80,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит 1 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит 1 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
@@ -98,10 +98,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, наносит <style=\"highlight\">2</style> <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит <style=\"highlight\">2</style> [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -116,7 +116,7 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "Нацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n[BeforeAttack] Получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color>\n[EndSkill] Теряет все [BoseProjektil]",
+          "desc": "Нацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`]\n[BeforeAttack] Получает 1 [Breath] за каждое [BoseProjektil:`Разорванное воспоминание`]\n[EndSkill] Теряет все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -124,13 +124,13 @@
                   "desc": "· Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на 8% больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 56%)"
+                  "desc": "Если основная цель — союзник, на 8% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 56%)"
                 },
                 {
-                  "desc": "[AllyKill] Даёт 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> себе и двум союзникам"
+                  "desc": "[AllyKill] Даёт 2 [Breath:`Дыхания`] себе и двум союзникам"
                 },
                 {
-                  "desc": "[AllyKillFail] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
+                  "desc": "[AllyKillFail] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             },
@@ -140,10 +140,10 @@
                   "desc": "· Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "На 2% больше урона при критическом попадании за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)"
+                  "desc": "На 2% больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -153,7 +153,7 @@
           "level": 3,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "Нацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n[BeforeAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color>\n[EndSkill] Теряет все <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванные воспоминания</link></u></color>",
+          "desc": "Нацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`]\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -161,16 +161,16 @@
                   "desc": "· Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на <style=\"highlight\">10%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">70%</style>)"
+                  "desc": "Если основная цель — союзник, на <style=\"highlight\">10%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)"
                 },
                 {
-                  "desc": "[AllyKill] Даёт 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> себе и двум союзникам"
+                  "desc": "[AllyKill] Даёт 3 [Breath:`Дыхания`] себе и двум союзникам"
                 },
                 {
                   "desc": "<style=\"highlight\">[AllyKill] Даёт 1 ЭГО ресурс греха первого навыка убитого союзника</style>"
                 },
                 {
-                  "desc": "[AllyKillFail] Получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKillFail] Получает <style=\"highlight\">3</style> [Breath:`Дыхания`]"
                 }
               ]
             },
@@ -180,10 +180,10 @@
                   "desc": "· Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "На <style=\"highlight\">5%</style> больше урона при критическом попадании за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">35%</style>)"
+                  "desc": "На <style=\"highlight\">5%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">35%</style>)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -193,7 +193,7 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "Нацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n<style=\"highlight\">- Если резонанс был резонансом Гордыни, вместо этого получает (Число грехов в наибольшем резонансе × 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color></style>\n[BeforeAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color>\n[EndSkill] Теряет все <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванные воспоминания</link></u></color>",
+          "desc": "Нацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`]\n<style=\"highlight\">- Если резонанс был резонансом Гордыни, вместо этого получает (Число грехов в наибольшем резонансе × 2) [BoseProjektil:`Разорванных воспоминаний`]</style>\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -201,16 +201,16 @@
                   "desc": "· Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на <style=\"highlight\">15%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">105%</style>)"
+                  "desc": "Если основная цель — союзник, на <style=\"highlight\">15%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)"
                 },
                 {
-                  "desc": "[AllyKill] Даёт 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> себе и двум союзникам"
+                  "desc": "[AllyKill] Даёт 3 [Breath:`Дыхания`] себе и двум союзникам"
                 },
                 {
                   "desc": "[AllyKill] Даёт 1 ЭГО ресурс грехов первого <style=\"highlight\">и второго</style> навыков убитого союзника"
                 },
                 {
-                  "desc": "[AllyKillFail] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKillFail] Получает 3 [Breath:`Дыхания`]"
                 }
               ]
             },
@@ -220,10 +220,10 @@
                   "desc": "· Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "На <style=\"highlight\">9%</style> больше урона при критическом попадании за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">63%</style>)"
+                  "desc": "На <style=\"highlight\">9%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">63%</style>)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -238,7 +238,7 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n[BeforeAttack] Наносит на 2% больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)\n[BeforeAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color>\n[EndSkill] Теряет все <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванные воспоминания</link></u></color>",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`]\n[BeforeAttack] Наносит на 2% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -246,22 +246,22 @@
                   "desc": "· Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на 10% больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 70%)"
+                  "desc": "Если основная цель — союзник, на 10% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 70%)"
                 },
                 {
                   "desc": "Если основная цель — союзник, на 2% больше урона за каждое [Breath] на себе (До 50%)"
                 },
                 {
-                  "desc": "[AllyKill] Даёт 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> себе и трём союзникам"
+                  "desc": "[AllyKill] Даёт 3 [Breath:`Дыхания`] себе и трём союзникам"
                 },
                 {
-                  "desc": "[AllyKill] Следующая монета наносит на 2% больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)"
+                  "desc": "[AllyKill] Следующая монета наносит на 2% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)"
                 },
                 {
                   "desc": "[AllyKill] Даёт 1 ЭГО ресурс для грехов первого и второго навыков убитого союзника"
                 },
                 {
-                  "desc": "[AllyKillFail] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color>"
+                  "desc": "[AllyKillFail] Получает 1 [Breath:`Дыхание`]"
                 }
               ]
             },
@@ -271,10 +271,10 @@
                   "desc": "· Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "На 2% больше урона при критическом попадании за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)"
+                  "desc": "На 2% больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -284,7 +284,7 @@
           "level": 3,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n[BeforeAttack] Наносит на <style=\"highlight\">3%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">21%</style>)\n[BeforeAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color>\n[EndSkill] Теряет все <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванные воспоминания</link></u></color>",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`]\n[BeforeAttack] Наносит на <style=\"highlight\">3%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">21%</style>)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -292,22 +292,22 @@
                   "desc": "· Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на <style=\"highlight\">12%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">84%</style>)"
+                  "desc": "Если основная цель — союзник, на <style=\"highlight\">12%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">84%</style>)"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на 2% больше урона за каждое <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> на себе (До 50%)"
+                  "desc": "Если основная цель — союзник, на 2% больше урона за каждое [Breath:`Дыхание`] на себе (До 50%)"
                 },
                 {
-                  "desc": "[AllyKill] Даёт 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> себе и трём союзникам"
+                  "desc": "[AllyKill] Даёт 3 [Breath:`Дыхания`] себе и трём союзникам"
                 },
                 {
-                  "desc": "[AllyKill] Следующая монета наносит на <style=\"highlight\">5%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">35%</style>)"
+                  "desc": "[AllyKill] Следующая монета наносит на <style=\"highlight\">5%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">35%</style>)"
                 },
                 {
                   "desc": "[AllyKill] Даёт 1 ЭГО ресурс для грехов первого, второго <style=\"highlight\">и третьего</style> навыков убитого союзника"
                 },
                 {
-                  "desc": "[AllyKillFail] Получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKillFail] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 }
               ]
             },
@@ -317,10 +317,10 @@
                   "desc": "· Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "На <style=\"highlight\">3%</style> больше урона при критическом попадании за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">21%</style>)"
+                  "desc": "На <style=\"highlight\">3%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">21%</style>)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">4</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -330,7 +330,7 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n<style=\"highlight\">- Если указанный резонанс был резонансом Гордыни, вместо этого получает (Число грехов в наибольшем резонансе × 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color></style>\n[BeforeAttack] Наносит на <style=\"highlight\">4%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 28%)\n[BeforeAttack] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color>\n[EndSkill] Теряет все [BoseProjektil]",
+          "desc": "[CantIdentify]\nНацеливается в первую очередь на союзника с наименьшими ОЗ\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`]\n<style=\"highlight\">- Если указанный резонанс был резонансом Гордыни, вместо этого получает (Число грехов в наибольшем резонансе × 2) [BoseProjektil:`Разорванных воспоминаний`]</style>\n[BeforeAttack] Наносит на <style=\"highlight\">4%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 28%)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`]\n[EndSkill] Теряет все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -338,25 +338,25 @@
                   "desc": "· Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на 15% больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">105%</style>)"
+                  "desc": "Если основная цель — союзник, на 15% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)"
                 },
                 {
-                  "desc": "Если основная цель — союзник, на 2% больше урона за каждое <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> на себе (До 50%)"
+                  "desc": "Если основная цель — союзник, на 2% больше урона за каждое [Breath:`Дыхание`] на себе (До 50%)"
                 },
                 {
                   "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
                 },
                 {
-                  "desc": "[AllyKill] Даёт 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> себе и <style=\"highlight\">четырём</style> союзникам"
+                  "desc": "[AllyKill] Даёт 3 [Breath:`Дыхания`] себе и <style=\"highlight\">четырём</style> союзникам"
                 },
                 {
-                  "desc": "[AllyKill] Следующая монета наносит на <style=\"highlight\">7%</style> больше урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">49%</style>)"
+                  "desc": "[AllyKill] Следующая монета наносит на <style=\"highlight\">7%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">49%</style>)"
                 },
                 {
                   "desc": "[AllyKill] Даёт 1 ЭГО ресурс для грехов первого, второго и третьего навыков убитого союзника"
                 },
                 {
-                  "desc": "[AllyKillFail] Получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKillFail] Получает <style=\"highlight\">3</style> [Breath:`Дыхания`]"
                 }
               ]
             },
@@ -366,10 +366,10 @@
                   "desc": "· Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, 1 случайная дополнительная цель получает урон"
                 },
                 {
-                  "desc": "На <style=\"highlight\">4%</style> больше урона при критическом попадании за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">28%</style>)"
+                  "desc": "На <style=\"highlight\">4%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">28%</style>)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">5</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">5</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }

@@ -765,3 +765,4 @@ FullReload ¤ #9f6a3a
 ReleaseBreath ¤ #9f6a3a
 NebulizerExhale ¤ #f8c200
 FellBulletMark ¤ #e30000
+CandyForCharon ¤ #e30000
