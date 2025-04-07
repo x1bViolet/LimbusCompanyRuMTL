@@ -7,6 +7,7 @@ import json
 import shutil
 import fnmatch
 import copy
+import argparse
 
 from itertools import zip_longest
 from pathlib import Path
@@ -15,7 +16,7 @@ from jsonpath_ng.ext import parse
 from .models import Config, FontRule, ReplacementMap, Reference
 
 
-def prepare_reference(reference: Reference) -> Path:
+def prepare_reference(reference: Reference, target_path: Path) -> None:
     if reference.repo is None:
         reference_path = Path(reference.path)
         if not reference_path.exists():
@@ -30,7 +31,6 @@ def prepare_reference(reference: Reference) -> Path:
 
     content = io.BytesIO(response.content)
 
-    target_path = Path("./.reference")
     target_path.mkdir(parents=True, exist_ok=True)
     prefix = reference.path[2:] if reference.path.startswith("./") else reference.path
     repo_name = reference.repo.split("/")[-1]
@@ -51,7 +51,7 @@ def prepare_reference(reference: Reference) -> Path:
             with z.open(file) as source, result_path.open("wb") as target:
                 target.write(source.read())
 
-    return target_path
+    print(f"Reference saved to {target_path}")
 
 
 def load_replacements_map(
@@ -177,16 +177,27 @@ def apply_font_rules(
 
 
 def main():
-    config_path = Path("./config.toml")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=str, default="./config.toml")
+    parser.add_argument("--output", type=str, default="./dist/localize")
+    parser.add_argument("--reference", type=str, default="./.reference")
+    parser.add_argument("--no-download-reference", action="store_true", default=False)
+
+    args = parser.parse_args()
+
+    config_path = Path(args.config)
     if not config_path.exists():
         raise FileNotFoundError(f"Config file {config_path} does not exist")
 
     config = Config.from_file(config_path)
 
     replacements_map = load_replacements_map(config.replacement_map)
-    reference_path = prepare_reference(config.reference)
+
+    reference_path = Path(args.reference)
+    if not args.no_download_reference:
+        prepare_reference(config.reference, reference_path)
+
     keyword_colors = load_keyword_colors()
-    print(f"Reference downloaded to {reference_path}")
 
     dist_path = Path("./dist/localize")
     dist_path.mkdir(parents=True, exist_ok=True)
