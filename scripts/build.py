@@ -107,7 +107,12 @@ def load_keyword_colors() -> dict[str, str]:
 
 
 def escape_keyword_text(text: str) -> str:
-    return "\u200b".join(text)
+    escape_keyword = "[TabExplain]"
+
+    return " ".join(
+        word + escape_keyword if not word.endswith(escape_keyword) and word.strip() else word
+        for word in text.split(" ")
+    )
 
 
 def replace_shorthands(
