@@ -439,12 +439,12 @@
           "level": 1,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "Наносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "Наносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame] единожды на противника за ход)"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame:`Тёмное пламя`] единожды на противника за ход)"
                 }
               ]
             }
@@ -454,12 +454,12 @@
           "level": 3,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "Наносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "Наносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame] единожды на противника за ход)"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame:`Тёмное пламя`] единожды на противника за ход)"
                 }
               ]
             }
@@ -469,12 +469,12 @@
           "level": 4,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "Наносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "Наносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame] единожды на противника за ход)"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame:`Тёмное пламя`] единожды на противника за ход)"
                 }
               ]
             }
@@ -489,12 +489,12 @@
           "level": 1,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит 3 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит 3 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame] единожды на противника за ход)"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame:`Тёмное пламя`] единожды на противника за ход)"
                 }
               ]
             }
@@ -504,12 +504,12 @@
           "level": 3,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">5</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">5</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame] единожды на противника за ход)"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame:`Тёмное пламя`] единожды на противника за ход)"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на ([FreischutzShotCount:`Магических пуль`] на руках / 3)</style>"
@@ -522,12 +522,12 @@
           "level": 4,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">7</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">7</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame] единожды на противника за ход)"
+                  "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`] и [DarkFlame:`Тёмное пламя`] в количестве [FreischutzShotCount:`Магических пуль`] на руках ([DarkFlame:`Тёмное пламя`] единожды на противника за ход)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на ([FreischutzShotCount:`Магических пуль`] на руках / <style=\"highlight\">2</style>)"

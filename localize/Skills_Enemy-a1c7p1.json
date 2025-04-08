@@ -319,7 +319,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Если есть [BloodScissor], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+          "desc": "[WhenUse] Если есть [BloodScissor:`Окровавленные лезвия ножниц`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
           "coinlist": [
             {
               "coindescs": [
@@ -445,7 +445,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Если есть [BloodScissor], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+          "desc": "[WhenUse] Если есть [BloodScissor:`Окровавленные лезвия ножниц`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
           "coinlist": [
             {
               "coindescs": [
@@ -804,7 +804,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[WhenUse] Получает 1 [Protection]",
+          "desc": "[WhenUse] Получает 1 [Protection:`Защищённость`]",
           "coinlist": [
             {
               "coindescs": [
@@ -823,7 +823,7 @@
         {
           "level": 1,
           "name": "Эй, может хватит уже?",
-          "desc": "[WhenUse] Получает 1 [Enhancement] на следующий ход",
+          "desc": "[WhenUse] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

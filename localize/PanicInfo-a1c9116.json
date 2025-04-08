@@ -3,7 +3,7 @@
     {
       "id": 1038,
       "panicName": "Ночь в подворотнях",
-      "lowMoraleDescription": "Начало хода: получает 1 [Enhancement], 1 [TakeHpHealIncrease] и 1 [Vulnerable].",
+      "lowMoraleDescription": "Начало хода: получает 1 [Enhancement:`Повышение силы атаки`], 1 [TakeHpHealIncrease:`Повышение восстановления ОЗ`] и 1 [Vulnerable:`Уязвимость`].",
       "panicDescription": "Начало хода: получает 2 [Enhancement:`Повышения силы атаки`], 2 [TakeHpHealIncrease:`Повышения восстановления ОЗ`] и 1 [Vulnerable:`Уязвимость`]."
     },
     {

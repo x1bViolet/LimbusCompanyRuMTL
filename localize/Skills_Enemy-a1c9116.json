@@ -133,7 +133,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -178,7 +178,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если остался щит, наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если остался щит, наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -259,7 +259,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
@@ -287,7 +287,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 5"
@@ -297,7 +297,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
@@ -314,7 +314,7 @@
         {
           "level": 1,
           "name": "Ради семьи",
-          "desc": "[StartBattle] Даёт 1 [Protection] двум случайным союзникам",
+          "desc": "[StartBattle] Даёт 1 [Protection:`Защищённость`] двум случайным союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -348,7 +348,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Восстанавливает 8 ОЗ"
@@ -357,7 +357,7 @@
                   "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 8"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активрует [Laceration] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активрует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -498,7 +498,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -543,7 +543,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если остался щит, наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если остался щит, наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -588,7 +588,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
@@ -623,17 +623,17 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Если на цель наложен [BurstAgility], на 50% больше урона"
+                  "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал`], на 50% больше урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
@@ -694,7 +694,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
@@ -726,20 +726,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Если на цель наложен [BurstAgility], на 50% больше урона"
+                  "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал`], на 50% больше урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
@@ -774,7 +774,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -788,12 +788,12 @@
         {
           "level": 1,
           "name": "Покалывание в волосах",
-          "desc": "[WhenUse] Если на цели есть [MiddleFingerBook], наносит ещё 2 [AttackDown:`Понижения уровня атаки`] этим навыком",
+          "desc": "[WhenUse] Если на цели есть [MiddleFingerBook:`Метка воздаяния`], наносит ещё 2 [AttackDown:`Понижения уровня атаки`] этим навыком",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
@@ -810,25 +810,25 @@
         {
           "level": 1,
           "name": "Раздавливание кишок",
-          "desc": "[WhenUse] Если на цели есть [MiddleFingerBook], наносит ещё 1 [AttackDown] этим навыком",
+          "desc": "[WhenUse] Если на цели есть [MiddleFingerBook:`Метка воздаяния`], наносит ещё 1 [AttackDown:`Понижение уровня атаки`] этим навыком",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [AttackDown] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [AttackDown:`Понижение уровня атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [MiddleFingerBook], получает 1 [PlusCoinValueUp] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть [MiddleFingerBook:`Метка воздаяния`], получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [AttackDown] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [AttackDown:`Понижение уровня атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [MiddleFingerBook], получает 1 [PlusCoinValueUp] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть [MiddleFingerBook:`Метка воздаяния`], получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход"
                 }
               ]
             }
@@ -842,7 +842,7 @@
         {
           "level": 1,
           "name": "Месть ждет всех вас!",
-          "desc": "Наносит на 10% больше урона за каждые 2 [MiddleFingerBook:`Метки воздаяния`] на цели (До 50%)\n[BeforeAttack] Вес атаки +1 при 40% ОЗ и менее\n[WhenUse] Если на главной цели есть [MiddleFingerBook], все монеты становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 3 противника с [MiddleFingerBook:`Меткой воздаяния`] на поле боя (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 2 [MiddleFingerBook:`Метки воздаяния`] на цели (До 5)\n[EndSkill] Если удалось убить противника с [MiddleFingerBook:`Меткой воздаяния`], получает 1 [PlusCoinValueUp] на следующий ход (Дважды за ход)\n[EndSkill] Снимает все [MiddleFingerBook:`Метки воздаяния`] с противников, по которым попал этой атакой",
+          "desc": "Наносит на 10% больше урона за каждые 2 [MiddleFingerBook:`Метки воздаяния`] на цели (До 50%)\n[BeforeAttack] Вес атаки +1 при 40% ОЗ и менее\n[WhenUse] Если на главной цели есть [MiddleFingerBook:`Метка воздаяния`], все монеты становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 3 противника с [MiddleFingerBook:`Меткой воздаяния`] на поле боя (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 2 [MiddleFingerBook:`Метки воздаяния`] на цели (До 5)\n[EndSkill] Если удалось убить противника с [MiddleFingerBook:`Меткой воздаяния`], получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход (Дважды за ход)\n[EndSkill] Снимает все [MiddleFingerBook:`Метки воздаяния`] с противников, по которым попал этой атакой",
           "coinlist": [
             {
               "coindescs": [

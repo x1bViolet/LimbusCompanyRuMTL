@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "От■■сь",
-          "desc": "[WhenUse] Если цель не имеет [Burst], Сила монет +1",
+          "desc": "[WhenUse] Если цель не имеет [Burst:`Разрыв`], Сила монет +1",
           "coinlist": [
             {
               "coindescs": [
@@ -127,7 +127,7 @@
         {
           "level": 1,
           "name": "За■■■ть",
-          "desc": "[WhenUse] Если цель не имеет [Burst], Сила монет +1",
+          "desc": "[WhenUse] Если цель не имеет [Burst:`Разрыв`], Сила монет +1",
           "coinlist": [
             {
               "coindescs": [

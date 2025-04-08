@@ -766,3 +766,6 @@ ReleaseBreath ¤ #9f6a3a
 NebulizerExhale ¤ #f8c200
 FellBulletMark ¤ #e30000
 CandyForCharon ¤ #e30000
+VengeanceBookSinclair ¤ #f8c200
+VendettaMark ¤ #e30000
+RetaliationBookFamily ¤ #e30000

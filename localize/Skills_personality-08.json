@@ -968,7 +968,7 @@
         {
           "level": 1,
           "name": "Ваш щит",
-          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10 (Единожды за ход)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10 (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -982,7 +982,7 @@
         {
           "level": 4,
           "name": "Ваш щит",
-          "desc": "[CanDuelGuard]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10 (Единожды за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:`Провоцирует Тремор`]</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10 (Единожды за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:`Провоцирует Тремор`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1006,7 +1006,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
@@ -1016,7 +1016,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]"
                 }
               ]
             }
@@ -1030,7 +1030,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1040,7 +1040,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1054,7 +1054,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -1064,7 +1064,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1107,7 +1107,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`] (Единожды за ход)</style>"
                 }
               ]
             },
@@ -1117,7 +1117,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [SlashResultUp] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [SlashResultUp:`Повышение силы Рубящих атак`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }
@@ -1134,7 +1134,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp] (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`] (Единожды за ход)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">- Если на поле боя 6 и более союзников из клана «Курокумо» включая Измаил, наносит 2 [Vulnerable:`Уязвимости`] вместо этого</style>"
@@ -1147,7 +1147,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [SlashResultUp] на следующий ход (<style=\"highlight\">Дважды</style> за ход)"
+                  "desc": "[OnSucceedAttack] Получает 1 [SlashResultUp:`Повышение силы Рубящих атак`] на следующий ход (<style=\"highlight\">Дважды</style> за ход)"
                 }
               ]
             }
