@@ -885,7 +885,7 @@
         {
           "level": 1,
           "name": "Форма двуручного меча рыцаря Цвай - Блок",
-          "desc": "[CanDuelGuard:`Блок с поединком`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2 (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`]",
+          "desc": "[CanDuelGuard:`Столкновение блоком`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2 (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`]",
           "coinlist": [
             {
               "coindescs": [
@@ -899,7 +899,7 @@
         {
           "level": 4,
           "name": "Форма двуручного меча рыцаря Цвай - Блок",
-          "desc": "[CanDuelGuard:`Блок с поединком`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style> (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`]",
+          "desc": "[CanDuelGuard:`Столкновение блоком`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style> (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`]",
           "coinlist": [
             {
               "coindescs": [
