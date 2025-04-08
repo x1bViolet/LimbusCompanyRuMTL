@@ -28,8 +28,10 @@ class KeywordShorthands(msgspec.Struct):
 class Priority(msgspec.Struct):
     order: list[str] = msgspec.field(default_factory=list)
 
+
 class XmlEscape(msgspec.Struct):
     singular_keywords: list[str] = msgspec.field(default_factory=list)
+
 
 class Config(msgspec.Struct):
     replacement_map: ReplacementMap
