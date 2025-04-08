@@ -103,6 +103,10 @@ def load_keyword_colors() -> dict[str, str]:
     return result
 
 
+def escape_keyword_text(text: str) -> str:
+    return "\u200B".join(text)
+
+
 def replace_shorthands(
     text: str, keyword_colors: dict[str, str], keyword_regex: re.Pattern
 ) -> str:
@@ -123,7 +127,7 @@ def replace_shorthands(
             f"<color={color}>"
             f"<u>"
             f'<link="{keyword_id}">'
-            f"{text}"
+            f"{escape_keyword_text(text)}"
             f"</link>"
             f"</u>"
             f"</color>"
