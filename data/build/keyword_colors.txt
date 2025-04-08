@@ -765,6 +765,14 @@ FullReload ¤ #9f6a3a
 ReleaseBreath ¤ #9f6a3a
 NebulizerExhale ¤ #f8c200
 FellBulletMark ¤ #e30000
+FirePunchFuel ¤ #9f6a3a
+FirePunchFuelOverheated ¤ #9f6a3a
+LegStrength ¤ #f8c200
+BurstAgility ¤ #e30000
+WeighedMurderousIntend ¤ #e30000
+RepressedMurderousIntend ¤ #e30000
+MiddleFingerBook ¤ #e30000
+Persistent ¤ #f8c200
 CandyForCharon ¤ #e30000
 VengeanceBookSinclair ¤ #f8c200
 VendettaMark ¤ #e30000
