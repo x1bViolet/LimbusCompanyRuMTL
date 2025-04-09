@@ -30,7 +30,7 @@ jobs:
         run: uv sync --all-extras
 
       - name: Build Localization
-        run: uv run -m scripts.build
+        run: uv run -m scripts.build --reference reference --no-download-reference
 
       - name: Make assets
         run: |
