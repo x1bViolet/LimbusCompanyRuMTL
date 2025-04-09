@@ -1,148 +1,148 @@
 {
-  "dataList": [
-          {
+    "dataList": [
+        {
             "id": 0,
-            "content": "<color=#d4dfe8>Fly, broken wings</color>"
-          },
-          {
+            "content": "Fly, broken wings "
+        },
+        {
             "id": 1,
-            "content": "<color=#d4dfe8>I know you are still with me</color>"
-          },
-          {
+            "content": "I know you are still with me "
+        },
+        {
             "id": 2,
-            "content": "<color=#d4dfe8>All I need is a nudge to get me started</color>"
-          },
-          {
+            "content": "All I need is a nudge to get me started"
+        },
+        {
             "id": 3,
-            "content": "<color=#d4dfe8>Fly, broken wings</color>"
-          },
-          {
+            "content": "Fly, broken wings "
+        },
+        {
             "id": 4,
-            "content": "<color=#d4dfe8>To somewhere we can free</color>"
-          },
-          {
+            "content": "To somewhere we can free"
+        },
+        {
             "id": 5,
-            "content": "<color=#d4dfe8>Closer to our</color>"
-          },
-          {
+            "content": "Closer to our "
+        },
+        {
             "id": 6,
-            "content": "<color=#d4dfe8>Teary eyed</color>"
-          },
-          {
+            "content": "Teary eyed"
+        },
+        {
             "id": 7,
-            "content": "<color=#d4dfe8>Once-gentle soul</color>"
-          },
-          {
+            "content": "Once-gentle soul"
+        },
+        {
             "id": 8,
-            "content": "<color=#d4dfe8>I watched as you rotted away</color>"
-          },
-          {
+            "content": "I watched as you rotted away"
+        },
+        {
             "id": 9,
-            "content": "<color=#d4dfe8>The mirror says</color>"
-          },
-          {
+            "content": "The mirror says"
+        },
+        {
             "id": 10,
-            "content": "<color=#d4dfe8>That I still remember hope</color>"
-          },
-          {
+            "content": "That I still remember hope"
+        },
+        {
             "id": 11,
-            "content": "<color=#d4dfe8>Mmm</color>"
-          },
-          {
+            "content": "Mmm"
+        },
+        {
             "id": 12,
-            "content": "<color=#d4dfe8>You're doing what you love</color>"
-          },
-          {
+            "content": "You're doing what you love"
+        },
+        {
             "id": 13,
-            "content": "<color=#d4dfe8>Isn't that enough? Isn't that enough?</color>"
-          },
-          {
+            "content": "Isn't that enough? Isn't that enough?"
+        },
+        {
             "id": 14,
-            "content": "<color=#d4dfe8>A genius, perfect job</color>"
-          },
-          {
+            "content": "A genius, perfect job"
+        },
+        {
             "id": 15,
-            "content": "<color=#d4dfe8>Isn't that enough? Isn't that enough?</color>"
-          },
-          {
+            "content": "Isn't that enough? Isn't that enough? "
+        },
+        {
             "id": 16,
-            "content": "<color=#d4dfe8>Again and again</color>"
-          },
-          {
+            "content": "Again and again"
+        },
+        {
             "id": 17,
-            "content": "<color=#d4dfe8>You locked me down, I locked me down</color>"
-          },
-          {
+            "content": "You locked me down, I locked me down"
+        },
+        {
             "id": 18,
-            "content": "<color=#d4dfe8>We staked me to the ground</color>"
-          },
-          {
+            "content": "We staked me to the ground"
+        },
+        {
             "id": 19,
-            "content": "<color=#d4dfe8>The soil gave me warmth</color>"
-          },
-          {
+            "content": "The soil gave me warmth"
+        },
+        {
             "id": 20,
-            "content": "<color=#d4dfe8>Please die, little dreams</color>"
-          },
-          {
+            "content": "Please die, little dreams"
+        },
+        {
             "id": 21,
-            "content": "<color=#d4dfe8>Kill the camellias in me</color>"
-          },
-          {
+            "content": "Kill the camellias in me"
+        },
+        {
             "id": 22,
-            "content": "<color=#d4dfe8>Wouldn't it be easier to give in?</color>"
-          },
-          {
+            "content": "Wouldn't it be easier to give in?"
+        },
+        {
             "id": 23,
-            "content": "<color=#d4dfe8>Why are these hands chasing dreams out of my reach?</color>"
-          },
-          {
+            "content": "Why are these hands chasing dreams out of my reach?"
+        },
+        {
             "id": 24,
-            "content": "<color=#d4dfe8>Is my thirst for normalcy</color>"
-          },
-          {
+            "content": "Is my thirst for normalcy "
+        },
+        {
             "id": 25,
-            "content": "<color=#d4dfe8>Fly, perfect wings</color>"
-          },
-          {
+            "content": "Fly, perfect wings"
+        },
+        {
             "id": 26,
-            "content": "<color=#d4dfe8>(Goodbye, goodbye, goodbye</color>"
-          },
-          {
+            "content": "(Goodbye, goodbye, goodbye"
+        },
+        {
             "id": 27,
-            "content": "<color=#d4dfe8>Where have you been hiding?</color>"
-          },
-          {
+            "content": "Where have you been hiding?"
+        },
+        {
             "id": 28,
-            "content": "<color=#d4dfe8>(Goodbye, goodbye, goodbye)</color>"
-          },
-          {
+            "content": "(Goodbye, goodbye, goodbye) "
+        },
+        {
             "id": 29,
-            "content": "<color=#d4dfe8>Bring me to the mind that got us started</color>"
-          },
-          {
+            "content": "Bring me to the mind that got us started"
+        },
+        {
             "id": 30,
-            "content": "<color=#d4dfe8>Fly, perfect wings</color>"
-          },
-          {
+            "content": "Fly, perfect wings"
+        },
+        {
             "id": 31,
-            "content": "<color=#d4dfe8>(Goodbye, goodbye, goodbye)</color>"
-          },
-          {
+            "content": "(Goodbye, goodbye, goodbye) "
+        },
+        {
             "id": 32,
-            "content": "<color=#d4dfe8>Show them who I can be</color>"
-          },
-          {
+            "content": "Show them who I can be"
+        },
+        {
             "id": 33,
-            "content": "<color=#d4dfe8>(Goodbye, goodbye, goodbye)</color>"
-          },
-          {
+            "content": "(Goodbye, goodbye, goodbye) "
+        },
+        {
             "id": 34,
-            "content": "<color=#d4dfe8>For the one last time, if you will</color>"
-          },
-          {
+            "content": "For the one last time, if you will"
+        },
+        {
             "id": 35,
-            "content": "<color=#d4dfe8>THAT'S ALL</color>"
-          }
-   ]
+            "content": "THAT'S ALL"
+        }
+    ]
 }
