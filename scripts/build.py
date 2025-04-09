@@ -9,6 +9,7 @@ import fnmatch
 import copy
 import argparse
 import bisect
+import typing
 
 from itertools import zip_longest
 from pathlib import Path
@@ -106,7 +107,7 @@ def load_keyword_colors() -> dict[str, str]:
     return result
 
 
-def escape_keyword_text(text: str) -> str:
+def escape_links(text: str) -> str:
     escape_keyword = "[TabExplain]"
 
     return " ".join(
@@ -116,7 +117,10 @@ def escape_keyword_text(text: str) -> str:
 
 
 def replace_shorthands(
-    text: str, keyword_colors: dict[str, str], keyword_regex: re.Pattern
+    text: str, 
+    keyword_colors: dict[str, str], 
+    keyword_regex: re.Pattern,
+    no_link: bool = False,
 ) -> str:
     def make_replacement(match: re.Match) -> str:
         keyword_id = match.group("keyword_id")
@@ -130,13 +134,18 @@ def replace_shorthands(
             logger.debug(f"Unknown keyword ID: {keyword_id}!")
             color = "#f8c200"
 
+        if not no_link:
+            text = (
+                f'<link="{keyword_id}">'
+                f"{escape_links(text)}"
+                f"</link>"
+            )
+
         return (
             f'<sprite name="{keyword_id}">'
             f"<color={color}>"
             f"<u>"
-            f'<link="{keyword_id}">'
-            f"{escape_keyword_text(text)}"
-            f"</link>"
+            f"{text}"
             f"</u>"
             f"</color>"
         )
@@ -148,6 +157,7 @@ def convert_keywords(
     data: collections.OrderedDict | list,
     keyword_colors: dict[str, str],
     keyword_regex: re.Pattern,
+    no_link: bool = False,
 ) -> None:
     if isinstance(data, collections.OrderedDict):
         items = data.items()
@@ -156,9 +166,9 @@ def convert_keywords(
 
     for key, value in items:
         if isinstance(value, (collections.OrderedDict, list)):
-            convert_keywords(value, keyword_colors, keyword_regex)
+            convert_keywords(value, keyword_colors, keyword_regex, no_link)
         elif isinstance(value, str):
-            data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
+            data[key] = replace_shorthands(value, keyword_colors, keyword_regex, no_link)
 
 
 def is_in_range(pos: int, ranges: list[tuple[int, int]]) -> bool:
@@ -225,7 +235,10 @@ def apply_font_rule(
     replacements: dict[str, str],
     singular_keywords: list[str],
 ) -> None:
-    def do_update(value: str, *_) -> str:
+    def do_update(value: typing.Any, *_) -> str:
+        if not isinstance(value, str):
+            return value
+
         markup_positions = get_markup_positions(
             value, singular_keywords, rule.escape_short_keywords, rule.escape_keywords
         )
@@ -371,10 +384,16 @@ def main():
             if not fnmatch.fnmatch(relative_path.as_posix(), file_pattern):
                 continue
 
+            no_link = any(
+                fnmatch.fnmatch(relative_path.as_posix(), pattern) 
+                for pattern in config.keyword_shorthands.no_link
+            )
+
             convert_keywords(
                 localize,
                 keyword_colors,
                 re.compile(config.keyword_shorthands.regex),
+                no_link,
             )
 
             break
