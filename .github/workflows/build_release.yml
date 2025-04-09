@@ -45,7 +45,13 @@ jobs:
           cat ./data/readme/release_template.md >> ./dist/README.md
 
       - name: Add extra assets
-        run: cp -r ./data/extra ./dist/extra
+        run: |
+          mkdir ./dist/extra
+          if [ -d "./data/extra" ]; then  
+            cp -r ./data/extra/* ./dist/extra/
+          else
+            echo "No extra files found, skipping..."
+          fi
 
       - name: Create Release
         id: create_release

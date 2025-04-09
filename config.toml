@@ -26,6 +26,12 @@ apply_for = [
   "Bufs*.json",
 ]
 
+# no_link = [
+#   "BattleKeywords*.json",
+#   "Bufs*.json",
+#   "PanicInfo*.json",
+# ]
+
 [xml_escape]
 singular_keywords = [
   "sprite"
@@ -166,3 +172,7 @@ path = "$.dataList.[*].teller"
 [[font_rules."StoryData/*.json"]]
 font = "mikodacs"
 path = "$.dataList.[*].title"
+
+[[font_rules."StoryData/*.json"]]
+font = "mikodacs"
+path = "$.dataList.[*].place"
