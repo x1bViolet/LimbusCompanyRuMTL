@@ -120,7 +120,6 @@ def replace_shorthands(
     text: str, 
     keyword_colors: dict[str, str], 
     keyword_regex: re.Pattern,
-    no_link: bool = False,
 ) -> str:
     def make_replacement(match: re.Match) -> str:
         keyword_id = match.group("keyword_id")
@@ -134,18 +133,13 @@ def replace_shorthands(
             logger.debug(f"Unknown keyword ID: {keyword_id}!")
             color = "#f8c200"
 
-        if not no_link:
-            text = (
-                f'<link="{keyword_id}">'
-                f"{escape_links(text)}"
-                f"</link>"
-            )
-
         return (
             f'<sprite name="{keyword_id}">'
             f"<color={color}>"
             f"<u>"
+            f'<link="{keyword_id}">'
             f"{text}"
+            f"</link>"
             f"</u>"
             f"</color>"
         )
@@ -157,7 +151,6 @@ def convert_keywords(
     data: collections.OrderedDict | list,
     keyword_colors: dict[str, str],
     keyword_regex: re.Pattern,
-    no_link: bool = False,
 ) -> None:
     if isinstance(data, collections.OrderedDict):
         items = data.items()
@@ -166,9 +159,9 @@ def convert_keywords(
 
     for key, value in items:
         if isinstance(value, (collections.OrderedDict, list)):
-            convert_keywords(value, keyword_colors, keyword_regex, no_link)
+            convert_keywords(value, keyword_colors, keyword_regex)
         elif isinstance(value, str):
-            data[key] = replace_shorthands(value, keyword_colors, keyword_regex, no_link)
+            data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
 
 
 def is_in_range(pos: int, ranges: list[tuple[int, int]]) -> bool:
@@ -384,16 +377,15 @@ def main():
             if not fnmatch.fnmatch(relative_path.as_posix(), file_pattern):
                 continue
 
-            no_link = any(
-                fnmatch.fnmatch(relative_path.as_posix(), pattern) 
-                for pattern in config.keyword_shorthands.no_link
-            )
+            # no_link = any(
+            #     fnmatch.fnmatch(relative_path.as_posix(), pattern) 
+            #     for pattern in config.keyword_shorthands.no_link
+            # )
 
             convert_keywords(
                 localize,
                 keyword_colors,
                 re.compile(config.keyword_shorthands.regex),
-                no_link,
             )
 
             break

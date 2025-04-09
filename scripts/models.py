@@ -23,7 +23,6 @@ class Reference(msgspec.Struct):
 class KeywordShorthands(msgspec.Struct):
     regex: str
     apply_for: list[str]
-    no_link: list[str] = msgspec.field(default_factory=list)
 
 
 class Priority(msgspec.Struct):

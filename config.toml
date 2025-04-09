@@ -26,11 +26,11 @@ apply_for = [
   "Bufs*.json",
 ]
 
-no_link = [
-  "BattleKeywords*.json",
-  "Bufs*.json",
-  "PanicInfo*.json",
-]
+# no_link = [
+#   "BattleKeywords*.json",
+#   "Bufs*.json",
+#   "PanicInfo*.json",
+# ]
 
 [xml_escape]
 singular_keywords = [
