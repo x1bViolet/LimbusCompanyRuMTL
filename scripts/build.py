@@ -186,6 +186,8 @@ def get_markup_positions(
 
     keyword_regex = re.compile(r"<(?P<keyword_id>[A-z]+)[^>]*>")
     keyword_short = re.compile(r"\[(?P<keyword_id>[A-z]+)\]")
+    format_placeholder = re.compile(r"\{\d*\}")
+
     to_escape = []
 
     for match in keyword_regex.finditer(text):
@@ -202,6 +204,9 @@ def get_markup_positions(
     if escape_short:
         for match in keyword_short.finditer(text):
             to_escape.append((match.start(), match.end() - 1))
+
+    for match in format_placeholder.finditer(text):
+        to_escape.append((match.start(), match.end() - 1))
 
     if not to_escape:
         return []
