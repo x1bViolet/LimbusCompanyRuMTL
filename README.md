@@ -18,7 +18,7 @@
 [Теперь историю можно читать онлайн!](https://kimght.github.io)
 
 [![Загрузки](https://img.shields.io/github/downloads/kimght/LimbusCompanyRuMTL/total?style=flat-square&label=%D0%92%D1%81%D0%B5%D0%B3%D0%BE%20%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BA&color=%23707489)](../../releases)
-[![Тредик](https://img.shields.io/badge/%2Fpmg%2F-thread?style=flat-square&label=%D0%9B%D0%B8%D0%B3%D0%BC%D1%83%D1%81%20%D0%A2%D1%80%D0%B5%D0%B4%D0%B8%D0%BA&color=%23f99b06)](https://2ch.hk/gacha/catalog.html)
+![Тредик](https://img.shields.io/badge/%2Fpmg%2F-thread?style=flat-square&label=%D0%9B%D0%B8%D0%B3%D0%BC%D1%83%D1%81%20%D0%A2%D1%80%D0%B5%D0%B4%D0%B8%D0%BA&color=%23f99b06)
 [![Последний релиз](https://img.shields.io/github/v/release/kimght/LimbusCompanyRuMTL?style=flat-square&label=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&labelColor=%23707489&color=%23484f58)](../../releases/latest)
 </div>
 
@@ -69,6 +69,6 @@
 
 # Благодарности
 - Команде [LLC](https://github.com/LocalizeLimbusCompany) за создание и поддержку проекта.
-- Анонам из [/pmg/ треда](https://2ch.hk/gacha/catalog.html) за поддержку.
+- Анонам из /pmg/ треда за поддержку.
 - [Авторам ручного русского перевода](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS).
 - <b>abcdcode</b> за помощь с кодом для улучшения отображения шрифтов.
