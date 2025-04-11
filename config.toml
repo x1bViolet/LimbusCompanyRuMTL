@@ -1,7 +1,8 @@
-[replacement_map]
+[font]
 repo = "kimght/LimbusFonts"
 # local path if repo is not set, else asset name in repo releases
-path = "replacement_map.json"
+replacement_map_path = "replacement_map.json"
+font_path = "merged_font.ttf"
 
 [reference]
 repo = "LocalizeLimbusCompany/LocalizeLimbusCompany"

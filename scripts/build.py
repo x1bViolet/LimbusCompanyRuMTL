@@ -15,8 +15,9 @@ from itertools import zip_longest
 from pathlib import Path
 from jsonpath_ng.ext import parse
 from loguru import logger
+from functools import lru_cache
 
-from .models import Config, FontRule, ReplacementMap, Reference, XmlEscape
+from .models import Config, FontRule, Font, Reference, XmlEscape, ReleaseAsset
 
 
 def prepare_reference(reference: Reference, target_path: Path) -> None:
@@ -57,32 +58,48 @@ def prepare_reference(reference: Reference, target_path: Path) -> None:
     logger.info(f"Reference saved to {target_path}")
 
 
-def load_replacements_map(
-    replacements_map: ReplacementMap,
-) -> dict[str, dict[str, str]]:
-    if replacements_map.repo is None:
-        with open(replacements_map.path, "r", encoding="utf-8") as f:
-            return json.load(f)
-
+@lru_cache()
+def get_release_assets(repo: str) -> list[ReleaseAsset]:
     response = requests.get(
-        f"https://api.github.com/repos/{replacements_map.repo}/releases/latest"
+        f"https://api.github.com/repos/{repo}/releases/latest"
     )
     response.raise_for_status()
     release_data = response.json()
-    release_assets = release_data["assets"]
+    return release_data["assets"]
 
+
+def download_release_asset(repo: str, path: str) -> io.BytesIO:
+    release_assets = get_release_assets(repo)
     for asset in release_assets:
-        if asset["name"] != replacements_map.path:
+        if asset["name"] != path:
             continue
 
-        logger.info(f"Downloading replacement map from {asset['browser_download_url']}")
         response = requests.get(asset["browser_download_url"])
         response.raise_for_status()
-        return response.json()
+        return io.BytesIO(response.content)
+        
+    raise FileNotFoundError(f"Asset '{path}' not found in latest release of '{repo}'")
 
-    raise FileNotFoundError(
-        f"Replacement map '{replacements_map.path}' not found in latest release of '{replacements_map.repo}'"
-    )
+
+def load_replacements_map(
+    font: Font,
+) -> dict[str, dict[str, str]]:
+    if font.repo is None:
+        with open(font.replacement_map_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    return json.load(download_release_asset(font.repo, font.replacement_map_path))
+
+
+def download_font(font: Font, target_path: Path) -> None:
+    if font.repo is None:
+        shutil.copy(font.font_path, target_path)
+        return
+
+    content = download_release_asset(font.repo, font.font_path)
+
+    with target_path.open("wb") as f:
+        shutil.copyfileobj(content, f)
 
 
 def load_keyword_colors() -> dict[str, str]:
@@ -330,6 +347,7 @@ def main():
     parser.add_argument("--output", type=str, default="./dist/localize")
     parser.add_argument("--reference", type=str, default="./.reference")
     parser.add_argument("--no-download-reference", action="store_true", default=False)
+    parser.add_argument("--include-font", action="store_true", default=True)
 
     args = parser.parse_args()
 
@@ -339,7 +357,7 @@ def main():
 
     config = Config.from_file(config_path)
 
-    replacements_map = load_replacements_map(config.replacement_map)
+    replacements_map = load_replacements_map(config.font)
 
     reference_path = Path(args.reference)
     if not args.no_download_reference:
@@ -349,6 +367,12 @@ def main():
 
     dist_path = Path("./dist/localize")
     dist_path.mkdir(parents=True, exist_ok=True)
+
+    if args.include_font:
+        asset_path = Path(config.font.font_path)
+        font_path = dist_path / "Font" / asset_path.name
+        font_path.parent.mkdir(parents=True, exist_ok=True)
+        download_font(config.font, font_path)
 
     localization_path = Path("./localize")
     for file in reference_path.glob("**/*.json"):
