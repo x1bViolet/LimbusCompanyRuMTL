@@ -347,7 +347,7 @@ def main():
     parser.add_argument("--output", type=str, default="./dist/localize")
     parser.add_argument("--reference", type=str, default="./.reference")
     parser.add_argument("--no-download-reference", action="store_true", default=False)
-    parser.add_argument("--include-font", action="store_true", default=True)
+    parser.add_argument("--no-include-font", action="store_true", default=False)
 
     args = parser.parse_args()
 
@@ -368,10 +368,10 @@ def main():
     dist_path = Path("./dist/localize")
     dist_path.mkdir(parents=True, exist_ok=True)
 
-    if args.include_font:
+    if not args.no_include_font and config.font.font_path is not None:
         asset_path = Path(config.font.font_path)
         font_path = dist_path / "Font" / asset_path.name
-        font_path.parent.mkdir(parents=True, exist_ok=True)
+        
         download_font(config.font, font_path)
 
     localization_path = Path("./localize")
