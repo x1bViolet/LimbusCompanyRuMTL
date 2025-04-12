@@ -35,7 +35,8 @@ apply_for = [
 
 [xml_escape]
 singular_keywords = [
-  "sprite"
+  "sprite",
+  "style"
 ]
 
 [[font_rules."MainUIText.json"]]
