@@ -124,63 +124,6 @@ def load_keyword_colors() -> dict[str, str]:
     return result
 
 
-def escape_links(text: str) -> str:
-    escape_keyword = "[TabExplain]"
-
-    return " ".join(
-        word + escape_keyword if not word.endswith(escape_keyword) and word.strip() else word
-        for word in text.split(" ")
-    )
-
-
-def replace_shorthands(
-    text: str, 
-    keyword_colors: dict[str, str], 
-    keyword_regex: re.Pattern,
-) -> str:
-    def make_replacement(match: re.Match) -> str:
-        keyword_id = match.group("keyword_id")
-        text = match.group("text")
-
-        if match.group("color") is not None:
-            color = match.group("color")
-        elif keyword_id in keyword_colors:
-            color = keyword_colors[keyword_id]
-        else:
-            logger.debug(f"Unknown keyword ID: {keyword_id}!")
-            color = "#f8c200"
-
-        return (
-            f'<sprite name="{keyword_id}">'
-            f"<color={color}>"
-            f"<u>"
-            f'<link="{keyword_id}">'
-            f"{text}"
-            f"</link>"
-            f"</u>"
-            f"</color>"
-        )
-
-    return keyword_regex.sub(make_replacement, text)
-
-
-def convert_keywords(
-    data: collections.OrderedDict | list,
-    keyword_colors: dict[str, str],
-    keyword_regex: re.Pattern,
-) -> None:
-    if isinstance(data, collections.OrderedDict):
-        items = data.items()
-    else:
-        items = enumerate(data)
-
-    for key, value in items:
-        if isinstance(value, (collections.OrderedDict, list)):
-            convert_keywords(value, keyword_colors, keyword_regex)
-        elif isinstance(value, str):
-            data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
-
-
 def is_in_range(pos: int, ranges: list[tuple[int, int]]) -> bool:
     if not ranges:
         return False
@@ -244,48 +187,152 @@ def get_markup_positions(
     return merged
 
 
-def apply_font_rule(
-    data: collections.OrderedDict,
-    rule: FontRule,
-    replacements: dict[str, str],
-    singular_keywords: list[str],
-) -> None:
-    def do_update(value: typing.Any, *_) -> str:
-        if not isinstance(value, str):
-            return value
+def convert_font(
+    text: str,
+    replacements: dict[str, str], 
+    singular_keywords: list[str], 
+    escape_short: bool = True, 
+    escape_keywords: bool = True,
+) -> str:
+    markup_positions = get_markup_positions(
+        text, singular_keywords, escape_short, escape_keywords
+    )
 
-        markup_positions = get_markup_positions(
-            value, singular_keywords, rule.escape_short_keywords, rule.escape_keywords
+    result = ""
+    for i, char in enumerate(text):
+        if is_in_range(i, markup_positions) or char not in replacements:
+            result += char
+        else:
+            result += replacements[char]
+
+    return result
+
+
+class FontConverter:
+    rules: dict[str, list[FontRule]]
+    replacements_map: dict[str, dict[str, str]]
+    xml_escape: XmlEscape
+    updated: set[tuple[str, str]]
+
+    def __init__(
+        self, 
+        rules: dict[str, list[FontRule]], 
+        replacements_map: dict[str, dict[str, str]], 
+        xml_escape: XmlEscape
+    ):
+        self.rules = rules
+        self.replacements_map = replacements_map
+        self.xml_escape = xml_escape
+        self.updated = set()
+
+    def process(self, data: collections.OrderedDict, file: Path) -> None:
+        font_macro_regex = re.compile(r"^\[font=(?P<font>[^\]]+)\]")
+        file_path = file.absolute().as_posix()
+
+        for match in parse("$..*").find(data):
+            if not isinstance(match.value, str):
+                continue
+
+            re_match = font_macro_regex.match(match.value)
+            if re_match is None:
+                continue
+
+            font = re_match.group("font")
+            if font not in self.replacements_map:
+                logger.warning(f"Font {font} not found in replacements map!")
+                continue
+
+            updated = convert_font(
+                match.value[re_match.end():].lstrip(), 
+                self.replacements_map[font], 
+                self.xml_escape.singular_keywords,
+            )
+
+            match.full_path.update(data, updated)
+            self.updated.add((file_path, str(match.full_path)))
+
+        for file_pattern, rules in self.rules.items():
+            if not fnmatch.fnmatch(file.as_posix(), file_pattern):
+                continue
+
+            for rule in rules:
+                if rule.font not in self.replacements_map:
+                    logger.warning(f"Font {rule.font} not found in replacements map!")
+                    continue
+                
+                for match in parse(rule.path).find(data):
+                    if not isinstance(match.value, str):
+                        continue
+
+                    current_location = (file_path, str(match.full_path))
+                    if current_location in self.updated:
+                        continue
+
+                    updated = convert_font(
+                        match.value, 
+                        self.replacements_map[rule.font], 
+                        self.xml_escape.singular_keywords,
+                    )
+
+                    match.full_path.update(data, updated)
+                    self.updated.add(current_location)
+
+
+def escape_links(text: str) -> str:
+    escape_keyword = "[TabExplain]"
+
+    return " ".join(
+        word + escape_keyword if not word.endswith(escape_keyword) and word.strip() else word
+        for word in text.split(" ")
+    )
+
+
+def replace_shorthands(
+    text: str, 
+    keyword_colors: dict[str, str], 
+    keyword_regex: re.Pattern,
+) -> str:
+    def make_replacement(match: re.Match) -> str:
+        keyword_id = match.group("keyword_id")
+        text = match.group("text")
+
+        if match.group("color") is not None:
+            color = match.group("color")
+        elif keyword_id in keyword_colors:
+            color = keyword_colors[keyword_id]
+        else:
+            logger.debug(f"Unknown keyword ID: {keyword_id}!")
+            color = "#f8c200"
+
+        return (
+            f'<sprite name="{keyword_id}">'
+            f"<color={color}>"
+            f"<u>"
+            f'<link="{keyword_id}">'
+            f"{text}"
+            f"</link>"
+            f"</u>"
+            f"</color>"
         )
 
-        result = ""
-        for i, char in enumerate(value):
-            if is_in_range(i, markup_positions) or char not in replacements:
-                result += char
-            else:
-                result += replacements[char]
-        return result
-
-    parse(rule.path).update(data, do_update)
+    return keyword_regex.sub(make_replacement, text)
 
 
-def apply_font_rules(
-    data: collections.OrderedDict,
-    rules: list[FontRule],
-    replacements_map: dict[str, dict[str, str]],
-    xml_escape: XmlEscape,
+def convert_keywords(
+    data: collections.OrderedDict | list,
+    keyword_colors: dict[str, str],
+    keyword_regex: re.Pattern,
 ) -> None:
-    for rule in rules:
-        if rule.font not in replacements_map:
-            logger.warning(f"Font {rule.font} not found in replacements map!")
-            continue
+    if isinstance(data, collections.OrderedDict):
+        items = data.items()
+    else:
+        items = enumerate(data)
 
-        apply_font_rule(
-            data,
-            rule,
-            replacements_map[rule.font],
-            xml_escape.singular_keywords,
-        )
+    for key, value in items:
+        if isinstance(value, (collections.OrderedDict, list)):
+            convert_keywords(value, keyword_colors, keyword_regex)
+        elif isinstance(value, str):
+            data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
 
 
 def merge_by_id(
@@ -375,6 +422,12 @@ def main():
         
         download_font(config.font, font_path)
 
+    font_converter = FontConverter(
+        config.font_rules,
+        replacements_map,
+        config.xml_escape,
+    )
+
     localization_path = Path("./localize")
     for file in reference_path.glob("**/*.json"):
         if not file.is_file():
@@ -419,18 +472,7 @@ def main():
             )
 
             break
-
-        for file_pattern, rules in config.font_rules.items():
-            if not fnmatch.fnmatch(relative_path.as_posix(), file_pattern):
-                continue
-
-            apply_font_rules(
-                localize,
-                rules,
-                replacements_map,
-                config.xml_escape,
-            )
-
+        
         data_reference = reference["dataList"]
         data_localize = localize["dataList"]
 
@@ -448,6 +490,8 @@ def main():
             **copy.deepcopy(reference),
             "dataList": result,
         }
+
+        font_converter.process(result, relative_path)
 
         with open(dist_file, "w", encoding="utf-8-sig") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
