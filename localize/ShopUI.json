@@ -237,6 +237,10 @@
       "content": "До обновления\nСезона 4"
     },
     {
+      "id": "mainui_shop_purchase",
+      "content": "Купить"
+    },
+    {
       "id": "mainui_shop_popup_title",
       "content": "Магазин"
     },
