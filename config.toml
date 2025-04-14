@@ -79,6 +79,10 @@ path = '$.dataList[*].content'
 font = "mikodacs"
 path = '$.dataList.[*].name'
 
+[[font_rules."Passive*.json"]]
+font = "mikodacs"
+path = '$.dataList.[*].name'
+
 [[font_rules."BattleKeywords*.json"]]
 font = "mikodacs"
 path = '$.dataList.[*].name'
