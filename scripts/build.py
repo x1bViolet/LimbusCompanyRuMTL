@@ -60,9 +60,7 @@ def prepare_reference(reference: Reference, target_path: Path) -> None:
 
 @lru_cache()
 def get_release_assets(repo: str) -> list[ReleaseAsset]:
-    response = requests.get(
-        f"https://api.github.com/repos/{repo}/releases/latest"
-    )
+    response = requests.get(f"https://api.github.com/repos/{repo}/releases/latest")
     response.raise_for_status()
     release_data = response.json()
     return release_data["assets"]
@@ -77,7 +75,7 @@ def download_release_asset(repo: str, path: str) -> io.BytesIO:
         response = requests.get(asset["browser_download_url"])
         response.raise_for_status()
         return io.BytesIO(response.content)
-        
+
     raise FileNotFoundError(f"Asset '{path}' not found in latest release of '{repo}'")
 
 
@@ -152,12 +150,11 @@ def get_markup_positions(
 
     for match in keyword_regex.finditer(text):
         keyword_id = match.group("keyword_id")
-        if keyword_id.lower() in singular_keywords:
-            to_escape.append((match.start(), match.end() - 1))
-            continue
-
         close_tag = re.compile(rf"</{re.escape(keyword_id)}\s*>")
-        if close_tags := list(close_tag.finditer(text, match.end())):
+
+        if (
+            close_tags := list(close_tag.finditer(text, match.end()))
+        ) or keyword_id.lower() in singular_keywords:
             to_escape.append((match.start(), match.end() - 1))
             to_escape.extend((tag.start(), tag.end() - 1) for tag in close_tags)
 
@@ -189,9 +186,9 @@ def get_markup_positions(
 
 def convert_font(
     text: str,
-    replacements: dict[str, str], 
-    singular_keywords: list[str], 
-    escape_short: bool = True, 
+    replacements: dict[str, str],
+    singular_keywords: list[str],
+    escape_short: bool = True,
     escape_keywords: bool = True,
 ) -> str:
     markup_positions = get_markup_positions(
@@ -215,10 +212,10 @@ class FontConverter:
     updated: set[tuple[str, str]]
 
     def __init__(
-        self, 
-        rules: dict[str, list[FontRule]], 
-        replacements_map: dict[str, dict[str, str]], 
-        xml_escape: XmlEscape
+        self,
+        rules: dict[str, list[FontRule]],
+        replacements_map: dict[str, dict[str, str]],
+        xml_escape: XmlEscape,
     ):
         self.rules = rules
         self.replacements_map = replacements_map
@@ -243,8 +240,8 @@ class FontConverter:
                 continue
 
             updated = convert_font(
-                match.value[re_match.end():].lstrip(), 
-                self.replacements_map[font], 
+                match.value[re_match.end() :].lstrip(),
+                self.replacements_map[font],
                 self.xml_escape.singular_keywords,
             )
 
@@ -259,7 +256,7 @@ class FontConverter:
                 if rule.font not in self.replacements_map:
                     logger.warning(f"Font {rule.font} not found in replacements map!")
                     continue
-                
+
                 for match in parse(rule.path).find(data):
                     if not isinstance(match.value, str):
                         continue
@@ -269,8 +266,8 @@ class FontConverter:
                         continue
 
                     updated = convert_font(
-                        match.value, 
-                        self.replacements_map[rule.font], 
+                        match.value,
+                        self.replacements_map[rule.font],
                         self.xml_escape.singular_keywords,
                     )
 
@@ -282,14 +279,16 @@ def escape_links(text: str) -> str:
     escape_keyword = "[TabExplain]"
 
     return " ".join(
-        word + escape_keyword if not word.endswith(escape_keyword) and word.strip() else word
+        word + escape_keyword
+        if not word.endswith(escape_keyword) and word.strip()
+        else word
         for word in text.split(" ")
     )
 
 
 def replace_shorthands(
-    text: str, 
-    keyword_colors: dict[str, str], 
+    text: str,
+    keyword_colors: dict[str, str],
     keyword_regex: re.Pattern,
 ) -> str:
     def make_replacement(match: re.Match) -> str:
@@ -419,7 +418,7 @@ def main():
         asset_path = Path(config.font.font_path)
         font_path = dist_path / "Font" / asset_path.name
         font_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
         download_font(config.font, font_path)
 
     font_converter = FontConverter(
@@ -461,7 +460,7 @@ def main():
                 continue
 
             # no_link = any(
-            #     fnmatch.fnmatch(relative_path.as_posix(), pattern) 
+            #     fnmatch.fnmatch(relative_path.as_posix(), pattern)
             #     for pattern in config.keyword_shorthands.no_link
             # )
 
@@ -472,7 +471,7 @@ def main():
             )
 
             break
-        
+
         data_reference = reference["dataList"]
         data_localize = localize["dataList"]
 
