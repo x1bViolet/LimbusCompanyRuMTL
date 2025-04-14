@@ -1,5 +1,6 @@
 import msgspec
 from pathlib import Path
+import typing
 
 
 class FontRule(msgspec.Struct):
@@ -9,9 +10,10 @@ class FontRule(msgspec.Struct):
     escape_keywords: bool = True
 
 
-class ReplacementMap(msgspec.Struct):
+class Font(msgspec.Struct):
     repo: str | None = None
-    path: str | None = None
+    replacement_map_path: str | None = None
+    font_path: str | None = None
 
 
 class Reference(msgspec.Struct):
@@ -34,7 +36,7 @@ class XmlEscape(msgspec.Struct):
 
 
 class Config(msgspec.Struct):
-    replacement_map: ReplacementMap
+    font: Font
     reference: Reference
     font_rules: dict[str, list[FontRule]]
     keyword_shorthands: KeywordShorthands
@@ -46,3 +48,8 @@ class Config(msgspec.Struct):
         with open(path, "r") as f:
             content = f.read()
         return msgspec.toml.decode(content, type=Config)
+
+
+class ReleaseAsset(typing.TypedDict):
+    name: str
+    browser_download_url: str

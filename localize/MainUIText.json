@@ -1470,7 +1470,7 @@
     },
     {
       "id": "level_up",
-      "content": "<size=28><cspace=1><align=center>Повышение\nуровня</align=center></cspace></size>"
+      "content": "<size=28><cspace=1><align=center>Повышение\nуровня</align></cspace></size>"
     },
     {
       "id": "summary",
