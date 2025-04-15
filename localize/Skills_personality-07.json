@@ -62,7 +62,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит [Laceration:`Кровотечение`] в количестве 1/4 счётчика [Laceration:`Кровотечения`] на цели (До 10)"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1/4 силы [Laceration:`Кровотечения`] цели (До 10)"
                 }
               ]
             },
@@ -78,7 +78,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит [Laceration:`Кровотечение`] в количестве 1/4 счётчика [Laceration:`Кровотечения`] на цели (До 10)"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1/4 силы [Laceration:`Кровотечения`] цели (До 10)"
                 }
               ]
             },
@@ -94,7 +94,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит [Laceration:`Кровотечение`] в количестве <style=\"highlight\">1/3</style> счётчика [Laceration:`Кровотечения`] на цели (До 10)"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на <style=\"highlight\">1/3</style> силы [Laceration:`Кровотечения`] цели (До 10)"
                 }
               ]
             },
