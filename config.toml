@@ -41,6 +41,14 @@ singular_keywords = [
   "size"
 ]
 
+[[font_rules."SeasonTitle.json"]]
+font = "bebas"
+path = '$.dataList[*].content'
+
+[[font_rules."AttributeText.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'
+
 [[font_rules."MainUIText.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
@@ -136,10 +144,6 @@ path = '$.dataList.[*].content'
 [[font_rules."DungeonNode*.json"]]
 font = "mikodacs"
 path = '$.dataList.[*].stageList.[*].title'
-
-[[font_rules."FormationNameFilterUI*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].content'
 
 [[font_rules."RewardDungeonUI.json"]]
 font = "mikodacs"
