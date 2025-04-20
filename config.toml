@@ -45,6 +45,14 @@ singular_keywords = [
 font = "bebas"
 path = '$.dataList[*].content'
 
+[[font_rules."StageChapterText.json"]]
+font = "mikodacs"
+path = '$.dataList[*].chaptertitle'
+
+[[font_rules."StageChapterText.json"]]
+font = "bebas"
+path = '$.dataList[*].chapter'
+
 [[font_rules."AttributeText.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
