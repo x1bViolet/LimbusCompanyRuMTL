@@ -362,7 +362,7 @@
     },
     {
       "id": "mainui_team",
-      "content": "Команда"
+      "content": "[font=pretendard]Команда"
     },
     {
       "id": "mainui_cost",
@@ -446,7 +446,7 @@
     },
     {
       "id": "mainui_stats_attack",
-      "content": "Атака"
+      "content": "[font=bebas]Атака"
     },
     {
       "id": "mainui_mailbox_receive_all",
