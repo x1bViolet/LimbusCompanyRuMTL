@@ -61,7 +61,9 @@
 
 ### Установи шрифт
 1. Скачай [последнюю версию](https://github.com/kimght/LimbusFonts/releases/latest) шрифта (`merged_font.ttf`)
-2. Перейди в `LimbusCompany_Data/Lang/ru-mtl`, создай папку `Font` и положи в нее шрифт
+2. Перейди в `LimbusCompany_Data/Lang/ru-mtl` и создай папку `Font`
+3. Внутри неё создай ещё две папки: `Context` и `Title`
+4. Положи `merged_font.ttf` в каждую из них
 
 ---
 
