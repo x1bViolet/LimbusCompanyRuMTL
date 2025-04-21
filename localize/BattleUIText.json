@@ -170,15 +170,15 @@
     },
     {
       "id": "slash",
-      "content": "Рубящий"
+      "content": "[font=pretendard]Рубящий"
     },
     {
       "id": "penetrate",
-      "content": "Пронзающий"
+      "content": "[font=pretendard]Пронзающий"
     },
     {
       "id": "hit",
-      "content": "Дробящий"
+      "content": "[font=pretendard]Дробящий"
     },
     {
       "id": "action_disable",
