@@ -63,7 +63,7 @@ path = '$.dataList[*].chapter'
 
 [[font_rules."AttributeText.json"]]
 font = "mikodacs"
-path = '$.dataList[*].content'
+path = '$.dataList[*].name'
 
 [[font_rules."MainUIText.json"]]
 font = "mikodacs"
@@ -148,6 +148,10 @@ path = '$.dataList.[*].desc'
 [[font_rules."Skills*.json"]]
 font = "mikodacs"
 path = '$.dataList.[*].levelList.[*].name'
+
+[[font_rules."Assist-a1c7p2.json"]]
+font = "name"
+path = '$.dataList[*].content'
 
 [[font_rules."Skills*.json"]]
 font = "mikodacs"
