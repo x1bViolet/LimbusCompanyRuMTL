@@ -514,11 +514,11 @@
     },
     {
       "id": "show_skillTool",
-      "content": "Показать окна навыков"
+      "content": "[font=pretendard]Показать окна навыков"
     },
     {
       "id": "auto_coinToss",
-      "content": "Автоматический\nбросок монет"
+      "content": "[font=pretendard]Автоматический\nбросок монет"
     },
     {
       "id": "babayaga_alert",
@@ -590,7 +590,7 @@
     },
     {
       "id": "show_BattleAblityUI",
-      "content": "Детально показывать информацию в фазе битвы"
+      "content": "[font=pretendard]Детально показывать информацию в фазе битвы"
     },
     {
       "id": "Ahab_NotTarget_Onece",
@@ -606,7 +606,7 @@
     },
     {
       "id": "show_BattleUnitAblityUI",
-      "content": "Показывать активные эффекты в фазе Битвы"
+      "content": "[font=pretendard]Показывать активные эффекты в фазе Битвы"
     },
     {
       "id": "LobotomyStartTypo_Title_1",
