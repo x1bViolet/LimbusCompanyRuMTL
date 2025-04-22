@@ -578,7 +578,7 @@
     },
     {
       "id": "mainui_confirm_of_purchased_twine",
-      "content": "Конвертировать в {0} звеньев?"
+      "content": "[font=pretendard]Конвертировать в {0} звеньев?"
     },
     {
       "id": "mainui_result_of_purchased_twine",
