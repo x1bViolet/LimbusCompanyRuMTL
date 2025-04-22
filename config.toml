@@ -65,13 +65,29 @@ path = '$.dataList[*].content'
 font = "mikodacs"
 path = '$.dataList[*].content'
 
-[[font_rules."StageChapterText.json"]]
+[[font_rules."StageChapterText*.json"]]
 font = "mikodacs"
 path = '$.dataList[*].chaptertitle'
 
-[[font_rules."StageChapterText.json"]]
+[[font_rules."StageChapterText*.json"]]
 font = "bebas"
 path = '$.dataList[*].chapter'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].company'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].area'
+
+[[font_rules."StoryTheaterOther.json"]]
+font = "mikodacs"
+path = '$.dataList[*].title'
+
+[[font_rules."StagePartText.json"]]
+font = "mikodacs"
+path = '$.dataList[*].parttitle'
 
 [[font_rules."AttributeText.json"]]
 font = "mikodacs"
