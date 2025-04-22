@@ -61,6 +61,10 @@ path = '$.dataList[*].content'
 font = "mikodacs"
 path = '$.dataList[*].content'
 
+[[font_rules."BattlePass_Banner-a1c7.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'
+
 [[font_rules."MainUIText_UPDATE_ON_0720.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
