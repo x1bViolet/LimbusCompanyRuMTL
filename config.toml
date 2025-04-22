@@ -41,6 +41,42 @@ singular_keywords = [
   "size"
 ]
 
+[[font_rules."ShopUI.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
+[[font_rules."SeasonTitle.json"]]
+font = "bebas"
+path = '$.dataList[*].content'
+
+[[font_rules."CouponUIText.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
+[[font_rules."BattlePass_Mission.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'
+
+[[font_rules."BattlePass.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'
+
+[[font_rules."MainUIText_UPDATE_ON_0720.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'
+
+[[font_rules."StageChapterText.json"]]
+font = "mikodacs"
+path = '$.dataList[*].chaptertitle'
+
+[[font_rules."StageChapterText.json"]]
+font = "bebas"
+path = '$.dataList[*].chapter'
+
+[[font_rules."AttributeText.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
 [[font_rules."MainUIText.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
@@ -50,7 +86,7 @@ font = "mikodacs"
 path = '$.dataList[*].content'
 
 [[font_rules."kr_settings-ui-donttranslate.json"]]
-font = "mikodacs"
+font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."MirrorDungeonUI.json"]]
@@ -125,6 +161,10 @@ path = '$.dataList.[*].desc'
 font = "mikodacs"
 path = '$.dataList.[*].levelList.[*].name'
 
+[[font_rules."Assist-a1c7p2.json"]]
+font = "name"
+path = '$.dataList[*].content'
+
 [[font_rules."Skills*.json"]]
 font = "mikodacs"
 path = '$.dataList.[*].levelList.[*].abName'
@@ -136,10 +176,6 @@ path = '$.dataList.[*].content'
 [[font_rules."DungeonNode*.json"]]
 font = "mikodacs"
 path = '$.dataList.[*].stageList.[*].title'
-
-[[font_rules."FormationNameFilterUI*.json"]]
-font = "mikodacs"
-path = '$.dataList.[*].content'
 
 [[font_rules."RewardDungeonUI.json"]]
 font = "mikodacs"

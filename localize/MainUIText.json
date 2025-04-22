@@ -278,7 +278,7 @@
     },
     {
       "id": "mainui_untill",
-      "content": "До"
+      "content": "[font=pretendard]До"
     },
     {
       "id": "mainui_free",
@@ -302,7 +302,7 @@
     },
     {
       "id": "mainui_gacha_daliynotice",
-      "content": "Обнуляется ежедневно в {0}:00"
+      "content": "[font=pretendard]Обнуляется ежедневно в {0}:00"
     },
     {
       "id": "mainui_gacha_alreadyusedgacha",
@@ -362,7 +362,7 @@
     },
     {
       "id": "mainui_team",
-      "content": "Команда"
+      "content": "[font=pretendard]Команда"
     },
     {
       "id": "mainui_cost",
@@ -578,7 +578,7 @@
     },
     {
       "id": "mainui_confirm_of_purchased_twine",
-      "content": "Конвертировать в {0} звеньев?"
+      "content": "[font=pretendard]Конвертировать в {0} звеньев?"
     },
     {
       "id": "mainui_result_of_purchased_twine",
@@ -834,7 +834,7 @@
     },
     {
       "id": "gacha_history_notice",
-      "content": "※ Показывается до {1} круток за {0} дней."
+      "content": "[font=pretendard]※ Показывается до {1} круток за {0} дней."
     },
     {
       "id": "gacha_history_empty",
@@ -1154,11 +1154,11 @@
     },
     {
       "id": "notice_consumption_multiples",
-      "content": " Стоимость {0} × {1}"
+      "content": "[font=pretendard] Стоимость {0} × {1}"
     },
     {
       "id": "notice_additional_rewards",
-      "content": "Будут получены дополнительные награды: {0}"
+      "content": "[font=pretendard]Будут получены дополнительные награды: {0}"
     },
     {
       "id": "gacha_notice_exclude_ego",
@@ -1754,15 +1754,15 @@
     },
     {
       "id": "item_owned_count",
-      "content": "(В наличии : {0})"
+      "content": "[font=pretendard](В наличии : {0})"
     },
     {
       "id": "lunacy_owned_count_paid",
-      "content": "(Платное : {0}, Бесплатное : {1})"
+      "content": "[font=pretendard](Платное : {0}, Бесплатное : {1})"
     },
     {
       "id": "lunacy_owned_count_free",
-      "content": "(Платное : {0}, Бесплатное : {1})"
+      "content": "[font=pretendard](Платное : {0}, Бесплатное : {1})"
     },
     {
       "id": "mainui_ask_use_personality_level_ticket_disadvantage",
@@ -1770,19 +1770,19 @@
     },
     {
       "id": "mainui_exp_dungeon_7_title",
-      "content": "Светодобыча опыта #7 (Режущий)"
+      "content": "Светодобыча опыта #7 (Рубящий)"
     },
     {
       "id": "mainui_exp_dungeon_7_open_day",
-      "content": "Светодобыча опыта #7 (Режущий) открывается в ПОН, ВТОР, и ВОСКРЕС."
+      "content": "Светодобыча опыта #7 (Рубящий) открывается в ПОН, ВТОР, и ВОСКРЕС."
     },
     {
       "id": "mainui_exp_dungeon_8_title",
-      "content": "Светодобыча опыта #7 (Колющий)"
+      "content": "Светодобыча опыта #7 (Пронзающий)"
     },
     {
       "id": "mainui_exp_dungeon_8_open_day",
-      "content": "Светодобыча опыта #7 (Колющий) открывается в СРЕ, ЧЕТ, и ВОСКРЕС."
+      "content": "Светодобыча опыта #7 (Пронзающий) открывается в СРЕ, ЧЕТ, и ВОСКРЕС."
     },
     {
       "id": "mainui_exp_dungeon_9_title",
@@ -1834,15 +1834,15 @@
     },
     {
       "id": "gacha_notice_vending_available_date",
-      "content": "Сезонные идентичности могут быть Извлечены из Автомата начиная с {0}/{1} {2} ({3})"
+      "content": "[font=pretendard]Сезонные идентичности могут быть Извлечены из Автомата начиная с {0}/{1} {2} ({3})"
     },
     {
       "id": "gacha_notice_vending_available_date_v2",
-      "content": "Сезонные Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
+      "content": "[font=pretendard]Сезонные Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
     },
     {
       "id": "gacha_notice_vending_available_date_v3",
-      "content": "Сезонные идентичности & Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
+      "content": "[font=pretendard]Сезонные идентичности & Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
     },
     {
       "id": "mini_story_warning_spoiler_checkbox_desc",
