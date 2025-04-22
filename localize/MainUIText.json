@@ -278,7 +278,7 @@
     },
     {
       "id": "mainui_untill",
-      "content": "До"
+      "content": "[font=pretendard]До"
     },
     {
       "id": "mainui_free",
@@ -302,7 +302,7 @@
     },
     {
       "id": "mainui_gacha_daliynotice",
-      "content": "Обнуляется ежедневно в {0}:00"
+      "content": "[font=pretendard]Обнуляется ежедневно в {0}:00"
     },
     {
       "id": "mainui_gacha_alreadyusedgacha",
@@ -834,7 +834,7 @@
     },
     {
       "id": "gacha_history_notice",
-      "content": "※ Показывается до {1} круток за {0} дней."
+      "content": "[font=pretendard]※ Показывается до {1} круток за {0} дней."
     },
     {
       "id": "gacha_history_empty",
@@ -1154,11 +1154,11 @@
     },
     {
       "id": "notice_consumption_multiples",
-      "content": " Стоимость {0} × {1}"
+      "content": "[font=pretendard] Стоимость {0} × {1}"
     },
     {
       "id": "notice_additional_rewards",
-      "content": "Будут получены дополнительные награды: {0}"
+      "content": "[font=pretendard]Будут получены дополнительные награды: {0}"
     },
     {
       "id": "gacha_notice_exclude_ego",
@@ -1834,15 +1834,15 @@
     },
     {
       "id": "gacha_notice_vending_available_date",
-      "content": "Сезонные идентичности могут быть Извлечены из Автомата начиная с {0}/{1} {2} ({3})"
+      "content": "[font=pretendard]Сезонные идентичности могут быть Извлечены из Автомата начиная с {0}/{1} {2} ({3})"
     },
     {
       "id": "gacha_notice_vending_available_date_v2",
-      "content": "Сезонные Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
+      "content": "[font=pretendard]Сезонные Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
     },
     {
       "id": "gacha_notice_vending_available_date_v3",
-      "content": "Сезонные идентичности & Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
+      "content": "[font=pretendard]Сезонные идентичности & Э.Г.О. могут быть Извлечены начиная с {0}/{1} {2} ({3})"
     },
     {
       "id": "mini_story_warning_spoiler_checkbox_desc",
