@@ -41,6 +41,10 @@ singular_keywords = [
   "size"
 ]
 
+[[font_rules."ShopUI.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
 [[font_rules."SeasonTitle.json"]]
 font = "bebas"
 path = '$.dataList[*].content'
