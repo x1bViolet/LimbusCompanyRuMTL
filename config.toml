@@ -117,11 +117,7 @@ path = '$.dataList[*].content'
 font = "mikodacs"
 path = '$.dataList[*].content'
 
-[[font_rules."MirrorDungeonUI_3.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
-[[font_rules."MirrorDungeonUI_4.json"]]
+[[font_rules."MirrorDungeonUI*.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
 
