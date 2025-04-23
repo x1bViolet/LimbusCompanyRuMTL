@@ -182,7 +182,7 @@
     },
     {
       "id": "mainui_floor",
-      "content": "{0} этаж"
+      "content": "[font=pretendard]{0} этаж"
     },
     {
       "id": "mainui_main_enkephalin_Box",
