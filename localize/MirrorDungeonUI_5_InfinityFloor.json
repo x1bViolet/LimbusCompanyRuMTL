@@ -18,35 +18,35 @@
     },
     {
       "id": "mirror_dungeon_infinity_difficulty",
-      "content": "бесконечность"
+      "content": "Бесконечность"
     },
     {
       "id": "mirror_dungeon_achievement_panel_title",
-      "content": "Достижения"
+      "content": "[font=mikodacs]Достижения"
     },
     {
       "id": "mirror_dungeon_achievement_reward_title",
-      "content": "Список наград"
+      "content": "[font=mikodacs]Список наград"
     },
     {
       "id": "mirror_dungeon_achievement_list_title",
-      "content": "Список достижений"
+      "content": "[font=mikodacs]Список достижений"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_COLLECTION",
-      "content": "Коллекция"
+      "content": "[font=mikodacs]Коллекция"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_CLEAR",
-      "content": "Прохождения"
+      "content": "[font=mikodacs]Прохождения"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_DECK",
-      "content": "Команды"
+      "content": "[font=mikodacs]Команды"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_SHOP",
-      "content": "Магазин"
+      "content": "[font=mikodacs]Магазин"
     },
     {
       "id": "mirrordungeon_mission_date",
@@ -78,11 +78,11 @@
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_BATTLE",
-      "content": "Бои"
+      "content": "[font=mikodacs]Бои"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_ALL",
-      "content": "Особые"
+      "content": "[font=mikodacs]Особые"
     }
   ]
 }
