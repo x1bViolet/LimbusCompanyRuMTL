@@ -130,7 +130,7 @@
     },
     {
       "id": "shopui_recover_enkephalin_after_time",
-      "content": "[font=mikodacs]{1} Энкефалин восстановится через {0}."
+      "content": "[font=bebas]{1} Энкефалин восстановится через {0}."
     },
     {
       "id": "shopui_ask_create_enkephalin_module",
