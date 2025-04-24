@@ -210,7 +210,7 @@
     },
     {
       "id": "today_purchase_count",
-      "content": "[font=mikodacs]Покупок сегодня:"
+      "content": "[font=mikodacs]<size=90%>Сегодня:</size>"
     },
     {
       "id": "lack_of_lunacy_ask_to_move_shop",
