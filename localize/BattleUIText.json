@@ -38,7 +38,7 @@
     },
     {
       "id": "power",
-      "content": "Потенциал"
+      "content": "Сила"
     },
     {
       "id": "require",
@@ -478,7 +478,7 @@
     },
     {
       "id": "stack",
-      "content": "число"
+      "content": "Число"
     },
     {
       "id": "slash_resistance",
