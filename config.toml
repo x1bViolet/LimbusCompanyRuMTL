@@ -45,6 +45,10 @@ singular_keywords = [
 font = "pretendard"
 path = '$.dataList[*].content'
 
+[[font_rules."MirrorDungeonTheme-1.json"]]
+font = "mikodacs"
+path = '$.dataList[*].content'
+
 [[font_rules."TutorialMainUIText.json"]]
 font = "pretendard"
 path = '$.dataList[*].content'
