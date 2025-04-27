@@ -214,8 +214,8 @@ font = "mikodacs"
 path = '$.dataList.[*].levelList.[*].name'
 
 [[font_rules."Assist-a1c7p2.json"]]
-font = "name"
-path = '$.dataList[*].content'
+font = "mikodacs"
+path = '$.dataList[*].name'
 
 [[font_rules."Skills*.json"]]
 font = "mikodacs"
