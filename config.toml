@@ -159,7 +159,11 @@ path = '$.dataList[*].content'
 
 [[font_rules."RailwayDungeon.json"]]
 font = "mikodacs"
-path = '$.dataList[*].content'
+path = '$.dataList[*].name'
+
+[[font_rules."RailwayDungeon.json"]]
+font = "mikodacs"
+path = '$.dataList[*].longName'
 
 [[font_rules."StoryDungeonUI.json"]]
 font = "pretendard"
