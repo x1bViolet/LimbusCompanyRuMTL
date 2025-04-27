@@ -6,11 +6,11 @@
     },
     {
       "id": "mirror_dungeon_easy_difficulty",
-      "content": "Normal"
+      "content": "[font=pretendard]NORMAL"
     },
     {
       "id": "mirror_dungeon_hard_difficulty",
-      "content": "Hard"
+      "content": "[font=pretendard]HARD"
     },
     {
       "id": "mirror_dungeon_start_bonus_formation_rest_point",
