@@ -45,6 +45,14 @@ singular_keywords = [
 font = "pretendard"
 path = '$.dataList[*].content'
 
+[[font_rules."UserTicket*.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
+[[font_rules."UserBanner*.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
 [[font_rules."ActionEvents*.json"]]
 font = "mikodacs"
 path = '$.dataList[*].options[*].message'
