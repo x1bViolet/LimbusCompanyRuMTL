@@ -366,7 +366,7 @@
     },
     {
       "id": "dungeon_explore_floor",
-      "content": "Экспедиция на {0}-м этаже"
+      "content": "[font=pretendard]Экспедиция на {0}-м этаже"
     },
     {
       "id": "lack_of_point_for_shop",
