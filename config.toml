@@ -55,7 +55,7 @@ path = '$.dataList[*].panicName'
 
 [[font_rules."MirrorDungeonTheme-1.json"]]
 font = "mikodacs"
-path = '$.dataList[*].content'
+path = '$.dataList[*].name'
 
 [[font_rules."TutorialMainUIText.json"]]
 font = "pretendard"
