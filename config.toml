@@ -70,7 +70,7 @@ font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."BattlePass_Mission.json"]]
-font = "mikodacs"
+font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."BattlePass.json"]]
