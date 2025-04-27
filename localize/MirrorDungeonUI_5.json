@@ -42,7 +42,7 @@
     },
     {
       "id": "mirror_enemy_addenemylevel_desc",
-      "content": "Ур. противников +{0}"
+      "content": "[font=pretendard]Ур. противников +{0}"
     },
     {
       "id": "mirror_card_pack",
