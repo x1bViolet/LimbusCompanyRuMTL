@@ -298,7 +298,7 @@
     },
     {
       "id": "all_ally_mp_increase",
-      "content": "<color=#ebcaa2>Все грешники восстанвливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все грешники восстанавливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_hp_increase",
