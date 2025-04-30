@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 860501,
@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Прочь отсюда",
-          "desc": "[WhenUse] Если у цели 4+ [Sinking:`Утопания`], Сила столкновения +1",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -24,8 +24,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Не корчи такое лицо",
-          "desc": "[WhenUse] Если у цели счётчик [Sinking:`Утопания`] 3+, Сила столкновения +1",
+          "name": "Не делай такое лицо",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с счётчиком [Sinking:`Утопания`] 3 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -51,19 +51,19 @@
         {
           "level": 1,
           "name": "Кто же вы такой?",
-          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nЕсли у цели есть [UninvitedGuest:`Вторженец`], увеличивает потенциал и счётчик [Sinking:`Утопания`] на 1",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nЕсли цель является [UninvitedGuest:`Вторженцем`], увеличивает наносимые этим навыком силу и счётчик [Sinking:`Утопания`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Увеличивает счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Увеличивает счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
@@ -80,7 +80,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [UninvitedGuest:`Вторженец`], наносит 2 [Paralysis:`Паралича`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest:`Вторженцем`], наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             }
@@ -93,8 +93,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Так вы незваный гость?",
-          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nЕсли у цели есть [UninvitedGuest:`Вторженец`], увеличивает потенциал и счётчик [Sinking:`Утопания`] на 1",
+          "name": "Так вы.. незваный гость?",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nЕсли цель является [UninvitedGuest:`Вторженцем`], увеличивает наносимые этим навыком силу и счётчик [Sinking:`Утопания`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -102,7 +102,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Увеличивает счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
@@ -112,10 +112,10 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [UninvitedGuest:`Вторженец`], наносит 2 [Paralysis:`Паралича`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest:`Вторженцем`], наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Увеличивает счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             }
@@ -128,8 +128,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уходи, незваный гость",
-          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nПолучает вес атаки, равный количеству врагов с [UninvitedGuest:`Вторженец`]\n[WhenUse] Получает силу столкновения, равную количеству врагов с [UninvitedGuest:`Вторженец`]",
+          "name": "Прочь, незваный гость",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженцев`]\nКоличество целей повышается на количество противников с эффектом [UninvitedGuest:`Вторженца`]\n[WhenUse] Получает силу столкновения, равную количеству врагов с [UninvitedGuest:`Вторженец`]",
           "coinlist": [
             {
               "coindescs": [
@@ -137,14 +137,14 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Увеличивает счётчик [Sinking:`Утопания`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Вызывает [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
                 }
               ]
             }
@@ -157,8 +157,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мой мастер",
-          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыка",
+          "name": "Мой господин",
+          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -176,8 +176,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мой трагичный мастер",
-          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыка",
+          "name": "Мой трагичный господин",
+          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -195,7 +195,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мастер...?",
+          "name": "Господин...?",
           "desc": "",
           "coinlist": [
             {
@@ -234,12 +234,12 @@
         {
           "level": 1,
           "name": "Рогатый натиск",
-          "desc": "[WhenUse] Получает +1 счётчик [Charge:`Заряда`]",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 [DefenseDown:`Понижения уровня защиты`] в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -253,19 +253,19 @@
         {
           "level": 1,
           "name": "Таранный натиск",
-          "desc": "[WhenUse] Получает +1 счётчик [Charge:`Заряда`]",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [AttackDown:`Понижение уровня атаки`] в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 [AttackDown:`Понижения уровня атаки`] в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -279,12 +279,12 @@
         {
           "level": 1,
           "name": "Плач агнца",
-          "desc": "[WhenUse] Получает +2 счётчика [Charge:`Заряда`]",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 [Paralysis:`Паралич`] в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -298,19 +298,19 @@
         {
           "level": 1,
           "name": "Управление молнией",
-          "desc": "[WhenUse] Получает +2 [Charge:`Заряд`] Счётчик",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] в следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] в следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующий ход"
                 }
               ]
             }
@@ -324,7 +324,7 @@
         {
           "level": 1,
           "name": "Электрическое блеяние",
-          "desc": "[WhenUse] Вес атаки +1 за каждые 4 счётчика [Charge:`Заряда`] на себе (макс. 5)\n[WhenUse] Сила столкновения +3 за каждые 5 счётчиков [Charge:`Заряда`] на себе (макс. 4)\n[WhenUse] Получает 1 [VioletDamageUp:`Повышение урона Завистью`] за каждые 6 счётчиков [Charge:`Заряда`] на себе (макс. 3)\n[EndBattle] Все счётчики [Charge:`Заряда`] на себе истекают. Теряет [ConnectedPlug:`Подключение`]",
+          "desc": "[WhenUse] Количество целей +1 за каждые 4 счётчика своего [Charge:`Заряда`] (До 5)\n[WhenUse] Сила в столкновении +3 за каждые 5 счётчика своего [Charge:`Заряда`] (До 4)\n[WhenUse] Получает 1 [VioletDamageUp:`Повышение урона Завистью`] за каждые 6 счётчика своего [Charge:`Заряда`] (До 3)\n[EndBattle] Тратит весь свой счётчик [Charge:`Заряда`] и всё [ConnectedPlug:`Подключение`]",
           "coinlist": [
             {
               "coindescs": [
@@ -357,7 +357,7 @@
         {
           "level": 1,
           "name": "Электрическое блеяние",
-          "desc": "[CantDuel]\n[WhenUse] Получает 10 [Protection:`Защищённости`]\n[WhenUse] Вес атаки +1 за каждые 4 счётчика [Charge:`Заряда`] на себе (макс. 5)\n[WhenUse] Сила столкновения +3 за каждые 5 счётчиков [Charge:`Заряда`] на себе (макс. 4)\n[WhenUse] Получает 1 [VioletDamageUp:`Повышение урона Завистью`] за каждые 6 счётчиков [Charge:`Заряда`] на себе (макс. 3)",
+          "desc": "[CantDuel]\n[WhenUse] Получает 10 [Protection:`Защищённости`]\n[WhenUse] Количество целей +1 за каждые 4 счётчика своего [Charge:`Заряда`] (До 5)\n[WhenUse] Сила в столкновении +3 за каждые 5 счётчика своего [Charge:`Заряда`] (До 4)\n[WhenUse] Получает 1 [VioletDamageUp:`Повышение урона Завистью`] за каждые 6 счётчика своего [Charge:`Заряда`] (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -376,12 +376,12 @@
         {
           "level": 1,
           "name": "Отказ от заземления",
-          "desc": "Выбирает цели с [AntiSheepGround:`Антиовечьим заземляющим штекером`]\nСила столкновения +1 за каждое [ConnectedPlug:`Подключение`]\n[StartBattle] Получает 2(3 - [ConnectedPlug:`Подключение`]) [Protection:`Защищённости`]\n[WhenUse] Получает +1 счётчик [Charge:`Заряда`]\n[DefeatDuel] Если у цели есть [AntiSheepGround:`Антиовечий заземляющий штекер`], получает 1 [ConnectedPlug:`Подключение`]",
+          "desc": "Выбирает цели с [AntiSheepGround:`Антиовечьим заземляющим штекером`]\nСила в столкновении +1 за каждое [ConnectedPlug:`Подключение`]\n[StartBattle] Получает (2 × (3 - количество [ConnectedPlug:`Подключения`]))[Protection:`Защищённости`]\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1\n[DefeatDuel] Если у цели есть [AntiSheepGround:`Антиовечий заземляющий штекер`], получает 1 [ConnectedPlug:`Подключение`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралича`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             },
@@ -401,13 +401,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Выпуск перезаряда",
+          "name": "Выпуск избыточного заряда",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралич`] в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             }
@@ -421,7 +421,7 @@
         {
           "level": 1,
           "name": "Всепоглощающая покорность",
-          "desc": "Если у цели 6+ [Sinking:`Утопания`], Сила монеты +1\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 3",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -447,7 +447,7 @@
         {
           "level": 1,
           "name": "Удушающее отчаяние",
-          "desc": "Сила монеты +1 за каждые 6 [Sinking:`Утопания`] на цели (макс. 2)\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 3\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 1",
+          "desc": "Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 3\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -479,8 +479,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Разрушитель цепей",
-          "desc": "Если у цели есть [Binding:`Связывание`], Сила столкновения +1\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 4\n[DefeatDuel] Уменьшает потенциал [Sinking:`Утопания`] на 2",
+          "name": "Разрушение цепей",
+          "desc": "Сила в столкновения +1 против целей со [Binding:`Связыванием`]\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 4\n[DefeatDuel] Уменьшает силу [Sinking:`Утопания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -520,19 +520,19 @@
         {
           "level": 1,
           "name": "Цепи связывания",
-          "desc": "Сила монеты + за каждые 6 [Sinking:`Утопания`] у цели (максимум 2)\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Применяет [BandageOfTheBoundKing:`Повязки Связанного короля`]",
+          "desc": "Сила монет +1 за каждые 6 [Sinking:`Утопания`] у цели (максимум 2)\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Накладывает [BandageOfTheBoundKing:`Узы Связанного короля`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход\n[OnSucceedAttack] Наносит [Vibration:`Тремор`] равный [Sinking:`Утопанию`] цели"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход\n[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве [Sinking:`Утопания`] цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion:`Провокацию Тремора`]"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -545,13 +545,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ты утонешь",
-          "desc": "Если у цели есть [Binding:`Связывание`], Сила столкновения +1\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Уменьшает потенциал [Sinking:`Утопания`] на 4",
+          "name": "Ты сгинешь",
+          "desc": "Сила в столкновения +1 против целей со [Binding:`Связыванием`]\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Уменьшает силу [Sinking:`Утопания`] на 4",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Вызывает [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
                 }
               ]
             }
@@ -565,15 +565,15 @@
         {
           "level": 1,
           "name": "Предстань пред королём",
-          "desc": "[CantDuel]\n[StartBattle] Получает 5 [Binding:`Связывания`], 1 [ComeForwardToTheKing:`Момент Внимания`] и 2 [Enhancement:`Повышения силы атаки`] на следующий ход\n[WhenUse] Применяет 300 Защиты к целям с [BandageOfTheBoundKing:`Повязками Связанного короля`]",
+          "desc": "[CantDuel]\n[StartBattle] Получает 5 [Binding:`Связывания`], 1 [ComeForwardToTheKing:`Момент аудиенции`] и 2 [Enhancement:`Повышения силы атаки`] на следующий ход\n[WhenUse] Цели с [BandageOfTheBoundKing:`Узами Связанного короля`] получают 300 щита",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот персонаж нанёс урон цели, наносит [Vibration:`Тремор`] равный [Sinking:`Утопанию`] цели"
+                  "desc": "[OnSucceedAttack] Удалось нанести урон цели, наносит [Vibration:`Тремор`] в количестве [Sinking:`Утопания`] цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion:`Провокацию Тремора`]"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -586,7 +586,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Портрет мастера",
+          "name": "Портрет господина",
           "desc": "",
           "coinlist": [
             {

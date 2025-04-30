@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 853901,
@@ -562,7 +562,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенный оберег проклятия`]\n[WhenUse] При 10+ [ReattachedCurseTag:`Переклеенных оберегах проклятия`] сила монет -1",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенный оберег проклятия`]\n[WhenUse]Сила монет -1 при 10 и более [ReattachedCurseTag:`Переклеенных оберегах проклятия`] ",
           "coinlist": [
             {
               "coindescs": [
@@ -916,12 +916,12 @@
         {
           "level": 1,
           "name": "Пойманная наживка",
-          "desc": "[CantDuel] +1 к количеству целей за каждый ход с живой Феей.\nПриоритет нацеливания на идентичности с эффектом <sprite name=\"FairyCharm\"><color=#9f6a3a><u><link=\"FairyCharm\">Зачарованный</link></u></color>.",
+          "desc": "[CantDuel] Количество целей +1 за каждый ход с живой Феей\nПриоритет на [FairyCharm:`Зачарованные`] цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
@@ -946,10 +946,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             }
@@ -990,7 +990,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит на 5% больше урона за каждые 5 счётчиков [Burst:`Разрыва`] на цели"
+                  "desc": "[OnSucceedAttack] На 5% больше урона за каждые 5 счётчика [Burst:`Разрыва`] цели"
                 }
               ]
             }
@@ -1004,7 +1004,7 @@
         {
           "level": 1,
           "name": "Незакрытая бездна",
-          "desc": "Наносит на 100% больше урона целям с 5+ [Burst:`Разрывами`]",
+          "desc": "Наносит на 100% больше урона целям с 5 и более [Burst:`Разрывами`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1023,7 +1023,7 @@
         {
           "level": 1,
           "name": "Зачарованное сознание",
-          "desc": "При атаке Фонаря фей наносится 0 урона.",
+          "desc": "При атаке Фонаря фей не наносит урона",
           "coinlist": [
             {
               "coindescs": [
@@ -1042,7 +1042,7 @@
         {
           "level": 1,
           "name": "Рассечение пространства",
-          "desc": "[WhenUse] Получает +3 счётчика [Charge:`Заряда`]\n[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3\n[DefeatDuel] Теряет 2 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,7 +1061,7 @@
         {
           "level": 1,
           "name": "Непрерывные рассечения пространства",
-          "desc": "[WhenUse] Получает +3 счётчика [Charge:`Заряда`]\n[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3\n[DefeatDuel] Теряет 2 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1087,7 +1087,7 @@
         {
           "level": 1,
           "name": "Побочный выброс",
-          "desc": "[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[DefeatDuel] Теряет 2 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1105,13 +1105,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "[Burst:`Разрывов`] пространства",
-          "desc": "При 10+ счётчиках [Charge:`Заряда`] тратит 10 счётчиков [Charge:`Заряда`] и получает силу столкновения +5 и наносит на 100% больше урона\nПри 10- счётчиках [Charge:`Заряда`] тратит 100 ОЗ ядра и наносит на 80% больше урона\nЭтот навык не понижает ОЗ персонажа до 0.",
+          "name": "Разрыв пространства",
+          "desc": "При 10 и более счётчика [Charge:`Заряда`] тратит 10 его единиц для получения +5 к Силе в столкновении и повышения урона на 100%\nПри 10 и менее счётчика [Charge:`Заряда`] теряет 100 ОЗ Ядра и наносит на 80% больше урона вместо этого\nЭффект не может опустить свои ОЗ ниже 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает+2 счётчика [Charge:`Заряда`]"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:`Пространственных разлома`]"
@@ -1121,7 +1121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает +2 счётчика [Charge:`Заряда`]"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:`Пространственных разлома`]"
@@ -1138,12 +1138,12 @@
         {
           "level": 1,
           "name": "Спланированная месть",
-          "desc": "[WhenUse] Получает +1 счётчик [Charge:`Заряда`]",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 }
               ]
             },
@@ -1164,7 +1164,7 @@
         {
           "level": 1,
           "name": "Побочное извержение",
-          "desc": "[WhenUse] Если на цели есть [DimensionRift:`Пространственный разлом`], наносит на 10% больше урона\n[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Наносит на 10% больше урона целям с [DimensionRift:`Пространственным разломом`]\n[DefeatDuel] Теряет 2 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1183,7 +1183,7 @@
         {
           "level": 1,
           "name": "Высокоскоростной разрыв пространства",
-          "desc": "Получает силу столкновения, равную наибольшему кол-ву [DimensionRift:`Пространственных разломов`] на цели\nНаносит на 10% больше урона за каждый [DimensionRift:`Пространственный разлом`] на себе",
+          "desc": "Получает Силу в столкновении, равную наибольшему количеству [DimensionRift:`Пространственных разломов`] на одном из противников\nНаносит на 10% больше урона за каждый эффект [DimensionRift:`Пространственного разлома`] на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -1202,7 +1202,7 @@
         {
           "level": 1,
           "name": "Найдена возможность",
-          "desc": "[WhenUse] Если на цели есть [DimensionRift:`Пространственный разлом`], наносит на 20% больше урона",
+          "desc": "[WhenUse] Наносит на 20% больше урона целям с [DimensionRift:`Пространственным разломом`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1221,7 +1221,7 @@
         {
           "level": 1,
           "name": "Атака из разлома",
-          "desc": "[WhenUse] Если на цели есть [DimensionRift:`Пространственный разлом`], наносит на 10% больше урона",
+          "desc": "[WhenUse] Наносит на 10% больше урона целям с [DimensionRift:`Пространственным разломом`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,7 +1240,7 @@
         {
           "level": 1,
           "name": "Остановленный момент",
-          "desc": "[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[DefeatDuel] Теряет 2 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1262,7 +1262,7 @@
         {
           "level": 1,
           "name": "Забранное время",
-          "desc": "Сила навыка +1 за каждые 3 счётчика [Charge:`Заряда`]\n[WhenUse] Получает +4 счётчика [Charge:`Заряда`]",
+          "desc": "Сила навыка +1 за каждые 3 единицы счётчика [Charge:`Заряда`]\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -1284,7 +1284,7 @@
         {
           "level": 1,
           "name": "Момент ускорения",
-          "desc": "Сила навыка +1 за каждое <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\">Одолженное время</link></u></color>\n[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 3",
+          "desc": "Сила навыка +1 за каждое <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\">Одолженное время</link></u></color>\n[DefeatDuel] Теряет 3 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1302,7 +1302,7 @@
                   "desc": "[OnSucceedAttack] Наносит на 20% больше урона за каждое <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\">Одолженное время</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает +4 счётчика [Charge:`Заряда`]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 4"
                 }
               ]
             }
@@ -1316,7 +1316,7 @@
         {
           "level": 1,
           "name": "Зарядная защита",
-          "desc": "[StartBattle] Получает +1 счётчик [Charge:`Заряда`]",
+          "desc": "[StartBattle] Повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1335,7 +1335,7 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Наносит на 10% больше урона за каждые 50 <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\">Накопленного прошлого</link></u></color>",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:`Накопленное прошлое`](#f2a972)",
           "coinlist": [
             {
               "coindescs": [
@@ -1354,7 +1354,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Наносит на 10% больше урона за каждые 50 <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\">Накопленного прошлого</link></u></color>",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:`Накопленное прошлое`](#f2a972)",
           "coinlist": [
             {
               "coindescs": [
@@ -1373,7 +1373,7 @@
         {
           "level": 1,
           "name": "853",
-          "desc": "При 5+ [Breath:`Дыхания`] сила столкновения +1",
+          "desc": "Сила в столкновении +1 при 5 и более [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1388,7 +1388,7 @@
                   "desc": "[OnSucceedAttack] Повышает границы выносливости на 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\">Накопленное прошлое</link></u></color> (До 50%)"
+                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое [AccumulatedPast:`Накопленное прошлое`](#f2a972) (До 50%)"
                 }
               ]
             }
@@ -1402,19 +1402,19 @@
         {
           "level": 1,
           "name": "5384",
-          "desc": "[WhenUse] Все части получают 3 [Breath:`Дыхание`] и +3 счётчика [Breath:`Дыхания`]",
+          "desc": "[WhenUse] Все части получают 3 [Breath:`Дыхание`] и повышают его счётчик на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на кол-во [Breath:`Дыхания`]"
+                  "desc": "[OnSucceedAttack] Повышает границы выносливости на количество своего [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает на 20% больше урона за каждые 3 [Breath:`Дыхания`] (До 100%)"
+                  "desc": "[OnSucceedAttack] Наносит на 20% больше урона за каждые 3 [Breath:`Дыхания`] (До 100%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Все части получают 4 [Breath:`Дыхания`]"
@@ -1431,15 +1431,15 @@
         {
           "level": 1,
           "name": "6475384",
-          "desc": "При 7+ [Breath:`Дыхания`] сила монет +1",
+          "desc": "Сила в монет +1 при 7 и более [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 5+ [Breath:`Дыхании`] повышает границы выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] При 5 и более [Breath:`Дыхания`] повышает границы выносливости на 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Все части получают 8 [Breath:`Дыхания`] и +4 счётчика [Breath:`Дыхания`]"
+                  "desc": "[OnSucceedAttack] Все части получают 8 [Breath:`Дыхания`] и повышают его счётчик на 4"
                 }
               ]
             }
@@ -1453,12 +1453,12 @@
         {
           "level": 1,
           "name": "974569A",
-          "desc": "При 10+ [Breath:`Дыхания`] сила навыка +2",
+          "desc": "Сила навыка +2 при 10 и более [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое <sprite name=\"AccumulatedPast\"><color=#9f6a3a><u><link=\"AccumulatedPast\">Накопленное прошлое</link></u></color> (До 200%)"
+                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое [AccumulatedPast:`Накопленное прошлое`](#f2a972) (До 200%)"
                 }
               ]
             }
@@ -1472,7 +1472,7 @@
         {
           "level": 1,
           "name": "В сад вечности",
-          "desc": "[CantDuel]\n[WhenUse] Получает Терновый венец и снимает с себя все эффекты\nЕсли у Ядра менее 40% ОЗ, Розы будут призываться в Усиленном состоянии",
+          "desc": "[CantDuel]\n[WhenUse] Получает [PrepareSinRose:`Терновую корону`] и снимает с себя все эффекты\nЕсли у Ядра менее 40% ОЗ, Розы будут призываться в усиленном состоянии",
           "coinlist": [
             {}
           ]
@@ -1490,7 +1490,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и 2 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и 2 [Vibration:`Тремора`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
@@ -1500,7 +1500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и 2 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и 2 [Vibration:`Тремора`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
@@ -1532,7 +1532,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшими в процентном соотношении ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшим процентом ОЗ"
                 }
               ]
             }
@@ -1546,7 +1546,7 @@
         {
           "level": 1,
           "name": "Нескончаемое цветение",
-          "desc": "Приоритет нацеливания на противников без Терновый венец",
+          "desc": "Приоритет на противников без [PrepareSinRose:`Терновой кроны`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1558,7 +1558,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Даёт Терновый венец"
+                  "desc": "[OnSucceedAttack] Накладывает [PrepareSinRose:`Терновой кроны`]"
                 }
               ]
             },
@@ -1674,14 +1674,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
                 }
               ]
             }
@@ -1703,7 +1703,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает границы выносливости этого персонажа на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Понижает свои границы выносливости на 50% от нанесённого урона"
                 }
               ]
             },
@@ -1713,7 +1713,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает границы выносливости этого персонажа на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Понижает свои границы выносливости на 50% от нанесённого урона"
                 }
               ]
             },
@@ -1723,7 +1723,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает границы выносливости этого персонажа на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Понижает свои границы выносливости на 50% от нанесённого урона"
                 }
               ]
             }
@@ -1742,21 +1742,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -1775,7 +1775,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Vibration:`Тремора`]"
                 }
               ]
             }
@@ -1794,7 +1794,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Повышает [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:`Провоцирует Тремор`]"
@@ -1811,7 +1811,7 @@
         {
           "level": 1,
           "name": "Усыпляющая лень",
-          "desc": "Если получает атаку, при этом имея щит, провоцирует[VibrationExplosion:`провоцирует Тремор`] у себя и у атаковавшего",
+          "desc": "Если получает атаку, при этом имея щит, [VibrationExplosion:`Провоцирует Тремор`] на себе и атаковавшем",
           "coinlist": [
             {
               "coindescs": [
@@ -1854,7 +1854,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +4 счётчика [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 4"
                 }
               ]
             }
@@ -1873,28 +1873,28 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             }
@@ -1932,14 +1932,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:`Утопания`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Sinking:`Утопания`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 }
               ]
             }
@@ -1953,7 +1953,7 @@
         {
           "level": 1,
           "name": "Всеобъемлющее уныние",
-          "desc": "Если получает атаку, при этом имея щит, наносит +1 счётчик [Sinking:`Утопания`] себе и атаковавшему",
+          "desc": "Если получает атаку, при этом имея щит, повышает счётчик [Sinking:`Утопания`] на 1 себе и атаковавшему",
           "coinlist": [
             {
               "coindescs": [
@@ -1991,19 +1991,19 @@
         {
           "level": 1,
           "name": "Возвышенная гордыня",
-          "desc": "[WhenUse] Даёт +2 счётчика [Breath:`Дыхания`] всем союзникам",
+          "desc": "[WhenUse] Даёт 2 счётчика [Breath:`Дыхания`] всем союзникам",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Breath:`Дыхания`]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Breath:`Дыхания`]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -2017,7 +2017,7 @@
         {
           "level": 1,
           "name": "Чуткая гордыня",
-          "desc": "При 5+ [Breath:`Дыхания`] сила монет +3",
+          "desc": "Сила монет +3 при 5 и более [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2036,19 +2036,19 @@
         {
           "level": 1,
           "name": "Взваленная зависть",
-          "desc": "[WhenUse] Получает +3 счётчика [Charge:`Заряда`]\n[DefeatDuel] Понижает свой счётчик [Charge:`Заряда`] на 3",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3\n[DefeatDuel] Теряет 3 единицы своего счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Charge:`Заряда`]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает +1 счётчик [Charge:`Заряда`]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
                 }
               ]
             }
@@ -2062,7 +2062,7 @@
         {
           "level": 1,
           "name": "Растущая зависть",
-          "desc": "[WhenUse] Тратит 10 [Charge:`Зарядов`] и получает +4 к силе монет",
+          "desc": "[WhenUse] Тратит 10 единиц счётчика [Charge:`Заряда`] и получает +4 к силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -2081,7 +2081,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот [DimensionRift:`Пространственный разлом`] остался, наносит на 10% больше урона",
+          "desc": "Если этот Пространственный разлом остался, наносит на 10% больше урона",
           "coinlist": [
             {}
           ]
@@ -2094,7 +2094,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот [DimensionRift:`Пространственный разлом`] остался, максимальные ОЗ +20%",
+          "desc": "Если этот Пространственный разлом остался, максимальные ОЗ повышаются на 20%",
           "coinlist": [
             {}
           ]
@@ -2107,7 +2107,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот [DimensionRift:`Пространственный разлом`] остался, получает 1 скорость",
+          "desc": "Если этот Пространственный разлом остался, скорость повышается на 1",
           "coinlist": [
             {}
           ]
@@ -2120,7 +2120,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот [DimensionRift:`Пространственный разлом`] остался, сила монет +1",
+          "desc": "Если этот Пространственный разлом остался, Сила монет +1",
           "coinlist": [
             {}
           ]
@@ -2133,7 +2133,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`]\n[WhenUse] При 10+ [ReattachedCurseTag:`Переклеенных оберегах проклятия`] сила монет -1",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`]\n[WhenUse] cила монет -1 при 10 и более [ReattachedCurseTag:`Переклеенных оберегах проклятия`] ",
           "coinlist": [
             {
               "coindescs": [
@@ -2166,7 +2166,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Паралича`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Параличей`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
