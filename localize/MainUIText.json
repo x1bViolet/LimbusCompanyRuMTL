@@ -182,7 +182,7 @@
     },
     {
       "id": "mainui_floor",
-      "content": "{0} этаж"
+      "content": "[font=pretendard]{0} этаж"
     },
     {
       "id": "mainui_main_enkephalin_Box",
@@ -190,7 +190,7 @@
     },
     {
       "id": "mainui_main_own_count",
-      "content": "<size=36>На руках</size>"
+      "content": "[font=pretendard]<size=36>На руках</size>"
     },
     {
       "id": "mainui_mirror_entrance_entry",
@@ -198,7 +198,7 @@
     },
     {
       "id": "mainui_mirror_entrance_progressing",
-      "content": "Экспедиция в {0}\nвсё ещё продолжается."
+      "content": "[font=pretendard]Экспедиция в {0}\nвсё ещё продолжается."
     },
     {
       "id": "mainui_mirror_entrance_re_entry",
@@ -278,7 +278,7 @@
     },
     {
       "id": "mainui_untill",
-      "content": "[font=pretendard]До"
+      "content": "До"
     },
     {
       "id": "mainui_free",
@@ -302,7 +302,7 @@
     },
     {
       "id": "mainui_gacha_daliynotice",
-      "content": "[font=pretendard]Обнуляется ежедневно в {0}:00"
+      "content": "[font=pretendard]<size=80%>Обнуляется ежедневно в {0}:00</size>"
     },
     {
       "id": "mainui_gacha_alreadyusedgacha",
@@ -310,11 +310,11 @@
     },
     {
       "id": "mainui_gacha_extract1",
-      "content": "Извлечь 1"
+      "content": "[font=pretendard]Извлечь 1"
     },
     {
       "id": "mainui_gacha_extract10",
-      "content": "Извлечь 10"
+      "content": "[font=pretendard]Извлечь 10"
     },
     {
       "id": "mainui_open_battlepass",
@@ -322,7 +322,7 @@
     },
     {
       "id": "mainui_grade_without_space",
-      "content": "Шаг {0}"
+      "content": "[font=pretendard]Шаг {0}"
     },
     {
       "id": "mainui_type",
@@ -330,7 +330,7 @@
     },
     {
       "id": "mainui_level_unit",
-      "content": "{0}★"
+      "content": "[font=pretendard]{0}★"
     },
     {
       "id": "mainui_Change_lobby_illust",
@@ -438,7 +438,7 @@
     },
     {
       "id": "mainui_owned",
-      "content": "На руках"
+      "content": "[font=pretendard]На руках"
     },
     {
       "id": "mainui_growth_level_limited",
@@ -458,7 +458,7 @@
     },
     {
       "id": "mainui_remain_days",
-      "content": "Осталось дней: {0}"
+      "content": "[font=pretendard]Осталось дней: {0}"
     },
     {
       "id": "mainui_mail_remains_count",
@@ -486,7 +486,7 @@
     },
     {
       "id": "mainui_organization",
-      "content": "Команда"
+      "content": "[font=pretendard]Команда"
     },
     {
       "id": "story_ui_log_popup",
@@ -510,7 +510,7 @@
     },
     {
       "id": "giving_up_story_dungeon_content",
-      "content": "Сейчас вы исследуете подземелье {0}-й Главы.\nПрекратить исследование и войти в новое подземелье?"
+      "content": "[font=pretendard]Сейчас вы исследуете подземелье {0}-й Главы.\nПрекратить исследование и войти в новое подземелье?"
     },
     {
       "id": "mainui_all",
@@ -526,7 +526,7 @@
     },
     {
       "id": "mainui_buy",
-      "content": "Подтвердить"
+      "content": "<size=76%>Подтвердить</size>"
     },
     {
       "id": "mainui_use",
@@ -582,7 +582,7 @@
     },
     {
       "id": "mainui_result_of_purchased_twine",
-      "content": "Получено {0} звеньев."
+      "content": "[font=pretendard]Получено звеньев: {0}"
     },
     {
       "id": "mainui_personality_awaken_completion",
@@ -626,11 +626,11 @@
     },
     {
       "id": "mainui_specific_level_achievement",
-      "content": "Достигнуть {0} уровня"
+      "content": "[font=pretendard]Достигнуть {0} уровня"
     },
     {
       "id": "mainui_personality_awaken_level_up_condition",
-      "content": "Требования к {0} уровню Связи"
+      "content": "[font=pretendard]Требования к {0} уровню Связи"
     },
     {
       "id": "mainui_battle_passsive_addition",
@@ -706,7 +706,7 @@
     },
     {
       "id": "mainui_progress_of_spend",
-      "content": "Потратить {0} для получения {1}?"
+      "content": "[font=pretendard]Потратить {0} для получения {1}?"
     },
     {
       "id": "game_setting",
@@ -758,7 +758,7 @@
     },
     {
       "id": "gacha_extract_multiple",
-      "content": "Извлечь {0}"
+      "content": "[font=pretendard]Извлечь {0}"
     },
     {
       "id": "number_of_times",
@@ -826,7 +826,7 @@
     },
     {
       "id": "mainui_unlock_condition_by_personality_awaken_level",
-      "content": "Разблокируется на {0} уровне Связи"
+      "content": "[font=pretendard]Разблокируется на {0} уровне Связи"
     },
     {
       "id": "skill_growth_value",
@@ -878,11 +878,11 @@
     },
     {
       "id": "gacha_rate_title_ten1",
-      "content": "[10 Извлечений (С 1-го по 9-й)]: Шансы равны [1 Извлечению]"
+      "content": "[font=pretendard][10 Извлечений (С 1-го по 9-й)]: Шансы равны [1 Извлечению]"
     },
     {
       "id": "gacha_rate_title_ten2",
-      "content": "[10 Извлечений (10-й)]"
+      "content": "[font=pretendard][10 Извлечений (10-й)]"
     },
     {
       "id": "gacha_rate_info_intro1",
@@ -978,7 +978,7 @@
     },
     {
       "id": "skill_with_index",
-      "content": "Атака {0}"
+      "content": "[font=pretendard]Атака {0}"
     },
     {
       "id": "mail_date",
@@ -1114,7 +1114,7 @@
     },
     {
       "id": "mainui_unlock_condition_by_ego_awaken_level",
-      "content": "Открывается на {0} уровне Связи"
+      "content": "[font=pretendard]Открывается на {0} уровне Связи"
     },
     {
       "id": "empty_mailbox_notice",
@@ -1154,7 +1154,7 @@
     },
     {
       "id": "notice_consumption_multiples",
-      "content": "[font=pretendard] Стоимость {0} × {1}"
+      "content": "[font=pretendard]Стоимость {0} × {1}"
     },
     {
       "id": "notice_additional_rewards",
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "gacha_notice_single_season",
-      "content": "Идентичности 2★ и 3★ редкости в этом баннере принадлежат {0} сезону."
+      "content": "[font=pretendard]Идентичности 2★ и 3★ редкости в этом баннере принадлежат {0} сезону."
     },
     {
       "id": "error_and_return_to_main",
@@ -1194,19 +1194,19 @@
     },
     {
       "id": "gacha_rate_info_intro1_1b",
-      "content": "Таблица за использование {0}:"
+      "content": "[font=pretendard]Таблица за использование {0}:"
     },
     {
       "id": "gacha_rate_info_intro1_1c",
-      "content": "Когда вы используете {0}, вы можете выбрать валюту из:"
+      "content": "[font=pretendard]Когда вы используете {0}, вы можете выбрать валюту из:"
     },
     {
       "id": "package_info_detail1",
-      "content": "Когда вы выбрали валюту, таблица для получения другого кол-ва валюты за использование {0}:"
+      "content": "[font=pretendard]Когда вы выбрали валюту, таблица для получения другого кол-ва валюты за использование {0}:"
     },
     {
       "id": "package_info_detail2",
-      "content": "※ \"{0}\" в таблице ниже как пример выбора одной из валют из таблицы выше."
+      "content": "[font=pretendard]※ \"{0}\" в таблице ниже как пример выбора одной из валют из таблицы выше."
     },
     {
       "id": "acquired_quantity",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "be_in_use",
-      "content": "<cspace=-1px>Пробит</cspace>"
+      "content": "[font=bebas]<cspace=-1px>Пробит</cspace>"
     },
     {
       "id": "season_information",
@@ -1294,15 +1294,15 @@
     },
     {
       "id": "season_n_personality",
-      "content": "Идентичность {0} сезона"
+      "content": "[font=pretendard]Идентичность {0} сезона"
     },
     {
       "id": "season_n_ego",
-      "content": "ЭГО {0} сезона"
+      "content": "[font=pretendard]ЭГО {0} сезона"
     },
     {
       "id": "season_n",
-      "content": "{0} сезон"
+      "content": "[font=bebas]{0} сезон"
     },
     {
       "id": "new_season_former_piece_to_current_piece_desc",
@@ -1366,11 +1366,11 @@
     },
     {
       "id": "open_date_description_month_day_time_zone",
-      "content": "Разблокируется после {1}/{0} (Обновление на {2})"
+      "content": "[font=pretendard]Разблокируется после {1}/{0} (Обновление на {2})"
     },
     {
       "id": "open_date_description_month_day_time_zone_date",
-      "content": "{1}/{0} ({2})"
+      "content": "[font=pretendard]{1}/{0} ({2})"
     },
     {
       "id": "open_date_description_month_day_time_zone_desc",
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "formation_must_participate_specific_character",
-      "content": "{0} обязан(а) быть в битве."
+      "content": "[font=pretendard]{0} обязан(а) быть в битве."
     },
     {
       "id": "cannot_exit_node_after_enter_by_force_alice_character",

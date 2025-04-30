@@ -777,3 +777,5 @@ CandyForCharon ¤ #e30000
 VengeanceBookSinclair ¤ #f8c200
 VendettaMark ¤ #e30000
 RetaliationBookFamily ¤ #e30000
+BirdCage ¤ #e30000
+WideAreaRampage ¤ #9f6a3a

@@ -2,15 +2,15 @@
   "dataList": [
     {
       "id": "mirror_dungeon_get_ego_gift_with_enemy_buff_less_count",
-      "content": "У вас остались варианты выбора ЭГО даров\n\nВы продолжите без них?\n\n(※ Вы получите случайные испытания, равные количеству оставшихся вариантов)"
+      "content": "[font=pretendard]У вас остались варианты выбора ЭГО даров\n\nВы продолжите без них?\n\n(※ Вы получите случайные испытания, равные количеству оставшихся вариантов)"
     },
     {
       "id": "mirror_dungeon_easy_difficulty",
-      "content": "Normal"
+      "content": "[font=pretendard]NORMAL"
     },
     {
       "id": "mirror_dungeon_hard_difficulty",
-      "content": "Hard"
+      "content": "[font=pretendard]HARD"
     },
     {
       "id": "mirror_dungeon_start_bonus_formation_rest_point",
@@ -30,7 +30,7 @@
     },
     {
       "id": "mirror_dungeon_reward_popup_rest_bonus_guide",
-      "content": "Все идентичности, не входящие в текущую команду, получают 1 Стартовый бонус"
+      "content": "[font=pretendard]Все идентичности, не входящие в текущую команду, получают 1 Стартовый бонус"
     },
     {
       "id": "mirror_user_start_buff",
@@ -42,7 +42,7 @@
     },
     {
       "id": "mirror_enemy_addenemylevel_desc",
-      "content": "Ур. противников +{0}"
+      "content": "[font=pretendard]Ур. противников +{0}"
     },
     {
       "id": "mirror_card_pack",
@@ -54,7 +54,7 @@
     },
     {
       "id": "mirror_acquired_enemy_buff_popup_desc",
-      "content": "Испытания были добавлены."
+      "content": "Испытания были добавлены"
     },
     {
       "id": "mirror_start_buff_purchase_complete_modal_title",
@@ -66,7 +66,7 @@
     },
     {
       "id": "mirror_recovered_unit_status",
-      "content": "Все союзники полностью вылечены, мёртвые воскрешены"
+      "content": "[font=pretendard]Все союзники полностью вылечены, мёртвые воскрешены"
     },
     {
       "id": "mirror_start_buff_cannot_purchase_side_popup_title",
@@ -110,23 +110,23 @@
     },
     {
       "id": "dungeon_shop_heal_enter",
-      "content": "Мы можем исцелить или оживить грешника здесь.\nЧто мы будем делать?"
+      "content": "[font=pretendard]Мы можем исцелить или оживить грешника здесь.\nЧто мы будем делать?"
     },
     {
       "id": "dungeon_shop_heal_select_one",
-      "content": "Восстановление {0} ОЗ и СД."
+      "content": "[font=pretendard]Восстановление {0} ОЗ и СД."
     },
     {
       "id": "dungeon_shop_heal_all",
-      "content": "ОЗ и СД всех грешников выло восстановлено."
+      "content": "[font=pretendard]ОЗ и СД всех грешников выли восстановлены."
     },
     {
       "id": "dungeon_shop_heal_revive_select_one",
-      "content": "{0}, оживает, возвращается в бой."
+      "content": "[font=pretendard]{0}, оживает, возвращаясь в бой."
     },
     {
       "id": "mirrordungeon_revive_log",
-      "content": "Благославление звёзд активировано\n[{0}] оживлено"
+      "content": "[font=pretendard]Благославление звёзд активировано\n[{0}] оживлено"
     },
     {
       "id": "mirror_start_buff_unlock_condition_needs_held_buff_points",
@@ -150,7 +150,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_purchase_description",
-      "content": "Оставшееся Звёздное благославление будет конвертировано в Стоимость"
+      "content": "[font=pretendard]Оставшееся Звёздное благославление будет конвертировано в Стоимость"
     },
     {
       "id": "mirror_start_buff_applied_passive",
@@ -170,27 +170,27 @@
     },
     {
       "id": "dungeon_shop_heal_title_all_season5",
-      "content": "Умеренно лечит каждого грешника."
+      "content": "Умеренно лечит каждого грешника"
     },
     {
       "id": "dungeon_shop_heal_title_one_season5",
-      "content": "Хорошо лечит выбранного грешника."
+      "content": "Хорошо лечит выбранного грешника"
     },
     {
       "id": "dungeon_shop_revive_title_one_season5",
-      "content": "Оживляет выбранного грешника."
+      "content": "Оживляет выбранного грешника"
     },
     {
       "id": "dungeon_shop_revive_one_select_ask",
-      "content": "Выберите грешника для оживления."
+      "content": "Выберите грешника для оживления"
     },
     {
       "id": "mirror_dungeon_block_to_click_hard_theme_list",
-      "content": "Пройдите 6 главу\nдля разблокировки"
+      "content": "[font=pretendard]Пройдите 6 главу\nдля разблокировки"
     },
     {
       "id": "mirrordungeon_theme_hard_blocked",
-      "content": "Пройдите 6 главу\nдля разблокировки"
+      "content": "[font=pretendard]Пройдите 6 главу\nдля разблокировки"
     },
     {
       "id": "mirrordungeon_shop_heal_title",
@@ -202,7 +202,7 @@
     },
     {
       "id": "mirror_dungeon_progress_text_5",
-      "content": "Зеркало Мечтаний - F{0}"
+      "content": "[font=pretendard]Зеркало Мечтаний - F{0}"
     },
     {
       "id": "mirror_dungeon_progress_awaiting_reward_claim",
@@ -210,55 +210,55 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_bonus_gift",
-      "content": "Благославление звёзд активировано\nДля получения ЭГО даров Слияния & Продажи"
+      "content": "[font=pretendard]Благославление звёзд активировано\nДля получения ЭГО даров Слияния & Продажи"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_0_1",
-      "content": "NORMAL"
+      "content": "[font=pretendard]NORMAL"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_0_2",
-      "content": "HARD"
+      "content": "[font=pretendard]HARD"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_1_1",
-      "content": "Обычное столкновение : 7.5%\nФокусированное столкновение : -\nЭлитное столкновение : -\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 7.5%\nФокусированное столкновение : -\nЭлитное столкновение : -\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_1_2",
-      "content": "Обычное столкновение : 7.5%\nФокусированное столкновение : -\nЭлитное столкновение : -\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 7.5%\nФокусированное столкновение : -\nЭлитное столкновение : -\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_2_1",
-      "content": "Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_2_2",
-      "content": "Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: -\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_3_1",
-      "content": "Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_3_2",
-      "content": "Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 10%\nФокусированное столкновение : 20%\nЭлитное столкновение : 33%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_4_1",
-      "content": "Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_4_2",
-      "content": "Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
+      "content": "[font=pretendard]Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : 100%"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_5_1",
-      "content": "Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : -"
+      "content": "[font=pretendard]Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : -"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_5_2",
-      "content": "Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : -"
+      "content": "[font=pretendard]Обычное столкновение : 12.5%\nФокусированное столкновение : 25%\nЭлитное столкновение : 50%\nСтолкновение с аномалией: 100%\nСтолкновение с боссом : -"
     },
     {
       "id": "mirrordungeon_additional_cost_by_start_bonus",
@@ -318,7 +318,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_label",
-      "content": "Уровень ЭГО дара в результате Слияния определяется суммой очков каждого ингредиента."
+      "content": "[font=pretendard]Уровень ЭГО дара в результате Слияния определяется суммой очков каждого ингредиента."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_total_header",
@@ -362,19 +362,19 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_1",
-      "content": "※ Any ЭГО дары находящиеся в вашем распоряжении, не могут быть получены в результате Слияния."
+      "content": "[font=pretendard]※ Любые ЭГО дары уже в вашем распоряжении не могут быть получены в результате Слияния."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_2",
-      "content": "※ ЭГО дары, использованные в качестве ингридиента, не могут быть получены в результате слияния. Однако, ЭГО дары, которые уже были использованы в качестве ингредиентов в предыдущих Слияниях, могут быть получены в результате Слияния."
+      "content": "[font=pretendard]※ ЭГО дары, использованные в качестве ингридиента, не могут быть получены в результате слияния. Однако, ЭГО дары, которые уже были использованы в качестве ингредиентов в предыдущих Слияниях, могут быть получены в результате Слияния."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_3",
-      "content": "※ Если вы получили все возможные ЭГО дары этого определённого уровня и комбинации ключевых слов, вы получите ЭГО дар другого ключевого слова того же уровня."
+      "content": "[font=pretendard]※ Если вы получили все возможные ЭГО дары этого определённого уровня и комбинации ключевых слов, вы получите ЭГО дар другого ключевого слова того же уровня."
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_4",
-      "content": "※ Если вы получили все возможные ЭГО дары этого уровня, вы получите ЭГО дар для Слияния & Продажи."
+      "content": "[font=pretendard]※ Если вы получили все возможные ЭГО дары этого уровня, вы получите ЭГО дар для Слияния & Продажи."
     },
     {
       "id": "mirrordungeon_upgrade_shop_title",
@@ -394,7 +394,7 @@
     },
     {
       "id": "mirrordungeon_theme_hard_no_pool",
-      "content": "Теперь вы выполнили условия для разблокировки сложности 'Hard'. Вы можете переключать сложности, начиная со следующего меню выбора темы."
+      "content": "[font=pretendard]Теперь вы выполнили условия для разблокировки сложности 'HARD'. Вы можете переключать сложности, начиная со следующего меню выбора темы."
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_3_0",
@@ -406,7 +406,7 @@
     },
     {
       "id": "mirrordungeon_level_up_by_long_battle_theme",
-      "content": "Получена награда за длинный бой\nУровень идентичностей +3"
+      "content": "[font=pretendard]Получена награда за длинный бой\nУровень идентичностей +3"
     },
     {
       "id": "mirror_dungeon_5_buffs_title_100",
@@ -498,7 +498,7 @@
     },
     {
       "id": "mirrordungeon_start_bonus_personality_desc",
-      "content": "В течение срока хранения стартовые бонусы этих идентичностей не будут потрачены на прохождение Зеркального подземелья."
+      "content": "[font=pretendard]В течение срока хранения стартовые бонусы этих идентичностей не будут потрачены на прохождение Зеркального подземелья."
     },
     {
       "id": "mirrordungeon_start_bonus_personality_label",
@@ -506,7 +506,7 @@
     },
     {
       "id": "mirrordungeon_start_bonus_personality_button_label",
-      "content": "Идентичности с удержанным стартовым бонусом"
+      "content": "Удержанный стартовый бонус"
     },
     {
       "id": "mirrordungeon_start_bonus_personality_period",
@@ -514,11 +514,11 @@
     },
     {
       "id": "mirrordungeon_purchase_achievement_level_using_lunacy_desc",
-      "content": "※ Покупка {0} Опыта достижений стоит {1} Платного Безумства."
+      "content": "[font=pretendard]※ Покупка {0} Опыта достижений стоит {1} Платного Безумства."
     },
     {
       "id": "mirrordungeon_purchase_achievement_level_ask_using_lunacy",
-      "content": "Потратить {0} Платного Безумства на покупку Опыта достижений?"
+      "content": "[font=pretendard]Потратить {0} Платного Безумства на покупку Опыта достижений?"
     },
     {
       "id": "mirrordungeon_purchase_achievement_title",
@@ -535,6 +535,10 @@
     {
       "id": "mirrordungeon_achievement_max_level",
       "content": "Уровень достижений максимален"
+    },
+    {
+      "id": "lack_of_point_for_shop_without_new_line",
+      "content": "[font=pretendard]Недостаточно стоимости"
     }
   ]
 }

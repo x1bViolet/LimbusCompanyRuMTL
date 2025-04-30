@@ -38,7 +38,7 @@
     },
     {
       "id": "power",
-      "content": "Потенциал"
+      "content": "Сила"
     },
     {
       "id": "require",
@@ -258,7 +258,7 @@
     },
     {
       "id": "bottom_dmg",
-      "content": "Урон"
+      "content": "<size=38>Урон</size>"
     },
     {
       "id": "ab_event_next",
@@ -478,7 +478,7 @@
     },
     {
       "id": "stack",
-      "content": "число"
+      "content": "Число"
     },
     {
       "id": "slash_resistance",

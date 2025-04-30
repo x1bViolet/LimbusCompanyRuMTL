@@ -1,4 +1,4 @@
-﻿{
+{
   "dataList": [
     {
       "id": 40000101,
@@ -6,25 +6,25 @@
         {
           "level": 1,
           "name": "Багровый удар",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более отрицательными эффектами\n[WhenUse] Базовая сила +1 за каждые 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более отрицательными эффектами\n[WhenUse] Базовая сила +1 за каждые 3 [Burst:`Разрыва`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [AttackUp:`Повышение уровня атаки`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [AttackUp:`Повышение уровня атаки`] на следующий ход"
                 }
               ]
             }
@@ -38,35 +38,35 @@
         {
           "level": 1,
           "name": "Багровый феникс",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более отрицательными эффектами\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более отрицательными эффектами\n[WhenUse] Сила монет +1 за каждые 6 [Burst:`Разрывов`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 3 [AttackUp:`Повышения уровня атаки`] следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхание</link></u></color> на силу <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели (До 5)"
+                  "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] на силу [Burst:`Разрыва`] цели (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> цели (До 2)"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 2)"
                 }
               ]
             },
@@ -76,10 +76,10 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит на 50% больше урона"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKillFail] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+                  "desc": "[CriticalEnemyTargetKillFail] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[CriticalEnemyTargetKill] Получает 3 [AttackUp:`Повышения уровня атаки`] на следующий ход"
                 }
               ]
             }
@@ -93,21 +93,21 @@
         {
           "level": 1,
           "name": "Багровая весна",
-          "desc": "[StartBattle] Вес атаки +1 за каждые 4 отрицательных эффекта на цели (До 2)\n[WhenUse] Базовая сила +5 против целей с 5 и более отрицательными эффектами\n[WhenUse] Если сумма силы и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели 15 или более, Сила монет +5\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2",
+          "desc": "[StartBattle] Вес атаки +1 за каждые 4 отрицательных эффекта на цели (До 2)\n[WhenUse] Базовая сила +5 против целей с 5 и более отрицательными эффектами\n[WhenUse] Если сумма силы и счётчика [Burst:`Разрыва`] на цели 15 или более, Сила монет +5\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 7 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 7 [Laceration:`Кровотечения`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит на 200% больше урона"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 1"
+                  "desc": "[CriticalOnSucceedAttack] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 1"
                 }
               ]
             }
@@ -121,7 +121,7 @@
         {
           "level": 1,
           "name": "Искусный уворот",
-          "desc": "[OnSucceedEvade] Получает 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на следующий ход (Трижды за ход)"
+          "desc": "[OnSucceedEvade] Получает 1 [Breath:`Дыхания`] на следующий ход (Трижды за ход)"
         }
       ]
     }

@@ -18,39 +18,39 @@
     },
     {
       "id": "mirror_dungeon_infinity_difficulty",
-      "content": "бесконечность"
+      "content": "Бесконечность"
     },
     {
       "id": "mirror_dungeon_achievement_panel_title",
-      "content": "Достижения"
+      "content": "[font=mikodacs]Достижения"
     },
     {
       "id": "mirror_dungeon_achievement_reward_title",
-      "content": "Список наград"
+      "content": "[font=mikodacs]Список наград"
     },
     {
       "id": "mirror_dungeon_achievement_list_title",
-      "content": "Список достижений"
+      "content": "[font=mikodacs]Список достижений"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_COLLECTION",
-      "content": "Коллекция"
+      "content": "[font=mikodacs]Коллекция"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_CLEAR",
-      "content": "Прохождения"
+      "content": "[font=mikodacs]Прохождения"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_DECK",
-      "content": "Команды"
+      "content": "[font=mikodacs]Команды"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_SHOP",
-      "content": "Магазин"
+      "content": "[font=mikodacs]Магазин"
     },
     {
       "id": "mirrordungeon_mission_date",
-      "content": "Награды можно получить до выхода #6 обновления Зеркального подземелья."
+      "content": "Награды можно получить до выхода 6 Зеркального подземелья"
     },
     {
       "id": "mirrordungeon_infinityFloor_Entrance_ThemeSelectPanel",
@@ -58,7 +58,7 @@
     },
     {
       "id": "mirrordungeon_mission_clear_condition",
-      "content": "※ Этажи Зеркального подземелья считаются пройденными, если были потрачены энкефалиновые модули на сбор наград в окне."
+      "content": "※ Этажи Зеркального подземелья считаются пройденными, если были потрачены энкефалиновые модули на сбор наград в окне"
     },
     {
       "id": "mirrordungeon_infinity_open_condition",
@@ -66,7 +66,7 @@
     },
     {
       "id": "InfinityFloor_Mode_Button_Notie",
-      "content": "※ Пройдите каждый этаж вашей экспедиции на сложности 'Hard', чтобы войти."
+      "content": "※ Пройдите каждый этаж вашей экспедиции на сложности HARD, чтобы войти."
     },
     {
       "id": "IsOnInfinityMod",
@@ -78,11 +78,11 @@
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_BATTLE",
-      "content": "Бои"
+      "content": "[font=mikodacs]Бои"
     },
     {
       "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_ALL",
-      "content": "Особые"
+      "content": "[font=mikodacs]Особые"
     }
   ]
 }

@@ -9,8 +9,8 @@
     {
       "id": 1002,
       "panicName": "Порицание",
-      "lowMoraleDescription": "Начало хода: Получает 2 [Enhancement:`Повышения силы атаки`] и 2 Уязвимость.",
-      "panicDescription": "Начало хода: Случайный союзник теряет 20 СД."
+      "lowMoraleDescription": "Начало хода: Получает 2 [Enhancement:`Повышения силы атаки`] и 2 [Vulnerable:`Уязвимости`]",
+      "panicDescription": "Начало хода: Случайный союзник теряет 20 СД"
     },
     {
       "id": 1003,
@@ -22,7 +22,7 @@
       "id": 1004,
       "panicName": "Обескураженность",
       "lowMoraleDescription": "В начале хода получает 2 [Reduction:`Понижения силы атаки`]",
-      "panicDescription": "В начале хода получает 4 [Reduction:`Понижения силы атаки`]."
+      "panicDescription": "В начале хода получает 4 [Reduction:`Понижения силы атаки`]"
     },
     {
       "id": 1005,
@@ -40,7 +40,7 @@
       "id": 1007,
       "panicName": "Горечь",
       "lowMoraleDescription": "Получает 2 [AttackDmgDown:`Понижения урона`] каждый ход",
-      "panicDescription": "Получает 5 [AttackDmgDown:`Понижений урона`] и 2 [Vulnerable:`Уязвимости`] каждый ход."
+      "panicDescription": "Получает 5 [AttackDmgDown:`Понижений урона`] и 2 [Vulnerable:`Уязвимости`] каждый ход"
     },
     {
       "id": 1008,
@@ -52,7 +52,7 @@
       "id": 1009,
       "panicName": "Суицидальность",
       "lowMoraleDescription": "При низком духе в первый раз становится неактивным",
-      "panicDescription": "· Не может действовать 3 хода\n· В начале хода умирает, а все союзники теряют 10 СД."
+      "panicDescription": "· Не может действовать 3 хода\n· В начале хода умирает, а все союзники теряют 10 СД"
     },
     {
       "id": 1010,
@@ -63,7 +63,7 @@
     {
       "id": 1011,
       "panicName": "Нестабильность",
-      "lowMoraleDescription": "В начале хода Получает 2 [Enhancement:`Повышения силы атаки`] и 3 [Binding:`Связывания`].",
+      "lowMoraleDescription": "В начале хода Получает 2 [Enhancement:`Повышения силы атаки`] и 3 [Binding:`Связывания`]",
       "panicDescription": "Оглушается в начале хода"
     },
     {
@@ -76,7 +76,7 @@
       "id": 9999,
       "panicName": "Паника",
       "lowMoraleDescription": "",
-      "panicDescription": "Не действует в этот ход."
+      "panicDescription": "Не действует в этот ход"
     },
     {
       "id": 1013,

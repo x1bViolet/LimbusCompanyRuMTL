@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "Прочь отсюда",
-          "desc": "[WhenUse] Если у цели 4+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, Сила столкновения +1",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 }
               ]
             }
@@ -24,20 +24,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Не корчи такое лицо",
-          "desc": "[WhenUse] Если у цели счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> 3+, Сила столкновения +1",
+          "name": "Не делай такое лицо",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с счётчиком [Sinking:`Утопания`] 3 и более",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -51,36 +51,36 @@
         {
           "level": 1,
           "name": "Кто же вы такой?",
-          "desc": "Нацеливается в первую очередь на <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженца</link></u></color>\nЕсли у цели есть <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженец</link></u></color>, увеличивает потенциал и счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nЕсли цель является [UninvitedGuest:`Вторженцем`], увеличивает наносимые этим навыком силу и счётчик [Sinking:`Утопания`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Увеличивает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Увеличивает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженец</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest:`Вторженцем`], наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             }
@@ -93,29 +93,29 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Так вы незваный гость?",
-          "desc": "Нацеливается в первую очередь на <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженца</link></u></color>\nЕсли у цели есть <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженец</link></u></color>, увеличивает потенциал и счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1",
+          "name": "Так вы.. незваный гость?",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженца`]\nЕсли цель является [UninvitedGuest:`Вторженцем`], увеличивает наносимые этим навыком силу и счётчик [Sinking:`Утопания`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Увеличивает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженец</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest:`Вторженцем`], наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Увеличивает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             }
@@ -128,23 +128,23 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уходи, незваный гость",
-          "desc": "Нацеливается в первую очередь на <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженца</link></u></color>\nПолучает вес атаки, равный количеству врагов с <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженец</link></u></color>\n[WhenUse] Получает силу столкновения, равную количеству врагов с <sprite name=\"UninvitedGuest\"><color=#9f6a3a><u><link=\"UninvitedGuest\">Вторженец</link></u></color>",
+          "name": "Прочь, незваный гость",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest:`Вторженцев`]\nКоличество целей повышается на количество противников с эффектом [UninvitedGuest:`Вторженца`]\n[WhenUse] Получает силу столкновения, равную количеству врагов с [UninvitedGuest:`Вторженец`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Увеличивает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Вызывает <sprite name=\"SinkingSurge\"><color=#e30000><u><link=\"SinkingSurge\">Шквал утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
                 }
               ]
             }
@@ -157,13 +157,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мой мастер",
-          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыка",
+          "name": "Мой господин",
+          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыков",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 }
               ]
             }
@@ -176,13 +176,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мой трагичный мастер",
-          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыка",
+          "name": "Мой трагичный господин",
+          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыков",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -195,7 +195,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мастер...?",
+          "name": "Господин...?",
           "desc": "",
           "coinlist": [
             {
@@ -234,12 +234,12 @@
         {
           "level": 1,
           "name": "Рогатый натиск",
-          "desc": "[WhenUse] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -253,19 +253,19 @@
         {
           "level": 1,
           "name": "Таранный натиск",
-          "desc": "[WhenUse] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -279,12 +279,12 @@
         {
           "level": 1,
           "name": "Плач агнца",
-          "desc": "[WhenUse] Получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -298,19 +298,19 @@
         {
           "level": 1,
           "name": "Управление молнией",
-          "desc": "[WhenUse] Получает +2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color> Счётчик",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> в следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> в следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующий ход"
                 }
               ]
             }
@@ -324,26 +324,26 @@
         {
           "level": 1,
           "name": "Электрическое блеяние",
-          "desc": "[WhenUse] Вес атаки +1 за каждые 4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (макс. 5)\n[WhenUse] Сила столкновения +3 за каждые 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (макс. 4)\n[WhenUse] Получает 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color> за каждые 6 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (макс. 3)\n[EndBattle] Все счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе истекают. Теряет <sprite name=\"ConnectedPlug\"><color=#e30000><u><link=\"ConnectedPlug\">Подключение</link></u></color>",
+          "desc": "[WhenUse] Количество целей +1 за каждые 4 счётчика своего [Charge:`Заряда`] (До 5)\n[WhenUse] Сила в столкновении +3 за каждые 5 счётчика своего [Charge:`Заряда`] (До 4)\n[WhenUse] Получает 1 [VioletDamageUp:`Повышение урона Завистью`] за каждые 6 счётчика своего [Charge:`Заряда`] (До 3)\n[EndBattle] Тратит весь свой счётчик [Charge:`Заряда`] и всё [ConnectedPlug:`Подключение`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 4 [AttackDown:`Понижения уровня атаки`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             }
@@ -357,7 +357,7 @@
         {
           "level": 1,
           "name": "Электрическое блеяние",
-          "desc": "[CantDuel]\n[WhenUse] Получает 10 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Вес атаки +1 за каждые 4 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (макс. 5)\n[WhenUse] Сила столкновения +3 за каждые 5 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (макс. 4)\n[WhenUse] Получает 1 <sprite name=\"VioletDamageUp\"><color=#f8c200><u><link=\"VioletDamageUp\">Повышение урона Завистью</link></u></color> за каждые 6 счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на себе (макс. 3)",
+          "desc": "[CantDuel]\n[WhenUse] Получает 10 [Protection:`Защищённости`]\n[WhenUse] Количество целей +1 за каждые 4 счётчика своего [Charge:`Заряда`] (До 5)\n[WhenUse] Сила в столкновении +3 за каждые 5 счётчика своего [Charge:`Заряда`] (До 4)\n[WhenUse] Получает 1 [VioletDamageUp:`Повышение урона Завистью`] за каждые 6 счётчика своего [Charge:`Заряда`] (До 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -376,19 +376,19 @@
         {
           "level": 1,
           "name": "Отказ от заземления",
-          "desc": "Выбирает цели с <sprite name=\"AntiSheepGround\"><color=#f8c200><u><link=\"AntiSheepGround\">Антиовечьим заземляющим штекером</link></u></color>\nСила столкновения +1 за каждое <sprite name=\"ConnectedPlug\"><color=#e30000><u><link=\"ConnectedPlug\">Подключение</link></u></color>\n[StartBattle] Получает 2(3 - <sprite name=\"ConnectedPlug\"><color=#e30000><u><link=\"ConnectedPlug\">Подключение</link></u></color>) <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\n[WhenUse] Получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[DefeatDuel] Если у цели есть <sprite name=\"AntiSheepGround\"><color=#f8c200><u><link=\"AntiSheepGround\">Антиовечий заземляющий штекер</link></u></color>, получает 1 <sprite name=\"ConnectedPlug\"><color=#e30000><u><link=\"ConnectedPlug\">Подключение</link></u></color>",
+          "desc": "Выбирает цели с [AntiSheepGround:`Антиовечьим заземляющим штекером`]\nСила в столкновении +1 за каждое [ConnectedPlug:`Подключение`]\n[StartBattle] Получает (2 × (3 - количество [ConnectedPlug:`Подключения`]))[Protection:`Защищённости`]\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 1\n[DefeatDuel] Если у цели есть [AntiSheepGround:`Антиовечий заземляющий штекер`], получает 1 [ConnectedPlug:`Подключение`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
                 }
               ]
             }
@@ -401,13 +401,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Выпуск перезаряда",
+          "name": "Выпуск избыточного заряда",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> в следующем ходу"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 }
               ]
             }
@@ -421,19 +421,19 @@
         {
           "level": 1,
           "name": "Всепоглощающая покорность",
-          "desc": "Если у цели 6+ <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>, Сила монеты +1\n[WinDuel] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -447,26 +447,26 @@
         {
           "level": 1,
           "name": "Удушающее отчаяние",
-          "desc": "Сила монеты +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на цели (макс. 2)\n[WinDuel] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 3\n[DefeatDuel] Уменьшает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 1",
+          "desc": "Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 3\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -479,34 +479,34 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Разрушитель цепей",
-          "desc": "Если у цели есть <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color>, Сила столкновения +1\n[WinDuel] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 4\n[DefeatDuel] Уменьшает потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2",
+          "name": "Разрушение цепей",
+          "desc": "Сила в столкновения +1 против целей со [Binding:`Связыванием`]\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 4\n[DefeatDuel] Уменьшает силу [Sinking:`Утопания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 }
               ]
             }
@@ -520,19 +520,19 @@
         {
           "level": 1,
           "name": "Цепи связывания",
-          "desc": "Сила монеты + за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> у цели (максимум 2)\n[DefeatDuel] Уменьшает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2\n[DefeatDuel] Применяет <sprite name=\"BandageOfTheBoundKing\"><color=#f8c200><u><link=\"BandageOfTheBoundKing\">Повязки Связанного короля</link></u></color>",
+          "desc": "Сила монет +1 за каждые 6 [Sinking:`Утопания`] у цели (максимум 2)\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Накладывает [BandageOfTheBoundKing:`Узы Связанного короля`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color> на следующий ход\n[OnSucceedAttack] Наносит <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> равный <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопанию</link></u></color> цели"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход\n[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве [Sinking:`Утопания`] цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокацию Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -545,13 +545,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ты утонешь",
-          "desc": "Если у цели есть <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывание</link></u></color>, Сила столкновения +1\n[WinDuel] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 2\n[DefeatDuel] Уменьшает потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на 4",
+          "name": "Ты сгинешь",
+          "desc": "Сила в столкновения +1 против целей со [Binding:`Связыванием`]\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Уменьшает силу [Sinking:`Утопания`] на 4",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Вызывает <sprite name=\"SinkingSurge\"><color=#e30000><u><link=\"SinkingSurge\">Шквал утопания</link></u></color>"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
                 }
               ]
             }
@@ -565,15 +565,15 @@
         {
           "level": 1,
           "name": "Предстань пред королём",
-          "desc": "[CantDuel]\n[StartBattle] Получает 5 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Связывания</link></u></color>, 1 <sprite name=\"ComeForwardToTheKing\"><color=#f8c200><u><link=\"ComeForwardToTheKing\">Момент Внимания</link></u></color> и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[WhenUse] Применяет 300 Защиты к целям с <sprite name=\"BandageOfTheBoundKing\"><color=#f8c200><u><link=\"BandageOfTheBoundKing\">Повязками Связанного короля</link></u></color>",
+          "desc": "[CantDuel]\n[StartBattle] Получает 5 [Binding:`Связывания`], 1 [ComeForwardToTheKing:`Момент аудиенции`] и 2 [Enhancement:`Повышения силы атаки`] на следующий ход\n[WhenUse] Цели с [BandageOfTheBoundKing:`Узами Связанного короля`] получают 300 щита",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот персонаж нанёс урон цели, наносит <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color> равный <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопанию</link></u></color> цели"
+                  "desc": "[OnSucceedAttack] Удалось нанести урон цели, наносит [Vibration:`Тремор`] в количестве [Sinking:`Утопания`] цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокацию Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
                 }
               ]
             }
@@ -586,7 +586,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Портрет мастера",
+          "name": "Портрет господина",
           "desc": "",
           "coinlist": [
             {

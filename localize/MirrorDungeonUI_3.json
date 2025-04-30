@@ -26,11 +26,11 @@
     },
     {
       "id": "ego_gift_upgrade_confirm_format",
-      "content": "Желаете улучшить ЭГО дар за <color=#F8C200>{0}</color> стоимости?"
+      "content": "[font=pretendard]Желаете улучшить ЭГО дар за <color=#F8C200>{0}</color> стоимости?"
     },
     {
       "id": "ego_gift_upgrade_not_enough_cost_format",
-      "content": "Не хватает <color=#990000>{0}</color> стоимости для улучшения Дара."
+      "content": "[font=pretendard]Не хватает <color=#990000>{0}</color> стоимости для улучшения Дара."
     },
     {
       "id": "ego_gift_combine_ui_title",
@@ -50,7 +50,7 @@
     },
     {
       "id": "ego_gift_combine_ui_main_text",
-      "content": "Желаете соединить выбранные ЭГО Дары?"
+      "content": "[font=pretendard]Желаете соединить выбранные ЭГО Дары?"
     },
     {
       "id": "mirror_dungeon3_normal_reward_info",
@@ -74,7 +74,7 @@
     },
     {
       "id": "mirror_dungeon3_entrance_hard_hint_before_release",
-      "content": "Пройдите Песнь IV\nдля открытия подземелья"
+      "content": "[font=pretendard]Пройдите Песнь IV\nдля открытия подземелья"
     },
     {
       "id": "mirror_dungeon3_start_buff_summary_detail",
@@ -102,7 +102,7 @@
     },
     {
       "id": "ego_gift_sell_confirm_format",
-      "content": "Желаете продать [{0}] за {1} стоимости?"
+      "content": "[font=pretendard]Желаете продать [{0}] за {1} стоимости?"
     },
     {
       "id": "mirror_dungeon_3_start_buff_name",
@@ -114,7 +114,7 @@
     },
     {
       "id": "mirror_dungeon_give_up_getting_ego_gift_with_enemy_buff",
-      "content": "Если вы откажетесь от ЭГО Дара, в случайном порядке будет выбрано усиление."
+      "content": "[font=pretendard]Если вы откажетесь от ЭГО Дара, в случайном порядке будет выбрано усиление."
     },
     {
       "id": "mirror_dungeon_shop_could_not_refresh",

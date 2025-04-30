@@ -45,6 +45,30 @@ singular_keywords = [
 font = "pretendard"
 path = '$.dataList[*].content'
 
+[[font_rules."UserTicket*.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
+[[font_rules."UserBanner*.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
+[[font_rules."ActionEvents*.json"]]
+font = "mikodacs"
+path = '$.dataList[*].options[*].message'
+
+[[font_rules."PanicInfo*.json"]]
+font = "mikodacs"
+path = '$.dataList[*].panicName'
+
+[[font_rules."MirrorDungeonTheme-1.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
+[[font_rules."TutorialMainUIText.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
 [[font_rules."SeasonTitle.json"]]
 font = "bebas"
 path = '$.dataList[*].content'
@@ -54,24 +78,44 @@ font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."BattlePass_Mission.json"]]
-font = "mikodacs"
+font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."BattlePass.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
 
+[[font_rules."BattlePass_Banner-a1c7.json"]]
+font = "bebas"
+path = '$.dataList[*].content'
+
 [[font_rules."MainUIText_UPDATE_ON_0720.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
 
-[[font_rules."StageChapterText.json"]]
+[[font_rules."StageChapterText*.json"]]
 font = "mikodacs"
 path = '$.dataList[*].chaptertitle'
 
-[[font_rules."StageChapterText.json"]]
+[[font_rules."StageChapterText*.json"]]
 font = "bebas"
 path = '$.dataList[*].chapter'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].company'
+
+[[font_rules."StageChapterText*.json"]]
+font = "bebas"
+path = '$.dataList[*].area'
+
+[[font_rules."StoryTheaterOther.json"]]
+font = "mikodacs"
+path = '$.dataList[*].title'
+
+[[font_rules."StagePartText.json"]]
+font = "mikodacs"
+path = '$.dataList[*].parttitle'
 
 [[font_rules."AttributeText.json"]]
 font = "mikodacs"
@@ -89,20 +133,16 @@ path = '$.dataList[*].content'
 font = "pretendard"
 path = '$.dataList[*].content'
 
-[[font_rules."MirrorDungeonUI.json"]]
-font = "mikodacs"
-path = '$.dataList[*].content'
-
 [[font_rules."MirrorDungeonName.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
 
-[[font_rules."MirrorDungeonUI_3.json"]]
+[[font_rules."MirrorDungeonUI*.json"]]
 font = "mikodacs"
 path = '$.dataList[*].content'
 
-[[font_rules."MirrorDungeonUI_4.json"]]
-font = "mikodacs"
+[[font_rules."MirrorDungeonUI_5_InfinityFloor.json"]]
+font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."BattleUIText.json"]]
@@ -111,6 +151,30 @@ path = '$.dataList[*].content'
 
 [[font_rules."RailwayDungeonUI.json"]]
 font = "mikodacs"
+path = '$.dataList[*].content'
+
+[[font_rules."RailwayDungeonUI_2.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
+[[font_rules."RailwayDungeonUI_4.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
+[[font_rules."RailwayDungeonUI_5.json"]]
+font = "pretendard"
+path = '$.dataList[*].content'
+
+[[font_rules."RailwayDungeon.json"]]
+font = "mikodacs"
+path = '$.dataList[*].name'
+
+[[font_rules."RailwayDungeon.json"]]
+font = "mikodacs"
+path = '$.dataList[*].longName'
+
+[[font_rules."StoryDungeonUI.json"]]
+font = "pretendard"
 path = '$.dataList[*].content'
 
 [[font_rules."Announcer*.json"]]
@@ -162,8 +226,8 @@ font = "mikodacs"
 path = '$.dataList.[*].levelList.[*].name'
 
 [[font_rules."Assist-a1c7p2.json"]]
-font = "name"
-path = '$.dataList[*].content'
+font = "mikodacs"
+path = '$.dataList[*].name'
 
 [[font_rules."Skills*.json"]]
 font = "mikodacs"

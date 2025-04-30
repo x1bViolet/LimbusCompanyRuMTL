@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "story_dungeon_return_to_savepoint_title",
-      "content": "Команда уничтожена"
+      "content": "[font=mikodacs]Команда уничтожена"
     },
     {
       "id": "story_dungeon_return_to_savepoint_content",
@@ -10,15 +10,15 @@
     },
     {
       "id": "story_dungeon_give_up",
-      "content": "Бросить"
+      "content": "[font=mikodacs]Бросить"
     },
     {
       "id": "story_dungeon_to_main",
-      "content": "Главное меню"
+      "content": "[font=mikodacs]Главное меню"
     },
     {
       "id": "story_dungeon_continue",
-      "content": "Продолжить"
+      "content": "[font=mikodacs]Продолжить"
     },
     {
       "id": "story_ask_move_to_main",
@@ -34,31 +34,31 @@
     },
     {
       "id": "dungeon_encounter_guide_start",
-      "content": "Начало этажа"
+      "content": "[font=mikodacs]Начало этажа"
     },
     {
       "id": "dungeon_encounter_guide_battle",
-      "content": "Обычное столкновение"
+      "content": "[font=mikodacs]Обычное столкновение"
     },
     {
       "id": "dungeon_encounter_guide_ab_battle",
-      "content": "Столкновение с аномалией"
+      "content": "[font=mikodacs]Столкновение с аномалией"
     },
     {
       "id": "dungeon_encounter_guide_hard_battle",
-      "content": "Рискованное столкновение"
+      "content": "[font=mikodacs]Рискованное столкновение"
     },
     {
       "id": "dungeon_encounter_guide_event",
-      "content": "Событие"
+      "content": "[font=mikodacs]Событие"
     },
     {
       "id": "dungeon_encounter_guide_save",
-      "content": "Точка сохранения"
+      "content": "[font=mikodacs]Точка сохранения"
     },
     {
       "id": "dungeon_encounter_guide_boss",
-      "content": "Столкновение с боссом"
+      "content": "[font=mikodacs]Столкновение с боссом"
     },
     {
       "id": "dungeon_enter_save_point",
@@ -70,7 +70,7 @@
     },
     {
       "id": "dungeon_save_completion",
-      "content": "Прогресс сохранён"
+      "content": "[font=mikodacs]Прогресс сохранён"
     },
     {
       "id": "dungeon_save_completion_content",
@@ -78,7 +78,7 @@
     },
     {
       "id": "dungeon_return_to_save_point",
-      "content": "К точке сохранения"
+      "content": "[font=mikodacs]К точке сохранения"
     }
   ]
 }

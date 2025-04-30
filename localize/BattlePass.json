@@ -74,15 +74,15 @@
     },
     {
       "id": "remain_days_with_label",
-      "content": "Дней:{0}"
+      "content": "[font=pretendard]Дней: {0}"
     },
     {
       "id": "remain_hours_with_label",
-      "content": "Часов:{0}"
+      "content": "[font=pretendard]Часов: {0}"
     },
     {
       "id": "remain_minutes_with_label",
-      "content": "Минут:{0}"
+      "content": "[font=pretendard]Минут: {0}"
     },
     {
       "id": "update_progress",
@@ -242,19 +242,19 @@
     },
     {
       "id": "battle_pass_package_button_desc_with_limbus_2",
-      "content": "◆ Сразу при покупке получите 10 уровней Пасса\n◆ Получите особый баннер\n◆ Получите Билет скачка уровня IV"
+      "content": "[font=pretendard]◆ Сразу при покупке получите 10 уровней Пасса\n◆ Получите особый баннер\n◆ Получите Билет скачка уровня IV"
     },
     {
       "id": "battle_pass_product_limbus_desc_summary",
-      "content": "◆ Разблокируйте награды Лимбус Пасса\n◆ Получайте больше наград после достижения макс. уровня Пасса"
+      "content": "[font=pretendard]◆ Разблокируйте награды Лимбус Пасса\n◆ Получайте больше наград после достижения макс. уровня Пасса"
     },
     {
       "id": "battle_pass_product_package_with_limbus_desc_summary",
-      "content": "◆ Лимбус Пасс 4 Сезона\n◆ Сразу при покупке получите 10 уровней Пасса\nПолучите Билет скачка уровня IV\n◆ Получите особый баннер пака с Лимбус Пассом"
+      "content": "[font=pretendard]◆ Лимбус Пасс 4 Сезона\n◆ Сразу при покупке получите 10 уровней Пасса\nПолучите Билет скачка уровня IV\n◆ Получите особый баннер пака с Лимбус Пассом"
     },
     {
       "id": "battle_pass_product_package_without_limbus_desc_summary",
-      "content": "◆ Сразу при покупке получите 10 уровней Пасса\nПолучите Билет скачка уровня IV\n◆ Получите особый баннер пака с Лимбус Пассом"
+      "content": "[font=pretendard]◆ Сразу при покупке получите 10 уровней Пасса\nПолучите Билет скачка уровня IV\n◆ Получите особый баннер пака с Лимбус Пассом"
     },
     {
       "id": "battle_pass_sale_10",

@@ -11,21 +11,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -44,7 +44,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 4"
                 }
               ]
             }
@@ -63,14 +63,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 5"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 5"
                 }
               ]
             }
@@ -84,15 +84,15 @@
         {
           "level": 1,
           "name": "Ракушечная атака!!!",
-          "desc": "[CantIdentify] Наносит на 20% больше урона за каждые 5 счётчиков <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели",
+          "desc": "[CantIdentify] Наносит на 20% больше урона за каждые 5 счётчика [Burst:`Разрыва`] цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 5"
                 }
               ]
             }
@@ -106,12 +106,12 @@
         {
           "level": 1,
           "name": "Крабовый рейв",
-          "desc": "[CantIdentify] На 20% больше урона за каждые 5 счётчиков <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цели\n[EndSkill] Призывает 3 Краба при наличии на поле боя менее 5 Крабов к концу хода (До 5)",
+          "desc": "[CantIdentify] На 20% больше урона за каждые 5 счётчика [Burst:`Разрыва`] цели\n[EndSkill] Призывает 3 Краба при наличии на поле боя менее 5 Крабов к концу хода (До 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`]"
                 }
               ]
             }
@@ -125,7 +125,7 @@
         {
           "level": 1,
           "name": "Пенная броня",
-          "desc": "[StartBattle] При получении атаки при наличии ОЗ щита, наносит 7 урона атаковавшему и 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>",
+          "desc": "[StartBattle] При получении атаки по щиту наносит атаковавшму 7 урона и 1 [Burst:`Разрыв`]",
           "coinlist": [
             {}
           ]
@@ -138,7 +138,7 @@
         {
           "level": 1,
           "name": "Пенная броня",
-          "desc": "[StartBattle] При получении атаки при наличии ОЗ щита, наносит 7 урона атаковавшему и 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>",
+          "desc": "[StartBattle] При получении атаки при наличии ОЗ щита, наносит 7 урона атаковавшему и 1 [Burst:`Разрыв`]",
           "coinlist": [
             {}
           ]
