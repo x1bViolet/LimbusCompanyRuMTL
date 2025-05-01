@@ -1098,7 +1098,7 @@
         {
           "level": 1,
           "name": "Пусть всё расцветёт",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodArmorPersonalityFirst:`Кровавую броню`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 5 [Laceration:`Кровотечения`]\n[BeforeAttack] Вес атаки +1 при 10 и более [BloodArmorPersonalityFirst:`Кровавой брони`]",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodArmorPersonalityFirst:`Кровавую броню`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 5 [Laceration:`Кровотечения`]\n[BeforeAttack] Количество целей +1 при 10 и более [BloodArmorPersonalityFirst:`Кровавой брони`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1122,7 +1122,7 @@
         {
           "level": 2,
           "name": "Пусть всё расцветёт",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodArmorPersonalityFirst:`Кровавую броню`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 5 [Laceration:`Кровотечения`]\n<style=\"highlight\">[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Сила монет +1</style>\n[BeforeAttack] Вес атаки +1 <style=\"highlight\">за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)</style>",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodArmorPersonalityFirst:`Кровавую броню`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 5 [Laceration:`Кровотечения`]\n<style=\"highlight\">[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Сила монет +1</style>\n[BeforeAttack] Количество целей +1 <style=\"highlight\">за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1146,7 +1146,7 @@
         {
           "level": 4,
           "name": "Пусть всё расцветёт",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodArmorPersonalityFirst:`Кровавую броню`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 5 [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[BeforeAttack] Вес атаки +1 за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 50 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodArmorPersonalityFirst:`Кровавую броню`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`]\n- Если не удалось поглотить [BloodDinner:`Кровавое пиршество`], получает 5 [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[BeforeAttack] Количество целей +1 за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1345,7 +1345,7 @@
         {
           "level": 1,
           "name": "Вариант искусства затвердевшей крови Санчо 8 - Разрезание",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Вес атаки +1 при 10 и более [BloodArmorPersonalityFirst:`Кровавой брони`]\n[EndSkill] Если навык имел увеличенный Вес атаки, тратит 10 [BloodArmorPersonalityFirst:`Кровавой брони`]",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Количество целей +1 при 10 и более [BloodArmorPersonalityFirst:`Кровавой брони`]\n[EndSkill] Если навык имел повышенное Количество целей, тратит 10 [BloodArmorPersonalityFirst:`Кровавой брони`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1379,7 +1379,7 @@
         {
           "level": 2,
           "name": "Вариант искусства затвердевшей крови Санчо 8 - Разрезание",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[BeforeAttack] Вес атаки +1 <style=\"highlight\">за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)</style>\n[EndSkill] Тратит 10 [BloodArmorPersonalityFirst:`Кровавой брони`] <style=\"highlight\">за каждое повышение Веса атаки</style>",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[BeforeAttack] Количество целей +1 <style=\"highlight\">за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)</style>\n[EndSkill] Тратит 10 [BloodArmorPersonalityFirst:`Кровавой брони`] <style=\"highlight\">за каждую дополнительную цель</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1413,7 +1413,7 @@
         {
           "level": 4,
           "name": "Вариант искусства затвердевшей крови Санчо 8 - Разрезание",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Вес атаки +1 за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)\n[EndSkill] Тратит 10 [BloodArmorPersonalityFirst:`Кровавой брони`] за каждое повышение Веса атаки",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 30% от нанесённого урона (До 10)\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Количество целей +1 за каждые 10 [BloodArmorPersonalityFirst:`Кровавой брони`] (До 2)\n[EndSkill] Тратит 10 [BloodArmorPersonalityFirst:`Кровавой брони`] за каждую дополнительную цель",
           "coinlist": [
             {
               "coindescs": [

@@ -736,7 +736,7 @@
         {
           "level": 2,
           "name": "Траурный марш",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Вес атаки +1 при 4 и более [Coffin:`Гробах`]\n[WhenUse] Вес атаки +1, если Хитклиф оседлал [NightPathfinding:`Дуллахана`]</style>\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], он теряет 10 СД",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Количество целей +1 при 4 и более [Coffin:`Гробах`]\n[WhenUse] Количество целей +1, если Хитклиф оседлал [NightPathfinding:`Дуллахана`]</style>\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], он теряет 10 СД",
           "coinlist": [
             {},
             {
@@ -761,7 +761,7 @@
         {
           "level": 4,
           "name": "Траурный марш",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Вес атаки +1 <style=\"highlight\">за каждые 4 [Coffin:`Гроба`] (До 2)</style>\n[WhenUse] Вес атаки +1, если Хитклиф оседлал [NightPathfinding:`Дуллахана`]\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], он теряет 10 СД",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Количество целей +1 <style=\"highlight\">за каждые 4 [Coffin:`Гроба`] (До 2)</style>\n[WhenUse] Количество целей +1, если Хитклиф оседлал [NightPathfinding:`Дуллахана`]\n[EndSkill] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], он теряет 10 СД",
           "coinlist": [
             {},
             {
