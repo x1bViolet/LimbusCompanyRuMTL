@@ -1270,7 +1270,7 @@
     },
     {
       "id": "mainui_acquire_user_ticker_deco",
-      "content": "(Вы не должны были этого видеть, Данте-дуранте)"
+      "content": "Предмет получен"
     },
     {
       "id": "last_battlepass_season_level",
@@ -1422,11 +1422,11 @@
     },
     {
       "id": "cannot_exit_node_after_enter_by_force_alice_character",
-      "content": "После захода на этот этап, вы не сможете переходить в другие этапы; {0} полностью восстановит своё здоровье и СД вернётся к 0.\nЖелаете продолжить?"
+      "content": "[font=pretendard]После захода на этот этап, вы не сможете переходить в другие этапы; {0} полностью восстановит своё здоровье и СД вернётся к 0.\nЖелаете продолжить?"
     },
     {
       "id": "story_dungeon_4_first_open_popup_desc",
-      "content": "В этом подземелье нельзя брать идентичность Поддержки для И Сана. И Сан обязан участвовать во всех битвах."
+      "content": "[font=pretendard]В этом подземелье нельзя брать идентичность Поддержки для И Сана. И Сан обязан участвовать во всех битвах."
     },
     {
       "id": "attack_level",
@@ -1602,19 +1602,19 @@
     },
     {
       "id": "gacha_rate_info_wa2",
-      "content": "При повторном извлечении Комментатора вы получаете ящики Звеньев.\n\nПри переходе на следующий сезон ящики Звеньев переносятся без изменений."
+      "content": "[font=pretendard]При повторном извлечении Комментатора вы получаете ящики Звеньев.\n\nПри переходе на следующий сезон ящики Звеньев переносятся без изменений."
     },
     {
       "id": "login_scene_mini_story_warning_spoiler_format",
-      "content": "Эта история происходит после Песни {0}. Желаете её просмотреть?"
+      "content": "[font=pretendard]Эта история происходит после Песни {0}. Желаете её просмотреть?"
     },
     {
       "id": "notice_of_pity_point_already_have_announcer",
-      "content": "У Вас уже есть этот комментатор. Желаете потратить 200 Исанов[Совершенства] для получения 50-и ящиков Звеньев?"
+      "content": "[font=pretendard]У Вас уже есть этот комментатор. Желаете потратить 200 Исанов[Совершенства] для получения 50-и ящиков Звеньев?"
     },
     {
       "id": "gacha_rate_info_announcer1",
-      "content": "В зависимости от шансов извлечения, описанных выше, вы можете получить идентичности, ЭГО или комментаторов, указанных ниже.\n\nИдентичности, ЭГО и комментаторы в извлечениях могут измениться в зависимости от сезона и, в таких случаях, вы будете заранее предупреждены о подобных изменениях."
+      "content": "[font=pretendard]В зависимости от шансов извлечения, описанных выше, вы можете получить идентичности, ЭГО или комментаторов, указанных ниже.\n\nИдентичности, ЭГО и комментаторы в извлечениях могут измениться в зависимости от сезона и, в таких случаях, вы будете заранее предупреждены о подобных изменениях."
     },
     {
       "id": "mainui_battleresult_ordeal_victory",
@@ -1638,7 +1638,7 @@
     },
     {
       "id": "for_n_days",
-      "content": "{0}-й день"
+      "content": "[font=pretendard]{0}-й день"
     },
     {
       "id": "all_personalities",
@@ -1650,15 +1650,15 @@
     },
     {
       "id": "leap_up_able_uptie_tier_and_level",
-      "content": "Возможен скачок уровня идентичности и её Связи"
+      "content": "[font=pretendard]Возможен скачок уровня идентичности и её Связи"
     },
     {
       "id": "leap_up_able_uptie_tier",
-      "content": "Возможен скачок уровня Связи"
+      "content": "[font=pretendard]Возможен скачок уровня Связи"
     },
     {
       "id": "leap_up_able_level",
-      "content": "Возможен скачок уровня идентичности"
+      "content": "[font=pretendard]Возможен скачок уровня идентичности"
     },
     {
       "id": "leap_up_confim_title",
@@ -1670,15 +1670,15 @@
     },
     {
       "id": "leap_up_confim_caution_uptie",
-      "content": "Вы не сможете соверщить скачок уровня Связи"
+      "content": "[font=pretendard]Вы не сможете совершить скачок уровня Связи"
     },
     {
       "id": "leap_up_confim_caution_level",
-      "content": "Вы не сможете соверщить скачок уровня этой идентичности."
+      "content": "[font=pretendard]Вы не сможете совершить скачок уровня этой идентичности."
     },
     {
       "id": "leap_up_confim_last_question",
-      "content": "Вы желаете потратить<color=#F8C200>{0}</color>?"
+      "content": "[font=pretendard]Вы желаете потратить <color=#F8C200>{0}</color>?"
     },
     {
       "id": "expiration_date",
@@ -1855,6 +1855,82 @@
     {
       "id": "paid_lunacy_ui",
       "content": "Платное Безумство"
+    },
+    {
+      "id": "story_unable_to_skip",
+      "content": "Эту историю нельзя пропустить"
+    },
+    {
+      "id": "remote_download_quit_game",
+      "content": "[font=pretendard]Обновление было добавлено\nПерезайдите для его установки"
+    },
+    {
+      "id": "mainui_settings_battle_speech",
+      "content": "[font=pretendard]Субтитры в бою"
+    },
+    {
+      "id": "unable_to_upgrade_sync_level_by_main_story_1",
+      "content": "[font=pretendard]Ур. связи\nповышается после\nI Песни"
+    },
+    {
+      "id": "unable_to_upgrade_sync_level_by_main_story_2",
+      "content": "[font=pretendard]Ур. связи\nповышается после\nII Песни"
+    },
+    {
+      "id": "exp_dungeon_opened_desc",
+      "content": "Светодобыча опыта была разблокирована"
+    },
+    {
+      "id": "abnormality_tutorial_battle_participate_desc",
+      "content": "Выберите 5 грешников для этой битвы"
+    },
+    {
+      "id": "thread_dungeon_opened_desc",
+      "content": "Светодобыча звеньев была разблокирована"
+    },
+    {
+      "id": "mirror_dungeon_opened_desc",
+      "content": "Зеркальное подземелье было разблокировано"
+    },
+    {
+      "id": "ego_gift_combine_explain_title",
+      "content": "Рецепты слияния"
+    },
+    {
+      "id": "ego_gift_combine_explain_label_keyword",
+      "content": "Ключевые слова"
+    },
+    {
+      "id": "ego_gift_combine_explain_label_attack_type",
+      "content": "Тип атаки"
+    },
+    {
+      "id": "ego_gift_combine_explain_label_etc",
+      "content": "Другое"
+    },
+    {
+      "id": "ego_gift_combine_explain_button_label",
+      "content": "Рецепты"
+    },
+    {
+      "id": "ego_gift_combine_explain_no_item_list",
+      "content": "[font=pretendard]Нет связанных рецептов слияния"
+    },
+    {
+      "id": "ego_gift_combine_explain_required_label",
+      "content": "[font=pretendard]{1} из {0}"
+    },
+    {
+      "id": "attendance_event_s6_desc",
+      "content": "[font=pretendard]Получайте награды за вход во время ивента.\n\nСоберите все 14 наград для получения всех наград."
+    },
+    {
+      "id": "formation_none_selected_desc",
+      "content": "[font=pretendard]Вы не выбрали грешников\n\nВыберите грешников, чтобы изменить их порядок"
+    },
+    {
+      "id": "ego_gift_category_current_theme",
+      "content": "Особый рецепт слияния для темы"
     }
   ]
 }

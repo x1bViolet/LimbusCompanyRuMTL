@@ -539,6 +539,10 @@
     {
       "id": "lack_of_point_for_shop_without_new_line",
       "content": "[font=pretendard]Недостаточно стоимости"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift_ask_with_random_category",
+      "content": "Продолжить без выбора ЭГО дара?\n\nЕсли вы продлжите без выбора ЭГО дара,\nих ключевые слова будут выбраны\nслучайным образом."
     }
   ]
 }
