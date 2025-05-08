@@ -237,6 +237,10 @@
       "name": "[При неудавшемся убийстве союзника]"
     },
     {
+      "id": "TabExplain",
+      "name": ""
+    },
+    {
       "id": "UnBrokenCoinOnSucceedAttack",
       "name": "[При попадании целой монетой]"
     },
