@@ -290,7 +290,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [BloodScissorScars:`Глубокий порез`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Делает [LineCutting:`Целью шитья`] в следующем ходу"
+                  "desc": "[OnSucceedAttack] Делает [LineCutting:`Целью шитья`] в следующем ходе"
                 }
               ]
             }

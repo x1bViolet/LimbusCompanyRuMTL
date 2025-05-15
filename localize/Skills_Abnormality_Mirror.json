@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 808202,
@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Держание",
-          "desc": "[StartBattle] Кладёт [MarkOfHeresy:`Взор`] на цель в следующем ходу",
+          "desc": "[StartBattle] Кладёт [MarkOfHeresy:`Взор`] на цель в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
@@ -67,21 +67,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвозди Корп. N`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвоздь Корп. N`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвозди Корп. N`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвоздь Корп. N`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвозди Корп. N`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвоздь Корп. N`] на следующий ход"
                 }
               ]
             }
@@ -95,33 +95,33 @@
         {
           "level": 1,
           "name": "Очищение",
-          "desc": "[WhenUse] Если ОЗ цели ниже 30%, Сила навыка +2",
+          "desc": "[WhenUse] Сила навыка +2, если ОЗ цели ниже 30%",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвозди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвоздь Корп. N`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвозди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвоздь Корп. N`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвозди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Nail:`Гвоздь Корп. N`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели 5+ [Nail:`Гвозди Корп. N`], оглушает её и убирает все [NailPersonality:`Гвозди`]"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], она оглушается в следующем ходе, теряя все [NailPersonality:`Гвозди Корп. N`]"
                 }
               ]
             }
@@ -358,7 +358,7 @@
         {
           "level": 1,
           "name": "Почтённое держание",
-          "desc": "[WhenUse] Если ОЗ цели ниже 30%, на 100% больше урона",
+          "desc": "[WhenUse] Наносит на 100% больше урона, если ОЗ цели ниже 30%",
           "coinlist": [
             {
               "coindescs": [
@@ -377,7 +377,7 @@
         {
           "level": 1,
           "name": "Покайтесь!!",
-          "desc": "[WhenUse] Если ОЗ цели ниже 30%, на 100% больше урона",
+          "desc": "[WhenUse] Наносит на 100% больше урона, если ОЗ цели ниже 30%",
           "coinlist": [
             {
               "coindescs": [
@@ -872,7 +872,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [ElectricStorage:`Конденсатор`], наносит 40% от нанесённого урона фиксированным уроном"
+                  "desc": "[OnSucceedAttack] Если на цели есть [ElectricStorage:`Конденсатор`], наносит 40% от нанесённого урона фиксированным уроном"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] и 1 [ElectricStorage:`Конденсатор`]"
@@ -889,7 +889,7 @@
         {
           "level": 1,
           "name": "Свернуться",
-          "desc": "Если этот навык находится на слоте навыков, получает щит, равный текущим ОЗ головы",
+          "desc": "Получает щит, равный текущим ОЗ головы",
           "coinlist": [
             {}
           ]
@@ -922,7 +922,7 @@
         {
           "level": 1,
           "name": "Извивающийся хвост",
-          "desc": "Нацеливается на противника с наименьшими ОЗ\n[WhenUse] Тратит 2 [SelfCharge:`Подзаряда`]\n[DefeatDuel] Теряет 2 [SelfCharge:`Подзаряда`]",
+          "desc": "Нацеливается на противника с наименьшими ОЗ\n[WhenUse] Тратит 2 [SelfCharge:`Подзаряда`]\n[DefeatDuel] Теряет 3 [SelfCharge:`Подзаряда`]",
           "coinlist": [
             {},
             {},
@@ -1051,7 +1051,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит на 15% больше урона за каждый Старый зонт"
+                  "desc": "[OnSucceedAttackHead] На 15% больше урона за каждый Старый зонт"
                 }
               ]
             }
@@ -1096,7 +1096,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и +2 счётчика [Burst:`Разрыв`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2 на следующий ход"
                 }
               ]
             }
@@ -1115,7 +1115,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Удваивает <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTag\">Приклеенные обереги проклятия</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Удваивает [WrappedCurseTag:`Приклеенные обереги проклятия`] цели"
                 }
               ]
             },
@@ -1143,7 +1143,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все <sprite name=\"ReattachedCurseTag_Re\"><color=#9f6a3a><u><link=\"ReattachedCurseTag\">Переклеенные обереги проклятия</link></u></color>",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`]",
           "coinlist": [
             {},
             {},
@@ -1155,7 +1155,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 5 [Binding:`Связываний`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 5 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -1182,7 +1182,7 @@
         {
           "level": 1,
           "name": "Растущее проклятие",
-          "desc": "[WhenUse] Удваивает <sprite name=\"WrappedCurseTagRe\"><color=#9f6a3a><u><link=\"WrappedCurseTagRe\">Приклеенные обереги проклятия</link></u></color> на цели",
+          "desc": "[WhenUse] Удваивает [WrappedCurseTag:`Приклеенные обереги проклятия`] цели",
           "coinlist": [
             {}
           ]
@@ -1195,7 +1195,7 @@
         {
           "level": 1,
           "name": "Хочешь выпить?",
-          "desc": "В столкновении даёт 1 [Exalted:`Повышение морали`]",
+          "desc": "[Wide] Даёт 1 [Exalted:`Повышение морали`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1214,7 +1214,7 @@
         {
           "level": 1,
           "name": "Выпьем вместе!",
-          "desc": "В столкновении даёт 2 [Exalted:`Повышения морали`]\n[WhenUse] Восстанавливает 5% ОЗ",
+          "desc": "[Wide] Даёт 1 [Exalted:`Повышение морали`]\n[WhenUse] Восстанавливает 5% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -1233,13 +1233,13 @@
         {
           "level": 1,
           "name": "На этом у меня всё!",
-          "desc": "В столкновении даёт 2 [Exalted:`Повышения морали`]\nВ приоритете противники [Vibration:`Тремором`]",
+          "desc": "[Wide] Даёт 2 [Exalted:`Повышения морали`]\nВ приоритете противники с [Vibration:`Тремором`]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] цели на все его счётчики"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] цели на весь его счётчик"
                 }
               ]
             }
@@ -1253,18 +1253,18 @@
         {
           "level": 1,
           "name": "Возьму-ка это!",
-          "desc": "[CantDuel]\nНельзя перехватить атаку\nПриоритет на противников с [Exalted:`Повышением морали`]\nЕсли у цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, Сила в столкновении +5",
+          "desc": "[CantDuel]\nВ приоритете противники с [Exalted:`Повышением морали`]\nЕсли у цели нет [Tipsiness:`Опьянения`], Сила в столкновении +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted:`Повышение морали`], наносит на 10% больше урона за каждый счётчик"
+                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted:`Повышение морали`], на 10% больше урона за каждое его значение"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянение</link></u></color>, наносит 0 урона и теряет 50 ОЗ"
+                  "desc": "[OnSucceedAttack] Если у цели есть [Tipsiness:`Опьянение`], не наносит урон и сам теряет 50 ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает все [Exalted:`Повышения морали`] или <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Убирает всё [Exalted:`Повышение морали`] или [Tipsiness:`Опьянение`]"
                 }
               ]
             }
@@ -1278,18 +1278,18 @@
         {
           "level": 1,
           "name": "Возьму-ка это!",
-          "desc": "Приоритет на противников с [Exalted:`Повышением морали`]\nЕсли у цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, Сила в столкновении +5",
+          "desc": "В приоритете противники с [Exalted:`Повышением морали`]\nЕсли у цели нет [Tipsiness:`Опьянения`], Сила в столкновении +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted:`Повышение морали`], наносит на 100% больше урона за каждый счётчик"
+                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted:`Повышение морали`], на 100% больше урона за каждый счётчик"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянение</link></u></color>, наносит 0 урона и теряет 50 ОЗ"
+                  "desc": "[OnSucceedAttack] Если у цели есть [Tipsiness:`Опьянение`], не наносит урон и сам теряет 50 ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает все [Exalted:`Повышения морали`] или <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Убирает всё [Exalted:`Повышение морали`] или [Tipsiness:`Опьянение`]"
                 }
               ]
             }
@@ -1308,7 +1308,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если атакует Вино феи, восстанавливает 10% ОЗ в следующем ходе и получает 2 [Enhancement:`Повышения силы атаки`], 2 [Agility:`Спешки`] и 2 [Protection:`Защищённости`]"
+                  "desc": "[OnSucceedAttack] Если атакует Вино феи, восстанавливает 10% ОЗ и в следующем ходе и получает 2 [Enhancement:`Повышения силы атаки`], 2 [Agility:`Спешки`] и 2 [Protection:`Защищённости`]"
                 }
               ]
             }
@@ -1335,7 +1335,7 @@
         {
           "level": 1,
           "name": "Вино феи",
-          "desc": "[WhenUse] Превращает [Exalted:`Повышение морали`] цели в <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянение</link></u></color>",
+          "desc": "[WhenUse] Превращает [Exalted:`Повышение морали`] цели в [Tipsiness:`Опьянение`]",
           "coinlist": [
             {}
           ]
@@ -1359,7 +1359,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 2 и более счётчика [Laceration:`Кровотечения`], наносит 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1410,7 +1410,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели 2 и более счётчика [Laceration:`Кровотечения`], Наносит 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1429,7 +1429,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Убирает все счётчики [Laceration:`Кровотечение`]"
+                  "desc": "[OnSucceedAttack] Тратит весь счётчик [Laceration:`Кровотечения`] цели"
                 }
               ]
             }
@@ -1448,7 +1448,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальных ОЗ за каждое [Laceration:`Кровотечение`] у цели\nУбирает все счётчики [Laceration:`Кровотечение`]"
+                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальных ОЗ за каждое [Laceration:`Кровотечение`] на цели\n[OnSucceedAttack] Тратит весь счётчик [Laceration:`Кровотечения`] цели"
                 }
               ]
             }
@@ -1472,18 +1472,7 @@
         {
           "level": 1,
           "name": "Золотой фрукт",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": "[DefeatDuel] Получает 20 урона"
-                },
-                {
-                  "desc": "[DefeatDuel] Теряет 1 [BeingGolden:`Золотой блеск`]"
-                }
-              ]
-            }
-          ]
+          "desc": "[DefeatDuel] Получает 20 урона и теряет 1 [BeingGolden:`Золотой блеск`]"
         }
       ]
     },

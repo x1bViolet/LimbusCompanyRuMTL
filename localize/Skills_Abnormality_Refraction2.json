@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Sinking:`Утопания`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
                 }
               ]
             },
@@ -56,7 +56,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
                 }
               ]
             },
@@ -82,7 +82,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 }
               ]
             },
@@ -106,7 +106,7 @@
         {
           "level": 1,
           "name": "Плач в поисках чего-то",
-          "desc": "Сила столкновения +2 за каждый живой Старый зонт\nНаносит на 25% больше урона за каждый Старый зонт на поле боя\nВ конце хода все Старые зонты исчезают\nВ конце хода получает <sprite name=\"WaveFoxUmbrella\"><color=#9f6a3a><u><link=\"WaveFoxUmbrella\">Защитный зонт</link></u></color>, равный количеству <sprite name=\"WaveFoxUmbrella\"><color=#9f6a3a><u><link=\"WaveFoxUmbrella\">Защитных зонтов</link></u></color>, полученных на первом ходе",
+          "desc": "Сила в столкновения +2 за каждый оставшийся на Старый зонт\nНаносит на 25% больше урона за каждый оставшийся Старый зонт\n[EndBattle] Получает [WaveFoxUmbrella:`Защитные зонты`], равные количеству полученных [WaveFoxUmbrella:`Защитных зонтов`] в первом ходе, а все Старые зонты исчезают",
           "coinlist": [
             {
               "coindescs": [
@@ -144,7 +144,7 @@
         {
           "level": 1,
           "name": "Резкий ответ",
-          "desc": "[StartBattle] Получает [Thorn:`Шип`]",
+          "desc": "[StartBattle] Получает [Thorn:`Шипы`]",
           "coinlist": [
             {
               "coindescs": [
@@ -163,7 +163,7 @@
         {
           "level": 1,
           "name": "Резкая реакция",
-          "desc": "[StartBattle] Получает [Thorn:`Шип`]",
+          "desc": "[StartBattle] Получает [Thorn:`Шипы`]",
           "coinlist": [
             {
               "coindescs": [
@@ -182,7 +182,7 @@
         {
           "level": 1,
           "name": "Крик о помощи",
-          "desc": "Сила столкновения +2 за каждый живой Старый зонт\nНаносит на 25% больше урона за каждый Старый зонт на поле боя",
+          "desc": "Сила в столкновении +2 за каждый оставшийся Старый зонт\nНаносит на 25% больше урона за каждый оставшийся Старый зонт",
           "coinlist": [
             {
               "coindescs": [
@@ -201,7 +201,7 @@
         {
           "level": 1,
           "name": "Рассеивающаяся грусть",
-          "desc": "[EndSkill] Наносит +3 счётчика [Burst:`Разрыва`] и +3 счётчика [Sinking:`Утопания`] всем противникам",
+          "desc": "[EndSkill] Повышает счётчик [Burst:`Разрыва`] и [Sinking:`Утопания`] на 3 всем противникам",
           "coinlist": [
             {
               "coindescs": [
@@ -290,7 +290,7 @@
         {
           "level": 1,
           "name": "Высоковольтный электрический разряд",
-          "desc": "[WhenUse] При 5+ [SelfCharge:`Подзарядах`] наносит на 20% больше урона за каждый счётчик [SelfCharge:`Подзаряда`] более 5-ти\n[WhenUse] Сила столкновения +1 за каждый [SelfCharge:`Подзаряд`]\n[WhenUse] Тратит весь [SelfCharge:`Подзаряд`]",
+          "desc": "[WhenUse] При 5 и более [SelfCharge:`Подзарядах`] наносит на 20% больше урона за каждый [SelfCharge:`Подзаряда`] свыше 5\n[WhenUse] Сила в столкновении +1 за каждый [SelfCharge:`Подзаряд`]\n[WhenUse] Тратит весь [SelfCharge:`Подзаряд`]",
           "coinlist": [
             {
               "coindescs": [
@@ -302,7 +302,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Паралича`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Параличей`] на следующий ход"
                 }
               ]
             }
@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "Свернуться",
-          "desc": "Если этот навык находится на ячейке, голова получает 50 ОЗ Щита за каждый [SelfCharge:`Подзаряд`].\nЕсли голова повреждена, вместо этого получает 25 ОЗ Щита за каждый [SelfCharge:`Подзаряд`].\nПри потере того количества ОЗ щита, на который был потрачен 1 [SelfCharge:`Подзаряд`], тратит ещё один дополнительный [SelfCharge:`Подзаряд`]",
+          "desc": "[TurnStartBattle] Голова получает 50 ОЗ Щита за каждый [SelfCharge:`Подзаряд`]\nЕсли голова сломана, вместо этого получает 25 ОЗ Щита за каждый [SelfCharge:`Подзаряд`]\nТеряет 1 [SelfCharge:`Подзаряд`] при потере того количества ОЗ щита, на который был потрачен 1 [SelfCharge:`Подзаряд`]",
           "coinlist": [
             {}
           ]
@@ -375,7 +375,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [VibrationExplosion:`провоцирует Тремор`] и +2 счётчика[VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -416,14 +416,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] по числу на счётчике [Vibration:`Тремора`] на цели"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] цели на весь его счётчик"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тратит весь [Vibration:`Тремор`] цели"
@@ -440,15 +440,15 @@
         {
           "level": 1,
           "name": "Возьму-ка это!",
-          "desc": "Если на цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, сила столкновения +8 \n[WhenUse] Если на цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, наносит на 150% больше урона",
+          "desc": "Если у цели нет [TipsinessRail:`Опьянения`], Сила в столкновении +8\n[WhenUse] Если у цели нет [TipsinessRail:`Опьянения`], наносит на 150% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5+ <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, наносит 0 урона.\nФея-джентльмен будет оглушён на следующем ходе."
+                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более [TipsinessRail:`Опьянения`], не наносит урон и сам оглушается в следующем ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает все <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянение</link></u></color>."
+                  "desc": "[OnSucceedAttack] Убирает всё [TipsinessRail:`Опьянение`]"
                 }
               ]
             }
@@ -481,12 +481,12 @@
         {
           "level": 1,
           "name": "Сделай глоточек!",
-          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 70% ОЗ",
+          "desc": "[StartBattle] Призывает Вино феи в следующем ходе\n[DefeatDuel] Вино феи призывается с 70% ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
@@ -503,7 +503,7 @@
         {
           "level": 1,
           "name": "Сладкое вино феи",
-          "desc": "Когда убито идентичностью, даёт 5 <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color> всем идентичностям на следующий ход",
+          "desc": "При уничтожении идентичностью даёт всем грешникам 5 [TipsinessRail:`Опьянения`] на следующий ход",
           "coinlist": [
             {}
           ]
@@ -516,12 +516,12 @@
         {
           "level": 1,
           "name": "Приклеенный оберег",
-          "desc": "[WhenUse] Наносит 3 [WrappedCurseTag:`Приклеенных оберега проклятия`]",
+          "desc": "[WhenUse] Наносит 3 [WrappedCurseTagRe:`Приклеенных оберега проклятия`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и +2 счётчика [Burst:`Разрыва`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2 на следующий ход"
                 }
               ]
             }
@@ -535,20 +535,20 @@
         {
           "level": 1,
           "name": "Накапливающееся проклятие",
-          "desc": "[WhenUse] Наносит столько [WrappedCurseTag:`Приклеенных оберегов проклятия`], сколько [WrappedCurseTag:`Приклеенных оберегов проклятия`] на цели",
+          "desc": "[WhenUse] Удваивает [WrappedCurseTagRe:`Приклеенные обереги проклятия`] цели",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`] и +2 счётчика [Burst:`Разрыва`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и +2 счётчика [Burst:`Разрыва`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -562,7 +562,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенный оберег проклятия`]\n[WhenUse]Сила монет -1 при 10 и более [ReattachedCurseTag:`Переклеенных оберегах проклятия`] ",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag_Re:`Переклеенный оберег проклятия`]\n[WhenUse] Сила монет -1 при 10 и более [ReattachedCurseTag_Re:`Переклеенных оберегах проклятия`] ",
           "coinlist": [
             {
               "coindescs": [
@@ -595,7 +595,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Паралича`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Параличей`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
@@ -612,7 +612,7 @@
         {
           "level": 1,
           "name": "Передача оберега",
-          "desc": "[WhenUse] Убирает все [WrappedCurseTag:`Приклеенные обереги проклятия`] с цели.\nПолучает [ReattachedCurseTag:`Переклеенные обереги проклятия`], равные кол-ву убранных [WrappedCurseTag:`Приклеенных оберегов проклятия`]\n[StartBattle] Все части получают 3 [Protection:`Защищённости`]",
+          "desc": "[WhenUse] Убирает все [WrappedCurseTagRe:`Приклеенные обереги проклятия`] с цели и получает такое же количество [ReattachedCurseTag_Re:`Переклеенных оберегов проклятия`]\n[StartBattle] Все части получают 3 [Protection:`Защищённости`]",
           "coinlist": [
             {
               "coindescs": [
@@ -631,7 +631,7 @@
         {
           "level": 1,
           "name": "Растущее проклятие",
-          "desc": "[WhenUse] Наносит [WrappedCurseTag:`Приклеенные обереги проклятия`] в кол-ве [WrappedCurseTag:`Приклеенных оберегов проклятия`] на цели",
+          "desc": "[WhenUse] Удваивает [WrappedCurseTagRe:`Приклеенные обереги проклятия`] цели",
           "coinlist": [
             {
               "coindescs": [
@@ -655,13 +655,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 2+ счётчиков [Laceration:`Кровотечения`], наносит 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 5 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 2+ счётчиков [Laceration:`Кровотечения`], наносит 1 [Laceration:`Кровотечение`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 1 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит +4 счётчика [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 4"
                 }
               ]
             }
@@ -702,17 +702,17 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели [Laceration:`Кровотечение`], восстанавливает 25 ОЗ"
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`], восстанавливает 25 ОЗ"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 2+ счётчика [Laceration:`Кровотечения`], наносит 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 5 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели [Laceration:`Кровотечение`], восстанавливает 25 ОЗ"
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`], восстанавливает 25 ОЗ"
                 }
               ]
             }
@@ -726,7 +726,7 @@
         {
           "level": 1,
           "name": "Отбрасывающий тень",
-          "desc": "[StartBattle] Призывает Преломлённый клевер на следующем ходе.\n[DefeatDuel] Преломлённый клевер призывается с 50% ОЗ.",
+          "desc": "[WhenUse] Призывает Гигантский клевер в следующем ходе\n[DefeatDuel] Гигантский клевер призывается с 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -734,7 +734,7 @@
                   "desc": "[OnSucceedAttack] Наносит на 5% больше урона за каждое [Laceration:`Кровотечение`] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит все [Laceration:`Кровотечение`] цели"
+                  "desc": "[OnSucceedAttack] Тратит всё [Laceration:`Кровотечение`] цели"
                 }
               ]
             }
@@ -748,7 +748,7 @@
         {
           "level": 1,
           "name": "Поглощение",
-          "desc": "[StartBattle] Все части получают 3 [Protection:`Защищённости`].",
+          "desc": "[StartBattle] Все части получают 3 [Protection:`Защищённости`]",
           "coinlist": [
             {
               "coindescs": [
@@ -775,7 +775,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [VibrationExplosion:`провоцирует Тремор`] и +2 счётчика[VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -811,19 +811,19 @@
         {
           "level": 1,
           "name": "На этом у меня всё!",
-          "desc": "Приоритет нацеливания на противников с [Vibration:`Тремором`]",
+          "desc": "Выбирает цель с [Vibration:`Тремором`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] по числу на счётчике [Vibration:`Тремора`] на цели"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] цели на весь его счётчик"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тратит весь [Vibration:`Тремор`] цели"
@@ -840,15 +840,15 @@
         {
           "level": 1,
           "name": "Возьму-ка это!",
-          "desc": "Если на цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, сила столкновения +8 \n[WhenUse] Если на цели нет <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, наносит на 150% больше урона",
+          "desc": "Если у цели нет [TipsinessRail:`Опьянения`], Сила в столкновении +8\n[WhenUse] Если у цели нет [TipsinessRail:`Опьянения`], наносит на 150% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5+ <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color>, наносит 0 урона.\nФея-джентльмен будет оглушён на следующем ходе."
+                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более [TipsinessRail:`Опьянения`], не наносит урон и сам оглушается в следующем ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает все <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянение</link></u></color>."
+                  "desc": "[OnSucceedAttack] Убирает всё [TipsinessRail:`Опьянение`]"
                 }
               ]
             }
@@ -881,12 +881,12 @@
         {
           "level": 1,
           "name": "Сделай глоточек!",
-          "desc": "[StartBattle] Призывает Вино феи на следующем ходе\n[DefeatDuel] Вино феи призывается с 50% ОЗ",
+          "desc": "[StartBattle] Призывает Вино феи в следующем ходе\n[DefeatDuel] Вино феи призывается с 70% ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [VibrationExplosion:`провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
@@ -903,7 +903,7 @@
         {
           "level": 1,
           "name": "Сладкое вино феи",
-          "desc": "Когда убито идентичностью, даёт 5 <sprite name=\"TipsinessRail\"><color=#9f6a3a><u><link=\"TipsinessRail\">Опьянения</link></u></color> всем идентичностям на следующий ход",
+          "desc": "При уничтожении идентичностью даёт всем грешникам 5 [TipsinessRail:`Опьянения`] на следующий ход",
           "coinlist": [
             {}
           ]
@@ -927,7 +927,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Ядро и тело восстанавливают 15 ОЗ"
+                  "desc": "[OnSucceedAttack] Ядро и Тело восстанавливают 15 ОЗ"
                 }
               ]
             }
@@ -990,7 +990,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На 5% больше урона за каждые 5 счётчика [Burst:`Разрыва`] цели"
+                  "desc": "[OnSucceedAttack] На 5% больше урона за каждые единиц 5 счётчика [Burst:`Разрыва`] цели"
                 }
               ]
             }
@@ -1066,14 +1066,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:`Пространственный разлом`]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:`Пространственных разлома`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:`Пространственный разлом`]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [DimensionRift:`Пространственных разлома`]"
                 }
               ]
             }
@@ -1106,7 +1106,7 @@
         {
           "level": 1,
           "name": "Разрыв пространства",
-          "desc": "При 10 и более счётчика [Charge:`Заряда`] тратит 10 его единиц для получения +5 к Силе в столкновении и повышения урона на 100%\nПри 10 и менее счётчика [Charge:`Заряда`] теряет 100 ОЗ Ядра и наносит на 80% больше урона вместо этого\nЭффект не может опустить свои ОЗ ниже 1",
+          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и боле, тратит 10 его единиц для получения +5 к Силе в столкновении и повышения урона на 100%\n[WhenUse] При счётчике [Charge:`Заряда`] менее 10 теряет 100 ОЗ Ядра и наносит на 80% больше урона вместо этого (Не может опустить ОЗ ниже 1)",
           "coinlist": [
             {
               "coindescs": [
@@ -1183,7 +1183,7 @@
         {
           "level": 1,
           "name": "Высокоскоростной разрыв пространства",
-          "desc": "Получает Силу в столкновении, равную наибольшему количеству [DimensionRift:`Пространственных разломов`] на одном из противников\nНаносит на 10% больше урона за каждый эффект [DimensionRift:`Пространственного разлома`] на себе",
+          "desc": "[WhenUse] Получает Силу в столкновении, равную наибольшему количеству [DimensionRift:`Пространственных разломов`] на одном из противников\n[WhenUse] Наносит на 10% больше урона за каждый эффект Пространственных разломов, через которые прошёл",
           "coinlist": [
             {
               "coindescs": [
@@ -1245,7 +1245,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTime:`Остановку времени`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTime_Re:`Остановку времени`]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Paralysis:`Паралича`]"
@@ -1267,7 +1267,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [TimeRental:`Одолженных времени`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Получает 3 [TimeRental_Re:`Одолженных времени`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
@@ -1284,12 +1284,12 @@
         {
           "level": 1,
           "name": "Момент ускорения",
-          "desc": "Сила навыка +1 за каждое <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\">Одолженное время</link></u></color>\n[DefeatDuel] Теряет 3 единицы счётчика [Charge:`Заряда`]",
+          "desc": "Сила навыка +1 за каждое [TimeRental_Re:`Одолженное время`]\n[DefeatDuel] Теряет 3 единицы счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [InterlockingTime:`Остановки времени`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [InterlockingTime_Re:`Остановки времени`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
@@ -1299,7 +1299,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит на 20% больше урона за каждое <sprite name=\"TimeRental_Re\"><color=#f8c200><u><link=\"TimeRental_Re\">Одолженное время</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит на 20% больше урона за каждое [TimeRental_Re:`Одолженное время`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 4"
@@ -1335,7 +1335,7 @@
         {
           "level": 1,
           "name": "6463",
-          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:`Накопленное прошлое`](#f2a972)",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:`Накопленного прошлого`](#f2a972)",
           "coinlist": [
             {
               "coindescs": [
@@ -1354,7 +1354,7 @@
         {
           "level": 1,
           "name": "6753",
-          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:`Накопленное прошлое`](#f2a972)",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPast:`Накопленного прошлого`](#f2a972)",
           "coinlist": [
             {
               "coindescs": [
@@ -1388,7 +1388,7 @@
                   "desc": "[OnSucceedAttack] Повышает границы выносливости на 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое [AccumulatedPast:`Накопленное прошлое`](#f2a972) (До 50%)"
+                  "desc": "[OnSucceedAttack] На 1% больше урона за каждое [AccumulatedPast:`Накопленное прошлое`](#f2a972) (До 50%)"
                 }
               ]
             }
@@ -1452,13 +1452,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "974569A",
+          "name": "974569",
           "desc": "Сила навыка +2 при 10 и более [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждое [AccumulatedPast:`Накопленное прошлое`](#f2a972) (До 200%)"
+                  "desc": "[OnSucceedAttack] На 1% больше урона за каждое [AccumulatedPast:`Накопленное прошлое`](#f2a972) (До 200%)"
                 }
               ]
             }
@@ -1472,7 +1472,7 @@
         {
           "level": 1,
           "name": "В сад вечности",
-          "desc": "[CantDuel]\n[WhenUse] Получает [PrepareSinRose:`Терновую корону`] и снимает с себя все эффекты\nЕсли у Ядра менее 40% ОЗ, Розы будут призываться в усиленном состоянии",
+          "desc": "[CantDuel]\n[WhenUse] Накладывает [PrepareSinRose:`Терновую корону`] и снимает с себя все эффекты\nЕсли у Ядра менее 40% ОЗ, Розы будут призываться в усиленном состоянии",
           "coinlist": [
             {}
           ]
@@ -1484,7 +1484,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хватит",
+          "name": "Стоп",
           "desc": "",
           "coinlist": [
             {
@@ -1546,7 +1546,7 @@
         {
           "level": 1,
           "name": "Нескончаемое цветение",
-          "desc": "Приоритет на противников без [PrepareSinRose:`Терновой кроны`]",
+          "desc": "Приоритет на противников без эффекта [PrepareSinRose:`Терновой кроны`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1558,7 +1558,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [PrepareSinRose:`Терновой кроны`]"
+                  "desc": "[OnSucceedAttack] Накладывает [PrepareSinRose:`Терновую крону`]"
                 }
               ]
             },
@@ -1579,7 +1579,7 @@
         {
           "level": 1,
           "name": "Стена отдаления",
-          "desc": "Сила +2 за каждую живую Розу\nЕсли на поле боя не осталось живых Роз, получает 2 [Vulnerable:`Уязвимости`]",
+          "desc": "Сила навыка +2 за каждую живую Розу\nЕсли на поле боя не осталось Роз, получает 2 [Vulnerable:`Уязвимости`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1597,8 +1597,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мечты о нескончаемости",
-          "desc": "[StartBattle] Даёт 1 [Enhancement:`Повышение силы атаки`] одной случайной Розе на следующий ход\nПри получении атаки, при этом имея щит, наносит 1 [Sinking:`Утопание`] атаковавшему",
+          "name": "Мечты о нескончаемом",
+          "desc": "[StartBattle] Даёт 1 [Enhancement:`Повышение силы атаки`] одной Розе на следующий ход\nНаносит 1 [Sinking:`Утопание`] атаковавшему при получении удара по щиту",
           "coinlist": [
             {
               "coindescs": [
@@ -1617,7 +1617,7 @@
         {
           "level": 1,
           "name": "Здесь, с тобой",
-          "desc": "[StartBattle] Даёт 1 [Endurance:`Повышение силы защиты`] одной случайной Розе на следующий ход\nПри получении атаки, при этом имея щит, наносит 1 [Sinking:`Утопание`] атаковавшему",
+          "desc": "[StartBattle] Даёт 1 [Endurance:`Повышение силы защиты`] одной Розе на следующий ход\nНаносит 1 [Sinking:`Утопание`] атаковавшему при получении удара по щиту",
           "coinlist": [
             {
               "coindescs": [
@@ -1769,7 +1769,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Парализующая лень",
+          "name": "Парализующая леность",
           "desc": "",
           "coinlist": [
             {
@@ -1788,13 +1788,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Несподручная лень",
+          "name": "Несподручная леность",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:`Провоцирует Тремор`]"
@@ -1810,8 +1810,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Усыпляющая лень",
-          "desc": "Если получает атаку, при этом имея щит, [VibrationExplosion:`Провоцирует Тремор`] на себе и атаковавшем",
+          "name": "Усыпляющая леность",
+          "desc": "При получении урона по щиту [VibrationExplosion:`Провоцирует Тремор`] на себе и атаковавшем",
           "coinlist": [
             {
               "coindescs": [
@@ -1953,7 +1953,7 @@
         {
           "level": 1,
           "name": "Всеобъемлющее уныние",
-          "desc": "Если получает атаку, при этом имея щит, повышает счётчик [Sinking:`Утопания`] на 1 себе и атаковавшему",
+          "desc": "Повышает счётчик [Sinking:`Утопания`] на 1 атаковавшему и себе при получении удара по щиту",
           "coinlist": [
             {
               "coindescs": [
@@ -1991,7 +1991,7 @@
         {
           "level": 1,
           "name": "Возвышенная гордыня",
-          "desc": "[WhenUse] Даёт 2 счётчика [Breath:`Дыхания`] всем союзникам",
+          "desc": "[WhenUse] Повышает счётчик [Breath:`Дыхания`] на 2 всем союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -2062,7 +2062,7 @@
         {
           "level": 1,
           "name": "Растущая зависть",
-          "desc": "[WhenUse] Тратит 10 единиц счётчика [Charge:`Заряда`] и получает +4 к силе монет",
+          "desc": "[WhenUse] Тратит 10 единиц счётчика [Charge:`Заряда`], чтобы получить +4 к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -2081,7 +2081,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот Пространственный разлом остался, наносит на 10% больше урона",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, Заблудший пассажир получит [PassedPortal_Red]",
           "coinlist": [
             {}
           ]
@@ -2094,7 +2094,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот Пространственный разлом остался, максимальные ОЗ повышаются на 20%",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, Заблудший пассажир получит [PassedPortal_Green]",
           "coinlist": [
             {}
           ]
@@ -2107,7 +2107,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот Пространственный разлом остался, скорость повышается на 1",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, Заблудший пассажир получит [PassedPortal_Yellow]",
           "coinlist": [
             {}
           ]
@@ -2120,7 +2120,7 @@
         {
           "level": 1,
           "name": "Пространственный скачок",
-          "desc": "Если этот Пространственный разлом остался, Сила монет +1",
+          "desc": "Если этот Пространственный разлом[TabExplain] останется, Заблудший пассажир получит [PassedPortal_Blue]",
           "coinlist": [
             {}
           ]
@@ -2133,7 +2133,7 @@
         {
           "level": 1,
           "name": "Чтобы никто не плакал",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`]\n[WhenUse] cила монет -1 при 10 и более [ReattachedCurseTag:`Переклеенных оберегах проклятия`] ",
+          "desc": "[EndBattle] Убирает все [ReattachedCurseTag_Re:`Переклеенные обереги проклятия`]\n[WhenUse] Сила монет -1 при 10 и более [ReattachedCurseTag_Re:`Переклеенных оберегах проклятия`] ",
           "coinlist": [
             {
               "coindescs": [

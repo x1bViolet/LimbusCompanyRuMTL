@@ -421,7 +421,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 отрицательных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 негативных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [NailPersonality:`Гвоздя`]"
@@ -446,7 +446,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 отрицательных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 негативных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
@@ -474,7 +474,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые <style=\"highlight\">2</style> отрицательных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые <style=\"highlight\">2</style> негативных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
@@ -569,7 +569,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехах в резонансе Зависти, включая этот навык, наносит 1 [ParryingResultDown:`Понижение силы в поединке`] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехах в резонансе Зависти, включая этот навык, наносит 1 [ParryingResultDown:`Понижение силы в столкновении`] (Единожды за ход)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"

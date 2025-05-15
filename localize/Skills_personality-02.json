@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 1020501,
@@ -56,7 +56,7 @@
         {
           "level": 1,
           "name": "Охрана клиента",
-          "desc": "[WhenUse] Даёт 2 [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ (3 раза за ход)",
+          "desc": "[WhenUse] Даёт 2 [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ (До 3 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -84,7 +84,7 @@
         {
           "level": 2,
           "name": "Охрана клиента",
-          "desc": "[WhenUse] Даёт <style=\"highlight\">3</style> [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ (3 раза за ход)\n<style=\"highlight\">При 5 и более [DefenseUp:`Повышениях уровня защиты`], Сила в столкновении +1</style>",
+          "desc": "[WhenUse] Даёт <style=\"highlight\">3</style> [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ (До 3 раз за ход)\n<style=\"highlight\">Сила в столкновении +1 при 5 и более [DefenseUp:`Повышениях уровня защиты`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -112,7 +112,7 @@
         {
           "level": 4,
           "name": "Охрана клиента",
-          "desc": "[WhenUse] Даёт <style=\"highlight\">4</style> [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ (3 раза за ход)\nПри 5 и более [DefenseUp:`Повышениях уровня защиты`], Сила в столкновении <style=\"highlight\">+2</style>",
+          "desc": "[WhenUse] Даёт <style=\"highlight\">4</style> [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ (До 3 раз за ход)\nСила в столкновении <style=\"highlight\">+2</style> при 5 и более [DefenseUp:`Повышениях уровня защиты`]",
           "coinlist": [
             {
               "coindescs": [
@@ -145,7 +145,7 @@
         {
           "level": 3,
           "name": "Закон и порядок",
-          "desc": "Сила монет +1 при 5+ [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Восстанавливает 2 ОЗ",
+          "desc": "Сила монет +1 при 5 и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Восстанавливает 2 ОЗ",
           "coinlist": [
             {},
             {
@@ -160,7 +160,7 @@
         {
           "level": 4,
           "name": "Закон и порядок",
-          "desc": "Сила монет +1 при 5+ [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Восстанавливает <style=\"highlight\">4</style> ОЗ",
+          "desc": "Сила монет +1 при 5 и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Восстанавливает <style=\"highlight\">4</style> ОЗ",
           "coinlist": [
             {},
             {
@@ -169,7 +169,7 @@
                   "desc": "Даёт 1 [Agility:`Спешку`] и 2 [DefenseUp:`Повышения уровня защиты`] союзнику с самым низким процентом ОЗ на следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">Если союзник — Корректировщик Ассоциации «Цвай», даёт дополнительные 1 [Agility:`Спешку`] и 1 [DefenseUp:`Повышение уровня защиты`]</style>"
+                  "desc": "<style=\"highlight\">Если союзник — Корректировщик Ассоциации «Цвай», даёт ему ещё 1 [Agility:`Спешку`] и 1 [DefenseUp:`Повышение уровня защиты`]</style>"
                 }
               ]
             }
@@ -343,26 +343,26 @@
         {
           "level": 3,
           "name": "Высвобожденная ярость",
-          "desc": "[StartBattle] Понижает свой счётчик [Vibration:`Тремора`] на 5, чтобы увеличить число целей этого навыка на 1 (До 2)\n[DefeatDuel] Теряет 20 СД\nНаносит на 3% больше урона за каждый тип негативного эффекта на цели (До 15%)\n[EnemyKill] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[StartBattle] Понижает свой счётчик [Vibration:`Тремора`] на 5, чтобы увеличить число целей этого навыка на 1 (До 2)\n[DefeatDuel] Теряет 20 СД\nНаносит на 3% больше урона за каждый тип негативных эффектов на цели (До 15%)\n[EnemyKill] Повышает свой счётчик [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`],\nПосле наносит урон Гневом на 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом на 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`],\nПосле наносит урон Гневом на 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом на 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`],\nПосле наносит урон Гневом на 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)\nПонижает счётчик [Vibration:`Тремора`] на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 3\nПосле наносит урон Гневом на 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             }
@@ -371,26 +371,26 @@
         {
           "level": 4,
           "name": "Высвобожденная ярость",
-          "desc": "[StartBattle] Понижает свой счётчик [Vibration:`Тремора`] на 5, чтобы увеличить число целей этого навыка на 1 (До 2)\n[DefeatDuel] Теряет 20 СД\nНаносит на <style=\"highlight\">6%</style> больше урона за каждый тип негативного эффекта на цели (До <style=\"highlight\">30%</style>)\n[EnemyKill] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[StartBattle] Понижает свой счётчик [Vibration:`Тремора`] на 5, чтобы увеличить число целей этого навыка на 1 (До 2)\n[DefeatDuel] Теряет 20 СД\nНаносит на <style=\"highlight\">6%</style> больше урона за каждый тип негативных эффектов на цели (До <style=\"highlight\">30%</style>)\n[EnemyKill] Повышает свой счётчик [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`],\nПосле наносит урон Гневом на <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом на <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`],\nПосле наносит урон Гневом на <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом на <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`],\nПосле наносит урон Гневом на <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)\nПонижает счётчик [Vibration:`Тремора`] на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 3\nПосле наносит урон Гневом на <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             }
@@ -570,7 +570,7 @@
         {
           "level": 3,
           "name": "Разлетающиеся лепестки красной сливы",
-          "desc": "Наносит на 3% больше урона за каждый [RedApricotBlossom:`Красный лепесток сливы`] на цели\n[WinDuel] Тратит половину счётчика [Breath:`Дыхания`] и получает силу [Breath:`Дыхания`], равную потраченному числу на его счётчике (До 10)",
+          "desc": "Наносит на 3% больше урона за каждый [RedApricotBlossom:`Красный лепесток сливы`] на цели\n[WinDuel] Тратит половину счётчика [Breath:`Дыхания`] и получает силу [Breath:`Дыхания`], равную потраченному количеству его счётчика (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -591,7 +591,7 @@
         {
           "level": 4,
           "name": "Разлетающиеся лепестки красной сливы",
-          "desc": "Наносит на 3% больше урона за каждый [RedApricotBlossom:`Красный лепесток сливы`] на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 [Breath:`Дыхания`] (До 3)</style>\n[WinDuel] Тратит половину счётчика [Breath:`Дыхания`] и получает силу [Breath:`Дыхания`], равную потраченному числу на его счётчике (До 10)\n<style=\"highlight\">Этот навык не тратит [RedApricotBlossom:`Красные лепестки сливы`] во время критических ударов.</style>",
+          "desc": "Наносит на 3% больше урона за каждый [RedApricotBlossom:`Красный лепесток сливы`] на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 [Breath:`Дыхания`] (До 3)</style>\n[WinDuel] Тратит половину счётчика [Breath:`Дыхания`] и получает силу [Breath:`Дыхания`], равную потраченному количеству его счётчика (До 10)\n<style=\"highlight\">Этот навык не тратит [RedApricotBlossom:`Красные лепестки сливы`] во время критических ударов</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -724,7 +724,7 @@
         {
           "level": 4,
           "name": "Приём незваных гостей",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 3 и более единицами на счётчике [Sinking:`Утопания`]</style>",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с счётчиком [Sinking:`Утопания`] 3 и более</style>",
           "coinlist": [
             {},
             {
@@ -770,7 +770,7 @@
         {
           "level": 4,
           "name": "Этика приёма гостей, 4-ая церемония: Печать на сердце",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +2 против целей с 5 и более на счётчике [Sinking:`Утопания`]</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +2 против целей с счётчиком [Sinking:`Утопания`] 5 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -872,7 +872,7 @@
         {
           "level": 1,
           "name": "Обратный заряженный поток",
-          "desc": "[WhenUse] При 5~9 на счётчике [Charge:`Заряда`], тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]",
+          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]",
           "coinlist": [
             {},
             {},
@@ -888,7 +888,7 @@
         {
           "level": 2,
           "name": "Обратный заряженный поток",
-          "desc": "[WhenUse] При 5~9 на счётчике [Charge:`Заряда`], тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]",
+          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]",
           "coinlist": [
             {},
             {},
@@ -904,7 +904,7 @@
         {
           "level": 4,
           "name": "Обратный заряженный поток",
-          "desc": "[WhenUse] При 5~9 на счётчике [Charge:`Заряда`], тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика [Charge:`Заряда`]",
+          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика [Charge:`Заряда`]",
           "coinlist": [
             {},
             {},
@@ -925,7 +925,7 @@
         {
           "level": 3,
           "name": "Заряд 40Y-3",
-          "desc": "Сила монет +2 при двух и более [Charge:`Зарядах`]",
+          "desc": "Сила монет +2 при силе [Charge:`Заряда`] 2 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -945,7 +945,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "При 3 и более [Charge:`Зарядах`], на 4% больше урона за каждую единицу [Charge:`Заряда`] (До 20%)"
+                  "desc": "При силе [Charge:`Заряда`] 3 и более, на 4% больше урона за каждую единицу силы своего [Charge:`Заряда`] (До 20%)"
                 }
               ]
             }
@@ -954,7 +954,7 @@
         {
           "level": 4,
           "name": "Заряд 40Y-3",
-          "desc": "Сила монет <style=\"highlight\">+1 за каждую единицу силы [Charge:`Заряда`] (До 4)</style>",
+          "desc": "Сила монет <style=\"highlight\">+1 за каждую единицу силы своего [Charge:`Заряда`] (До 4)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -974,10 +974,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "При 3 и более [Charge:`Зарядах`], на <style=\"highlight\">8%</style> больше урона за каждую единицу [Charge:`Заряда`] (До <style=\"highlight\">40%</style>)\n<style=\"highlight\">[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] на следующий ход"
+                  "desc": "При силе [Charge:`Заряда`] 3 и более, на <style=\"highlight\">8%</style> больше урона за каждую единицу силы своего [Charge:`Заряда`] (До <style=\"highlight\">40%</style>)\n<style=\"highlight\">[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] на следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">- Наносит ещё 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] при 2 и более [Charge:`Зарядах`]</style></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит ещё 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] при силе [Charge:`Заряда`] 2 и более</style>"
                 }
               ]
             }
@@ -999,7 +999,7 @@
         {
           "level": 4,
           "name": "Подзарядка",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на <style=\"highlight\">4</style> (Дважды за ход)",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 4</style> (Дважды за ход)",
           "coinlist": [
             {}
           ]
@@ -1012,7 +1012,7 @@
         {
           "level": 1,
           "name": "Воспламенение",
-          "desc": "[WhenUse] При 10 и более [Combustion:`Огня`] на себе, наносит на 10% больше урона\n[WhenUse] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1",
+          "desc": "[WhenUse] Наносит на 10% больше урона при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1039,7 +1039,7 @@
         {
           "level": 2,
           "name": "Воспламенение",
-          "desc": "[WhenUse] При 10 и более [Combustion:`Огня`] на себе, наносит на 10% больше урона\n[WhenUse] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n<style=\"highlight\">[WhenUse] При 10 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели), Сила монет +1</style>",
+          "desc": "[WhenUse] Наносит на 10% больше урона при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1057,7 +1057,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 10 и более [Combustion:`Огня`] на себе наносит 1 дополнительный [Combustion:`Огонь`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит ещё 1 [Combustion:`Огонь`] при 10 и более [Combustion:`Огня`] на себе</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`]"
@@ -1069,7 +1069,7 @@
         {
           "level": 4,
           "name": "Воспламенение",
-          "desc": "[WhenUse] При 10 и более [Combustion:`Огня`] на себе, наносит на 10% больше урона\n[WhenUse] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10</style> ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели) <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Наносит на 10% больше урона при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10</style> ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели) <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1087,7 +1087,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 10 и более [Combustion:`Огня`] на себе наносит <style=\"highlight\">3</style> дополнительных [Combustion:`Огня`]</style>"
+                  "desc": "[OnSucceedAttack] Наносит ещё <style=\"highlight\">3</style> [Combustion:`Огня`] при 10 и более [Combustion:`Огня`] на себе"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`]"
@@ -1104,7 +1104,7 @@
         {
           "level": 1,
           "name": "ЭГО — Активация A.B.S",
-          "desc": "[WhenUse] При 10 и более [Combustion:`Огня`] на себе, наносит на 10% больше урона\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 4",
+          "desc": "[WhenUse] Наносит на 10% больше урона при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -1135,7 +1135,7 @@
         {
           "level": 2,
           "name": "ЭГО — Активация A.B.S",
-          "desc": "[WhenUse] Наносит на 10% больше урона <style=\"highlight\">за каждые 10 [Combustion:`Огня`] на себе (До 20%)</style>\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 4\n<style=\"highlight\">[WhenUse] При 4 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели), Сила монет +1</style>",
+          "desc": "[WhenUse] Наносит на 10% больше урона <style=\"highlight\">за каждые 10 [Combustion:`Огня`] на себе (До 20%)</style>\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 4\n<style=\"highlight\">[WhenUse] Сила монет +1 при 4 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1205,7 +1205,7 @@
         {
           "level": 3,
           "name": "Привлечённая огнём",
-          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[BeforeUse] При 30 и более [Combustion:`Огня`], заменяет этот навык на 「Максимальная настройка A.B.S. 【Деградированная коррозия】」\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] При 10+ ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели): Базовая сила +1\n[WhenUse] Если менее 70% ОЗ, Сила монет +1",
+          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[BeforeUse] При 30 и более [Combustion:`Огня`], заменяет этот навык на 「Максимальная настройка A.B.S. 【Деградированная коррозия】」\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели)\n[WhenUse] Сила монет +1 при 70% ОЗ и менее",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 4,
           "name": "Привлечённая огнём",
-          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[BeforeUse] При 30 и более [Combustion:`Огня`], заменяет этот навык на 「Максимальная настройка A.B.S. 【Деградированная коррозия】」\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели) <style=\"highlight\">(До 2)</style>\n[WhenUse]Сила монет +1 <style=\"highlight\">за каждые за каждые 30% потерянных ОЗ (До 2)</style>",
+          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[BeforeUse] При 30 и более [Combustion:`Огня`], заменяет этот навык на 「Максимальная настройка A.B.S. 【Деградированная коррозия】」\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели) <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые за каждые 30% потерянных ОЗ (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1275,7 +1275,7 @@
         {
           "level": 1,
           "name": "Максимальная настройка A.B.S. [Деградированная коррозия]",
-          "desc": "После использования этого навыка погибает\n- ОЗ не могут опуститься ниже 1 во время использования этого навыка\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] При 10 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели), Базовая сила +1\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До 2)\n[BeforeAttack] Количество целей +1 за каждые 20% потерянных ОЗ (До 2)",
+          "desc": "После использования последней монеты погибает\nОЗ не могут опуститься ниже 1 во время использования этого навыка\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели)\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До 2)\n[BeforeAttack] Количество целей +1 за каждые 20% потерянных ОЗ (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1312,7 +1312,7 @@
         {
           "level": 4,
           "name": "Максимальная настройка A.B.S. [Деградированная коррозия]",
-          "desc": "После использования этого навыка погибает\n- ОЗ не может опуститься ниже 1 во время использования этого навыка\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели) <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До <style=\"highlight\">3</style>)\n[BeforeAttack] Количество целей +1 за каждые 20% потерянных ОЗ (До <style=\"highlight\">4</style>)",
+          "desc": "После использования последней монеты погибает\nОЗ не могут опуститься ниже 1 во время использования этого навыка\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> ([Combustion:`Огонь`] на себе + [Combustion:`Огонь`] на цели) <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До <style=\"highlight\">3</style>)\n[BeforeAttack] Количество целей +1 за каждые 20% потерянных ОЗ (До <style=\"highlight\">4</style>)",
           "coinlist": [
             {
               "coindescs": [

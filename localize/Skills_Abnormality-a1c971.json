@@ -290,7 +290,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели на все его счётчики кроме последнего"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели на весь его счётчик кроме последнего"
                 }
               ]
             }
@@ -508,7 +508,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более счётчиков [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`], если счётчик [Vibration:`Тремора`] цели равен 5 и более"
                 },
                 {
                   "desc": "[WinDuelAttack] Наносит 5 [Vibration:`Тремора`] и повышает его счётчик на 3"
