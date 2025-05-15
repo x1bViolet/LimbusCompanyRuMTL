@@ -6,15 +6,15 @@
     },
     {
       "id": "mainui_personality_blocked",
-      "content": "[font=bebas]Нельзя выбрать"
+      "content": "Нельзя выбрать"
     },
     {
       "id": "railway5_clear_info",
-      "content": "[font=mikodacs]Информация прохождения"
+      "content": "Информация прохождения"
     },
     {
       "id": "railway5_clear_info_node_ui",
-      "content": "[font=mikodacs]Информация прохождения"
+      "content": "Информация прохождения"
     },
     {
       "id": "railway_dungeon_5_entrance_recommended_level",
@@ -22,7 +22,7 @@
     },
     {
       "id": "railway5_clear_info_clear_turn_count",
-      "content": "[font=mikodacs]Ходов"
+      "content": "Ходов"
     },
     {
       "id": "railway5_clear_info_ego_stock",
@@ -30,7 +30,7 @@
     },
     {
       "id": "railway5_clear_info_selected_buffs",
-      "content": "[font=mikodacs]Выбранное усиление"
+      "content": "Выбранное усиление"
     },
     {
       "id": "railway_dungeon_5_reward_condition_special_ticket",
@@ -38,7 +38,7 @@
     },
     {
       "id": "railway_dungeon_5_statistics_button",
-      "content": "[font=mikodacs]Детали"
+      "content": "Детали"
     },
     {
       "id": "railway_dungeon_5_required_condition_to_enter_format",
@@ -66,15 +66,15 @@
     },
     {
       "id": "railway_5_ally_buff",
-      "content": "[font=mikodacs]Усиления"
+      "content": "Усиления"
     },
     {
       "id": "railway_5_enemy_buff",
-      "content": "[font=mikodacs]Испытания"
+      "content": "Испытания"
     },
     {
       "id": "railway_5_section",
-      "content": "[font=bebas]Секция #{0}"
+      "content": "Секция #{0}"
     },
     {
       "id": "railway_5_warning_enter_node_1",

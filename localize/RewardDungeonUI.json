@@ -38,7 +38,7 @@
     },
     {
       "id": "exp_dungeon_index",
-      "content": "[font=pretendard]Светодобыча опыта №{0}"
+      "content": "Светодобыча опыта №{0}"
     },
     {
       "id": "Monday",

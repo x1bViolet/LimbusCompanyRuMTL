@@ -2,23 +2,23 @@
   "dataList": [
     {
       "id": "mainui_settings_game",
-      "content": "[font=mikodacs]<cspace=1px>Геймплей</cspace>"
+      "content": "<cspace=1px>Геймплей</cspace>"
     },
     {
       "id": "mainui_settings_graphic",
-      "content": "[font=mikodacs]<cspace=1px>Графика</cspace>"
+      "content": "<cspace=1px>Графика</cspace>"
     },
     {
       "id": "mainui_settings_sound",
-      "content": "[font=mikodacs]<cspace=1px>Аудио</cspace>"
+      "content": "<cspace=1px>Аудио</cspace>"
     },
     {
       "id": "mainui_settings_notice",
-      "content": "[font=mikodacs]<cspace=1px>Уведомления</cspace>"
+      "content": "<cspace=1px>Уведомления</cspace>"
     },
     {
       "id": "mainui_settings_etc",
-      "content": "[font=mikodacs]<cspace=1px>Прочее</cspace>"
+      "content": "<cspace=1px>Прочее</cspace>"
     },
     {
       "id": "mainui_settings_download",
@@ -166,11 +166,11 @@
     },
     {
       "id": "connect_to_google_account",
-      "content": "[font=mikodacs]<cspace=1px>Связать с Google</cspace>"
+      "content": "<cspace=1px>Связать с Google</cspace>"
     },
     {
       "id": "connect_to_apple_account",
-      "content": "[font=mikodacs]<cspace=1px>Связать с Apple</cspace>"
+      "content": "<cspace=1px>Связать с Apple</cspace>"
     },
     {
       "id": "explain_sucession",
@@ -202,7 +202,7 @@
     },
     {
       "id": "mainui_settings_account",
-      "content": "[font=mikodacs]Аккаунт"
+      "content": "Аккаунт"
     },
     {
       "id": "account_secede",

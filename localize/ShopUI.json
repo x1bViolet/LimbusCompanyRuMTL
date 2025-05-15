@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "mainui_shop_charge_enkephalin_tab",
-      "content": "[font=mikodacs]Заполнить Энкефалин"
+      "content": "Заполнить Энкефалин"
     },
     {
       "id": "mainui_shop_buy_enkephalin_box_tab",
@@ -130,7 +130,7 @@
     },
     {
       "id": "shopui_recover_enkephalin_after_time",
-      "content": "[font=mikodacs]{1} Энкефалин восстановится через {0}."
+      "content": "{1} Энкефалин восстановится через {0}."
     },
     {
       "id": "shopui_ask_create_enkephalin_module",
@@ -138,15 +138,15 @@
     },
     {
       "id": "shopui_charge_as_lunacy",
-      "content": "[font=mikodacs]Использовать Безумство"
+      "content": "Использовать Безумство"
     },
     {
       "id": "shopui_charge_as_box",
-      "content": "[font=mikodacs]Использовать ячейки"
+      "content": "Использовать ячейки"
     },
     {
       "id": "shopui_create_module",
-      "content": "[font=mikodacs]Модули"
+      "content": "Модули"
     },
     {
       "id": "remain_days",
@@ -202,15 +202,15 @@
     },
     {
       "id": "enkephalin_module",
-      "content": "[font=mikodacs]Энкефалиновый\nМодуль"
+      "content": "Энкефалиновый\nМодуль"
     },
     {
       "id": "enkephalin_box",
-      "content": "[font=mikodacs]Ячейка\nЭнкефалина"
+      "content": "Ячейка\nЭнкефалина"
     },
     {
       "id": "today_purchase_count",
-      "content": "[font=mikodacs]<size=90%>Сегодня:</size>"
+      "content": "<size=90%>Сегодня:</size>"
     },
     {
       "id": "lack_of_lunacy_ask_to_move_shop",
