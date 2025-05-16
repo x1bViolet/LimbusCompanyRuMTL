@@ -782,3 +782,4 @@ WideAreaRampage ¤ #9f6a3a
 DianxueDonQuixote ¤ #e30000
 BurstPoison ¤ #e30000
 SnakeStance ¤ #f8c200
+SipOfAlcohol ¤ #f8c200
