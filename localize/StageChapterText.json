@@ -69,7 +69,7 @@
       "area": "21-й Район",
       "chapter": "Песнь V",
       "chapterNumber": "5",
-      "chaptertitle": "Зло Определяющий",
+      "chaptertitle": "Зло определяющий",
       "timeline": "984/07"
     },
     {
@@ -152,7 +152,7 @@
       "chapter": "",
       "chapterNumber": "",
       "chaptertitle": "5-я Вальпургиева ночь",
-      "timeline": "984-12"
+      "timeline": "984/12"
     },
     {
       "id": "chapter_p_9114",
@@ -161,7 +161,7 @@
       "chapter": "Антракт V",
       "chapterNumber": "7.5",
       "chaptertitle": "Регулярный осмотр LCB",
-      "timeline": "984-12"
+      "timeline": "984/12"
     },
     {
       "id": "chapter_h_9116",
@@ -170,7 +170,16 @@
       "chapter": "Антракт V",
       "chapterNumber": "7.5",
       "chaptertitle": "Ночная чистка",
-      "timeline": "985-01"
+      "timeline": "985/01"
+    },
+    {
+      "id": "chapter_h_108",
+      "company": "Корп. H",
+      "area": "8-й Район",
+      "chapter": "Песнь VIII",
+      "chapterNumber": "08",
+      "chaptertitle": "Смиренное свидетельствование",
+      "timeline": "985/01"
     }
   ]
 }
