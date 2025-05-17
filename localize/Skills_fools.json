@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Дай конфет.",
-          "desc": "Выбирает цели, у которых, наверное, есть [CandyForCharon:`Конфеты`]\n[EndSkill] Если у цели небыло предполагаемых [CandyForCharon:`Конфет`], они у неё появляются",
+          "desc": "Выбирает цели, у которых, наверное, есть [CandyForCharon:`Конфеты`]\n[EndSkill] Если у цели не было предполагаемых [CandyForCharon:`Конфет`], они у неё появляются",
           "coinlist": [
             {
               "coindescs": [
@@ -14,7 +14,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели были [CandyForCharon:`Конфеты?`], оглушает её на следующем ходу"
+                  "desc": "[OnSucceedAttack] Если у цели были [CandyForCharon:`Конфеты?`], оглушает её в следующем ходе"
                 }
               ]
             }

@@ -78,7 +78,7 @@
             "simpleDesc": [
                 {
                     "abilityID": 2032,
-                    "simpleDesc": "Даёт 2 [SlashResultUp:`Повышения силы Рубящей атаки`] и на 35% больше Рубящего урона"
+                    "simpleDesc": "Даёт 2 [SlashResultUp:`Повышения силы Рубящих атак`] и повышает Рубящий урон на 35%"
                 },
                 {
                     "abilityID": 20321,

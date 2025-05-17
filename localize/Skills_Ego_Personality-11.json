@@ -1,4 +1,4 @@
-{
+﻿{
   "dataList": [
     {
       "id": 2110511,
@@ -303,7 +303,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] При менее 10 на своём счётчике [Charge:`Заряда`] тратит 15% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 10 (Не может оглушить)\n[BeforeAttack] Тратит до 40 единиц на счётчике [Charge:`Заряда`] и наносит на 1% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До 10%)",
+          "desc": "[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 10 тратит 15% от максимальных ОЗ для его повышения на 10 (Не может оглушить)\n[BeforeAttack] Тратит до 40 единиц своего счётчика [Charge:`Заряда`] и наносит на 1% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До 10%)",
           "coinlist": [
             {
               "coindescs": [
@@ -324,7 +324,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[BeforeAttack] Количество целей +1 при <style=\"highlight\">3</style> и более грехах в наибольшем резонансе\n[BeforeAttack] При менее 10 на своём счётчике [Charge:`Заряда`] тратит 15% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 10 (Не может оглушить)\n[BeforeAttack] Тратит до 40 единиц на счётчике [Charge:`Заряда`] и наносит на 1% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">20%</style>)",
+          "desc": "[BeforeAttack] Количество целей +1 при <style=\"highlight\">3</style> и более грехах в наибольшем резонансе\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 10 тратит 15% от максимальных ОЗ для его повышения на 10 (Не может оглушить)\n[BeforeAttack] Тратит до 40 единиц своего счётчика [Charge:`Заряда`] и наносит на 1% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">20%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -345,7 +345,7 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[BeforeAttack] Количество целей повышается на <style=\"highlight\">(Число грехов в наибольшем резонансе - 2)</style> <style=\"highlight\">(До 2)</style>\n[BeforeAttack] При менее 10 на своём счётчике [Charge:`Заряда`] тратит <style=\"highlight\">10%</style> от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 10 (Не может оглушить)\n[BeforeAttack] Тратит до 40 единиц на счётчике [Charge:`Заряда`] и наносит на 1% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">30%</style>)",
+          "desc": "[BeforeAttack] Количество целей повышается на <style=\"highlight\">(Число грехов в наибольшем резонансе - 2)</style> <style=\"highlight\">(До 2)</style>\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 10 тратит <style=\"highlight\">10%</style> от максимальных ОЗ для его повышения на 10 (Не может оглушить)\n[BeforeAttack] Тратит до 40 единиц своего счётчика [Charge:`Заряда`] и наносит на 1% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">30%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Если счётчик [Charge:`Заряда`] не максимален, тратит (Недостающее число счётчика [Charge:`Заряда`] × 1.5)% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до максимума (Максимальный счётчик: 30; не может убить)\n[BeforeAttack] Тратит до 40 единиц на счётчике [Charge:`Заряда`] и наносит на 2% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До 20%) ",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Если счётчик [Charge:`Заряда`] не максимален, тратит (Недостающее число счётчика [Charge:`Заряда`] × 1.5)% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до максимума (Максимальный счётчик: 30; не может убить)\n[BeforeAttack] Тратит до 40 единиц своего счётчика [Charge:`Заряда`] и наносит на 2% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До 20%) ",
           "coinlist": [
             {
               "coindescs": [
@@ -379,7 +379,7 @@
                   "desc": "[OnSucceedAttack] Наносит (Своя сила [Charge:`Заряда`] - 1) [DimensionRift:`Пространственных разломов`] (До 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает по 1 [Agility:`Спешке`] и 1 [ChargeLoad:`Нагрузке`] за каждую единицу своей силы [Charge:`Заряда`] на следующий ход (До 2 за навык)"
+                  "desc": "[OnSucceedAttack] Получает по 1 [Agility:`Спешке`] и 1 [ChargeLoad:`Нагрузке`] на следующий ход за каждую единицу своей силы [Charge:`Заряда`] (До 2 за навык)"
                 },
                 {
                   "desc": "[EnemyKill] Повышает свой счётчик [Charge:`Заряда`] на 2"
@@ -392,7 +392,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Если счётчик [Charge:`Заряда`] не максимален, тратит (Недостающее число счётчика [Charge:`Заряда`] × <style=\"highlight\">1.2</style>)% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до максимума (Максимальный счётчик: 30; не может убить)\n[BeforeAttack] Тратит до 40 единиц на счётчике [Charge:`Заряда`] и наносит на 2% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">40%</style>) ",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Если счётчик [Charge:`Заряда`] не максимален, тратит (Недостающее число счётчика [Charge:`Заряда`] × <style=\"highlight\">1.2</style>)% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до максимума (Максимальный счётчик: 30; не может убить)\n[BeforeAttack] Тратит до 40 единиц своего счётчика [Charge:`Заряда`] и наносит на 2% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">40%</style>) ",
           "coinlist": [
             {
               "coindescs": [
@@ -400,7 +400,7 @@
                   "desc": "[OnSucceedAttack] Наносит (Своя сила [Charge:`Заряда`] - 1) [DimensionRift:`Пространственных разломов`] (До 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает по 1 [Agility:`Спешке`] и 1 [ChargeLoad:`Нагрузке`] за каждую единицу своей силы [Charge:`Заряда`] на следующий ход (До 2 за навык)"
+                  "desc": "[OnSucceedAttack] Получает по 1 [Agility:`Спешке`] и 1 [ChargeLoad:`Нагрузке`] на следующий ход за каждую единицу своей силы [Charge:`Заряда`] (До 2 за навык)"
                 },
                 {
                   "desc": "[EnemyKill] Повышает свой счётчик [Charge:`Заряда`] на 2<style=\"highlight\"></style>"
@@ -413,7 +413,7 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей повышается на <style=\"highlight\">(Число грехов в наибольшем резонансе - 2)</style> <style=\"highlight\">(До 2)</style>\n[BeforeAttack] Если счётчик [Charge:`Заряда`] не максимален, тратит <style=\"highlight\">(Недостающее число счётчика [Charge:`Заряда`])%</style> от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до максимума (Максимальный счётчик: 30; не может убить)\n[BeforeAttack] Тратит до 40 единиц на счётчике [Charge:`Заряда`] и наносит на 2% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">60%</style>) ",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей повышается на <style=\"highlight\">(Число грехов в наибольшем резонансе - 2)</style> <style=\"highlight\">(До 2)</style>\n[BeforeAttack] Если счётчик [Charge:`Заряда`] не максимален, тратит <style=\"highlight\">(Недостающее число счётчика [Charge:`Заряда`])%</style> от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до максимума (Максимальный счётчик: 30; не может убить)\n[BeforeAttack] Тратит до 40 единиц своего счётчика [Charge:`Заряда`] и наносит на 2% больше урона за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">60%</style>) ",
           "coinlist": [
             {
               "coindescs": [
@@ -421,7 +421,7 @@
                   "desc": "[OnSucceedAttack] Наносит (Своя сила [Charge:`Заряда`] - 1) [DimensionRift:`Пространственных разломов`] (До <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает по 1 [Agility:`Спешке`] и 1 [ChargeLoad:`Нагрузке`] за каждую единицу своей силы [Charge:`Заряда`] на следующий ход (До <style=\"highlight\">3</style> за навык)"
+                  "desc": "[OnSucceedAttack] Получает по 1 [Agility:`Спешке`] и 1 [ChargeLoad:`Нагрузке`] на следующий ход за каждую единицу своей силы [Charge:`Заряда`] (До <style=\"highlight\">3</style> за навык)"
                 },
                 {
                   "desc": "[EnemyKill] Повышает свой счётчик [Charge:`Заряда`] на 2<style=\"highlight\"></style>"
@@ -439,7 +439,7 @@
           "level": 1,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "Наносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "Наносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\nКоличество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
@@ -454,7 +454,7 @@
           "level": 3,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "Наносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "Наносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\nКоличество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
@@ -469,7 +469,7 @@
           "level": 4,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "Наносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "Наносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\nКоличество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`] в количестве грехов в наибольшем резонансе (От одной до четырёх)\n[EndSkill] Если главная цель побеждена, наносит 2 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
@@ -489,7 +489,7 @@
           "level": 1,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит 3 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на 1% больше урона за каждые 3 [Combustion:`Огня`] на цели (До 10%)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\nКоличество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит 3 [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
@@ -504,7 +504,7 @@
           "level": 3,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">5</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">2%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\nКоличество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">5</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [
@@ -522,7 +522,7 @@
           "level": 4,
           "name": "Магическая пуля",
           "abName": "Вольный стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\n- Количество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">7</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">3%</style> больше урона за каждые 3 [Combustion:`Огня`] на цели (До <style=\"highlight\">30%</style>)\n[BeforeAttack] Если нет [FreischutzShotCount:`Магических пуль`], получает одну\nКоличество [FreischutzShotCount:`Магических пуль`] определяет ту, которой будет произведён выстрел:\n· [FreishutzOutisEgoBullet_1st:`Первая магическая пуля`]\n· [FreishutzOutisEgoBullet_2nd:`Вторая магическая пуля`]\n· [FreishutzOutisEgoBullet_3rd:`Третья магическая пуля`]\n· [FreishutzOutisEgoBullet_4th:`Четвёртая магическая пуля`]\n· [FreishutzOutisEgoBullet_5th:`Пятая магическая пуля`]\n· [FreishutzOutisEgoBullet_6th:`Шестая магическая пуля`]\n· [FreishutzOutisEgoBullet_7th:`Седьмая магическая пуля`]\n[EndSkill] Получает [FreischutzShotCount:`Магические пули`], равные наибольшему резонансу (От одной до четырёх)\n[EndSkill] Если главная цель убита, наносит <style=\"highlight\">7</style> [DarkFlame:`Тёмного пламени`] на всех противников с [Combustion:`Огнём`]",
           "coinlist": [
             {
               "coindescs": [

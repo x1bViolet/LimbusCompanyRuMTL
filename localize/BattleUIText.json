@@ -170,15 +170,15 @@
     },
     {
       "id": "slash",
-      "content": "[font=pretendard]Рубящий"
+      "content": "Рубящий"
     },
     {
       "id": "penetrate",
-      "content": "[font=pretendard]Пронзающий"
+      "content": "Пронзающий"
     },
     {
       "id": "hit",
-      "content": "[font=pretendard]Дробящий"
+      "content": "Дробящий"
     },
     {
       "id": "action_disable",
@@ -514,11 +514,11 @@
     },
     {
       "id": "show_skillTool",
-      "content": "[font=pretendard]Показать окна навыков"
+      "content": "Показать окна навыков"
     },
     {
       "id": "auto_coinToss",
-      "content": "[font=pretendard]Автоматический\nбросок монет"
+      "content": "Автоматический\nбросок монет"
     },
     {
       "id": "babayaga_alert",
@@ -590,7 +590,7 @@
     },
     {
       "id": "show_BattleAblityUI",
-      "content": "[font=pretendard]Детально показывать информацию в фазе битвы"
+      "content": "Детально показывать информацию в фазе битвы"
     },
     {
       "id": "Ahab_NotTarget_Onece",
@@ -606,7 +606,7 @@
     },
     {
       "id": "show_BattleUnitAblityUI",
-      "content": "[font=pretendard]Показывать активные эффекты в фазе Битвы"
+      "content": "Показывать активные эффекты в фазе Битвы"
     },
     {
       "id": "LobotomyStartTypo_Title_1",

@@ -1,0 +1,1416 @@
+{
+  "dataList": [
+    {
+      "id": 9020301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар в болевую точку",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слом болевой точки",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крушение паланкина",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] Получает 3 ОЗ щита за каждый тип негативных эффектов на себе (До 10)"
+        }
+      ]
+    },
+    {
+      "id": 9020401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Атака по болевой точке",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Попадание в болевую точку",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрушитель паланкинов",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с счётчиком [Laceration:`Кровотечения`] 3 и более\n[WhenUse] Сила монет +1 против целей с счётчиком [Vibration:`Тремора`] 4 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] Получает 3 ОЗ щита за каждый тип негативных эффектов на себе (До 10)"
+        }
+      ]
+    },
+    {
+      "id": 9020101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Точечный удар",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`] на следующй ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Круговой точечный удар наотмашь",
+          "desc": "Сила в столкновении +1 за каждый тип негативных эффектов на себе (До 3)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующй ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Круговой удар наотмашь",
+          "desc": "Сила в столкновении +1 за каждый тип негативных эффектов на себе (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующй ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующй ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующй ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "Сила монет +1 за каждый тип негативных эффектов на себе (До 3)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Центрированный удар",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Полукруглый точечный удар наотмашь",
+          "desc": "Сила в столкновении +1 за каждый тип негативных эффектов на себе (До 3)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Полукруглый удар наотмашь",
+          "desc": "Сила в столкновении +1 за каждый тип негативных эффектов на себе (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "Сила монет +1 за каждый тип негативных эффектов на себе (До 3)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Царапание",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дикий скрежет когтей",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Порвать на части",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 20% потерянных ОЗ (До 4)\n[WhenUse] Сила монет +1 за каждые 6 [Burst:`Разрывов`] на цели (До 2)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] и повышает его счётчик на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачущий треснувший сосуд",
+          "desc": "[EndSkill] Случайно наносит 2 из следующих эффектов на следующий ход, после чего умирает, нанося 10 урона:\n- 3 [AttackDown:`Понижения уровня атаки`]\n- 3 [DefenseDown:`Понижения уровня защиты`]\n- 1 [Paralysis:`Паралич`]\n- 2 [Binding:`Связывания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Царапание когтями",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дикое царапанье",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зацепление",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 20% потерянных ОЗ (До 4)\n[WhenUse] Сила монет +1 за каждые 6 [Burst:`Разрывов`] на цели (До 2)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачущий треснувший сосуд",
+          "desc": "[EndSkill] Случайно наносит 2 из следующих эффектов на следующий ход, после чего умирает, нанося 10 урона:\n- 3 [AttackDown:`Понижения уровня атаки`]\n- 3 [DefenseDown:`Понижения уровня защиты`]\n- 1 [Paralysis:`Паралич`]\n- 2 [Binding:`Связывания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усугубление ран",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дикое рыскание",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Копание в плоти",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 20% потерянных ОЗ (До 4)\n[WhenUse] Сила монет +1 за каждые 6 [Burst:`Разрывов`] на цели (До 2)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачущий треснувший сосуд",
+          "desc": "[EndSkill] Случайно наносит 2 из следующих эффектов на следующий ход, после чего умирает, нанося 10 урона:\n- 3 [AttackDown:`Понижения уровня атаки`]\n- 3 [DefenseDown:`Понижения уровня защиты`]\n- 1 [Paralysis:`Паралич`]\n- 2 [Binding:`Связывания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Царапание ран",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрывание плоти",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Корчиться в одиночестве",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 10% потерянных ОЗ (До 5)\n[WhenUse] Сила монет +1 за каждые 4 [Burst:`Разрыва`] на цели (До 3)\n[WhenUse] Если сумма силы и счётчика [Burst:`Разрыва`] цели 10 и более, удваивает счётчик [Burst:`Разрыва`] цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если сумма силы и счётчика [Burst:`Разрыва`] цели 15 и более, наносит (Сила × счётчик [Burst:`Разрыва`] на цели) урона Чревоугодием (До 40)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наноит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Burst:`Разрывов`], заново использует навык (До 2 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скачущий треснувший сосуд",
+          "desc": "[EndSkill] Случайно наносит 3 из следующих эффектов на следующий ход, после чего умирает, нанося 30 урона:\n- 4 [AttackDown:`Понижения уровня атаки`]\n- 4 [DefenseDown:`Понижения уровня защиты`]\n- 2 [Paralysis:`Паралича`]\n- 2 [Binding:`Связывания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Натиск",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрушительная казнь",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 1% больше урона за каждую единицу в сумме силы и счётчика [Laceration:`Кровотечения`] цели (До 20%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смести прочь",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Загнать в угол",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрушительная казнь",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 1% больше урона за каждую единицу в сумме силы и счётчика [Laceration:`Кровотечения`] цели (До 20%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9019904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отражающее разрубание",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 8 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Давящее рассечение",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Волновой разрез",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "На 1% больше урона за каждую единицу в сумме силы и счётчика [Laceration:`Кровотечения`] цели (До 20%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усмирение",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "На 2% больше урона за каждую единицу в сумме силы и счётчика [Laceration:`Кровотечения`] цели (До 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`] и 3 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фронтальный вихрь",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Получает 1 [SipOfAlcohol:`Глоток алкоголя`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Техника быстрого опохмеления",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 1 [SipOfAlcohol:`Глоток алкоголя`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Водопад",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[DefeatDuel] Теряет 3 [SipOfAlcohol:`Глотка алкоголя`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пьяное мастерство",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] При 3 и более [SipOfAlcohol:`Глотках алкоголя`] все монеты становятся [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 1% больше урона за каждую единицу в сумме силы и счётчика [Laceration:`Кровотечения`] на цели (До 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 3 и более [SipOfAlcohol:`Глотках алкоголя`] снова использует этот навык (Единожды за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ответный удар",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 5 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Paralysis:`Паралича`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [AttackDown:`Понижений уровня атаки`] и [DefenseDown:`Понижений уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подлинный обезглавливающий размах",
+          "desc": "[StartBattle] ОЗ не могут упасть ниже 1 до окончания использования этого навыка\n[WhenUse] Получает 10 [AttackUp:`Повышений уровня атаки`]\n[WhenUse] Получает 5 [Enhancement:`Повышений силы атаки`]\n[WhenUse] Получает 10 [AttackDmgUp:`Повышений урона`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 1% больше урона за каждую единицу в сумме силы и счётчика [Laceration:`Кровотечения`] на цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [SipOfAlcohol:`Глотков алкоголя`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Опьянённое размышление",
+          "desc": "[WhenUse] Получает 5 ОЗ щита за каждый [SipOfAlcohol:`Глоток алкоголя`] (До 25)\n[WhenUse] Получает [SipOfAlcohol:`Глотки алкоголя`] в количестве противников, на которых нацелен (До 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

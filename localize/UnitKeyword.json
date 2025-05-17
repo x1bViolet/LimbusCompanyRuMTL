@@ -191,6 +191,10 @@
     {
       "id": "UnitKeyword_BLACK_BEAST",
       "content": "Стая Хэйшоу"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_SNAKE",
+      "content": "Стая Хэйшоу - Ветвь Си"
     }
   ]
 }

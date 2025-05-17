@@ -50,11 +50,11 @@
     },
     {
       "id": "formation_participate_battle_label",
-      "content": "[font=mikodacs]Всего:"
+      "content": "Всего:"
     },
     {
       "id": "formation_setting_waiting_character",
-      "content": "[font=mikodacs]Запасных грешников:"
+      "content": "Запасных грешников:"
     },
     {
       "id": "heal_character_who_does_not_participate_battle",
@@ -122,7 +122,7 @@
     },
     {
       "id": "railway_dungeon_4_formation_reset",
-      "content": "[font=mikodacs]Сбросить выбор"
+      "content": "Сбросить выбор"
     }
   ]
 }
