@@ -61,12 +61,6 @@
 3. Перейди в `LimbusCompany_Data` и создай папку `Lang` если её ещё нет
 4. Внутри папки `Lang` создай папку `ru-mtl` и перенеси туда все файлы из архива с шага 1
 
-### Установи шрифт
-1. Скачай [последнюю версию](https://github.com/kimght/LimbusFonts/releases/latest) шрифта (`merged_font.ttf`)
-2. Перейди в `LimbusCompany_Data/Lang/ru-mtl` и создай папку `Font`
-3. Внутри неё создай ещё две папки: `Context` и `Title`
-4. Положи `merged_font.ttf` в каждую из них
-
 ---
 
 # [Помочь с переводом](https://github.com/kimght/LimbusStory)
