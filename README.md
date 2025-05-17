@@ -32,6 +32,7 @@
 - [x] Глава 5
 - [x] Глава 6
 - [x] Глава 7
+- [x] Глава 8.1
 
 ## Интерваллы
 - [x] **Hell's Chicken** 3.5
@@ -41,6 +42,7 @@
 - [x] **Timekilling Time** 6.5 (1)
 - [x] **Murder on the WARP express** 6.5 (2)
 - [x] **LCB Regular Check-Up** 7.5 (1)
+- [x] **Nocturnal Sweeping** 7.5 (2)
 
 ---
 
