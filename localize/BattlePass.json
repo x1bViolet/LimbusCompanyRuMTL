@@ -259,6 +259,10 @@
     {
       "id": "battle_pass_sale_10",
       "content": "Скидка 10%"
+    },
+    {
+      "id": "until_season_6_start",
+      "content": "- До обновления с 7 Сезоном"
     }
   ]
 }
