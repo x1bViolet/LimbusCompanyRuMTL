@@ -1,0 +1,72 @@
+{
+  "dataList": [
+    {
+      "id": "unit_info_tooltip_status_0",
+      "content": "Макс. ОЗ"
+    },
+    {
+      "id": "unit_info_tooltip_status_1",
+      "content": "Скорость"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_0",
+      "content": "Сопротивление к Рубящему"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_1",
+      "content": "Сопротивление к Пронзающему"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_2",
+      "content": "Сопротивление к Дробящему"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_0",
+      "content": "Сопротивление к Гневу"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_1",
+      "content": "Сопротивление к Похоти"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_2",
+      "content": "Сопротивление к Лености"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_3",
+      "content": "Сопротивление к Чревоугодию"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_4",
+      "content": "Сопротивление к Унынию"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_5",
+      "content": "Сопротивление к Гордыне"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_6",
+      "content": "Сопротивление к Зависти"
+    },
+    {
+      "id": "unit_info_tooltip_skill_count",
+      "content": "Количество копий навыка в очереди"
+    },
+    {
+      "id": "unit_info_tooltip_targetting_count",
+      "content": "Количество целей"
+    },
+    {
+      "id": "unit_info_tooltip_targetting_count_desc",
+      "content": "Количество слотов навыков, на которые может нацелиться атака"
+    },
+    {
+      "id": "unit_info_tooltip_ego_resource",
+      "content": "Количество необходимых для активации ЭГО ресурсов"
+    },
+    {
+      "id": "tooltip_ego_resource_ui",
+      "content": "Количество имеющихся ЭГО ресурсов"
+    }
+  ]
+}
