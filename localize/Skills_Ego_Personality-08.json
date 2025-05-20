@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Слепая одержимость",
-          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
           "desc": "[EndSkill] Восстанавливает 15 СД четырём союзникам с наименьшей СД",
           "coinlist": [
             {
@@ -24,7 +24,7 @@
         {
           "level": 3,
           "name": "Слепая одержимость",
-          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
           "desc": "[EndSkill] Восстанавливает <style=\"highlight\">20</style> CД четырём союзникам с наименьшей СД",
           "coinlist": [
             {
@@ -45,7 +45,7 @@
         {
           "level": 4,
           "name": "Слепая одержимость",
-          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
           "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25</style> СД четырём союзникам с наименьшей СД",
           "coinlist": [
             {
@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Слепая одержимость",
-          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
           "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
@@ -89,7 +89,7 @@
         {
           "level": 3,
           "name": "Слепая одержимость",
-          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
           "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
@@ -113,7 +113,7 @@
         {
           "level": 4,
           "name": "Слепая одержимость",
-          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
           "desc": "[CantIdentify]\nСлучайные цели",
           "coinlist": [
             {
