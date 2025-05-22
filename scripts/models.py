@@ -10,10 +10,15 @@ class FontRule(msgspec.Struct):
     escape_keywords: bool = True
 
 
+class IncludedFont(msgspec.Struct):
+    path: str
+    filename: str
+
+
 class Font(msgspec.Struct):
     repo: str | None = None
     replacement_map_path: str | None = None
-    font_path: str | None = None
+    include: list[IncludedFont] = msgspec.field(default_factory=list)
 
 
 class Reference(msgspec.Struct):
@@ -38,10 +43,10 @@ class XmlEscape(msgspec.Struct):
 class Config(msgspec.Struct):
     font: Font
     reference: Reference
-    font_rules: dict[str, list[FontRule]]
     keyword_shorthands: KeywordShorthands
     priority: Priority
     xml_escape: XmlEscape
+    font_rules: dict[str, list[FontRule]] = msgspec.field(default_factory=dict)
 
     @staticmethod
     def from_file(path: Path) -> "Config":

@@ -89,15 +89,19 @@ def load_replacements_map(
     return json.load(download_release_asset(font.repo, font.replacement_map_path))
 
 
-def download_font(font: Font, target_path: Path) -> None:
-    if font.repo is None:
-        shutil.copy(font.font_path, target_path)
-        return
+def download_included_fonts(font: Font, target_path: Path) -> None:
+    for included_font in font.include:
+        result_path = target_path / included_font.path
+        result_path.parent.mkdir(parents=True, exist_ok=True)
 
-    content = download_release_asset(font.repo, font.font_path)
+        if font.repo is None:
+            shutil.copy(included_font.filename, result_path)
+            continue
 
-    with target_path.open("wb") as f:
-        shutil.copyfileobj(content, f)
+        content = download_release_asset(font.repo, included_font.filename)
+
+        with result_path.open("wb") as f:
+            shutil.copyfileobj(content, f)
 
 
 def load_keyword_colors() -> dict[str, str]:
@@ -235,6 +239,11 @@ class FontConverter:
                 continue
 
             font = re_match.group("font")
+
+            if font == "default":
+                self.updated.add((file_path, str(match.full_path)))
+                continue
+
             if font not in self.replacements_map:
                 logger.warning(f"Font {font} not found in replacements map!")
                 continue
@@ -414,12 +423,11 @@ def main():
     dist_path = Path("./dist/localize")
     dist_path.mkdir(parents=True, exist_ok=True)
 
-    if not args.no_include_font and config.font.font_path is not None:
-        asset_path = Path(config.font.font_path)
-        font_path = dist_path / "Font" / asset_path.name
-        font_path.parent.mkdir(parents=True, exist_ok=True)
+    if not args.no_include_font:
+        font_path = dist_path / "Font"
+        font_path.mkdir(parents=True, exist_ok=True)
 
-        download_font(config.font, font_path)
+        download_included_fonts(config.font, font_path)
 
     font_converter = FontConverter(
         config.font_rules,

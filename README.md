@@ -32,6 +32,7 @@
 - [x] Глава 5
 - [x] Глава 6
 - [x] Глава 7
+- [x] Глава 8.1
 
 ## Интерваллы
 - [x] **Hell's Chicken** 3.5
@@ -41,6 +42,7 @@
 - [x] **Timekilling Time** 6.5 (1)
 - [x] **Murder on the WARP express** 6.5 (2)
 - [x] **LCB Regular Check-Up** 7.5 (1)
+- [x] **Nocturnal Sweeping** 7.5 (2)
 
 ---
 
@@ -58,12 +60,6 @@
 2. Чтобы найти папку игры, зайди в библиотеку Steam и нажми ПКМ по Limbus Company в списке игр. В контекстом меню выбери `Управление -> Посмотреть локальные файлы`
 3. Перейди в `LimbusCompany_Data` и создай папку `Lang` если её ещё нет
 4. Внутри папки `Lang` создай папку `ru-mtl` и перенеси туда все файлы из архива с шага 1
-
-### Установи шрифт
-1. Скачай [последнюю версию](https://github.com/kimght/LimbusFonts/releases/latest) шрифта (`merged_font.ttf`)
-2. Перейди в `LimbusCompany_Data/Lang/ru-mtl` и создай папку `Font`
-3. Внутри неё создай ещё две папки: `Context` и `Title`
-4. Положи `merged_font.ttf` в каждую из них
 
 ---
 
