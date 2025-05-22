@@ -72,7 +72,7 @@
           "level": 1,
           "name": "Слепая одержимость",
           "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
@@ -90,7 +90,7 @@
           "level": 3,
           "name": "Слепая одержимость",
           "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
@@ -114,7 +114,7 @@
           "level": 4,
           "name": "Слепая одержимость",
           "abName": "Мутный поток, пожирающий \n<cspace=-1px>сновидения</cspace>",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
@@ -344,7 +344,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Curse:`Проклятие`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в резонансе 4 и более греха Уныния, наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]<style=\"highlight\"></style>"
@@ -368,7 +368,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если в резонансе 4 и более греха Уныния, наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]<style=\"highlight\"></style>"
@@ -448,7 +448,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] <style=\"highlight\">за каждые 3</style> греха Утопания в резонансе <style=\"highlight\">(До 2)</style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] <style=\"highlight\">за каждые 3</style> греха Уныния в резонансе <style=\"highlight\">(До 2)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [UninvitedGuestPersonality:`Незваных гостя`]"
@@ -552,7 +552,7 @@
           "level": 1,
           "name": "Рождественский кошмар",
           "abName": "Уютная кровать",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -581,7 +581,7 @@
           "level": 3,
           "name": "Рождественский кошмар",
           "abName": "Уютная кровать",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Если главная цель оглушена, в состоянии низкого духа, или в состоянии паники, Базовая сила +1</style>\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ\n<style=\"highlight\">[EndSkill] Восстанавливает 5 СД за каждую цель, которая оглушена, в состоянии низкого духа, или в панике</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Базовая сила +1, если главная цель оглушена, в состоянии низкого духа, или в состоянии паники</style>\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ\n<style=\"highlight\">[EndSkill] Восстанавливает 5 СД за каждую цель, которая оглушена, в состоянии низкого духа, или в панике</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -616,7 +616,7 @@
           "level": 4,
           "name": "Рождественский кошмар",
           "abName": "Уютная кровать",
-          "desc": "[CantIdentify]\nСлучайные цели\nЕсли главная цель оглушена, в состоянии низкого духа, или в состоянии паники, Базовая сила <style=\"highlight\">+2</style>\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ\n[EndSkill] Восстанавливает 5 СД за каждую цель, которая оглушена, в состоянии низкого духа, или в панике",
+          "desc": "[CantIdentify]\nСлучайная цель\nБазовая сила <style=\"highlight\">+2</style>, если главная цель оглушена, в состоянии низкого духа, или в состоянии паники\n[BeforeAttack] Повышает свой счётчик [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 5) (До 10)\n[BeforeAttack] Восстанавливает 10 ОЗ\n[EndSkill] Восстанавливает 5 СД за каждую цель, которая оглушена, в состоянии низкого духа, или в панике",
           "coinlist": [
             {
               "coindescs": [
@@ -645,6 +645,166 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стоногая личинка-убийца [蝍蛆殺]",
+          "abName": "Многоножка-апостол",
+          "desc": "[EndSkill] Наносит [CentipedePoison:`Яд многоножки`] в количестве суммы всех типов негативных эффектов на себе и на главной цели (До 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехах в резонансе Чревоугодия или Уныния наносит 4 [CentipedePoison:`Яда многоножки`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Стоногая личинка-убийца [蝍蛆殺]",
+          "abName": "Многоножка-апостол",
+          "desc": "[EndSkill] Наносит [CentipedePoison:`Яд многоножки`] в количестве суммы всех типов негативных эффектов на себе и на главной цели (До <style=\"highlight\">8</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехах в резонансе Чревоугодия или Уныния наносит 4 [CentipedePoison:`Яда многоножки`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Стоногая личинка-убийца [蝍蛆殺]",
+          "abName": "Многоножка-апостол",
+          "desc": "[EndSkill] Наносит [CentipedePoison:`Яд многоножки`] в количестве суммы всех типов негативных эффектов на себе и на главной цели (До <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехах в резонансе Чревоугодия или Уныния наносит [CentipedePoison:`Яд многоножки`] <style=\"highlight\">в количестве грехов этого резонанса (До 5)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стоногая личинка-убийца [蝍蛆殺]",
+          "abName": "Многоножка-апостол",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит [CentipedePoison:`Яд многоножки`] в количестве суммы всех типов негативных эффектов на себе и на главной цели (До 8)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехах в резонансе Чревоугодия или Уныния наносит 4 [CentipedePoison:`Яда многоножки`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Стоногая личинка-убийца [蝍蛆殺]",
+          "abName": "Многоножка-апостол",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит [CentipedePoison:`Яд многоножки`] в количестве суммы всех типов негативных эффектов на себе и на главной цели (До <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехах в резонансе Чревоугодия или Уныния наносит 4 [CentipedePoison:`Яда многоножки`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Стоногая личинка-убийца [蝍蛆殺]",
+          "abName": "Многоножка-апостол",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит [CentipedePoison:`Яд многоножки`] в количестве суммы всех типов негативных эффектов на себе и на главной цели (До 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехах в резонансе Чревоугодия или Уныния наносит [CentipedePoison:`Яд многоножки`] <style=\"highlight\">в количестве грехов этого резонанса (До 5)</style>"
                 }
               ]
             }

@@ -149,7 +149,7 @@
           "level": 1,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[BeforeAttack] Количество целей +(Число грехов в резонансе Зависти - 2) (До 1)\n[BeforeAttack] При счётчике [Charge:`Заряда`] 20 и более тратит 20 его единиц, чтобы повысить урон на 30%",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в резонансе Зависти - 2) (До 1)\n[BeforeAttack] При счётчике [Charge:`Заряда`] 20 и более тратит 20 его единиц, чтобы повысить урон на 30%",
           "coinlist": [
             {
               "coindescs": [
@@ -164,7 +164,7 @@
           "level": 3,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[BeforeAttack] Количество целей +(Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">2</style>)\n<style=\"highlight\">[BeforeAttack] Наносит на ((Число грехов в резонансе Зависти - 3) × 5)% больше урона (До 15%)</style>\n[BeforeAttack] При счётчике [Charge:`Заряда`] 20 и более тратит 20 его единиц, чтобы повысить урон на <style=\"highlight\">35%</style>",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">2</style>)\n<style=\"highlight\">[BeforeAttack] Наносит на ((Число грехов в резонансе Зависти - 3) × 5)% больше урона (До 15%)</style>\n[BeforeAttack] При счётчике [Charge:`Заряда`] 20 и более тратит 20 его единиц, чтобы повысить урон на <style=\"highlight\">35%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -179,7 +179,7 @@
           "level": 4,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[BeforeAttack] Количество целей +(Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Наносит на ((Число грехов в резонансе Зависти - 3) × <style=\"highlight\">10</style>)% больше урона (До <style=\"highlight\">30%</style>)\n[BeforeAttack] При счётчике [Charge:`Заряда`] 20 и более тратит 20 его единиц, чтобы повысить урон на <style=\"highlight\">40%</style>",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Наносит на ((Число грехов в резонансе Зависти - 3) × <style=\"highlight\">10</style>)% больше урона (До <style=\"highlight\">30%</style>)\n[BeforeAttack] При счётчике [Charge:`Заряда`] 20 и более тратит 20 его единиц, чтобы повысить урон на <style=\"highlight\">40%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -199,7 +199,7 @@
           "level": 1,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в резонансе Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на ((Число грехов в резонансе Зависти - 3) × 5)% (До 15%)\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 20, восполняет его до 20 за трату 1.5% от максимальных ОЗ за каждую единицу восполняемого счётчика [Charge:`Заряда`]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:`Заряда`] для повышения урона на 2.5% за каждую потраченную единицу счётчика [Charge:`Заряда`] (До 50%)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в резонансе Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на ((Число грехов в резонансе Зависти - 3) × 5)% (До 15%)\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 20, восполняет его до 20 за трату 1.5% от максимальных ОЗ за каждую единицу восполняемого счётчика [Charge:`Заряда`]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:`Заряда`] для повышения урона на 2.5% за каждую потраченную единицу счётчика [Charge:`Заряда`] (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -214,7 +214,7 @@
           "level": 3,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на ((Число грехов в резонансе Зависти - 3) × <style=\"highlight\">8</style>)% (До <style=\"highlight\">24%</style>)\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 20, восполняет его до 20 за трату 1.5% от максимальных ОЗ за каждую единицу восполняемого счётчика [Charge:`Заряда`]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:`Заряда`] для повышения урона на <style=\"highlight\">3.5%</style> за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">70%</style>)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на ((Число грехов в резонансе Зависти - 3) × <style=\"highlight\">8</style>)% (До <style=\"highlight\">24%</style>)\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 20, восполняет его до 20 за трату 1.5% от максимальных ОЗ за каждую единицу восполняемого счётчика [Charge:`Заряда`]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:`Заряда`] для повышения урона на <style=\"highlight\">3.5%</style> за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">70%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -229,7 +229,7 @@
           "level": 4,
           "name": "Электрическое блеяние",
           "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает урон на ((Число грехов в резонансе Зависти - 3) × <style=\"highlight\">12</style>)% (До <style=\"highlight\">36%</style>)\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 20, восполняет его до 20 за трату <style=\"highlight\">1%</style> от максимальных ОЗ за каждую единицу восполняемого счётчика [Charge:`Заряда`]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:`Заряда`] для повышения урона на <style=\"highlight\">5%</style> за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">100%</style>)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в резонансе Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает урон на ((Число грехов в резонансе Зависти - 3) × <style=\"highlight\">12</style>)% (До <style=\"highlight\">36%</style>)\n[BeforeAttack] При счётчике [Charge:`Заряда`] менее 20, восполняет его до 20 за трату <style=\"highlight\">1%</style> от максимальных ОЗ за каждую единицу восполняемого счётчика [Charge:`Заряда`]\n[BeforeAttack] Тратит до 20 единиц счётчика [Charge:`Заряда`] для повышения урона на <style=\"highlight\">5%</style> за каждую потраченную единицу счётчика [Charge:`Заряда`] (До <style=\"highlight\">100%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -249,7 +249,7 @@
           "level": 1,
           "name": "Жаждущая - Миркалла",
           "abName": "Четыреста роз",
-          "desc": "ОЗ не опускаются ниже 1 при использовании навыка\nСила в столкновении +1 за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] (До 2)\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 50, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "ОЗ не опускаются ниже 1 до конца использования навыка\nСила в столкновении +1 за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] (До 2)\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 50, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -300,7 +300,7 @@
           "level": 3,
           "name": "Жаждущая - Миркалла",
           "abName": "Четыреста роз",
-          "desc": "ОЗ не опускаются ниже 1 при использовании навыка\n<style=\"highlight\">Cила монет +1 против целей с 10 и более [Laceration:`Кровотечения`]</style>\nСила в столкновении +1 за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] (До <style=\"highlight\">3</style>)\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее <style=\"highlight\">75</style>, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "ОЗ не опускаются ниже 1 до конца использования навыка\n<style=\"highlight\">Cила монет +1 против целей с 10 и более [Laceration:`Кровотечения`]</style>\nСила в столкновении +1 за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] (До <style=\"highlight\">3</style>)\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее <style=\"highlight\">75</style>, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -351,7 +351,7 @@
           "level": 4,
           "name": "Жаждущая - Миркалла",
           "abName": "Четыреста роз",
-          "desc": "ОЗ не опускаются ниже 1 при использовании навыка\nСила монет +1 <style=\"highlight\">за каждые 10 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\nСила в столкновении +1 за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] (До <style=\"highlight\">5</style>)\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее <style=\"highlight\">100</style>, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "ОЗ не опускаются ниже 1 до конца использования навыка\nСила монет +1 <style=\"highlight\">за каждые 10 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\nСила в столкновении +1 за каждые 100 [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`] (До <style=\"highlight\">5</style>)\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее <style=\"highlight\">100</style>, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -407,7 +407,7 @@
           "level": 1,
           "name": "Жаждущая - Миркалла",
           "abName": "Четыреста роз",
-          "desc": "[CantIdentify]\nСлучайная цель\nОЗ не опускаются ниже 1 при использовании навыка\nСила монет -1 против целей с 10 и более [Laceration:`Кровотечения`]\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 150, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[BeforeAttack] Получает 20 [Laceration:`Кровотечения`], активирует его на себе и теряет 2 счётчика [Laceration:`Кровотечения`]",
+          "desc": "[CantIdentify]\nСлучайная цель\nОЗ не опускаются ниже 1 до конца использования навыка\nСила монет -1 против целей с 10 и более [Laceration:`Кровотечения`]\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 150 наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[BeforeAttack] Получает 20 [Laceration:`Кровотечения`], активирует его на себе и теряет 2 счётчика [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -415,7 +415,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] за каждые 50 [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`] (До 10)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При [BloodDinner:`Кровавом пиршестве`] менее 100, наносит 10 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:`Кровотечения`] при [BloodDinner:`Кровавом пиршестве`] менее 100"
                 }
               ]
             },
@@ -438,7 +438,7 @@
           "level": 3,
           "name": "Жаждущая - Миркалла",
           "abName": "Четыреста роз",
-          "desc": "[CantIdentify]\nСлучайная цель\nОЗ не опускаются ниже 1 при использовании навыка\nСила монет -1 против целей с 10 и более [Laceration:`Кровотечения`]\n<style=\"highlight\">При 200 и более [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`], Сила монет -1</style>\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 150, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[BeforeAttack] Получает 20 [Laceration:`Кровотечения`], активирует его на себе и теряет 2 счётчика [Laceration:`Кровотечения`]",
+          "desc": "[CantIdentify]\nСлучайная цель\nОЗ не опускаются ниже 1 до конца использования навыка\nСила монет -1 против целей с 10 и более [Laceration:`Кровотечения`]\n<style=\"highlight\">Сила монет -1 при 200 и более [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`]</style>\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 150 наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[BeforeAttack] Получает 20 [Laceration:`Кровотечения`], активирует его на себе и теряет 2 счётчика [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -446,7 +446,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] за каждые 50 [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`] (До 10)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При [BloodDinner:`Кровавом пиршестве`] менее 100, наносит 10 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:`Кровотечения`] при [BloodDinner:`Кровавом пиршестве`] менее 100"
                 }
               ]
             },
@@ -469,7 +469,7 @@
           "level": 4,
           "name": "Жаждущая - Миркалла",
           "abName": "Четыреста роз",
-          "desc": "[CantIdentify]\nСлучайная цель\nОЗ не опускаются ниже 1 при использовании навыка\nСила монет -1 против целей с 10 и более [Laceration:`Кровотечения`]\nПри 200 и более [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`], Сила монет -1\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 150, наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[BeforeAttack] Получает 20 [Laceration:`Кровотечения`], активирует его на себе и теряет 2 счётчика [Laceration:`Кровотечения`]",
+          "desc": "[CantIdentify]\nСлучайная цель\nОЗ не опускаются ниже 1 до конца использования навыка\nСила монет -1 против целей с 10 и более [Laceration:`Кровотечения`]\nСила монет -1 при 200 и более [BloodDinner_Accumulation:`Поглощённого кровавого пиршества`]\n[BeforeAttack] При [BloodDinner:`Кровавом пиршестве`] менее 150 наносит 1 [Laceration:`Кровотечение`] при каждом попадании\n[BeforeAttack] Получает 20 [Laceration:`Кровотечения`], активирует его на себе и теряет 2 счётчика [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -477,7 +477,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] за каждые 50 [BloodDinner_Common_Accumulation:`Поглощённого кровавого пиршества (общего)`] (До 10)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При [BloodDinner:`Кровавом пиршестве`] менее 100, наносит 10 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration:`Кровотечения`] при [BloodDinner:`Кровавом пиршестве`] менее 100"
                 }
               ]
             },
@@ -491,6 +491,181 @@
                 },
                 {
                   "desc": "[WinDuelAttack] Восстанавливает ОЗ на 50% от прямого нанесённого урона по ОЗ целей (До 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Алый лист",
+          "abName": "Чтобы никто не плакал",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (4 + число грехов в резонансе Чревоугодия) [EntangledCurseTalisman:`Нацепленных оберегов проклятия`] (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Burst:`Разрывы`] в количестве ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 2) (До 3; округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 4) (До 2; округляется вниз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Алый лист",
+          "abName": "Чтобы никто не плакал",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (4 + число грехов в резонансе Чревоугодия) [EntangledCurseTalisman:`Нацепленных оберегов проклятия`] (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">На 3% больше урона за каждый [EntangledCurseTalisman:`Нацепленный оберег проклятия`] на цели (До 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Burst:`Разрывы`] в количестве ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 2) (До 3; округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 4) (До 2; округляется вниз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Алый лист",
+          "abName": "Чтобы никто не плакал",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (4 + число грехов в резонансе Чревоугодия) [EntangledCurseTalisman:`Нацепленных оберегов проклятия`] (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На <style=\"highlight\">5%</style> больше урона за каждый [EntangledCurseTalisman:`Нацепленный оберег проклятия`] на цели (До <style=\"highlight\">50%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Burst:`Разрывы`] в количестве ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 2) (До <style=\"highlight\">4</style>; округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 4) (До 2; округляется вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Алый лист",
+          "abName": "Чтобы никто не плакал",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (6 + число грехов в резонансе Чревоугодия) [EntangledCurseTalisman:`Нацепленных оберегов проклятия`] (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 5% больше урона за каждый [EntangledCurseTalisman:`Нацепленный оберег проклятия`] на цели (До 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Burst:`Разрывы`] в количестве ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 2) (До 3; округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 3) (До 2; округляется вниз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Алый лист",
+          "abName": "Чтобы никто не плакал",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (6 + число грехов в резонансе Чревоугодия) [EntangledCurseTalisman:`Нацепленных оберегов проклятия`] (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На <style=\"highlight\">10%</style> больше урона за каждый [EntangledCurseTalisman:`Нацепленный оберег проклятия`] на цели (До <style=\"highlight\">100%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Burst:`Разрывы`] в количестве ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 2) (До 3; округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 3) (До 2; округляется вниз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Алый лист",
+          "abName": "Чтобы никто не плакал",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (6 + число грехов в резонансе Чревоугодия) [EntangledCurseTalisman:`Нацепленных оберегов проклятия`] (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 10% больше урона за каждый [EntangledCurseTalisman:`Нацепленный оберег проклятия`] на цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Burst:`Разрывы`] в количестве ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 2) (До <style=\"highlight\">4</style>; округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на ([EntangledCurseTalisman:`Нацепленных оберегов проклятия`] на цели / 3) (До 2; округляется вниз)"
                 }
               ]
             }
