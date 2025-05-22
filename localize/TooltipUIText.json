@@ -10,47 +10,47 @@
     },
     {
       "id": "unit_info_tooltip_attack_resist_0",
-      "content": "Сопротивление к Рубящему"
+      "content": "Споротивление Рубящему"
     },
     {
       "id": "unit_info_tooltip_attack_resist_1",
-      "content": "Сопротивление к Пронзающему"
+      "content": "Споротивление Пронзающему"
     },
     {
       "id": "unit_info_tooltip_attack_resist_2",
-      "content": "Сопротивление к Дробящему"
+      "content": "Споротивление Дробящему"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_0",
-      "content": "Сопротивление к Гневу"
+      "content": "<size=90%>Споротивление Гневу</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_1",
-      "content": "Сопротивление к Похоти"
+      "content": "<size=90%>Споротивление Похоти</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_2",
-      "content": "Сопротивление к Лености"
+      "content": "С<size=90%>поротивление Лености</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_3",
-      "content": "Сопротивление к Чревоугодию"
+      "content": "<size=90%>Споротивление Чревоугодию</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_4",
-      "content": "Сопротивление к Унынию"
+      "content": "<size=90%>Споротивление Унынию</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_5",
-      "content": "Сопротивление к Гордыне"
+      "content": "<size=90%>Споротивление Гордыне</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_6",
-      "content": "Сопротивление к Зависти"
+      "content": "<size=90%>Споротивление Зависти</size>"
     },
     {
       "id": "unit_info_tooltip_skill_count",
-      "content": "Количество копий навыка в очереди"
+      "content": "<size=84%>Количество копий навыка в очереди</size>"
     },
     {
       "id": "unit_info_tooltip_targetting_count",
@@ -58,7 +58,7 @@
     },
     {
       "id": "unit_info_tooltip_targetting_count_desc",
-      "content": "Количество слотов навыков, на которые может нацелиться атака"
+      "content": "Количество слотов навыков, на которые может быть одновременно нацелена атака"
     },
     {
       "id": "unit_info_tooltip_ego_resource",
@@ -66,7 +66,7 @@
     },
     {
       "id": "tooltip_ego_resource_ui",
-      "content": "Количество имеющихся ЭГО ресурсов"
+      "content": "Количество накопленных ЭГО ресурсов"
     }
   ]
 }
