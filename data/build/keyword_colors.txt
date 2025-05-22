@@ -783,3 +783,9 @@ DianxueDonQuixote ¤ #e30000
 BurstPoison ¤ #e30000
 SnakeStance ¤ #f8c200
 SipOfAlcohol ¤ #f8c200
+SupportProtect ¤ #9f6a3a
+BurstZilu ¤ #e30000
+EnhanceZilu ¤ #9f6a3a
+BurstVulnerableZilu ¤ #e30000
+CentipedePoison ¤ #e30000
+EntangledCurseTalisman ¤ #e30000
