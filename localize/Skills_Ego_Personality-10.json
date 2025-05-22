@@ -84,7 +84,7 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% ОЗ</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее чем 50% ОЗ</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -105,7 +105,7 @@
           "level": 4,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее чем 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
           "level": 1,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
@@ -211,7 +211,7 @@
           "level": 3,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -232,7 +232,7 @@
           "level": 4,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха\n<style=\"highlight\">- Количество целей повышается ещё на 1 при наибольшем абсолютном резонансе Похоти в 4 и более греха</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха\n<style=\"highlight\">- Количество целей повышается ещё на 1 при наибольшем абсолютном резонансе Похоти в 4 и более греха</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -269,7 +269,7 @@
                   "desc": "- Если в наибольшем резонансе 4 и более греха, ещё 1 союзник получает щит и [ShieldManagerCryingToad:`Слезинку`] "
                 },
                 {
-                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
                   "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
@@ -290,7 +290,7 @@
                   "desc": "[EndSkill] Даёт себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> союзникам с наименьшими ОЗ щит на <style=\"highlight\">14%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] <style=\"highlight\">(До 3 других союзников)</style>"
                 },
                 {
-                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2<style=\"highlight\"></style>"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
@@ -311,7 +311,7 @@
                   "desc": "[EndSkill] Даёт себе и (1 + (Число грехов в наибольшем резонансе - 2)) союзникам с наименьшими ОЗ щит на <style=\"highlight\">20%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 3 других союзников)"
                 },
                 {
-                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
                   "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
@@ -329,7 +329,7 @@
           "level": 1,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -340,10 +340,10 @@
                   "desc": "[EndSkill] Получает щит на (15 + (Число грехов в наибольшем резонансе × 2.5))% от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 25%)"
                 },
                 {
-                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2 "
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2 "
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -353,7 +353,7 @@
           "level": 3,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей <style=\"highlight\">+(Число грехов в наибольшем резонансе - 2) (До 2)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей <style=\"highlight\">+(Число грехов в наибольшем резонансе - 2) (До 2)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -364,10 +364,10 @@
                   "desc": "[EndSkill] Получает щит на (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -377,7 +377,7 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)\n[BeforeAttack] Этот слот получает 10 [Aggro:`Провокаций`] на следующий ход<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)\n[BeforeAttack] Этот слот получает 10 [Aggro:`Провокаций`] на следующий ход<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -388,10 +388,10 @@
                   "desc": "[EndSkill] Получает щит на (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "- Если на уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её счётчик на 2"
+                  "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 },
                 {
                   "desc": "<style=\"highlight\">- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает щит ещё на 10% от максимальных ОЗ</style>"
@@ -409,7 +409,7 @@
           "level": 1,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
+          "desc": "[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -434,7 +434,7 @@
           "level": 3,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "<style=\"highlight\">[BeforeAttack] При 4 и более грехах в резонансе Зависти, включая этот навык, Количество целей +1</style>\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 4 и более грехах в резонансе Зависти с этим навыком</style>\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -462,7 +462,7 @@
           "level": 4,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[BeforeAttack] Количество целей повышается на 1 <style=\"highlight\">за каждые 3</style> греха в резонансе Зависти, включая этот навык (До 2)\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
+          "desc": "[BeforeAttack] Количество целей повышается на 1 <style=\"highlight\">за каждые 3</style> греха в резонансе Зависти с этим навыком (До 2)\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -498,7 +498,7 @@
           "level": 1,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -523,7 +523,7 @@
           "level": 3,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -551,7 +551,7 @@
           "level": 4,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], немедленно активирует его дважды и уменьшает на 2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -569,7 +569,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехах в резонансе Зависти, включая этот навык, наносит 1 [ParryingResultDown:`Понижение силы в столкновении`] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`] при 4 и более грехах в резонансе Зависти с этим навыком (Единожды за ход)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"
