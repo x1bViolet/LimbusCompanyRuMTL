@@ -295,6 +295,22 @@
     {
       "id": "MainStoryOpenCondition_107",
       "content": "Пройдите 7-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9019",
+      "content": "Пройдите 7-36"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9114",
+      "content": "Пройдите 7.5-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9116",
+      "content": "Пройдите 7.5-15"
+    },
+    {
+      "id": "MainStoryOpenCondition_108",
+      "content": "Пройдите 8-1"
     }
   ]
 }

@@ -138,7 +138,7 @@
     },
     {
       "id": "event_for_new_user_from_date",
-      "content": "Для: новых аккаунтов, созданных после <color=#990000>{0}/{1}</color>, 12:00(КСТ)"
+      "content": "Для: новых аккаунтов, созданных после <color=#990000>{0}/{2}</color>, 12:00(КСТ)"
     },
     {
       "id": "mission_progress_rate",
