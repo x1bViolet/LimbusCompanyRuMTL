@@ -74,7 +74,7 @@
     },
     {
       "id": "mainui_sinners_battleannouncer",
-      "content": "Комментатор"
+      "content": "<size=74%>Комментаторы</size>"
     },
     {
       "id": "mainui_sinners_dante",
@@ -1931,6 +1931,30 @@
     {
       "id": "ego_gift_category_current_theme",
       "content": "Особый рецепт слияния для темы"
+    },
+    {
+      "id": "mainui_exp_dungeon_10_title",
+      "content": "Светодобыча опыта #8 (Рубящий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_10_open_day",
+      "content": "Светодобыча опыта #8 (Рубящий) открывается в ПОН, ВТОР, и ВОСКРЕС."
+    },
+    {
+      "id": "mainui_exp_dungeon_11_title",
+      "content": "Светодобыча опыта #8 (Пронзающий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_11_open_day",
+      "content": "Светодобыча опыта #8 (Пронзающий) открывается в СРЕ, ЧЕТ, и ВОСКРЕС."
+    },
+    {
+      "id": "mainui_exp_dungeon_12_title",
+      "content": "Светодобыча опыта #8 (Дробящий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_12_open_day",
+      "content": "Светодобыча опыта #8 (Дробящий) opens on открывается в ПЯТ, СУБ, и ВОСКРЕС."
     }
   ]
 }

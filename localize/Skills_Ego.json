@@ -649,7 +649,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">25</style> урона по СД"
                 },
                 {
-                  "desc": "<style=\"highlight\">Если цель оглушена, в состоянии низкого духа или в панике, дополнительно наносит 30% прошедшего урона</style>"
+                  "desc": "<style=\"highlight\">Если цель оглушена, в состоянии низкого духа или панике, дополнительно наносит 30% прошедшего урона</style>"
                 }
               ]
             }
@@ -670,7 +670,7 @@
                   "desc": "[OnSucceedAttack] Наносит 25 урона по СД"
                 },
                 {
-                  "desc": "Если цель оглушена, в состоянии низкого духа или в панике, дополнительно наносит 30% прошедшего урона"
+                  "desc": "Если цель оглушена, в состоянии низкого духа или панике, дополнительно наносит 30% прошедшего урона"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]</style>"
@@ -1103,7 +1103,7 @@
           "level": 1,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит 1 [Vulnerable:`Уязвимость`] и даёт 2 [AttackDmgUp:`Повышения урона`] двум союзникам с наименьшими ОЗ",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Накладывает на двух союзников с наименьшими ОЗ 1 [Vulnerable:`Уязвимость`] и 2 [AttackDmgUp:`Повышения урона`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1118,7 +1118,7 @@
           "level": 3,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит <style=\"highlight\">2</style> [Vulnerable:`УязвимостИ`] и даёт <style=\"highlight\">3</style> [AttackDmgUp:`Повышения урона`] двум союзникам с наименьшими ОЗ",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Накладывает на двух союзников с наименьшими ОЗ <style=\"highlight\">2</style> [Vulnerable:`Уязвимости`] и <style=\"highlight\">3</style> [AttackDmgUp:`Повышения урона`] на следующий ход ",
           "coinlist": [
             {
               "coindescs": [
@@ -1235,7 +1235,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Disarming:`Понижения силы защиты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [DefenseDown:`Понижения уровня защиты`]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [DefenseDown:`Понижений уровня защиты`]"
                 }
               ]
             }
@@ -1258,7 +1258,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Disarming:`Понижения силы защиты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижение уровня защиты`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`]"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 4 [Binding:`Связывания`] на следующий ход"
@@ -1630,7 +1630,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">7</style> [AttackDown:`Понижения уровня атаки`]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">7</style> [AttackDown:`Понижений уровня атаки`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Paralysis:`Паралича`]"
@@ -1654,7 +1654,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">10</style> [AttackDown:`Понижений уровня атаки`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Paralysis:`Паралича`]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Paralysis:`Параличей`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Binding:`Связывания`] на следующий ход"
@@ -2108,7 +2108,7 @@
           "level": 1,
           "name": "День грядущий",
           "abName": "Календарь судного дня",
-          "desc": "Если ОЗ цели меньше 25%, наносит на 10% больше урона",
+          "desc": "Если ОЗ цели менее 25%, наносит на 10% больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -2123,7 +2123,7 @@
           "level": 3,
           "name": "День грядущий",
           "abName": "Календарь судного дня",
-          "desc": "Если ОЗ цели меньше 25%, наносит на <style=\"highlight\">20%</style> больше урона",
+          "desc": "Если ОЗ цели менее 25%, наносит на <style=\"highlight\">20%</style> больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -2141,7 +2141,7 @@
           "level": 4,
           "name": "День грядущий",
           "abName": "Календарь судного дня",
-          "desc": "Если ОЗ цели меньше 25%, наносит на <style=\"highlight\">40%</style> больше урона",
+          "desc": "Если ОЗ цели менее 25%, наносит на <style=\"highlight\">40%</style> больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -2522,7 +2522,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 [Paralysis:`Паралича`]"
+                  "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">4</style> [Paralysis:`Паралича`]"
                 }
               ]
             }
@@ -2658,7 +2658,7 @@
           "level": 1,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цели наибольшими ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель наибольшими ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -2676,7 +2676,7 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цели наибольшими ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель наибольшими ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -2778,7 +2778,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но так же и наносит 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`] всем союзникам</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но так же наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]</style>"
                 }
               ]
             }
@@ -2796,7 +2796,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но так же и наносит 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`] всем союзникам"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но так же наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]"
                 }
               ]
             }
@@ -2976,7 +2976,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До 25%)\nЗатем полгощает ЭГО ресурсы Похоти в количестве её резонанса и повышает урон на 5% за каждый поглощённый ЭГО ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До 25%)\n[BeforeAttack] Полгощает ЭГО ресурсы Похоти в количестве грехов её резонанса и повышает урон на 5% за каждый поглощённый ЭГО ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -2991,7 +2991,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До <style=\"highlight\">50%</style>)\nЗатем полгощает ЭГО ресурсы Похоти в количестве её резонанса и повышает урон на <style=\"highlight\">10%</style> за каждый поглощённый ЭГО ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До <style=\"highlight\">50%</style>)\n[BeforeAttack] Полгощает ЭГО ресурсы Похоти в количестве грехов её резонанса и повышает урон на <style=\"highlight\">10%</style> за каждый поглощённый ЭГО ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -3011,7 +3011,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\nЕсли целью стал союзник, наносит 0 урона",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\nНе наносит урона союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -3029,7 +3029,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\nЕсли целью стал союзник, наносит 0 урона",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\nНе наносит урона союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -3052,7 +3052,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на 10%",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на 10%",
           "coinlist": [
             {
               "coindescs": [
@@ -3067,7 +3067,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">20%</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">20%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3082,7 +3082,7 @@
           "level": 4,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">30%</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">30%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3102,12 +3102,12 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Тратит счётчик [Charge:`Заряда`] для нанесения большего урона (До 50%)",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Тратит весь счётчик [Charge:`Заряда`] для нанесения большего урона (До 50%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гордыней на ([Burst:`Разрывов`] на цели × 7.5)% прошедшего урона и понижает счётчик [Burst:`Разрыва`] на 5 (До 75%)"
+                  "desc": "[OnSucceedAttack] Наносит урон Гордыней на ([Burst:`Разрывов`] на цели × 7.5)% прошедшего урона (До 75%) и понижает счётчик [Burst:`Разрыва`] на 5"
                 }
               ]
             }
@@ -3117,15 +3117,15 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Тратит счётчик [Charge:`Заряда`] для нанесения большего урона (До <style=\"highlight\">75%</style>)",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Тратит весь счётчик [Charge:`Заряда`] для нанесения большего урона (До <style=\"highlight\">75%</style>)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если был потрачен [Charge:`Заряд`], наносит 3 [DimensionRift:`Пространственных разлома`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если был потрачен счётчик [Charge:`Заряда`], наносит 3 [DimensionRift:`Пространственных разлома`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гордыней на ([Burst:`Разрывов`] на цели × 10)% прошедшего урона и понижает счётчик [Burst:`Разрыва`] на 5 (До <style=\"highlight\">100%</style>)"
+                  "desc": "[OnSucceedAttack] Наносит урон Гордыней на ([Burst:`Разрывов`] на цели × 10)% прошедшего урона (До <style=\"highlight\">100%</style>) и понижает счётчик [Burst:`Разрыва`] на 5"
                 }
               ]
             }
@@ -3135,15 +3135,15 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Тратит счётчик [Charge:`Заряда`] для нанесения большего урона (До 75%)",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Тратит весь счётчик [Charge:`Заряда`] для нанесения большего урона (До 75%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если был потрачен [Charge:`Заряд`], наносит <style=\"highlight\">5</style> [DimensionRift:`Пространственных разломов`]"
+                  "desc": "[OnSucceedAttack] Если был потрачен счётчик [Charge:`Заряда`], наносит <style=\"highlight\">5</style> [DimensionRift:`Пространственных разломов`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гордыней на ([Burst:`Разрывов`] на цели × 10)% прошедшего урона и понижает счётчик [Burst:`Разрыва`] на 5 (До 100%)"
+                  "desc": "[OnSucceedAttack] Наносит урон Гордыней на ([Burst:`Разрывов`] на цели × 10)% прошедшего урона (До 100%) и понижает счётчик [Burst:`Разрыва`] на 5"
                 }
               ]
             }
@@ -3158,7 +3158,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nСлучайная цель\n[BeforeAttack] Тратит счётчик [Charge:`Заряда`] для нанесения большего урона (До 50%)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь счётчик [Charge:`Заряда`] для нанесения большего урона (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3176,7 +3176,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nСлучайная цель\n[BeforeAttack] Тратит счётчик [Charge:`Заряда`] для нанесения большего урона (До <style=\"highlight\">75%</style>)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь счётчик [Charge:`Заряда`] для нанесения большего урона (До <style=\"highlight\">75%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -3197,7 +3197,7 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит счётчик [Charge:`Заряда`] для нанесения большего урона (До 75%)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь счётчик [Charge:`Заряда`] для нанесения большего урона (До 75%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3258,7 +3258,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает 2 [Agility:`Спешки`] на следующий ход\nТратит 10 единиц своего счётчика [Charge:`Заряда`] для нанесения на 1 [Vulnerable:`Уязвимость`] и [DimensionRift:`Пространственный разлом`] больше этим навыком",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает 2 [Agility:`Спешки`] на следующий ход\nТратит 10 единиц своего счётчика [Charge:`Заряда`] для нанесения на 1 [Vulnerable:`Уязвимость`] и [DimensionRift:`Пространственный разлом`] больше этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -3273,7 +3273,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает <style=\"highlight\">3</style> [Agility:`Спешки`] на следующий ход\nТратит 10 единиц своего счётчика [Charge:`Заряда`] для нанесения <style=\"highlight\">на 2</style> [Vulnerable:`Уязвимости`] и [DimensionRift:`Пространственных разлома`] больше этим навыком",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает <style=\"highlight\">3</style> [Agility:`Спешки`] на следующий ход\nТратит 10 единиц своего счётчика [Charge:`Заряда`] для нанесения <style=\"highlight\">на 2</style> [Vulnerable:`Уязвимости`] и [DimensionRift:`Пространственных разлома`] больше этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -3293,7 +3293,7 @@
           "level": 1,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 1 [Agility:`Спешку`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
+          "desc": "[EndSkill] Получает 1 [Agility:`Спешку`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3314,7 +3314,7 @@
           "level": 3,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает <style=\"highlight\">2</style> [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
+          "desc": "[EndSkill] Получает <style=\"highlight\">2</style> [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3338,7 +3338,7 @@
           "level": 4,
           "name": "Капоте",
           "abName": "Медный бык",
-          "desc": "[EndSkill] Получает 2 [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`], и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
+          "desc": "[EndSkill] Получает 2 [Agility:`Спешки`], 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3623,7 +3623,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:`Связывания`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]<style=\"highlight\">, а так же повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] на 2</style>"
@@ -3715,7 +3715,7 @@
           "level": 1,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цели с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
@@ -3730,7 +3730,7 @@
           "level": 3,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цели с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 7</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 7</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3745,7 +3745,7 @@
           "level": 4,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цели с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 10</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 10</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3847,7 +3847,7 @@
                   "desc": "<style=\"highlight\">[EndSkill] Снова тратит весь свой счётчик [Charge:`Заряда`]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Теряет 10% максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`]  <style=\"highlight\">на 10</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Теряет 10% максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
                 }
               ]
             }
@@ -3991,7 +3991,7 @@
           "level": 1,
           "name": "Красные глаза",
           "abName": "Паучья матка",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
@@ -4009,7 +4009,7 @@
           "level": 3,
           "name": "Красные глаза",
           "abName": "Паучья матка",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
               "coindescs": [
@@ -4035,7 +4035,7 @@
           "level": 1,
           "name": "Красные глаза (Раскрытые)",
           "abName": "Паучья матка",
-          "desc": "Если скорость выше скорости главной цели на 3 и более, Сила монет +4",
+          "desc": "Если своя скорость выше скорости цели на 3 и более, Сила монет +4",
           "coinlist": [
             {
               "coindescs": [
@@ -4050,7 +4050,7 @@
           "level": 3,
           "name": "Красные глаза (Раскрытые)",
           "abName": "Паучья матка",
-          "desc": "Если скорость выше скорости главной цели на 3 и более, Сила монет +4",
+          "desc": "Если своя скорость выше скорости цели на 3 и более, Сила монет +4",
           "coinlist": [
             {
               "coindescs": [
@@ -4068,7 +4068,7 @@
           "level": 4,
           "name": "Красные глаза (Раскрытые)",
           "abName": "Паучья матка",
-          "desc": "Если скорость выше скорости главной цели на 3 и более, Сила монет <style=\"highlight\">+7</style>",
+          "desc": "Если своя скорость выше скорости цели на 3 и более, Сила монет <style=\"highlight\">+7</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -4091,7 +4091,7 @@
           "level": 1,
           "name": "Красные глаза (Раскрытые)",
           "abName": "Паучья матка",
-          "desc": "[CantIdentify] \nСлучайная цель\nЕсли скорость выше скорости главной цели на 3 и боле, Итоговая сила +7",
+          "desc": "[CantIdentify]\nСлучайная цель\nЕсли своя скорость выше скорости цели на 3 и более, Итоговая сила +7",
           "coinlist": [
             {
               "coindescs": [
@@ -4106,7 +4106,7 @@
           "level": 3,
           "name": "Красные глаза (Раскрытые)",
           "abName": "Паучья матка",
-          "desc": "[CantIdentify] \nСлучайная цель\nЕсли скорость выше скорости главной цели на 3 и боле, Итоговая сила +7",
+          "desc": "[CantIdentify]\nСлучайная цель\nЕсли своя скорость выше скорости цели на 3 и более, Итоговая сила +7",
           "coinlist": [
             {
               "coindescs": [
@@ -4124,7 +4124,7 @@
           "level": 4,
           "name": "Красные глаза (Раскрытые)",
           "abName": "Паучья матка",
-          "desc": "[CantIdentify]\nСлучайная цель\nЕсли скорость выше скорости главной цели на 3 и боле, Итоговая сила <style=\"highlight\">+10</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\nЕсли своя скорость выше скорости цели на 3 и более, Итоговая сила <style=\"highlight\">+10</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -4155,7 +4155,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает 12 СД четырём союзникам с наименьшей СД (Кроме себя)"
+                  "desc": "[EndSkill] Восстанавливает 12 СД четырём другим союзникам с наименьшей СД"
                 }
               ]
             }
@@ -4165,7 +4165,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при СД выше 15</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при СД 15 и выше</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -4173,7 +4173,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Reduction:`Понижения силы атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">17</style> СД четырём союзникам с наименьшей СД (Кроме себя)"
+                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">17</style> СД четырём другим союзникам с наименьшей СД"
                 }
               ]
             }
@@ -4183,7 +4183,7 @@
           "level": 4,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при СД выше 15",
+          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при СД 15 и выше",
           "coinlist": [
             {
               "coindescs": [
@@ -4191,7 +4191,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Reduction:`Понижения силы атаки`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25</style> СД четырём союзникам с наименьшей СД (Кроме себя)"
+                  "desc": "[EndSkill] Восстанавливает <style=\"highlight\">25</style> СД четырём другим союзникам с наименьшей СД"
                 }
               ]
             }

@@ -17,6 +17,10 @@
       "content": "<cspace=-2px>ВОСПОМИНАНИЕ [ИВЕНТ]</cspace>"
     },
     {
+      "id": "season_9101_walpurgisnacht",
+      "content": "<cspace=-2px>Вальпургиева ночь</cspace>"
+    },
+    {
       "id": "season_title_3",
       "content": "<cspace=-1px>БОН ВОЯЖ</cspace>"
     },

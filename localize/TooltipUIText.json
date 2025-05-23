@@ -1,0 +1,72 @@
+{
+  "dataList": [
+    {
+      "id": "unit_info_tooltip_status_0",
+      "content": "Макс. ОЗ"
+    },
+    {
+      "id": "unit_info_tooltip_status_1",
+      "content": "Скорость"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_0",
+      "content": "Споротивление Рубящему"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_1",
+      "content": "Споротивление Пронзающему"
+    },
+    {
+      "id": "unit_info_tooltip_attack_resist_2",
+      "content": "Споротивление Дробящему"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_0",
+      "content": "<size=90%>Споротивление Гневу</size>"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_1",
+      "content": "<size=90%>Споротивление Похоти</size>"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_2",
+      "content": "С<size=90%>поротивление Лености</size>"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_3",
+      "content": "<size=90%>Споротивление Чревоугодию</size>"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_4",
+      "content": "<size=90%>Споротивление Унынию</size>"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_5",
+      "content": "<size=90%>Споротивление Гордыне</size>"
+    },
+    {
+      "id": "unit_info_tooltip_attribute_resist_6",
+      "content": "<size=90%>Споротивление Зависти</size>"
+    },
+    {
+      "id": "unit_info_tooltip_skill_count",
+      "content": "<size=84%>Количество копий навыка в очереди</size>"
+    },
+    {
+      "id": "unit_info_tooltip_targetting_count",
+      "content": "Количество целей"
+    },
+    {
+      "id": "unit_info_tooltip_targetting_count_desc",
+      "content": "Количество слотов навыков, на которые может быть одновременно нацелена атака"
+    },
+    {
+      "id": "unit_info_tooltip_ego_resource",
+      "content": "Количество необходимых для активации ЭГО ресурсов"
+    },
+    {
+      "id": "tooltip_ego_resource_ui",
+      "content": "Количество накопленных ЭГО ресурсов"
+    }
+  ]
+}
