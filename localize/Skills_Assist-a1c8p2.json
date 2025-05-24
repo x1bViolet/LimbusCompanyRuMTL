@@ -1,0 +1,124 @@
+{
+  "dataList": [
+    {
+      "id": 40000201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар по уязвимости",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 30% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзание",
+          "desc": "[StartBattle] Получает 1 [Protection:`Защищённость`]\n[WhenUse] Сила монет +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 50% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспомогательная атака",
+          "desc": "[WhenUse] Сила монет +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Получает 6 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 100% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 5 [Burst:`Разрывов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита",
+          "desc": "[CanDuelGuard]\n[StartBattle] Снимает с себя 1 случайный снимаемый негативный эффект\n[StartBattle] Восстанавливает 10 СД\n[WhenUse] Получает 2 [ProtectStance:`Защитной позиции`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+{
+  "dataList": [
+    {
+      "id": 9021001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Разрубание",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Взмах",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Крушение",
+          "desc": "[WhenUse] Тратит по 5 единиц счётчика [Charge:`Заряда`], чтобы повысить Силу монет на 1 (До 2)\n[BeforeAttack] Если было потрачено 5 и более единиц счётчика [Charge:`Заряда`], наносит на 1 [Burst:`Разрыв`] больше\n[BeforeAttack] Если было потрачено 10 и более единиц счётчика [Charge:`Заряда`], повышает счётчик [Burst:`Разрыва`] цели на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] за каждые 5 потраченных при использовании единиц счётчика [Charge:`Заряда`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Ритм",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Разрез",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Встряска",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Разрыв",
+          "desc": "[WhenUse] Тратит по 5 единиц счётчика [Charge:`Заряда`], чтобы повысить Силу монет на 1 (До 2)\n[BeforeAttack] Если было потрачено 5 и более единиц счётчика [Charge:`Заряда`], наносит на 1 [Burst:`Разрыв`] больше\n[BeforeAttack] Если было потрачено 10 и более единиц счётчика [Charge:`Заряда`], повышает счётчик [Burst:`Разрыва`] цели на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] за каждые 5 потраченных при использовании единиц счётчика [Charge:`Заряда`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Ритм",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Разрез и крушение",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Открывающее крушение",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Дробление",
+          "desc": "[WhenUse] Тратит по 5 единиц счётчика [Charge:`Заряда`], чтобы повысить Силу монет на 1 (До 2)\n[BeforeAttack] Если было потрачено 5 и более единиц счётчика [Charge:`Заряда`], наносит на 1 [Burst:`Разрыв`] больше\n[BeforeAttack] Если было потрачено 10 и более единиц счётчика [Charge:`Заряда`], повышает счётчик [Burst:`Разрыва`] цели на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Burst:`Разрывов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Чревоугодием в количестве силы [Burst:`Разрыва`] на цели (До 30) и понижает счётчик [Burst:`Разрыва`] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стиль заряженного топора - Согласование ритма",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отягощение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Терзание",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 2 [DefenseUp:`Повышения уровня защиты`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовое избиение",
+          "desc": "[StartBattle] При ОЗ менее 50% третья монета навыка становится [SuperCoin:`Вечной`]\n[WhenUse] Сила в столкновении +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`] и повышает его счётчик на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Восстанавливает ОЗ на ([DefenseUp:`Повышений уровня защиты`] на себе)% (До 10%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мольбы",
+          "desc": "[WhenUse] Получает ОЗ Щита в количестве 10% от максимальных ОЗ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отягощение",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Терзание",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Восстанавливает ОЗ одному союзнику с наименьшим процентом ОЗ на 5% от своих максимальных ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовый залп",
+          "desc": "[StartBattle] При ОЗ менее 50% третья монета навыка становится [SuperCoin:`Вечной`]\n[WhenUse] Базовая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[WinDuelAttack] Восстанавливает ОЗ двум союзникам с наименьшим процентом ОЗ включая себя на 10% от своих максимальных ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мольбы",
+          "desc": "[OnSucceedEvade] Повышает счётчик [Burst:`Разрыва`] на 2 (До 2 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отягощение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наности 3 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Терзание",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более [Burst:`Разрывами`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовые взмахи",
+          "desc": "[StartBattle] При ОЗ менее 50% третья монета навыка становится [SuperCoin:`Вечной`]\n[WhenUse] Сила монет +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На (Процент потерянных ОЗ)% больше урона (До 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Заново использует этот навык (Только 1 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мольбы",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Нанесение талисманов",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Провокация эффекта",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Убирает с цели 2 [OminousTalisman:`Предзнаменующих талисмана`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Кукла для ритуалов",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Убирает с цели 5 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Барьер",
+          "desc": "[StartBattle] Получает (20 - текущая СД) ОЗ Щита (До 20; не менее 0)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Нанесение талисманов",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Провокация эффекта",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Burst:`Разрыва`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Убирает с цели 3 [OminousTalisman:`Предзнаменующих талисмана`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Исполнение",
+          "desc": "[StartBattle] При СД -30 и менее последняя монета навыка становится [SuperCoin:`Вечной`]\n[DefeatDuel] Базовая сила снижается на 75% (Округляется вниз)\n[WhenUse] Итоговая сила +1 за каждые 4 [Burst] on target (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Убирает с цели 5 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Резкий хлопок",
+          "desc": "[StartBattle] Итоговая сила +1 за каждые 10 СД ниже 0 (До 3)\n[DefeatDuel] Базовая сила снижается на 75% (Округляется вниз), не может оглушить целей\n[EndSkill] Сбрасывает СД до 0",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Убирает все [OminousTalisman:`Предзнаменующие талисманы`] с цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9020905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Школа духовных талисманов - Барьер",
+          "desc": "[StartBattle] Получает (20 - текущая СД) ОЗ Щита (До 40; не менее 0)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}
