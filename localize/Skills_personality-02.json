@@ -1440,7 +1440,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 30% больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Мао】`] или [BurstZilu:`Смертный ритуал 【Раскол】`]"
+                  "desc": "На 30% больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`] или [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 }
               ]
             }
@@ -1461,7 +1461,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 30% больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Мао】`] или [BurstZilu:`Смертный ритуал 【Раскол】`]"
+                  "desc": "На 30% больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`] или [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 }
               ]
             }
@@ -1485,7 +1485,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst]</style>"
                 },
                 {
-                  "desc": "На <style=\"highlight\">50%</style> больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Мао】`] или [BurstZilu:`Смертный ритуал 【Раскол】`]"
+                  "desc": "На <style=\"highlight\">50%</style> больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`] или [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 }
               ]
             }
@@ -1507,7 +1507,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Мао】`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -1567,7 +1567,7 @@
                   "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Мао】`]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]</style>"
                 }
               ]
             }
@@ -1639,7 +1639,7 @@
                   "desc": "[OnSucceedAttack] Накладывает [BurstZilu]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Мао】`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -1682,7 +1682,7 @@
                   "desc": "[OnSucceedAttack] Накладывает [BurstZilu]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Мао】`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -1708,7 +1708,7 @@
                   "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Мао】`]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]</style>"
                 }
               ]
             }

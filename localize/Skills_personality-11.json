@@ -1710,7 +1710,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -1744,7 +1744,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -1764,7 +1764,7 @@
                   "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]</style>"
                 }
               ]
             }
