@@ -1,4 +1,4 @@
-﻿{
+{
   "dataList": [
     {
       "id": "mainui_shop_charge_enkephalin_tab",
@@ -245,24 +245,24 @@
       "content": "Магазин"
     },
     {
-      "id": "mainui_shop_category_special",
+      "id": "paidShop_category_SPECIAL",
       "content": "Особые предложения"
     },
     {
-      "id": "mainui_shop_category_lunacy",
-      "content": "Безумство"
-    },
-    {
-      "id": "mainui_shop_category_package",
+      "id": "paidShop_category_PACKAGE",
       "content": "Паки"
     },
     {
-      "id": "mainui_shop_category_growth",
+      "id": "paidShop_category_LUNACY",
+      "content": "Безумство"
+    },
+    {
+      "id": "paidShop_category_GROWTH",
       "content": "Развитие"
     },
     {
       "id": "returnpolicy_info_title",
-      "content": "Отмена подписки"
+      "content": "Условия возврата"
     },
     {
       "id": "paidShop_Tab_LIMITED",
@@ -293,12 +293,28 @@
       "content": "До окончания доступа к 「{0}」 остлось {1} дней."
     },
     {
+      "id": "membership_remain_side_desc_oneDay",
+      "content": "{0} оканчивается сегодня."
+    },
+    {
       "id": "returnpolicy_table_battlePassPackge",
       "content": "Пак для Лимбус Пасса"
     },
     {
       "id": "paid_runacy_lack",
       "content": "Недостаточно платного Безумства."
+    },
+    {
+      "id": "restore_purchase_btn",
+      "content": "Возврат покупки"
+    },
+    {
+      "id": "restore_purchase_no_product",
+      "content": "Нет доступных для возврата продукторв."
+    },
+    {
+      "id": "restore_purchase_succeed",
+      "content": "Купленные вами продукты были возвращены."
     }
   ]
 }
