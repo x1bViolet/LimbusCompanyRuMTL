@@ -79,6 +79,26 @@
     {
       "id": "dungeon_return_to_save_point",
       "content": "К точке сохранения"
+    },
+    {
+      "id": "dungeon_unlocked_node_notice",
+      "content": "Была обнаружена новая локация."
+    },
+    {
+      "id": "dungeon_unlocked_line_notice",
+      "content": "Новый путь открылся."
+    },
+    {
+      "id": "dungeon_encounter_guide_stairs",
+      "content": "Переход в следующую зону"
+    },
+    {
+      "id": "dungeon_encounter_guide_story",
+      "content": "История"
+    },
+    {
+      "id": "formation_ui_ask_to_use_saved_formation",
+      "content": "Ваша текущая команда будет изменена новую, подтвердить изменения?.\n\n<size=80%>※ После замены идентичностей в команде вы не сможете изменить её посреди подземелья перед боем.</size>"
     }
   ]
 }
