@@ -6,11 +6,11 @@
     },
     {
       "id": "dungeon_shop_ego_gift_composite",
-      "content": "Соединить Дары"
+      "content": "Слияние ЭГО Даров"
     },
     {
       "id": "dungeon_shop_ego_gift_sell",
-      "content": "Продать Дар"
+      "content": "Продать ЭГО Дар"
     },
     {
       "id": "dungeon_shop_refresh",
@@ -34,7 +34,7 @@
     },
     {
       "id": "ego_gift_combine_ui_title",
-      "content": "Соединение ЭГО Даров"
+      "content": "Слияние ЭГО Даров"
     },
     {
       "id": "combine",
@@ -202,11 +202,11 @@
     },
     {
       "id": "side_title_unable_ego_gift_combine",
-      "content": "Соединение невозможно"
+      "content": "Слияние невозможно"
     },
     {
       "id": "side_content_need_more_ego_gift",
-      "content": "Для соединения необходимо не менее 2-х ЭГО Даров."
+      "content": "Для слияния необходимо не менее 2-х ЭГО Даров."
     },
     {
       "id": "side_content_need_lower_tier_ego_gift",
@@ -290,7 +290,7 @@
     },
     {
       "id": "side_content_already_owned_tier_ego_gift",
-      "content": "Вы больше не можетее получить ЭГО Дары этого уровня при соединении Даров на остановках."
+      "content": "Вы больше не можетее получить ЭГО Дары этого уровня при слиянии Даров в магазинах."
     },
     {
       "id": "mirror_dungoen_ego_gift_history_view_desc",
