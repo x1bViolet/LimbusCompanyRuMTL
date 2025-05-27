@@ -1436,7 +1436,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука 【Сы】`], повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], повышает счётчик [Burst:`Разрыва`] на 1</style>"
                 }
               ]
             }
@@ -1460,7 +1460,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука 【Сы】`], повышает счётчик [Burst:`Разрыва`] на 1"
+                  "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             }
@@ -1567,7 +1567,7 @@
                   "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку 【Сы】`]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
                 }
               ]
             }
@@ -1581,7 +1581,7 @@
         {
           "level": 3,
           "name": "Пронзание змееголовой рукой",
-          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука 【Сы】`], Сила монет +1 за каждые 5 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели вместо этого (До 6)\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука`], Сила монет +1 за каждые 5 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели вместо этого (До 6)\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1589,7 +1589,7 @@
                   "desc": "На 5% больше урона за каждую единицу в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До 150%)"
                 },
                 {
-                  "desc": "Если есть [SnakeStance:`Змеиная рука 【Сы】`], наносит на 75% больше урона при критическом попадании"
+                  "desc": "Если есть [SnakeStance:`Змеиная рука`], наносит на 75% больше урона при критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2"
@@ -1607,7 +1607,7 @@
         {
           "level": 4,
           "name": "Пронзание змееголовой рукой",
-          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука 【Сы】`], Сила монет +1 за каждые 5 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели вместо этого (До 6)\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука`], Сила монет +1 за каждые 5 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели вместо этого (До 6)\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1615,7 +1615,7 @@
                   "desc": "На <style=\"highlight\">10%</style> больше урона за каждую единицу в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До <style=\"highlight\">200%</style>)"
                 },
                 {
-                  "desc": "Если есть [SnakeStance:`Змеиная рука 【Сы】`], наносит на <style=\"highlight\">100%</style> больше урона при критическом попадании"
+                  "desc": "Если есть [SnakeStance:`Змеиная рука`], наносит на <style=\"highlight\">100%</style> больше урона при критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2<style=\"highlight\"></style>"
@@ -1641,7 +1641,7 @@
         {
           "level": 1,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`] на следующий ход",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1655,7 +1655,7 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при счётчике своего [Breath:`Дыхания`] 10 и более</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при счётчике своего [Breath:`Дыхания`] 10 и более</style>",
           "coinlist": [
             {
               "coindescs": [

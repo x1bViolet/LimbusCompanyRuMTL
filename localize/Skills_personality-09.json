@@ -1351,7 +1351,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука 【Сы】`], наносит 1 [Burst:`Разрыв`]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], наносит 1 [Burst:`Разрыв`]</style>"
                 }
               ]
             }
@@ -1375,7 +1375,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука 【Сы】`], наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                  "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -1461,7 +1461,7 @@
                   "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку 【Сы】`]</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
                 }
               ]
             }
@@ -1475,7 +1475,7 @@
         {
           "level": 3,
           "name": "Смертельный шквал",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели 10 и более\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки 【Сы】`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели 10 и более\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1509,7 +1509,7 @@
         {
           "level": 4,
           "name": "Смертельный шквал",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки 【Сы】`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1548,7 +1548,7 @@
         {
           "level": 1,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`] на следующий ход",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1562,7 +1562,7 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки 【Сы】`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при счётчике своего [Breath:`Дыхания`] 10 и более</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при счётчике своего [Breath:`Дыхания`] 10 и более</style>",
           "coinlist": [
             {
               "coindescs": [

@@ -85,7 +85,7 @@
                   "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`], на 50% больше урона"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
                 },
                 {
                   "desc": "[WinDuelAttack] Вновь подкидывает монету (Единожды за навык)"
@@ -200,7 +200,7 @@
                   "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`], на 50% больше урона"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
                 },
                 {
                   "desc": "[WinDuelAttack] Вновь подкидывает монету (Единожды за навык)"
@@ -479,7 +479,7 @@
         {
           "level": 1,
           "name": "Пробитие насквозь",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Burst:`Разрывами`]\n[WhenUse] Получает 3 [LegStrength:`Стремительности 【Мао】`]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Burst:`Разрывами`]\n[WhenUse] Получает 3 [LegStrength:`Стремительности`]",
           "coinlist": [
             {
               "coindescs": [
