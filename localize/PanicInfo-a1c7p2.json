@@ -3,14 +3,14 @@
     {
       "id": 1030,
       "panicName": "Узда Небытия",
-      "lowMoraleDescription": "· В начале хода получает 1 [ResultEnhancement:`Повышение силы`] и 3 [DefenseDown:`Понижения уровня защиты`]\n· В конце хода теряет 5 СД",
-      "panicDescription": "· В начале хода получает 2 [ResultEnhancement:`Повышения силы`] и 6 [DefenseDown:`Понижений уровня защиты`]\n· В конце хода восстанавливает 10 СД"
+      "lowMoraleDescription": "- В начале хода получает 1 [ResultEnhancement:`Повышение силы`] и 3 [DefenseDown:`Понижения уровня защиты`]\n- В конце хода теряет 5 СД",
+      "panicDescription": "- В начале хода получает 2 [ResultEnhancement:`Повышения силы`] и 6 [DefenseDown:`Понижений уровня защиты`]\n- В конце хода восстанавливает 10 СД"
     },
     {
       "id": 9996,
       "panicName": "Шипы",
       "lowMoraleDescription": "При победе в столкновении получает 1 [AttackDmgUp:`Повышение урона`]",
-      "panicDescription": "· При победе в столкновении получает 1 [AttackDmgUp:`Повышение урона`]\n· В конце хода получает 2 [ParryingResultUp:`Повышения силы в столкновении`] на следующий ход"
+      "panicDescription": "- При победе в столкновении получает 1 [AttackDmgUp:`Повышение урона`]\n- В конце хода получает 2 [ParryingResultUp:`Повышения силы в столкновении`] на следующий ход"
     }
   ]
 }
