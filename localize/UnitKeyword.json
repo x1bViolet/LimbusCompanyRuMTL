@@ -185,6 +185,18 @@
       "content": "Ла-Манчалэнд"
     },
     {
+      "id": "UnitKeyword_LIMBUS_COMPANY_LCE",
+      "content": "LCE"
+    },
+    {
+      "id": "UnitKeyword_LIMBUS_COMPANY_LCC",
+      "content": "LCC"
+    },
+    {
+      "id": "UnitKeyword_LIMBUS_COMPANY_LCB",
+      "content": "LCB"
+    },
+    {
       "id": "UnitKeyword_BLACK_BEAST_RABBIT",
       "content": "Стая Хэйшоу - Ветвь Мао"
     },
