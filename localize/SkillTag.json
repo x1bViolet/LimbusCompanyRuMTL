@@ -251,6 +251,10 @@
     {
       "id": "ReUseOnSucceedAttack",
       "name": "[Повтор, при попадании]"
+    },
+    {
+      "id": "TabExplain",
+      "name": ""
     }
   ]
 }
