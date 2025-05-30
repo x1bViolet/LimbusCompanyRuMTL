@@ -294,15 +294,15 @@
     {
       "id": 9763,
       "name": "Упаковочный бант",
-      "desc": "Начало хода: даёт <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение урона случайным Грехом</u></color> всем союзникам и так же наносит <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u>Уязвимость к случайному Греху</u></color> всем противникам.",
+      "desc": "Начало хода: даёт <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение уронa случайным Грехом</u></color> всем союзникам и так же наносит <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u>Уязвимoсть к случайному Греху</u></color> всем противникам.",
       "simpleDesc": [
         {
           "abilityID": 9763,
-          "simpleDesc": "Даёт <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение урона случайным Грехом</u></color>"
+          "simpleDesc": "Даёт <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение уронa случайным Грехом</u></color>"
         },
         {
           "abilityID": 97631,
-          "simpleDesc": "Наносит <sprite name=\"CrimsonTakeDamageUp\"><color=#e30000><u>Уязвимость к случайному Греху</u></color>"
+          "simpleDesc": "Наносит <sprite name=\"CrimsonTakeDamageUp\"><color=#e30000><u>Уязвимoсть к случайному Греху</u></color>"
         }
       ]
     },
