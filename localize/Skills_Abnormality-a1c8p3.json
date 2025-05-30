@@ -1,0 +1,375 @@
+{
+  "dataList": [
+    {
+      "id": 114501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойное рассечение",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройное рассечение",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойное рассечение — Гром [爆]",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройное рассечение — Подрыв [爆]",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подрывной сокрущающий разрез [爆碎斬]",
+          "desc": "Выбирает целью [Prey:`Добычу`]\nМожно столкнуться независимо от скорости\nСила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Vibration:`Тремора`] и повышает его счётчик на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "Если удалось потратить [BulletPropellant:`Патрон тигровой метки`](#ff1919) этой монетой, наносит на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`] и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сокрушающее разможжение [快刀亂麻]",
+          "desc": "Выбирает целью [Prey:`Добычу`]\nМожно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[WhenUse] Тратит всю [BattleSense:`Внутреннюю силу`](#d61713), и если было потрачено ...\n- ... 10 и более: Количество целей +1 за каждые 10 потраченного значения (До 2 дополнительных целей)\n- ... 25 и более: Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] главной цели (До 5)\n[DefeatDuel] Наносит на 80% меньше урона, не может оглушить целей, а так же наносит лишь половину силы и счётчика [Combustion:`Огня`] с [Vibration:`Тремором`] монетами этой атаки\n[EndSkill] [FullReload:`Перезаряжается`]\n- Если имелись [BulletPropellantSpecial:`Пaтроны свирепой тигровой метки`](#f01313), вместо этого [ReloadKeepAmmo:`Перезаряжается тактически`]\n[EndSkill] Заканчивает этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит все [BulletPropellant:`Пaтроны тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит силу и счётчик [Combustion:`Огня`] с [Vibration:`Тремором`] в количестве потрачнных [BulletPropellant:`Патронов тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] трижды и понижает его счётчик цели на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отточенный шквал ярых тигровых клинков [超絕猛虎殺擊亂斬]",
+          "desc": "Выбирает целью [Prey:`Добычу`]\nМожно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[WhenUse] Тратит всю [BattleSense:`Внутреннюю силу`](#d61713), и если было потрачено ...\n- ... 10 и более: Количество целей +1 за каждые 10 потраченного значения (До 4 дополнительных целей)\n- ... 25 и более: Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] главной цели (До 6)\n- ... 50 и более: Сила монет +1 и на 50% больше урона\n[DefeatDuel] Наносит на 80% меньше урона, не может оглушить целей, а так же наносит лишь половину силы и счётчика [Combustion:`Огня`] с [Vibration:`Тремором`] монетами этой атаки\n[EndSkill] [FullReload:`Перезаряжается`]\n- Если имелись [BulletPropellantSpecial:`Пaтроны свирепой тигровой метки`](#f01313), вместо этого [ReloadKeepAmmo:`Перезаряжается тактически`]\n[EndSkill] Заканчивает этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] 5 раз и понижает его счётчик цели на 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка Клинка звезды Тяньтуй",
+          "desc": "[DuelCounter]\n[WhenUse] Восстанавливает 10 СД\n- Если СД менее 0, восстанавливает ещё 5 СД\n[DefeatDuel] Теряет 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)\n[EndSkill] [FullReload:`Перезаряжается`]\n- Если имелись [BulletPropellantSpecial:`Пaтроны свирепой тигровой метки`](#f01313), вместо этого [ReloadKeepAmmo:`Перезаряжается тактически`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant:`Патрон тигровой метки`](#ff1919)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поддержка боеприпасами",
+          "desc": "[EndBattle] Если выживает, даёт Лэй Хэну 6 [BulletPropellantSpecial:`Патронов свирепой тигровой метки`](#ff371c) и [DisengageCombat:`Отступает с поля боя`]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}
