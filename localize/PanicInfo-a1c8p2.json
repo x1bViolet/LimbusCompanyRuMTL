@@ -9,14 +9,14 @@
     {
       "id": 1044,
       "panicName": "Сердце зла",
-      "lowMoraleDescription": "· Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
-      "panicDescription": "· Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода"
+      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
+      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода"
     },
     {
       "id": 1045,
       "panicName": "Сердце гнетущего зла",
-      "lowMoraleDescription": "· Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 3 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
-      "panicDescription": "· Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 4 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимость`] в начале хода"
+      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
+      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 4 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимость`] в начале хода"
     },
     {
       "id": 1047,
@@ -39,14 +39,14 @@
     {
       "id": 1055,
       "panicName": "Обоюдоострое перо",
-      "lowMoraleDescription": "· Получает 1 [Vulnerable:`Уязвимость`] и 1 [TakeHpHealIncrease:`Повышение восстановления ОЗ`] в начале хода\n· Наносит 1 [Burst:`Разрыв`] и 1 [Laceration:`Кровотечение`] при ударе",
-      "panicDescription": "· Получает 2 [Vulnerable:`Уязвимости`] и 2 [TakeHpHealIncrease:`Повышения восстановления ОЗ`] в начале хода\n· Наносит 1 [Burst:`Разрыв`] и 1 [Laceration:`Кровотечение`] при ударе"
+      "lowMoraleDescription": "- Получает 1 [Vulnerable:`Уязвимость`] и 1 [TakeHpHealIncrease:`Повышение восстановления ОЗ`] в начале хода\n- Наносит 1 [Burst:`Разрыв`] и 1 [Laceration:`Кровотечение`] при ударе",
+      "panicDescription": "- Получает 2 [Vulnerable:`Уязвимости`] и 2 [TakeHpHealIncrease:`Повышения восстановления ОЗ`] в начале хода\n- Наносит 1 [Burst:`Разрыв`] и 1 [Laceration:`Кровотечение`] при ударе"
     },
     {
       "id": 1056,
       "panicName": "Страх",
-      "lowMoraleDescription": "· Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
-      "panicDescription": "· Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n· Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода"
+      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
+      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода"
     },
     {
       "id": 1058,

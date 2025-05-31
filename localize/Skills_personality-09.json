@@ -1402,7 +1402,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1427,7 +1427,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1458,7 +1458,7 @@
                   "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
@@ -1497,7 +1497,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал`] цели снижается на 1"
+                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз за навык)"
@@ -1531,7 +1531,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал`] цели снижается на 1<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз за навык)<style=\"highlight\"></style>"

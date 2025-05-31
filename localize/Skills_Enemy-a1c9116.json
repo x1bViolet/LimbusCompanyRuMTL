@@ -623,7 +623,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -633,10 +633,10 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал`], на 50% больше урона"
+                  "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`], на 50% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
+                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
                 }
               ]
             }
@@ -729,7 +729,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 }
               ]
             },
@@ -739,10 +739,10 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал`], на 50% больше урона"
+                  "desc": "Если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`], на 50% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
+                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
                 }
               ]
             }

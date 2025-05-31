@@ -1,0 +1,442 @@
+{
+  "dataList": [
+    {
+      "id": 9021301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрывные раны",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тянущиеся раны",
+          "desc": "[WhenUse] Сила монет +1 против целей с 2 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растворение плоти",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility:`Спешку`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отбрасывающий тень",
+          "desc": "[WhenUse] Наносит 1 [Paralysis:`Паралич`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усугубление ран",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечение`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечение`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поверхностные раны",
+          "desc": "[WhenUse] Сила монет +1 против целей с 2 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрывание плоти",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility:`Спешку`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отбрасывающий тень",
+          "desc": "[WhenUse] Наносит 1 [Paralysis:`Паралич`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сотрясающий удар",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обжигающий удар",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Продолжительный срез",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)\n[DefeatDuel] Наносит на 75% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка зажигательных патронов",
+          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сотрясающее пронзание",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обжигающее пронзание",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Продолжительное рассечение",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] цели (До 2)\n[DefeatDuel] Наносит на 75% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`] и повышает его счётчик на 2,"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9021804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка зажигательных патронов",
+          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

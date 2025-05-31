@@ -606,6 +606,309 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2060811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Получает урон, равный Итоговой силе этого ЭГО навыка (Не может оглушить или опустить ОЗ ниже 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Получает урон, равный Итоговой силе этого ЭГО навыка (Не может оглушить или опустить ОЗ ниже 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Получает урон, равный Итоговой силе этого ЭГО навыка (Не может оглушить или опустить ОЗ ниже 1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060812,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "Не тратит ЭГО ресурсы при своей активации\n[CantDuel]\nНаносит на 2% больше урона за каждое значение [DragonLance:`Клина для похорон цветов`] (До 6%)\nНаносит на 4% больше урона за каждое значение [CondensedBlood:`Оскверённой крови`] (До 20%)\n[WhenUse] Сила монет +1, если на главной цели 5 и более [Burst:`Разрывов`]\n[WhenUse] Базовая сила и Количество целей +1 при 3 [CondensedBlood:`Оскверённой крови`]\n[EndSkill] Треяет всю [CondensedBlood:`Оскверённую кровь`](#) и [DragonLance:`Клин для похорон цветов`], после чего умирает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "Не тратит ЭГО ресурсы при своей активации\n[CantDuel]\nНаносит на <style=\"highlight\">3%</style> больше урона за каждое значение [DragonLance:`Клина для похорон цветов`] (До <style=\"highlight\">9%</style>)\nНаносит на <style=\"highlight\">6%</style> больше урона за каждое значение [CondensedBlood:`Оскверённой крови`] (До <style=\"highlight\">30%</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5</style> [Burst:`Разрывов`] на главной цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Базовая сила и Количество целей +1 при 3 [CondensedBlood:`Оскверённой крови`]\n<style=\"highlight\">- Базовая сила и Количество целей +2 вместо этого при 4 [CondensedBlood:`Оскверённой крови`]</style>\n[EndSkill] Треяет всю [CondensedBlood:`Оскверённую кровь`] и [DragonLance:`Клин для похорон цветов`], после чего умирает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "Не тратит ЭГО ресурсы при своей активации\n[CantDuel]\nНаносит на 3% больше урона за каждое значение [DragonLance:`Клина для похорон цветов`] (До 9%)\nНаносит на 6% больше урона за каждое значение [CondensedBlood:`Оскверённой крови`] (До 30%)\n[WhenUse] Сила монет +1 за каждые 5 [Burst:`Разрывов`] на главной цели (До <style=\"highlight\">3</style>)\n[WhenUse] Базовая сила и Количество целей +1 при 3 [CondensedBlood:`Оскверённой крови`]\n- Базовая сила и Количество целей +2 вместо этого при 4 [CondensedBlood:`Оскверённой крови`]\n<style=\"highlight\">- Базовая сила и Количество целей +3 вместо этого при 5 [CondensedBlood:`Оскверённой крови`]</style>\n[EndSkill] Треяет всю [CondensedBlood:`Оскверённую кровь`] и [DragonLance:`Клин для похорон цветов`], после чего умирает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Базовая сила -2 за каждую расколотую монету (До -8)\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Базовая сила -2 за каждую расколотую монету (До -8)\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Слёзы оскверённой крови",
+          "abName": "Иньлун",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1 при 4 и более грехах в наибольшем резонансе\n<style=\"highlight\">Количество целей +2 при 6 и более грехах в наибольшем резонансе вместо этого</style>\n[BeforeAttack] Базовая сила -2 за каждую расколотую монету (До -8)\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

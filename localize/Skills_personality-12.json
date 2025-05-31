@@ -1460,7 +1460,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], повышает счётчик [Burst:`Разрыва`] на 1<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             }
@@ -1496,7 +1496,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1530,7 +1530,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1564,7 +1564,7 @@
                   "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
@@ -1592,13 +1592,13 @@
                   "desc": "Если есть [SnakeStance:`Змеиная рука`], наносит на 75% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал`] цели снижается на 2"
+                  "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал`] цели снижается на 3"
+                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1618,16 +1618,16 @@
                   "desc": "Если есть [SnakeStance:`Змеиная рука`], наносит на <style=\"highlight\">100%</style> больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал`] цели снижается на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал`] цели снижается на 3<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 3<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
                 }
               ]
             }
