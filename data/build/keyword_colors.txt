@@ -813,3 +813,7 @@ Irritation ¤ #f8c200
 HugeIrritation ¤ #f8c200
 ReloadKeepAmmo ¤ #9f6a3a
 Bothersome ¤ #e30000
+DuelDeclaration ¤ #9f6a3a
+RepressedMurderousIntendTwo ¤ #e30000
+DisengageCombat ¤ #9f6a3a
+BudgetBulletPropellant ¤ #9f6a3a
