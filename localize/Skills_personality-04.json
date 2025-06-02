@@ -385,14 +385,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "true"
+                  "desc": ""
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "true"
+                  "desc": ""
                 }
               ]
             },
@@ -405,10 +405,10 @@
                   "desc": "[CriticalOnSucceedAttack] Удваивает наносимые силу и счётчик [Vibration:`Тремора`] и [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`], повышает счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`], повышает его счётчик на 1"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] [VibrationExplosion:`Провоцирует Тремор`]"
