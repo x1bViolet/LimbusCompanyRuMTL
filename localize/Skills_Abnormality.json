@@ -15,7 +15,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уворот"
+          "name": "Уворот",
+          "desc": ""
         }
       ]
     },
@@ -24,7 +25,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Контратака"
+          "name": "Контратака",
+          "desc": ""
         }
       ]
     },
@@ -33,7 +35,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уворот"
+          "name": "Уворот",
+          "desc": ""
         }
       ]
     },
@@ -43,6 +46,7 @@
         {
           "level": 1,
           "name": "Сомнение",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -55,7 +59,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Бледный стебель"
+          "name": "Бледный стебель",
+          "desc": ""
         }
       ]
     },
@@ -64,7 +69,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Бледный стебель"
+          "name": "Бледный стебель",
+          "desc": ""
         }
       ]
     },
@@ -75,6 +81,7 @@
           "level": 1,
           "name": "Шипастый корень",
           "keywords": [],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -122,6 +129,7 @@
         {
           "level": 1,
           "name": "Грызение",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -135,6 +143,7 @@
         {
           "level": 1,
           "name": "Жадные чревоугодники",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -167,6 +176,7 @@
         {
           "level": 1,
           "name": "Кручение",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -179,6 +189,7 @@
         {
           "level": 1,
           "name": "Ленивая хватка",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -197,6 +208,7 @@
         {
           "level": 1,
           "name": "Жжение",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -210,6 +222,7 @@
         {
           "level": 1,
           "name": "Вспышка гнева",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -228,6 +241,7 @@
         {
           "level": 1,
           "name": "Хлобысь",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -240,6 +254,7 @@
         {
           "level": 1,
           "name": "Хлобысь",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -252,6 +267,7 @@
         {
           "level": 1,
           "name": "Встряска",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -270,6 +286,7 @@
         {
           "level": 1,
           "name": "Жертвенный ритуал",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -288,6 +305,7 @@
         {
           "level": 1,
           "name": "Вселенная в огне",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -300,6 +318,7 @@
         {
           "level": 1,
           "name": "Крепкий жертвенник",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -325,6 +344,7 @@
         {
           "level": 1,
           "name": "Рывок",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -343,6 +363,7 @@
         {
           "level": 1,
           "name": "Когти",
+          "desc": "",
           "coinlist": [
             {},
             {
@@ -362,6 +383,7 @@
         {
           "level": 1,
           "name": "Болезненный рывок",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -383,6 +405,7 @@
         {
           "level": 1,
           "name": "Болезненные когти",
+          "desc": "",
           "coinlist": [
             {},
             {
@@ -405,6 +428,7 @@
         {
           "level": 1,
           "name": "Извержение огня",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -443,6 +467,7 @@
         {
           "level": 1,
           "name": "Чистое золото",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -455,6 +480,7 @@
         {
           "level": 1,
           "name": "Питательные вещества",
+          "desc": "",
           "coinlist": [
             {},
             {
@@ -475,6 +501,7 @@
         {
           "level": 1,
           "name": "Разлагающаяся плоть",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -496,6 +523,7 @@
         {
           "level": 1,
           "name": "Опутать",
+          "desc": "",
           "coinlist": [
             {},
             {
@@ -518,6 +546,7 @@
         {
           "level": 1,
           "name": "Приступаем к работе…",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -544,6 +573,7 @@
         {
           "level": 1,
           "name": "Так заняты…",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -556,6 +586,7 @@
         {
           "level": 1,
           "name": "Поскорее бы закончить…",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -584,6 +615,7 @@
         {
           "level": 1,
           "name": "Так заняты…",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -596,6 +628,7 @@
         {
           "level": 1,
           "name": "Время работать!",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -608,6 +641,7 @@
         {
           "level": 1,
           "name": "Работайте!",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -626,6 +660,7 @@
         {
           "level": 1,
           "name": "Какой восторг!!",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -665,6 +700,7 @@
         {
           "level": 1,
           "name": "ТРЕ-ВО-ГА!!!",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -697,6 +733,7 @@
         {
           "level": 1,
           "name": "Не останавливай меня?!",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -710,6 +747,7 @@
         {
           "level": 1,
           "name": "Подавленный жест",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -723,6 +761,7 @@
         {
           "level": 1,
           "name": "Давящие желания",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -735,6 +774,7 @@
         {
           "level": 1,
           "name": "Розовый танец",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -760,6 +800,7 @@
         {
           "level": 1,
           "name": "Подавленный жест",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -773,6 +814,7 @@
         {
           "level": 1,
           "name": "Давящие желания",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -785,6 +827,7 @@
         {
           "level": 1,
           "name": "Розовый танец",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -803,6 +846,7 @@
         {
           "level": 1,
           "name": "Время делать деньги!",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -815,6 +859,7 @@
         {
           "level": 1,
           "name": "Станем богаче!",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -833,6 +878,7 @@
         {
           "level": 1,
           "name": "Как же весело!!",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -877,6 +923,7 @@
         {
           "level": 1,
           "name": "Выстрел",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -889,6 +936,7 @@
         {
           "level": 1,
           "name": "Взрыв уныния",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -907,6 +955,7 @@
         {
           "level": 1,
           "name": "Удар сверху",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -919,6 +968,7 @@
         {
           "level": 1,
           "name": "Пронзающая похоть",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -937,6 +987,7 @@
         {
           "level": 1,
           "name": "Измельчение",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -949,6 +1000,7 @@
         {
           "level": 1,
           "name": "Горделивый перемол",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -974,6 +1026,7 @@
         {
           "level": 1,
           "name": "Клюв-кирка",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -986,6 +1039,7 @@
         {
           "level": 1,
           "name": "Разрезы",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -999,6 +1053,7 @@
         {
           "level": 1,
           "name": "Топот ножки",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1017,6 +1072,7 @@
         {
           "level": 1,
           "name": "Клюв-кирка",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1029,6 +1085,7 @@
         {
           "level": 1,
           "name": "Ледяной бросок",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1041,6 +1098,7 @@
         {
           "level": 1,
           "name": "Сокрушающий клюв",
+          "desc": "",
           "coinlist": [
             {},
             {
@@ -1105,6 +1163,7 @@
         {
           "level": 1,
           "name": "Адаптированная оболочка",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1123,6 +1182,7 @@
         {
           "level": 1,
           "name": "Костный взрыв",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1148,6 +1208,7 @@
         {
           "level": 1,
           "name": "Свирепая царапина",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1180,6 +1241,7 @@
         {
           "level": 1,
           "name": "Бешеный таран",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1205,6 +1267,7 @@
         {
           "level": 1,
           "name": "Разорвать на части",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1256,6 +1319,7 @@
         {
           "level": 1,
           "name": "Яростный набег",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1263,7 +1327,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 6 на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрывов`] на 6 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 6 на следующий ход"
                 }
               ]
             }
@@ -1290,6 +1354,7 @@
         {
           "level": 1,
           "name": "Коготь",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1308,6 +1373,7 @@
         {
           "level": 1,
           "name": "Осмотрительность",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1320,6 +1386,7 @@
         {
           "level": 1,
           "name": "Атака вслепую",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1508,6 +1575,7 @@
         {
           "level": 1,
           "name": "",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1520,6 +1588,7 @@
         {
           "level": 1,
           "name": "Глубокий укол",
+          "desc": "",
           "coinlist": [
             {},
             {
@@ -1577,6 +1646,7 @@
         {
           "level": 1,
           "name": "Гвоздь, пронзающий грех",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1635,7 +1705,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], она оглушается в следующем ходе, теряя все [NailPersonality:`Гвозди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], она оглушается в следующем ходе, теряя все [NailPersonality:`Гвoзди Корп. N`]"
                 }
               ]
             }
@@ -1661,7 +1731,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон в количестве (3 × [NailPersonality:`Гвозди Корп. N`] цели) и она теряет все [NailPersonality:`Гвозди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Наносит урон в количестве (3 × [NailPersonality:`Гвoзди Корп. N`] цели) и она теряет все [NailPersonality:`Гвoзди Корп. N`]"
                 }
               ]
             }
@@ -1720,6 +1790,7 @@
         {
           "level": 1,
           "name": "Крылья первого человека",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1732,6 +1803,7 @@
         {
           "level": 1,
           "name": "Крылья первого человека",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -1745,6 +1817,7 @@
         {
           "level": 1,
           "name": "Невинное порхание",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1796,6 +1869,7 @@
         {
           "level": 1,
           "name": "Сломанные крылья",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1827,6 +1901,7 @@
         {
           "level": 1,
           "name": "Сломанные крылья",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1858,6 +1933,7 @@
         {
           "level": 1,
           "name": "Разъярённое порхание",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -1870,6 +1946,7 @@
         {
           "level": 1,
           "name": "Благородное очищение",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1952,10 +2029,13 @@
         {
           "level": 1,
           "name": "Непорочная плоть",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -1971,6 +2051,7 @@
           "keywords": [
             "Reduction"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -1992,6 +2073,7 @@
           "keywords": [
             "Reduction"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2013,6 +2095,7 @@
           "keywords": [
             "Vulnerable"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2041,6 +2124,7 @@
           "keywords": [
             "Binding"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2062,6 +2146,7 @@
           "keywords": [
             "Bleeding"
           ],
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2105,6 +2190,7 @@
         {
           "level": 1,
           "name": "Когти",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2123,6 +2209,7 @@
         {
           "level": 1,
           "name": "Непрерывное напряжение",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2141,6 +2228,7 @@
         {
           "level": 1,
           "name": "Поток электродвижения",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2166,6 +2254,7 @@
         {
           "level": 1,
           "name": "Вой",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2187,6 +2276,7 @@
         {
           "level": 1,
           "name": "Электризованный вой",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2205,6 +2295,7 @@
         {
           "level": 1,
           "name": "Молниеотвод",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2233,6 +2324,7 @@
         {
           "level": 1,
           "name": "Красные молнии",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2258,14 +2350,15 @@
         {
           "level": 1,
           "name": "Вой",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывание`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 [Disarming:`Понижение силы защиты`]"
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [Disarming:`Понижения силы защиты`]"
                 }
               ]
             }
@@ -2279,6 +2372,7 @@
         {
           "level": 1,
           "name": "Извивающиеся руки",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2323,6 +2417,7 @@
         {
           "level": 1,
           "name": "Бам-с",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -2341,6 +2436,7 @@
         {
           "level": 1,
           "name": "Блок",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4799,6 +4895,7 @@
         {
           "level": 1,
           "name": "Грызение",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -4812,6 +4909,7 @@
         {
           "level": 1,
           "name": "Жадные чревоугодники",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4844,6 +4942,7 @@
         {
           "level": 1,
           "name": "Кручение",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -4856,6 +4955,7 @@
         {
           "level": 1,
           "name": "Ленивая хватка",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4874,6 +4974,7 @@
         {
           "level": 1,
           "name": "Жжение",
+          "desc": "",
           "coinlist": [
             {},
             {}
@@ -4887,6 +4988,7 @@
         {
           "level": 1,
           "name": "Вспышка гнева",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4905,6 +5007,7 @@
         {
           "level": 1,
           "name": "Выстрел",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -4917,6 +5020,7 @@
         {
           "level": 1,
           "name": "Взрыв уныния",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4935,6 +5039,7 @@
         {
           "level": 1,
           "name": "Удар сверху",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -4947,6 +5052,7 @@
         {
           "level": 1,
           "name": "Пронзающая похоть",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4965,6 +5071,7 @@
         {
           "level": 1,
           "name": "Измельчение",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -4977,6 +5084,7 @@
         {
           "level": 1,
           "name": "Горделивый перемол",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -5015,6 +5123,7 @@
         {
           "level": 1,
           "name": "Взмах крыла",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -5114,6 +5223,7 @@
         {
           "level": 1,
           "name": "Передышка",
+          "desc": "",
           "coinlist": [
             {}
           ]
@@ -5139,6 +5249,7 @@
         {
           "level": 1,
           "name": "Ням-Ням",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -5219,6 +5330,7 @@
         {
           "level": 1,
           "name": "Передышка",
+          "desc": "",
           "coinlist": [
             {}
           ]
