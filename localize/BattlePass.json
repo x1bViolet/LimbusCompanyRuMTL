@@ -110,7 +110,7 @@
     },
     {
       "id": "buy_battlepass_word",
-      "content": "<cspace=-2px>Пробить</cspace>"
+      "content": "[font=bebas]<cspace=-2px>Пробить</cspace>"
     },
     {
       "id": "battlepass_level_ex_reward",
@@ -262,7 +262,7 @@
     },
     {
       "id": "until_season_6_start",
-      "content": "- До обновления с 7 Сезоном"
+      "content": "[font=bebas]- До обновления с 7 Сезоном"
     }
   ]
 }
