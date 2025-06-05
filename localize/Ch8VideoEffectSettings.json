@@ -6,7 +6,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Уединение",
+                            "text": "[font=mikodacs]Уединение",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -34,7 +34,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Стойкость",
+                            "text": "[font=mikodacs]Стойкость",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -62,7 +62,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Медлительность",
+                            "text": "[font=mikodacs]Медлительность",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -96,7 +96,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Одиночество",
+                            "text": "[font=mikodacs]Одиночество",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -124,7 +124,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Сожаление",
+                            "text": "[font=mikodacs]Сожаление",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -152,7 +152,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Ожидание",
+                            "text": "[font=mikodacs]Ожидание",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -186,7 +186,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Конфликт",
+                            "text": "[font=mikodacs]Конфликт",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -214,7 +214,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Мучение",
+                            "text": "[font=mikodacs]Мучение",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -242,7 +242,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Храбрость",
+                            "text": "[font=mikodacs]Храбрость",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -254,7 +254,7 @@
                             "outlineWidth": 0.0
                         }
                     ],
-                    "positionX": 430.0,
+                    "positionX": -300.0,
                     "positionY": -100.0,
                     "positionZ": 0.0,
                     "rotationX": 0.0,
@@ -276,7 +276,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Стремление",
+                            "text": "[font=mikodacs]Стремление",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -304,7 +304,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Меланхолия",
+                            "text": "[font=mikodacs]Меланхолия",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -332,7 +332,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Тепло",
+                            "text": "[font=mikodacs]Тепло",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -366,7 +366,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Страсть",
+                            "text": "[font=mikodacs]Страсть",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -394,7 +394,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Приключение",
+                            "text": "[font=mikodacs]Приключение",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -422,7 +422,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Жестокость",
+                            "text": "[font=mikodacs]Жестокость",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -456,7 +456,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Тщетность",
+                            "text": "[font=mikodacs]Тщетность",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -484,7 +484,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Решимость",
+                            "text": "[font=mikodacs]Решимость",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -512,7 +512,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Любовь",
+                            "text": "[font=mikodacs]Любовь",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -524,7 +524,7 @@
                             "outlineWidth": 0.0
                         }
                     ],
-                    "positionX": 650.0,
+                    "positionX": -750.0,
                     "positionY": -100.0,
                     "positionZ": 0.0,
                     "rotationX": 0.0,
@@ -546,7 +546,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Восторг",
+                            "text": "[font=mikodacs]Восторг",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -558,7 +558,7 @@
                             "outlineWidth": 0.0
                         }
                     ],
-                    "positionX": -170.0,
+                    "positionX": 430.0,
                     "positionY": 450.0,
                     "positionZ": 0.0,
                     "rotationX": 0.0,
@@ -574,7 +574,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Трагедия",
+                            "text": "[font=mikodacs]Трагедия",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -586,7 +586,7 @@
                             "outlineWidth": 0.0
                         }
                     ],
-                    "positionX": 330.0,
+                    "positionX": 300.0,
                     "positionY": 200.0,
                     "positionZ": 0.0,
                     "rotationX": 0.0,
@@ -602,7 +602,7 @@
                 {
                     "texts": [
                         {
-                            "text": "Воодушевление",
+                            "text": "[font=mikodacs]Воодушевление",
                             "additionPosX": 0.0,
                             "additionPoxY": 0.0,
                             "additionPosZ": 0.0,
@@ -614,7 +614,7 @@
                             "outlineWidth": 0.0
                         }
                     ],
-                    "positionX": -50.0,
+                    "positionX": -300.0,
                     "positionY": -50.0,
                     "positionZ": 0.0,
                     "rotationX": 0.0,
