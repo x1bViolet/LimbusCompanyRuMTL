@@ -3730,21 +3730,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Burst:`Разрыва`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Burst:`Разрыва`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Burst:`Разрыва`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Burst:`Разрыва`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и 2 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -4713,7 +4713,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Понижает Уровень защиты цели на 2 в следующем ходе"
                 }
               ]
             }

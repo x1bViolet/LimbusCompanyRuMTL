@@ -2515,13 +2515,6 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis:`Паралич`] за каждый выпавший орёл"
-                }
-              ]
             }
           ]
         }
@@ -2577,7 +2570,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown:`Понижения уровня защиты`] и повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttackHead] Понижает Уровень защиты цели на 2 и повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -2628,7 +2621,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] и 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] и понижает Уровень защиты цели на 2 в следующем ходе"
                 }
               ]
             }
@@ -2894,7 +2887,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [DefenseDown:`Понижений уровня защиты`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }
@@ -2981,7 +2974,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Reduction:`Понижения силы атаки`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`] на следующий ход"
                 }
               ]
             }
