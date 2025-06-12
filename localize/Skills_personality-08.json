@@ -1577,7 +1577,7 @@
         {
           "level": 1,
           "name": "Багровый удар - Начинание【始】",
-          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2",
+          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить Количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2",
           "coinlist": [
             {},
             {
@@ -1592,7 +1592,7 @@
         {
           "level": 2,
           "name": "Багровый удар - Начинание 【始】",
-          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 [WaitingXichun:`Стремлениях 【待】`]</style>",
+          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить Количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 [WaitingXichun:`Стремлениях 【待】`]</style>",
           "coinlist": [
             {},
             {
@@ -1607,7 +1607,7 @@
         {
           "level": 4,
           "name": "Багровый удар - Начинание [始]",
-          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при 3 [WaitingXichun:`Стремлениях 【待】`]",
+          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить Количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при 3 [WaitingXichun:`Стремлениях 【待】`]",
           "coinlist": [
             {},
             {

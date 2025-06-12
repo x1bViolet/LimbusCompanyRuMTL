@@ -562,7 +562,7 @@
     },
     {
       "id": "targetSlotWeight",
-      "content": "Число целей"
+      "content": "Количество целей"
     },
     {
       "id": "EGO_ErodeProbability",

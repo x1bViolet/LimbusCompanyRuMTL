@@ -263,7 +263,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт себе и союзнику с наименьшими ОЗ щит на 10% от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`]"
+                  "desc": "[EndSkill] Даёт себе и союзнику с наименьшими ОЗ Щит на 10% от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`]"
                 },
                 {
                   "desc": "- Если в наибольшем резонансе 4 и более греха, ещё 1 союзник получает щит и [ShieldManagerCryingToad:`Слезинку`] "
@@ -287,7 +287,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> союзникам с наименьшими ОЗ щит на <style=\"highlight\">14%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] <style=\"highlight\">(До 3 других союзников)</style>"
+                  "desc": "[EndSkill] Даёт себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> союзникам с наименьшими ОЗ Щит на <style=\"highlight\">14%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] <style=\"highlight\">(До 3 других союзников)</style>"
                 },
                 {
                   "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2<style=\"highlight\"></style>"
@@ -308,7 +308,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт себе и (1 + (Число грехов в наибольшем резонансе - 2)) союзникам с наименьшими ОЗ щит на <style=\"highlight\">20%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 3 других союзников)"
+                  "desc": "[EndSkill] Даёт себе и (1 + (Число грехов в наибольшем резонансе - 2)) союзникам с наименьшими ОЗ Щит на <style=\"highlight\">20%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 3 других союзников)"
                 },
                 {
                   "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"

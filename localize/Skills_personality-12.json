@@ -21,7 +21,7 @@
         {
           "level": 2,
           "name": "Конфронтация",
-          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n<style=\"highlight\">[DefeatDuel] Получает (3 × [DefenseUp:`Повышения уровня защиты`] на себе) ОЗ щита, а так же 1 [DefenseUp:`Повышение уровня защиты`] на следующий ход</style>",
+          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n<style=\"highlight\">[DefeatDuel] Получает (3 × [DefenseUp:`Повышения уровня защиты`] на себе) ОЗ Щита, а так же 1 [DefenseUp:`Повышение уровня защиты`] на следующий ход</style>",
           "coinlist": [
             {},
             {
@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Конфронтация",
-          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n[DefeatDuel] Получает (<style=\"highlight\">5</style> × [DefenseUp:`Повышения уровня защиты`] на себе) ОЗ щита, а так же <style=\"highlight\">2</style> [DefenseUp:`Повышения уровня защиты`] на следующий ход",
+          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n[DefeatDuel] Получает (<style=\"highlight\">5</style> × [DefenseUp:`Повышения уровня защиты`] на себе) ОЗ Щита, а так же <style=\"highlight\">2</style> [DefenseUp:`Повышения уровня защиты`] на следующий ход",
           "coinlist": [
             {},
             {
