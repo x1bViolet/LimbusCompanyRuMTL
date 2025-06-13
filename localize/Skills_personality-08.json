@@ -1504,7 +1504,7 @@
         {
           "level": 4,
           "name": "Багровая весна",
-          "desc": "[BeforeAttack] Количество целей +1, если на главной цели <style=\"highlight\">5</style> и более типов негативных эффектов\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 3 [StartXichun:`Начинаниях 【始】`]</style>\n[WhenUse] Сила монет +2 за каждые 3 типа негативных эффектов на главной цели (До <style=\"highlight\">6</style>)\n[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы и счётчика [Burst:`Разрыва`] на главной цели (До <style=\"highlight\">5</style>)\n[WinDuel] Получает 4 [Breath:`Дыхания`]",
+          "desc": "[BeforeAttack] Количество целей +1, если на главной цели <style=\"highlight\">5</style> и более типов негативных эффектов\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 3 и более [StartXichun:`Начинаниях 【始】`]</style>\n[WhenUse] Сила монет +2 за каждые 3 типа негативных эффектов на главной цели (До <style=\"highlight\">6</style>)\n[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы и счётчика [Burst:`Разрыва`] на главной цели (До <style=\"highlight\">5</style>)\n[WinDuel] Получает 4 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1544,7 +1544,7 @@
         {
           "level": 1,
           "name": "Искусный уворот",
-          "desc": "[StartBattle] При 3 [StartXichun:`Начинаниях 【始】`] производит [RetreatForCommon:`Боевое отступление`] в конце хода\n- Во время этого отступления перемещается на самое переднее место в очереди вместо последнего\n[OnSucceedEvade] Получает 2 [Breath:`Дыхания`] (До 2 раз за ход)",
+          "desc": "[StartBattle] При 3 и более [StartXichun:`Начинаниях 【始】`] производит [RetreatForCommon:`Боевое отступление`] в конце хода\n- Во время этого отступления перемещается на самое переднее место в очереди вместо последнего\n[OnSucceedEvade] Получает 2 [Breath:`Дыхания`] (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1558,7 +1558,7 @@
         {
           "level": 4,
           "name": "Искусный уворот",
-          "desc": "[StartBattle] При 3 [StartXichun:`Начинаниях 【始】`] производит [RetreatForCommon:`Боевое отступление`] в конце хода\n- Во время этого отступления перемещается на самое переднее место в очереди вместо последнего\n<style=\"highlight\">[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1 (До 2 раз за ход)</style>\n[OnSucceedEvade] Получает 2 [Breath:`Дыхания`] (До 2 раз за ход)",
+          "desc": "[StartBattle] При 3 и более [StartXichun:`Начинаниях 【始】`] производит [RetreatForCommon:`Боевое отступление`] в конце хода\n- Во время этого отступления перемещается на самое переднее место в очереди вместо последнего\n<style=\"highlight\">[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1 (До 2 раз за ход)</style>\n[OnSucceedEvade] Получает 2 [Breath:`Дыхания`] (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1577,7 +1577,7 @@
         {
           "level": 1,
           "name": "Багровый удар - Начинание【始】",
-          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2",
+          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить Количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2",
           "coinlist": [
             {},
             {
@@ -1592,7 +1592,7 @@
         {
           "level": 2,
           "name": "Багровый удар - Начинание 【始】",
-          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 [WaitingXichun:`Стремлениях 【待】`]</style>",
+          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить Количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 [WaitingXichun:`Стремлениях 【待】`]</style>",
           "coinlist": [
             {},
             {
@@ -1607,7 +1607,7 @@
         {
           "level": 4,
           "name": "Багровый удар - Начинание [始]",
-          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при 3 [WaitingXichun:`Стремлениях 【待】`]",
+          "desc": "[CantDuel]\n[BeforeAttack] Тратит всё своё [WaitingXichun:`Стремление 【待】`], чтобы повысить Количество целей на (Потраченное [WaitingXichun:`Стремление 【待】`] × 2) (До 5)\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при 3 [WaitingXichun:`Стремлениях 【待】`]",
           "coinlist": [
             {},
             {

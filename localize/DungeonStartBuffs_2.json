@@ -58,7 +58,7 @@
     },
     {
       "id": "AttackDamageMultiply",
-      "description": "Наносимый урон +{0}%"
+      "description": "Наносимый урон {0}%"
     },
     {
       "id": "TakeAttackDamageReducer",
