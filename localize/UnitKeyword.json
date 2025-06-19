@@ -207,6 +207,18 @@
     {
       "id": "UnitKeyword_BLACK_BEAST_SNAKE",
       "content": "Стая Хэйшоу - Ветвь Сы"
+    },
+    {
+      "id": "UnitKeyword_THUMB_LEVEL_CAPO_FOUR",
+      "content": "Капо ⅠⅠⅠⅠ"
+    },
+    {
+      "id": "UnitKeyword_THUMB_LEVEL_SOLDATO_TWO",
+      "content": "Солдато ⅠⅠ"
+    },
+    {
+      "id": "UnitKeyword_THUMB_LEVEL_SOLDATO_THREE",
+      "content": "Солдато ⅠⅠⅠ"
     }
   ]
 }

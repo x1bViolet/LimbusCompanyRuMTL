@@ -792,7 +792,7 @@
         {
           "level": 4,
           "name": "Боевая подготовка",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 3)\n[WhenUse] Сила монет +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3<style=\"highlight\"></style>",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 3)\n[WhenUse] Сила монет +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -1433,6 +1433,314 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прошу вас соблюдать приличия.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Прошу вас соблюдать приличия.",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прошу вас соблюдать приличия.",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с Особым Трeмором</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уважение к Большому пальцу.",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Уважение к Большому пальцу.",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 единиц</style> в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [VibrationIgnition:`Тремора — Ожог`], повышает счётчик [Combustion:`Огня`] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уважение к Большому пальцу.",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)\n<style=\"highlight\">[WhenUse] Наносит на 10% больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 30%)\n[WhenUse] Базовая сила +2 против целей с 10 и более Особого Трeмора</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [VibrationIgnition:`Тремора — Ожог`], повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Vibration:`Тремора`], [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Усиленный прорыв",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Базовая сила +1 при наличии 3 и более [FireBulletPropellant:`Зажигательных патронов`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "Если удалось потратить [FireBulletPropellant:`Зажигательный патрон`] этой монетой, наносит на 20% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "Если удалось потратить [FireBulletPropellant:`Зажигательный патрон`] этой монетой, наносит на 20% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "Если удалось потратить [FireBulletPropellant:`Зажигательный патрон`] этой монетой, наносит на 20% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если удалось потратить [FireBulletPropellant:`Зажигательные патроны`] этим навыком, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Усиленный прорыв",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] При наличии 3 и более [FireBulletPropellant:`Зажигательных патронов`]: Базовая сила <style=\"highlight\">+3, наносит на 30% больше урона, а все монеты навыка становятся [SuperCoin:`Вечными`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "Если удалось потратить [FireBulletPropellant:`Зажигательный патрон`] этой монетой, наносит на <style=\"highlight\">25%</style> больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationIgnition:`Тремор — Ожог`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "Если удалось потратить [FireBulletPropellant:`Зажигательный патрон`] этой монетой, наносит на <style=\"highlight\">25%</style> больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [FireBulletPropellant:`Зажигательный патрон`]"
+                },
+                {
+                  "desc": "Если удалось потратить [FireBulletPropellant:`Зажигательный патрон`] этой монетой, наносит на <style=\"highlight\">25%</style> больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если удалось потратить [FireBulletPropellant:`Зажигательные патроны`] этим навыком, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если удалось потратить 3 [FireBulletPropellant:`Зажигательных патрона`] этим навыком, снова [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Железная защита",
+          "desc": "При получении удара по щиту наносит 1 [Vibration:`Тремор`] атакующему (До 3 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Железная защита",
+          "desc": "При получении удара по щиту наносит <style=\"highlight\">2</style> [Vibration:`Тремора`] атакующему (<style=\"highlight\">До 4</style> раз за ход)",
+          "coinlist": [
+            {}
           ]
         }
       ]
