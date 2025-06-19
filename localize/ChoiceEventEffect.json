@@ -78,7 +78,7 @@
     },
     {
       "id": "RecoverHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>{amount} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{hpAmount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>{mpAmount} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "LoseHpMpSameAmount",
@@ -86,7 +86,7 @@
     },
     {
       "id": "LoseHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}теряет</color> <color=#e30000>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>{amount} СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}теряет</color> <color=#e30000>{hpAmount} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>{mpAmount} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "GetConfirmedEgogift",
