@@ -1012,7 +1012,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] повышает счётчик [Burst:`Разрыва`] на 2 при скорости 7 и выше</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2 при скорости 7 и выше</style>"
                 }
               ]
             }
@@ -1046,7 +1046,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] повышает счётчик [Burst:`Разрыва`] на 2 при скорости 7 и выше"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2 при скорости 7 и выше"
                 }
               ]
             }
