@@ -2400,8 +2400,8 @@
       "summary": "Даёт Дыхание"
     },
     {
-      "id": "Hohenheim_LowMorale (Низкий дух)",
-      "name": "Страдание",
+      "id": "Hohenheim_LowMorale",
+      "name": "Страдание (Низкий дух)",
       "desc": "В начале хода получает 1 [Vulnerable:`Уязвимость`] и 2 [MentalIncreaseDown:`Понижения восстановления СД`]"
     },
     {
