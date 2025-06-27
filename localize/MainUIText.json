@@ -294,7 +294,7 @@
     },
     {
       "id": "mainui_gacha_rateinfo",
-      "content": "Шанс выпадения"
+      "content": "Шанс получения"
     },
     {
       "id": "mainui_gacha_history",
@@ -1190,7 +1190,7 @@
     },
     {
       "id": "gacha_rate_info_intro1_1a",
-      "content": "Шанс выпадения за одно извлечение:"
+      "content": "Шанс получения за одно извлечение:"
     },
     {
       "id": "gacha_rate_info_intro1_1b",
