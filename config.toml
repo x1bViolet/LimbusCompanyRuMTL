@@ -16,6 +16,12 @@ repo = "LocalizeLimbusCompany/LocalizeLimbusCompany"
 branch = "main"
 path = "./EN"
 
+
+[[font_rules."Enemies*.json"]]
+font = "bebas"
+path = '$.dataList.[*].name'
+
+
 [priority]
 order = [
   "StoryData/*.json"
