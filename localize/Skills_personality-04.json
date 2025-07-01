@@ -1352,7 +1352,7 @@
                   "desc": "[OnSucceedAttack] Получает ([Laceration:`Кровотечение`] на цели / <style=\"highlight\">2</style>) [RedEyeFirst:`Красных глаз`] (До <style=\"highlight\">3</style>)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] При 7 и более [RedEyeFirst:`Красных глаз`] получает 1 [Agility:`Спешку`] на следующий ход (Дважды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] При 7 и более [RedEyeFirst:`Красных глаз`] получает 1 [Agility:`Спешку`] на следующий ход (До 2 раз за ход)</style>"
                 }
               ]
             }

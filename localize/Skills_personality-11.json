@@ -1678,7 +1678,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход (Дважды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход (До 2 раз за ход)</style>"
                 }
               ]
             },
