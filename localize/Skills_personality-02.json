@@ -925,7 +925,7 @@
         {
           "level": 3,
           "name": "Заряд 40Y-3",
-          "desc": "Сила монет +2 при силе [Charge:`Заряда`] 2 и более",
+          "desc": "Сила монет +2 при силе своего [Charge:`Заряда`] 2 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -945,7 +945,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "При силе [Charge:`Заряда`] 3 и более, на 4% больше урона за каждую единицу силы своего [Charge:`Заряда`] (До 20%)"
+                  "desc": "При силе своего [Charge:`Заряда`] 3 и более, на 4% больше урона за каждую единицу силы своего [Charge:`Заряда`] (До 20%)"
                 }
               ]
             }
@@ -974,10 +974,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "При силе [Charge:`Заряда`] 3 и более, на <style=\"highlight\">8%</style> больше урона за каждую единицу силы своего [Charge:`Заряда`] (До <style=\"highlight\">40%</style>)\n<style=\"highlight\">[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] на следующий ход"
+                  "desc": "При силе своего [Charge:`Заряда`] 3 и более, на <style=\"highlight\">8%</style> больше урона за каждую единицу силы своего [Charge:`Заряда`] (До <style=\"highlight\">40%</style>)\n<style=\"highlight\">[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] на следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит ещё 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] при силе [Charge:`Заряда`] 2 и более</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит ещё 1 [VioletTakeDamageUp:`Уязвимость к Зависти`] при силе своего [Charge:`Заряда`] 2 и более</style>"
                 }
               ]
             }
