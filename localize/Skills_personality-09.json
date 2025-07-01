@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Озари незнание своё",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × 3% максимальных ОЗ) при [Discard:`Сбросе`] этого навыка",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 3% от максимальных ОЗ)",
           "coinlist": [
             {},
             {},
@@ -22,7 +22,7 @@
         {
           "level": 2,
           "name": "Озари незнание своё",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">4%</style> максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n<style=\"highlight\">[WhenUse] Если 2 и более [KnowledgeExplored:`Откровения`](#f8c200), повышает Силу монет на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">4%</style> от максимальных ОЗ)\n<style=\"highlight\">[WhenUse] При 2 и более [KnowledgeExplored:`Откровениях`](#f8c200) Сила монет повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
           "coinlist": [
             {},
             {},
@@ -38,7 +38,7 @@
         {
           "level": 4,
           "name": "Озари незнание своё",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5%</style> максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n[WhenUse] Если 2 и более [KnowledgeExplored:`Откровения`](#f8c200), повышает Силу монет на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5%</style> от максимальных ОЗ)\n[WhenUse] При 2 и более [KnowledgeExplored:`Откровениях`](#f8c200) Сила монет повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)",
           "coinlist": [
             {},
             {},
@@ -59,7 +59,7 @@
         {
           "level": 1,
           "name": "Тяжесть знаний",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × 5% максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 5% от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {},
@@ -76,7 +76,7 @@
         {
           "level": 2,
           "name": "Тяжесть знаний",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">8%</style> максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">8%</style> от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {},
@@ -93,7 +93,7 @@
         {
           "level": 4,
           "name": "Тяжесть знаний",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">10%</style> максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 против целей с 5 и более [Sinking:`Утопания`]</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">10%</style> от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 против целей с 5 и более [Sinking:`Утопания`]</style>",
           "coinlist": [
             {},
             {},
@@ -115,7 +115,7 @@
         {
           "level": 3,
           "name": "Болезненное просвещение",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × 15% максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 15% от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -138,7 +138,7 @@
         {
           "level": 4,
           "name": "Болезненное просвещение",
-          "desc": "Получает щит, равный (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">20%</style> максимальных ОЗ) при [Discard:`Сбросе`] этого навыка\n[WhenUse] [Discard:`Сбрасывает`]</link></u></color> 2 навыка низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:`Утопания`]</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">20%</style> от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`]</link></u></color> 2 навыка низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:`Утопания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -473,7 +473,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
                 },
                 {
-                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1"
                 }
               ]
             }
@@ -497,7 +497,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] на 1<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -521,7 +521,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] на 1<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -558,7 +558,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] на 2</style>"
+                  "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2</style>"
                 }
               ]
             },
@@ -576,7 +576,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
                 },
                 {
-                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели <style=\"highlight\">на 3</style>"
                 }
               ]
             },
@@ -687,7 +687,7 @@
         {
           "level": 1,
           "name": "Одолженное время",
-          "desc": "[StartBattle] В конце хода получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] при его отсутствии (Раз за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] (До 2 раз за ход)",
+          "desc": "[StartBattle] В конце хода получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] при его отсутствии (Единожды за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] (До 2 раз за ход)",
           "coinlist": [
             {}
           ]
@@ -695,7 +695,7 @@
         {
           "level": 4,
           "name": "Одолженное время",
-          "desc": "[StartBattle] В конце хода получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] при его отсутствии (Раз за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] (До <style=\"highlight\">6 раз</style> за ход)",
+          "desc": "[StartBattle] В конце хода получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] при его отсутствии (Единожды за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] (До <style=\"highlight\">6 раз</style> за ход)",
           "coinlist": [
             {}
           ]
@@ -1336,7 +1336,7 @@
         {
           "level": 2,
           "name": "Чешуйчатый блеск",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1360,7 +1360,7 @@
         {
           "level": 4,
           "name": "Чешуйчатый блеск",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1411,7 +1411,7 @@
         {
           "level": 2,
           "name": "Острый змеиный клык",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {},
             {
@@ -1436,7 +1436,7 @@
         {
           "level": 4,
           "name": "Острый змеиный клык",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1475,7 +1475,7 @@
         {
           "level": 3,
           "name": "Смертельный шквал",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели 10 и более\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1509,7 +1509,7 @@
         {
           "level": 4,
           "name": "Смертельный шквал",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1562,7 +1562,7 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при счётчике своего [Breath:`Дыхания`] 10 и более</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более единицах своего счётчика [Breath:`Дыхания`]</style>",
           "coinlist": [
             {
               "coindescs": [
