@@ -1147,7 +1147,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [SlashResultUp:`Повышение силы Рубящих атак`] на следующий ход (<style=\"highlight\">Дважды</style> за ход)"
+                  "desc": "[OnSucceedAttack] Получает 1 [SlashResultUp:`Повышение силы Рубящих атак`] на следующий ход (<style=\"highlight\">До 2 раз</style> за ход)"
                 }
               ]
             }

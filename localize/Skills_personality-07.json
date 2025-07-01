@@ -1493,7 +1493,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] (<style=\"highlight\">Дважды</style> за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] (<style=\"highlight\">До 2 раз</style> за ход)"
                 }
               ]
             }
