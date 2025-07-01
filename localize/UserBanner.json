@@ -23,17 +23,17 @@
     {
       "id": 5,
       "name": "Билет 1-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Station 13 of Refraction Railway Line 1."
+      "desc": "Получался за прохождение 13-ой Станции 1-го пути Ж/Д Преломления."
     },
     {
       "id": 6,
       "name": "Декорированный билет 1-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Station 13 of Refraction Railway Line 1 under 120 Total Turns."
+      "desc": "Получался за прохождение 13-ой Станции 1-го пути Ж/Д Преломления не достигнув 120 ходов."
     },
     {
       "id": 7,
       "name": "Украшенный билет 1-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Station 13 of Refraction Railway Line 1 under 120 Total Turns during the first two weeks of the event."
+      "desc": "Получался за прохождение 13-ой Станции 1-го пути Ж/Д Преломления в первые две недели с момента открытия не достигнув 120 ходов."
     },
     {
       "id": 8,
@@ -63,37 +63,37 @@
     {
       "id": 13,
       "name": "Билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 3 or more Cycle Counts"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 3 и более Цикла"
     },
     {
       "id": 14,
       "name": "Декорированный билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 5 or more Cycle Counts"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 5 и более Циклов"
     },
     {
       "id": 15,
       "name": "Украшенный билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 5 or more Cycle Counts and under 200 Total Turns"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 5 и более Циклов не достигнув 200 ходов"
     },
     {
       "id": 16,
       "name": "Особый билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 3 or more Cycle Counts before Season 2: Reminiscence ends"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 3 и более Цикла до окончания Сезона 2: Воспоминание"
     },
     {
       "id": 17,
       "name": "Особый декорированный билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 5 or more Cycle Counts before Season 2: Reminiscence ends"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 5 и более Циклов до окончания Сезона 2: Воспоминание"
     },
     {
       "id": 18,
       "name": "Особый украшенный билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 5 or more Cycle Counts and 200 or less Total Turns before Season 2: Reminiscence ends"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 5 и более Циклов и не более чем 200 ходов до окончания Сезона 2: Воспоминание"
     },
     {
       "id": 19,
       "name": "Выдающийся билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 2 with 5 or more Cycles and under 150 Total Turns before the end of Season 2: Reminiscence (Must be a record made after 2023.09.15 20:15(KST))"
+      "desc": "Получался за прохождение 2-го пути Ж/Д Преломления за 5 и более Циклов and не достигнув 120 ходов до окончания Сезона 2: Воспоминание (Запись должна быть после 14:15 15.09.2023 (МСК))"
     },
     {
       "id": 20,
@@ -128,12 +128,12 @@
     {
       "id": 26,
       "name": "Билет 3-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing the Terminus of Refraction Railway Line 3"
+      "desc": "Получался за прохождение 3-го пути Ж/Д Преломления"
     },
     {
       "id": 27,
       "name": "Особый билет 2-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing the Terminus of Line 3 with 100 Turns or less Total Turns before Season 3: Bon Voyage ends"
+      "desc": "Получался за прохождение 3-го пути Ж/Д Преломления за не более чем 100 ходов до окончания Сезона 3: Бон Вояж"
     },
     {
       "id": 28,
@@ -193,12 +193,12 @@
     {
       "id": 39,
       "name": "Билет 4-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Section #4 of Refraction Railway Line 4"
+      "desc": "Получался за прохождение #4 Секции 4-го пути Ж/Д Преломления"
     },
     {
       "id": 40,
       "name": "Особый билет 4-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Section #4 of Line 4 with 100 Turns or fewer Total Turns before Season 4: Clear All Cathy ends"
+      "desc": "Получался за прохождение #4 Секции 4-го пути Ж/Д Преломления за не более чем 100 ходов до окончания Сезона 4: Очистить Кэти"
     },
     {
       "id": 41,
@@ -233,12 +233,12 @@
     {
       "id": 51,
       "name": "Билет 5-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Refraction Railway Line 5"
+      "desc": "Получался за прохождение 5-го пути Ж/Д Преломления"
     },
     {
       "id": 52,
       "name": "Особый билет 5-го пути Ж/Д Преломления",
-      "desc": "Obtained by clearing Line 5 with 100 or fewer Total Turns before Season 5: Oblivion ends."
+      "desc": "Получался за прохождение 5-го пути Ж/Д Преломления за не более чем 100 ходов до окончания Сезона 5: Забвение."
     },
     {
       "id": 53,
@@ -253,12 +253,12 @@
     {
       "id": 55,
       "name": "5-ый Сезон: Памятный билет Зеркала мечтаний",
-      "desc": "Obtained from the Mirror of the Dreaming Achievements Rewards\n\n※ This banner displays the number of times you've completed Floor 5 or higher in the 「Season 5 Mirror Dungeon - Mirror of the Dreaming」."
+      "desc": "Получался из достижений Зеркала мечтаний\n\n※ Показывает число прохождений 5-го Зеркального подземелья 5 Сезона 「Зеркало мечтаний」 на этаже 5 или дальше."
     },
     {
       "id": 56,
       "name": "5-ый Сезон: Особый памятный билет Зеркала мечтаний",
-      "desc": "Obtained from the Mirror of the Dreaming Achievements Rewards\n\n※ This banner displays the number of times you've completed Floor 5 or higher in the 「Season 5 Mirror Dungeon - Mirror of the Dreaming」."
+      "desc": "Получался из достижений Зеркала мечтаний\n\n※ Показывает число прохождений 5-го Зеркального подземелья 5 Сезона 「Зеркало мечтаний」 на этаже 5 или дальше."
     },
     {
       "id": 57,
@@ -273,7 +273,7 @@
     {
       "id": 59,
       "name": "5-ый Сезон: Особый билет достижений Зеркала мечтаний",
-      "desc": "Obtained from the Mirror of the Dreaming by completing all Achievements\n\nObtaining this item will update the designs of the following with the Special Achievement Banner look: Season 5: Mirror of the Dreaming Commemorative Banner & Special Commemorative Banner\n\n※ This banner displays the number of times you've completed Floor 5 or higher in the 「Season 5 Mirror Dungeon - Mirror of the Dreaming」."
+      "desc": "Получался после выполнения всех достижений Зеркала мечтаний\n\nПолучение этого билета изменит внешний вид билетов \"Памятный билет Зеркала мечтаний\" и \"Особый памятный билет Зеркала мечтаний\".\n\n※ Показывает число прохождений 5-го Зеркального подземелья 5 Сезона 「Зеркало мечтаний」 на этаже 5 или дальше."
     }
   ]
 }
