@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "Лучшая защита",
-          "desc": "[StartBattle] Получает (2 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ щита",
+          "desc": "[StartBattle] Получает (2 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита",
           "coinlist": [
             {}
           ]
@@ -193,7 +193,7 @@
         {
           "level": 4,
           "name": "Лучшая защита",
-          "desc": "[StartBattle] Получает (2 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ щита\n<style=\"highlight\">[WhenUse] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "[StartBattle] Получает (2 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита\n<style=\"highlight\">[WhenUse] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
           "coinlist": [
             {}
           ]
