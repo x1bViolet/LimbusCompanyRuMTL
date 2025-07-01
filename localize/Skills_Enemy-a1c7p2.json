@@ -793,7 +793,7 @@
         {
           "level": 1,
           "name": "Высвобождение силы застывшей крови",
-          "desc": "[WhenUse] Дважды получает 15 урона [Laceration:`Кровотечением`]\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+          "desc": "[WhenUse] Получает 15 [Laceration:`Кровотечением`] и сразу активирует его на себе 2 раза\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
           "coinlist": [
             {
               "coindescs": [
