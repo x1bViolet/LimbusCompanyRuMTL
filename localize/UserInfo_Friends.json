@@ -142,7 +142,7 @@
     },
     {
       "id": "Day_Ago",
-      "content": "dd/MM"
+      "content": "дд/ММ"
     },
     {
       "id": "Change_Introduce",
@@ -206,7 +206,7 @@
     },
     {
       "id": "SearchFriends",
-      "content": "Найти по ID"
+      "content": "Найти по UID"
     },
     {
       "id": "ReLoad",
