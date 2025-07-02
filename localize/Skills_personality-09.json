@@ -734,7 +734,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\n<style=\"highlight\">Если её значение менее 15, оно повышается ещё на 1</style>"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\n<style=\"highlight\">Если её число менее 15, оно повышается ещё на 1</style>"
                 }
               ]
             },
@@ -755,7 +755,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\nЕсли её значение менее 15, оно повышается ещё на 1"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\nЕсли её число менее 15, оно повышается ещё на 1"
                 }
               ]
             },
@@ -809,7 +809,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\n<style=\"highlight\">Если её значение менее 15, оно повышается ещё на 1</style>"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\n<style=\"highlight\">Если её число менее 15, оно повышается ещё на 1</style>"
                 }
               ]
             },
@@ -832,19 +832,19 @@
         {
           "level": 4,
           "name": "Курьерская сумка — Выпуск гаджетов",
-          "desc": "<style=\"highlight\">Наносит на 2% больше урона урона за каждую единицу на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) (До 40%)</style>\nСила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или каждые 6 [Burst:`Разрывов`] на цели (До 2)\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, этот навык не тратит счётчик [Burst:`Разрыва`] при атаке",
+          "desc": "<style=\"highlight\">Наносит на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) × 2)% больше урона урона (До 40%)</style>\nСила монет +1 за каждые 10 единиц на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или каждые 6 [Burst:`Разрывов`] на цели (До 2)\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, этот навык не тратит счётчик [Burst:`Разрыва`] при атаке",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\nЕсли её значение менее 15, оно повышается ещё <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\nЕсли её число менее 15, оно повышается ещё <style=\"highlight\">на 2</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)\n<style=\"highlight\">Если значение [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более, получает ещё 1 [Agility:`Спешку`]</style>"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)\n<style=\"highlight\">Если число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более, получает ещё 1 [Agility:`Спешку`]</style>"
                 }
               ]
             },
@@ -865,7 +865,7 @@
         {
           "level": 3,
           "name": "Давай, Полуденька!",
-          "desc": "Наносит на 2% больше урона за каждую единицу на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) (До 40%)\nСила монет +1 при 10+ на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или 6+ [Burst:`Разрывах`] на цели\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, этот навык не тратит счётчик [Burst:`Разрыва`] при атаке и снова подкидывает последнюю монету",
+          "desc": "Наносит на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) × 2)% больше урона урона (До 40%)\nСила монет +1 при 10+ на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или 6+ [Burst:`Разрывах`] на цели\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, то этот навык не тратит счётчик [Burst:`Разрыва`] при атаке и снова подкидывает последнюю монету",
           "coinlist": [
             {},
             {
@@ -878,7 +878,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На 15% больше урона при значении [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
+                  "desc": "[OnSucceedAttack] На 15% больше урона при числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)"
@@ -890,7 +890,7 @@
         {
           "level": 4,
           "name": "Давай, Полуденька!",
-          "desc": "Наносит на <style=\"highlight\">4%</style> больше урона за каждую единицу на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) (До <style=\"highlight\">80%</style>)\nСила монет +1 за <style=\"highlight\">каждые 10 единиц на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или 6 [Burst:`Разрывов`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, этот навык не тратит счётчик [Burst:`Разрыва`] при атаке и снова подкидывает последнюю монету",
+          "desc": "Наносит на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) × <style=\"highlight\">4</style>)% больше урона урона (До <style=\"highlight\">80%</style>)\nСила монет +1 за <style=\"highlight\">каждые 10 единиц на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или 6 [Burst:`Разрывов`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, то этот навык не тратит счётчик [Burst:`Разрыва`] при атаке и снова подкидывает последнюю монету",
           "coinlist": [
             {},
             {
@@ -903,7 +903,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На <style=\"highlight\">25%</style> больше урона при значении [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
+                  "desc": "[OnSucceedAttack] На <style=\"highlight\">25%</style> больше урона при числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели получает <style=\"highlight\">2</style> [Agility:`Спешки`] на следующий ход (Единожды за ход)"
@@ -920,7 +920,7 @@
         {
           "level": 1,
           "name": "Помощь в доставке и контрольная последовательность",
-          "desc": "[StartBattle] При значении [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает щит на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) / 2)% от максимальных ОЗ (До 15%; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\nЕсли её значение менее 15, оно повышается ещё на 1",
+          "desc": "[StartBattle] При числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает ОЗ Щита на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) / 2)% от максимальных ОЗ (До 15%; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\n- Если её число менее 15, оно повышается ещё на 1",
           "coinlist": [
             {}
           ]
@@ -928,7 +928,7 @@
         {
           "level": 4,
           "name": "Помощь в доставке и контрольная последовательность",
-          "desc": "[StartBattle] При значении [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает щит на <style=\"highlight\">(</style>Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f)<style=\"highlight\">)%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\nЕсли её значение менее 15, оно повышается ещё на 1",
+          "desc": "[StartBattle] При числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает ОЗ Щита на <style=\"highlight\">(</style>Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f)<style=\"highlight\">)%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\n- Если её число менее 15, оно повышается ещё на 1",
           "coinlist": [
             {}
           ]
@@ -941,7 +941,7 @@
         {
           "level": 1,
           "name": "Это... Всего-лишь стратегическая пауза!",
-          "desc": "[BeforeUse] Получает щит на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) / 2)% от максимальных ОЗ (До 15%; единожды за ход)\n[EndBattle] [Retreat:`Стратегически отступает`]",
+          "desc": "[BeforeUse] Получает ОЗ Щита на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) / 2)% от максимальных ОЗ (До 15%; единожды за ход)\n[EndBattle] [Retreat:`Стратегически отступает`]",
           "coinlist": [
             {}
           ]
@@ -949,7 +949,7 @@
         {
           "level": 4,
           "name": "Это... Всего-лишь стратегическая пауза!",
-          "desc": "[BeforeUse] Получает щит на <style=\"highlight\">(</style>Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f)<style=\"highlight\">)%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>; единожды за ход)\n[EndBattle] [Retreat:`Стратегически отступает`]",
+          "desc": "[BeforeUse] Получает ОЗ Щита на <style=\"highlight\">(</style>Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f)<style=\"highlight\">)%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>; единожды за ход)\n[EndBattle] [Retreat:`Стратегически отступает`]",
           "coinlist": [
             {}
           ]
