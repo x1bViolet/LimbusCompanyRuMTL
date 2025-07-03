@@ -106,7 +106,7 @@
     },
     {
       "id": "info_button_skill",
-      "content": "Атака "
+      "content": "[font=bebas]Атаки"
     },
     {
       "id": "info_button_awakenskill",
@@ -482,15 +482,15 @@
     },
     {
       "id": "slash_resistance",
-      "content": "Соп. к рубящему"
+      "content": "[font=bebas]Соп. к рубящ."
     },
     {
       "id": "penetrate_resistance",
-      "content": "Соп. к пронзающему"
+      "content": "[font=bebas]Соп. к пронз."
     },
     {
       "id": "hit_resistance",
-      "content": "Соп. к дробящему"
+      "content": "[font=bebas]Соп. к дроб."
     },
     {
       "id": "Lack_Buff",

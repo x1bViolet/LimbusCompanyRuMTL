@@ -342,7 +342,7 @@
     },
     {
       "id": "mainui_networkingerror_content",
-      "content": "Неустойчивое соединение.\n Проверьте подключение к интернету."
+      "content": "Неустойчивое соединение.\nПроверьте подключение к интернету."
     },
     {
       "id": "mainui_networkingerror_close",
@@ -482,7 +482,7 @@
     },
     {
       "id": "mainui_synchronization_grade",
-      "content": "Уровень связи"
+      "content": "Связь"
     },
     {
       "id": "mainui_organization",
@@ -722,7 +722,7 @@
     },
     {
       "id": "order_of_acquisition",
-      "content": "Время найма"
+      "content": "Дата"
     },
     {
       "id": "tolerance",
@@ -1955,6 +1955,10 @@
     {
       "id": "mainui_exp_dungeon_12_open_day",
       "content": "Светодобыча опыта #8 (Дробящий) открывается в ПЯТ, СУБ, и ВОСКРЕС."
+    },
+    {
+      "id": "mainui_notice_download_failed",
+      "content": "Не удалось загрузить информацию. Проверьте подключение к интернету."
     }
   ]
 }

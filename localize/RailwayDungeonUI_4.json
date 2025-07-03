@@ -50,11 +50,11 @@
     },
     {
       "id": "formation_participate_battle_label",
-      "content": "Всего:"
+      "content": "<size=43>Всего:</size>"
     },
     {
       "id": "formation_setting_waiting_character",
-      "content": "Запасных грешников:"
+      "content": "В запасе:"
     },
     {
       "id": "heal_character_who_does_not_participate_battle",
