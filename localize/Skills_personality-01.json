@@ -1925,6 +1925,342 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взор сквозь защиту",
+          "desc": "[WhenUse] Наносит на 7% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 49%)\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Взор сквозь защиту",
+          "desc": "[WhenUse] Наносит на <style=\"highlight\">10%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Базовая сила +1 при 3 и более единицах счётчика [Breath:`Дыхания`]</style>\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`] <style=\"highlight\">и повышает свой счётчик [Breath:`Дыхания`] на 1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Получает 1 [BoseProjektil:`Разорванное воспоминание`]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взор сквозь защиту",
+          "desc": "[WhenUse] Наносит на <style=\"highlight\">15%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5 [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 3 единицы счётчика [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`] и повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack]</style> Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack]</style> Получает 1 [BoseProjektil:`Разорванное воспоминание`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пробить насквозь",
+          "desc": "[WhenUse] Наносит на 10% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 70%)\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [BoseProjektil:`Разорванное воспоминание`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 2 [BoseProjektil:`Разорванных воспоминания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пробить насквозь",
+          "desc": "[WhenUse] Наносит на 10% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 70%)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]</style>\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [BoseProjektil:`Разорванное воспоминание`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 2 [BoseProjektil:`Разорванных воспоминания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пробить насквозь",
+          "desc": "[WhenUse] Наносит на <style=\"highlight\">15%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5 [Breath:`Дыхания`] (До 2)\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack]</style> Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [BoseProjektil:`Разорванное воспоминание`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 2 [BoseProjektil:`Разорванных воспоминания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Выстрел на определение цели",
+          "desc": "[StartBattle] Выбирает цель с наименьшими ОЗ\n- При 7 [BoseProjektil:`Разорванных воспоминаниях`] выбирает главной целью в первую очередь союзника\n[StartBattle] Количество целей +1 за каждые 3 [BoseProjektil:`Разорванных воспоминания`] (До 2 дополнительных целей)\n[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Базовая сила +1 при 3 и более единицах счётчика [Breath:`Дыхания`]\n[WhenUse] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До 7)\n[EndSkill] Теряет (Количество [BoseProjektil:`Разорванных воспоминаний`] × 2) СД (До 14)\n[EndSkill] Если было 7 [BoseProjektil:`Разорванных воспоминаний`] в начале боевой фазы, теряет их все\n- Восстанавливает 20 СД, если были потеряны все [BoseProjektil:`Разорванные воспоминания`] и этой атакой был убит союзник",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "· Эта монета наносит урон только основной цели"
+                },
+                {
+                  "desc": "Если основная цель — союзник, активирует следующие эффекты:\n- Сопротивление основной цели к Пронзающему урону от этой атаки становится Фатальным"
+                },
+                {
+                  "desc": "- На 5% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 35%)"
+                },
+                {
+                  "desc": "- На (Сила своего [Breath:`Дыхания`] × 2)% больше урона при критическом попадании (До 40%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "· Эта монета наносит урон только дополнительным целям"
+                },
+                {
+                  "desc": "- Если основной целью был противник, наносит урон и ему тоже"
+                },
+                {
+                  "desc": "- Если первая монета убила союзника, 1 случайная дополнительная цель получает урон\n"
+                },
+                {
+                  "desc": "На 15% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 105%)"
+                },
+                {
+                  "desc": "- Если первая монета убила союзника, на 30% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] вместо этого (До 210%)\n"
+                },
+                {
+                  "desc": "На (Сила своего [Breath:`Дыхания`] × 2.5)% больше урона при критическом попадании (До 25%)"
+                },
+                {
+                  "desc": "На 7% больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До 49%)"
+                },
+                {
+                  "desc": "На (Процент отнятых у главной цели ОЗ первой монетой)% больше урона (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "- Если первая монета убила союзника, наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1 вместо этого"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выстрел на определение цели",
+          "desc": "[StartBattle] Выбирает цель с наименьшими ОЗ\n- При 7 [BoseProjektil:`Разорванных воспоминаниях`] выбирает главной целью в первую очередь союзника\n[StartBattle] Количество целей +1 за каждые 3 [BoseProjektil:`Разорванных воспоминания`] (До 2 дополнительных целей)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5 [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 3 единицы счётчика [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До 7)\n[EndSkill] Теряет (Количество [BoseProjektil:`Разорванных воспоминаний`] × 2) СД (До 14)\n[EndSkill] Если было 7 [BoseProjektil:`Разорванных воспоминаний`] в начале боевой фазы, теряет их все\n- Восстанавливает 20 СД, если были потеряны все [BoseProjektil:`Разорванные воспоминания`] и этой атакой был убит союзник",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "· Эта монета наносит урон только основной цели"
+                },
+                {
+                  "desc": "Если основная цель — союзник, активирует следующие эффекты:\n- Сопротивление основной цели к Пронзающему урону от этой атаки становится Фатальным"
+                },
+                {
+                  "desc": "- На <style=\"highlight\">7%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">49%</style>)"
+                },
+                {
+                  "desc": "- На (Сила своего [Breath:`Дыхания`] × <style=\"highlight\">3</style>)% больше урона при критическом попадании (До <style=\"highlight\">60%</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "· Эта монета наносит урон только дополнительным целям"
+                },
+                {
+                  "desc": "- Если основной целью был противник, наносит урон и ему тоже"
+                },
+                {
+                  "desc": "- Если первая монета убила союзника, 1 случайная дополнительная цель получает урон\n"
+                },
+                {
+                  "desc": "На <style=\"highlight\">20%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">140%</style>)"
+                },
+                {
+                  "desc": "- Если первая монета убила союзника, на <style=\"highlight\">40%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] вместо этого (До <style=\"highlight\">280%</style>)\n"
+                },
+                {
+                  "desc": "На (Сила своего [Breath:`Дыхания`] × <style=\"highlight\">5</style>)% больше урона при критическом попадании (До <style=\"highlight\">50%</style>)"
+                },
+                {
+                  "desc": "На <style=\"highlight\">10%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)"
+                },
+                {
+                  "desc": "На (Процент отнятых у главной цели ОЗ первой монетой)% больше урона (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "- Если первая монета убила союзника, наносит <style=\"highlight\">5</style> [Laceration:`Кровотечения`] и повышает его счётчик на <style=\"highlight\">2</style> вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фронтовая поддержка",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 2 [Breath:`Дыхания`] (До 2)\n[WhenUse] Получает 2 [BoseProjektil:`Разорванных воспоминания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фронтовая поддержка",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 2 [Breath:`Дыхания`] (<style=\"highlight\">До 3</style>)\n[WhenUse] Получает 2 [BoseProjektil:`Разорванных воспоминания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

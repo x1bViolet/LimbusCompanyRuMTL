@@ -117,7 +117,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при 50% ОЗ и менее"
                 }
               ]
             },
@@ -127,7 +127,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при 50% ОЗ и менее"
                 }
               ]
             },
@@ -152,10 +152,10 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при менее 75% ОЗ</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при 75% ОЗ и менее</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при 50% ОЗ и менее"
                 }
               ]
             },
@@ -165,10 +165,10 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при менее 75% ОЗ</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при 75% ОЗ и менее</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при менее 50% ОЗ"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] при 50% ОЗ и менее"
                 }
               ]
             },
@@ -190,7 +190,7 @@
         {
           "level": 1,
           "name": "Реванш",
-          "desc": "[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход\n[StartBattle] Получает [DefenseUp:`Повышения уровня защиты`] в количестве своего [Breath:`Дыхания`] (До 10)",
+          "desc": "[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход\n[StartBattle] Получает [DefenseUp:`Повышения уровня защиты`] в количестве силы своего [Breath:`Дыхания`] (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -204,7 +204,7 @@
         {
           "level": 4,
           "name": "Реванш",
-          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n[StartBattle] Получает [DefenseUp:`Повышения уровня защиты`] в количестве своего [Breath:`Дыхания`] (До 10)",
+          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n[StartBattle] Получает [DefenseUp:`Повышения уровня защиты`] в количестве силы своего [Breath:`Дыхания`] (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -360,7 +360,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если сумма силы и счётчика [Vibration:`Тремора`] на цели составляет 20 и более, [Switch_Vibration:`Преобразует амплитуду`] в [VibrationCollapse:`Тремор — Распад`]"
+                  "desc": "[OnSucceedAttack] Если сумма силы и счётчика [Vibration:`Тремора`] на цели равна 20 и более, [Switch_Vibration:`Преобразует амплитуду`] в [VibrationCollapse:`Тремор — Распад`]"
                 }
               ]
             }
@@ -388,7 +388,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если сумма силы и счётчика [Vibration:`Тремора`] на цели составляет 20 и более, [Switch_Vibration:`Преобразует амплитуду`] в [VibrationCollapse:`Тремор — Распад`]"
+                  "desc": "[OnSucceedAttack] Если сумма силы и счётчика [Vibration:`Тремора`] на цели равна 20 и более, [Switch_Vibration:`Преобразует амплитуду`] в [VibrationCollapse:`Тремор — Распад`]"
                 }
               ]
             }
@@ -497,7 +497,7 @@
         {
           "level": 1,
           "name": "Метка фотоэффекта",
-          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]",
+          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для поднятия своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]",
           "coinlist": [
             {},
             {},
@@ -513,7 +513,7 @@
         {
           "level": 2,
           "name": "Метка фотоэффекта",
-          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]<style=\"highlight\"></style>",
+          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для поднятия своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика [Charge:`Заряда`]<style=\"highlight\"></style>",
           "coinlist": [
             {},
             {
@@ -538,7 +538,7 @@
         {
           "level": 4,
           "name": "Метка фотоэффекта",
-          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика [Charge:`Заряда`]",
+          "desc": "[WhenUse] При счётчике [Charge:`Заряда`] 5~9 тратит (2 × (10 - текущий счётчик [Charge:`Заряда`]))% от максимальных ОЗ для поднятия своего счётчика [Charge:`Заряда`] до 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика [Charge:`Заряда`]",
           "coinlist": [
             {
               "coindescs": [
@@ -574,7 +574,7 @@
         {
           "level": 3,
           "name": "Фотоэлектрический гарпун",
-          "desc": "Сила монет +1 при силе [Charge:`Заряда`] 2 и более",
+          "desc": "Сила монет +1 при силе своего [Charge:`Заряда`] 2 и более",
           "coinlist": [
             {},
             {
@@ -648,7 +648,7 @@
         {
           "level": 4,
           "name": "Подзарядка",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3 (<style=\"highlight\">Дважды</style> за ход)",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3 (<style=\"highlight\">До 2 раз</style> за ход)",
           "coinlist": [
             {}
           ]
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] На 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] При СД менее 0, восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице; до 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] На 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] При СД менее 0 восстанавливает 10 СД\n- Восстанавливает на 1 СД больше за каждую единицу СД ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\n[WhenUse] На <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице; до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\n[WhenUse] На <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] При СД менее 0 восстанавливает 10 СД\n- Восстанавливает на <style=\"highlight\">2</style> СД больше за каждую единицу СД ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] На 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] При СД менее 0, восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (1 за единицу в разнице; до 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] На 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] При СД менее 0 восстанавливает 10 СД\n- Восстанавливает на 1 СД больше за каждую единицу СД ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\n[WhenUse] На <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EndSkill] Если Хитклиф этим навыком убивает цель, он получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] При менее 0 СД восстанавливает 10 СД. Чем ниже СД, тем сильнее её восстановление (<style=\"highlight\">2</style> за единицу в разнице; до <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Урон повышается на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] На <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\n[WhenUse] На <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EndSkill] Если Хитклиф этим навыком убивает цель, он получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] При СД менее 0 восстанавливает 10 СД\n- Восстанавливает на <style=\"highlight\">2</style> СД больше за каждую единицу СД ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1133,7 +1133,7 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (Дважды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (До 2 раз за ход)"
                 }
               ]
             }
@@ -1153,7 +1153,7 @@
                   "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (Дважды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (До 2 раз за ход)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] на следующий ход (Единожды за ход)</style>"
@@ -1176,7 +1176,7 @@
                   "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (Дважды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (До 2 раз за ход)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
@@ -1251,7 +1251,7 @@
         {
           "level": 4,
           "name": "Боевое дыхание",
-          "desc": "[TurnStartBattle] При отсутствии патронов использует навык 「Укрыться」\n[WhenUse] Если Представитель Офиса Точки Хон Лу на поле боя, запрашивает [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n<style=\"highlight\">[OnSucceedEvade] Получает 3 [Breath:`Дыхания`] (Трижды за ход)</style>\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 в следующем ходе (Единожды за ход)",
+          "desc": "[TurnStartBattle] При отсутствии патронов использует навык 「Укрыться」\n[WhenUse] Если Представитель Офиса Точки Хон Лу на поле боя, запрашивает [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n<style=\"highlight\">[OnSucceedEvade] Получает 3 [Breath:`Дыхания`] (До 3 раз за ход)</style>\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 в следующем ходе (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": []
@@ -1493,7 +1493,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] (<style=\"highlight\">Дважды</style> за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] (<style=\"highlight\">До 2 раз</style> за ход)"
                 }
               ]
             }
@@ -1515,7 +1515,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Последняя монета наносит на 10% больше урона"
+                  "desc": "[OnSucceedAttack] На 10% больше урона последней монетой"
                 }
               ]
             },
@@ -1525,7 +1525,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Последняя монета наносит на 10% больше урона"
+                  "desc": "[OnSucceedAttack] На 10% больше урона последней монетой"
                 }
               ]
             },
@@ -1552,7 +1552,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Последняя монета наносит на 10% больше урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] На 10% больше урона последней монетой"
                 }
               ]
             },
@@ -1562,7 +1562,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Последняя монета наносит на 10% больше урона<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] На 10% больше урона последней монетой"
                 }
               ]
             },

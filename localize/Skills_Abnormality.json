@@ -5206,7 +5206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Вновь подкидывает монету (Трижды за навык)"
+                  "desc": "[OnSucceedAttackHead] Вновь подкидывает монету (До 3 раз за навык)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Ядру"

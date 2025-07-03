@@ -842,3 +842,4 @@ BulletPropellantSpecialAlly ¤ #9f6a3a
 IrritationAlly ¤ #f8c200
 HugeIrritationAlly ¤ #f8c200
 BeastEyesAlly ¤ #f8c200
+FellBulletPersonality ¤ #f8c200

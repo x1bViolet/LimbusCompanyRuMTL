@@ -125,6 +125,10 @@
       "name": "[Критическая атака]"
     },
     {
+      "id": "CriticalOnSucceedAttackHead",
+      "name": "[Критическая атака орлом]"
+    },
+    {
       "id": "StartDuel",
       "name": "[В начале столкновения]"
     },
@@ -178,7 +182,7 @@
     },
     {
       "id": "StartBattle_Force",
-      "name": "<color=#93f13e>[В начале хода]</color>"
+      "name": "<color=#93f13e>[Начало боевой фазы]</color>"
     },
     {
       "id": "TargetKill",

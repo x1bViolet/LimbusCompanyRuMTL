@@ -101,11 +101,11 @@
       "dlg": "Чья-то идентичность сильно повреждена."
     },
     {
-      "id": "announcer_round_takebigdmg_1_3",
+      "id": "announcer_round_givebigdmg_1_1",
       "dlg": "Это была прекрасная атака. Можете сражаться так дальше?"
     },
     {
-      "id": "announcer_round_takebigdmg_1_4",
+      "id": "announcer_round_givebigdmg_1_2",
       "dlg": "Давайте, вы сможете это повторить. Вы же можете ударить с той же силой, верно?"
     },
     {
