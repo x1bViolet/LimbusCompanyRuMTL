@@ -125,6 +125,10 @@
       "name": "[Критическая атака]"
     },
     {
+      "id": "CriticalOnSucceedAttackHead",
+      "name": "[Критическая атака орлом]"
+    },
+    {
       "id": "StartDuel",
       "name": "[В начале столкновения]"
     },
