@@ -2,55 +2,55 @@
   "dataList": [
     {
       "id": "ADDITIONAL_COST_RATE_ON_CLEAR_FLOOR",
-      "description": "При переходе на следующий этаж увеличивает текущую <color=#ff6000>Стоимость</color> на {0}% (До 100)"
+      "description": "При переходе на следующий этаж увеличивает текущую <color=#5bffde>Стоимость</color> на {0}% (До 100)"
     },
     {
       "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_ONCE",
-      "description": "Увеличивает <color=#ff6000>Стоимость продажи ЭГО дара</color> на {0}% (Единожды на магазин)"
+      "description": "Увеличивает <color=#5bffde>Стоимость продажи ЭГО дара</color> на {0}% (Единожды на магазин)"
     },
     {
       "id": "ADDITIONAL_FLOOR_THEME_SLOT",
-      "description": "<color=#ff6000>Наборов тем на выбор</color> +{0}"
+      "description": "<color=#5bffde>Наборов тем на выбор</color> +{0}"
     },
     {
       "id": "ADDITIONAL_FLOOR_THEME_REFRESH",
-      "description": "<color=#ff6000>Шанс обновления Наборов тем</color> +{0}"
+      "description": "<color=#5bffde>Шанс обновления Наборов тем</color> +{0}"
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_SELECT_NEW_FLOOR_THEME",
-      "description": "При выборе Набора тем впервые, все идентичности получают +{0} <color=#ff6000>к Уровню</color> (До 9)"
+      "description": "При выборе Набора тем впервые, все идентичности получают +{0} <color=#5bffde>к Уровню</color> (До 9)"
     },
     {
       "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
-      "description": "<color=#ff6000>Продаваемых ЭГО даров</color> +{0}"
+      "description": "<color=#5bffde>Продаваемых ЭГО даров</color> +{0}"
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_1ST_FLOOR",
-      "description": "При входе все идентичности получают +{0} <color=#ff6000>к Уровню</color>"
+      "description": "При входе все идентичности получают +{0} <color=#5bffde>к Уровню</color>"
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_CLEAR_FLOOR",
-      "description": "При зачистке этажа все идентичности получают +{0} <color=#ff6000>к Уровню</color> (До 5)"
+      "description": "При зачистке этажа все идентичности получают +{0} <color=#5bffde>к Уровню</color> (До 5)"
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP",
-      "description": "При входе в магазин даёт {0} ЭГО дар(-ов) 3-го Уровня или менее <color=#ff6000>для Слияния & Продажи</color>"
+      "description": "При входе в магазин даёт {0} ЭГО дар(-ов) 3-го Уровня или менее <color=#5bffde>для Слияния & Продажи</color>"
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_EGO_GIFT_ON_ENTER_3RD_FLOOR",
-      "description": "При переходе на Этаж 3, даёт {0} <color=#ff6000>ЭГО дар(-ов) 3-го Уровня</color>"
+      "description": "При переходе на Этаж 3, даёт {0} <color=#5bffde>ЭГО дар(-ов) 3-го Уровня</color>"
     },
     {
       "id": "ACQUIRE_LOWER_TIER_RANDOM_EGO_GIFT_ON_COMBINE",
-      "description": "При слиянии, даёт <color=#ff6000>ещё один случайных ЭГО дар</color> с Уровнем на 2 ниже результата (Результат должен иметь 3 Уровень или более) (Единожды на магазин)"
+      "description": "При слиянии, даёт <color=#5bffde>ещё один случайных ЭГО дар</color> с Уровнем на 2 ниже результата (Результат должен иметь 3 Уровень или более) (Единожды на магазин)"
     },
     {
       "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
-      "description": "<color=#ff6000>Стартовых ЭГО даров</color> на выбор +{0}"
+      "description": "<color=#5bffde>Стартовых ЭГО даров</color> на выбор +{0}"
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
-      "description": "При входе даёт {0} <color=#ff6000>ЭГО дар(-ов) 3-го Уровня на выбор</color> по выбранной категории"
+      "description": "При входе даёт {0} <color=#5bffde>ЭГО дар(-ов) 3-го Уровня на выбор</color> по выбранной категории"
     },
     {
       "id": "REVIVE_ONCE_PER_FLOOR",
@@ -58,39 +58,39 @@
     },
     {
       "id": "FREE_SHOP_REFRESH_EGO_GIFT_ONCE",
-      "description": "Одно бесплатное <color=#ff6000>Обновление</color> в магазинах"
+      "description": "Одно бесплатное <color=#5bffde>Обновление</color> в магазинах"
     },
     {
       "id": "ADDITIONAL_START_COST",
-      "description": "<color=#ff6000>Начальная стоимость</color> +{0}"
+      "description": "<color=#5bffde>Начальная стоимость</color> +{0}"
     },
     {
       "id": "ADDITIONAL_COST_AFTER_WIN_BATTLE",
-      "description": "<color=#ff6000>Стоимость за победу в битве</color> +{0}%"
+      "description": "<color=#5bffde>Стоимость за победу в битве</color> +{0}%"
     },
     {
       "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
-      "description": "Увеличивает шанс появления <color=#ff6000>ЭГО даров высокого уровня</color> в магазинах"
+      "description": "Увеличивает шанс появления <color=#5bffde>ЭГО даров высокого уровня</color> в магазинах"
     },
     {
       "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE",
-      "description": "Одно бесплатное <color=#ff6000>Ключевое обновление</color> в магазинах"
+      "description": "Одно бесплатное <color=#5bffde>Ключевое обновление</color> в магазинах"
     },
     {
       "id": "ACQUIRE_2_TIER_RANDOM_EGO_GIFT_ON_ENTER_2ND_FLOOR",
-      "description": "При переходе на Этаж 2, даёт {0} случайный(-ых) <color=#ff6000>ЭГО дар(-а) 2-го Уровня</color>"
+      "description": "При переходе на Этаж 2, даёт {0} случайный(-ых) <color=#5bffde>ЭГО дар(-а) 2-го Уровня</color>"
     },
     {
       "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR",
-      "description": "При переходе на Этаж 1, даёт {0} случайный(-ых) <color=#ff6000>ЭГО дар(-а) 1-го Уровня</color>"
+      "description": "При переходе на Этаж 1, даёт {0} случайный(-ых) <color=#5bffde>ЭГО дар(-а) 1-го Уровня</color>"
     },
     {
       "id": "MaxSpeedUpAdder",
-      "description": "<color=#ff6000>Максимальная скорость</color> +{0}"
+      "description": "<color=#5bffde>Максимальная скорость</color> +{0}"
     },
     {
       "id": "GiveBuffOnRoundStart",
-      "description": "Даёт {2} <color=#ff6000>{1}</color>"
+      "description": "Даёт {2} <color=#5bffde>{1}</color>"
     }
   ]
 }

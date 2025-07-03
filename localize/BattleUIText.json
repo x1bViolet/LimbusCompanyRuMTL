@@ -787,6 +787,10 @@
     {
       "id": "ReturnPassUIText",
       "content": "Возврат"
+    },
+    {
+      "id": "NoHavePassive",
+      "content": "Пассивка поддержки недоступна\nСвяжите для разблокировки"
     }
   ]
 }
