@@ -14,11 +14,11 @@
     },
     {
       "id": "mirror_dungeon_start_bonus_formation_rest_point",
-      "content": "Стартовый бонус"
+      "content": "Звёздный бонус"
     },
     {
       "id": "mirror_dungeon_start_bonus_formation_total",
-      "content": "Стартовый\nбонус"
+      "content": "Звёздный\nбонус"
     },
     {
       "id": "mirror_dungeon_start_buff_Panel_reset_selection",
@@ -30,11 +30,11 @@
     },
     {
       "id": "mirror_dungeon_reward_popup_rest_bonus_guide",
-      "content": "Все идентичности, не входящие в текущую команду, получают 1 Стартовый бонус"
+      "content": "Все идентичности, не входящие в текущую команду, получают 1 Звёздный бонус"
     },
     {
       "id": "mirror_user_start_buff",
-      "content": "Стартовый бонус"
+      "content": "Звёздный бонус"
     },
     {
       "id": "mirror_enemy_buff",
@@ -130,7 +130,7 @@
     },
     {
       "id": "mirror_start_buff_unlock_condition_needs_held_buff_points",
-      "content": "При {0}+ стартового бонуса"
+      "content": "При {0}+ Звёздного бонуса"
     },
     {
       "id": "mirror_start_buff_purchase_modal_after_selected_bonus",
@@ -166,7 +166,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_not_selected_any_buff",
-      "content": "Не выбирать никакой"
+      "content": "Не выбрано"
     },
     {
       "id": "dungeon_shop_heal_title_all_season5",
@@ -386,7 +386,7 @@
     },
     {
       "id": "mirror_start_buff_unlock_condition_lack_of_current_point",
-      "content": "Недостаточно стартового бонуса"
+      "content": "Недостаточно Звёздного бонуса"
     },
     {
       "id": "mirror_theme_pack_baton",
@@ -450,27 +450,27 @@
     },
     {
       "id": "mirror_dungeon_5_buffs_over10",
-      "content": "При [10]+ Стартового бонуса"
+      "content": "При [10]+ Звёздного бонуса"
     },
     {
       "id": "mirror_dungeon_5_buffs_over20",
-      "content": "При [20]+ Стартового бонуса"
+      "content": "При [20]+ Звёздного бонуса"
     },
     {
       "id": "mirror_dungeon_5_buffs_over30",
-      "content": "При [30]+ Стартового бонуса"
+      "content": "При [30]+ Звёздного бонуса"
     },
     {
       "id": "mirror_dungeon_5_buffs_over40",
-      "content": "При [40]+ Стартового бонуса"
+      "content": "При [40]+ Звёздного бонуса"
     },
     {
       "id": "mirror_dungeon_5_buffs__over50",
-      "content": "При [50]+ Стартового бонуса"
+      "content": "При [50]+ Звёздного бонуса"
     },
     {
       "id": "mirror_dungeon_5_buffs__over60",
-      "content": "При [60]+ Стартового бонуса"
+      "content": "При [60]+ Звёздного бонуса"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_result_label_upgrade",
@@ -494,11 +494,11 @@
     },
     {
       "id": "mirrordungeon_start_bonus_personality_title",
-      "content": "Удержание стартового бонуса"
+      "content": "Удержание Звёздного бонуса"
     },
     {
       "id": "mirrordungeon_start_bonus_personality_desc",
-      "content": "В течение срока хранения стартовые бонусы этих идентичностей не будут потрачены на прохождение Зеркального подземелья."
+      "content": "В течение срока хранения Звёздные бонусы этих идентичностей не будут потрачены на прохождение Зеркального подземелья."
     },
     {
       "id": "mirrordungeon_start_bonus_personality_label",
@@ -506,7 +506,7 @@
     },
     {
       "id": "mirrordungeon_start_bonus_personality_button_label",
-      "content": "Удержанный стартовый бонус"
+      "content": "Удержанный Звёздный бонус"
     },
     {
       "id": "mirrordungeon_start_bonus_personality_period",
