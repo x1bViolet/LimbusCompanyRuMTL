@@ -1,0 +1,224 @@
+{
+  "dataList": [
+    {
+      "id": "formation_ego_resource_detail",
+      "content": "[font=bebas]<size=43>Детали</size>"
+    },
+    {
+      "id": "formation_deck_code_auto_filled",
+      "content": "Базовые идентичности или ЭГО были выбраны взамен тех, что вы не имеете."
+    },
+    {
+      "id": "formation_deck_filled_complete",
+      "content": "Код команды загружен"
+    },
+    {
+      "id": "formation_set_to_default",
+      "content": "Сбросить настройку этой команды?\n\n<size=80%>Сброс вернёт все базовые идентичности и ЭГО на место выбранных вами</size>"
+    },
+    {
+      "id": "formation_unable_to_set_default",
+      "content": "Нельзя сбросить базовую настройку."
+    },
+    {
+      "id": "formation_ego_resource_popup_title",
+      "content": "[font=bebas]ЭГО ресурсы команды"
+    },
+    {
+      "id": "formation_ego_resource_popup_total_used",
+      "content": "Расходуемые экипированными ЭГО:"
+    },
+    {
+      "id": "formation_ego_resource_popup_total_acquirable",
+      "content": "Доступные к получению этой командой:"
+    },
+    {
+      "id": "formation_ego_resource_popup_personality",
+      "content": "Ресурсы идентичностей"
+    },
+    {
+      "id": "formation_ego_resource_popup_ego",
+      "content": "Расход ЭГО навыками"
+    },
+    {
+      "id": "formation_code_popup_title",
+      "content": "Код команды"
+    },
+    {
+      "id": "formation_code_popup_desc",
+      "content": "С кодом команды вы можете:\n- Делиться вашей командой\n- Использовать его для настройки команд"
+    },
+    {
+      "id": "formation_code_popup_copy",
+      "content": "Скопировать код команды"
+    },
+    {
+      "id": "formation_code_popup_paste",
+      "content": "Вставить код команды"
+    },
+    {
+      "id": "formation_code_popup_paste_desc",
+      "content": "Вставьте скопированный код команды для смены идентичностей."
+    },
+    {
+      "id": "formation_code_popup_paste_input",
+      "content": "Ввести код"
+    },
+    {
+      "id": "formation_code_popup_copy_success",
+      "content": "Код команды скопирован"
+    },
+    {
+      "id": "formation_side_button_all_personality",
+      "content": "[font=excelsior]Идентичности"
+    },
+    {
+      "id": "formation_side_button_all_ego",
+      "content": "[font=excelsior]ЭГО"
+    },
+    {
+      "id": "formation_side_button_friend_support",
+      "content": "[font=excelsior]Поддержка"
+    },
+    {
+      "id": "character_list_title_all_personality",
+      "content": "[font=bebas]Идентичности"
+    },
+    {
+      "id": "character_list_title_all_personality_with_character_name",
+      "content": "{0}"
+    },
+    {
+      "id": "character_list_title_all_ego",
+      "content": "[font=bebas]ЭГО"
+    },
+    {
+      "id": "character_list_title_all_ego_with_character_name",
+      "content": "{0}"
+    },
+    {
+      "id": "character_list_title_friend_support",
+      "content": "{0}"
+    },
+    {
+      "id": "character_list_collect_rate",
+      "content": "Регулярность сбора"
+    },
+    {
+      "id": "character_list_owned_toggle_label",
+      "content": "[font=bebas]Имеется"
+    },
+    {
+      "id": "character_list_sort_label",
+      "content": "Сортировка"
+    },
+    {
+      "id": "character_list_friend_support_not_existed",
+      "content": "Нет доступных идентичностей поддержки."
+    },
+    {
+      "id": "character_list_friend_support_impossible",
+      "content": "Нельзя взять идентичностей поддержки для этого грешника."
+    },
+    {
+      "id": "view_personality_status_button_label",
+      "content": "[font=mikodacs]Сводка"
+    },
+    {
+      "id": "formation_ui_announcer",
+      "content": "[font=bebas]Комментаторы"
+    },
+    {
+      "id": "formation_ui_announcer_detail",
+      "content": "[font=bebas]Детальная информация"
+    },
+    {
+      "id": "formation_deck_code_invalid_code",
+      "content": "Слишком подозрительный код команды.."
+    },
+    {
+      "id": "formation_ego_resource_popup_personality_desc",
+      "content": "Обзор на возможные к получению ЭГО ресурсы навыками идентичностей этой команды"
+    },
+    {
+      "id": "formation_ego_resource_popup_ego_desc",
+      "content": "Расход ЭГО ресурсов для использования каждого ЭГО"
+    },
+    {
+      "id": "formation_current_personality",
+      "content": "Выбранная идентичность"
+    },
+    {
+      "id": "ego_sort_label_rarity",
+      "content": "Ранг"
+    },
+    {
+      "id": "ego_filter_label_attack_type",
+      "content": "Тип урона"
+    },
+    {
+      "id": "ego_filter_label_attribute_type",
+      "content": "Грех"
+    },
+    {
+      "id": "personality_filter_label_attack_type",
+      "content": "Тип урона"
+    },
+    {
+      "id": "personality_filter_label_attribute_type",
+      "content": "Грехи навыков"
+    },
+    {
+      "id": "character_list_personality_not_existed",
+      "content": "Нет подходящих по критериям идентичностей."
+    },
+    {
+      "id": "character_list_ego_not_existed",
+      "content": "Нет подходящих по критериям ЭГО."
+    },
+    {
+      "id": "filter_condition_speed",
+      "content": "Скорость"
+    },
+    {
+      "id": "filter_condition_defense",
+      "content": "Ур. Защ."
+    },
+    {
+      "id": "filter_condition_grade",
+      "content": "Ур. {0}"
+    },
+    {
+      "id": "ego_sort_label_syncLevel",
+      "content": "Связь"
+    },
+    {
+      "id": "ego_sort_label_crimson_resist",
+      "content": "[font=bebas]Рез. Гнева"
+    },
+    {
+      "id": "ego_sort_label_scarlet_resist",
+      "content": "[font=bebas]Рез. Похоти"
+    },
+    {
+      "id": "ego_sort_label_amber_resist",
+      "content": "[font=bebas]Рез. Лености"
+    },
+    {
+      "id": "ego_sort_label_shamrock_resist",
+      "content": "[font=bebas]Рез. Чревоуг."
+    },
+    {
+      "id": "ego_sort_label_azure_resist",
+      "content": "[font=bebas]Рез. Уныния"
+    },
+    {
+      "id": "ego_sort_label_indigo_resist",
+      "content": "[font=bebas]Рез. Гордыни"
+    },
+    {
+      "id": "ego_sort_label_violet_resist",
+      "content": "[font=bebas]Рез. Зависти"
+    }
+  ]
+}

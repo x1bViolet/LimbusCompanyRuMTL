@@ -6,15 +6,15 @@
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition",
-      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный дар ЭГО {2} Уровня или ниже для категории Ключевого Эффекта, выбранного в начале Зеркального Подземелья"
+      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный ЭГО Дар {2} Уровня или ниже для категории Ключевого Эффекта, выбранного в начале Зеркального Подземелья"
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_all_tier_gift_acquisition",
-      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный дар ЭГО"
+      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный ЭГО Дар"
     },
     {
       "id": "dungeon_battle_reward_case_format_random_gift_acquisition",
-      "content": "Получить случайный дар ЭГО {0} Уровня"
+      "content": "Получить случайный ЭГО Дар {0} Уровня"
     },
     {
       "id": "dungeon_battle_reward_case_format_chip_acquisition",
@@ -34,7 +34,7 @@
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition_from_start_keyword_none_or_random",
-      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный дар ЭГО {2} Уровня"
+      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный ЭГО Дар {2} Уровня"
     }
   ]
 }
