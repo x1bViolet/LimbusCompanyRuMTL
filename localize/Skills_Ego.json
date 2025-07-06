@@ -2778,7 +2778,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но так же наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]</style>"
                 }
               ]
             }
@@ -2796,7 +2796,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но так же наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]"
                 }
               ]
             }
@@ -2861,7 +2861,7 @@
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 7"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а так же повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а также повышает свой счётчик [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -2926,7 +2926,7 @@
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 10"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход<style=\"highlight\">, а так же повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход<style=\"highlight\">, а также повышает свой счётчик [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -3626,7 +3626,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]<style=\"highlight\">, а так же повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] на 2</style>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]<style=\"highlight\">, а также повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] на 2</style>"
                 }
               ]
             }
@@ -3650,7 +3650,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`], а так же повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`], а также повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
                 }
               ]
             }
