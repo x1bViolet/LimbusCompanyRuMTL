@@ -166,7 +166,7 @@
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
-      "description": "При входе в подземелье даёт {0} ЭГО Дар(-а) 3 ранга <color=#f8c200>выбранной при входе категории</color> (Если нет подходящих ЭГО Даров, то ранг будет ниже)"
+      "description": "При входе в подземелье даёт {0} ЭГО Дар(-а) 3 ранга выбранной при входе категории (Если нет подходящих ЭГО Даров, то ранг будет ниже)"
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR_TEXT_HIGHLIGHT",
