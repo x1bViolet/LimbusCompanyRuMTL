@@ -22,7 +22,7 @@
     },
     {
       "id": "formation_ego_resource_popup_title",
-      "content": "[font=bebas]ЭГО ресурсы команды"
+      "content": "[font=bebas]ЭГО Ресурсы команды"
     },
     {
       "id": "formation_ego_resource_popup_total_used",
@@ -138,11 +138,11 @@
     },
     {
       "id": "formation_ego_resource_popup_personality_desc",
-      "content": "Обзор на возможные к получению ЭГО ресурсы навыками идентичностей этой команды"
+      "content": "Обзор на возможные к получению ЭГО Ресурсы навыками идентичностей этой команды"
     },
     {
       "id": "formation_ego_resource_popup_ego_desc",
-      "content": "Расход ЭГО ресурсов для использования каждого ЭГО"
+      "content": "Расход ЭГО Ресурсов для использования каждого ЭГО"
     },
     {
       "id": "formation_current_personality",

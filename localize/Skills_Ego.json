@@ -2941,7 +2941,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До 25%)",
+          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До 25%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2956,7 +2956,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До <style=\"highlight\">50%</style>)",
+          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До <style=\"highlight\">50%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -2976,7 +2976,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До 25%)\n[BeforeAttack] Полгощает ЭГО ресурсы Похоти в количестве грехов её резонанса и повышает урон на 5% за каждый поглощённый ЭГО ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До 25%)\n[BeforeAttack] Полгощает ЭГО Ресурсы Похоти в количестве грехов её резонанса и повышает урон на 5% за каждый поглощённый ЭГО Ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -2991,7 +2991,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До <style=\"highlight\">50%</style>)\n[BeforeAttack] Полгощает ЭГО ресурсы Похоти в количестве грехов её резонанса и повышает урон на <style=\"highlight\">10%</style> за каждый поглощённый ЭГО ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До <style=\"highlight\">50%</style>)\n[BeforeAttack] Полгощает ЭГО Ресурсы Похоти в количестве грехов её резонанса и повышает урон на <style=\"highlight\">10%</style> за каждый поглощённый ЭГО Ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -3037,7 +3037,7 @@
                   "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает <style=\"highlight\">10%</style> максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] <style=\"highlight\">и 1 [GainSinStockAdder:`Множитель ЭГО ресурсов`]</style> на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] <style=\"highlight\">и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`]</style> на следующий ход"
                 }
               ]
             }
@@ -3052,7 +3052,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на 10%",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО Ресурса для повышения урона на 10%",
           "coinlist": [
             {
               "coindescs": [
@@ -3067,7 +3067,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">20%</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО Ресурса для повышения урона на <style=\"highlight\">20%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3082,7 +3082,7 @@
           "level": 4,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">30%</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО Ресурса для повышения урона на <style=\"highlight\">30%</style>",
           "coinlist": [
             {
               "coindescs": [
