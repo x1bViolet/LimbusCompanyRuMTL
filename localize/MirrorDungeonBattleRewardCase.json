@@ -30,7 +30,7 @@
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition_from_start_keyword",
-      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный ЭГО дар {2} Уровня на {3}"
+      "content": "Получить {0} Стоимости\n{1}% шанс получить случайный ЭГО Дар {2} Уровня на {3}"
     },
     {
       "id": "dungeon_battle_reward_case_format_cost_and_gift_acquisition_from_start_keyword_none_or_random",
