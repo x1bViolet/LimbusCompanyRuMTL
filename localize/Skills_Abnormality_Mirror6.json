@@ -1,0 +1,517 @@
+{
+  "dataList": [
+    {
+      "id": 117501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тяжкая рана",
+          "desc": "Наносит на 1 силу и счётчик [Laceration:`Кровотечения`] больше целям с 6 и более [Laceration:`Кровотечения`]\nСила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорезать",
+          "desc": "Наносит на 1 силу и счётчик [Laceration:`Кровотечения`] больше целям с 6 и более [Laceration:`Кровотечения`]\nСила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сжимающие терновые лозы",
+          "desc": "Наносит на 1 [Laceration:`Кровотечение`] больше целям с 6 и более [Laceration:`Кровотечения`]\nКоличество целей +2, если сумма силы и счётчика [Laceration:`Кровотечения`] главной цели равна 15 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Полидипсические лепестки",
+          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScarletTakeDamageUp:`Уязвимости к Похоти`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117512,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рвущие лепестки",
+          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScarletTakeDamageUp:`Уязвимости к Похоти`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует всё [Laceration:`Кровотечение`] на цели и тратит весь его счётчик"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117513,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Град шипов",
+          "desc": "[WhenUse] Итоговая сила +2 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117514,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жаждущий шип",
+          "desc": "[StartBattle] Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 24 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117515,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бесконечный поток крови",
+          "desc": "[DuelCounter]\n[WhenUse] Противник, который сталкивается с этой атакой, не теряет счётчик [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и поглощает [BloodDinner:`Кровавое пиршество`], полученное от него"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и поглощает [BloodDinner:`Кровавое пиршество`], полученное от него"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и поглощает [BloodDinner:`Кровавое пиршество`], полученное от него"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117516,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жажда",
+          "desc": "Активируется при 100 и более [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Поглощает до 100 [BloodDinner:`Кровавого пиршества`] для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое [BloodDinner:`Кровавое пиршество`]\n- Получает 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за каждые 20 поглощённого [BloodDinner:`Кровавого пиршества`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117517,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тоскующая терновая лоза",
+          "desc": "[WhenUse] Поглощает до 100 [BloodDinner:`Кровавого пиршества`] для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое [BloodDinner:`Кровавое пиршество`]\n- Итоговая сила +1 за каждые 20 поглощённого [BloodDinner:`Кровавого пиршества`]\n[EndSkill] Если эта атака поглотила менее 30 [BloodDinner:`Кровавого пиршества`], получает 2 [Vulnerable:`Уязвимости`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ответь мне, Цзя Баоюй",
+          "desc": "[CantChangeTarget]\nНацеливается на Идентичность, которая была выбрана в команду первее остальных\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 4\n[DefeatDuel] Если сталкивавшаяся с этой атакой Идентичность была выбрана в команду первее остальных, она получает 1 [Teaching:`Диалоги`](#c8e7d9)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Звезда Тяньган - Форма (格)",
+          "desc": "Нацеливается на Идентичность, которая была выбрана в команду первее остальных\nСила монте -2 за каждые [Teaching:`Диалоги`](#c8e7d9) цели\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить этой атакой, а также получает 24 [DefenseDown:`Понижения уровня защиты`] до конца битвы",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На 5% больше урона за каждую единицу в (Сумма силы и счётчика [Burst:`Разрыва`] на цели + количество типов наложенных Смертных ритуалов) (До 100%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Колыбель драгоценного нефрита [寶玉搖籃]",
+          "desc": "[CantChangeTarget]\nНацеливается на Идентичность, которая была выбрана в команду первее остальных, а также не наносит ей урона\n[EndSkill] Если целью была эта Идентичность, заточает её в [ExpensiveJade:`Колыбель драгоценного нефрита`] и заканчивает этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118310,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Словно ревущий шторм",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nВосстанавливается от оглушения\nНацеливается на Идентичность, которая была выбрана в команду первее остальных\n[EndSkill] Заканчивает этот ход и оглушает всех кроме той Идентичности в следующем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вы не можете постичь сил этого глаза, его особой природы!",
+          "desc": "Нацеливается на Идентичность, которая была выбрана в команду первее остальных\n[WhenUse] Если на поле боя есть Колыбель драгоценного нефрита[TabExplain], все монеты становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Laceration:`Кровотечения`] и [Burst:`Разрыва`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`]\nна 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] и 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] и 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смотрите же на меня, Сяньжэнь...!",
+          "desc": "Нацеливается на Идентичность, которая была выбрана в команду первее остальных\n[WinDuel] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 2\n[DefeatDuel] Получает 2 [AttackUp:`Повышения уровня атаки`] и 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] и 2 [Vulnerable:`Уязвимости`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`]\nна 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вы не можете повернуть ход событий",
+          "desc": "[WhenUse] Восстанавливает 8 СД\n[WhenUse] Если у главной цели менее 50% ОЗ, или же её сумма силы [Laceration:`Кровотечения`] и [Burst:`Разрыва`] равна 10 и более, все монеты становятся [SuperCoin:`Вечными`]\n[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`]\n- Если столкновение было с Хон Лу, получает ещё 1 [Vulnerable:`Уязвимость`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`] и 4 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД и поднимает границу выносливости на 50% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 8 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
