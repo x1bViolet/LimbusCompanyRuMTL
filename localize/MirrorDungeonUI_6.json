@@ -54,7 +54,7 @@
     },
     {
       "id": "mirrordungeon_theme_hard_blocked_6",
-      "content": "Пройдите Песнь 8 для открытия"
+      "content": "Пройдите 7 песнь для открытия"
     },
     {
       "id": "mirrordungeon_theme_difficulty_button_no_hard_data",
@@ -271,6 +271,14 @@
     {
       "id": "mirror_starlight_result_formation_total_consumed_point",
       "content": "Сумма расходов"
+    },
+    {
+      "id": "mirror_hard_recommended_level_popup_desctiption",
+      "content": "Текущий средний уровень выбранных Идентичностей <color=#990000>ниже</color> рекомендованного.\nПродолжить?"
+    },
+    {
+      "id": "mirror_hard_recommended_level_popup_detail_desctiption",
+      "content": "Текущий средний уровень: {0}\n<color=#f8c200>Рекомендованный: {1}</color>"
     }
   ]
 }
