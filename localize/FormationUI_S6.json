@@ -219,6 +219,14 @@
     {
       "id": "ego_sort_label_violet_resist",
       "content": "[font=bebas]Рез. Зависти"
+    },
+    {
+      "id": "personality_info_list_not_owned",
+      "content": "Не имеется"
+    },
+    {
+      "id": "formation_must_participate_specific_character_with_baton",
+      "content": "{0} не может быть в запасе"
     }
   ]
 }
