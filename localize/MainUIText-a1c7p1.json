@@ -14,15 +14,15 @@
     },
     {
       "id": "current_average_level_and_recommend_level_format",
-      "content": "Current Avg. Level: {0}\n<color=#f8c200>Recommended Level: {1}</color>"
+      "content": "Текущий средний уровень: {0}\n<color=#f8c200>Рекомендованный: {1}</color>"
     },
     {
       "id": "current_average_level_with_additional_val_and_recommend_level_format",
-      "content": "Current Avg. Level: {0} ({1})\n<color=#f8c200>Recommended Level: {2}</color>"
+      "content": "Текущий средний уровень: {0} ({1})\n<color=#f8c200>Рекомендованный: {2}</color>"
     },
     {
       "id": "stage_recommend_uptie_popup_dungeon_entrance_desc",
-      "content": "<color=#f8c200>Recommended Identity & E.G.O Uptie/Threadspin <color=#990000>Tiers: {0}</color> </color>"
+      "content": "<color=#f8c200>Рекомендованный уровень связи ЭГО и Идентичностей<color=#990000>: {0}</color> </color>"
     }
   ]
 }
