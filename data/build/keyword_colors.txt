@@ -843,3 +843,7 @@ IrritationAlly ¤ #f8c200
 HugeIrritationAlly ¤ #f8c200
 BeastEyesAlly ¤ #f8c200
 FellBulletPersonality ¤ #f8c200
+RoseThorn ¤ #e30000
+ChoSuperCharge ¤ #f8c200
+ShareCharge ¤ #f8c200
+WaveSinking ¤ #e30000
