@@ -412,7 +412,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 4 и более греха, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] так же и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 4 и более греха, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -440,7 +440,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености <style=\"highlight\">в 3 греха</style>, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] так же и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености <style=\"highlight\">в 3 греха</style>, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -468,7 +468,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 3 <style=\"highlight\">и более</style> греха, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] так же и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 3 <style=\"highlight\">и более</style> греха, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -504,7 +504,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 4 и более греха, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] так же и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 4 и более греха, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -535,7 +535,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености <style=\"highlight\">в 3 греха</style>, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] так же и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености <style=\"highlight\">в 3 греха</style>, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -566,7 +566,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 3 <style=\"highlight\">и более</style> греха, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] так же и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености в 3 <style=\"highlight\">и более</style> греха, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
                 }
               ]
             }

@@ -22,7 +22,7 @@
     },
     {
       "id": "mirrordungeon_theme_pack_ego_gift",
-      "content": "Отмеченные ЭГО дары"
+      "content": "Отмеченные ЭГО Дары"
     },
     {
       "id": "mirrordunge_theme_pack_history_button_label",
@@ -66,7 +66,7 @@
     },
     {
       "id": "purchase_ego_gift",
-      "content": "Покупка ЭГО даров"
+      "content": "Покупка ЭГО Даров"
     },
     {
       "id": "purchase_personality_skill_desc",
@@ -838,7 +838,7 @@
     },
     {
       "id": "mirrordungeon_selected_floor_theme_label",
-      "content": "Selected Floor Theme"
+      "content": "Выбранные темы этажей"
     },
     {
       "id": "mirrordungeon_ego_gift_sort_by_tier",
@@ -882,7 +882,7 @@
     },
     {
       "id": "mirror_dungeon_cannot_acquired_ego_gift",
-      "content": "Не было получено ЭГО дара"
+      "content": "Не было получено ЭГО Дара"
     },
     {
       "id": "simulation_difficulty_short",
@@ -918,7 +918,7 @@
     },
     {
       "id": "mirror_dungeon_shop_keyword_refresh_popup_desc",
-      "content": "'Ключевое обновление' повышает шанс появления ЭГО даров определённого типа в ассортименте магазина.\nПотратить {0} Стоимости на Ключевое обновление?"
+      "content": "'Ключевое обновление' повышает шанс появления ЭГО Даров определённого типа в ассортименте магазина.\nПотратить {0} Стоимости на Ключевое обновление?"
     },
     {
       "id": "ego_gift_combine_ui_plz_select_keyword",
@@ -930,23 +930,23 @@
     },
     {
       "id": "ego_gift_select_keyword_ui_desc",
-      "content": "Выберите ключевое слово для ЭГО дара."
+      "content": "Выберите ключевое слово для ЭГО Дара."
     },
     {
       "id": "new_ego_gift_combine_guide_desc_1",
-      "content": "Ниже приведён прогноз по ключевым словам ЭГО даров после того, как вы выберете ключевое слово, ЭГО дар которого вы хотите получить."
+      "content": "Ниже приведён прогноз по ключевым словам ЭГО Даров после того, как вы выберете ключевое слово, ЭГО Дар которого вы хотите получить."
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_col_1_title",
-      "content": "Количество ЭГО даров, используемых в слиянии"
+      "content": "Количество ЭГО Даров, используемых в слиянии"
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_col_2_title",
-      "content": "Шанс получения ЭГО дара выбранного ключевого слова"
+      "content": "Шанс получения ЭГО Дара выбранного ключевого слова"
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_1_0",
-      "content": "2 ЭГО дара"
+      "content": "2 ЭГО Дара"
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_1_1",
@@ -954,7 +954,7 @@
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_2_0",
-      "content": "3 ЭГО дара"
+      "content": "3 ЭГО Дара"
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_2_1",
@@ -962,7 +962,7 @@
     },
     {
       "id": "new_ego_gift_combine_guide_diffrent_keyword_notice",
-      "content": "※ Ключевые слова используемых для слияния ЭГО даров не влияют на его результат."
+      "content": "※ Ключевые слова используемых для слияния ЭГО Даров не влияют на его результат."
     },
     {
       "id": "new_ego_gift_combine_guide_desc_2",

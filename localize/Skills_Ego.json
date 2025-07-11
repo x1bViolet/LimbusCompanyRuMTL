@@ -2778,7 +2778,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но так же наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]</style>"
                 }
               ]
             }
@@ -2796,7 +2796,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но так же наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрывов`]"
                 }
               ]
             }
@@ -2861,7 +2861,7 @@
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 7"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а так же повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а также повышает свой счётчик [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -2926,7 +2926,7 @@
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 10"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход<style=\"highlight\">, а так же повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход<style=\"highlight\">, а также повышает свой счётчик [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -2941,7 +2941,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До 25%)",
+          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До 25%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2956,7 +2956,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До <style=\"highlight\">50%</style>)",
+          "desc": "[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До <style=\"highlight\">50%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -2976,7 +2976,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До 25%)\n[BeforeAttack] Полгощает ЭГО ресурсы Похоти в количестве грехов её резонанса и повышает урон на 5% за каждый поглощённый ЭГО ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До 25%)\n[BeforeAttack] Полгощает ЭГО Ресурсы Похоти в количестве грехов её резонанса и повышает урон на 5% за каждый поглощённый ЭГО Ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -2991,7 +2991,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО ресурс Похоти (До <style=\"highlight\">50%</style>)\n[BeforeAttack] Полгощает ЭГО ресурсы Похоти в количестве грехов её резонанса и повышает урон на <style=\"highlight\">10%</style> за каждый поглощённый ЭГО ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Повышает урон на 1% за каждый 1 ЭГО Ресурс Похоти (До <style=\"highlight\">50%</style>)\n[BeforeAttack] Полгощает ЭГО Ресурсы Похоти в количестве грехов её резонанса и повышает урон на <style=\"highlight\">10%</style> за каждый поглощённый ЭГО Ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -3037,7 +3037,7 @@
                   "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает <style=\"highlight\">10%</style> максимальных ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] <style=\"highlight\">и 1 [GainSinStockAdder:`Множитель ЭГО ресурсов`]</style> на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] <style=\"highlight\">и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`]</style> на следующий ход"
                 }
               ]
             }
@@ -3052,7 +3052,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на 10%",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО Ресурса для повышения урона на 10%",
           "coinlist": [
             {
               "coindescs": [
@@ -3067,7 +3067,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">20%</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО Ресурса для повышения урона на <style=\"highlight\">20%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3082,7 +3082,7 @@
           "level": 4,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО ресурса для повышения урона на <style=\"highlight\">30%</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Тратит 3 случайных ЭГО Ресурса для повышения урона на <style=\"highlight\">30%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3626,7 +3626,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]<style=\"highlight\">, а так же повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] на 2</style>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]<style=\"highlight\">, а также повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] на 2</style>"
                 }
               ]
             }
@@ -3650,7 +3650,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`], а так же повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
+                  "desc": "[CriticalOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`], а также повышает счётчики [Sinking:`Утопания`] и [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
                 }
               ]
             }
