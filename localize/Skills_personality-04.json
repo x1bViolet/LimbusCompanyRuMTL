@@ -247,7 +247,7 @@
         {
           "level": 1,
           "name": "Толчок",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания</color>`] на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -261,7 +261,7 @@
         {
           "level": 2,
           "name": "Толчок",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания</color>`] на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -275,7 +275,7 @@
         {
           "level": 4,
           "name": "Толчок",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания</color>`] на 2\n<style=\"highlight\">Сила монет +1 при 7 и более [Breath:`Дыхания</color>`]</style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n<style=\"highlight\">Сила монет +1 при 7 и более [Breath:`Дыхания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -326,7 +326,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания</color>`]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]"
@@ -353,7 +353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания</color>`]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
@@ -420,7 +420,7 @@
         {
           "level": 4,
           "name": "РГ",
-          "desc": "[WhenUse] Получает 4 [Breath:`Дыхания`]\nСила монет +1 <style=\"highlight\">за каждые 7 [Breath:`Дыхания</color>`] (До 2)</style>",
+          "desc": "[WhenUse] Получает 4 [Breath:`Дыхания`]\nСила монет +1 <style=\"highlight\">за каждые 7 [Breath:`Дыхания`] (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
