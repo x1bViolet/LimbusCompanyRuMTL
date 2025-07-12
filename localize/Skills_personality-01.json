@@ -528,7 +528,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету <style=\"highlight\">(До 3-х раз)</style>"
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету <style=\"highlight\">(До 3 раз)</style>"
                 }
               ]
             }
