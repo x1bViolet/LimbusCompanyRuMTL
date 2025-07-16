@@ -420,7 +420,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] В состоянии Нестабильного ЭГО вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttackHead] В состоянии Нестабильного ЭГО вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -437,7 +437,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] В состоянии Нестабильного ЭГО вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttackHead] В состоянии Нестабильного ЭГО вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -454,7 +454,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] В состоянии Нестабильного ЭГО вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttackHead] В состоянии Нестабильного ЭГО вновь подкидывает монету 1 раз"
                 }
               ]
             }

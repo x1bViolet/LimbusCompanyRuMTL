@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Цепи связывания",
-          "desc": "Сила монет +1 за каждые 6 [Sinking:`Утопания`] у цели (максимум 2)\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Накладывает [BandageOfTheBoundKing:`Узы Связанного короля`]",
+          "desc": "Сила монет +1 за каждые 6 [Sinking:`Утопания`] у цели (До 2)\n[DefeatDuel] Уменьшает счётчик [Sinking:`Утопания`] на 2\n[DefeatDuel] Накладывает [BandageOfTheBoundKing:`Узы Связанного короля`]",
           "coinlist": [
             {
               "coindescs": [

@@ -1594,10 +1594,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], вновь подкидывает монету 1 раз"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1614,10 +1614,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], вновь подкидывает монету 1 раз"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1639,10 +1639,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], заново подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], вновь подкидывает монету 1 раз"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], заново подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1659,10 +1659,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], заново подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [BlackCloudBlade:`Клинок тёмных туч`], вновь подкидывает монету 1 раз"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], заново подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если имеется [EngageToBattle:`Готовность к бою`], вновь подкидывает монету 1 раз"
                 }
               ]
             }

@@ -504,7 +504,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Вновь подкидывает монету (Единожды)</style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Вновь подкидывает монету 1 раз</style>"
                 }
               ]
             }
@@ -915,7 +915,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] С шансом в 20% вновь подкидывает монету\nШанс повышается на 20% с каждым типом негативных эффектов на цели"
+                  "desc": "[OnSucceedAttack] С шансом в 20% вновь подкидывает монету 1 раз\nШанс повышается на 20% с каждым типом негативных эффектов на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"

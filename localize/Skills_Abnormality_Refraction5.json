@@ -96,7 +96,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Единожды вновь подкидывает монету"
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету 1 раз"
                 }
               ]
             }

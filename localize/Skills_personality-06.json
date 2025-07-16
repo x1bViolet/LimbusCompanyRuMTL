@@ -454,7 +454,7 @@
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">Вновь подкидывает монету при 3 и более [KnowledgeExplored:`Откровениях`](#f8c200)</style>"
+                  "desc": "<style=\"highlight\">Вновь подкидывает монету 1 раз при 3 и более [KnowledgeExplored:`Откровениях`](#f8c200)</style>"
                 }
               ]
             }
@@ -1041,7 +1041,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 15 и более [Burst:`Разрывов`] или у неё меньше 30% ОЗ, вновь подкидывает монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 15 и более [Burst:`Разрывов`] или её ОЗ менее 30%, вновь подкидывает монету 1 раз</style>"
                 }
               ]
             }

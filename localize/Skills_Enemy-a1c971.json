@@ -85,7 +85,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При менее чем 50% ОЗ, заново подкидывает монету"
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету 1 раз при ОЗ менее 50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
@@ -206,7 +206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При менее чем 50% ОЗ, заново подкидывает монету"
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету 1 раз при ОЗ менее 50%"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"

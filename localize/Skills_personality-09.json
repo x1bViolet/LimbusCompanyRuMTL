@@ -1500,7 +1500,7 @@
                   "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз за навык)"
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз)"
                 }
               ]
             }
@@ -1534,7 +1534,7 @@
                   "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 1<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз за навык)<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз)<style=\"highlight\"></style>"
                 }
               ]
             }
