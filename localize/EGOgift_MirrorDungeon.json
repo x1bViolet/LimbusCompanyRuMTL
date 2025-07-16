@@ -1327,7 +1327,7 @@
       "simpleDesc": [
         {
           "abilityID": 19050,
-          "simpleDesc": "Наносит 2 [Laceration:`Кровотечение`] и повышает его счётчик на 15"
+          "simpleDesc": "Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 15"
         },
         {
           "abilityID": 190501,
@@ -1342,7 +1342,7 @@
       "simpleDesc": [
         {
           "abilityID": 29050,
-          "simpleDesc": "Наносит 2 [Laceration:`Кровотечение`] и повышает его счётчик на 20"
+          "simpleDesc": "Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 20"
         },
         {
           "abilityID": 290501,
