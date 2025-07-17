@@ -847,3 +847,16 @@ RoseThorn ¤ #e30000
 ChoSuperCharge ¤ #f8c200
 ShareCharge ¤ #f8c200
 WaveSinking ¤ #e30000
+HystericGauge ¤ #e30000
+MagicalGirlAppear ¤ #f8c200
+NoVillain ¤ #e30000
+VillainMark ¤ #e30000
+ArcanaQueenOfHate ¤ #f8c200
+ThePowerOfLoveAndHate ¤ #f8c200
+MagicalGirlResponse ¤ #f8c200
+BlessingAlly ¤ #f8c200
+ProtectiveSword ¤ #f8c200
+DespairAlly ¤ #f8c200
+PenetratingSword ¤ #f8c200
+SwordCutwithTear ¤ #f8c200
+BlackTearsAlly ¤ #f8c200

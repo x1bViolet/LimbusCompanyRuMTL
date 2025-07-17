@@ -1574,6 +1574,507 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1091301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рыцарская святыня",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Рыцарская святыня",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рыцарская святыня",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]\n<style=\"highlight\">Сила в столкновении +1, если есть 3 и более [ProtectiveSword:`Защищающего меча`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]\n<style=\"highlight\">- Получает на 1 [BlackTearsAlly:`Горькую слезу`] больше за каждые 2 [ProtectiveSword:`Защищающего меча`] (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Угасшая вера",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (До 2)</style>\n[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Угасшая вера",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]\n<style=\"highlight\">- Получает на 1 [BlackTearsAlly:`Горькую слезу`] больше за каждые 2 [PenetratingSword:`Пронзающего меча`], имевшегося в начале боевой фазы (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силой справедливости",
+          "desc": "[WhenUse] При 15 и более [BlackTearsAlly:`Горьких слёзах`] тратит 5 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на 15% больше урона",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [BlackTearsAlly:`Горьких слезы`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Силой справедливости",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]</style>\n[WhenUse] При 15 и более [BlackTearsAlly:`Горьких слёзах`] тратит 5 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на 15% больше урона",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]\n<style=\"highlight\">- Получает на 1 [BlackTearsAlly:`Горькую слезу`] больше за каждые 2 [ProtectiveSword:`Защищающего меча`] (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силой справедливости",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]\n<style=\"highlight\">Сила в столкновении +1 за каждые 2 [ProtectiveSword:`Защищающего меча`] (До 2)</style>\n[WhenUse] При 15 и более [BlackTearsAlly:`Горьких слёзах`] тратит 5 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на 15% больше урона",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [BlackTearsAlly:`Горьких слезы`]\n- Получает дополнительные [BlackTearsAlly:`Горькие слезы`] <style=\"highlight\">в количестве, равном текущему значению</style> [ProtectiveSword:`Защищающего меча`] (До <style=\"highlight\">5</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мечом, заострённым слезами",
+          "desc": "[WhenUse] Теряет 10 СД\n[WhenUse] При 15 и более [BlackTearsAlly:`Горьких слёзах`] тратит 5 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на 20% больше урона",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [BlackTearsAlly:`Горьких слезы`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Мечом, заострённым слезами",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (До 2)</style>\n[WhenUse] Теряет 10 СД\n[WhenUse] При 15 и более [BlackTearsAlly:`Горьких слёзах`] тратит 5 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на 20% больше урона",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [BlackTearsAlly:`Горьких слезы`]\n<style=\"highlight\">- Получает на 1 [BlackTearsAlly:`Горькую слезу`] больше за каждые 2 [PenetratingSword:`Пронзающего меча`], имевшегося в начале боевой фазы (До 2)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Мечом, заострённым слезами",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Теряет 10 СД\n[WhenUse] При 15 и более [BlackTearsAlly:`Горьких слёзах`] тратит 5 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на 20% больше урона",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Наносит 2 [Sinking:`Утопания`] и</style> повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [BlackTearsAlly:`Горьких слезы`]\n- Получает дополнительные [BlackTearsAlly:`Горькие слёзы`] <style=\"highlight\">в количестве, равном значению</style> [PenetratingSword:`Пронзающего меча`], имевшегося в начале боевой фазы (До <style=\"highlight\">5</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Аркана: пронзание",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]\nСила в столкновении +1 за каждые 2 [ProtectiveSword:`Защищающего меча`] (До 2)\n[WhenUse] При 10 и более [BlackTearsAlly:`Горьких слёзах`] тратит до 20 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на (Потраченные [BlackTearsAlly:`Горькие слёзы`] × 1.5)% больше урона\n[EndSkill] Если цель побеждена, возвращает половину от потраченных этим навыком [BlackTearsAlly:`Горьких слёз`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Утопание в количестве, равном текущему значению [ProtectiveSword:`Защищающего меча`] (До 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Аркана: пронзание",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]\nСила в столкновении +1 <style=\"highlight\">за каждый</style> [ProtectiveSword:`Защищающий меч`] (До <style=\"highlight\">5</style>)\n[WhenUse] При 10 и более [BlackTearsAlly:`Горьких слёзах`] тратит до 20 [BlackTearsAlly:`Горьких слёз`]:\n- Наносит на (Потраченные [BlackTearsAlly:`Горькие слёзы`] × 1.5)% больше урона\n<style=\"highlight\">- Базовая сила +1 за каждые 5 потраченных [BlackTearsAlly:`Горьких слёз`]</style>\n[EndSkill] Если цель побеждена, возвращает половину от потраченных этим навыком [BlackTearsAlly:`Горьких слёз`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">На 20% больше урона, если имеется [SwordCutwithTear:`Терзание слезами`], или же оно было потрачено этой монетой</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит Утопание в количестве, равном текущему значению [ProtectiveSword:`Защищающего меча`] (До <style=\"highlight\">5</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091307,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Аркана: Слеза и пронзание",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Теряет 15 СД\n[WhenUse] При 10 и более [BlackTearsAlly:`Горьких слёзах`] тратит до 20 [BlackTearsAlly:`Горьких слёз`], чтобы нанести на (Потраченные [BlackTearsAlly:`Горькие слёзы`] × 3)% больше урона\n[EndSkill] Если цель побеждена, возвращает половину от потраченных этим навыком [BlackTearsAlly:`Горьких слёз`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`] (Единожды за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если эта монета потратила [SwordCutwithTear:`Терзание слезами`], вновь подкидывает её 1 раз (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Аркана: Слеза и пронзание",
+          "desc": "Итоговая сила +1 за каждые 3 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Теряет 15 СД\n[WhenUse] При 10 и более [BlackTearsAlly:`Горьких слёзах`] тратит до 20 [BlackTearsAlly:`Горьких слёз`]:\n- Наносит на (Потраченные [BlackTearsAlly:`Горькие слёзы`] × 3)% больше урона\n<style=\"highlight\">- Базовая сила +1 за каждые 5 потраченных [BlackTearsAlly:`Горьких слёз`]</style>\n[EndSkill] Если цель побеждена, возвращает половину от потраченных этим навыком [BlackTearsAlly:`Горьких слёз`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 4</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:`Утопания`] (Единожды за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если эта монета потратила [SwordCutwithTear:`Терзание слезами`], вновь подкидывает её 1 раз (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рыцарская вера",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает ОЗ Щита в размере (Текущая СД / 5)% от максимальных ОЗ (Единожды за ход)\n[WhenUse] Получает 3 [BlackTearsAlly:`Горьких слёзы`] (До 2 раз за ход)\n[EndBattle] Если имеется менее 3 [SwordCutwithTear:`Терзаний слезами`], теряет 15 СД и получает 1 [SwordCutwithTear:`Терзание слезами`] (Единожды за ход)\n- Если уже имеется [SwordCutwithTear:`Терзание слезами`], теряет на (Текущее значение [SwordCutwithTear:`Терзания слезами`] × 15) СД больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рыцарская вера",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<style=\"highlight\">[StartBattle] Сила монет +1 за каждые 2 [ProtectiveSword:`Защищающего меча`] (До 2)</style>\n[StartBattle] Получает ОЗ Щита в размере (Текущая СД / <style=\"highlight\">3</style>)% от максимальных ОЗ (Единожды за ход)\n[WhenUse] Получает <style=\"highlight\">5</style> [BlackTearsAlly:`Горьких слёз`] (До 2 раз за ход)\n[EndBattle] Если имеется менее 3 [SwordCutwithTear:`Терзаний слезами`], теряет 15 СД и получает 1 [SwordCutwithTear:`Терзание слезами`] (Единожды за ход)\n- Если уже имеется [SwordCutwithTear:`Терзание слезами`], теряет на (Текущее значение [SwordCutwithTear:`Терзания слезами`] × 15) СД больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выцветшая гордость",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [BlackTearsAlly:`Горьких слёзы`] (До 2 раз за ход)\n[EndBattle] Если имеется менее 3 [SwordCutwithTear:`Терзаний слезами`], теряет 15 СД и получает 1 [SwordCutwithTear:`Терзание слезами`] (Единожды за ход)\n- Если уже имеется [SwordCutwithTear:`Терзание слезами`], теряет на (Текущее значение [SwordCutwithTear:`Терзания слезами`] × 15) СД больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выцветшая гордость",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Итоговая сила +1 за каждые 2 [PenetratingSword:`Пронзающего меча`] (До 2)</style>\n[WhenUse] Получает <style=\"highlight\">5</style> [BlackTearsAlly:`Горьких слёз`] (До 2 раз за ход)\n[EndBattle] Если имеется менее 3 [SwordCutwithTear:`Терзаний слезами`], теряет 15 СД и получает 1 [SwordCutwithTear:`Терзание слезами`] (Единожды за ход)\n- Если уже имеется [SwordCutwithTear:`Терзание слезами`], теряет на (Текущее значение [SwordCutwithTear:`Терзания слезами`] × 15) СД больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
