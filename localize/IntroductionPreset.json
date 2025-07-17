@@ -1611,6 +1611,30 @@
     {
       "id": "introduce_sentence_202",
       "content": "Они будут дрожать от {0}(-а/-ы/-ия)."
+    },
+    {
+      "id": "introduce_word_203",
+      "content": "Любовь"
+    },
+    {
+      "id": "introduce_sentence_203",
+      "content": "Во имя {0}(-и/-а/-ы) и Справедливости~ Явилась Магическая Дева!"
+    },
+    {
+      "id": "introduce_word_204",
+      "content": "Предательство"
+    },
+    {
+      "id": "introduce_sentence_204",
+      "content": "Видишь? Доверься мне... и от меня никогда не будет {0}(-а/-е/-го)."
+    },
+    {
+      "id": "introduce_word_205",
+      "content": "Свет"
+    },
+    {
+      "id": "introduce_sentence_205",
+      "content": "Я принесу эту клятву {0}(-у/-е)!"
     }
   ]
 }
