@@ -2290,7 +2290,7 @@
     },
     {
       "name": "동백",
-      "krname": "Донбэк",
+      "krname": "Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback",
@@ -2686,7 +2686,7 @@
     },
     {
       "name": "동백여우각성",
-      "krname": "Пробуждённая Донбэк",
+      "krname": "Пробуждённая Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_fox1",
@@ -2708,7 +2708,7 @@
     },
     {
       "name": "동백에고각성중",
-      "krname": "Трепещущая Донбэк",
+      "krname": "Трепещущая Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_fox2",
@@ -2730,7 +2730,7 @@
     },
     {
       "name": "동백에고각성",
-      "krname": "Оглушённая Донбэк",
+      "krname": "Оглушённая Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_EGO",
@@ -2752,7 +2752,7 @@
     },
     {
       "name": "과거동백",
-      "krname": "Донбэк из прошлого",
+      "krname": "Донбек из прошлого",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_past",
@@ -3148,7 +3148,7 @@
     },
     {
       "name": "동백여우각성_먼지",
-      "krname": "Донбэк",
+      "krname": "Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_fox1_dust",
@@ -3170,7 +3170,7 @@
     },
     {
       "name": "동백에고각성중_먼지",
-      "krname": "Донбэк",
+      "krname": "Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_fox2_dust",
@@ -3192,7 +3192,7 @@
     },
     {
       "name": "동백에고각성중_다침",
-      "krname": "Донбэк",
+      "krname": "Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_EGO_Hurt",
@@ -3258,7 +3258,7 @@
     },
     {
       "name": "동백에고각성중_찔림",
-      "krname": "Донбэк",
+      "krname": "Донбек",
       "jpname": "",
       "enname": "",
       "fileName": "Dongback_EGO_Hurt2",
