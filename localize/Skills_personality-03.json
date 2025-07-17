@@ -1847,6 +1847,487 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "По указам Менеджера-милорда, я здесь!",
+          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "По указам Менеджера-милорда, я здесь!",
+          "desc": "<style=\"highlight\">[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \n<style=\"highlight\">на 3</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "По указам Менеджера-милорда, я здесь!",
+          "desc": "[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Где же... все злодеи...?",
+          "desc": "Наносит на 3% больше урона за каждую [HystericGauge:`Истерию`] (До 9%)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 2\n[WhenUse] Теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Где же... все злодеи...?",
+          "desc": "Наносит на <style=\"highlight\">4%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">12%</style>)\n<style=\"highlight\">[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \n<style=\"highlight\">на 3</style>\n[WhenUse] Теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Где же... все злодеи...?",
+          "desc": "Наносит на <style=\"highlight\">5%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">15%</style>)\n[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3\n[WhenUse] Теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С любовью! Хия!",
+          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "С любовью! Хия!",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит на 6% больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 30%)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 4</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С любовью! Хия!",
+          "desc": "[WhenUse] Наносит на <style=\"highlight\">10%</style> больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До <style=\"highlight\">50%</style>)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \n<style=\"highlight\">на 5</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Исчезни из моей головы...",
+          "desc": "Сила в столкновении +1, если есть 1 и более [HystericGauge:`Истерия`]\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3\n[WhenUse] Теряет 8 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Исчезни из моей головы...",
+          "desc": "<style=\"highlight\">Базовая сила</style> +1, если есть 1 и более [HystericGauge:`Истерия`]\n<style=\"highlight\">[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3\n[WhenUse] Теряет 8 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Исчезни из моей головы...",
+          "desc": "Базовая сила +1 <style=\"highlight\">за каждую [HystericGauge:`Истерию`] (До 2)\n- Если есть 3 [HystericGauge:`Истерии`], Количество целей повышается на 1 (Наносит на 50% меньше урона дополнительным целям)</style>\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 5\n[WhenUse] Теряет 8 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Удары арканы!! / Малая рабыня арканы!!!!",
+          "desc": "Наносит на 15% больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До 45%)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 3 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × 15)% больше урона этим навыком (До 75%) и получает +1 к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До 2)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 6\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Удары арканы!! / Малая рабыня арканы!!!!",
+          "desc": "Наносит на <style=\"highlight\">30%</style> больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До <style=\"highlight\">90%</style>)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 3 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × <style=\"highlight\">20</style>)% больше урона этим навыком (До <style=\"highlight\">100%</style>) и получает <style=\"highlight\">+2</style> к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 6\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031207,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Обратные удары / Обращённая вспять рабыня арканы",
+          "desc": "Наносит на 50% меньше урона дополнительным целям\n[WhenUse] Теряет 10 СД\n[WhenUse] Тратит всю [HystericGauge:`Истерию`] для получения +1 к Силе в столкновении\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе в столкновении за каждые 8 потраченных единиц (До 2)\n[WhenUse] Наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × 12)% больше урона (До 60%)\n[BeforeAttack] Тратит все [ArcanaQueenOfHate:`Магические таинства`] для повышения Количества целей на 1\n- Если у навыка после траты [ArcanaQueenOfHate:`Магических таинств`] всё ещё одна цель, он наносит на 20% больше урона (В фокусированных битвах часть считается целью)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -18)\n[EndBattle] Если СД ниже 0 и не достигла -45, восстанавливает 10 СД (Восстанавливает на 2 СД больше за каждую единицу СД ниже 0, до 50)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обратные удары / Обращённая вспять рабыня арканы",
+          "desc": "Наносит на 50% меньше урона дополнительным целям\n[WhenUse] Теряет 10 СД\n[WhenUse] Тратит всю [HystericGauge:`Истерию`] <style=\"highlight\">для повышения Силы в столкновении на столько же (До 3)</style>\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе в столкновении за каждые <style=\"highlight\">5</style> потраченных единиц (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × <style=\"highlight\">24</style>)% больше урона (До <style=\"highlight\">120%</style>)\n[BeforeAttack] Тратит все [ArcanaQueenOfHate:`Магические таинства`] для повышения Количества целей <style=\"highlight\">на столько же (До 3 дополнительных целей)</style>\n- Если у навыка после траты [ArcanaQueenOfHate:`Магических таинств`] всё ещё одна цель, он наносит на <style=\"highlight\">((Повышенное Количество целей - 1) × 20)</style>% больше урона <style=\"highlight\">(До 80%)</style> (В фокусированных битвах часть считается целью)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -18)\n[EndBattle] Если СД ниже 0 и не достигла -45, восстанавливает 10 СД (Восстанавливает на 2 СД больше за каждую единицу СД ниже 0, до 50)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Песнопения",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Базовая сила +1 за каждую [HystericGauge:`Истерию`] (До 2)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2 (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Песнопения",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Базовая сила +1 за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">3</style>)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 4</style> (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
