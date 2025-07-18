@@ -247,7 +247,7 @@
         {
           "level": 1,
           "name": "Толчок",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания</color>`] на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -261,7 +261,7 @@
         {
           "level": 2,
           "name": "Толчок",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания</color>`] на 2",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -275,7 +275,7 @@
         {
           "level": 4,
           "name": "Толчок",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания</color>`] на 2\n<style=\"highlight\">Сила монет +1 при 7 и более [Breath:`Дыхания</color>`]</style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n<style=\"highlight\">Сила монет +1 при 7 и более [Breath:`Дыхания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -326,7 +326,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания</color>`]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [AttackDown:`Понижение уровня атаки`]"
@@ -353,7 +353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания</color>`]"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
@@ -420,7 +420,7 @@
         {
           "level": 4,
           "name": "РГ",
-          "desc": "[WhenUse] Получает 4 [Breath:`Дыхания`]\nСила монет +1 <style=\"highlight\">за каждые 7 [Breath:`Дыхания</color>`] (До 2)</style>",
+          "desc": "[WhenUse] Получает 4 [Breath:`Дыхания`]\nСила монет +1 <style=\"highlight\">за каждые 7 [Breath:`Дыхания`] (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1366,7 +1366,7 @@
         {
           "level": 3,
           "name": "Череполом",
-          "desc": "[BeforeUse] При 15 и более [RedEyeFirst:`Красных глаз`] и [PenanceFirst:`Раскаяния`] заменяет навык на 「Серьёзный череполом」\nСила монет +1, если своя скорость выше скорости цели на 3 и более\n[WhenUse] Сила монет +1 при максимальной СД\n[EndSkill] Если Сила монет была повышена за счёт СД, теряет 15 СД",
+          "desc": "[BeforeUse] При 15 и более [RedEyeFirst:`Красных глаз`] и [PenanceFirst:`Раскаяния`] использует 「Серьёзный череполом」 вместо этого\nСила монет +1, если своя скорость выше скорости цели на 3 и более\n[WhenUse] Сила монет +1 при максимальной СД\n[EndSkill] Если Сила монет была повышена за счёт СД, теряет 15 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1397,7 +1397,7 @@
         {
           "level": 4,
           "name": "Череполом",
-          "desc": "[BeforeUse] При 15 и более [RedEyeFirst:`Красных глаз`] и [PenanceFirst:`Раскаяния`] заменяет навык на 「Серьёзный череполом」\nСила монет +1, если своя скорость <style=\"highlight\">выше скорости цели</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">и Сила в столкновении +2</style> при максимальной СД\n[EndSkill] Если Сила монет была повышена за счёт СД, теряет 15 СД",
+          "desc": "[BeforeUse] При 15 и более [RedEyeFirst:`Красных глаз`] и [PenanceFirst:`Раскаяния`] использует 「Серьёзный череполом」 вместо этого\nСила монет +1, если своя скорость <style=\"highlight\">выше скорости цели</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">и Сила в столкновении +2</style> при максимальной СД\n[EndSkill] Если Сила монет была повышена за счёт СД, теряет 15 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1589,7 +1589,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз</style>"
                 }
               ]
             }
@@ -1613,7 +1613,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1732,7 +1732,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1769,7 +1769,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]</style>"

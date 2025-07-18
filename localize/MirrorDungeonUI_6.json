@@ -26,7 +26,7 @@
     },
     {
       "id": "side_title_not_use_starlight",
-      "content": "Невозможно потратить Благославление звёзд."
+      "content": "Невозможно потратить Благословение звёзд."
     },
     {
       "id": "side_desc_is_fixed_combine_egogift",
@@ -78,11 +78,11 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_desc_md6_toggle_on",
-      "content": "Превращает всё оставшееся Благославление звёзд в Стоимость после подтверждения.\n\n※ Звёздное благославление на руках не\nбудет превращено."
+      "content": "Превращает всё оставшееся Благословение звёзд в Стоимость после подтверждения.\n\n※ Звёздное Благословение на руках не\nбудет превращено."
     },
     {
       "id": "mirror_start_buff_purchase_modal_desc_md6_toggle_off",
-      "content": "Непотраченное Звёздное благославление будет\nвключено в награды после завершения экспедиции."
+      "content": "Непотраченное Звёздное Благословение будет\nвключено в награды после завершения экспедиции."
     },
     {
       "id": "mirror_theme_list_pack_tag_not_selectable",
@@ -150,15 +150,15 @@
     },
     {
       "id": "mirror_dungeon_start_buff_Panel_title_md6",
-      "content": "Благославление Вечной звёзды"
+      "content": "Благословение Вечной звёзды"
     },
     {
       "id": "mirror_dungeon_start_buff_card_enhancement",
-      "content": "Повысить Благославление звёзд"
+      "content": "Повысить Благословение звёзд"
     },
     {
       "id": "mirror_user_starlight_buff",
-      "content": "Благославление звёзд"
+      "content": "Благословение звёзд"
     },
     {
       "id": "mirror_unobservable_egogift_reason",
@@ -170,11 +170,11 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_check_box",
-      "content": "Превратить Благославление звёзд в Стоимость?"
+      "content": "Превратить Благословение звёзд в Стоимость?"
     },
     {
       "id": "mirrordungeon_additional_reserved_starlight_from_startBuff",
-      "content": "Неиспользованное Благославление звёзд было добавлено к наградам"
+      "content": "Неиспользованное Благословение звёзд было добавлено к наградам"
     },
     {
       "id": "mirror_starlight_result_base_point",
@@ -182,7 +182,7 @@
     },
     {
       "id": "mirror_starlight_result_formation_bonus",
-      "content": "Итоговое благославление"
+      "content": "Итоговое Благословение"
     },
     {
       "id": "mirror_starlight_result_battle_reward_card",

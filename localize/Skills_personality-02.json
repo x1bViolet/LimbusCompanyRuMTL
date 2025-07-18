@@ -238,7 +238,7 @@
         {
           "level": 4,
           "name": "Ужимающая смирительная рубашка",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n<style=\"highlight\">[DefeatDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3</style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n<style=\"highlight\">[DefeatDuel] Повышает свой счётчик [Vibration:`Тремора`]\nна 3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1390,7 +1390,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)</style> "
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз</style> "
                 }
               ]
             }
@@ -1414,7 +1414,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1527,7 +1527,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -1564,7 +1564,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]</style>"
@@ -1659,7 +1659,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]"
@@ -1702,7 +1702,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]"

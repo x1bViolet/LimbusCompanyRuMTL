@@ -1,0 +1,756 @@
+{
+  "dataList": [
+    {
+      "id": 122301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наваливающееся отчаяние",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более [Sinking:`Утопания`]\n[WinDuel] Наносит [ColdBlackTear:`Холодные и чёрные слёзы`] на цель в количестве оставшихся монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Острые слёзы",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4 и более [Sinking:`Утопания`]\n[WhenUse] Базовая сила +1 против целей с 20 и более СД\n[WinDuel] Наносит [ColdBlackTear:`Холодные и чёрные слёзы`] на цель в количестве оставшихся монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Река из слёз отчаяния",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Сила монет +1 против целей, на которых есть [ColdBlackTear:`Холодные и чёрные слёзы`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделить скорбь",
+          "desc": "[WhenUse] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [ColdBlackTear:`Холодных и чёрных слезы`], наносит ей 1 [Vulnerable:`Уязвимость`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жестокий поток опустевшего отчаяния",
+          "desc": "Нацеливается на противников, на которых есть [ColdBlackTear:`Холодные и чёрные слёзы`]\n[WhenUse] Сила в столкновении +5 против целей, на которых 5 [ColdBlackTear:`Холодных и чёрных слез`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит фиксированный урон, равный (Количество [ColdBlackTear:`Холодных и чёрных слёз`] на цели × 6)% от максимальных ОЗ цели, после чего все [ColdBlackTear:`Холодные и чёрные слёзы`] исчезают с цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Аркана: Слеза и пронзание",
+          "desc": "Использует эту атаку, когда Королева ненависти использует атаку 「РАБЫНЯ АРКАНЫ」, а у себя нет [CollapsedPride:`Разбитой гордости`]\nКонтратакует только Королеву ненависти",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ColdBlackTear:`Холодных и чёрных слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ColdBlackTear:`Холодные и чёрные слёзы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный (Количество [ColdBlackTear:`Холодных и чёрных слёз`] на цели × 6)% от максимальных ОЗ цели, после чего все [ColdBlackTear:`Холодные и чёрные слёзы`] исчезают с цели (Игнорирует сопротивления цели)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 [Sinking:`Утопания`] на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть [ColdBlackTear:`Холодные и чёрные слёзы`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит (Сила [Sinking:`Утопания `] цели / 10) [DefenseDown:`Понижений уровня защиты`] на следующий ход (Округляется вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 [Sinking:`Утопания`] на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую [ColdBlackTear:`Холодную и чёрную слезу`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более [ColdBlackTear:`Холодных и чёрных слезы`], наносит урон Унынием ещё раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 [Sinking:`Утопания`] на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть [ColdBlackTear:`Холодные и чёрные слёзы`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит (Сила [Sinking:`Утопания `] цели / 10) [DefenseDown:`Понижений уровня защиты`] на следующий ход (Округляется вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 [Sinking:`Утопания`] на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую [ColdBlackTear:`Холодную и чёрную слезу`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более [ColdBlackTear:`Холодных и чёрных слезы`], наносит урон Унынием ещё раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 [Sinking:`Утопания`] на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть [ColdBlackTear:`Холодные и чёрные слёзы`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит (Сила [Sinking:`Утопания `] цели / 10) [DefenseDown:`Понижений уровня защиты`] на следующий ход (Округляется вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 [Sinking:`Утопания`] на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую [ColdBlackTear:`Холодную и чёрную слезу`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более [ColdBlackTear:`Холодных и чёрных слезы`], наносит урон Унынием ещё раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Угасшая вера",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выцветшая гордость",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нескончаемое отчаяние",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Базовая сила +1 против целей с 10 и более СД\n[WhenUse] Сила монет +1 против целей с 20 и более СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, заточенный слезами",
+          "desc": "[WhenUse] Сила монет +5 за каждые 6 [Sinking:`Утопания`] на цели (До 10)\n[WhenUse] Итоговая сила +1 против целей, на которых есть [ColdBlackTear:`Холодные и чёрные слёзы`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], наносит (Сила [Sinking:`Утопания `] цели / 10) [DefenseDown:`Понижений уровня защиты`] на следующий ход (Округляется вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, пронизанный горем",
+          "desc": "[WhenUse] Сила монет +3 за каждые 6 [Sinking:`Утопания`] на цели (До 6)\n[WhenUse] Базовая сила +1 за каждую [ColdBlackTear:`Холодную и чёрную слезу`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон Унынием, равный (Итоговая сила этой атаки)% от максимальных ОЗ цели (До 30)\n- Если на цели 2 и более [ColdBlackTear:`Холодных и чёрных слезы`], наносит урон Унынием ещё раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

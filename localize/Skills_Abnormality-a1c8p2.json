@@ -88,7 +88,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[WinDuelAttack] Вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -203,7 +203,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[WinDuelAttack] Вновь подкидывает монету 1 раз"
                 }
               ]
             }
@@ -564,7 +564,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает монету (Единожды за навык)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает монету 1 раз"
                 }
               ]
             }

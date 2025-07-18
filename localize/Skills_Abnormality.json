@@ -1489,7 +1489,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 10\n[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 10\n[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -2936,7 +2936,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
                 }
               ]
             },
@@ -2946,7 +2946,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
                 }
               ]
             },
@@ -2956,7 +2956,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
                 }
               ]
             }
@@ -2978,7 +2978,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 15 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 50% от нанесённого урона"
                 }
               ]
             }
@@ -5206,7 +5206,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Вновь подкидывает монету (До 3 раз за навык)"
+                  "desc": "[OnSucceedAttackHead] Вновь подкидывает монету (До 3 раз)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Ядру"

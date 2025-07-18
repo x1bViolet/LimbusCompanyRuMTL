@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Усиленный удар застывшей кровью",
-          "desc": "[WhenUse] Если имеется [HardenedBlood:`Застывшая кровь`] и эффекты монет могут нанести [Burst:`Разрыв`], повышает счётчик [Laceration:`Кровотечения`] ещё на 1",
+          "desc": "[WhenUse] Если имеется [HardenedBlood:`Застывшая кровь`] и эффекты монет могут нанести [Burst:`Разрыв`], также повышает ими счётчик [Laceration:`Кровотечения`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Безудержный гнев",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Если имеется 3 и более [HardenedBlood:`Застывшей крови`], а эффекты монет могут нанести [Burst:`Разрыв`], наносит ещё 2 [Laceration:`Кровотечения`]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Если имеется 3 и более [HardenedBlood:`Застывшей крови`], а эффекты монет могут нанести [Burst:`Разрыв`], также наносит ими 2 [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -133,7 +133,7 @@
         {
           "level": 1,
           "name": "Усиленный удар застывшей кровью",
-          "desc": "[WhenUse] Если имеется [HardenedBlood:`Застывшая кровь`] и эффекты монет могут нанести [Burst:`Разрыв`], повышает счётчик [Laceration:`Кровотечения`] ещё на 1",
+          "desc": "[WhenUse] Если имеется [HardenedBlood:`Застывшая кровь`] и эффекты монет могут нанести [Burst:`Разрыв`], также повышает ими счётчик [Laceration:`Кровотечения`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -159,7 +159,7 @@
         {
           "level": 1,
           "name": "Безудержный гнев",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Если имеется 3 и более [HardenedBlood:`Застывшей крови`], а эффект монеты могут нанести [Burst:`Разрыв`], повышает счётчик [Laceration:`Кровотечения`] ещё на 1",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Если имеется 3 и более [HardenedBlood:`Застывшей крови`], а эффекты монеты могут нанести [Burst:`Разрыв`], также повышает ими счётчик [Laceration:`Кровотечения`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -282,7 +282,7 @@
         {
           "level": 1,
           "name": "Усиленный хлыст застывшей кровью",
-          "desc": "[WhenUse] Наносит на 20% больше урона целям с 8 и более [Laceration:`Кровотечения`]",
+          "desc": "Наносит на 20% больше урона целям с 8 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -321,7 +321,7 @@
         {
           "level": 1,
           "name": "Усиленный удар застывшей кровью",
-          "desc": "[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Базовая сила +1\n[WhenUse] При нанесении [Laceration:`Кровотечения`] этой атакой, наносит [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]\n[EndSkill] Тратит всю [HardenedBlood:`Застывшую кровь`] и [BloodyHand:`Окровавленные руки`]",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] При нанесении [Laceration:`Кровотечения`] этой атакой также наносит [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]\n[EndSkill] Теряет всю [HardenedBlood:`Застывшую кровь`] и [BloodyHand:`Окровавленные руки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -336,7 +336,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Сила [Laceration:`Кровотечения`] цели)% ОЗ (До 20%)"
                 }
               ]
             }
@@ -350,7 +350,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сида +1 за каждую [HardenedBlood:`Застывшую кровь`]",
+          "desc": "[WhenUse] Базовая сила +1 за каждую [HardenedBlood:`Застывшую кровь`]",
           "coinlist": [
             {
               "coindescs": [
@@ -369,12 +369,12 @@
         {
           "level": 1,
           "name": "Усиленный взмах застывшей кровью",
-          "desc": "[DefeatDuel] Получает 10 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+          "desc": "[DefeatDuel] Получает 10 [Laceration:`Кровотечения`] и его счётчик повышается на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 10 [Laceration:`Кровотечения`] и 1 [BloodyHand:`Окровавленную руку`]"
@@ -390,8 +390,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Усиленный хлыст застывшей кровью",
-          "desc": "[WhenUse] Наносит на 10% больше урона целям с 4 и более [Laceration:`Кровотечения`]",
+          "name": "Усиленный хлыст застывшей крови",
+          "desc": "Наносит на 10% больше урона целям с 4 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -413,7 +413,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 20 [Laceration:`Кровотечения`] и 2 [BloodyHand:`Окровавленные руки`]"
@@ -430,7 +430,7 @@
         {
           "level": 1,
           "name": "Усиленный удар застывшей кровью",
-          "desc": "[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Базовая сила +1\n[WhenUse] При нанесении [Laceration:`Кровотечения`] этой атакой, наносит [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]\n[EndSkill] Тратит всю [HardenedBlood:`Застывшую кровь`] и [BloodyHand:`Окровавленные руки`]",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] При нанесении [Laceration:`Кровотечения`] этой атакой также наносит [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]\n[EndSkill] Теряет всю [HardenedBlood:`Застывшую кровь`] и [BloodyHand:`Окровавленные руки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -445,7 +445,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Сила [Laceration:`Кровотечения`] цели)% ОЗ (До 20%)"
                 }
               ]
             }
@@ -478,7 +478,7 @@
         {
           "level": 1,
           "name": "Пройдите опрос",
-          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и его счётчик повышается на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -504,7 +504,7 @@
         {
           "level": 1,
           "name": "Нет! Не обрывай меня!",
-          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и его счётчик повышается на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -574,10 +574,10 @@
                   "desc": "[OnSucceedAttack] Тратит все [BloodyHand:`Окровавленные руки`], чтобы повысить счётчик [Laceration:`Кровотечения`] цели на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит всю [HardenedBlood:`Застывшую кровь`], чтобы повысить [BloodDinner:`Кровавое пиршество`] на (Потраченная [HardenedBlood:`Застывшая кровь`] × 3) и получить 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Тратит всю [HardenedBlood:`Застывшую кровь`], чтобы увеличить [BloodDinner:`Кровавое пиршество`] на (Потраченная [HardenedBlood:`Застывшая кровь`] × 3) и получить 5 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 30%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Сила [Laceration:`Кровотечения`] цели)% ОЗ (До 30%)"
                 }
               ]
             }
@@ -591,7 +591,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Если есть [BloodyHand:`Окровавленная рука`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+          "desc": "[WhenUse] Базовая сила +1, если есть [BloodyHand:`Окровавленная рука`]\n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood:`Застывшей крови`]",
           "coinlist": [
             {
               "coindescs": [
@@ -610,7 +610,7 @@
         {
           "level": 1,
           "name": "Пройдите опрос",
-          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и его счётчик повышается на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -636,7 +636,7 @@
         {
           "level": 1,
           "name": "Нет! Не обрывай меня!",
-          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и повышает его счётчик на 1",
+          "desc": "[WhenUse] Получает 5 [Laceration:`Кровотечения`] и его счётчик повышается на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -684,7 +684,7 @@
         {
           "level": 1,
           "name": "Бесконечное искупление",
-          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила в столкновении +1 за каждую [HardenedBlood:`Застывшую кровь`] на себе\n[DefeatDuel] Теряет 2 [BloodyHand:`Окровавленные руки`]",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила в столкновении +1 за каждую [HardenedBlood:`Застывшую кровь`]\n[DefeatDuel] Теряет 2 [BloodyHand:`Окровавленные руки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -703,13 +703,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит все [BloodyHand:`Окровавленные руки`], чтобы повысить счётчик [Laceration:`Кровотечения`] на 3"
+                  "desc": "[OnSucceedAttack] Тратит все [BloodyHand:`Окровавленные руки`], чтобы повысить счётчик [Laceration:`Кровотечения`] цели на 3"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тратит всю [HardenedBlood:`Застывшую кровь`], чтобы увеличить [BloodDinner:`Кровавое пиршество`] на (Потраченная [HardenedBlood:`Застывшая кровь`] × 3) и получить 5 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([Laceration:`Кровотечение`] на цели)% ОЗ (До 30%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Сила [Laceration:`Кровотечения`] цели)% ОЗ (До 30%)"
                 }
               ]
             }
@@ -723,7 +723,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Если есть [BloodyHand:`Окровавленная рука`], Базовая сила +1\n[WhenUse] При 3 и более [HardenedBlood:`Застывшей крови`], Сила монет +1",
+          "desc": "[WhenUse] Базовая сила +1, если есть [BloodyHand:`Окровавленная рука`], \n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood:`Застывшей крови`]",
           "coinlist": [
             {
               "coindescs": [
@@ -742,7 +742,7 @@
         {
           "level": 1,
           "name": "Рубящий удар застывшей кровью",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1",
+          "desc": "[WhenUse] Итоговая сила +1 при 5 и более [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -764,7 +764,7 @@
         {
           "level": 1,
           "name": "Разрез застывшей кровью",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 15 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 15 [Laceration:`Кровотечения`] и затем оно активируется на себе, понижая счётчик на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -793,7 +793,7 @@
         {
           "level": 1,
           "name": "Высвобождение силы застывшей крови",
-          "desc": "[WhenUse] Получает 15 [Laceration:`Кровотечением`] и сразу активирует его на себе 2 раза\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+          "desc": "[WhenUse] Получает 15 [Laceration:`Кровотечения`] и затем оно активируется на себе 2 раза\n[EndBattle] Теряет всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
           "coinlist": [
             {
               "coindescs": [
@@ -805,14 +805,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 2.5)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever:`Праздничной горячки`] × 2.5)% ОЗ (До 20%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [FestivalFever:`Праздничных горячки`]"
+                  "desc": "[OnSucceedAttack] Получает 2 [FestivalFever:`Праздничной горячки`]"
                 }
               ]
             }
@@ -826,7 +826,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1\n[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
+          "desc": "[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[WhenUse] Итоговая сила +1 при 5 и более [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {}
           ]
@@ -839,7 +839,7 @@
         {
           "level": 1,
           "name": "Хлёсткий удар застывшей кровью",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1",
+          "desc": "[WhenUse] Итоговая сила +1 при 5 и более [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -861,7 +861,7 @@
         {
           "level": 1,
           "name": "Дикий рывок застывшей крови",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 15 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Получает 15 [Laceration:`Кровотечения`] и затем оно активируется на себе, понижая счётчик на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -890,7 +890,7 @@
         {
           "level": 1,
           "name": "Высвобождение силы застывшей крови",
-          "desc": "[WhenUse] Получает 15 [Laceration:`Кровотечения`] и дважды активирует его\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+          "desc": "[WhenUse] Получает 15 [Laceration:`Кровотечения`] и затем оно активируется на себе 2 раза\n[EndBattle] Теряет всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
           "coinlist": [
             {
               "coindescs": [
@@ -902,14 +902,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 2.5)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever:`Праздничной горячки`] × 2.5)% ОЗ (До 20%)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [FestivalFever:`Праздничных горячки`]"
+                  "desc": "[OnSucceedAttack] Получает 2 [FestivalFever:`Праздничной горячки`]"
                 }
               ]
             }
@@ -923,7 +923,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +1\n[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
+          "desc": "[WhenUse] Итоговая сила +1 при 5 и более [FestivalFever:`Праздничной горячки`]\n[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {}
           ]
@@ -936,7 +936,7 @@
         {
           "level": 1,
           "name": "Добро пожаловать на Фестиваль чудес!",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2",
+          "desc": "[WhenUse] Итоговая сила +2 при 5 и более [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -958,7 +958,7 @@
         {
           "level": 1,
           "name": "Присоединяйся к радостному параду!",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] При менее 20 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик\n[EndSkill] Поглощает 20 [BloodDinner:`Кровавого пиршества`]",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] Если менее 20 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и затем оно активируется на себе, понижая счётчик на 1\n[EndSkill] Поглощает 20 [BloodDinner:`Кровавого пиршества`]",
           "coinlist": [
             {
               "coindescs": [
@@ -990,7 +990,7 @@
         {
           "level": 1,
           "name": "Расцветайте улыбками радости!",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Сила монет +1\n[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Сила в столкновении +1",
+          "desc": "[WhenUse] Сила монет +1 при 5 и более [FestivalFever:`Праздничной горячки`]\n[WhenUse] Сила в столкновении +1 против целей с 6 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1017,7 +1017,7 @@
         {
           "level": 1,
           "name": "Вечное королевство счастья, Ла-Манчаленд!",
-          "desc": "[WhenUse] При менее 40 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и дважды активирует его\n[EndSkill] Поглощает 40 [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+          "desc": "[WhenUse] Если менее 40 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и затем оно активируется на себе 2 раза\n[EndSkill] Поглощает 40 [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Теряет всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1025,7 +1025,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Laceration:`Кровотечение`] и [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 4)% ОЗ (До 40%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever:`Праздничной горячки`] × 4)% ОЗ (До 40%)"
                 }
               ]
             },
@@ -1049,7 +1049,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2\n[StartBattle] Получает 3 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 3 [FestivalFever:`Праздничной горячки`]",
+          "desc": "[StartBattle] Получает 3 [FestivalFever:`Праздничной горячки`]\n[WhenUse] Итоговая сила +2 при 5 и более [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 3 [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {}
           ]
@@ -1062,7 +1062,7 @@
         {
           "level": 1,
           "name": "Добро пожаловать на Фестиваль чудес!",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2",
+          "desc": "[WhenUse] Итоговая сила +2 при 5 и более [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1084,7 +1084,7 @@
         {
           "level": 1,
           "name": "Давайте танцевать в такт!",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] При менее 20 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и активирует его, теряя 1 счётчик\n[EndSkill] Поглощает 20 [BloodDinner:`Кровавого пиршества`]",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever:`Праздничной горячки`] на себе или каждые 6 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] Если менее 20 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и затем оно активируется на себе, понижая счётчик на 1\n[EndSkill] Поглощает 20 [BloodDinner:`Кровавого пиршества`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1116,7 +1116,7 @@
         {
           "level": 1,
           "name": "Растворись в пении!",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Сила монет +1\n[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], Сила в столкновении +1",
+          "desc": "[WhenUse] Сила монет +1 при 5 и более [FestivalFever:`Праздничной горячки`]\n[WhenUse] Сила в столкновении +1 против целей с 6 и более [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1143,7 +1143,7 @@
         {
           "level": 1,
           "name": "Вечное королевство счастья, Ла-Манчаленд!",
-          "desc": "[WhenUse] При менее 40 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и дважды активирует его \n[EndSkill] Поглощает 40 [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Тратит всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
+          "desc": "[WhenUse] Если менее 40 [BloodDinner:`Кровавого пиршества`], получает 20 [Laceration:`Кровотечения`] и затем оно активируется на себе 2 раза\n[EndSkill] Поглощает 40 [BloodDinner:`Кровавого пиршества`]\n[EndBattle] Теряет всю [HardenedBlood:`Застывшую кровь`] и [FestivalFever:`Праздничную горячку`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1151,7 +1151,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Laceration:`Кровотечение`] и [Burst:`Разрывы`] в количестве своей [HardenedBlood:`Застывшей крови`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever:`Праздничная горячка`] × 4)% ОЗ (До 40%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever:`Праздничной горячки`] × 4)% ОЗ (До 40%)"
                 }
               ]
             },
@@ -1175,7 +1175,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] При 5 и более [FestivalFever:`Праздничной горячки`], Итоговая сила +2\n[StartBattle] Получает 3 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 3 [FestivalFever:`Праздничной горячки`]",
+          "desc": "[StartBattle] Получает 3 [FestivalFever:`Праздничной горячки`]\n[WhenUse] Итоговая сила +2 при 5 и более [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 3 [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {}
           ]

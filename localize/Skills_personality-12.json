@@ -393,7 +393,7 @@
         {
           "level": 4,
           "name": "Предрешённый срыв",
-          "desc": "[WhenUse] Получает 1 [Breath:`Дыхание`] за каждые 3 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">10</style>)\nСила монет +1 <style=\"highlight\">за каждые 7 [Breath:`Дыхания</color>`] (До 3)</style>",
+          "desc": "[WhenUse] Получает 1 [Breath:`Дыхание`] за каждые 3 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">10</style>)\nСила монет +1 <style=\"highlight\">за каждые 7 [Breath:`Дыхания`] (До 3)</style>",
           "coinlist": [
             {
               "coindescs": [
