@@ -58,11 +58,11 @@
     },
     {
       "id": "mirror_start_buff_purchase_complete_modal_title",
-      "content": "Выбранное Благославление"
+      "content": "Выбранное Благословение"
     },
     {
       "id": "mirror_start_buff_purchase_complete_modal_desc",
-      "content": "Благославление было выбрано."
+      "content": "Благословение было выбрано."
     },
     {
       "id": "mirror_recovered_unit_status",
@@ -82,7 +82,7 @@
     },
     {
       "id": "mirror_start_set_buff_type",
-      "content": "Благославление звёзд"
+      "content": "Благословение звёзд"
     },
     {
       "id": "mirror_start_buff_type",
@@ -126,7 +126,7 @@
     },
     {
       "id": "mirrordungeon_revive_log",
-      "content": "Благославление звёзд активировано\n[{0}] оживлено"
+      "content": "Благословение звёзд активировано\n[{0}] оживлено"
     },
     {
       "id": "mirror_start_buff_unlock_condition_needs_held_buff_points",
@@ -134,7 +134,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_after_selected_bonus",
-      "content": "Оставшееся Звёздное благославление"
+      "content": "Оставшееся Звёздное Благословение"
     },
     {
       "id": "mirror_start_buff_purchase_modal_exchanged_cost",
@@ -142,7 +142,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_title",
-      "content": "Выбрано Благославление звёзд"
+      "content": "Выбрано Благословение звёзд"
     },
     {
       "id": "mirror_start_buff_purchase_modal_description",
@@ -150,7 +150,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_purchase_description",
-      "content": "Оставшееся Звёздное благославление будет конвертировано в Стоимость"
+      "content": "Оставшееся Звёздное Благословение будет конвертировано в Стоимость"
     },
     {
       "id": "mirror_start_buff_applied_passive",
@@ -158,7 +158,7 @@
     },
     {
       "id": "mirror_dungeon_start_buff_Panel_title",
-      "content": "Благославление мечтающей звезды"
+      "content": "Благословение мечтающей звезды"
     },
     {
       "id": "mirror_shop_purchase_complete",
@@ -210,7 +210,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_bonus_gift",
-      "content": "Благославление звёзд активировано\nДля получения ЭГО Даров Слияния & Продажи"
+      "content": "Благословение звёзд активировано\nДля получения ЭГО Даров Слияния & Продажи"
     },
     {
       "id": "mirror_5_battle_reward_card_guide_table_1_desc_0_1",
@@ -262,7 +262,7 @@
     },
     {
       "id": "mirrordungeon_additional_cost_by_start_bonus",
-      "content": "Благославление звёзд активировано\nСтоимость получена"
+      "content": "Благословение звёзд активировано\nСтоимость получена"
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_score_desc",
