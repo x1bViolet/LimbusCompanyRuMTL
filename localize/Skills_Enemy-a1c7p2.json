@@ -902,7 +902,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever:`Праздничной горячки`] на себе × 2.5)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever:`Праздничной горячки`] × 2.5)% ОЗ (До 20%)"
                 }
               ]
             },
@@ -923,7 +923,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[WhenUse] Итоговая сила +1 при 5 и более [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
+          "desc": "[WhenUse] Итоговая сила +1 при 5 и более [FestivalFever:`Праздничной горячки`]\n[StartBattle] Получает 2 [FestivalFever:`Праздничной горячки`]\n[OnDefeatEvade] Теряет 2 [FestivalFever:`Праздничной горячки`]",
           "coinlist": [
             {}
           ]
