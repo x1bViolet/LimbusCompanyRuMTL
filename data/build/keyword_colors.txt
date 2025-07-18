@@ -860,3 +860,17 @@ DespairAlly ¤ #f8c200
 PenetratingSword ¤ #f8c200
 SwordCutwithTear ¤ #f8c200
 BlackTearsAlly ¤ #f8c200
+ColdBlackTear ¤ #e30000
+HelplessTear ¤ #f8c200
+WornOutKnight ¤ #e30000
+SignOfDespair ¤ #f8c200
+CollapsedPride ¤ #e30000
+FailedToAssistQueen ¤ #e30000
+UsedTooMuchPower ¤ #e30000
+ChasingArcana ¤ #f8c200
+ChasingArcanahard ¤ #f8c200
+PowerOfLoveAndJustice ¤ #f8c200
+CentralCommandTeamCaptain ¤ #9f6a3a
+BestWelfareTeamMember ¤ #9f6a3a
+KnightBless ¤ #f8c200
+TraumaShield ¤ #f8c200
