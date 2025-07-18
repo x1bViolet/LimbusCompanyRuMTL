@@ -111,7 +111,7 @@
         {
           "level": 1,
           "name": "Пусть это будет незабываемо",
-          "desc": "[StartBattle] Получает 2 [AaCePbBi:`Теста Старшего брата`]\nПолучает 5 [Binding:`Связывания`] на следующий ход",
+          "desc": "[StartBattle] Получает 2 [AaCePbBi:`Теста Старшего брата`]\n[StartBattle] Получает 5 [Binding:`Связывания`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -178,7 +178,7 @@
         {
           "level": 1,
           "name": "Клятва отмщения",
-          "desc": "[StartBattle] Получает 2 [AaCePbBi:`Теста Старшего брата`]\nПолучает 5 [Binding:`Связывания`] и 5 [AttackDmgUp:`Повышений урона`] на следующий ход",
+          "desc": "[StartBattle] Получает 2 [AaCePbBi:`Теста Старшего брата`]\n[StartBattle] Получает 5 [Binding:`Связывания`] и 5 [AttackDmgUp:`Повышений урона`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -202,7 +202,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 30"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 30"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"

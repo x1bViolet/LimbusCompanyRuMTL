@@ -806,7 +806,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает границы выносливости на 8"
+                  "desc": "[OnSucceedAttackTail] Повышает границу выносливости на 8"
                 }
               ]
             }
@@ -825,7 +825,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 30"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 30"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"
@@ -944,7 +944,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает границы выносливости на 8"
+                  "desc": "[OnSucceedAttackTail] Повышает границу выносливости на 8"
                 }
               ]
             }
@@ -963,7 +963,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границы выносливости на 30"
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 30"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"
