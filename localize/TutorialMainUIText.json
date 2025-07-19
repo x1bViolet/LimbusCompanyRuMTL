@@ -682,7 +682,7 @@
     },
     {
       "id": "tutorial_mainui_11_extraction",
-      "content": "Extractions"
+      "content": "Извлечения"
     },
     {
       "id": "tutorial_mainui_11_extraction_page_01_title_01",
@@ -1842,39 +1842,39 @@
     },
     {
       "id": "tutorial_walpurgisnacht_extraction",
-      "content": "Walpurgis Night"
+      "content": "Вальпургиева ночь"
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_01_desc_01",
-      "content": "Walpurgis Night Target Extractions will be available during the event period."
+      "content": "Во время Вальпургиевой ночи становится доступно особое извлечение."
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_01_desc_02",
-      "content": "Walpurgis Night Target Extractions will have higher Extraction rates for Identities and ЭГО from the currently active Walpurgis Night event."
+      "content": "Это целевое извлечение имеет повышенные шансы получения Идентичностей и ЭГО, относящихся к текущей Вальпургиевой ночи."
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_02_desc_01",
-      "content": "During the event period, Identities & ЭГО from the current Walpurgis Night event will be Extractable from other Extraction banners(save for Season relevant Extraction banners) as well.\n\nHowever, their extraction rates will be identical to those of other Identities & ЭГО."
+      "content": "Во время этого периода такие Идентичности и ЭГО могут быть получены также из других извлечений, не относящихся к Вальпургиевой ночи (За исключением сезонных).\n\nОднако шансы их получения оттуда не будут такими же повышенными."
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_03_desc_01",
-      "content": "During the event period, previous Walpurgis Night Identities & ЭГО will be Extractable from all Extraction banners(save for Season relevant Extraction banners).\n\nHowever, they will not receive increased rates for those Extractions."
+      "content": "Идентичности и ЭГО из прошлых Вальпургиевых ночей тоже становятся доступными к получению из извлечений (За исключением сезонных)."
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_04_desc_01",
-      "content": "Once the event period is over, Walpurgis Night Identities and ЭГО will no longer be Extractable."
+      "content": "Когда Вальпургиева ночь кончится, Идентичностей и ЭГО из неё будет нельзя получить из извлечений или автомата, пока не наступит следующая."
     },
     {
       "id": "tutorial_walpurgisnacht_vendingmachine",
-      "content": "Walpurgis Night"
+      "content": "Вальпургиева ночь"
     },
     {
       "id": "tutorial_walpurgisnacht_vendingmachine_page_01_desc_01",
-      "content": "During the event period, Identities and ЭГО from all previous Walpurgis Night events are available from the Dispenser."
+      "content": "Во время этого события в автомате становятся доступны для приобретения Идентичности и ЭГО, которые были в прошлых Вальпургиевых ночах."
     },
     {
       "id": "tutorial_walpurgisnacht_vendingmachine_page_02_desc_01",
-      "content": "Identities and ЭГО from the currently active Walpurgis Night event are not available from the Dispenser."
+      "content": "Однако те Идентичности и ЭГО, которые относятся к текущей Вальпургиевой ночи, не могут быть получены из автомата."
     },
     {
       "id": "tutorial_mirrordungeon03_page_01_title_01",
