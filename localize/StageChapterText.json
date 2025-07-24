@@ -121,7 +121,7 @@
       "id": "chapter_t_9109",
       "company": "Корп. T",
       "area": "20-й Район",
-      "chapter": "Антракт IV",
+      "chapter": "Антракт IV-1",
       "chapterNumber": "6.5",
       "chaptertitle": "Время, убивающее время",
       "timeline": "984/11"
@@ -130,7 +130,7 @@
       "id": "chapter_t_9110",
       "company": "Корп. Т",
       "area": "20-й Район",
-      "chapter": "Антракт IV",
+      "chapter": "Антракт IV-2",
       "chapterNumber": "6.5",
       "chaptertitle": "Убийство в\nВАРП Экспрессе",
       "timeline": "984/12"
@@ -158,7 +158,7 @@
       "id": "chapter_p_9114",
       "company": "Корп. P",
       "area": "16-й Район",
-      "chapter": "Антракт V",
+      "chapter": "Антракт V-1",
       "chapterNumber": "7.5",
       "chaptertitle": "Регулярный осмотр LCB",
       "timeline": "984/12"
@@ -167,7 +167,7 @@
       "id": "chapter_h_9116",
       "company": "Корп. H",
       "area": "8-й Район",
-      "chapter": "Антракт V",
+      "chapter": "Антракт V-2",
       "chapterNumber": "7.5",
       "chaptertitle": "Ночная чистка",
       "timeline": "985/01"

@@ -791,6 +791,10 @@
     {
       "id": "NoHavePassive",
       "content": "Пассивка поддержки недоступна\nСвяжите для разблокировки"
+    },
+    {
+      "id": "LocalSetButtonTitle_ImportanceLevel",
+      "content": "Замечания"
     }
   ]
 }
