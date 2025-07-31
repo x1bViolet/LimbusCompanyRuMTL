@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Озари незнание своё",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 3% от максимальных ОЗ)",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 3)% от максимальных ОЗ",
           "coinlist": [
             {},
             {},
@@ -22,7 +22,7 @@
         {
           "level": 2,
           "name": "Озари незнание своё",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">4%</style> от максимальных ОЗ)\n<style=\"highlight\">[WhenUse] При 2 и более [KnowledgeExplored:`Откровениях`](#f8c200) Сила монет повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">4</style>)% от максимальных ОЗ\n<style=\"highlight\">[WhenUse] При 2 и более [KnowledgeExplored:`Откровениях`](#f8c200) Сила монет повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
           "coinlist": [
             {},
             {},
@@ -38,7 +38,7 @@
         {
           "level": 4,
           "name": "Озари незнание своё",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5%</style> от максимальных ОЗ)\n[WhenUse] При 2 и более [KnowledgeExplored:`Откровениях`](#f8c200) Сила монет повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5</style>)% от максимальных ОЗ\n[WhenUse] При 2 и более [KnowledgeExplored:`Откровениях`](#f8c200) Сила монет повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)",
           "coinlist": [
             {},
             {},
@@ -59,7 +59,7 @@
         {
           "level": 1,
           "name": "Тяжесть знаний",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 5% от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 5)% от максимальных ОЗ\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {},
@@ -76,7 +76,7 @@
         {
           "level": 2,
           "name": "Тяжесть знаний",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">8%</style> от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">8</style>)% от максимальных ОЗ\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {},
@@ -93,7 +93,7 @@
         {
           "level": 4,
           "name": "Тяжесть знаний",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">10%</style> от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 против целей с 5 и более [Sinking:`Утопания`]</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">10</style>)% от максимальных ОЗ\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 против целей с 5 и более [Sinking:`Утопания`]</style>",
           "coinlist": [
             {},
             {},
@@ -115,7 +115,7 @@
         {
           "level": 3,
           "name": "Болезненное просвещение",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 15% от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × 15)% от максимальных ОЗ\n[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -138,7 +138,7 @@
         {
           "level": 4,
           "name": "Болезненное просвещение",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">20%</style> от максимальных ОЗ)\n[WhenUse] [Discard:`Сбрасывает`]</link></u></color> 2 навыка низшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:`Утопания`]</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает ОЗ Щита, равные (Число [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">20</style>)% от максимальных ОЗ\n[WhenUse] [Discard:`Сбрасывает`]</link></u></color> 2 навыка низшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 7 и более [Sinking:`Утопания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -166,7 +166,7 @@
         {
           "level": 3,
           "name": "Погружённость в познания",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {}
           ]
@@ -174,7 +174,7 @@
         {
           "level": 4,
           "name": "Погружённость в познания",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга во всех своих слотах навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {}
           ]
@@ -305,7 +305,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Combustion:`Огня`] на 1</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:`Огня`] цели равен 6 и более, наносит 3 [Combustion:`Огня`] двум противникам с наименьшим счётчиком [Combustion:`Огня`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:`Огня`] цели равен 6 и более, наносит 3 [Combustion:`Огня`] двум противникам с наименьшим счётчиком [Combustion:`Огня`]"
                 }
               ]
             }
@@ -336,7 +336,7 @@
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:`Огня`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:`Огня`] цели равен 6 и более, наносит 3 [Combustion:`Огня`] двум противникам с наименьшим счётчиком [Combustion:`Огня`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если счётчик [Combustion:`Огня`] цели равен 6 и более, наносит 3 [Combustion:`Огня`] двум противникам с наименьшим счётчиком [Combustion:`Огня`]"
                 }
               ]
             }
@@ -487,17 +487,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
                 },
                 {
-                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1"
                 }
               ]
             }
@@ -518,10 +518,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
                 },
                 {
-                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1"
                 }
               ]
             }
@@ -555,7 +555,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2</style>"
@@ -600,7 +600,7 @@
         {
           "level": 3,
           "name": "Исполнение взысканий",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 8 и более [Vibration:`Тремора`]\n[WhenUse] Сила монет +1 при трате 8 единиц собственного счётчика [Vibration:`Тремора`]",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 8 и более [Vibration:`Тремора`]\n[WhenUse] Тратит 8 единиц собственного счётчика [Vibration:`Тремора`], чтобы получить +1 к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -638,7 +638,7 @@
         {
           "level": 4,
           "name": "Исполнение взысканий",
-          "desc": "<style=\"highlight\">Наносит на 5% больше урона за каждое [Binding:`Связывание`] на цели (До 20%)</style>\n[WhenUse] Сила в столкновении <style=\"highlight\">+2</style> против целей с 8 и более [Vibration:`Тремора`]\n[WhenUse] Сила монет +1 при трате 8 единиц собственного счётчика [Vibration:`Тремора`]",
+          "desc": "<style=\"highlight\">Наносит на 5% больше урона за каждое [Binding:`Связывание`] на цели (До 20%)</style>\n[WhenUse] Сила в столкновении <style=\"highlight\">+2</style> против целей с 8 и более [Vibration:`Тремора`]\n[WhenUse] Тратит 8 единиц собственного счётчика [Vibration:`Тремора`], чтобы получить +1 к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -650,30 +650,30 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если навык потратил свой счётчик [Vibration:`Тремора`], наносит ещё 2 [Binding:`Связывания`] на следующий ход</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [TimeRentalTwoPersonality:`Одолженное время`], наносит 2 [TimeSuspend:`Временных моратория`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если имеется [TimeRentalTwoPersonality:`Одолженное время`], наносит 2 [TimeSuspend:`Временных моратория`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1</style>"
                 }
               ]
             }
@@ -687,7 +687,7 @@
         {
           "level": 1,
           "name": "Одолженное время",
-          "desc": "[StartBattle] В конце хода получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] при его отсутствии (Единожды за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] (До 2 раз за ход)",
+          "desc": "[StartBattle] Если нет [TimeRentalTwoPersonality:`Одолженного времени`], получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] в конце хода (Единожды за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] на следующий ход (До 2 раз за ход)",
           "coinlist": [
             {}
           ]
@@ -695,7 +695,7 @@
         {
           "level": 4,
           "name": "Одолженное время",
-          "desc": "[StartBattle] В конце хода получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] при его отсутствии (Единожды за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] (До <style=\"highlight\">6 раз</style> за ход)",
+          "desc": "[StartBattle] Если нет [TimeRentalTwoPersonality:`Одолженного времени`], получает 3 [TimeRentalTwoPersonality:`Одолженного времени`] в конце хода (Единожды за ход)\n[WhenUse] Если во время этого хода получает удар, наносит атаковавшему 2 [Vibration:`Тремора`] на следующий ход (До <style=\"highlight\">6 раз</style> за ход)",
           "coinlist": [
             {}
           ]
@@ -708,7 +708,7 @@
         {
           "level": 1,
           "name": "Курьерская сумка — Разлагающее лезвие",
-          "desc": "[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ его счётчика, не наносит [Burst:`Разрывы`] этим навыком, но и не тратит их счётчик при атаке",
+          "desc": "[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ его счётчика, то не наносит [Burst:`Разрывы`] этим навыком, но и не тратит их счётчик при атаке",
           "coinlist": [
             {
               "coindescs": [
@@ -729,7 +729,7 @@
         {
           "level": 2,
           "name": "Курьерская сумка — Разлагающее лезвие",
-          "desc": "<style=\"highlight\">Сила монет +1 при 10+ на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или 6+ [Burst:`Разрывах`] на цели</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, не наносит [Burst:`Разрывы`] этим навыком, но и не тратит их счётчик при атаке",
+          "desc": "<style=\"highlight\">Сила монет +1 при 10+ на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или 6+ [Burst:`Разрывах`] на цели</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, то не наносит [Burst:`Разрывы`] этим навыком, но и не тратит их счётчик при атаке",
           "coinlist": [
             {
               "coindescs": [
@@ -741,7 +741,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -750,7 +750,7 @@
         {
           "level": 4,
           "name": "Курьерская сумка — Разлагающее лезвие",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 10 единиц на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или каждые 6 [Burst:`Разрывов`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, не наносит [Burst:`Разрывы`] этим навыком, но и не тратит их счётчик при атаке",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 10 единиц на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) или каждые 6 [Burst:`Разрывов`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Если на цели 15+ [Burst:`Разрывов`] и 3+ их счётчика, то не наносит [Burst:`Разрывы`] этим навыком, но и не тратит их счётчик при атаке",
           "coinlist": [
             {
               "coindescs": [
@@ -816,7 +816,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)"
                 }
               ]
             },
@@ -878,7 +878,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На 15% больше урона при числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
+                  "desc": "[OnSucceedAttack] На 15% больше урона, если число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)"
@@ -903,7 +903,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На <style=\"highlight\">25%</style> больше урона при числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
+                  "desc": "[OnSucceedAttack] На <style=\"highlight\">25%</style> больше урона, если число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели получает <style=\"highlight\">2</style> [Agility:`Спешки`] на следующий ход (Единожды за ход)"
@@ -920,7 +920,7 @@
         {
           "level": 1,
           "name": "Помощь в доставке и контрольная последовательность",
-          "desc": "[StartBattle] При числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает ОЗ Щита на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) / 2)% от максимальных ОЗ (До 15%; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\n- Если её число менее 15, оно повышается ещё на 1",
+          "desc": "[StartBattle] Если число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) равно 15 и более, использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает ОЗ Щита на (Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) / 2)% от максимальных ОЗ (До 15%; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\n- Если её число менее 15, оно повышается ещё на 1",
           "coinlist": [
             {}
           ]
@@ -928,7 +928,7 @@
         {
           "level": 4,
           "name": "Помощь в доставке и контрольная последовательность",
-          "desc": "[StartBattle] При числе [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) 15 и более использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает ОЗ Щита на <style=\"highlight\">(</style>Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f)<style=\"highlight\">)%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\n- Если её число менее 15, оно повышается ещё на 1",
+          "desc": "[StartBattle] Если число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f) равно 15 и более, использует 「Это... Всего-лишь стратегическая пауза!」 (Единожды за ход)\n[BeforeUse] Получает ОЗ Щита на <style=\"highlight\">(</style>Число [DevyatDimensionalSack:`Курьерской сумки`](#6fb78f)<style=\"highlight\">)%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>; единожды за ход)\n[WhenUse] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 2 (Единожды за ход)\n- Если её число менее 15, оно повышается ещё на 1",
           "coinlist": [
             {}
           ]
@@ -962,7 +962,7 @@
         {
           "level": 1,
           "name": "Изыди...",
-          "desc": "[StartBattle] Поглощает до 20 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] на себя и союзника с наибольшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (2 раза за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [BloomingThornsRodionFirst:`Цветущий шип`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]",
+          "desc": "[StartBattle] Поглощает до 20 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] на себя и союзника с наибольшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (До 2 раз за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [BloomingThornsRodionFirst:`Цветущий шип`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]",
           "coinlist": [
             {},
             {
@@ -980,16 +980,16 @@
         {
           "level": 2,
           "name": "Изыди...",
-          "desc": "[StartBattle] Поглощает до 20 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] на себя и союзника с наибольшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (2 раза за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [BloomingThornsRodionFirst:`Цветущий шип`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>",
+          "desc": "[StartBattle] Поглощает до 20 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] на себя и союзника с наибольшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (До 2 раз за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [BloomingThornsRodionFirst:`Цветущий шип`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             }
@@ -998,16 +998,16 @@
         {
           "level": 4,
           "name": "Изыди...",
-          "desc": "[StartBattle] Поглощает до 20 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] на себя и союзника с наибольшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (2 раза за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [BloomingThornsRodionFirst:`Цветущий шип`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "[StartBattle] Поглощает до 20 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] на себя и союзника с наибольшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (До 2 раз за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [BloomingThornsRodionFirst:`Цветущий шип`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             }
@@ -1021,7 +1021,7 @@
         {
           "level": 1,
           "name": "В тонкой измороси тумана",
-          "desc": "[StartBattle] Поглощает до 30 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] с 1 [Enhancement:`Повышением силы атаки`] на себя и союзника с наименьшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (2 раза за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [Enhancement:`Повышение силы атаки`] и 2 [BloomingThornsRodionFirst:`Цветущих шипа`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]",
+          "desc": "[StartBattle] Для себя и одного союзника с наименьшими максимальными ОЗ: получает вместе с ним 1 [Enhancement:`Повышение силы атаки`], а также поглощает до 30 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (До 2 раз за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, даёт ему ещё 1 [Enhancement:`Повышение силы атаки`] и 2 [BloomingThornsRodionFirst:`Цветущих шипа`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1049,7 +1049,7 @@
         {
           "level": 2,
           "name": "В тонкой измороси тумана",
-          "desc": "[StartBattle] Поглощает до 30 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] с 1 [Enhancement:`Повышением силы атаки`] на себя и союзника с наименьшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (2 раза за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [Enhancement:`Повышение силы атаки`] и 2 [BloomingThornsRodionFirst:`Цветущих шипа`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>",
+          "desc": "[StartBattle] Для себя и одного союзника с наименьшими максимальными ОЗ: получает вместе с ним 1 [Enhancement:`Повышение силы атаки`], а также поглощает до 30 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (До 2 раз за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, даёт ему ещё 1 [Enhancement:`Повышение силы атаки`] и 2 [BloomingThornsRodionFirst:`Цветущих шипа`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1065,10 +1065,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1077,7 +1077,7 @@
         {
           "level": 4,
           "name": "В тонкой измороси тумана",
-          "desc": "[StartBattle] Поглощает до 30 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] с 1 [Enhancement:`Повышением силы атаки`] на себя и союзника с наименьшими максимальными ОЗ за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (2 раза за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, накладывает ещё 1 [Enhancement:`Повышение силы атаки`] и 2 [BloomingThornsRodionFirst:`Цветущих шипа`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "[StartBattle] Для себя и одного союзника с наименьшими максимальными ОЗ: получает вместе с ним 1 [Enhancement:`Повышение силы атаки`], а также поглощает до 30 [BloodDinner:`Кровавого пиршества`] и накладывает 1 [BloomingThornsRodionFirst:`Цветущий шип`] за каждые 10 поглощённого [BloodDinner:`Кровавого пиршества`] (До 2 раз за ход)\n- Приоритет отдаётся союзникам <Кровожадам>\n- Если затронутый союзник является <Кровожадом>, даёт ему ещё 1 [Enhancement:`Повышение силы атаки`] и 2 [BloomingThornsRodionFirst:`Цветущих шипа`]\nПолучает 5 [Laceration:`Кровотечения`], если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1093,10 +1093,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1110,7 +1110,7 @@
         {
           "level": 3,
           "name": "Фестиваль закончится",
-          "desc": "[BeforeUse] При 25 и более [BloomingThornsRodionFirst:`Цветущих шипов`] использует 「Восходящее искусство затвердевшей крови Дон Кихота - Финал」\n[WhenUse] Накладывает (3 + ([BloodDinner_Accumulation:`Поглощённое Родион кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и на других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10), а также даёт им и себе 3 [BloomingThornsRodionFirst:`Цветущих шипа`]",
+          "desc": "[BeforeUse] При 25 и более [BloomingThornsRodionThird:`Цветущих шипах`] использует 「Восходящее искусство затвердевшей крови Дон Кихота - Финал」\n[WhenUse] Накладывает (3 + ([BloodDinner_Accumulation:`Поглощённое собою кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10; округляется вниз), а также даёт им и себе 3 [BloomingThornsRodionFirst:`Цветущих шипа`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1147,7 +1147,7 @@
         {
           "level": 4,
           "name": "Фестиваль закончится",
-          "desc": "[BeforeUse] При 25 и более [BloomingThornsRodionFirst:`Цветущих шипов`] использует 「Восходящее искусство затвердевшей крови Дон Кихота - Финал」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Накладывает (3 + ([BloodDinner_Accumulation:`Поглощённое Родион кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и на других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10), а также даёт им и себе 3 [BloomingThornsRodionFirst:`Цветущих шипа`]",
+          "desc": "[BeforeUse] При 25 и более [BloomingThornsRodionThird:`Цветущих шипах`]  использует 「Восходящее искусство затвердевшей крови Дон Кихота - Финал」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Накладывает (3 + ([BloodDinner_Accumulation:`Поглощённое собою кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10; округляется вниз), а также даёт им и себе 3 [BloomingThornsRodionFirst:`Цветущих шипа`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1162,20 +1162,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1189,7 +1189,8 @@
         {
           "level": 1,
           "name": "Искусство затвердевшей крови Дон Кихота 15: Зонт",
-          "desc": "[DuelCounter]\n[WhenUse] Снижает счётчик [Laceration:`Кровотечения`] на 3 двум другим союзникам с наибольшим значением (Сила × счётчик [Laceration:`Кровотечения`]), а затем увеличивает [BloodDinner:`Кровавое пиршество`] на (Сила [Laceration:`Кровотечения`] перед снижением × сниженный счётчик)\n[WinDuel] Получает 4 [BloomingThornsRodionFirst:`Цветущих шипа`]",
+          "desc": "[DuelCounter]\n[WhenUse] Снижает счётчик [Laceration:`Кровотечения`] на 3 двум другим союзникам с наибольшей суммой силы и счётчика [Laceration:`Кровотечения`], а затем увеличивает [BloodDinner:`Кровавое пиршество`] на (Сила [Laceration:`Кровотечения`] перед снижением × сниженный счётчик)\n[WinDuel] Получает 4 [BloomingThornsRodionFirst:`Цветущих шипа`]",
+          "_comment": "highest ([Laceration] Potency x Count) value поменяно на сумму, потому что наибольшая сумма силы и счётчика Кровотечения в любом случае будет означать наибольшее произведение силы на счётчик",
           "coinlist": [
             {
               "coindescs": [
@@ -1210,7 +1211,8 @@
         {
           "level": 4,
           "name": "Искусство затвердевшей крови Дон Кихота 15: Зонт",
-          "desc": "[DuelCounter]\n[WhenUse] Снижает счётчик [Laceration:`Кровотечения`] на 3 двум другим союзникам с наибольшим значением (Сила × счётчик [Laceration:`Кровотечения`]), а затем увеличивает [BloodDinner:`Кровавое пиршество`] на (Сила [Laceration:`Кровотечения`] перед снижением × сниженный счётчик)\n<style=\"highlight\">Если этим союзником был <Кровожад>, снижает ему счётчик [Laceration:`Кровотечения`] ещё на 2</style>\n[WinDuel] Получает 4 [BloomingThornsRodionFirst:`Цветущих шипа`]",
+          "desc": "[DuelCounter]\n[WhenUse] Снижает счётчик [Laceration:`Кровотечения`] на 3 двум другим союзникам с наибольшей суммой силы и счётчика [Laceration:`Кровотечения`], а затем увеличивает [BloodDinner:`Кровавое пиршество`] на (Сила [Laceration:`Кровотечения`] перед снижением × сниженный счётчик)\n<style=\"highlight\">- Если этим союзником был <Кровожад>, снижает ему счётчик [Laceration:`Кровотечения`] ещё на 2</style>\n[WinDuel] Получает 4 [BloomingThornsRodionFirst:`Цветущих шипа`]",
+          "_comment": "highest ([Laceration] Potency x Count) value поменяно на сумму, потому что наибольшая сумма силы и счётчика Кровотечения в любом случае будет означать наибольшее произведение силы на счётчик",
           "coinlist": [
             {
               "coindescs": [
@@ -1236,7 +1238,7 @@
         {
           "level": 1,
           "name": "Восходящее искусство затвердевшей крови Дон Кихота - Финал",
-          "desc": "[WhenUse] Накладывает (5 + ([BloodDinner_Accumulation:`Поглощённое Родион кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и на других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10), а также даёт им и себе 5 [BloomingThornsRodionFirst:`Цветущих шипов`]\n[WhenUse] Наносит на 1% больше урона за каждые 5 [BloodDinner_Accumulation:`Поглощённого Родион кровавого пиршества`] (До 50%)\n[EndSkill] Тратит все свои [BloomingThornsRodionFirst:`Цветущие шипы`]",
+          "desc": "[WhenUse] Накладывает (5 + ([BloodDinner_Accumulation:`Поглощённое собою кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и на других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10; округляется вниз), а также даёт им и себе 5 [BloomingThornsRodionFirst:`Цветущих шипов`]\n[WhenUse] Наносит на 1% больше урона за каждые 5 [BloodDinner_Accumulation:`Поглощённого собою кровавого пиршества`] (До 50%)\n[EndSkill] Теряет все свои [BloomingThornsRodionFirst:`Цветущие шипы`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1273,7 +1275,7 @@
         {
           "level": 4,
           "name": "Восходящее искусство затвердевшей крови Дон Кихота - Финал",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Накладывает (5 + ([BloodDinner_Accumulation:`Поглощённое Родион кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и на других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10), а также даёт им и себе 5 [BloomingThornsRodionFirst:`Цветущих шипов`]\n[WhenUse] Наносит на 1% больше урона за каждые 5 [BloodDinner_Accumulation:`Поглощённого Родион кровавого пиршества`] (До 50%)\n[EndSkill] Тратит все свои [BloomingThornsRodionFirst:`Цветущие шипы`]",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Накладывает (5 + ([BloodDinner_Accumulation:`Поглощённое собою кровавое пиршество`] / 50)) [FestivalFeverRodion:`Праздничной горячки`] на себя и на других (Число грехов в наибольшем резонансе) союзников на этот и следующий ход (До 10; округляется вниз), а также даёт им и себе 5 [BloomingThornsRodionFirst:`Цветущих шипов`]\n[WhenUse] Наносит на 1% больше урона за каждые 5 [BloodDinner_Accumulation:`Поглощённого собою кровавого пиршества`] (До 50%)\n[EndSkill] Теряет все свои [BloomingThornsRodionFirst:`Цветущие шипы`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1288,20 +1290,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1336,19 +1338,19 @@
         {
           "level": 2,
           "name": "Чешуйчатый блеск",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], наносит 1 [Burst:`Разрыв`]</style>"
@@ -1360,19 +1362,19 @@
         {
           "level": 4,
           "name": "Чешуйчатый блеск",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
@@ -1411,13 +1413,13 @@
         {
           "level": 2,
           "name": "Острый змеиный клык",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             },
@@ -1427,7 +1429,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1436,7 +1438,7 @@
         {
           "level": 4,
           "name": "Острый змеиный клык",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1448,17 +1450,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
@@ -1475,7 +1477,7 @@
         {
           "level": 3,
           "name": "Смертельный шквал",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1509,32 +1511,32 @@
         {
           "level": 4,
           "name": "Смертельный шквал",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила в столкновении повышается на значение своей уже имеющейся [SnakeStance:`Змеиной руки`]\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] на 1 всем целям атаки",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 1<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз)<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету (До 2 раз)"
                 }
               ]
             }
@@ -1562,12 +1564,12 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более единицах своего счётчика [Breath:`Дыхания`]</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свой счётчик [Breath:`Дыхания`] равен 10 и более</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]<style=\"highlight\"></style>"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             }
@@ -1990,7 +1992,7 @@
         {
           "level": 1,
           "name": "Рыцарская вера",
-          "desc": "[CanDuelGuard]\n[StartBattle] Получает ОЗ Щита в размере (Текущая СД / 5)% от максимальных ОЗ (Единожды за ход)\n[WhenUse] Получает 3 [BlackTearsAlly:`Горьких слёзы`] (До 2 раз за ход)\n[EndBattle] Если имеется менее 3 [SwordCutwithTear:`Терзаний слезами`], теряет 15 СД и получает 1 [SwordCutwithTear:`Терзание слезами`] (Единожды за ход)\n- Если уже имеется [SwordCutwithTear:`Терзание слезами`], теряет на (Текущее значение [SwordCutwithTear:`Терзания слезами`] × 15) СД больше",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает ОЗ Щита в размере (Текущая СД / 5)% от максимальных ОЗ (Единожды за ход)\n[WhenUse] Получает 3 [BlackTearsAlly:`Горьких слёзы`] (До 2 раз за ход)\n[EndBattle] Если имеется менее 3 [SwordCutwithTear:`Терзаний слезами`], теряет 15 СД и получает 1 [SwordCutwithTear:`Терзание слезами`] (Единожды за ход)\n- Если уже имеется [SwordCutwithTear:`Терзание слезами`], теряет на (Текущее значение [SwordCutwithTear:`Терзания слезами`] × 15) СД больше",
           "coinlist": [
             {
               "coindescs": [

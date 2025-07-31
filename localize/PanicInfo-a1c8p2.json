@@ -9,14 +9,14 @@
     {
       "id": 1044,
       "panicName": "Сердце зла",
-      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
-      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода"
+      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`]",
+      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`]"
     },
     {
       "id": 1045,
       "panicName": "Сердце гнетущего зла",
-      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
-      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 4 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимость`] в начале хода"
+      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`]",
+      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 4 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`]"
     },
     {
       "id": 1047,
@@ -33,8 +33,8 @@
     {
       "id": 9995,
       "panicName": "Перехватывающее дыхание",
-      "lowMoraleDescription": "В начале хода теряет 2 [Breath:`Дыхания`] и получает 2 [DefenseDown:`Понижения уровня защиты`]",
-      "panicDescription": "В начале хода теряет 5 [Breath:`Дыхания`] и получает 5 [DefenseDown:`Понижений уровня защиты`]"
+      "lowMoraleDescription": "Теряет 2 [Breath:`Дыхания`] в начале хода и получает 2 [DefenseDown:`Понижения уровня защиты`]",
+      "panicDescription": "Теряет 5 [Breath:`Дыхания`] в начале хода и получает 5 [DefenseDown:`Понижений уровня защиты`]"
     },
     {
       "id": 1055,
@@ -45,14 +45,14 @@
     {
       "id": 1056,
       "panicName": "Страх",
-      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`] в начале хода",
-      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`] в начале хода"
+      "lowMoraleDescription": "- Сила в столкновении +2 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 2 [AttackDmgUp:`Повышения урона`] и 1 [Vulnerable:`Уязвимость`]",
+      "panicDescription": "- Сила в столкновении +3 против целей с [OminousTalisman:`Предзнаменующими талисманами`]\n- Получает 3 [AttackDmgUp:`Повышения урона`] и 2 [Vulnerable:`Уязвимости`]"
     },
     {
       "id": 1058,
       "panicName": "Таратор приказами",
-      "lowMoraleDescription": "В начале хода получает 1 [Vulnerable:`Уязвимость`] и даёт всем союзникам 1 [AttackDmgUp:`Повышение урона`]",
-      "panicDescription": "В начале хода получает 2 [Vulnerable:`Уязвимости`] и даёт всем союзникам 2 [AttackDmgUp:`Повышения урона`]"
+      "lowMoraleDescription": "- Получает 1 [Vulnerable:`Уязвимость`]\n= Даёт всем союзникам 1 [AttackDmgUp:`Повышение урона`]",
+      "panicDescription": "- Получает 2 [Vulnerable:`Уязвимости`]\n- Даёт всем союзникам 2 [AttackDmgUp:`Повышения урона`]"
     }
   ]
 }

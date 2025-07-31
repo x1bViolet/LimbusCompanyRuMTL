@@ -16,7 +16,7 @@
         {
           "level": 1,
           "name": "Удержание",
-          "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] и восстанавливает 5% ОЗ"
+          "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход и восстанавливает 5% ОЗ"
         }
       ]
     },
@@ -337,7 +337,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 3 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] цели на 3 в следующем ходе"
                 }
               ]
             }
@@ -444,7 +444,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 3 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] цели на 3 в следующем ходе"
                 }
               ]
             }
@@ -551,7 +551,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 3 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] цели на 3 в следующем ходе"
                 }
               ]
             }
@@ -616,7 +616,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 5 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] цели на 5 в следующем ходе"
                 }
               ]
             }
@@ -661,7 +661,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 5 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] цели на 5 в следующем ходе"
                 }
               ]
             }
@@ -905,7 +905,7 @@
         {
           "level": 1,
           "name": "Зазубрины",
-          "desc": "[BeforeAttack] Если у цели менее 50% ОЗ, использует первые 2 монеты ещё раз",
+          "desc": "[BeforeAttack] Если ОЗ цели менее 50%, использует первые 2 монеты ещё раз",
           "coinlist": [
             {
               "coindescs": [
@@ -931,7 +931,7 @@
         {
           "level": 1,
           "name": "Изуродовать",
-          "desc": "[EnemyKill] Использует навык ещё 1 раз",
+          "desc": "[EnemyKill] Использует навык ещё 1 раз в этом ходе",
           "coinlist": [
             {
               "coindescs": [
@@ -1071,32 +1071,6 @@
           "desc": "[WinDuel] Сила навыка +1",
           "coinlist": [
             {}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9002201,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            },
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            }
           ]
         }
       ]
@@ -1388,7 +1362,7 @@
         {
           "level": 1,
           "name": "Pañata Party~!",
-          "desc": "[WhenUse] Если СД цели ниже 0, вероятность критического удара повышается",
+          "desc": "[WhenUse] Если СД цели ниже 0, вероятность критического удара повышается на значение отрицательной СД цели (До 45%)",
           "coinlist": [
             {
               "coindescs": [
@@ -1407,7 +1381,7 @@
         {
           "level": 1,
           "name": "¡Excelente!",
-          "desc": "[OnSucceedEvade] Понижает свою границу выносливости на 5 и цель теряет 5 СД",
+          "desc": "[OnSucceedEvade] Атакующий теряет 5 СД, а своя граница выносливости понижается на 5",
           "coinlist": [
             {}
           ]
@@ -1485,7 +1459,7 @@
         {
           "level": 1,
           "name": "Эй!",
-          "desc": "[WinDuel] Противник теряет 15 СД",
+          "desc": "[WinDuel] Цель теряет 15 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1522,7 +1496,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2 в следующем ходе"
                 }
               ]
             }
@@ -1608,7 +1582,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Активация ОЗ пули",
+          "name": "Активация HP пули",
           "desc": "[WhenUse] Восстанавливает 10 ОЗ",
           "coinlist": [
             {}
@@ -1627,7 +1601,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1 в следующем ходе"
                 }
               ]
             }
@@ -1664,35 +1638,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": 9003003,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9003004,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": ""
         }
       ]
     },
@@ -1752,19 +1697,6 @@
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9003203,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {}
           ]
         }
       ]
@@ -1830,21 +1762,6 @@
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9003501,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {},
-            {},
-            {}
           ]
         }
       ]
@@ -1922,20 +1839,6 @@
       ]
     },
     {
-      "id": 9003601,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {},
-            {}
-          ]
-        }
-      ]
-    },
-    {
       "id": 9003602,
       "levelList": [
         {
@@ -1993,7 +1896,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 или более [Nail:`Гвоздей Корп. N`], наносит 10 [Binding:`Связывания`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], наносит 10 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -2016,19 +1919,6 @@
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9003802,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {}
           ]
         }
       ]
@@ -2086,25 +1976,6 @@
       ]
     },
     {
-      "id": 9003902,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {
-              "coindescs": [
-                {
-                  "desc": ""
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 9003903,
       "levelList": [
         {
@@ -2143,7 +2014,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], наносит 10 [Reduction:`Понижений силы атаки`] и 10 [Paralysis:`Параличей`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], наносит ей 10 [Reduction:`Понижений силы атаки`] и 10 [Paralysis:`Параличей`] на следующий ход"
                 }
               ]
             }
@@ -2268,7 +2139,7 @@
         {
           "level": 1,
           "name": "Колющий удар",
-          "desc": "При менее, чем 50% ОЗ, наносит ещё 1 [Nail:`Гвоздь Корп. N`]",
+          "desc": "Если свои ОЗ менее 50%, наносит ещё 1 [Nail:`Гвоздь Корп. N`] монетами",
           "coinlist": [
             {
               "coindescs": [
@@ -2359,7 +2230,7 @@
         {
           "level": 1,
           "name": "Истребить еретиков",
-          "desc": "Если на цели есть [Nail:`Гвозди Корп. N`], на 100% больше урона",
+          "desc": "На 100% больше урона целям с [Nail:`Гвоздями Корп. N`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2621,7 +2492,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] и понижает Уровень защиты цели на 2 в следующем ходе"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход\n[OnSucceedAttack] Понижает Уровень защиты цели на 2 в следующем ходе"
                 }
               ]
             }
@@ -3054,7 +2925,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит фиксированный урон в количестве счётчика [Burst:`Разрыва`] цели"
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный счётчику [Burst:`Разрыва`] цели"
                 }
               ]
             }
@@ -3136,7 +3007,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На 50% меньше урона\nОглушает цель"
+                  "desc": "[OnSucceedAttack] На 50% меньше урона\n[OnSucceedAttack] Оглушает цель"
                 }
               ]
             }
@@ -3168,7 +3039,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве монет, которые наносили удар в течение прошлого хода"
+                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве своих монет, которые нанесли удар в течение прошлого хода"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
@@ -3424,7 +3295,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на первых двух монетах выпал орёл, наносит [Vibration:`Тремор`] в количестве монет, которые наносили удар в течение прошлого хода"
+                  "desc": "[OnSucceedAttack] Если на первых двух монетах выпал орёл, наносит [Vibration:`Тремор`] в количестве своих монет, которые нанесли удар в течение прошлого хода"
                 }
               ]
             }
@@ -3607,7 +3478,7 @@
         {
           "level": 1,
           "name": "Финальный разогрев",
-          "desc": "[StartBattle] Получает 4 [Protection:`Защищённости`]\nВосстанавливает 15 СД",
+          "desc": "[StartBattle] Получает 4 [Protection:`Защищённости`] и восстанавливает 15 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -3814,7 +3685,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [CollapseAmpoule:`Разлагающую ампулу`]\nНаносит 1 [Paralysis:`Паралич`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [CollapseAmpoule:`Разлагающую ампулу`]\n[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"
                 }
               ]
             }
@@ -3827,7 +3698,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Запускаю манёвр уклонения.",
+          "name": "Запуск манёвра уклонения.",
           "desc": "",
           "coinlist": [
             {
@@ -3855,7 +3726,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [CollapseAmpoule:`Разлагающей ампулы`]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [CollapseAmpoule:`Разлагающих ампулы`]"
                 }
               ]
             }
@@ -3889,7 +3760,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 3 [CollapseAmpoule:`Разлагающей ампулы`]"
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [CollapseAmpoule:`Разлагающих ампулы`]"
                 }
               ]
             }
@@ -3903,7 +3774,7 @@
         {
           "level": 1,
           "name": "Продолжаем действовать.",
-          "desc": "[CantDuel]\n[WhenUse] Нацеливается на союзников",
+          "desc": "[CantDuel]\nНацеливается на союзников",
           "coinlist": [
             {
               "coindescs": [
@@ -3922,7 +3793,7 @@
         {
           "level": 1,
           "name": "Не жалеть сил.",
-          "desc": "[CantDuel]\n[WhenUse] Нацеливается на союзников",
+          "desc": "[CantDuel]\nНацеливается на союзников",
           "coinlist": [
             {
               "coindescs": [
@@ -4189,7 +4060,7 @@
         {
           "level": 1,
           "name": "Явная рана",
-          "desc": "[EndBattle] Убирает все [WrappedCurseTag:`Приклеенные обереги проклятия`]",
+          "desc": "[EndBattle] Убирает все [WrappedCurseTag:`Приклеенные обереги проклятия`] с себя",
           "coinlist": [
             {
               "coindescs": [
@@ -4308,7 +4179,7 @@
         {
           "level": 1,
           "name": "Жидкостная защита",
-          "desc": "[WhenUse] Восстанавливает 5% от максимальных ОЗ и получает 2 [Vulnerable:`Уязвимости`] на следующий ход\n[EndBattle] Убирает всё [Tipsiness:`Опьянение`] с себя",
+          "desc": "[WhenUse] Восстанавливает 5% от максимальных ОЗ и получает 2 [Vulnerable:`Уязвимости`] на следующий ход\n[EndBattle] Теряет всё [Tipsiness:`Опьянение`]",
           "coinlist": [
             {
               "coindescs": [
@@ -4346,7 +4217,7 @@
         {
           "level": 1,
           "name": "Дробящее проклятие",
-          "desc": "[WhenUse] Наносит 1 [ReattachedCurseTag:`Переклеенный оберег проклятия`]",
+          "desc": "[WhenUse] Наносит 1 [ReattachedCurseTag:`Переклеенный оберег проклятия`] цели",
           "coinlist": [
             {},
             {
@@ -4386,7 +4257,7 @@
         {
           "level": 1,
           "name": "Парализующее проклятие",
-          "desc": "[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`] с цели",
+          "desc": "[EndBattle] Все [ReattachedCurseTag:`Переклеенные обереги проклятия`] исчезают с цели",
           "coinlist": [
             {},
             {
@@ -4432,7 +4303,7 @@
         {
           "level": 1,
           "name": "Издыхающий оберег проклятия",
-          "desc": "Нацеливается на противника с наибольшим количеством [ReattachedCurseTag:`Переклеенных оберегов проклятия`]\n[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`] с цели",
+          "desc": "Нацеливается на противника с наибольшим количеством [ReattachedCurseTag:`Переклеенных оберегов проклятия`]\n[EndBattle] Все [ReattachedCurseTag:`Переклеенные обереги проклятия`] исчезают с цели",
           "coinlist": [
             {
               "coindescs": [
@@ -4444,7 +4315,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\nНаносит фиксированный урон в размере 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\n[OnSucceedAttack] Наносит фиксированный урон в размере 50% от уже нанесённого"
                 }
               ]
             }
@@ -4477,7 +4348,7 @@
         {
           "level": 1,
           "name": "Издыхающий оберег проклятия",
-          "desc": "Нацеливается на противника с наибольшим количеством [ReattachedCurseTag:`Переклеенных оберегов проклятия`]\n[EndBattle] Убирает все [ReattachedCurseTag:`Переклеенные обереги проклятия`] с цели",
+          "desc": "Нацеливается на противника с наибольшим количеством [ReattachedCurseTag:`Переклеенных оберегов проклятия`]\n[EndBattle] Все [ReattachedCurseTag:`Переклеенные обереги проклятия`] исчезают с цели",
           "coinlist": [
             {
               "coindescs": [
@@ -4489,7 +4360,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\nНаносит фиксированный урон в размере 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackTail] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\n[OnSucceedAttack] Наносит фиксированный урон в размере 50% от уже нанесённого"
                 }
               ]
             }
@@ -4628,7 +4499,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] При 5 и более единицах счётчика [Charge:`Заряда`] полностью тратит его и наносит на 10% больше урона за каждую потраченную единицу"
+                  "desc": "[OnSucceedAttack] Если свой счётчик [Charge:`Заряда`] равен 5 и более, полностью тратит его и наносит на 10% больше урона за каждую потраченную единицу"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [InterlockingTime:`Остановку времени`]"
@@ -4645,7 +4516,7 @@
         {
           "level": 1,
           "name": "Одолженное время",
-          "desc": "[StartBattle] Получает 3 [TimeRental:`Одолженное время`] и повышает свой счётчик [Charge:`Заряда`] на 1",
+          "desc": "[StartBattle] Получает 3 [TimeRental:`Одолженного времи`] и повышает свой счётчик [Charge:`Заряда`] на 1",
           "coinlist": [
             {}
           ]
@@ -4692,7 +4563,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 5 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Цель теряет 5 СД"
+                  "desc": "[OnSucceedAttackHead] Цель теряет ещё 5 СД"
                 }
               ]
             }

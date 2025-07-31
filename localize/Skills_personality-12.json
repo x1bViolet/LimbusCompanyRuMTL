@@ -21,7 +21,7 @@
         {
           "level": 2,
           "name": "Конфронтация",
-          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n<style=\"highlight\">[DefeatDuel] Получает (3 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита, а также 1 [DefenseUp:`Повышение уровня защиты`] на следующий ход</style>",
+          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n<style=\"highlight\">[DefeatDuel] Получает (3 × количество [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита, а также 1 [DefenseUp:`Повышение уровня защиты`] на следующий ход</style>",
           "coinlist": [
             {},
             {
@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Конфронтация",
-          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n[DefeatDuel] Получает (<style=\"highlight\">5</style> × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита, а также <style=\"highlight\">2</style> [DefenseUp:`Повышения уровня защиты`] на следующий ход",
+          "desc": "[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n[DefeatDuel] Получает (<style=\"highlight\">5</style> × количество [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита, а также <style=\"highlight\">2</style> [DefenseUp:`Повышения уровня защиты`] на следующий ход",
           "coinlist": [
             {},
             {
@@ -76,7 +76,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 20% больше урона при 6 и более [DefenseUp:`Повышениях уровня защиты`]"
+                  "desc": "[OnSucceedAttack] На 20% больше урона при 6 и более [DefenseUp:`Повышениях уровня защиты`]"
                 }
               ]
             }
@@ -105,7 +105,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">30%</style> больше урона при 6 и более [DefenseUp:`Повышениях уровня защиты`]"
+                  "desc": "[OnSucceedAttack] На <style=\"highlight\">30%</style> больше урона при 6 и более [DefenseUp:`Повышениях уровня защиты`]"
                 }
               ]
             }
@@ -134,7 +134,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">40%</style> больше урона при 6 и более [DefenseUp:`Повышениях уровня защиты`]"
+                  "desc": "[OnSucceedAttack] На <style=\"highlight\">40%</style> больше урона при 6 и более [DefenseUp:`Повышениях уровня защиты`]"
                 }
               ]
             }
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "Лучшая защита",
-          "desc": "[StartBattle] Получает (2 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита",
+          "desc": "[StartBattle] Получает (2 × количество [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита",
           "coinlist": [
             {}
           ]
@@ -193,7 +193,7 @@
         {
           "level": 4,
           "name": "Лучшая защита",
-          "desc": "[StartBattle] Получает (2 × [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита\n<style=\"highlight\">[WhenUse] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "[StartBattle] Получает (2 × количество [DefenseUp:`Повышений уровня защиты`] на себе) ОЗ Щита\n<style=\"highlight\">[WhenUse] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
           "coinlist": [
             {}
           ]
@@ -319,13 +319,13 @@
             {
               "coindescs": [
                 {
+                  "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
+                },
+                {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
-                },
-                {
-                  "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
                 }
               ]
             }
@@ -349,13 +349,13 @@
             {
               "coindescs": [
                 {
+                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
+                },
+                {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
-                },
-                {
-                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
                 }
               ]
             }
@@ -374,7 +374,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <nobr>на 2</nobr>"
                 }
               ]
             },
@@ -398,7 +398,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <nobr>на 2</nobr>"
                 }
               ]
             },
@@ -425,7 +425,7 @@
         {
           "level": 1,
           "name": "Небольшая передышка?",
-          "desc": "[OnSucceedEvade] Получает 1 [Breath:`Дыхание`] (До 3)",
+          "desc": "[OnSucceedEvade] Получает 1 [Breath:`Дыхание`] (До 3 за ход)",
           "coinlist": [
             {}
           ]
@@ -433,7 +433,7 @@
         {
           "level": 4,
           "name": "Небольшая передышка?",
-          "desc": "[OnSucceedEvade] Получает 1 [Breath:`Дыхание`] (<style=\"highlight\">До 5</style>)",
+          "desc": "[OnSucceedEvade] Получает 1 [Breath:`Дыхание`] (<style=\"highlight\">До 5</style> за ход)",
           "coinlist": [
             {}
           ]
@@ -728,12 +728,12 @@
         {
           "level": 1,
           "name": "Ремиз",
-          "desc": "[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 1",
+          "desc": "[WinDuel] Повышает счётчик [Sinking:`Утопания`] цели на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход при атаке цели с 5 и более [Sinking:`Утопания`]"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Sinking:`Утопания`], получает 1 [Agility:`Спешку`] на следующий ход"
                 }
               ]
             },
@@ -749,12 +749,12 @@
         {
           "level": 2,
           "name": "Ремиз",
-          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До 2)</style>\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] на 1",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До 2)</style>\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] цели на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход при атаке цели с 5 и более [Sinking:`Утопания`]"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Sinking:`Утопания`], получает 1 [Agility:`Спешку`] на следующий ход"
                 }
               ]
             },
@@ -770,12 +770,12 @@
         {
           "level": 4,
           "name": "Ремиз",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]</style>\n[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Sinking:`Утопания`]</style>\n[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До 2)\n[WinDuel] Повышает счётчик [Sinking:`Утопания`] цели <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход при атаке цели с 5 и более [Sinking:`Утопания`]"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Sinking:`Утопания`], получает 1 [Agility:`Спешку`] на следующий ход"
                 }
               ]
             },
@@ -892,7 +892,7 @@
         {
           "level": 1,
           "name": "Жертва во имя семьи",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 50% ОЗ и более получает ещё 15 [Laceration:`Кровотечения`]",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] Если свои ОЗ равны или выше 50%, получает ещё 15 [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -916,7 +916,7 @@
         {
           "level": 2,
           "name": "Жертва во имя семьи",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 50% ОЗ и более получает ещё 15 [Laceration:`Кровотечения`]",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] Если свои ОЗ равны или выше 50%, получает ещё 15 [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -940,7 +940,7 @@
         {
           "level": 4,
           "name": "Жертва во имя семьи",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 50% ОЗ и более получает ещё 15 [Laceration:`Кровотечения`]",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] Если свои ОЗ равны или выше 50%, получает ещё 15 [Laceration:`Кровотечения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -969,7 +969,7 @@
         {
           "level": 1,
           "name": "Удушающая вина",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 5 и более [WornHeartGreg:`Болезненного сердца`] поглощает до 60 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodyHandGregFirst:`Окровавленную руку`] за каждые 6 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] При менее 5 [WornHeartGreg:`Болезненного сердца`] получает 10 [Laceration:`Кровотечения`] и 2 [BloodyHandGregFirst:`Окровавленные руки`]",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 5 и более [WornHeartGreg:`Болезненного сердца`] поглощает до 60 [BloodDinner:`Кровавого пиршества`], чтобы получить 1 [BloodyHandGregFirst:`Окровавленную руку`] за каждые 6 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] При менее чем 5 [WornHeartGreg:`Болезненного сердца`] получает 10 [Laceration:`Кровотечения`] и 2 [BloodyHandGregFirst:`Окровавленные руки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -993,7 +993,7 @@
         {
           "level": 2,
           "name": "Удушающая вина",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 5 и более [WornHeartGreg:`Болезненного сердца`] поглощает до 60 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodyHandGregFirst:`Окровавленную руку`] за каждые 6 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] При менее 5 [WornHeartGreg:`Болезненного сердца`] получает 10 [Laceration:`Кровотечения`] и 2 [BloodyHandGregFirst:`Окровавленные руки`]",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 5 и более [WornHeartGreg:`Болезненного сердца`] поглощает до 60 [BloodDinner:`Кровавого пиршества`], чтобы получить 1 [BloodyHandGregFirst:`Окровавленную руку`] за каждые 6 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] При менее чем 5 [WornHeartGreg:`Болезненного сердца`] получает 10 [Laceration:`Кровотечения`] и 2 [BloodyHandGregFirst:`Окровавленные руки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1017,7 +1017,7 @@
         {
           "level": 4,
           "name": "Удушающая вина",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 5 и более [WornHeartGreg:`Болезненного сердца`] поглощает до 60 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodyHandGregFirst:`Окровавленную руку`] за каждые 6 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] При менее 5 [WornHeartGreg:`Болезненного сердца`] получает 10 [Laceration:`Кровотечения`] и <style=\"highlight\">3</style> [BloodyHandGregFirst:`Окровавленные руки`]",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[WhenUse] При 5 и более [WornHeartGreg:`Болезненного сердца`] поглощает до 60 [BloodDinner:`Кровавого пиршества`], чтобы получить 1 [BloodyHandGregFirst:`Окровавленную руку`] за каждые 6 поглощённого [BloodDinner:`Кровавого пиршества`]\n[WhenUse] При менее чем 5 [WornHeartGreg:`Болезненного сердца`] получает 10 [Laceration:`Кровотечения`] и <style=\"highlight\">3</style> [BloodyHandGregFirst:`Окровавленные руки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1046,7 +1046,7 @@
         {
           "level": 3,
           "name": "Непростительный грех",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 50% от нанесённого урона (До 100 за навык)\n[WhenUse] Наносит на 1% больше урона за каждый 1% потерянных ОЗ (До 60%)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Тратит все [BloodyHandGregFirst:`Окровавленные руки`] свыше 10 и получает следующие эффекты:\n- Восстанавливает (Потраченное количество × 3) ОЗ\n- Если было потрачено 10 и более, Сила монет +1\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[EndSkill] Восстанавливает 10% ОЗ",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 50% от нанесённого урона (До 100 за навык)\n[WhenUse] Наносит на 1% больше урона за каждый 1% потерянных ОЗ (До 60%)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Тратит все [BloodyHandGregFirst:`Окровавленные руки`] свыше 10 и получает следующие эффекты:\n- Восстанавливает (Потраченное количество × 3) ОЗ\n- Если было потрачено 10 и более, Сила монет +1\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -1080,7 +1080,7 @@
         {
           "level": 4,
           "name": "Непростительный грех",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 50% от нанесённого урона (До 100 за навык)\n[WhenUse] Наносит на <style=\"highlight\">1.5%</style> больше урона за каждый 1% потерянных ОЗ (До <style=\"highlight\">90%</style>)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Тратит все [BloodyHandGregFirst:`Окровавленные руки`] свыше 10 и получает следующие эффекты:\n- Восстанавливает (Потраченное количество × 3) ОЗ\n- Если было потрачено 10 и более, Сила монет +1\n<style=\"highlight\">- Если было потрачено 20 и более, снова подкидывает последнюю монету</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[EndSkill] Восстанавливает 10% ОЗ",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 50% от нанесённого урона (До 100 за навык)\n[WhenUse] Наносит на <style=\"highlight\">1.5%</style> больше урона за каждый 1% потерянных ОЗ (До <style=\"highlight\">90%</style>)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Тратит все [BloodyHandGregFirst:`Окровавленные руки`] свыше 10 и получает следующие эффекты:\n- Восстанавливает (Потраченное количество × 3) ОЗ\n- Если было потрачено 10 и более, Сила монет +1\n<style=\"highlight\">- Если было потрачено 20 и более, вновь подкидывает последнюю монету 1 раз</style>\n[WhenUse] Получает 10 [Laceration:`Кровотечения`]\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -1133,7 +1133,7 @@
         {
           "level": 4,
           "name": "Угасшее терпение",
-          "desc": "<style=\"highlight\">[StartBattle] При 40% ОЗ и более получает 5 [Laceration:`Кровотечения`] и активирует его на себе до 3 раз (Единожды за ход; теряет счётчик [Laceration:`Кровотечения`] в количестве его активаций)\n[StartBattle] При менее чем 40% ОЗ поглощает до 20 [BloodDinner:`Кровавого пиршества`] и восстанавливает такое же количество ОЗ (Единожды за ход)</style>\n[StartBattle] Получает 3 [WornHeartGreg:`Болезненного сердца`] (Единожды за ход)",
+          "desc": "<style=\"highlight\">[StartBattle] При 40% ОЗ и более получает 5 [Laceration:`Кровотечения`] и активирует его на себе до 3 раз (Единожды за ход; теряет счётчик [Laceration:`Кровотечения`] в количестве его активаций)\n[StartBattle] При менее чем 40% ОЗ поглощает до 20 [BloodDinner:`Кровавого пиршества`] и восстанавливает столько же ОЗ (Единожды за ход)</style>\n[StartBattle] Получает 3 [WornHeartGreg:`Болезненного сердца`] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1220,7 +1220,7 @@
         {
           "level": 1,
           "name": "Я сожгу всю твою грязную кровь до последней капли",
-          "desc": "Сила монет +1 против целей с 6 и более [Combustion:`Огня`]\nКогда [FirePunchFuelOverheated:`Топливо перегрето`], на 10% больше урона монетами, которые его тратят",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:`Огня`]\nНа 10% больше урона, если [FirePunchFuelOverheated:`Топливо перегрето`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1247,7 +1247,7 @@
         {
           "level": 2,
           "name": "Я сожгу всю твою грязную кровь до последней капли",
-          "desc": "Сила монет +1 против целей с 6 и более [Combustion:`Огня`]\n<style=\"highlight\">Монеты, которые тратят [FirePunchFuel:`Топливо 12-го Района`], наносят на 10% больше урона\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`] на 20% больше урона вместо этого</style>",
+          "desc": "Сила монет +1 против целей с 6 и более [Combustion:`Огня`]\n<style=\"highlight\">Монеты, которые тратят [FirePunchFuel:`Топливо 12-го Района`], наносят на 10% больше урона\n- Если [FirePunchFuelOverheated:`Топливо перегрето`], на 20% больше урона вместо этого</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1274,7 +1274,7 @@
         {
           "level": 4,
           "name": "Я сожгу всю твою грязную кровь до последней капли",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Combustion:`Огня`]</style> на цели <style=\"highlight\">(До 2)</style>\nМонеты, которые тратят [FirePunchFuel:`Топливо 12-го Района`], наносят на <style=\"highlight\">15%</style> больше урона\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`] на <style=\"highlight\">30%</style> больше урона вместо этого",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6 [Combustion:`Огня`]</style> на цели <style=\"highlight\">(До 2)</style>\nМонеты, которые тратят [FirePunchFuel:`Топливо 12-го Района`], наносят на <style=\"highlight\">15%</style> больше урона\n- Если [FirePunchFuelOverheated:`Топливо перегрето`], на <style=\"highlight\">30%</style> больше урона вместо этого",
           "coinlist": [
             {
               "coindescs": [
@@ -1306,7 +1306,7 @@
         {
           "level": 3,
           "name": "Огненный кулак",
-          "desc": "Сила монет +1 против целей с счётчиком [Combustion:`Огня`] 3 и более\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:`Огня`] на цели (До 2)\n[WhenUse] Тратит до 25 [FirePunchFuel:`Топлива 12-го Района`] и наносит на 1% больше урона за каждую потраченную навыком единицу (До 25%)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], наносит на 3% больше урона за каждую потраченную навыком единицу вместо этого (До 75%)\n[EndSkill] Если цель убита, или же этот навык потратил [FirePunchFuel:`Топливо 12-го Района`], получает 1 [HitDamageUp:`Повышение Дробящего урона`] на следующий ход",
+          "desc": "Сила монет +1 против целей с 3 и более единицами счётчика [Combustion:`Огня`]\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:`Огня`] на цели <nobr>(До 2)</nobr>\n[WhenUse] Тратит до 25 [FirePunchFuel:`Топлива 12-го Района`] и наносит на 1% больше урона за каждую потраченную навыком единицу (До 25%)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], наносит на 3% больше урона за каждую потраченную навыком единицу вместо этого (До 75%)\n[EndSkill] Если цель убита, или же этот навык потратил [FirePunchFuel:`Топливо 12-го Района`], получает 1 [HitDamageUp:`Повышение Дробящего урона`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1325,7 +1325,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На 1% больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] (До 25%)\nКогда [FirePunchFuelOverheated:`Топливо перегрето`], на 3% больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] вместо этого (До 75%)"
+                  "desc": "[OnSucceedAttack] На 1% больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] (До 25%)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], на 3% больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] вместо этого (До 75%)"
                 }
               ]
             }
@@ -1334,7 +1334,7 @@
         {
           "level": 4,
           "name": "Огненный кулак",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 3 единицы счётчика [Combustion:`Огня`]</style> цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:`Огня`] на цели (<style=\"highlight\">До 3</style>)\n[WhenUse] Тратит до 25 [FirePunchFuel:`Топлива 12-го Района`] и наносит на <style=\"highlight\">2%</style> больше урона за каждую потраченную навыком единицу (До <style=\"highlight\">50%</style>)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], наносит на <style=\"highlight\">4%</style> больше урона за каждую потраченную навыком единицу вместо этого (До <style=\"highlight\">100%</style>)\n[EndSkill] Если цель убита, или же этот навык потратил [FirePunchFuel:`Топливо 12-го Района`], получает <style=\"highlight\">2</style> [HitDamageUp:`Повышения Дробящего урона`] на следующий ход",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 3 единицы счётчика [Combustion:`Огня`]</style> цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Базовая сила +1 за каждые 6 [Combustion:`Огня`] на цели <nobr>(<style=\"highlight\">До 3</style>)</nobr>\n[WhenUse] Тратит до 25 [FirePunchFuel:`Топлива 12-го Района`] и наносит на <style=\"highlight\">2%</style> больше урона за каждую потраченную навыком единицу (До <style=\"highlight\">50%</style>)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], наносит на <style=\"highlight\">4%</style> больше урона за каждую потраченную навыком единицу вместо этого (До <style=\"highlight\">100%</style>)\n[EndSkill] Если цель убита, или же этот навык потратил [FirePunchFuel:`Топливо 12-го Района`], получает <style=\"highlight\">2</style> [HitDamageUp:`Повышения Дробящего урона`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1353,7 +1353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На <style=\"highlight\">2%</style> больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] (До <style=\"highlight\">50%</style>)\nКогда [FirePunchFuelOverheated:`Топливо перегрето`], на <style=\"highlight\">4%</style> больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] вместо этого (До <style=\"highlight\">100%</style>)"
+                  "desc": "[OnSucceedAttack] На <style=\"highlight\">2%</style> больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] (До <style=\"highlight\">50%</style>)\n- Когда [FirePunchFuelOverheated:`Топливо перегрето`], на <style=\"highlight\">4%</style> больше урона за каждую потраченную навыком единицу [FirePunchFuel:`Топлива 12-го Района`] вместо этого (До <style=\"highlight\">100%</style>)"
                 }
               ]
             }
@@ -1421,7 +1421,7 @@
         {
           "level": 2,
           "name": "Змеиный клык",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1433,7 +1433,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], повышает счётчик [Burst:`Разрыва`] на 1</style>"
@@ -1445,19 +1445,19 @@
         {
           "level": 4,
           "name": "Змеиный клык",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Если есть [SnakeStance:`Змеиная рука`], повышает счётчик [Burst:`Разрыва`] на 1"
@@ -1505,19 +1505,19 @@
         {
           "level": 2,
           "name": "Резкое рассечение",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 1\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 1\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
@@ -1527,10 +1527,10 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету 1 раз</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1539,32 +1539,32 @@
         {
           "level": 4,
           "name": "Резкое рассечение",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели <style=\"highlight\">на 2</style>\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели <style=\"highlight\">на 2</style>\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету (Единожды за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету 1 раз"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
@@ -1581,15 +1581,15 @@
         {
           "level": 3,
           "name": "Пронзание змееголовой рукой",
-          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука`], Сила монет +1 за каждые 5 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели вместо этого (До 6)\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука`], Сила монет +1 за каждые 5 единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели вместо этого <nobr>(До 6)</nobr>\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "На 5% больше урона за каждую единицу в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До 150%)"
+                  "desc": "На 5% больше урона за каждую единицу в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели (До 150%)"
                 },
                 {
-                  "desc": "Если есть [SnakeStance:`Змеиная рука`], наносит на 75% больше урона при критическом попадании"
+                  "desc": "Если есть [SnakeStance:`Змеиная рука`], на 75% больше урона при критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2"
@@ -1607,27 +1607,27 @@
         {
           "level": 4,
           "name": "Пронзание змееголовой рукой",
-          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука`], Сила монет +1 за каждые 5 единиц в сумме своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели вместо этого (До 6)\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
+          "desc": "[WhenUse] Сила монет +1 за каждые 8 единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели (До 4)\n- Если уже есть [SnakeStance:`Змеиная рука`], Сила монет +1 за каждые 5 единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели вместо этого <nobr>(До 6)</nobr>\n[WhenUse] Получает 3 [SnakeStance:`Змеиной руки`]\n[WinDuel] Получает 5 [Breath:`Дыхания`], если на цели 5 и более [Burst:`Разрывов`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">10%</style> больше урона за каждую единицу в сумме своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели (До <style=\"highlight\">200%</style>)"
+                  "desc": "На <style=\"highlight\">10%</style> больше урона за каждую единицу в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели (До <style=\"highlight\">200%</style>)"
                 },
                 {
-                  "desc": "Если есть [SnakeStance:`Змеиная рука`], наносит на <style=\"highlight\">100%</style> больше урона при критическом попадании"
+                  "desc": "Если есть [SnakeStance:`Змеиная рука`], на <style=\"highlight\">100%</style> больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 3<style=\"highlight\"></style>"
+                  "desc": "[CriticalOnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 3"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1646,7 +1646,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             }
@@ -1655,12 +1655,12 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более единицах своего счётчика [Breath:`Дыхания`]</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свой счётчик [Breath:`Дыхания`] равен 10 и более</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монета`]<style=\"highlight\"></style>"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             }

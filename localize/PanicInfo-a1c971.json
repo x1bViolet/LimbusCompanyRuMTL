@@ -3,8 +3,8 @@
     {
       "id": 1036,
       "panicName": "Страдание",
-      "lowMoraleDescription": "В начале хода получает 1 [Vulnerable:`Уязвимость`] и 2 [MentalIncreaseDown:`Понижения восстановления СД`]",
-      "panicDescription": "В начале хода получает 2 [Vulnerable:`Уязвимости`] и 3 [MentalIncreaseDown:`Понижения восстановления СД`]"
+      "lowMoraleDescription": "Получает 1 [Vulnerable:`Уязвимость`] и 2 [MentalIncreaseDown:`Понижения восстановления СД`]",
+      "panicDescription": "Получает 2 [Vulnerable:`Уязвимости`] и 3 [MentalIncreaseDown:`Понижения восстановления СД`]"
     }
   ]
 }

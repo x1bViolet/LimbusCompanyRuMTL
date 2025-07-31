@@ -115,14 +115,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечение`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечение`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -296,7 +296,7 @@
                   "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -310,7 +310,7 @@
         {
           "level": 1,
           "name": "Перезарядка зажигательных патронов",
-          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
+          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
           "coinlist": [
             {
               "coindescs": [
@@ -392,7 +392,7 @@
                   "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`] и повышает его счётчик на 2,"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`] и повышает его счётчик на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и повышает его счётчик на 2"
@@ -411,7 +411,7 @@
                   "desc": "Тратит 1 [BudgetBulletPropellant:`Зажигательный патрон`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик цели на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -425,7 +425,7 @@
         {
           "level": 1,
           "name": "Перезарядка зажигательных патронов",
-          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
+          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
           "coinlist": [
             {
               "coindescs": [

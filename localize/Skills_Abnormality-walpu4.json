@@ -222,7 +222,7 @@
         {
           "level": 1,
           "name": "Непостижимое",
-          "desc": "[WhenUse] Получите 2 [Protection:`Защищённости`]",
+          "desc": "[WhenUse] Получает 2 [Protection:`Защищённости`]",
           "coinlist": [
             {
               "coindescs": [
