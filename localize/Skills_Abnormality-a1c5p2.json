@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дробящий урон +3"
+                  "desc": "[OnSucceedAttack] Наносит ещё 3 Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дробящий урон +3"
+                  "desc": "[OnSucceedAttack] Наносит ещё 3 Дробящего урона"
                 }
               ]
             },
@@ -44,14 +44,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дробящий урон +5"
+                  "desc": "[OnSucceedAttack] Наносит ещё 5 Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дробящий урон +5"
+                  "desc": "[OnSucceedAttack] Наносит ещё 5 Дробящего урона"
                 }
               ]
             },
@@ -130,7 +130,7 @@
         {
           "level": 1,
           "name": "Прикрывайте спины!",
-          "desc": "Если у цели менее 0 СД, Cила монет +3",
+          "desc": "Cила монет +3, если СД цели ниже 0",
           "coinlist": [
             {
               "coindescs": [
@@ -197,7 +197,7 @@
         {
           "level": 1,
           "name": "МОИ ПАРИКМАХЕРСКИЕ КУПОООООООООООНЫ!!!",
-          "desc": "Если у главной цели менее 0 СД, Итоговая сила +5",
+          "desc": "Итоговая сила +5, если СД главной цели ниже 0",
           "coinlist": [
             {
               "coindescs": [

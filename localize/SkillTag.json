@@ -21,56 +21,16 @@
       "name": "<color=#93f03f>[Во время столкновения]</color>"
     },
     {
-      "id": "nxPostLine",
-      "name": "[{n} в авангарде]"
-    },
-    {
-      "id": "nxCenterLine",
-      "name": "[{n} в центре]"
-    },
-    {
-      "id": "nxBackLine",
-      "name": "[{n} в арьергарде]"
-    },
-    {
       "id": "CantIdentify",
       "name": "[Неуправляемый]"
     },
     {
       "id": "CRIMSON",
-      "name": "Багровый"
+      "name": "<color=#fe0000>[</color>"
     },
     {
       "id": "SCARLET",
-      "name": "Алый"
-    },
-    {
-      "id": "AMBER",
-      "name": "Янтарный"
-    },
-    {
-      "id": "SHAMROCK",
-      "name": "Клеверный"
-    },
-    {
-      "id": "AZURE",
-      "name": "Лазурный"
-    },
-    {
-      "id": "INDIGO",
-      "name": "Индиго"
-    },
-    {
-      "id": "VIOLET",
-      "name": "Фиолет"
-    },
-    {
-      "id": "WHITE",
-      "name": "Белый"
-    },
-    {
-      "id": "BLACK",
-      "name": "Чёрный"
+      "name": "<color=#fe0000>]</color>"
     },
     {
       "id": "EndSkill",
@@ -242,7 +202,7 @@
     },
     {
       "id": "UnBrokenCoinOnSucceedAttack",
-      "name": "[При попадании целой монетой]"
+      "name": "[При ударе целой монетой]"
     },
     {
       "id": "BeforeHit",
@@ -254,11 +214,15 @@
     },
     {
       "id": "ReUseOnSucceedAttack",
-      "name": "[Повтор, при попадании]"
+      "name": "[Повтор, при ударе]"
     },
     {
       "id": "TabExplain",
       "name": ""
+    },
+    {
+      "id": "OnStartCoin",
+      "name": "[Начало монеты]"
     }
   ]
 }

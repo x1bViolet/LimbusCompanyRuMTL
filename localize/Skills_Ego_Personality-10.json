@@ -15,7 +15,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ 10% от их максимальных ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 10% от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ"
                 }
               ]
             }
@@ -25,7 +25,7 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее 50% ОЗ</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1, если свои ОЗ ниже 50%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -33,7 +33,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ <style=\"highlight\">12%</style> от максимальных ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">12%</style> от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ"
                 }
               ]
             }
@@ -43,7 +43,7 @@
           "level": 4,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее 50% ОЗ",
+          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+2</style>, если свои ОЗ ниже 50%",
           "coinlist": [
             {
               "coindescs": [
@@ -51,7 +51,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает двум союзникам с наименьшим процентом ОЗ <style=\"highlight\">15%</style> от максимальных ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">15%</style> от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ"
                 }
               ]
             }
@@ -84,7 +84,7 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при менее чем 50% ОЗ</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n<style=\"highlight\">[BeforeAttack] Количество целей +1, если свои ОЗ ниже 50%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -105,7 +105,7 @@
           "level": 4,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style> при менее чем 50% ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style>, если свои ОЗ ниже 50%",
           "coinlist": [
             {
               "coindescs": [
@@ -136,7 +136,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит 4 [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит ей 4 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
@@ -149,12 +149,12 @@
           "level": 3,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 4 и более грехах в резонансе Похоти</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 4 [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит ей 4 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
@@ -167,18 +167,18 @@
           "level": 4,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха\n<style=\"highlight\">- Количество целей повышается ещё на 1 при наибольшем абсолютном резонансе Похоти в 4 и более греха</style>",
+          "desc": "[BeforeAttack] Количество целей повышается на 1 при 4 и более грехах в резонансе Похоти\n<style=\"highlight\">- Количество целей повышается ещё на 1, если наибольшим абсолютным резонансом является резонанс Похоти из 4 и более грехов</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 4 [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит ей 4 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит 1 [Reduction:`Понижение силы атаки`] и 1 [Disarming:`Понижение силы защиты`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей 1 [Reduction:`Понижение силы атаки`] и 1 [Disarming:`Понижение силы защиты`] на следующий ход</style>"
                 }
               ]
             }
@@ -198,7 +198,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит 6 [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит ей 6 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
@@ -211,18 +211,18 @@
           "level": 3,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 4 и более грехах в резонансе Похоти</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 6 [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит ей 6 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход</style>"
                 }
               ]
             }
@@ -232,18 +232,18 @@
           "level": 4,
           "name": "Завет, 9:2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +1 при резонансе Похоти в 4 и более греха\n<style=\"highlight\">- Количество целей повышается ещё на 1 при наибольшем абсолютном резонансе Похоти в 4 и более греха</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на 1 при 4 и более грехах в резонансе Похоти\n<style=\"highlight\">- Количество целей повышается ещё на 1, если наибольшим абсолютным резонансом является резонанс Похоти из 4 и более грехов</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на целях нет [Combustion:`Огня`], наносит 6 [Combustion:`Огня`]"
+                  "desc": "[OnSucceedAttack] Если на цели нет [Combustion:`Огня`], наносит ей 6 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход"
                 }
               ]
             }
@@ -263,7 +263,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт ОЗ Щита себе и союзнику с наименьшими ОЗ в размере 10% от своих максимальных ОЗ, а также и 2 [ShieldManagerCryingToad:`Слезинки`]"
+                  "desc": "[EndSkill] Даёт ОЗ Щита себе и союзнику с наименьшими текущими ОЗ в размере 10% от своих максимальных ОЗ, а также 2 [ShieldManagerCryingToad:`Слезинки`]"
                 },
                 {
                   "desc": "- Если в наибольшем резонансе 4 и более греха, ещё 1 союзник получает ОЗ Щита и [ShieldManagerCryingToad:`Слезинку`] "
@@ -272,7 +272,7 @@
                   "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если наибольшим абсолютным резонансом является резонанс Уныния из 4 и более грехов, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -282,18 +282,18 @@
           "level": 3,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">+(Число грехов в наибольшем резонансе - 2) (До 2)</style>",
+          "desc": "[BeforeAttack] Количество целей <style=\"highlight\">повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт ОЗ Щита себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> союзникам с наименьшими ОЗ в размере <style=\"highlight\">14%</style> от своих максимальных ОЗ, а также 2 [ShieldManagerCryingToad:`Слезинки`] <style=\"highlight\">(До 3 других союзников)</style>"
+                  "desc": "[EndSkill] Даёт ОЗ Щита себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> союзникам с наименьшими текущими ОЗ в размере <style=\"highlight\">14%</style> от своих максимальных ОЗ, а также 2 [ShieldManagerCryingToad:`Слезинки`] <style=\"highlight\">(До 3 других союзников получают [ShieldManagerCryingToad:`Слезинку`])</style>"
                 },
                 {
-                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2<style=\"highlight\"></style>"
+                  "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если наибольшим абсолютным резонансом является резонанс Уныния из 4 и более грехов, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -303,18 +303,18 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт себе и (1 + (Число грехов в наибольшем резонансе - 2)) союзникам с наименьшими ОЗ Щит на <style=\"highlight\">20%</style> от своих максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 3 других союзников)"
+                  "desc": "[EndSkill] Даёт ОЗ Щита себе и (1 + (Число грехов в наибольшем резонансе - 2)) союзникам с наименьшими текущими ОЗ в размере <style=\"highlight\">20%</style> от своих максимальных ОЗ, а также 2 [ShieldManagerCryingToad:`Слезинки`] (До 3 других союзников получают [ShieldManagerCryingToad:`Слезинку`])"
                 },
                 {
                   "desc": "- Если на союзнике уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если наибольшим абсолютным резонансом является резонанс Уныния из 4 и более грехов, даёт 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -337,13 +337,13 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] Получает щит на (15 + (Число грехов в наибольшем резонансе × 2.5))% от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До 25%)"
+                  "desc": "[EndSkill] Получает ОЗ Щита в размере (15 + (Число грехов в наибольшем резонансе × 2.5))% от своих максимальных ОЗ (До 25%), а также 2 [ShieldManagerCryingToad:`Слезинки`]"
                 },
                 {
                   "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2 "
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если наибольшим абсолютным резонансом является резонанс Уныния из 4 и более грехов, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -353,7 +353,7 @@
           "level": 3,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей <style=\"highlight\">+(Число грехов в наибольшем резонансе - 2) (До 2)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей <style=\"highlight\">повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)</style>\n[BeforeAttack] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -361,13 +361,13 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] Получает щит на (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">30%</style>)"
+                  "desc": "[EndSkill] Получает ОЗ Щита в размере (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>))% от своих максимальных ОЗ (До <style=\"highlight\">30%</style>), а также 2 [ShieldManagerCryingToad:`Слезинки`]"
                 },
                 {
                   "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Если наибольшим абсолютным резонансом является резонанс Уныния из 4 и более грехов, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 }
               ]
             }
@@ -377,7 +377,7 @@
           "level": 4,
           "name": "Гулкий плач",
           "abName": "Плачущая жаба",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей +(Число грехов в наибольшем резонансе - 2) (До 2)\n[BeforeAttack] Этот слот получает 10 [Aggro:`Провокаций`] на следующий ход<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)\n[BeforeAttack] Этот слот получает 10 [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -385,16 +385,16 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] <style=\"highlight\">и повышает его счётчик на 3</style>"
                 },
                 {
-                  "desc": "[EndSkill] Получает щит на (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>)) от максимальных ОЗ и 2 [ShieldManagerCryingToad:`Слезинки`] (До <style=\"highlight\">40%</style>)"
+                  "desc": "[EndSkill] Получает ОЗ Щита в размере (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>))% от своих максимальных ОЗ (До <style=\"highlight\">40%</style>), а также 2 [ShieldManagerCryingToad:`Слезинки`]"
                 },
                 {
                   "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], обновляет её значение на 2"
                 },
                 {
-                  "desc": "- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
+                  "desc": "- Усли наибольшим абсолютным резонансом является резонанс Уныния из 4 и более грехов, получает 3 [ShieldManagerCryingToad:`Слезинки`] вместо 2"
                 },
                 {
-                  "desc": "<style=\"highlight\">- Если в наибольшем абсолютном резонансе Уныния 4 и более греха, получает ОЗ Щита ещё на 10% от максимальных ОЗ</style>"
+                  "desc": "<style=\"highlight\">- Усли в резонансе Уныния 4 и более греха, получает ОЗ Щита ещё на 10% от своих максимальных ОЗ</style>"
                 }
               ]
             }
@@ -434,19 +434,19 @@
           "level": 3,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 4 и более грехах в резонансе Зависти с этим навыком</style>\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1 при 4 и более грехах в резонансе Зависти, включающем этот навык</style>\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 негативных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые 3 негативных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
@@ -462,12 +462,12 @@
           "level": 4,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[BeforeAttack] Количество целей повышается на 1 <style=\"highlight\">за каждые 3</style> греха в резонансе Зависти с этим навыком (До 2)\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
+          "desc": "[BeforeAttack] Количество целей +1 <style=\"highlight\">за каждые 3</style> греха в резонансе Зависти, включающем этот навык (До 2 дополнительных целей)\n[EndSkill] Если на цели есть [Curse:`Проклятие`], активирует его дважды и уменьшает на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
@@ -477,7 +477,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]\n- Наносит ещё 1 [Curse:`Проклятие`] за каждые <style=\"highlight\">2</style> негативных эффекта на цели, не являющихся [Curse:`Проклятием`] или [NailPersonality:`Гвоздями`] (До 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`], если на цели 4 и более [Curse:`Проклятия`] (Единожды за ход)</style>"
@@ -535,7 +535,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
@@ -556,20 +556,20 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 3 [Laceration:`Кровотечения`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 3 [NailPersonality:`Гвоздя`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`] при 4 и более грехах в резонансе Зависти с этим навыком (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`] при 4 и более грехах в резонансе Зависти, включающем этот навык (Единожды за ход)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"
@@ -590,7 +590,7 @@
           "level": 1,
           "name": "Слёзы осквернённой крови",
           "abName": "Иньлун",
-          "desc": "[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`], равную числу грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -605,10 +605,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если 30% ОЗ и менее, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если свои ОЗ равны или ниже 30%, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои оставшиеся ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
                 }
               ]
             }
@@ -618,7 +618,7 @@
           "level": 3,
           "name": "Слёзы осквернённой крови",
           "abName": "Иньлун",
-          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более [YesdragonSelf:`Иглы для похорон цветов`]</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более [YesdragonSelf:`Иглы для похорон цветов`]</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`], равную числу грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -633,10 +633,10 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если 30% ОЗ и менее, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если свои ОЗ равны или ниже 30%, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои оставшиеся ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
                 }
               ]
             }
@@ -646,7 +646,7 @@
           "level": 4,
           "name": "Слёзы осквернённой крови",
           "abName": "Иньлун",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6</style> [YesdragonSelf:`Иглы для похорон цветов`] <style=\"highlight\">(До 3)</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 6</style> [YesdragonSelf:`Иглы для похорон цветов`] <style=\"highlight\"><nobr>(До 3)</nobr></style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`], равную числу грехов в резонансе Чревоугодия (До 5)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -664,10 +664,10 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если 30% ОЗ и менее, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если свои ОЗ равны или ниже 30%, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои оставшиеся ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
                 }
               ]
             }
@@ -682,7 +682,7 @@
           "level": 1,
           "name": "Слёзы осквернённой крови",
           "abName": "Иньлун",
-          "desc": "[CantIdentify]\nСлучайная цель\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве (Число грехов в резонансе Чревоугодия + 4) (До 10)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
+          "desc": "[CantIdentify]\nСлучайная цель\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве (Число грехов в резонансе Чревоугодия + 4) <nobr>(До 10)</nobr>\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
           "coinlist": [
             {
               "coindescs": [
@@ -697,10 +697,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если 30% ОЗ и менее, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если свои ОЗ равны или ниже 30%, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои оставшиеся ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
                 }
               ]
             }
@@ -710,7 +710,7 @@
           "level": 3,
           "name": "Слёзы осквернённой крови",
           "abName": "Иньлун",
-          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Базовая сила +1 при 10 и более [YesdragonSelf:`Иглы для похорон цветов`]</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве (Число грехов в резонансе Чревоугодия + 4) (До 10)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">Базовая сила +1 при 10 и более [YesdragonSelf:`Иглы для похорон цветов`]</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве (Число грехов в резонансе Чревоугодия + 4) <nobr>(До 10)</nobr>\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
           "coinlist": [
             {
               "coindescs": [
@@ -725,10 +725,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если 30% ОЗ и менее, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если свои ОЗ равны или ниже 30%, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои оставшиеся ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
                 }
               ]
             }
@@ -738,7 +738,7 @@
           "level": 4,
           "name": "Слёзы осквернённой крови",
           "abName": "Иньлун",
-          "desc": "[CantIdentify]\nСлучайная цель\nБазовая сила +1 <style=\"highlight\">за каждые 10</style> [YesdragonSelf:`Иглы для похорон цветов`] <style=\"highlight\">(До 2)</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве (Число грехов в резонансе Чревоугодия + 4) (До 10)\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
+          "desc": "[CantIdentify]\nСлучайная цель\nБазовая сила +1 <style=\"highlight\">за каждые 10</style> [YesdragonSelf:`Иглы для похорон цветов`] <style=\"highlight\">(До 2)</style>\n[StartBattle] Получает [YesdragonNodie:`Отвержение`]\n[BeforeAttack] Получает [YesdragonSelf:`Иглу для похорон цветов`] в количестве (Число грехов в резонансе Чревоугодия + 4) <nobr>(До 10)</nobr>\n[BeforeAttack] Теряет ОЗ в количестве (Значение [YesdragonSelf:`Иглы для похорон цветов`] × 2)\n- Не может быть оглушён этого урона, вместо этого граница выносливости исчезает",
           "coinlist": [
             {
               "coindescs": [
@@ -756,10 +756,10 @@
                   "desc": "<style=\"highlight\">На 1% больше урона за каждые 2% потерянных ОЗ (До 40%)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если 30% ОЗ и менее, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если свои ОЗ равны или ниже 30%, или же значение [YesdragonSelf:`Иглы для похорон цветов`] достигло 20, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои оставшиеся ОЗ, чтобы нанести на 20% больше урона этой монетой (Единожды за ход)"
                 }
               ]
             }

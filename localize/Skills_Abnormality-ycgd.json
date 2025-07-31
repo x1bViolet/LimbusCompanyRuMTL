@@ -162,7 +162,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Наносит 2 [Sinking:`Утопания`] на атакующего",
+          "desc": "[OnSucceedEvade] Наносит 2 [Sinking:`Утопания`] атакующему",
           "coinlist": [
             {
               "coindescs": [

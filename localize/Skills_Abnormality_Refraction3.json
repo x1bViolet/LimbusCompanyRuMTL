@@ -125,7 +125,7 @@
         {
           "level": 1,
           "name": "Рассеивающий ветер",
-          "desc": "[OnSucceedEvade] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1 ",
+          "desc": "[OnSucceedEvade] Наносит атакующему 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1 ",
           "coinlist": [
             {
               "coindescs": [

@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "Мольбы",
-          "desc": "[OnSucceedEvade] Повышает счётчик [Burst:`Разрыва`] на 2 (До 2 раз за ход)",
+          "desc": "[OnSucceedEvade] Повышает счётчик [Burst:`Разрыва`] атакующему на 2 (До 2 раз за ход)",
           "coinlist": [
             {}
           ]
@@ -789,7 +789,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] и повышает его счётчик на 3"
@@ -802,7 +802,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Убирает все [OminousTalisman:`Предзнаменующие талисманы`] с цели"

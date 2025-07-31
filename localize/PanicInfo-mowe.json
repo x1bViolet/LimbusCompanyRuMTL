@@ -3,8 +3,8 @@
     {
       "id": 1025,
       "panicName": "Гнетущая жажда крови",
-      "lowMoraleDescription": "В начале хода получает 1 [Vulnerable:`Уязвимость`] и 1 [AttackDmgUp:`Повышение урона`]",
-      "panicDescription": "В начале хода получает 2 [Vulnerable:`Уязвимости`] и 2 [AttackDmgUp:`Повышения урона`]"
+      "lowMoraleDescription": "Получает 1 [Vulnerable:`Уязвимость`] и 1 [AttackDmgUp:`Повышение урона`]",
+      "panicDescription": "Получает 2 [Vulnerable:`Уязвимости`] и 2 [AttackDmgUp:`Повышения урона`]"
     }
   ]
 }

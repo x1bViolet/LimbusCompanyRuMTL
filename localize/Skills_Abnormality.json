@@ -86,7 +86,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 3 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] цели на 3 в следующем ходе"
                 }
               ]
             }
@@ -291,7 +291,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 3 в следующем ходе"
                 }
               ]
             }
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] цели на 1 в следующем ходе"
                 }
               ]
             }
@@ -369,7 +369,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] цели на 1 в следующем ходе"
                 }
               ]
             }
@@ -388,10 +388,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] и [Combustion:`Огня`] цели на 1 в следующем ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:`Огня`] на 1 на следующий ход"
+                  "desc": ""
                 }
               ]
             }
@@ -411,10 +411,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] на 1 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] и [Combustion:`Огня`] цели на 1 в следующем ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Combustion:`Огня`] на 1 на следующий ход"
+                  "desc": ""
                 }
               ]
             }
@@ -506,7 +506,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 3 в следующем ходе"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`] на следующий ход"
@@ -560,7 +560,7 @@
         {
           "level": 1,
           "name": "Работаем упорно!",
-          "desc": "[WhenUse] Тратит 10 ОЗ, чтобы повысить Силу навыка на 1",
+          "desc": "[WhenUse] Теряет 10 ОЗ, чтобы повысить Силу навыка на 1",
           "coinlist": [
             {}
           ]
@@ -600,7 +600,7 @@
         {
           "level": 1,
           "name": "Усерднее!",
-          "desc": "[WhenUse] Тратит 10 ОЗ, чтобы повысить Силу навыка на 1",
+          "desc": "[WhenUse] Теряет 10 ОЗ, чтобы повысить Силу навыка на 1",
           "coinlist": [
             {},
             {},
@@ -1144,7 +1144,7 @@
         {
           "level": 1,
           "name": "Несовершенная имитация",
-          "desc": "Копирует силу и количество монет навыка, от которого получил урон\n[WhenUse] Наносит 10 урона по СД",
+          "desc": "Имитирует силу и количество монет навыка, от которого получил урон\n[WhenUse] Наносит 10 урона по СД цели",
           "coinlist": [
             {
               "coindescs": [
@@ -1324,10 +1324,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 6 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 6 в следующем ходе"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 6 на следующий ход"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на 6 в следующем ходе"
                 }
               ]
             }
@@ -1451,7 +1451,7 @@
         {
           "level": 1,
           "name": "Покачивающиеся руки",
-          "desc": "Сила навыка -1 за каждую сломанную Руку",
+          "desc": "Сила навыка -1 за каждую повреждённую Руку",
           "coinlist": [
             {
               "coindescs": [
@@ -1516,7 +1516,7 @@
         {
           "level": 1,
           "name": "Мучения от боли",
-          "desc": "[WhenUse] Теряет 12 ОЗ\nПолучает 5 [Laceration:`Кровотечения`] на следующий ход",
+          "desc": "[WhenUse] Теряет 12 ОЗ и получает 5 [Laceration:`Кровотечения`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1549,7 +1549,7 @@
         {
           "level": 1,
           "name": "Агония от боли",
-          "desc": "[WhenUse] Теряет 12 ОЗ\nПовышает свой счётчик [Laceration:`Кровотечения`] на 3 на следующий ход",
+          "desc": "[WhenUse] Теряет 12 ОЗ и свой счётчик [Laceration:`Кровотечения`] повышается на 3 в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
@@ -1565,19 +1565,6 @@
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 802901,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {}
           ]
         }
       ]
@@ -1679,7 +1666,7 @@
         {
           "level": 1,
           "name": "Очищение",
-          "desc": "[WhenUse] Сила навыка +2, если ОЗ цели ниже 30%",
+          "desc": "[WhenUse] Если ОЗ цели ниже 30%, Сила навыка +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1705,7 +1692,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], она оглушается в следующем ходе, теряя все [NailPersonality:`Гвoзди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Nail:`Гвоздей Корп. N`], она оглушается и теряет все [NailPersonality:`Гвoзди Корп. N`]"
                 }
               ]
             }
@@ -1719,7 +1706,7 @@
         {
           "level": 1,
           "name": "Я должна забрать ваши жизни!",
-          "desc": "[WhenUse] Сила навыка +2, если ОЗ цели ниже 30%",
+          "desc": "[WhenUse] Если ОЗ цели ниже 30%, Сила навыка +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1731,7 +1718,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон в количестве (3 × [NailPersonality:`Гвoзди Корп. N`] цели) и она теряет все [NailPersonality:`Гвoзди Корп. N`]"
+                  "desc": "[OnSucceedAttack] Наносит урон в количестве ([NailPersonality:`Гвoздей Корп. N`] на цели × 3), а все [NailPersonality:`Гвoзди Корп. N`] исчезают"
                 }
               ]
             }
@@ -1754,19 +1741,6 @@
                 }
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 802909,
-      "levelList": [
-        {
-          "level": 1,
-          "name": "",
-          "desc": "",
-          "coinlist": [
-            {}
           ]
         }
       ]
@@ -1988,12 +1962,12 @@
         {
           "level": 1,
           "name": "Почтенное держание",
-          "desc": "[WhenUse] Наносит на 100% больше урона, если ОЗ цели ниже 30%",
+          "desc": "[WhenUse] Если ОЗ цели ниже 30%, наносит ей на 100% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если ОЗ цели ниже 30%, убивает её и восстанавливает 30 ОЗ\nПолучает 2 [Enhancement:`Повышения силы атаки`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Если ОЗ цели ниже 30%, убивает её и восстанавливает 30 ОЗ, а также получает 2 [Enhancement:`Повышения силы атаки`] на следующий ход"
                 }
               ]
             }
@@ -2007,7 +1981,7 @@
         {
           "level": 1,
           "name": "Покайтесь!!",
-          "desc": "[WhenUse] Наносит на 100% больше урона, если ОЗ цели ниже 30%",
+          "desc": "[WhenUse] Если ОЗ цели ниже 30%, наносит ей на 100% больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -2455,7 +2429,7 @@
         {
           "level": 1,
           "name": "Плевок яда",
-          "desc": "[WhenUse] Теряет 6 ОЗ\nПолучает 5 [Laceration:`Кровотечения`] на следующий ход",
+          "desc": "[WhenUse] Теряет 6 ОЗ и получает 5 [Laceration:`Кровотечения`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2578,7 +2552,7 @@
         {
           "level": 1,
           "name": "Кух",
-          "desc": "[OnSucceedEvade] Цель теряет 15 СД",
+          "desc": "[OnSucceedEvade] Атакующий теряет 15 СД",
           "coinlist": [
             {}
           ]
@@ -2665,7 +2639,7 @@
         {
           "level": 1,
           "name": "Кудаааах",
-          "desc": "Выбирает цели с наибольшими ОЗ",
+          "desc": "Нацеливается на противника с наибольшими ОЗ",
           "coinlist": [
             {},
             {
@@ -2975,7 +2949,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет 15 СД"
+                  "desc": "[OnSucceedAttack] Наносит 15 урона по СД"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает границу выносливости на 50% от нанесённого урона"
@@ -3237,7 +3211,7 @@
         {
           "level": 1,
           "name": "Высоковольтный электрический разряд",
-          "desc": "При 11 и более [SelfCharge:`Подзарядах`] наносит на 10% больше урона за каждый [SelfCharge:`Подзаряд`] свыше 10\n[WhenUse] Тратит весь [SelfCharge:`Подзаряд`]",
+          "desc": "При 11 и более [SelfCharge:`Подзарядах`] наносит на 10% больше урона за каждый [SelfCharge:`Подзаряд`] свыше 10, после чего теряет весь [SelfCharge:`Подзаряд`]",
           "coinlist": [
             {
               "coindescs": [
@@ -3460,7 +3434,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2 на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2 в следующем ходе"
                 }
               ]
             }
@@ -3493,7 +3467,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2 на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик на 2 в следующем ходе"
                 }
               ]
             }
@@ -3597,7 +3571,7 @@
         {
           "level": 1,
           "name": "На этом у меня всё!",
-          "desc": "[Wide] Даёт 2 [Exalted:`Повышения морали`]\nВ приоритете противники с [Vibration:`Тремором`]",
+          "desc": "Нацеливается на противников с [Vibration:`Тремором`]\n[Wide] Даёт 2 [Exalted:`Повышения морали`]",
           "coinlist": [
             {},
             {
@@ -3617,12 +3591,12 @@
         {
           "level": 1,
           "name": "Возьму-ка это!",
-          "desc": "[CantDuel]\nВ приоритете противники с [Exalted:`Повышением морали`]\nЕсли у цели нет [Tipsiness:`Опьянения`], Сила в столкновении +5",
+          "desc": "[CantDuel]\nВ приоритете противники с [Exalted:`Повышением морали`]\nЕсли у цели нет [Tipsiness:`Опьянения`], Сила навыка +5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted:`Повышение морали`], на 10% больше урона за каждое его значение"
+                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted:`Повышение морали`], на 10% больше урона за каждую единицу эффекта"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если у цели есть [Tipsiness:`Опьянение`], не наносит урон и сам теряет 50 ОЗ"
@@ -3832,12 +3806,12 @@
         {
           "level": 1,
           "name": "Пусть всё сгинет",
-          "desc": "[WhenUse] Теряет 30 СД и получает 5 [Sinking:`Утопания`]\nПолучает [ErodingMind:`Разрушенный разум`] на следующий ход",
+          "desc": "[WhenUse] Теряет 30 СД и получает 5 [Sinking:`Утопания`], а также получает [ErodingMind:`Разрушенный разум`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет 15 СД"
+                  "desc": "[OnSucceedAttack] Наносит 15 урона по СД"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 8 [Sinking:`Утопания`] и 8 [Poison:`Яда`] на следующий ход"
@@ -3992,7 +3966,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет 15 СД"
+                  "desc": "[OnSucceedAttack] Наносит 15 урона по СД"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [DongbaekFlorescence:`Цветения`]"
@@ -4035,7 +4009,7 @@
         {
           "level": 1,
           "name": "Осыпающийся цветок",
-          "desc": "[StartBattle] Получает 10 [Protection:`Защищённости`]\n[DefeatDuel] Получает 3 [DongbaekScatterPetal:`Разлетающихся лепестка`]",
+          "desc": "[StartBattle] Получает 10 [Protection:`Защищённости`]\n[DefeatDuel] Получает 3 [DongbaekScatterPetal:`Разлетающихся лепестков`]",
           "coinlist": [
             {}
           ]
@@ -4048,12 +4022,12 @@
         {
           "level": 1,
           "name": "Кульминационный аромат",
-          "desc": "Если цель [DongbaekFullBloom:`Полностью зацвётшая`], наносит на 100% больше урона",
+          "desc": "Если цель [DongbaekFullBloom:`Полностью зацвела`], наносит ей на 100% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель [DongbaekFullBloom:`Полностью зацвётшая`], оглушает её и убирает этот эффект"
+                  "desc": "[OnSucceedAttack] Если цель [DongbaekFullBloom:`Полностью зацвела`], оглушает её и этот эффект исчезает"
                 }
               ]
             },
@@ -4084,7 +4058,7 @@
         {
           "level": 1,
           "name": "Пряный запах",
-          "desc": "[OnSucceedEvade] Наносит 1 [DongbaekFlorescence:`Цветение`]",
+          "desc": "[OnSucceedEvade] Наносит 1 [DongbaekFlorescence:`Цветение`] атакующему",
           "coinlist": [
             {}
           ]
@@ -4227,7 +4201,7 @@
         {
           "level": 1,
           "name": "Вы тоже опустошенны",
-          "desc": "[WhenUse] Наносит [DistortedDongrangEmptyMark:`Пустую метку`] на следующий ход",
+          "desc": "[WhenUse] Наносит [DistortedDongrangEmptyMark:`Пустую метку`] цели на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -4303,14 +4277,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в количестве нанесённого урона\nПолучает 1 [Enhancement:`Повышение силы атаки`] на следующий ход, если на цели есть [DistortedDongrangEmptyMark:`Пустая метка`]"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в количестве нанесённого урона\n[OnSucceedAttack] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход, если на цели есть [DistortedDongrangEmptyMark:`Пустая метка`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в количестве нанесённого урона\nПолучает 1 [Enhancement:`Повышение силы атаки`] на следующий ход, если на цели есть [DistortedDongrangEmptyMark:`Пустая метка`]"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в количестве нанесённого урона\n[OnSucceedAttack] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход, если на цели есть [DistortedDongrangEmptyMark:`Пустая метка`]"
                 }
               ]
             }
@@ -4348,21 +4322,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]\nВосстанавливает ОЗ на 25% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]\n[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]\nВосстанавливает ОЗ на 25% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]\n[OnSucceedAttack] Восстанавливает ОЗ на 25% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Забирает 1 случайный положительный эффект на цели и получает его на следующий ход"
+                  "desc": "[OnSucceedAttack] Забирает 1 случайный положительный эффект с цели и получает его на следующий ход"
                 }
               ]
             }
@@ -4563,7 +4537,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [EgoAwakenDongrangSeed:`Семян`] и [EgoAwakenDongrangOverHeal:`Избыточное лечение`]\n[OnSucceedAttack] Восстанавливает 15 ОЗ цели"
+                  "desc": "[OnSucceedAttack] Наносит 3 [EgoAwakenDongrangSeed:`Семени`] и [EgoAwakenDongrangOverHeal:`Избыточное лечение`]\n[OnSucceedAttack] Восстанавливает 15 ОЗ цели"
                 }
               ]
             }
@@ -4582,7 +4556,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable:`Уязвимости`] и 10 [Laceration:`Кровотечения`]\nЕсли на цели есть [EgoAwakenDongrangTree:`Питательные вещества`], восстанавливает 20 ОЗ и получает 2 [Enhancement:`Повышения силы атаки`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable:`Уязвимости`] и 10 [Laceration:`Кровотечения`]\n[OnSucceedAttack] Если на цели есть [EgoAwakenDongrangTree:`Питательные вещества`], восстанавливает 20 ОЗ и получает 2 [Enhancement:`Повышения силы атаки`] на следующий ход"
                 }
               ]
             }
@@ -4792,7 +4766,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели равен 2 и более, наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -4843,7 +4817,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели 2 и более, наносит 5 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration:`Кровотечения`] цели равен 2 и более, наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -4857,7 +4831,7 @@
         {
           "level": 1,
           "name": "Отбрасывающий тень",
-          "desc": "[WhenUse] Призывает Гигантский клевер в следующем ходе\n[WhenUse] Наносит на 5% больше урона за каждый счётчик [Laceration:`Кровотечения`] на цели\n[DefeatDuel] Гигантский клевер призывается с 70% ОЗ",
+          "desc": "[WhenUse] Призывает Гигантский клевер в следующем ходе\n[WhenUse] Наносит на (Счётчик [Laceration:`Кровотечения`] цели × 5)% больше урона\n[DefeatDuel] Гигантский клевер призывается с 70% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -4881,7 +4855,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 1% от максимальных ОЗ за каждое [Laceration:`Кровотечение`] на цели\n[OnSucceedAttack] Тратит весь счётчик [Laceration:`Кровотечения`] цели"
+                  "desc": "[OnSucceedAttack] Восстанавливает (Сила [Laceration:`Кровотечения`] цели)% от максимальных ОЗ\n[OnSucceedAttack] Тратит весь счётчик [Laceration:`Кровотечения`] цели"
                 }
               ]
             }
@@ -5201,7 +5175,7 @@
         {
           "level": 1,
           "name": "Голодная Ярость",
-          "desc": "[CantIdentify]\nВыбирает цели с [PreparedMeat:`Приготовленным мясом`]\nЕсли у цели 5 и более [Laceration:`Кровотечения`], Сила монет +1\nЕсли на цели есть [PreparedMeat:`Приготовленное мясо`], Сила монет +10\nСила монет -5 за каждую сломанную Руку\n[TargetKill] Все Части получают 2 [Enhancement:`Повышения силы атаки`] до конца битвы (Складывается)",
+          "desc": "[CantIdentify]\nВыбирает цели с [PreparedMeat:`Приготовленным мясом`]\nЕсли у цели 5 и более [Laceration:`Кровотечения`], Сила монет +1\nЕсли на цели есть [PreparedMeat:`Приготовленное мясо`], Сила монет +10\nСила монет -5 за каждую повреждённую Руку\n[TargetKill] Все Части получают 2 [Enhancement:`Повышения силы атаки`] до конца битвы (Складывается)",
           "coinlist": [
             {
               "coindescs": [
