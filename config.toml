@@ -12,10 +12,9 @@ path = "Title/Title.ttf"
 filename = "Title.ttf"
 
 [reference]
-repo = "LocalizeLimbusCompany/LocalizeLimbusCompany"
+repo = "x1bViolet/Limbus-Localization-Files"
 branch = "main"
-path = "./EN"
-
+path = ""
 
 [[font_rules."Enemies*.json"]]
 font = "bebas"
