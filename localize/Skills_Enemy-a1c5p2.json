@@ -403,7 +403,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 [Burst:`Разрывов`] и повышает его счётчик\nна 4"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Burst:`Разрывов`] и повышает его счётчик <nobr>на 4</nobr>"
                 }
               ]
             }

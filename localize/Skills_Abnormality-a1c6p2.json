@@ -363,7 +363,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`]\nна 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`] <nobr>на 3</nobr>"
                 }
               ]
             },

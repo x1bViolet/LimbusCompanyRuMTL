@@ -238,7 +238,7 @@
         {
           "level": 4,
           "name": "Ужимающая смирительная рубашка",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n<style=\"highlight\">[DefeatDuel] Повышает свой счётчик [Vibration:`Тремора`]\nна 3</style>",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n<style=\"highlight\">[DefeatDuel] Повышает свой счётчик [Vibration:`Тремора`] <nobr>на 3</nobr></style>",
           "coinlist": [
             {
               "coindescs": [

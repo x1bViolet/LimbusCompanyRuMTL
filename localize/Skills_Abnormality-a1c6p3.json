@@ -1009,7 +1009,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] и [Laceration:`Кровотечения`]\nна 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] и [Laceration:`Кровотечения`] <nobr>на 2</nobr>"
                 }
               ]
             },
@@ -1023,7 +1023,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] и [Laceration:`Кровотечения`]\nна 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] и [Laceration:`Кровотечения`] <nobr>на 2</nobr>"
                 }
               ]
             }

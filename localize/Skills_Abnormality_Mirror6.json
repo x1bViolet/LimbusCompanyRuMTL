@@ -438,7 +438,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`]\nна 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`] <nobr>на 3</nobr>"
                 }
               ]
             },
@@ -474,7 +474,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] и 2 [Vulnerable:`Уязвимости`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`]\nна 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] и [Burst:`Разрыва`] <nobr>на 2</nobr>"
                 }
               ]
             }

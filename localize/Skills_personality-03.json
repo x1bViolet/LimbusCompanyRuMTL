@@ -1854,7 +1854,7 @@
         {
           "level": 1,
           "name": "По указам Менеджера-милорда, я здесь!",
-          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 2",
+          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 2</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -1902,7 +1902,7 @@
         {
           "level": 4,
           "name": "По указам Менеджера-милорда, я здесь!",
-          "desc": "[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3",
+          "desc": "[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -1931,7 +1931,7 @@
         {
           "level": 1,
           "name": "Где же... все злодеи...?",
-          "desc": "Наносит на 3% больше урона за каждую [HystericGauge:`Истерию`] (До 9%)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 2\n[WhenUse] Теряет 5 СД",
+          "desc": "Наносит на 3% больше урона за каждую [HystericGauge:`Истерию`] (До 9%)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 2</nobr>\n[WhenUse] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1979,7 +1979,7 @@
         {
           "level": 4,
           "name": "Где же... все злодеи...?",
-          "desc": "Наносит на <style=\"highlight\">5%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">15%</style>)\n[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3\n[WhenUse] Теряет 5 СД",
+          "desc": "Наносит на <style=\"highlight\">5%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">15%</style>)\n[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -2008,7 +2008,7 @@
         {
           "level": 1,
           "name": "С любовью! Хия!",
-          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3",
+          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -2029,7 +2029,7 @@
         {
           "level": 2,
           "name": "С любовью! Хия!",
-          "desc": "<style=\"highlight\">[WhenUse] Наносит на 7.5% больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 30%)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит на 7.5% больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 30%)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -2082,7 +2082,7 @@
         {
           "level": 1,
           "name": "Исчезни из моей головы...",
-          "desc": "Сила в столкновении +1, если есть 1 и более [HystericGauge:`Истерия`]\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3\n[WhenUse] Теряет 8 СД",
+          "desc": "Сила в столкновении +1, если есть 1 и более [HystericGauge:`Истерия`]\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 8 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -2103,7 +2103,7 @@
         {
           "level": 2,
           "name": "Исчезни из моей головы...",
-          "desc": "<style=\"highlight\">Базовая сила</style> +1, если есть 1 и более [HystericGauge:`Истерия`]\n<style=\"highlight\">[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 3\n[WhenUse] Теряет 8 СД",
+          "desc": "<style=\"highlight\">Базовая сила</style> +1, если есть 1 и более [HystericGauge:`Истерия`]\n<style=\"highlight\">[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 8 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -2127,7 +2127,7 @@
         {
           "level": 4,
           "name": "Исчезни из моей головы...",
-          "desc": "Базовая сила +1 <style=\"highlight\">за каждую [HystericGauge:`Истерию`] (До 2)\n- Если есть 3 [HystericGauge:`Истерии`], Количество целей повышается на 1 (Наносит на 50% меньше урона дополнительным целям)</style>\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 5\n[WhenUse] Теряет 8 СД",
+          "desc": "Базовая сила +1 <style=\"highlight\">за каждую [HystericGauge:`Истерию`] (До 2)\n- Если есть 3 [HystericGauge:`Истерии`], Количество целей повышается на 1 (Наносит на 50% меньше урона дополнительным целям)</style>\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 5</nobr>\n[WhenUse] Теряет 8 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -2156,7 +2156,7 @@
         {
           "level": 3,
           "name": "Удары арканы!! / Малая рабыня арканы!!!!",
-          "desc": "Наносит на 15% больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До 45%)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × 20)% больше урона этим навыком (До 80%) и получает +1 к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До 2)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 6\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
+          "desc": "Наносит на 15% больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До 45%)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × 20)% больше урона этим навыком (До 80%) и получает +1 к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До 2)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 6</nobr>\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2190,7 +2190,7 @@
         {
           "level": 4,
           "name": "Удары арканы!! / Малая рабыня арканы!!!!",
-          "desc": "Наносит на <style=\"highlight\">30%</style> больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До <style=\"highlight\">90%</style>)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × <style=\"highlight\">25</style>)% больше урона этим навыком (До <style=\"highlight\">125%</style>) и получает <style=\"highlight\">+2</style> к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] \nна 6\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
+          "desc": "Наносит на <style=\"highlight\">30%</style> больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До <style=\"highlight\">90%</style>)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × <style=\"highlight\">25</style>)% больше урона этим навыком (До <style=\"highlight\">125%</style>) и получает <style=\"highlight\">+2</style> к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 6</nobr>\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
           "coinlist": [
             {
               "coindescs": [
