@@ -14,19 +14,19 @@
     },
     {
       "id": "select_ego_gacksung_up_ticket",
-      "content": "Выберите Э.Г.О для Повышения"
+      "content": "Выберите ЭГО для Повышения"
     },
     {
       "id": "tip_long_click_to_view_ego",
-      "content": "※ Удерживайте Э.Г.О для просмотра подробной информации."
+      "content": "※ Удерживайте ЭГО для просмотра подробной информации."
     },
     {
       "id": "ego_leap_up_confim_main_only_gacksung",
-      "content": "[{0}] Уровень Связи Э.Г.О изменится следующим образом."
+      "content": "[{0}] Уровень Связи ЭГО изменится следующим образом."
     },
     {
       "id": "all_egos",
-      "content": "Все Э.Г.О"
+      "content": "Все ЭГО"
     },
     {
       "id": "leap_up_able_uptie_ego_tier",
@@ -38,7 +38,7 @@
     },
     {
       "id": "leap_up_ego_confim_title",
-      "content": "Выбор Э.Г.О"
+      "content": "Выбор ЭГО"
     },
     {
       "id": "check_default_personality_leap_up",
@@ -46,7 +46,7 @@
     },
     {
       "id": "check_default_ego_leap_up",
-      "content": "Это Э.Г.О можно бесплатно Повысить до Уровня 3, проходя Основной Сюжет.\n\nВсе равно Повысить это Э.Г.О?"
+      "content": "Это ЭГО можно бесплатно Повысить до Уровня 3, проходя Основной Сюжет.\n\nВсе равно Повысить это ЭГО?"
     },
     {
       "id": "select_identity_popup_title",
@@ -58,11 +58,11 @@
     },
     {
       "id": "select_ego_popup_title_season_1_battlepass",
-      "content": "Выбрать Э.Г.О Боевого Пропуска 1 Сезона"
+      "content": "Выбрать ЭГО Боевого Пропуска 1 Сезона"
     },
     {
       "id": "select_ego_popup_title",
-      "content": "Выбрать Э.Г.О"
+      "content": "Выбрать ЭГО"
     }
   ]
 }
