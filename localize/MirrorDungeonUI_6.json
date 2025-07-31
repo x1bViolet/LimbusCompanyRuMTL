@@ -327,6 +327,10 @@
     {
       "id": "mirror_dungeon_finished_panel_selected_startBuff",
       "content": "Выбранное Благословение звёзд"
+    },
+    {
+      "id": "mirror_dungeon_finished_panel_not_selected_startBuff",
+      "content": "Благословение звёзд не выбрано"
     }
   ]
 }

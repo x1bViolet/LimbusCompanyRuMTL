@@ -1963,6 +1963,10 @@
     {
       "id": "mainui_settings_show_importance_level_UI",
       "content": "Замечания о ключевых механиках противников"
+    },
+    {
+      "id": "mainui_settings_battle_result_announcer",
+      "content": "Давать комментаторам\nдоговорить после окончания боя"
     }
   ]
 }
