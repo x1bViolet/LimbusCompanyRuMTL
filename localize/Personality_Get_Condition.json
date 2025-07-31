@@ -1050,11 +1050,11 @@
     },
     {
       "id": "11113_getCondition_normal",
-      "content": "Заполучите T Corp. Class 3 VDCU Staff Отис"
+      "content": "Заполучите Сотрудницу ОСВД 3-го уровня Корп. T Отис"
     },
     {
       "id": "11113_getCondition_gacksung",
-      "content": "Свяжите T Corp. Class 3 VDCU Staff Outis до 3-го уровня"
+      "content": "Свяжите Сотрудницу ОСВД 3-го уровня Корп. T до 3-го уровня"
     }
   ]
 }
