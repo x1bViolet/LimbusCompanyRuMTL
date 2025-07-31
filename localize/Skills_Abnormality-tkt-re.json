@@ -1,0 +1,464 @@
+{
+  "dataList": [
+    {
+      "id": 122801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тебе страшно?",
+          "desc": "Сила в столкновении +1, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[DefeatDuel] Если свои ОЗ ниже 75%, тратит 40 [LimitedTime:`Украденного времени`](#cc9901) для получения 1 [Protection:`Защищённости`] (Единожды ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наказание за убийство времени",
+          "desc": "Сила в столкновении +2, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[WhenUse] При 700 и более [LimitedTime:`Украденного времени`](#cc9901) повышает счётчик [Laceration:`Кровотечения`] цели на 3\n[WhenUse] При 500 и более [LimitedTime:`Украденного времени`](#cc9901) повышает счётчик [Laceration:`Кровотечения`] цели ещё на 1\n[WhenUse] При 400 и более [LimitedTime:`Украденного времени`](#cc9901) \nтратит 20 [LimitedTime:`Украденного времени`](#cc9901), чтобы повысить наносимые этой атакой силу и счётчик [Laceration:`Кровотечения`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Экстракция",
+          "desc": "Сила монет +1, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[WhenUse] Если свои ОЗ ниже 75%, тратит 40 [LimitedTime:`Украденного времени`](#f0a200) для получения +2 к Силе в столкновении (Единожды за ход)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение",
+          "desc": "[WhenUse] Если свои ОЗ ниже 75%, тратит 60 [LimitedTime:`Украденного времени`](#cc9901) для получения +2 к Силе в столкновении\n[BeforeAttack] Количество целей повышается на 1, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200) ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время спасения",
+          "desc": "[CantDuel]\nВыбирает [TimeKillerWatch:`Целью спасения времени`](#c57609) противника, использовавшего атакующий навык против Потрошителя времени\n[StartBattle] Тратит 200 [LimitedTime:`Украденного времени`](#cc9901) и переходит в состояние [TimeAcceleration:`Ускоренного времени`](#f0a200) в следующем ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 100 [LimitedTime:`Украденного времени`](#cc9901) (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Как же так...",
+          "desc": "[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "У нас нехватка времени!",
+          "desc": "[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тебе страшно?",
+          "desc": "Сила в столкновении +1, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[DefeatDuel] Если свои ОЗ ниже 75%, тратит 40 [OwnTime:`Распределённого времени`](#f5be14) для получения 1 [Protection:`Защищённости`] (Единожды ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наказание за убийство времени",
+          "desc": "Сила в столкновении +2, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[WhenUse] Если сумма [OwnTime:`Распределённого времени`](#f5be14) всех частей составляет 600 и более, повышает счётчик [Laceration:`Кровотечения`] цели на 3\n[WhenUse] Если сумма [OwnTime:`Распределённого времени`](#f5be14) всех частей составляет 500 и более, повышает счётчик [Laceration:`Кровотечения`] цели ещё на 1\n[WhenUse] Если сумма [OwnTime:`Распределённого времени`](#f5be14) всех частей составляет 400 и более, тратит 20 [OwnTime:`Распределённого времени`](#f5be14) для повышения наносимых этой атакой силы и счётчика [Laceration:`Кровотечения`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Экстракция",
+          "desc": "Сила монет +1, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[WhenUse] Если свои ОЗ ниже 75%, тратит 40 [OwnTime:`Распределённого времени`](#f5be14) для получения +2 к Силе в столкновении (Единожды за ход)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение",
+          "desc": "[WhenUse] Если свои ОЗ ниже 75%, тратит 60 [OwnTime:`Распределённого времени`](#f5be14) для получения +2 к Силе в столкновении\n[BeforeAttack] Количество целей повышается на 3, пока в состоянии [TimeAcceleration:`Ускоренного времени`](#f0a200)\n[BeforeAttack] Если свои ОЗ ниже 60%, тратит 10 [OwnTime:`Распределённого времени`](#f5be14) для повышения Количества целей на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время спасения",
+          "desc": "[CantDuel]\nВыбирает [TimeKillerWatch:`Целью спасения времени`](#c57609) противника, использовавшего атакующий навык против Потрошителя времени\n[StartBattle] Тратит 200 [OwnTime:`Распределённого времени`](#f5be14) и переходит в состояние [TimeAcceleration:`Ускоренного времени`](#f0a200) в следующем ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 50 в сумме [OwnTime:`Распределённого времени`](#f5be14) всех частей (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время, убивающее время",
+          "desc": "[CantDuel]\nСкорость Потрошителя времени фиксируется на 24\nПотрошителя времени нельзя оглушить в этом ходе\n[WhenUse] Тратит в общей сложности 400 [OwnTime:`Распределённого времени`](#f5be14) со всех частей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Стирает время цели. Если время цели стёрто, все части полностью восстанавливают [OwnTime:`Распределённое время`](#f5be14), а также получают 10 [Agility:`Спешки`] и 10 [Enhancement:`Повышений силы атаки`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 122908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мне нужно больше времени!",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

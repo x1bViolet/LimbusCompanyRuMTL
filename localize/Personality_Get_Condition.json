@@ -1047,6 +1047,14 @@
     {
       "id": "10913_getCondition_gacksung",
       "content": "Свяжите ЭГО «Лоботомии»::Меч, заточенный слезами Родю до 3-го уровня"
+    },
+    {
+      "id": "11113_getCondition_normal",
+      "content": "Заполучите T Corp. Class 3 VDCU Staff Отис"
+    },
+    {
+      "id": "11113_getCondition_gacksung",
+      "content": "Свяжите T Corp. Class 3 VDCU Staff Outis до 3-го уровня"
     }
   ]
 }

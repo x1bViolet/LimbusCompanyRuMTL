@@ -1,0 +1,228 @@
+{
+  "dataList": [
+    {
+      "id": 9102401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Совсем совести нет?",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "И правда бессовестные",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сможешь их уберечь?",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 10 и более,[VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если сила [Vibration:`Тремора`] цели равна 15 и более, ещё раз [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <nobr>на 1</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Что, оружие бесполезно?",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationCollapse:`Тремор — Распад`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Готовы для взбучки?",
+          "desc": "Нацеливается на противника с [VibrationCollapse:`Тремором — Распад`]\n[WhenUse] Повышает счётчик [Vibration:`Тремора`] всех своих союзников на число единиц своего счётчика [Vibration:`Тремора`]\n[WhenUse] [Switch_Vibration:`Преобразует амплитуду`] всех союзников и себя в том числе в [VibrationDistribution:`Тремор — Распределение`]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration:`Наложение амплитуды`] с [VibrationEcho:`Тремором — Эхо`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[StartBattle] Получает (Свой счётчик [Vibration:`Тремора`] × 5) ОЗ Щита (До 60)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сбор ради общего дела",
+          "desc": "[CantDuel]\n[StartBattle] Переносит весь счётчик [Vibration:`Тремора`] других союзников на свой\n[StartBattle] Получает 1 [AttackUp:`Повышение уровня атаки`] за каждые 3 единицы своего счётчика [Vibration:`Тремора`]\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё 20% урона Леностью за каждую единицу своего счётчика [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё 20% урона Леностью за каждую единицу своего счётчика [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит до 3 единиц своего счётчика [Vibration:`Тремора`], чтобы [VibrationExplosion:`Спровоцировать Тремор`] цели и понизить его счётчик на 1 за каждую потраченную единицу (До 3 раз)"
+                },
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
