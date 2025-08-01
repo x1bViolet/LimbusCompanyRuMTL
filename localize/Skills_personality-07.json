@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] На 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\n[WhenUse] Сила монет +1 за каждые <style=\"highlight\">3</style> [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] На <style=\"highlight\">12%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">120%</style>)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\n[WhenUse] Сила монет +1 за каждые <style=\"highlight\">3</style> [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на <style=\"highlight\">12%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">120%</style>)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
           "coinlist": [
             {
               "coindescs": [
