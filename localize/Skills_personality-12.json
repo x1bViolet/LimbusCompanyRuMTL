@@ -1496,7 +1496,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1530,7 +1530,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету 1 раз</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 }
               ]
             }
@@ -1564,7 +1564,7 @@
                   "desc": "[OnSucceedAttack] При 30 и более [Breath:`Дыхания`] тратит 10 его силы, чтобы вновь подкинуть монету 1 раз"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наклыдвает [BurstPoison:`Смертный ритуал 【Яд】`]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstPoison:`Смертный ритуал 【Яд】`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [SnakeStance:`Змеиную руку`]</style>"
