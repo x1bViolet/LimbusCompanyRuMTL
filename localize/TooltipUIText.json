@@ -10,23 +10,23 @@
     },
     {
       "id": "unit_info_tooltip_attack_resist_0",
-      "content": "Споротивление Рубящему"
+      "content": "Сопротивление Рубящему"
     },
     {
       "id": "unit_info_tooltip_attack_resist_1",
-      "content": "Споротивление Пронзающему"
+      "content": "Сопротивление Пронзающему"
     },
     {
       "id": "unit_info_tooltip_attack_resist_2",
-      "content": "Споротивление Дробящему"
+      "content": "Сопротивление Дробящему"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_0",
-      "content": "<size=90%>Споротивление Гневу</size>"
+      "content": "<size=90%>Сопротивление Гневу</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_1",
-      "content": "<size=90%>Споротивление Похоти</size>"
+      "content": "<size=90%>Сопротивление Похоти</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_2",
@@ -34,19 +34,19 @@
     },
     {
       "id": "unit_info_tooltip_attribute_resist_3",
-      "content": "<size=90%>Споротивление Чревоугодию</size>"
+      "content": "<size=90%>Сопротивление Чревоугодию</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_4",
-      "content": "<size=90%>Споротивление Унынию</size>"
+      "content": "<size=90%>Сопротивление Унынию</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_5",
-      "content": "<size=90%>Споротивление Гордыне</size>"
+      "content": "<size=90%>Сопротивление Гордыне</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_6",
-      "content": "<size=90%>Споротивление Зависти</size>"
+      "content": "<size=90%>Сопротивление Зависти</size>"
     },
     {
       "id": "unit_info_tooltip_skill_count",
