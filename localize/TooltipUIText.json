@@ -30,7 +30,7 @@
     },
     {
       "id": "unit_info_tooltip_attribute_resist_2",
-      "content": "С<size=90%>поротивление Лености</size>"
+      "content": "<size=90%>Сопротивление Лености</size>"
     },
     {
       "id": "unit_info_tooltip_attribute_resist_3",
