@@ -4009,7 +4009,7 @@
         {
           "level": 1,
           "name": "Осыпающийся цветок",
-          "desc": "[StartBattle] Получает 10 [Protection:`Защищённости`]\n[DefeatDuel] Получает 3 [DongbaekScatterPetal:`Разлетающихся лепестков`]",
+          "desc": "[StartBattle] Получает 10 [Protection:`Защищённости`]\n[DefeatDuel] Получает 3 [DongbaekScatterPetal:`Разлетающихся лепестка`]",
           "coinlist": [
             {}
           ]
