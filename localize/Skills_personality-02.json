@@ -1205,7 +1205,7 @@
         {
           "level": 3,
           "name": "Привлечённая огнём",
-          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует 「Предельная синхронизация 【Деградированная коррозия】」 вместо этого\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более единицах в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели\n[WhenUse] Сила монет +1, если свои ОЗ равны или ниже 70%",
+          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик <nobr>на 1</nobr>\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует 「Предельная синхронизация 【Деградированная коррозия】」 вместо этого\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более единицах в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели\n[WhenUse] Сила монет +1, если свои ОЗ равны или ниже 70%",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 4,
           "name": "Привлечённая огнём",
-          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик на 1\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует 「Предельная синхронизация 【Деградированная коррозия】」 вместо этого\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> единиц в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые за каждые 30% потерянных ОЗ (До 2)</style>",
+          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик <nobr>на 1</nobr>\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует 「Предельная синхронизация 【Деградированная коррозия】」 вместо этого\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> единиц в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые за каждые 30% потерянных ОЗ (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
