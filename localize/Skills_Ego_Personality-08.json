@@ -51,7 +51,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 6</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\"><nobr>на 6</nobr></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style> случайному союзнику"

@@ -54,6 +54,7 @@ apply_for = [
   "Passive*.json",
   "EGOgift_*.json",
   "PanicInfo*.json",
+  "BuffAbilities.json",
   "MentalCondition*.json",
   "BattleKeywords*.json",
   "Bufs*.json",
