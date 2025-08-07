@@ -1,0 +1,16 @@
+{
+  "dataList": [
+    {
+      "id": "mirrordungeon6_mission_date",
+      "content": "Награды можно получить до выхода 7 Зеркального подземелья"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON6_COLLECTION",
+      "content": "Коллекционирование"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON6_CLEAR",
+      "content": "Прохождение"
+    }
+  ]
+}
