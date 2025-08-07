@@ -13,7 +13,7 @@ filename = "Title.ttf"
 
 [reference]
 repo = "x1bViolet/Limbus-Localization-Files"
-branch = "main"
+branch = "English"
 path = ""
 
 [[font_rules."Enemies*.json"]]
