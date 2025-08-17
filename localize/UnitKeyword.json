@@ -223,6 +223,18 @@
     {
       "id": "UnitKeyword_EGO_EQUIPMENT",
       "content": "ЭГО Снаряжение"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_CHIEF",
+      "content": "Адепт Стаи Хэйшоу"
+    },
+    {
+      "id": "UnitKeyword_H_CORP",
+      "content": "Корп. H"
+    },
+    {
+      "id": "UnitKeyword_ERROR",
+      "content": "<color=#d40000><s>Семья Цзя</s></color>"
     }
   ]
 }

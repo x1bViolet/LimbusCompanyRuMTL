@@ -874,3 +874,13 @@ CentralCommandTeamCaptain ¤ #9f6a3a
 BestWelfareTeamMember ¤ #9f6a3a
 KnightBless ¤ #f8c200
 TraumaShield ¤ #f8c200
+AccumulatedPastSinner ¤ #f8c200
+OutisNoHat ¤ #f8c200
+UltraPrecisionTimeAcceleration ¤ #f8c200
+HeishouDeathCount ¤ #f8c200
+HeishouCombo ¤ #9f6a3a
+HeishouComboCount ¤ #f8c200
+HeishouAttack ¤ #9f6a3a
+HeishouSupportProtect ¤ #9f6a3a
+HeishouSynergy ¤ #f8c200
+HeishouComboCountHonglu ¤ #f8c200

@@ -745,8 +745,12 @@
       "content": "Почившие (Патрон)"
     },
     {
-      "id": "Retreat_Textalram",
+      "id": "Retreat_TextAlram",
       "content": "! ОТСТУПЛЕНИЕ !"
+    },
+    {
+      "id": "Retreat_Command_TextAlarm",
+      "content": "! ПРИКАЗ ОТСТУПЛЕНИЯ !"
     },
     {
       "id": "Retreat_TextPassive",
