@@ -13,12 +13,16 @@
       "content": "Прохождение"
     },
     {
-      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_DECK",
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON6_DECK",
       "content": "Команды"
     },
     {
-      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_SHOP",
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON6_SHOP",
       "content": "Магазин"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON6_BATTLE",
+      "content": "Бои"
     }
   ]
 }
