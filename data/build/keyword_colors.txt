@@ -884,3 +884,8 @@ HeishouAttack ¤ #9f6a3a
 HeishouSupportProtect ¤ #9f6a3a
 HeishouSynergy ¤ #f8c200
 HeishouComboCountHonglu ¤ #f8c200
+ChickenStance ¤ #f8c200
+LegStrengthHorseYisang ¤ #f8c200
+ConcussionYisang ¤ #e30000
+BreakthroughHorse ¤ #f8c200
+BattlefieldHorse ¤ #f8c200

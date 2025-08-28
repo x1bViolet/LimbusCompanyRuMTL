@@ -1659,6 +1659,22 @@
     {
       "id": "introduce_sentence_208",
       "content": "Я буду единственным, абсолютным владыкой {0}(-а/-я/-и)."
+    },
+    {
+      "id": "introduce_word_209",
+      "content": "Скакун"
+    },
+    {
+      "id": "introduce_sentence_209",
+      "content": "{0} мчится вперёд."
+    },
+    {
+      "id": "introduce_word_210",
+      "content": "Жёрдочка"
+    },
+    {
+      "id": "introduce_sentence_210",
+      "content": "От {0}(-и/-ы) до поля боя."
     }
   ]
 }

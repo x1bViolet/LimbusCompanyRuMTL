@@ -1744,6 +1744,345 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ах, пусть запах сгорающей крови...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ах, пусть запах сгорающей крови...",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ах, пусть запах сгорающей крови...",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...Утолит моё неистовство",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "...Утолит моё неистовство",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "...Утолит моё неистовство",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит дополнительный урон Гневом в количестве 10% от итогового нанесённого этой монетой урона</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Кроваво-пламенная резня",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`]\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Кроваво-пламенная резня",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n<style=\"highlight\">Наносит на 1% больше урона за каждые 2% в сумме потерянных вместе с целью процентов от максимальных ОЗ (До 50%)</style>\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 20% потерянных ОЗ (До 2)</style>\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит дополнительный урон Чревоугодием в количестве 10% от итогового нанесённого этой монетой урона</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит всем целям дополнительный урон Чревоугодием в количестве 20% от итогового нанесённого этой монетой урона</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смертельный удар парящего петуха【鷄窮則殺】",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`] на следующий ход\n[WhenUse] Сила монет +1, если имеется [ChickenStance]\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смертельный удар парящего петуха【鷄窮則殺】",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`] на следующий ход\n<style=\"highlight\">[WhenUse] Базовая сила +1 против целей с 10 и более единицами в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`]</style>\n[WhenUse] Сила монет +1, если имеется [ChickenStance]\n<style=\"highlight\">[WhenUse] Наносит на 1% больше урона за каждые 3% потерянных в этой битве ОЗ (До 30%; вся потеря ОЗ складывается)</style>\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

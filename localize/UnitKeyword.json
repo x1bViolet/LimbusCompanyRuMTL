@@ -198,7 +198,7 @@
     },
     {
       "id": "UnitKeyword_BLACK_BEAST_RABBIT",
-      "content": "Стая Хэйшоу - Ветвь Мао"
+      "content": "Стая Хэйшоу - Ветвь «Мао»"
     },
     {
       "id": "UnitKeyword_BLACK_BEAST",
@@ -206,7 +206,7 @@
     },
     {
       "id": "UnitKeyword_BLACK_BEAST_SNAKE",
-      "content": "Стая Хэйшоу - Ветвь Сы"
+      "content": "Стая Хэйшоу - Ветвь «Сы»"
     },
     {
       "id": "UnitKeyword_THUMB_LEVEL_CAPO_FOUR",
@@ -235,6 +235,22 @@
     {
       "id": "UnitKeyword_FAMILY_GA_CANCELED",
       "content": "<color=#d40000><s>Семья Цзя</s></color>"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_HORSE",
+      "content": "Стая Хэйшоу - Ветвь «У»"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_CHICKEN",
+      "content": "Стая Хэйшоу - Ветвь «Ю»"
+    },
+    {
+      "id": "UnitKeyword_FAMILY_GA_HIERARCH",
+      "content": "Глава семьи"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_CHIEF_FORMER",
+      "content": "<color=#d40000><s>Адепт Стаи Хэйшоу</s></color>"
     }
   ]
 }

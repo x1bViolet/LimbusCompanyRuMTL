@@ -2261,6 +2261,398 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сминать и топтать",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более единицами в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Сминать и топтать",
+          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Сила монет +1 против целей с 5 и более единицами в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сминать и топтать",
+          "desc": "Сила монет +1 против более медленных целей\n[WhenUse] Сила монет +1 против целей с 5 и более единицами в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`]\n<style=\"highlight\">[WinDuel] Наносит цели 1 [Binding:`Связывание`] на следующий ход (До 2 раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар клинком полумесяца【月刀擊】",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)\n[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Удар клинком полумесяца【月刀擊】",
+          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)\n[WhenUse] Получает <style=\"highlight\">2</style> [Agility:`Спешки`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цель не наложен Смертный ритуал, наносит ей 1 [ConcussionYisang:`Сотрясение`]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Удар клинком полумесяца【月刀擊】",
+          "desc": "Сила монет +1 против более медленных целей\n<style=\"highlight\">- Если разница в скорости с более медленной целью равна 2 и более, наносит на (Значение [BreakthroughHorse:`Прорыва`] × 20) больше урона (До 100%)</style>\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цель не наложен Смертный ритуал, наносит ей 1 [ConcussionYisang:`Сотрясение`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если же на цель наложен Смертный ритуал, наносит ей 3 [Burst:`Разрыва`]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Кавалерийный авангард",
+          "desc": "Если быстрее цели:\n- Итоговая сила +1\n- Наносит на (Значение [BreakthroughHorse:`Прорыва`] × 10) больше урона (До 40%)\n\nНаносит на (Число своих ОЗ Щита × 2)% больше урона (До 50%)\n[BeforeUse] При 5 и более [BreakthroughHorse:`Прорыва`] полностью тратит его, чтобы вместо этого использовать навык 「Обезглавливающий клинок полумесяца обсидианового всадника бури 【黑風馬脚月斬】」\n[WhenUse] Получает 3 [LegStrengthHorseYisang:`Стремительности 【У】`]\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ConcussionYisang:`Сотрясение`] при 2 и более [LegStrengthHorseYisang:`Стремительности 【У】`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Кавалерийный авангард",
+          "desc": "Если быстрее цели:\n- Итоговая сила +1\n- Наносит на (Значение [BreakthroughHorse:`Прорыва`] × <style=\"highlight\">20</style>) больше урона (До <style=\"highlight\">80%</style>)\n\nНаносит на (Число своих ОЗ Щита × 2)% больше урона (До 50%)\n[BeforeUse] При 5 и более [BreakthroughHorse:`Прорыва`] полностью тратит его, чтобы вместо этого использовать навык 「Обезглавливающий клинок полумесяца обсидианового всадника бури 【黑風馬脚月斬】」\n[WhenUse] Получает 3 [LegStrengthHorseYisang:`Стремительности 【У】`]\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)\n<style=\"highlight\">[WhenUse] При 3 и более [BreakthroughHorse:`Прорыва`] все монеты этого навыка становятся [SuperCoin:`Вечными`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Наносит на 1 [Binding:`Связывание`] больше при 3 и более [BreakthroughHorse:`Прорыва`]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [ConcussionYisang:`Сотрясения`] при 2 и более [LegStrengthHorseYisang:`Стремительности 【У】`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подготовка перед наступлением",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 3 [LegStrengthHorseYisang:`Стремительности 【У】`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подготовка перед наступлением",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 3 [LegStrengthHorseYisang:`Стремительности 【У】`] на следующий ход\n<style=\"highlight\">[EndBattle] Снимает с себя 1 случайный снимаемый негативный эффект (Единожды за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011405,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Обезглавливающий клинок полумесяца обсидианового всадника бури 【黑風馬脚月斬】",
+          "desc": "Сила монет +1 против более медленных целей\n[WhenUse] Даёт всем другим союзникам [BattlefieldHorse:`Командный клич`] на следующий ход (Единожды за ход)\n[WhenUse] Получает 3 [LegStrengthHorseYisang:`Стремительности 【У】`]\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)\n[WinDuel] Если быстрее цели, наносит ей на 50% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ConcussionYisang:`Сотрясение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обезглавливающий клинок полумесяца обсидианового всадника бури 【黑風馬脚月斬】",
+          "desc": "Сила монет +1 против более медленных целей\n[WhenUse] Даёт всем другим союзникам [BattlefieldHorse:`Командный клич`] на следующий ход (Единожды за ход)\n[WhenUse] Получает 3 [LegStrengthHorseYisang:`Стремительности 【У】`]\n[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Burst:`Разрыва`] и [Vibration:`Тремора`] цели (До 2)\n[WinDuel] Если быстрее цели, наносит ей на 50% больше урона\n<style=\"highlight\">[WinDuel] Наносит 1 [ConcussionYisang:`Сотрясение`] главной цели</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ConcussionYisang:`Сотрясение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
