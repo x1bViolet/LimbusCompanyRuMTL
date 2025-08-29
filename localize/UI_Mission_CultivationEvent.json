@@ -1,0 +1,96 @@
+{
+  "dataList": [
+    {
+      "id": "mission_ui_condition_tags_10059",
+      "content": "Сдайте первый промежуточный экзамен."
+    },
+    {
+      "id": "mission_ui_condition_tags_10060",
+      "content": "Сдайте второй промежуточный экзамен."
+    },
+    {
+      "id": "mission_ui_condition_tags_10061",
+      "content": "Сдайте третий промежуточный экзамен."
+    },
+    {
+      "id": "mission_ui_condition_tags_10062",
+      "content": "Сдайте четвёртый промежуточный экзамен."
+    },
+    {
+      "id": "mission_ui_condition_tags_10063",
+      "content": "Посетите занятие каждого учителя."
+    },
+    {
+      "id": "mission_ui_condition_tags_10064",
+      "content": "Поддерживайте у Цзя Сичунь «Отличный» боевой дух в течение {0} дней подряд."
+    },
+    {
+      "id": "mission_ui_condition_tags_10065",
+      "content": "Благополучно доведите обучение Цзя Сичунь до конца."
+    },
+    {
+      "id": "mission_ui_condition_tags_10066",
+      "content": "Посетите занятие И Сана 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10067",
+      "content": "Посетите занятие Фауст 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10068",
+      "content": "Посетите занятие Дон Кихот 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10069",
+      "content": "Посетите занятие Рёшу 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10070",
+      "content": "Посетите занятие Мерсо 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10071",
+      "content": "Посетите занятие Хон Лу 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10072",
+      "content": "Посетите занятие Хитклиффа 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10073",
+      "content": "Посетите занятие Измаил 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10074",
+      "content": "Посетите занятие Роди 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10075",
+      "content": "Посетите занятие Отис 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10076",
+      "content": "Посетите занятие Грегора 3 раза."
+    },
+    {
+      "id": "mission_ui_condition_tags_10077",
+      "content": "Повысьте характеристику «Чжи» у Цзя Сичунь до {0}."
+    },
+    {
+      "id": "mission_ui_condition_tags_10079",
+      "content": "Повысьте характеристику «Юн» у Цзя Сичунь до {0}."
+    },
+    {
+      "id": "mission_ui_condition_tags_10081",
+      "content": "Повысьте характеристику «Жэнь» у Цзя Сичунь до {0}."
+    },
+    {
+      "id": "mission_ui_condition_tags_10083",
+      "content": "Откройте {0} комбо-комбинаций занятий."
+    },
+    {
+      "id": "mission_ui_condition_tags_10086",
+      "content": "Выполните все достижения."
+    }
+  ]
+}

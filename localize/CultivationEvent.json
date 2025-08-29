@@ -1,0 +1,84 @@
+﻿{
+  "dataList": [
+    {
+      "id": "cultivation_rewardShopButton",
+      "content": "Обмен наград"
+    },
+    {
+      "id": "cultivation_missionbutton_normal",
+      "content": "Достижения"
+    },
+    {
+      "id": "cultivation_missionbutton_not_clear",
+      "content": "Пройдите 8.5-3"
+    },
+    {
+      "id": "cultivation_classbutton_normal",
+      "content": "Обучение"
+    },
+    {
+      "id": "cultivation_classbutton_not_clear",
+      "content": "Войдите на этап 8.5-4"
+    },
+    {
+      "id": "cultivation_stagebutton_normal",
+      "content": "Этапы"
+    },
+    {
+      "id": "cultivation_stagebutton_not_clear",
+      "content": "Пройдите 8-33"
+    },
+    {
+      "id": "cultivation_stagebutton_end_event",
+      "content": "Событие завершено"
+    },
+    {
+      "id": "cultivation_bonus_preview",
+      "content": "Идентичности с ивентовым бонусом"
+    },
+    {
+      "id": "cultivation_storybutton_before_start",
+      "content": "Пройдите 8.5-1"
+    },
+    {
+      "id": "cultivation_storybutton_normal",
+      "content": "В Театр"
+    },
+    {
+      "id": "cultivation_bonus_popup_title",
+      "content": "Идентичности с ивентовым бонусом"
+    },
+    {
+      "id": "cultivation_bonusUI_Desc",
+      "content": "Во время ивента, выбор в команду этих Идентичностей увеличит получаемые\n<color=#ffa7a7>[Введения в Чжи, Юн, Жэнь]</color>.\nВы можете получить бонус до <color=#ffa7a7>120%</color> к получаемой валюте."
+    },
+    {
+      "id": "cultivation_scrap_guide_title",
+      "content": "Инфо о валюте"
+    },
+    {
+      "id": "cultivation_rewardpage_desc",
+      "content": "Во время ивента вы можете получить <color=#ffa7a7>[Введение в Чжи, Юн, Жэнь]</color> за прохождение этапов события. Вы также можете получить <color=#ffa7a7>[Введение в Чжи, Юн, Жэнь]</color> за первое прохождение этапов основной истории, зачистку Зеркального подземелья или выполнение достижений.\n\nС небольшим шансом вы можете получить <color=#ffa7a7>[Точно не секретный свиток]</color> за прохождение этапов события, этапов основной истории или Зеркальных подземелий,\nи <color=#ffa7a7>[Точно не секретный свиток]</color> автоматически конвертируется в 20 <color=#ffa7a7>[Введений в Чжи, Юн, Жэнь]</color> при получении.\n\nВ окне <color=#ffa7a7>[Обмен наград]</color> вы можете приобрести различные награды, потратив собранные <color=#ffa7a7>[Введения в Чжи, Юн, Жэнь]</color>."
+    },
+    {
+      "id": "cultivation_reward_popup_desc",
+      "content": "Получайте <color=#ffa7a7>[Введение в Чжи, Юн, Жэнь]</color> следующими способами:\nЗачистка этапов и подземелий события, зачистка Зеркального подземелья,\nвыполнение достижений и первое прохождение этапов и подземелий основной истории.\n\nВ окне <color=#ffa7a7>[Обмен наград]</color> вы можете приобрести различные награды,\nпотратив собранные <color=#ffa7a7>[Введения в Чжи, Юн, Жэнь]</color>."
+    },
+    {
+      "id": "cultivation_mission_reward_popup_desc",
+      "content": "Выполняйте различные достижения на занятиях, чтобы получить <color=#ffa7a7>[Введение в Чжи, Юн, Жэнь]</color>.\n\nПосле окончания периода события вы больше не сможете выполнять достижения. Однако награды по-прежнему можно будет забрать."
+    },
+    {
+      "id": "ask_xichun_class_node_enter",
+      "content": "Вернуться в класс,\nчтобы возобновить занятия?"
+    },
+    {
+      "id": "not_playing_xichun_class_node",
+      "content": "Занятия ещё не начались."
+    },
+    {
+      "id": "not_playing_xichun_class_node_retry",
+      "content": "Занятия окончены.\nПожалуйста, войдите на этап 8.5-4, если хотите пройти эти занятия снова."
+    }
+  ]
+}
