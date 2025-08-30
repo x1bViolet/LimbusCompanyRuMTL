@@ -43,6 +43,7 @@
 - [x] **Murder on the WARP express** 6.5 (2)
 - [x] **LCB Regular Check-Up** 7.5 (1)
 - [x] **Nocturnal Sweeping** 7.5 (2)
+- [x] **Spring Cultivation** 8.5 (1)
 
 ---
 
