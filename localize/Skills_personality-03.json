@@ -1662,7 +1662,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1693,7 +1693,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1724,7 +1724,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
                 }
               ]
             },

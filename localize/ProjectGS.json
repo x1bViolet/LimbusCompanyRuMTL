@@ -1,0 +1,552 @@
+﻿{
+  "dataList": [
+    {
+      "id": "project_gs_button_label_open_lesson_ui",
+      "content": "Выбрать занятие"
+    },
+    {
+      "id": "project_gs_button_label_progress_lesson",
+      "content": "Начать занятие"
+    },
+    {
+      "id": "project_gs_button_label_open_battle",
+      "content": "Промежуточный экзамен"
+    },
+    {
+      "id": "project_gs_stats_wisdom",
+      "content": "Чжи"
+    },
+    {
+      "id": "project_gs_stats_courage",
+      "content": "Юн"
+    },
+    {
+      "id": "project_gs_stats_benevolence",
+      "content": "Жэнь"
+    },
+    {
+      "id": "project_gs_stats_wisdom_with_char",
+      "content": "Чжи (智)"
+    },
+    {
+      "id": "project_gs_stats_courage_with_char",
+      "content": "Юн (勇)"
+    },
+    {
+      "id": "project_gs_stats_benevolence_with_char",
+      "content": "Жэнь (仁)"
+    },
+    {
+      "id": "project_gs_condition",
+      "content": "Боевой дух"
+    },
+    {
+      "id": "project_gs_day",
+      "content": "День {0}"
+    },
+    {
+      "id": "project_gs_schedule_label",
+      "content": "Расписание занятий"
+    },
+    {
+      "id": "project_gs_desc_select_lesson",
+      "content": "Выберите занятие для этого временного слота"
+    },
+    {
+      "id": "project_gs_condition_highest",
+      "content": "Отличное"
+    },
+    {
+      "id": "project_gs_condition_high",
+      "content": "Хорошее"
+    },
+    {
+      "id": "project_gs_condition_medium",
+      "content": "Нормальное"
+    },
+    {
+      "id": "project_gs_condition_low",
+      "content": "Плохое"
+    },
+    {
+      "id": "project_gs_condition_lowest",
+      "content": "Ужасное"
+    },
+    {
+      "id": "project_gs_title_grow_up",
+      "content": "Обучение"
+    },
+    {
+      "id": "project_gs_title_schedule",
+      "content": "Выбрать расписание"
+    },
+    {
+      "id": "project_gs_lesson_level_1",
+      "content": "Новичок"
+    },
+    {
+      "id": "project_gs_lesson_level_2",
+      "content": "Эксперт"
+    },
+    {
+      "id": "project_gs_lesson_level_3",
+      "content": "Мастер"
+    },
+    {
+      "id": "project_gs_jia_xichun_name",
+      "content": "Цзя Сичунь"
+    },
+    {
+      "id": "project_gs_sinclair_name",
+      "content": "Синклер"
+    },
+    {
+      "id": "project_gs_exp",
+      "content": "ОПЫТ"
+    },
+    {
+      "id": "project_gs_combo",
+      "content": "Комбо"
+    },
+    {
+      "id": "project_gs_fixed_lesson",
+      "content": "Обязательное занятие"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_1_critical_success",
+      "content": "Я провела драгоценное время, учась общаться со своим внутренним «я»!!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_1_success",
+      "content": "Я научилась быть более честной с собой, глядя в зеркало!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_1_normal",
+      "content": "Провела время так себе, размышляя о себе."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_1_failure",
+      "content": "Посмотрев в зеркало какое-то время, моё отражение внезапно показалось таким... незнакомым. Меня охватил страх, и я не могла сосредоточиться до конца занятия."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_1_critical_failure",
+      "content": "Я в зеркале — это моё отражение или совершенно другое существо?.. Занятие закончилось после долгого пустого взгляда в зеркало."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_2_critical_success",
+      "content": "Основываясь на полученных навыках, мне удалось воссоздать модель машины по чертежу Фауст!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_2_success",
+      "content": "Удалось изучить различные, подробные механические основы старой технологии Корпорации H!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_2_normal",
+      "content": "Я провела время так себе, изучая различные технологические и инженерные знания."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_2_failure",
+      "content": "Я изучила разные вещи в области инженерии, но всё как-то туманно... Мне придётся позже пересмотреть этот материал, иначе я всё забуду."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_2_critical_failure",
+      "content": "Занятие проходит слишком быстро... Большую часть лекции Фауст я совершенно не поняла."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_3_critical_success",
+      "content": "Я была полностью поглощена захватывающими рассказами о Корректировщиках! В какой-то момент даже забыла дышать!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_3_success",
+      "content": "Время летит незаметно, когда слушаешь рассказы о захватывающих приключениях!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_3_normal",
+      "content": "Я провела время так себе, узнавая о Корректировщиках и их деяниях."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_3_failure",
+      "content": "Сегодняшний рассказ о приключениях был немного скучным, но мне удалось слушать внимательно до конца."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_3_critical_failure",
+      "content": "Занятие состояло из прослушивания того же приключения, которое я уже слышала много раз в прошлом..."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_4_critical_success",
+      "content": "Какое замечательное было приключение. Я так жду нашей следующей сессии... то есть, занятия!!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_4_success",
+      "content": "Работала с Синклером, чтобы найти творческие решения для всевозможных испытаний, с которыми мы столкнулись в приключении!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_4_normal",
+      "content": "Сегодняшнее приключение прошло так себе."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_4_failure",
+      "content": "Сегодняшнее приключение было весёлым, но мы почти не продвинулись по основному квесту."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_4_critical_failure",
+      "content": "Полное истребление клана... Так истина этого мира теперь скрыта во тьме..."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_5_critical_success",
+      "content": "Удалось понять трудности, с которыми сталкивается большинство пехотинцев, и научилась лучше понимать ход битвы!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_5_success",
+      "content": "Теперь я достаточно знаю о городской и окопной войне, чтобы самой дать объяснение!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_5_normal",
+      "content": "Я получила такое себе понимание Войны Крыльев."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_5_failure",
+      "content": "В итоге я была полностью поглощена рассказами о прошлом Грегора, вместо того чтобы сосредоточиться на его лекциях о Войне Крыльев."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_5_critical_failure",
+      "content": "Я так сильно сопереживала горю Грегора, что больше не могла сосредоточиться на занятии..."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_6_critical_success",
+      "content": "Я разгадала все методы убийства, которые подготовил Хон Лу!!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_6_success",
+      "content": "Мне удалось различить чаши, читая едва заметные подсказки в поведении Хон Лу и Дайюй!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_6_normal",
+      "content": "Я провела время так себе с повторяющимися упражнениями на поиск подсказок."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_6_failure",
+      "content": "Я всё ещё не совсем понимаю, как работает эта «интуиция»... Тем не менее, мне удалось угадать примерно половину."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_6_critical_failure",
+      "content": "Буквально в каждой чаше, которую я выбирала, был яд. Сегодня, наверное, просто не мой день..."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_7_critical_success",
+      "content": "Занятие окончено."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_7_success",
+      "content": "Занятие пройдено."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_7_normal",
+      "content": "Занятие прошло так себе."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_7_failure",
+      "content": "Почему так трудно быть лаконичной...?"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_7_critical_failure",
+      "content": "Вот тебе и экономия лишних слов! В итоге я высказала все свои мелкие претензии ко всему на свете до самого конца занятия. В следующий раз я скажу только то, что нужно. Я дала себе обещание."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_8_critical_success",
+      "content": "Всего несколькими словами мне удалось «убедить» цель выложить всё как на духу!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_8_success",
+      "content": "Научилась некоторым угрозам и устрашающим выражениям лица, которыми можно напугать цель!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_8_normal",
+      "content": "Получила такой себе результат в получении дополнительной информации от цели."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_8_failure",
+      "content": "Теперь я знаю, как допрашивать, но каждый раз, когда мне приходилось говорить что-то ужасное цели, я колебалась."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_8_critical_failure",
+      "content": "Не знаю, как это произошло, но цель каким-то образом убедила *меня* выложить всё как на духу..."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_9_critical_success",
+      "content": "Б.З. (Безупречное Занятие)!!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_9_success",
+      "content": "Смех и игры с детьми вернули приятные воспоминания о моём собственном детстве!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_9_normal",
+      "content": "Я получила такие себе знания о том, как разговаривать с детьми."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_9_failure",
+      "content": "Играть с детьми — это, конечно, хорошо, но... это ещё и очень утомительно."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_9_critical_failure",
+      "content": "Я заставила ребёнка плакать... о нет."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_10_critical_success",
+      "content": "Я научилась не только скрывать свои чувства... Я научилась делать любые выражения лица, какие захочу. Наконец-то выиграла раунд у Роди!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_10_success",
+      "content": "Играя в разные игры с Родей, я научилась не только скрывать выражения лица... Я научилась скрывать и подсказки в жестах!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_10_normal",
+      "content": "Я провела время так себе, учась не выдавать свои эмоции слишком очевидно."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_10_failure",
+      "content": "Я изо всех сил старалась сохранять невозмутимое лицо, но не могла удержаться от непроизвольной улыбки, когда мне приходили нужные кости."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_10_critical_failure",
+      "content": "Оказывается, мои эмоции были чрезвычайно очевидны. Родя меня обчистила..."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_11_critical_success",
+      "content": "Я научилась искусству «бешеного пса» и решительным действиям!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_11_success",
+      "content": "Поняла, как можно сломить боевой дух врага!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_11_normal",
+      "content": "Провела время так себе, потея на тренировке."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_11_failure",
+      "content": "Я была слишком измотана, чтобы полноценно успевать за занятием."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_11_critical_failure",
+      "content": "Оружие выскользнуло у меня из рук и ударило Хитклиффа прямо по голове... Я потратила всё время занятия на извинения."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_12_critical_success",
+      "content": "Я отбросила все отвлекающие мысли и позволила потоку битвы направлять моё оружие. Кажется, мне удалось рассечь что-то невидимое!!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_12_success",
+      "content": "Я медитировала, чтобы очистить разум от всего, кроме своего «я». Я всё ещё на пути к этому, но, кажется, у меня появилась идея!"
+    },
+    {
+      "id": "project_gs_lesson_result_desc_12_normal",
+      "content": "Думаю, я получила такое себе понимание учения Ночного Скитальца."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_12_failure",
+      "content": "Движения Ночного Скитальца так сложно отследить... не говоря уже о едком запахе алкоголя, от которого у меня кружится голова."
+    },
+    {
+      "id": "project_gs_lesson_result_desc_12_critical_failure",
+      "content": "Выпили немного с Ночным Скитальцем... чёрт, это было хорошо."
+    },
+    {
+      "id": "project_gs_combo_desc_wisdom_up",
+      "content": "[Прирост характеристики: Чжи +{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_wisdom_down",
+      "content": "[Потеря характеристики: Чжи -{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_courage_up",
+      "content": "[Прирост характеристики: Юн +{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_courage_down",
+      "content": "[Потеря характеристики: Юн -{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_benevolence_up",
+      "content": "[Прирост характеристики: Жэнь +{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_benevolence_down",
+      "content": "[Потеря характеристики: Жэнь -{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_all_stats_up",
+      "content": "[Все характеристики +{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_all_stats_down",
+      "content": "[Все характеристики -{0}]"
+    },
+    {
+      "id": "project_gs_combo_desc_condition_up",
+      "content": "[{0} Боевого духа восстановлено]"
+    },
+    {
+      "id": "project_gs_combo_desc_condition_down",
+      "content": "[{0} Боевого духа потеряно]"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_critical_success",
+      "content": "[Огромный успех в занятии]"
+    },
+    {
+      "id": "project_gs_combo_desc_next_lesson_critical_success",
+      "content": "[Огромный успех в следующем занятии]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_wisdom_up",
+      "content": "[+{0}% к приросту Чжи от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_wisdom_down",
+      "content": "[-{0}% к приросту Чжи от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_courage_up",
+      "content": "[+{0}% к приросту Юн от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_courage_down",
+      "content": "[-{0}% к приросту Юн от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_benevolence_up",
+      "content": "[+{0}% к приросту Жэнь от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_benevolence_down",
+      "content": "[-{0}% к приросту Жэнь от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_all_up",
+      "content": "[+{0}% к приросту всех характеристик от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_stats_result_ratio_all_down",
+      "content": "[-{0}% к приросту всех характеристик от занятия]"
+    },
+    {
+      "id": "project_gs_combo_desc_title",
+      "content": "Комбо-комбинации"
+    },
+    {
+      "id": "project_gs_restart",
+      "content": "Начать заново"
+    },
+    {
+      "id": "project_gs_ask_to_restart",
+      "content": "Начать заново с 1-го дня?"
+    },
+    {
+      "id": "project_gs_finish_to_grow_up",
+      "content": "Занятие завершено"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_success_rate_up",
+      "content": "[Шанс успеха в занятии +{0}%]"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_success_rate_down",
+      "content": "[Шанс успеха в занятии -{0}%]"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_success_rate_changed",
+      "content": "[Шанс успеха в занятии изменён]"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_critical_success_changed",
+      "content": "- Огромный успех: {0}%"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_success_changed",
+      "content": "- Успех: {0}%"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_normal_changed",
+      "content": "- Средне: {0}%"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_failure_changed",
+      "content": "- Неудача: {0}%"
+    },
+    {
+      "id": "project_gs_combo_desc_lesson_critical_failure_changed",
+      "content": "- Огромная неудача: {0}%"
+    },
+    {
+      "id": "project_gs_lesson_level_up_title",
+      "content": "Уведомление"
+    },
+    {
+      "id": "project_gs_notice_unable_to_release_fixed_lesson",
+      "content": "Это обязательное занятие."
+    },
+    {
+      "id": "project_gs_combo_text_only_jia_xichun",
+      "content": "(Цзя Сичунь) "
+    },
+    {
+      "id": "project_gs_combo_text_only_sinclair",
+      "content": "(Синклер) "
+    },
+    {
+      "id": "project_gs_ask_to_start_lesson",
+      "content": "Возобновить занятия?"
+    },
+    {
+      "id": "project_gs_do_not_see_ask_to_start_lesson_popup",
+      "content": "Больше не показывать это сообщение"
+    },
+    {
+      "id": "project_gs_stats_saved",
+      "content": "История роста"
+    },
+    {
+      "id": "project_gs_progress_label",
+      "content": "Прогресс занятий"
+    },
+    {
+      "id": "project_gs_ask_move_to_main",
+      "content": "Сохранить прогресс занятий и\nвернуться в главное меню?"
+    },
+    {
+      "id": "project_gs_exit_title",
+      "content": "Занятия завершены"
+    },
+    {
+      "id": "project_gs_re_enter_warning",
+      "content": "Тридцать дней занятий окончены.\nПовторный вход на этот уровень сбросит ваш прогресс занятий, а начало финального занятия перезапишет историю Обучения вашего предыдущего прохождения.\nВсё равно войти?"
+    },
+    {
+      "id": "project_gs_check_growth",
+      "content": "Посмотреть рост"
+    },
+    {
+      "id": "project_gs_growth_desc",
+      "content": "Цзя Сичунь выросла!\n(Чжи: {0}, Юн: {1}, Жэнь: {2})\nСинклер вырос!\n(Чжи: {4}, Юн: {5}, Жэнь: {6})"
+    },
+    {
+      "id": "project_gs_growth_result_popup_lessons",
+      "content": "Пройденные занятия"
+    },
+    {
+      "id": "project_gs_growth_result_popup_check_stats",
+      "content": "Посмотреть информацию о Цзя Сичунь"
+    },
+    {
+      "id": "project_gs_ask_to_start_lesson_with_warning",
+      "content": "Начало финального занятия перезапишет историю обучения вашего последнего прохождения.\nВсё равно начать занятие?"
+    },
+    {
+      "id": "project_gs_alarm_lesson_level_up",
+      "content": "Уровень занятия «{0}» повышен до «{1}»."
+    }
+  ]
+}
