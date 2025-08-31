@@ -39,7 +39,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Laceration:`Кровотечение`]"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -60,7 +60,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             }

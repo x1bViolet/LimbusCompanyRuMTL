@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Багровое рассечение",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 [Burst:`Разрыва`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration:`Кровотечения`] <nobr>на 2</nobr>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 2</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пьяный сон, безудержная рябь",
+          "desc": "Может перехватить любые атаки независимо от скорости\n[WhenUse] Базовая сила +1 за каждые 3 [Breath:`Дыхания`] (До 3)\n[WhenUse] Базовая сила +3 за каждый тип негативных эффектов на цели (До 9)\n[WhenUse] Получает 5 [Agility:`Спешки`] на следующий ход (Единожды за ход)\n[WhenUse] Получает 10 [Breath:`Дыхания`] и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 300% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 7 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:`Паралича`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
