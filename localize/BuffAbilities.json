@@ -379,6 +379,42 @@
     {
       "id": "Heishou10114",
       "desc": "【Стая Хэйшоу - Адепт Ветви «У» И Сан】\n[VibrationExplosion:`Провоцирует Тремор`] при попадании последней монетой своих базовых навыков (Единожды за ход)\n"
+    },
+    {
+      "id": "GiveMpDmgAsValueOnRESelf",
+      "desc": "Конец каждого хода: союзники теряют {0} СД"
+    },
+    {
+      "id": "GiveHpDmgAsValueAndIncreaseOnRESelf",
+      "desc": "Конец хода: союзники получают {0} фиксированного урона, фиксированный урон увеличивается на {1} с каждым ходом (До {2})"
+    },
+    {
+      "id": "CantRecoverMpOverValue",
+      "desc": "СД не поднимается выше {0}"
+    },
+    {
+      "id": "MD6LimitTest105",
+      "desc": "Затрачиваемые ЭГО Ресурсы увеличиваются на {0}"
+    },
+    {
+      "id": "RemoveFirstBreakSection",
+      "desc": "Первая граница выносливости исчезает"
+    },
+    {
+      "id": "MinSpeedAdderIncludeFirstTurn",
+      "desc": "Минимальная скорость {0}"
+    },
+    {
+      "id": "MaxSpeedAdderIncludeFirstTurn",
+      "desc": "Максимальная скорость {0}"
+    },
+    {
+      "id": "DefaultMaxHpMultiplierBossRoomOnly",
+      "desc": "Максимальные ОЗ босса {0}%"
+    },
+    {
+      "id": "MaxHpReducerMirrorDungeonPersonality",
+      "desc": "Максимальные ОЗ {0}%"
     }
   ]
 }

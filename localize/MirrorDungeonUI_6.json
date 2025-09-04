@@ -331,6 +331,170 @@
     {
       "id": "mirror_dungeon_finished_panel_not_selected_startBuff",
       "content": "Благословение звёзд не выбрано"
+    },
+    {
+      "id": "InfinityFloor_Extreme_CheckEnter_Modal_Title",
+      "content": "ЭКСТРЕМАЛЬНАЯ Параллельная суперпозиция"
+    },
+    {
+      "id": "InfinityFloor_Extreme_CheckEnter_Modal_Desc",
+      "content": "Вы можете войти в ЭКСТРЕМАЛЬНЫЙ режим.\n\nПерейти на следующий этаж в экстремальной суперпозиции?"
+    },
+    {
+      "id": "mirror_constrain_buff",
+      "content": "Совершенные испытания"
+    },
+    {
+      "id": "mirror_constraint_button",
+      "content": "Испытание"
+    },
+    {
+      "id": "mirror_select_constraint_title",
+      "content": "Выбор совершенных испытаний"
+    },
+    {
+      "id": "mirror_select_constraint_slot_achievement",
+      "content": "Завершено"
+    },
+    {
+      "id": "mirror_select_constraint_slot_unachieved",
+      "content": "Не завершено"
+    },
+    {
+      "id": "mirror_select_constraint_slot_reward_title",
+      "content": "Награды совершенных испытаний"
+    },
+    {
+      "id": "mirror_hidden_stage_information_quit_button",
+      "content": "Неустойка"
+    },
+    {
+      "id": "mirror_hidden_stage_information_enter_button",
+      "content": "Войти"
+    },
+    {
+      "id": "mirror_finished_panel_battle_pass_exp_label_name_format",
+      "content": "Боевой пропуск {0} сезона"
+    },
+    {
+      "id": "mirror_finished_panel_exp_reward_label",
+      "content": "Награды"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_exp_reward_label_name_format",
+      "content": "Проекция Зеркала бессмертности"
+    },
+    {
+      "id": "mirror_finished_panel_constraint_bonus_starlight",
+      "content": "Бонус совершенных испытаний"
+    },
+    {
+      "id": "mirror_finished_panel_constraint_bonus_starlight_tooltip_title",
+      "content": "Множитель"
+    },
+    {
+      "id": "mirror_finished_panel_constraint_bonus_starlight_tooltip_desc",
+      "content": "Счёт совершенных испытаний"
+    },
+    {
+      "id": "mirror_dungeon_reward_popup_exp_limit",
+      "content": "Недельный лимит проекции"
+    },
+    {
+      "id": "mirror_dungeon_reward_popup_mirror_pass_exp",
+      "content": "{0} опыта боевого пропуска"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_detail_default",
+      "content": "Обычный"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_detail_infinite",
+      "content": "Параллельная суперпозиция"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_detail_constraint_bonus",
+      "content": "Бонус совершенных испытаний"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_detail_weekly_limit",
+      "content": "Недельный лимит достигнут"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_detail_total",
+      "content": "Сумма"
+    },
+    {
+      "id": "mirror_finished_panel_mirror_pass_detail_weekly_limit_tag",
+      "content": "Недельный лимит"
+    },
+    {
+      "id": "mirror_finished_panel_constraint_section_title",
+      "content": "Выбранные совершенные испытания"
+    },
+    {
+      "id": "mirror_finished_panel_enemy_buff_section_title",
+      "content": "Выбранные обычные испытания"
+    },
+    {
+      "id": "mirror_dungeon_select_constraint_accumulated_score",
+      "content": "Совокупный счёт совершенных испытаний"
+    },
+    {
+      "id": "mirror_dungeon_progress_popup_reward_preview_button",
+      "content": "Прогресс"
+    },
+    {
+      "id": "mirror_dungeon_finished_panel_preview_version_confirm_button",
+      "content": "Закрыть"
+    },
+    {
+      "id": "mirror_dungeon_finished_panel_preview_version_title",
+      "content": "Исследование"
+    },
+    {
+      "id": "mirror_dungeon_finished_panel_preview_version_last_sector_label",
+      "content": "Текущая зона"
+    },
+    {
+      "id": "mirror_dungeon_finished_panel_preview_version_progress_percent_label",
+      "content": "Текущий прогресс"
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_return_title",
+      "content": "Вернуться к выбору этапа"
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_return_desc",
+      "content": "Вернуться к выбору этапа.\nВы можете изменить команду до повторного входа на этот этап."
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_retry_title",
+      "content": "Перепройти этап"
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_retry_desc",
+      "content": "Начать заново с первой волны.\nКоманда не будет изменена."
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_accept_title",
+      "content": "Принять результаты и вернуться к выбору этапа"
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_accept_desc",
+      "content": "Принять текущие результаты битвы, такие как смерти грешников, и вернуться к выбору этапа."
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_current_floor",
+      "content": "Этаж в процессе"
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_desc",
+      "content": "Все выбранные грешники мертвы."
+    },
+    {
+      "id": "mirror_dungeon_ask_after_defeat_remain_unit_desc",
+      "content": "Осталось:"
     }
   ]
 }
