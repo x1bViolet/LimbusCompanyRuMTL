@@ -543,6 +543,14 @@
     {
       "id": "mirror_dungeon_give_up_ego_gift_ask_with_random_category",
       "content": "Продолжить без выбора ЭГО Дара?\n\nЕсли вы продлжите без выбора ЭГО Дара,\nих ключевые слова будут выбраны\nслучайным образом."
+    },
+    {
+      "id": "mirror_dungeon_block_to_click_extream_theme_list",
+      "content": "(Условия открытия ЭКСТРЕМАЛЬНОЙ сложности)"
+    },
+    {
+      "id": "mirror_dungeon_extream_difficulty",
+      "content": "ЭКСТРИМ"
     }
   ]
 }
