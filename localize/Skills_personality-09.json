@@ -713,7 +713,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается <nobr>на 1</nobr>"
                 }
               ]
             },
@@ -734,7 +734,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\n<style=\"highlight\">Если её число менее 15, оно повышается ещё на 1</style>"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается <nobr>на 1</nobr>\n<style=\"highlight\">Если её число менее 15, оно повышается ещё на 1</style>"
                 }
               ]
             },
@@ -755,7 +755,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\nЕсли её число менее 15, оно повышается ещё на 1"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается <nobr>на 1</nobr>\nЕсли её число менее 15, оно повышается ещё на 1"
                 }
               ]
             },
@@ -781,7 +781,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается <nobr>на 1</nobr>"
                 }
               ]
             },
@@ -809,7 +809,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\n<style=\"highlight\">Если её число менее 15, оно повышается ещё на 1</style>"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается <nobr>на 1</nobr>\n<style=\"highlight\">Если её число менее 15, оно повышается ещё на 1</style>"
                 }
               ]
             },
@@ -837,7 +837,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается на 1\nЕсли её число менее 15, оно повышается ещё <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Число на [DevyatDimensionalSack:`Курьерской сумке`](#6fb78f) повышается <nobr>на 1</nobr>\nЕсли её число менее 15, оно повышается ещё <style=\"highlight\">на 2</style>"
                 }
               ]
             },
