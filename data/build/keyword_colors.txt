@@ -907,3 +907,6 @@ DrunkAwakening ¤ #f8c200
 NightDrifterGuilty ¤ #e30000
 SnakePoisonJinWeak ¤ #e30000
 SnakePoisonJin ¤ #e30000
+VibrationBleeding ¤ #e30000
+GazeRyoshu ¤ #e30000
+ContemptRyoshu ¤ #e30000

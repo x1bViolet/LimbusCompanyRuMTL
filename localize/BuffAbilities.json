@@ -350,7 +350,7 @@
     },
     {
       "id": "VibrationIgnition",
-      "desc": "【[VibrationExplosion:`Тремор - Ожог`]】\nСледующие {1} [VibrationExplosion:`Провокаций Тремора`] получит (({0} + Сила [Combustion:`Огня`]) / 2) урона Гневом\n"
+      "desc": "【[VibrationIgnition:`Тремор - Ожог`]】\nСледующие {1} [VibrationExplosion:`Провокаций Тремора`] получит (({0} + Сила [Combustion:`Огня`]) / 2) урона Гневом\n"
     },
     {
       "id": "Heishou10212",
@@ -415,6 +415,10 @@
     {
       "id": "MaxHpReducerMirrorDungeonPersonality",
       "desc": "Максимальные ОЗ {0}%"
+    },
+    {
+      "id": "VibrationBleeding",
+      "desc": "【[VibrationBleeding:`Тремор - Кровоизлияние`]】\nСледующие {1} [VibrationExplosion:`Провокаций Тремора`] получит (({0} + Сила [Laceration:`Кровотечения`]) / 2) урона Похотью\n"
     }
   ]
 }
