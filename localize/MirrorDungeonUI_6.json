@@ -366,7 +366,7 @@
     },
     {
       "id": "mirror_hidden_stage_information_quit_button",
-      "content": "Неустойка"
+      "content": "Пропустить"
     },
     {
       "id": "mirror_hidden_stage_information_enter_button",
@@ -495,6 +495,18 @@
     {
       "id": "mirror_dungeon_ask_after_defeat_remain_unit_desc",
       "content": "Осталось:"
+    },
+    {
+      "id": "mirror_dungeon_hidden_stage_title",
+      "content": "Зона cдвига измерения - ПРЕДУПРЕЖДЕНИЕ ОБ ОШИБКЕ РАСПОЗНАВАНИЯ"
+    },
+    {
+      "id": "mirror_dungeon_hidden_stage_description",
+      "content": "При подтверждении входа вы сможете пройти дальше только после победы в битве.\n\nВойти в любом случае?\n※ После победы в битве все мёртвые Грешники будут воскрешены, а здоровье остальных восстановится до максимума."
+    },
+    {
+      "id": "mirror_dungeon_revive_after_hidden_boss_alarm",
+      "content": "Все мёртвые Грешники воскрешены, а здоровье восстановлено до максимума."
     }
   ]
 }

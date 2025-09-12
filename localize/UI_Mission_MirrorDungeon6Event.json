@@ -18,7 +18,7 @@
     },
     {
       "id": "mission_ui_condition_tags_201002006",
-      "content": "Пройдите {0} и более наборов тем Основной истории за одну экспедицию"
+      "content": "Пройдите {0} и более наборов тем с названиями глав основной истории за одну экспедицию"
     },
     {
       "id": "mission_ui_condition_tags_201003019",
@@ -154,7 +154,47 @@
     },
     {
       "id": "mission_ui_condition_tags_201000001",
-      "content": "Выполните все достижения"
+      "content": "Выполните все достижения (За исключением \"Скрытых\")"
+    },
+    {
+      "id": "ui_condition_clear_201100001_CLEAR",
+      "content": "Пройдите скрытый бой - Истинный Дон Кихот"
+    },
+    {
+      "id": "ui_condition_clear_201100002_CLEAR",
+      "content": "Пройдите скрытый бой - Лэй Хэн"
+    },
+    {
+      "id": "ui_condition_clear_201100003_CLEAR",
+      "content": "Пройдите скрытый бой - Рикардо"
+    },
+    {
+      "id": "ui_condition_clear_201100004_CLEAR",
+      "content": "Пройдите скрытый бой - Ккоми и Вергилий"
+    },
+    {
+      "id": "mission_ui_condition_tags_201100005",
+      "content": "Заполучите ЭГО Дар EX-Ранга \"Богатство\""
+    },
+    {
+      "id": "mission_ui_condition_tags_201100006",
+      "content": "Заполучите ЭГО Дар EX-Ранга \"Некоторая философия\""
+    },
+    {
+      "id": "ui_condition_clear_201100001_NONE",
+      "content": "Пройдите скрытый бой - ???"
+    },
+    {
+      "id": "ui_condition_clear_201100002_NONE",
+      "content": "Пройдите скрытый бой - ???"
+    },
+    {
+      "id": "ui_condition_clear_201100003_NONE",
+      "content": "Пройдите скрытый бой - ???"
+    },
+    {
+      "id": "ui_condition_clear_201100004_NONE",
+      "content": "Пройдите скрытый бой - ???"
     }
   ]
 }
