@@ -1337,7 +1337,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели, понижая его счётчик на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели, понижая его счётчик на 1</style>"
                 }
               ]
             }
