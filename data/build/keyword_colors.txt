@@ -910,3 +910,10 @@ SnakePoisonJin ¤ #e30000
 VibrationBleeding ¤ #e30000
 GazeRyoshu ¤ #e30000
 ContemptRyoshu ¤ #e30000
+DerivativeHugeIrritation ¤ #f8c200
+GiveMeCandy ¤ #e30000
+HungryCharon ¤ #e30000
+FullCharon ¤ #e30000
+VerEmergencyCandy ¤ #f8c200
+VerHunger ¤ #9f6a3a
+VerShiningFullness ¤ #f8c200
