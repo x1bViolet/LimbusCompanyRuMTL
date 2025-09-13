@@ -18,7 +18,7 @@
     },
     {
       "id": "combineUI_enableStarlight_confirm_desc",
-      "content": "Потратить 5 Благословения звёзд для повышения шанся слияния?"
+      "content": "Потратить 5 Благословения звёзд для повышения шанса слияния?"
     },
     {
       "id": "side_title_not_enough_starlight",
@@ -270,7 +270,7 @@
     },
     {
       "id": "mirror_starlight_result_formation_total_consumed_point",
-      "content": "Сумма расходов"
+      "content": "Расходы"
     },
     {
       "id": "mirror_hard_recommended_level_popup_desctiption",
@@ -366,7 +366,7 @@
     },
     {
       "id": "mirror_hidden_stage_information_quit_button",
-      "content": "Неустойка"
+      "content": "Пропустить"
     },
     {
       "id": "mirror_hidden_stage_information_enter_button",
@@ -382,7 +382,7 @@
     },
     {
       "id": "mirror_finished_panel_mirror_pass_exp_reward_label_name_format",
-      "content": "Проекция Зеркала бессмертности"
+      "content": "Выполненные достижения"
     },
     {
       "id": "mirror_finished_panel_constraint_bonus_starlight",
@@ -398,7 +398,7 @@
     },
     {
       "id": "mirror_dungeon_reward_popup_exp_limit",
-      "content": "Недельный лимит проекции"
+      "content": "Недельный лимит достижений"
     },
     {
       "id": "mirror_dungeon_reward_popup_mirror_pass_exp",
@@ -406,7 +406,7 @@
     },
     {
       "id": "mirror_finished_panel_mirror_pass_detail_default",
-      "content": "Обычный"
+      "content": "Обычные"
     },
     {
       "id": "mirror_finished_panel_mirror_pass_detail_infinite",
@@ -422,7 +422,7 @@
     },
     {
       "id": "mirror_finished_panel_mirror_pass_detail_total",
-      "content": "Сумма"
+      "content": "Итого"
     },
     {
       "id": "mirror_finished_panel_mirror_pass_detail_weekly_limit_tag",
@@ -430,11 +430,11 @@
     },
     {
       "id": "mirror_finished_panel_constraint_section_title",
-      "content": "Выбранные совершенные испытания"
+      "content": "Совершенные испытания"
     },
     {
       "id": "mirror_finished_panel_enemy_buff_section_title",
-      "content": "Выбранные обычные испытания"
+      "content": "Обычные испытания"
     },
     {
       "id": "mirror_dungeon_select_constraint_accumulated_score",
@@ -490,11 +490,23 @@
     },
     {
       "id": "mirror_dungeon_ask_after_defeat_desc",
-      "content": "Все выбранные грешники мертвы."
+      "content": "Все выбранные в команду грешники мертвы."
     },
     {
       "id": "mirror_dungeon_ask_after_defeat_remain_unit_desc",
-      "content": "Осталось:"
+      "content": "Других грешников осталось:"
+    },
+    {
+      "id": "mirror_dungeon_hidden_stage_title",
+      "content": "Зона cдвига измерения - ПРЕДУПРЕЖДЕНИЕ ОБ ОШИБКЕ РАСПОЗНАВАНИЯ"
+    },
+    {
+      "id": "mirror_dungeon_hidden_stage_description",
+      "content": "При подтверждении входа вы сможете пройти дальше только после победы в битве.\n\nВойти в любом случае?\n※ После победы в битве все мёртвые Грешники будут воскрешены, а здоровье остальных восстановится до максимума."
+    },
+    {
+      "id": "mirror_dungeon_revive_after_hidden_boss_alarm",
+      "content": "Все мёртвые Грешники воскрешены, а здоровье восстановлено до максимума."
     }
   ]
 }
