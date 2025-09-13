@@ -490,11 +490,11 @@
     },
     {
       "id": "mirror_dungeon_ask_after_defeat_desc",
-      "content": "Все выбранные грешники мертвы."
+      "content": "Все выбранные в команду грешники мертвы."
     },
     {
       "id": "mirror_dungeon_ask_after_defeat_remain_unit_desc",
-      "content": "Осталось:"
+      "content": "Других грешников осталось:"
     },
     {
       "id": "mirror_dungeon_hidden_stage_title",
