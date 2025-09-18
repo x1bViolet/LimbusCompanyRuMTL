@@ -507,6 +507,10 @@
     {
       "id": "mirror_dungeon_revive_after_hidden_boss_alarm",
       "content": "Все мёртвые Грешники воскрешены, а здоровье восстановлено до максимума."
+    },
+    {
+      "id": "mirror_finished_panel_floor_format",
+      "content": "Э{0}"
     }
   ]
 }
