@@ -1486,7 +1486,7 @@
         {
           "level": 3,
           "name": "Серьёзный череполом",
-          "desc": "[WhenUse] Тратит все [RedEyeFirst:`Красные глаза`] и [PenanceFirst:`Раскаяние`]</style>\n[WhenUse] Сила монет +1 за каждые 5 потраченных [RedEyeFirst:`Красных глаз`] (До 4)\n[WhenUse] Базовая сила +1 за каждые 5 потраченных [PenanceFirst:`Раскаяния`]</style> (До 4)\n[EndSkill] Теряет 15 СД и [Emptiness:`Выжигает дотла`] своё ЭГО оружие",
+          "desc": "[WhenUse] Тратит все [RedEyeFirst:`Красные глаза`] и [PenanceFirst:`Раскаяние`]\n[WhenUse] Сила монет +1 за каждые 5 потраченных [RedEyeFirst:`Красных глаз`] (До 4)\n[WhenUse] Базовая сила +1 за каждые 5 потраченных [PenanceFirst:`Раскаяния`] (До 4)\n[EndSkill] Теряет 15 СД и [Emptiness:`Выжигает дотла`] своё ЭГО оружие",
           "coinlist": [
             {
               "coindescs": [
@@ -1517,7 +1517,7 @@
         {
           "level": 4,
           "name": "Серьёзный череполом",
-          "desc": "[WhenUse] Тратит все [RedEyeFirst:`Красные глаза`] и [PenanceFirst:`Раскаяние`]</style>\n[WhenUse] Сила монет +1 за каждые 5 потраченных [RedEyeFirst:`Красных глаз`] (До 4)\n[WhenUse] Базовая сила +1 за каждые 5 потраченных [PenanceFirst:`Раскаяния`]</style> (До 4)\n[EndSkill] Теряет 15 СД и [Emptiness:`Выжигает дотла`] своё ЭГО оружие",
+          "desc": "[WhenUse] Тратит все [RedEyeFirst:`Красные глаза`] и [PenanceFirst:`Раскаяние`]\n[WhenUse] Сила монет +1 за каждые 5 потраченных [RedEyeFirst:`Красных глаз`] (До 4)\n[WhenUse] Базовая сила +1 за каждые 5 потраченных [PenanceFirst:`Раскаяния`] (До 4)\n[EndSkill] Теряет 15 СД и [Emptiness:`Выжигает дотла`] своё ЭГО оружие",
           "coinlist": [
             {
               "coindescs": [
