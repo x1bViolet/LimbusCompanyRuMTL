@@ -450,7 +450,7 @@
     },
     {
       "id": "ReviveOutOfBattleAndRecoverHpAll",
-      "content": "Воскресить всех павших Грешников и <color=#ebcaa2>исцелить</color> всех выживших Грешников <color=#00ff9c>до максимального ОЗ</color>"
+      "content": "Воскресить всех павших Грешников и <color=#ebcaa2>исцелить</color> всех выживших Грешников <color=#00ff9c>до максимальных ОЗ</color>"
     }
   ]
 }
