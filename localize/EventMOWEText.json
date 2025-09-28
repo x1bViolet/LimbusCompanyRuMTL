@@ -1,0 +1,13 @@
+{
+  "_comment": "Почему они в Паломничестве сострадания",
+  "dataList": [
+    {
+      "id": "mowe_stagebutton_normal",
+      "content": "Уровни"
+    },
+    {
+      "id": "mowe_storybutton_normal",
+      "content": "В театр"
+    }
+  ]
+}
