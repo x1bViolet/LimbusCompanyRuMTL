@@ -4,10 +4,10 @@
       width="200"
       height="200"/>
 </a>
-   
+
 # LimbusCompanyRuMTL
 Мод на (правленный?) машинный русский перевод Limbus Company
-   
+
 <b>Наши друзья</b><br/>
 [한국어](https://limbuscompany.kr) | [简体中文](https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany) | [Ручной русский перевод](https://github.com/Crescent-Corporation/LimbusCompanyBusRUS)
 
@@ -44,6 +44,7 @@
 - [x] **LCB Regular Check-Up** 7.5 (1)
 - [x] **Nocturnal Sweeping** 7.5 (2)
 - [x] **Spring Cultivation** 8.5 (1)
+- [x] **Piligrimage of Compassion** 8.5 EX
 
 ---
 
