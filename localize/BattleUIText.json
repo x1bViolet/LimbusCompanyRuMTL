@@ -799,6 +799,54 @@
     {
       "id": "LocalSetButtonTitle_ImportanceLevel",
       "content": "Замечания"
+    },
+    {
+      "id": "Retreat_Quit_TextAlarm",
+      "content": "!Побег из боя!"
+    },
+    {
+      "id": "ab_part_gadget_activated",
+      "content": "Вкл"
+    },
+    {
+      "id": "ab_part_gadget_deactivated",
+      "content": "Выкл"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_1_Desc",
+      "content": "!Приоритет:Ср.!"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_2_Desc",
+      "content": "!Приоритет:Выс!"
+    },
+    {
+      "id": "UpperSkillInfo_Player_ImportanceLevel_3_Desc",
+      "content": "!Приоритет:Оч.Выс!"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_1_Desc",
+      "content": "!Приоритет: Ср.!"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_2_Desc",
+      "content": "!Приоритет: Высокий!"
+    },
+    {
+      "id": "UpperSkillInfo_Enemy_ImportanceLevel_3_Desc",
+      "content": "!Приоритет: Оч. Высокий!"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_CANDIDATE",
+      "content": "По условиям"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_EXCLUDE_CANDIDATE",
+      "content": "Всегда активно"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_active",
+      "content": "Активно"
     }
   ]
 }

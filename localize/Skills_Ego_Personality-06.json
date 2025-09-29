@@ -614,7 +614,7 @@
           "level": 1,
           "name": "Слёзы осквернённой крови — Начало【始】",
           "abName": "Иньлун",
-          "desc": "[CantDuel]\nИгнорирует защитные навыки противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
           "coinlist": [
             {
               "coindescs": [
@@ -629,7 +629,7 @@
           "level": 3,
           "name": "Слёзы осквернённой крови — Начало【始】",
           "abName": "Иньлун",
-          "desc": "[CantDuel]\nИгнорирует защитные навыки противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
           "coinlist": [
             {
               "coindescs": [
@@ -644,7 +644,7 @@
           "level": 4,
           "name": "Слёзы осквернённой крови — Начало【始】",
           "abName": "Иньлун",
-          "desc": "[CantDuel]\nИгнорирует защитные навыки противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков противников и не атакует их\n[EndSkill] Получает [DragonLance:`Клин для похорон цветов`]",
           "coinlist": [
             {
               "coindescs": [
@@ -903,6 +903,223 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оставаться собой【宁作吾】",
+          "abName": "Лин",
+          "desc": "[WhenUse] Получает 2 [Breath:`Дыхания`]\n[BeforeAttack] Итоговая сила +1 при 5 и более единицах в сумме силы и счётчика своего [Breath:`Дыхания`]\n[BeforeAttack] Наносит на 15% больше урона, если имеется [Cianjing:`Громовержец`]\n[BeforeAttack] Наносит на 27% больше урона, если имеется [SeniorCianjing:`Высший громовержец`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [Cianjing:`Громовержец`], на (Сила своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До 15%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [SeniorCianjing:`Высший громовержец`], на (Сумма силы и счётчика своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Оставаться собой【宁作吾】",
+          "abName": "Лин",
+          "desc": "[WhenUse] Получает <style=\"highlight\">3</style> [Breath:`Дыхания`]\n[BeforeAttack] Итоговая сила +1 <style=\"highlight\">за каждые 5</style> единиц в сумме силы и счётчика своего [Breath:`Дыхания`] (До 2)\n[BeforeAttack] Наносит на 15% больше урона <style=\"highlight\">и Количество целей повышается на 1</style>, если имеется [Cianjing:`Громовержец`]\n[BeforeAttack] Наносит на 27% больше урона <style=\"highlight\">и Количество целей повышается на 2</style>, если имеется [SeniorCianjing:`Высший громовержец`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [Cianjing:`Громовержец`], на (Сила своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До <style=\"highlight\">20%</style>)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [SeniorCianjing:`Высший громовержец`], на (Сумма силы и счётчика своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Оставаться собой【宁作吾】",
+          "abName": "Лин",
+          "desc": "[WhenUse] Получает <style=\"highlight\">4</style> [Breath:`Дыхания`]\n[BeforeAttack] Итоговая сила +1 за каждые 5 единиц в сумме силы и счётчика своего [Breath:`Дыхания`] (До <style=\"highlight\">3</style>)\n<style=\"highlight\">[BeforeAttack] Если нет [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`], восстанавливает половину потраченных на активацию ЭГО Ресурсов и СД</style>\n[BeforeAttack] Наносит на <style=\"highlight\">25%</style> больше урона и Количество целей повышается на 1, если имеется [Cianjing:`Громовержец`]\n[BeforeAttack] Наносит на <style=\"highlight\">45%</style> больше урона и Количество целей повышается на 2, если имеется [SeniorCianjing:`Высший громовержец`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [Cianjing:`Громовержец`], на <style=\"highlight\">(</style>Сила своего [Breath:`Дыхания`]<style=\"highlight\">)%</style> больше урона этой монетой (До 20%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [SeniorCianjing:`Высший громовержец`], на <style=\"highlight\">(</style>Сумма силы и счётчика своего [Breath:`Дыхания`]<style=\"highlight\">)%</style> больше урона этой монетой (До 40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оставаться собой【宁作吾】",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 2\n[BeforeAttack] Сила монет +1 при наличи [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 10% от уже нанесённого (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 15% от уже нанесённого (До 15)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [Cianjing:`Громовержец`], на (Сила своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До 20%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [SeniorCianjing:`Высший громовержец`], на (Сумма силы и счётчика своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До 40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 25% от уже нанесённого (До 25)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Оставаться собой【宁作吾】",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает <style=\"highlight\">3</style> [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 3</style>\n[BeforeAttack] Сила монет +1<style=\"highlight\">, Базовая сила +1 и Количество целей +1</style> при наличи [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 10% от уже нанесённого (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 15% от уже нанесённого (До 15)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [Cianjing:`Громовержец`], на (Сила своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [SeniorCianjing:`Высший громовержец`], на (Сумма силы и счётчика своего [Breath:`Дыхания`] / 2)% больше урона этой монетой (До <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 25% от уже нанесённого (До 25)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Оставаться собой【宁作吾】",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает <style=\"highlight\">4</style> [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 4</style>\n[BeforeAttack] Сила монет +<style=\"highlight\">2</style>, Базовая сила +<style=\"highlight\">2</style> и Количество целей +<style=\"highlight\">2</style> при наличи [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 10% от уже нанесённого (До 10)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 15% от уже нанесённого (До 15)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [Cianjing:`Громовержец`], на <style=\"highlight\">(</style>Сила своего [Breath:`Дыхания`]<style=\"highlight\">)%</style> больше урона этой монетой (До 30%)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если имеется [SeniorCianjing:`Высший громовержец`], на <style=\"highlight\">(</style>Сумма силы и счётчика своего [Breath:`Дыхания`]<style=\"highlight\">)%</style> больше урона этой монетой (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] <style=\"highlight\">и повышает его счётчик на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Гордыней в количестве 25% от уже нанесённого (До 25)"
                 }
               ]
             }

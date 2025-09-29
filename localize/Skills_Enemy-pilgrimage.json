@@ -1,0 +1,373 @@
+{
+  "dataList": [
+    {
+      "id": 9102701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Укус",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наступление",
+          "desc": "Сила в столкновении +1 против целей с 6 и более [Sinking:`Утопания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлопок",
+          "desc": "Сила в столкновении +1 против целей с 6 и более [Sinking:`Утопания`]\n[StartBattle] Если свои ОЗ ниже 33%, все монеты этой атаки становятся [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NervousImpairment:`Поражение нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрывающее увечье",
+          "desc": "Сила в столкновении +1 против целей с 6 и более [Sinking:`Утопания`]\n[StartBattle] Если свои ОЗ ниже 33%, последняя монета этой атаки становится [SuperCoin:`Вечной`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NervousImpairment:`Поражение нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NervousImpairment:`Поражение нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрез жизни",
+          "desc": "Итоговая сила +1 за каждые 6 [Sinking:`Утопания`] на цели (До 3)\n[StartBattle] Если свои ОЗ ниже 50%, все монеты этой атаки становятся [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовство",
+          "desc": "Итоговая сила +1 за каждые 6 [Sinking:`Утопания`] на цели (До 3)\n[StartBattle] Если свои ОЗ ниже 50%, все монеты этой атаки становятся [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сбор питательных веществ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрывающий укус",
+          "desc": "Итоговая сила +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NervousImpairment:`Поражение нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Упорное поглощение",
+          "desc": "Итоговая сила +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NervousImpairment:`Поражение нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прокалывание жизни",
+          "desc": "Итоговая сила +1 за каждые 6 [Sinking:`Утопания`] на главной цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NervousImpairment:`Поражение нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выброс",
+          "desc": "Итоговая сила +1 за каждые 6 [Sinking:`Утопания`] на главной цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [NervousImpairment:`Поражения нервов`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -319,6 +319,18 @@
     {
       "id": "Inter",
       "content": "Битва в процессе"
+    },
+    {
+      "id": "ChapterTitleConfig_Arknights",
+      "content": "Аркнайтс"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9119",
+      "content": "Пройдите 8.5-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9120",
+      "content": "Пройдите LC-PC-1"
     }
   ]
 }
