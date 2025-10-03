@@ -315,6 +315,10 @@
     {
       "id": "restore_purchase_succeed",
       "content": "Купленные вами продукты были возвращены."
+    },
+    {
+      "id": "paid_already",
+      "content": "Этот товар уже был куплен."
     }
   ]
 }
