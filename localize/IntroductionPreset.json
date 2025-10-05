@@ -258,7 +258,7 @@
     },
     {
       "id": "introduce_sentence_25",
-      "content": "Откуда вообще вы взяли {0}(-а)?"
+      "content": "Откуда вы вообще взяли {0}(-у/-а)?"
     },
     {
       "id": "introduce_sentence_26",
@@ -286,7 +286,7 @@
     },
     {
       "id": "introduce_sentence_32",
-      "content": "Ты точно помнишь {0}."
+      "content": "Ты точно помнишь {0}(-у/-а)."
     },
     {
       "id": "introduce_sentence_33",
