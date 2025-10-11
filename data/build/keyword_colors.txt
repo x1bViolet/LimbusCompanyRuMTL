@@ -930,3 +930,8 @@ IndelibleGoodwill ¤ #f8c200
 FreezingDOQ ¤ #e30000
 ColdAirDOQ ¤ #e30000
 WeakenDOQ ¤ #e30000
+ArrowShiFau ¤ #9f6a3a
+ArrowInTheEyeFau ¤ #e30000
+AimForTheGoal ¤ #f8c200
+SnipingArrowMode ¤ #f8c200
+AStrokeOfDeath ¤ #f8c200
