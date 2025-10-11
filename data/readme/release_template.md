@@ -22,3 +22,5 @@
 - **Murder on the WARP express** 6.5 (2)
 - **LCB Regular Check-Up** 7.5 (1)
 - **Nocturnal Sweeping** 7.5 (2)
+- **Spring Cultivation** 8.5 (1)
+- **Piligrimage of Compassion** 8.5 EX

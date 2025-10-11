@@ -1748,6 +1748,372 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1021301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрез",
+          "desc": "[WhenUse] Получает 1 [Breath:`Дыхание`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Разрез",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели равна 4 и более</style>\n[WhenUse] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрез",
+          "desc": "[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели равна 4 и более\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Манёвр позиционирования",
+          "desc": "[WhenUse] Наносит на 11% больше урона за каждые 4 [Breath:`Дыхания`] (До 44%)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Манёвр позиционирования",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)</style>\n[WhenUse] Наносит на 11% больше урона за каждые 4 [Breath:`Дыхания`] (До 44%)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Манёвр позиционирования",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 11% больше урона за каждые 4 [Breath:`Дыхания`] (До 44%)\n<style=\"highlight\">[WhenUse] Наносит на 11% больше урона за каждую отсутствующую [ArrowShiFau:`Стрелу 【Ши】`] (До 44%)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Лук-клинок ассоциации «Ши»【弓閃】",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Наносит на 11% больше урона за каждые 4 [Breath:`Дыхания`] (До 44%)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] ещё на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Лук-клинок ассоциации «Ши»【弓閃】",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Наносит на 11% больше урона за каждые 4 [Breath:`Дыхания`] (До 44%)\n<style=\"highlight\">[WhenUse] Наносит на 11% больше урона за каждую отсутствующую [ArrowShiFau:`Стрелу 【Ши】`] (До 44%)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] ещё на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> [DefenseDown:`Понижения уровня защиты`] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Раскрытие лука-клинка【弓刀】",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Раскрытие лука-клинка【弓刀】",
+          "desc": "<style=\"highlight\">Если [ArrowShiFau:`Стрелы 【Ши】`] на нуле, использует Уворот вместо этого\n\n[StartBattle] Если собирается использовать 「Мерцание лука 【閃弓】」, этот защитный навык заменяется на Уворот\n[StartBattle] Если в состоянии [SnipingArrowMode:`Готовности выстрелить`], получает (36 / значение [AimForTheGoal:`Нацеливания`]) ОЗ Щита (Единожды за ход)\n\n[EndBattle] Если нет [SnipingArrowMode:`Готовности выстрелить`] и имеется хотя бы 1 [ArrowShiFau:`Стрела 【Ши】`], получает 1 [AimForTheGoal:`Нацеливание`] и [SnipingArrowMode:`Готовность выстрелить`] на следующий ход\n[EndBattle] Если есть [SnipingArrowMode:`Готовность выстрелить`] и во время хода собою не были использованы атакующие навыки, [AimForTheGoal:`Нацеливание`] повышается на 1 в следующем ходе</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Раскрытие лука-клинка【弓刀】",
+          "desc": "Если [ArrowShiFau:`Стрелы 【Ши】`] на нуле, использует Уворот вместо этого\n\n[StartBattle] Если собирается использовать 「Мерцание лука 【閃弓】」, этот защитный навык заменяется на Уворот\n[StartBattle] Если в состоянии [SnipingArrowMode:`Готовности выстрелить`], получает (<style=\"highlight\">60</style> / значение [AimForTheGoal:`Нацеливания`]) ОЗ Щита (Единожды за ход)\n\n[EndBattle] Если нет [SnipingArrowMode:`Готовности выстрелить`] и имеется хотя бы 1 [ArrowShiFau:`Стрела 【Ши】`], получает 1 [AimForTheGoal:`Нацеливание`] и [SnipingArrowMode:`Готовность выстрелить`] на следующий ход\n[EndBattle] Если есть [SnipingArrowMode:`Готовность выстрелить`] и во время хода собою не были использованы атакующие навыки, [AimForTheGoal:`Нацеливание`] повышается на 1 в следующем ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021305,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Мерцание лука 【閃弓】",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНаносит на 24% больше обычного урона за каждую единицу [AimForTheGoal:`Нацеливания`] (До 72%)\nНаносит на 24% больше урона при критическом попадании за каждую единицу [AimForTheGoal:`Нацеливания`] (До 72%)\n- При 4 [AimForTheGoal:`Нацеливания`] наносит на 444% больше урона при критическом попадании вместо двух эффектов выше\n[WhenUse] Базовая сила +2 при 4 и более [Breath:`Дыхания`]\n[WhenUse] Сила монеты +2 за каждую единицу [AimForTheGoal:`Нацеливания`] (До 4)\n[WhenUse] Получает 5 [Breath:`Дыхания`] за каждую единицу [AimForTheGoal:`Нацеливания`] (До 20)\n[EndSkill] Теряет (Значение [AimForTheGoal:`Нацеливания`] × 5) [Breath:`Дыхания`]\n[EndSkill] [SnipingArrowMode:`Готовность выстрелить`] и [AimForTheGoal:`Нацеливание`] исчезают",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит 1 [ArrowShiFau:`Стрелу 【Ши】`] и наносит 1 [ArrowInTheEyeFau:`Попадание стрелы`]"
+                },
+                {
+                  "desc": "[EnemyKill] Получает [AStrokeOfDeath:`Окончание жизни`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Мерцание лука 【閃弓】",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНаносит на <style=\"highlight\">48%</style> больше обычного урона за каждую единицу [AimForTheGoal:`Нацеливания`] (До <style=\"highlight\">144%</style>)\nНаносит на <style=\"highlight\">48%</style> больше урона при критическом попадании за каждую единицу [AimForTheGoal:`Нацеливания`] (До <style=\"highlight\">144%</style>)\n- При 4 [AimForTheGoal:`Нацеливания`] наносит на 444% больше урона при критическом попадании вместо двух эффектов выше\n[WhenUse] Базовая сила +2 <style=\"highlight\">за каждые 4</style> [Breath:`Дыхания`] <style=\"highlight\">(До 10)</style>\n[WhenUse] Сила монеты +<style=\"highlight\">4</style> за каждую единицу [AimForTheGoal:`Нацеливания`] (До <style=\"highlight\">10</style>)\n[WhenUse] Получает 5 [Breath:`Дыхания`] за каждую единицу [AimForTheGoal:`Нацеливания`] (До 20)\n[EndSkill] Теряет (<style=\"highlight\">(</style>Значение [AimForTheGoal:`Нацеливания`] <style=\"highlight\">- 1)</style> × 5) [Breath:`Дыхания`]\n[EndSkill] [SnipingArrowMode:`Готовность выстрелить`] и [AimForTheGoal:`Нацеливание`] исчезают",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит 1 [ArrowShiFau:`Стрелу 【Ши】`] и наносит 1 [ArrowInTheEyeFau:`Попадание стрелы`]"
+                },
+                {
+                  "desc": "[EnemyKill] Получает [AStrokeOfDeath:`Окончание жизни`] на следующий ход"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalEnemyTargetKill] Повышает свой счётчик [Breath:`Дыхания`] на 4</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Повышает свой счётчик [Breath:`Дыханияе`] на 1 (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Повышает свой счётчик [Breath:`Дыханияе`] на 1 (До <style=\"highlight\">3 раз</style> за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

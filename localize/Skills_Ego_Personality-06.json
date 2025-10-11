@@ -988,7 +988,7 @@
           "level": 1,
           "name": "Оставаться собой【宁作吾】",
           "abName": "Лин",
-          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 2\n[BeforeAttack] Сила монет +1 при наличи [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 2\n[BeforeAttack] Сила монет +1 при наличии [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
           "coinlist": [
             {
               "coindescs": [
@@ -1035,7 +1035,7 @@
           "level": 3,
           "name": "Оставаться собой【宁作吾】",
           "abName": "Лин",
-          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает <style=\"highlight\">3</style> [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 3</style>\n[BeforeAttack] Сила монет +1<style=\"highlight\">, Базовая сила +1 и Количество целей +1</style> при наличи [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает <style=\"highlight\">3</style> [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 3</style>\n[BeforeAttack] Сила монет +1<style=\"highlight\">, Базовая сила +1 и Количество целей +1</style> при наличии [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
           "coinlist": [
             {
               "coindescs": [
@@ -1082,7 +1082,7 @@
           "level": 4,
           "name": "Оставаться собой【宁作吾】",
           "abName": "Лин",
-          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает <style=\"highlight\">4</style> [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 4</style>\n[BeforeAttack] Сила монет +<style=\"highlight\">2</style>, Базовая сила +<style=\"highlight\">2</style> и Количество целей +<style=\"highlight\">2</style> при наличи [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Получает <style=\"highlight\">4</style> [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 4</style>\n[BeforeAttack] Сила монет +<style=\"highlight\">2</style>, Базовая сила +<style=\"highlight\">2</style> и Количество целей +<style=\"highlight\">2</style> при наличии [Cianjing:`Громовержца`] или [SeniorCianjing:`Высшего громовержца`]\n[EndSkill] Получает 5 [Cianjing:`Громовержца`]\n- Если уже имеется [Cianjing:`Громовержец`] или [SeniorCianjing:`Высший громовержец`], то полностью теряет его и получает 5 [SeniorCianjing:`Высшего громовержца`] взамен",
           "coinlist": [
             {
               "coindescs": [
