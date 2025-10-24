@@ -1,0 +1,331 @@
+{
+  "dataList": [
+    {
+      "id": 130501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запуск протеза",
+          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рефлюкс застывшей крови",
+          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis:`Паралича`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конверсивный заряд биоэнергией",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы своего счётчика [Laceration:`Кровотечения`] (До 2)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перелив крови",
+          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, то тратит 3 его единицы, чтобы получить +1 к Силе монет\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то тратит ещё 3 его единицы для повышения урона атаки на 20%\n[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 5, тратит 10% от максимальных ОЗ для его повышения на 9",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конверсивный заряд биоэнергией",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Принц парада",
+          "desc": "[StartBattle] Количество целей повышается на количество противников с [Laceration:`Кровотечением`] (До 5 дополнительных целей)\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]\n[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Laceration:`Кровотечения`]\n[DefeatDuel] Теряет 1 [KeptBlood:`Запас крови`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [KeptBlood:`Накопленную кровь`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я же... принц... сего парада!..",
+          "desc": "[CantDuel]\nНе может быть оглушён до конца хода\n[WhenUse] Получает 4 [Paralysis:`Паралича`]\n[WhenUse] Удваивает восстановление ОЗ от пассивного умения 「Глефа из застывшей крови」\n[WhenUse] Сбрасывает СД до 0\n[EndSkill] Получает 10 [KeptBlood:`Накопленной крови`] и заканчивает этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я не вернусь... во веки веков!..",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration:`Кровотечения`] на главной цели (До 3)\n[WhenUse] Сила монет +1 против целей с 4 и более единицами счётчика [Laceration:`Кровотечения`]\n[WhenUse] Наносит на 5% больше урона за каждую единицу счётчика [Laceration:`Кровотечения`] на главной цели (До 20%)\n[WinDuel] Удваивает восстановление ОЗ от пассивного умения 「Глефа из застывшей крови」\n[DefeatDuel] Эффект восстановления ОЗ от пассивного умения 「Глефа из застывшей крови」 не активируется во время атаки\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей\n[EndSkill] Получает 10 [KeptBlood:`Накопленной крови`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
