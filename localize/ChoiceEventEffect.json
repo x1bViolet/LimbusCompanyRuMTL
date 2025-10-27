@@ -6,7 +6,7 @@
     },
     {
       "id": "Nothing",
-      "content": "<color=#ebcaa2>Ничего не произошло.</color>"
+      "content": "<color=#ebcaa2>Ничего не произошло</color>"
     },
     {
       "id": "LevelupPersonality",
@@ -50,19 +50,19 @@
     },
     {
       "id": "RecoverHpOnly",
-      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{amount} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{amount} ОЗ</color>"
     },
     {
       "id": "RecoverMpOnly",
-      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#80c9ff>{amount} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#80c9ff>{amount} СД</color>"
     },
     {
       "id": "RecoverHpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#00ff9c>полностью восстанавливает очки Здоровья</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#00ff9c>полностью восстанавливает ОЗ</color>"
     },
     {
       "id": "RecoverMpOnlyUntilMax",
-      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#80c9ff>полностью восстанавливает Силу духа</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#80c9ff>полностью восстанавливает СД</color>"
     },
     {
       "id": "LoseHpOnly",
@@ -74,15 +74,15 @@
     },
     {
       "id": "RecoverHpMpSameAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>СД</color>"
     },
     {
       "id": "RecoverHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{hpAmount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>{mpAmount} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{hpAmount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>{mpAmount} СД</color>"
     },
     {
       "id": "LoseHpMpSameAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}теряет</color> <color=#e30000>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}теряет</color> <color=#e30000>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>{amount} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "LoseHpMpDifferentAmount",
@@ -90,11 +90,11 @@
     },
     {
       "id": "GetConfirmedEgogift",
-      "content": "<color=#ebcaa2>Вы получили {reward}!</color>"
+      "content": "<color=#ebcaa2>Получен ЭГО Дар 「{reward}」</color>"
     },
     {
       "id": "GetBuff_OnStageStart",
-      "content": "<color=#ebcaa2> {target} {conditional} получает {stack} {buffName} в начале следующего боя.</color>"
+      "content": "<color=#ebcaa2>{target} {conditional} получает {stack} {buffName} в начале следующего боя</color>"
     },
     {
       "id": "UnlockHiddenRoute",
@@ -102,7 +102,7 @@
     },
     {
       "id": "ReduceEnemyWave",
-      "content": "<color=#ebcaa2>В следующей битве будет на {waveNum} волны меньше.</color>"
+      "content": "<color=#ebcaa2>В следующей битве будет на {waveNum} волны меньше</color>"
     },
     {
       "id": "DestroyEgogift",
@@ -110,35 +110,35 @@
     },
     {
       "id": "Choice_90103301",
-      "content": "<color=#f8c200>Скорость +1</color><color=#ebcaa2>в следующей битве.</color>"
+      "content": "<color=#f8c200>Скорость +1</color><color=#ebcaa2>в следующей битве</color>"
     },
     {
       "id": "Choice_901001",
-      "content": "<color=#ebcaa2>В начале битвы,</color> союзники без <color=#a0392b>греха Гнева</color> <color=#ebcaa2>получают</color> <color=#e30000>5 Огня.</color>"
+      "content": "<color=#ebcaa2>В начале битвы,</color> союзники без <color=#a0392b>греха Гнева</color> <color=#ebcaa2>получают</color> <color=#e30000>5 Огня</color>"
     },
     {
       "id": "Choice_901007",
-      "content": "<color=#ebcaa2>В начале хода,</color> </color=#ebcaa2>восстанавливает</color> <color=#00ff9c>10 ОЗ</color> и <color=#80c9ff>10 СД.</color>"
+      "content": "<color=#ebcaa2>В начале хода,</color> </color=#ebcaa2>восстанавливает</color> <color=#00ff9c>10 ОЗ</color> и <color=#80c9ff>10 СД</color>"
     },
     {
       "id": "Choice_901009",
-      "content": "<color=#e30000>Финальная сила навыка -1</color> <color=#ebcaa2>в начале битвы.</color>"
+      "content": "<color=#e30000>Итоговая сила навыка -1</color> <color=#ebcaa2>в начале битвы</color>"
     },
     {
       "id": "Choice_901010",
-      "content": "<color=#ebcaa2>В начале следующей битвы,</color> <color=#ebcaa2>союзники без</color> <color=#bb521f>греха Похоти</color> <color=#ebcaa2>оглушаются.</color> "
+      "content": "<color=#ebcaa2>В начале следующей битвы,</color> <color=#ebcaa2>союзники без</color> <color=#bb521f>греха Похоти</color> <color=#ebcaa2>оглушаются</color> "
     },
     {
       "id": "Choice_901019",
-      "content": "<color=#ebcaa2>В начале битвы</color> <color=#e30000>Скорость -2</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>В начале битвы</color> <color=#e30000>Скорость -2</color>"
     },
     {
       "id": "Choice_90103402",
-      "content": "<color=#ebcaa2>В начале этой битвы</color> <color=#f8c200>Скорость +2</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>В начале этой битвы</color> <color=#f8c200>Скорость +2</color>"
     },
     {
       "id": "Choice_1030301",
-      "content": "<color=#ebcaa2>В начале следующей битвы, все союзники</color> <color=#ebcaa2>получают</color> <color=#f8c200>3 Повышения силы атаки</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>В начале следующей битвы, все союзники</color> <color=#ebcaa2>получают</color> <color=#f8c200>3 Повышения силы атаки</color>"
     },
     {
       "id": "Choice_1030501",
@@ -146,7 +146,7 @@
     },
     {
       "id": "Choice_1031001",
-      "content": "<color=#ebcaa2>Выбранный грешник</color> <color=#ebcaa2>получает</color> <color=#e30000>3 Понижения урона</color> <color=#ebcaa2>на следующие 2 битвы.</color>"
+      "content": "<color=#ebcaa2>Выбранный грешник</color> <color=#ebcaa2>получает</color> <color=#e30000>3 Понижения урона</color> <color=#ebcaa2>на следующие 2 битвы</color>"
     },
     {
       "id": "Choice_90100201",
@@ -202,15 +202,15 @@
     },
     {
       "id": "Choice_901004",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#a0392b>грехом Гнева</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#a0392b>грехом Гнева</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color>"
     },
     {
       "id": "Choice_90100701",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color>"
     },
     {
       "id": "Choice_901008",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color>"
     },
     {
       "id": "Choice_90100901",
@@ -226,7 +226,7 @@
     },
     {
       "id": "Choice_90101601",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#61822b>грехом Чревоугодия</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#61822b>грехом Чревоугодия</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color>"
     },
     {
       "id": "Choice_901018",
@@ -246,7 +246,7 @@
     },
     {
       "id": "Choice_901024",
-      "content": "<color=#ebcaa2>Идентичность с самой низкой СД, имеющая</color> <color=#306471>грех Уныния</color> </color=#ebcaa2>полностью восстанавливает</color> <color=#fe4b48>очки Здоровья</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичность с самой низкой СД, имеющая</color> <color=#306471>грех Уныния</color> </color=#ebcaa2>полностью восстанавливает</color> <color=#fe4b48>ОЗ</color>"
     },
     {
       "id": "Choice_901025",
@@ -254,7 +254,7 @@
     },
     {
       "id": "Choice_90102501",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#306471>грехом Уныния</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#306471>грехом Уныния</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>20 ОЗ</color>"
     },
     {
       "id": "Choice_901026",
@@ -262,7 +262,7 @@
     },
     {
       "id": "Choice_90102601",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color>"
     },
     {
       "id": "Choice_901027",
@@ -278,7 +278,7 @@
     },
     {
       "id": "Choice_90102801",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color>"
     },
     {
       "id": "Choice_901032",
@@ -294,31 +294,31 @@
     },
     {
       "id": "Choice_90103501",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#7d4e94>грехом Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#7d4e94>грехом Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color>"
     },
     {
       "id": "Choice_1040301",
-      "content": "<color=#ebcaa2>Выбранный грешник</color> <color=#ebcaa2>получает</color> <color=#e30000>10 Разрывов</color> <color=#ebcaa2>в течение 1 хода во время следующей битвы.</color>"
+      "content": "<color=#ebcaa2>Выбранный грешник</color> <color=#ebcaa2>получает</color> <color=#e30000>10 Разрывов</color> <color=#ebcaa2>в течение 1 хода во время следующей битвы</color>"
     },
     {
       "id": "MirrorDungeonAcquireCost",
-      "content": "<color=#ebcaa2>Получено {amount} Стоимости.</color>"
+      "content": "<color=#ebcaa2>Получено {amount} Стоимости</color>"
     },
     {
       "id": "MirrorDungeonLossCost",
-      "content": "<color=#ebcaa2>Потеряно {amount} Стоимости.</color>"
+      "content": "<color=#ebcaa2>Потеряно {amount} Стоимости</color>"
     },
     {
       "id": "Choice_90104001",
-      "content": "<color=#ebcaa2>Начните следующую битву с</color> <color=#f8c200>+2</color> <color=#ebcaa2>ко всем эго ресурсам.</color>"
+      "content": "<color=#ebcaa2>Начните следующую битву с</color> <color=#f8c200>+2</color> <color=#ebcaa2>ко всем эго ресурсам</color>"
     },
     {
       "id": "Choice_9010400101",
-      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#f8c200>+2 к итоговой силе навыка</color> <color=#ebcaa2>на время следующей битвы.</color>"
+      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#f8c200>+2 к итоговой силе навыка</color> <color=#ebcaa2>на время следующей битвы</color>"
     },
     {
       "id": "Choice_90104002",
-      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#f8c200>+1 к силе навыка</color> <color=#ebcaa2>на время следующей битвы.</color>"
+      "content": "<color=#ebcaa2>Все союзники получают</color> <color=#f8c200>+1 к силе навыка</color> <color=#ebcaa2>на время следующей битвы</color>"
     },
     {
       "id": "ChangeEventIllust",
@@ -342,115 +342,119 @@
     },
     {
       "id": "Choice_90200502",
-      "content": "<color=#ebcaa2>Проваливший проверку грешник теряет</color> <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>12 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Проваливший проверку грешник</color> теряет <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>12 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_LoseBattle",
-      "content": "<color=#ff0000>Вы не получите награду при поражении.</color>"
+      "content": "<color=#ff0000>Вы не получите награду при поражении</color>"
     },
     {
       "id": "Choice_EGO901001",
-      "content": "Win the battle to gain E.G.O Gifts \"Hellterfly's Dream\" & \"Ardent Flower\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#fe0101>Мечта адской бабочки</color>」 & 「<color=#014fd6>Пылающий цветок</color>」"
     },
     {
       "id": "Choice_EGO901002",
-      "content": "Win the battle to gain E.G.O Gifts \"Perversion\" & \"Awe\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#fe0101>Извращение</color>」 & 「<color=#9800df>Трепет</color>」"
     },
     {
       "id": "Choice_EGO901009",
-      "content": "Win the battle to gain E.G.O Gifts \"Fiery Down\" & \"Melted Paraffin\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#fe6f01>Пылающее перо</color>」 & 「<color=#fe6f01>Растопленный парафин</color>」"
     },
     {
       "id": "Choice_EGO901010",
-      "content": "Win the battle to gain E.G.O Gifts \"Bloody Gadget\" & \"Grandeur\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#fe6f01>Кровавый гаджет</color>」 & 「<color=#fe6f01>Величие</color>」"
     },
     {
       "id": "Choice_EGO901011",
-      "content": "Win the battle to gain E.G.O Gifts \"Sunshower\" & \"Ragged Umbrella\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#edc427>Слепой дождь</color>」 & 「<color=#edc427>Потрёпанный зонт</color>」"
     },
     {
       "id": "Choice_EGO901013",
-      "content": "Win the battle to gain E.G.O Gifts \"Talisman Bundle\" & \"Old Wooden Doll\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#edc427>Набор оберегов</color>」 & 「<color=#fe0101>Старая деревянная кукла</color>」"
     },
     {
       "id": "Choice_EGO901014",
-      "content": "Win the battle to gain E.G.O Gifts \"Rusty Commemorative Coin\" & \"Pain of Stifled Rage\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#edc427>Ржавая памятная монета</color>」 & 「<color=#85ce04>Боль подавленного гнева</color>」"
     },
     {
       "id": "Choice_EGO901016",
-      "content": "Win the battle to gain E.G.O Gifts \"Green Spirit\" & \"Sour Liquor Aroma\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#85ce04>Зелёная фея</color>」 & 「<color=#edc427>Аромат кислого ликёра</color>」"
     },
     {
       "id": "Choice_EGO901018",
-      "content": "Win the battle to gain E.G.O Gifts \"Crown of Roses\" & \"Respite\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#85ce04>Венец из роз</color>」 & 「<color=#9800df>Передышка</color>」"
     },
     {
       "id": "Choice_EGO901019",
-      "content": "Win the battle to gain E.G.O Gifts \"Sticky Muck\" & \"Bio-venom Vial\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#85ce04>Липкая жижа</color>」 & 「<color=#edc427>Флакон с ядом</color>」"
     },
     {
       "id": "Choice_EGO901020",
-      "content": "Win the battle to gain E.G.O Gifts \"White Gossypium\" & \"Tangled Bundle\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#85ce04>Белый госсипиум</color>」 & 「<color=#1cc7f1>Запутанный пучок</color>」"
     },
     {
       "id": "Choice_EGO901021",
-      "content": "Win the battle to gain E.G.O Gifts \"Blue Zippo Lighter\" & \"Patrolling Flashlight\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#1cc7f1>Голубая зажигалка \"Zippo\"</color>」 & 「<color=#9800df>Патрульный фонарик</color>」"
     },
     {
       "id": "Choice_EGO901024",
-      "content": "Win the battle to gain E.G.O Gifts \"Melted Eyeball\" & \"Venomous Skin\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#1cc7f1>Тающий глаз</color>」 & 「<color=#014fd6>Ядовитая кожа</color>」"
     },
     {
       "id": "Choice_EGO901031",
-      "content": "Win the battle to gain E.G.O Gifts \"Nixie Divergence\" & \"Clockwork Spring\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#9800df>Отклонение пандикона</color>」 & 「<color=#014fd6>Пружина с часовым механизмом</color>」"
     },
     {
       "id": "Choice_EGO901033",
-      "content": "Win the battle to gain E.G.O Gifts \"Standard-duty Battery\" & \"Uncapped Defibrilator\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#9800df>Сертифицированная батарея</color>」 & 「<color=#85ce04>Разблокированный дефибрилятор</color>」"
     },
     {
       "id": "Choice_EGO901034",
-      "content": "Win the battle to gain E.G.O Gifts \"Pinpoint Logic Circuit\" & \"UPS System\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#9800df>Точная логическая плата</color>」 & 「<color=#fe0101>Система ИБП</color>」"
     },
     {
       "id": "Choice_EGO901056",
-      "content": "Win the battle to gain E.G.O Gifts \"Four-leaf Clover\" & \"Emerald Elytra\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#85ce04>Четырёхлистный клевер</color>」 & 「<color=#9800df>Изумрудная элитра</color>」"
     },
     {
       "id": "Choice_EGO901059",
-      "content": "Win the battle to gain E.G.O Gifts \"Midwinter Nightmare\" & \"Eldtree Snare\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#85ce04>Кошмар посреди зимы</color>」 & 「<color=#85ce04>Ловушка из старого древа</color>」"
     },
     {
       "id": "Choice_EGO901073",
-      "content": "Win the battle to gain E.G.O Gifts \"Endorphin Kit\" & \"Fluorescent Lamp\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#9800df>Эндорфиновый комплект</color>」 & 「<color=#014fd6>Флуоресцентные лампы</color>」"
     },
     {
       "id": "Choice_EGO971029",
-      "content": "Win the battle to gain E.G.O Gifts \"E-Type Dimensional Dagger\" & \"Portable Barrier Battery\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「<color=#1cc7f1>Пространственный Кинжал типа E</color>」 & 「<color=#014fd6>Портативная защитная батарея</color>」"
     },
     {
       "id": "GetImmediateConfirmedEgogifts",
-      "content": "<color=#ebcaa2>E.G.O Gift {reward} obtained!</color>"
+      "content": "<color=#ebcaa2>Получен ЭГО Дар 「{reward}」</color>"
     },
     {
       "id": "Choice_EGO901101",
-      "content": "Win the battle to gain E.G.O Gifts \"Miniature Telepole\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дар 「<color=#014fd6>Миниатюрный телефонный столб</color>」"
     },
     {
       "id": "Choice_EGO901104",
-      "content": "Win the battle to earn the E.G.O Gift \"Ruptured Blood Sac\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дар 「<color=#1cc7f1>Порванный кровяной мешок</color>」"
     },
     {
       "id": "Choice_EGO971054",
-      "content": "Win the battle to gain E.G.O Gift \"Swishing Fuel Tank\""
+      "content": "Одержите победу в битве, чтобы получить ЭГО Дар 「<color=#85ce04>Топливный бак чистильщика</color>」"
     },
     {
       "id": "LoseMpOnlyUntilMin",
-      "content": "<color=#ebcaa2>Снизить</color> <color=#fe4b48>ОР до минимального значения для</color> <color=#ebcaa2>{conditions}{targets}</color>"
+      "content": "<color=#ebcaa2>Снизить</color> <color=#fe4b48>СД до минимального значения для</color> <color=#ebcaa2>{conditions}{targets}</color>"
     },
     {
       "id": "ReviveOutOfBattleAndRecoverHpAll",
       "content": "Воскресить всех павших Грешников и <color=#ebcaa2>исцелить</color> всех выживших Грешников <color=#00ff9c>до максимальных ОЗ</color>"
+    },
+    {
+      "id": "RecoverRatioHpOnly",
+      "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#00ff9c>восстанавливает {amount}% от максимальных ОЗ</color>"
     }
   ]
 }

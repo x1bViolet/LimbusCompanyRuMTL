@@ -1669,6 +1669,271 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1071301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Расчистка затора",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Расчистка затора",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1, если свой счётчик [Charge:`Заряда`] равен 6 и более</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Расчистка затора",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более</style>\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6</style> единиц своего счётчика [Charge:`Заряда`] <style=\"highlight\">(До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 4</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усиление: локтевой клинок",
+          "desc": "[StartBattle] Получает (Сила своего [Charge:`Заряда`] + 2) [ChargeForceField:`Зарядных барьеров`] (До 6; единожды за ход)\n[WhenUse] Тратит 6 единиц своего счётчика [Charge:`Заряда`], чтобы получить +1 к Силе монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Усиление: локтевой клинок",
+          "desc": "[StartBattle] Получает (Сила своего [Charge:`Заряда`] + 2) [ChargeForceField:`Зарядных барьеров`] (До 6; единожды за ход)\n[WhenUse] Тратит 6 единиц своего счётчика [Charge:`Заряда`], чтобы получить +1 к Силе монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 5</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Усиление: локтевой клинок",
+          "desc": "[StartBattle] Получает (Сила своего [Charge:`Заряда`] + 2) [ChargeForceField:`Зарядных барьеров`] (До 6; единожды за ход)\n[WhenUse] Тратит 6 единиц своего счётчика [Charge:`Заряда`], чтобы получить +1 к Силе монет\n<style=\"highlight\">[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 6</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Разрыв пространства - Предел БРЗ",
+          "desc": "[StartBattle] Если свои ОЗ ниже 50% или сила [Charge:`Заряда`] равна 3 и более, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[DefeatDuel] Итоговая сила +3, когда эффект выше активен\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 10 его единиц для получения +4 к Силе монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Тратит до 10 единиц своего счётчика [Charge:`Заряда`] для повышения Силы этой монеты на столько же"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный фиксированный урон в размере (Сила своего [Charge:`Заряда`] × 5)% от итогового урона этой монеты (До 25%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрыв пространства - Предел БРЗ",
+          "desc": "[StartBattle] Если свои ОЗ ниже 50% или сила [Charge:`Заряда`] равна 3 и более, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[DefeatDuel] Итоговая сила +3, когда эффект выше активен\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 10 его единиц для получения +4 к Силе монет\n<style=\"highlight\">[WhenUse] Сила в столкновении повышается на силу своего [Charge:`Заряда`] (До 5)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Тратит до 10 единиц своего счётчика [Charge:`Заряда`] для повышения Силы этой монеты на столько же"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный фиксированный урон в размере (Сила своего [Charge:`Заряда`] × <style=\"highlight\">10</style>)% от итогового урона этой монеты (До <style=\"highlight\">50%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перегрузка БРЗ",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Активирует следующие эффекты при менее чем 15 единицах счётчика [Charge:`Заряда`]:\n- Получает [WOverCharge:`Перегрузку`] на следующий ход\n- Конец хода: убирает свою первую границу выносливости (Единожды за битву)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Перегрузка БРЗ",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Активирует следующие эффекты при менее чем 15 единицах счётчика [Charge:`Заряда`]:\n- Получает [WOverCharge:`Перегрузку`] на следующий ход\n- Конец хода: убирает свою первую границу выносливости (Единожды за битву)<style=\"highlight\">, а также добавляет 1 третий навык 「Рaзрыв пространства - Предел БРЗ」 в список предстоящих навыков в следующем ходе (Единожды за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

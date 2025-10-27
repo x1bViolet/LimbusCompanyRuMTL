@@ -1401,14 +1401,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наности 1 [Laceration:`Кровотечение`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наности 1 [Laceration:`Кровотечение`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
