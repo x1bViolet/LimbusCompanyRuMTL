@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\nНаносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Реквием",
-          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\n[WhenUse] Сила монет +1 за каждые <style=\"highlight\">3</style> [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на <style=\"highlight\">12%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">120%</style>)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
+          "desc": "[WinDuel] Восстанавливает 10 СД\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует 「Горе, плач, Пoгибель」 вместо этого\nНаносит на <style=\"highlight\">12%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">120%</style>)\n[WhenUse] Сила монет +1 за каждые <style=\"highlight\">3</style> [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
           "coinlist": [
             {
               "coindescs": [
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] Наносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на 1 СД больше за каждую единицу СД ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\nНаносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на 1 СД больше за каждую единицу СД ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\n[WhenUse] Наносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на <style=\"highlight\">2</style> СД больше за каждую единицу СД ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\nНаносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на <style=\"highlight\">2</style> СД больше за каждую единицу СД ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WhenUse] Наносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на 1 СД больше за каждую единицу СД ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\nНаносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на 1 СД больше за каждую единицу СД ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\n[WhenUse] Наносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на <style=\"highlight\">2</style> СД больше за каждую единицу СД ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\nНаносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Теряет 15 СД\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу СД (До 21%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если СД ниже 0, восстанавливает 10 СД\n- Восстанавливает на <style=\"highlight\">2</style> СД больше за каждую единицу СД ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [

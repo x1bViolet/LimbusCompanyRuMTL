@@ -1932,7 +1932,7 @@
         {
           "level": 1,
           "name": "Взор сквозь защиту",
-          "desc": "[WhenUse] Наносит на 7% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 49%)\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`]",
+          "desc": "Наносит на 7% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 49%)\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1946,7 +1946,7 @@
         {
           "level": 2,
           "name": "Взор сквозь защиту",
-          "desc": "[WhenUse] Наносит на <style=\"highlight\">10%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Базовая сила +1, если свой счётчик [Breath:`Дыхания`] равен 3 и более</style>\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`] <style=\"highlight\">и повышает свой счётчик [Breath:`Дыхания`] на 1</style>",
+          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Базовая сила +1, если свой счётчик [Breath:`Дыхания`] равен 3 и более</style>\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`] <style=\"highlight\">и повышает свой счётчик [Breath:`Дыхания`] на 1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1966,7 +1966,7 @@
         {
           "level": 4,
           "name": "Взор сквозь защиту",
-          "desc": "[WhenUse] Наносит на <style=\"highlight\">15%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5 [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 3 единицы счётчика [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`] и повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "Наносит на <style=\"highlight\">15%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 5 [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 3 единицы счётчика [Breath:`Дыхания`] (До 2)</style>\n[WhenUse] Получает 1 [BoseProjektil:`Разорванное воспоминание`] и повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
