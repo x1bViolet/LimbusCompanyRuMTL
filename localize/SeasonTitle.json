@@ -71,6 +71,10 @@
     {
       "id": "season_8000_collaboration",
       "content": "КОЛЛАБОРАЦИЯ - ЛИМИТИРОВАННОЕ"
+    },
+    {
+      "id": "season_8000_collaboration_filter_title",
+      "content": "КОЛЛАБОРАЦИЯ - ОГРАНИЧЕННОЕ"
     }
   ]
 }
