@@ -1667,6 +1667,452 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Атака в брешь",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Атака в брешь",
+          "desc": "<style=\"highlight\">[WhenUse] Если сумма силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели равна 6 и более, Сила монет +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Атака в брешь",
+          "desc": "<style=\"highlight\">[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 6 единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойной стилет",
+          "desc": "[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] цели и понижает его счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Двойной стилет",
+          "desc": "<style=\"highlight\">[WhenUse] Если сумма силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели равна 6 и более, Сила монет +1</style>\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] цели и понижает его счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ Ядра в фокусированных битвах) ниже 20%, использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
+                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Двойной стилет",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] <style=\"highlight\">Наносит цели 1 [Vibration:`Тремор`] и затем</style> [VibrationExplosion:`Провоцирует его`], понижая счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ Ядра в фокусированных битвах) ниже 20% <style=\"highlight\">или она имеет [HorrHurtNightStiletto:`Фатальное ранение`]</style>, использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
+                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Исполнение",
+          "desc": "[BeforeUse] Если на цели есть [CriHurtNightStiletto:`Глубокое ранение`], использует альтернативный третий навык <color=#014fd6>「Ночное шило」</color> вместо этого (Единожды за ход)\n[WhenUse] Если сумма силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели равна 6 и более, Сила монет +1\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] цели и понижает его счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationBleeding:`Тремор — Кровоизлияние`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto:`Фатальное ранение`] или её текущие ОЗ ниже 20% (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
+                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Исполнение",
+          "desc": "[BeforeUse] Если на цели есть [CriHurtNightStiletto:`Глубокое ранение`], использует альтернативный третий навык <color=#014fd6>「Ночное шило」</color> вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] <style=\"highlight\">Наносит цели 2 [Vibration:`Тремора`] и затем</style> [VibrationExplosion:`Провоцирует его`], понижая счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:`Тремора`] <style=\"highlight\">и повышает его счётчик на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationBleeding:`Тремор — Кровоизлияние`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto:`Фатальное ранение`] или её текущие ОЗ ниже 20% (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
+                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отчаянное положение",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)\n[WhenUse] Если сумма силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на атакующем равна 6 и более, Сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отчаянное положение",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<style=\"highlight\">[StartBattle] Увеличивает в течение этого хода лимит активаций своего альтернативного первого навыка <color=#edc427>「Милость」</color> через эффект пассивного умения 「Изгнанный из семьи блюститель порядка」 до 2 раз за ход</style>\n[StartBattle] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)\n[WhenUse] Сила монеты +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на атакующем <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Наносит 2 [Vibration:`Тремора`] атаковавшему</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121305,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "Милость",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\nСила монеты +1 за каждые 20% потерянных ОЗ цели (До 2)\nЕсли текущие ОЗ цели ниже 20%, наносит ей на 80% больше урона\n(В фокусированных битвах учитываются ОЗ Ядра цели)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Милость",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\nСила монеты +1 за каждые 20% потерянных ОЗ цели (До <style=\"highlight\">4</style>)\n<style=\"highlight\">Наносит на 1% больше урона за каждый 1% потерянных ОЗ цели</style>\n- Если текущие ОЗ цели ниже 20%, <style=\"highlight\">наносит ей на 120% больше урона вместо этого</style>\n(В фокусированных битвах учитываются ОЗ Ядра цели)\n<style=\"highlight\">[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [HurtNightStiletto:`Открытое ранение`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121306,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ночное шило",
+          "desc": "Наносит на 10% больше урона за каждую единицу в сумме своей [Agility:`Спешки`] и [Binding:`Связывания`] на цели (До 40%)\nЕсли текущие ОЗ цели ниже 20%, наносит ей на 50% больше урона (В фокусированных битвах учитываются ОЗ Ядра цели)\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 2)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`] и повышает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationBleeding:`Тремор — Кровоизлияние`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Binding:`Связывание`], [VibrationExplosion:`Провоцирует Тремор`] ещё раз и понижает его счётчик <nobr>на 1</nobr>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Превращает [CriHurtNightStiletto:`Глубокое ранение`] цели в [HorrHurtNightStiletto:`Фатальное ранение`] в следующем ходе"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ночное шило",
+          "desc": "Наносит на <style=\"highlight\">15%</style> больше урона за каждую единицу в сумме своей [Agility:`Спешки`] и [Binding:`Связывания`] на цели (До <style=\"highlight\">60%</style>)\n<style=\"highlight\">Если цель (Ядро или Часть цели в фокусированных битвах) имеет щит, наносит на 30% больше урона</style>\n<style=\"highlight\">Наносит на 1% больше урона за каждый 1% потерянных ОЗ цели</style>\n- Если текущие ОЗ цели ниже 20%, <style=\"highlight\">наносит ей на 100% больше урона вместо этого</style>\n(В фокусированных битвах учитываются ОЗ Ядра цели)\n<style=\"highlight\">[WhenUse] Наносит цели 5 [DefenseDown:`Понижений уровня защиты`]</style>\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Наносит цели 4 [Vibration:`Тремора`] и затем</style> [VibrationExplosion:`Провоцирует его`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`] <style=\"highlight\">и повышает его счётчик на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`] и повышает его счётчик <style=\"highlight\">на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration:`Преобразует амплитуду`] в [VibrationBleeding:`Тремор — Кровоизлияние`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Binding:`Связывание`], [VibrationExplosion:`Провоцирует Тремор`] ещё раз и понижает его счётчик <nobr>на 1</nobr>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Превращает [CriHurtNightStiletto:`Глубокое ранение`] цели в [HorrHurtNightStiletto:`Фатальное ранение`] в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
