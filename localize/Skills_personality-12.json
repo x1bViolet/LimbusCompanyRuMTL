@@ -1722,7 +1722,7 @@
         {
           "level": 4,
           "name": "Атака в брешь",
-          "desc": "<style=\"highlight\">[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые</style> 6 единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1801,8 +1801,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ Ядра в фокусированных битвах) ниже 20%, использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если текущие ОЗ цели (ОЗ её Ядра в фокусированных битвах) ниже 20%, использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки</style>",
+                  "summary": "[OnSucceedAttack] Использует навык <color=#edc427>「Милость」</color>"
                 }
               ]
             }
@@ -1833,8 +1833,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ Ядра в фокусированных битвах) ниже 20% <style=\"highlight\">или она имеет [HorrHurtNightStiletto:`Фатальное ранение`]</style>, использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ её Ядра в фокусированных битвах) ниже 20% <style=\"highlight\">или она имеет [HorrHurtNightStiletto:`Фатальное ранение`]</style>, использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
+                  "summary": "[OnSucceedAttack] Использует навык <color=#edc427>「Милость」</color>"
                 }
               ]
             }
@@ -1881,7 +1881,7 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto:`Фатальное ранение`] или её текущие ОЗ ниже 20% (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "summary": "[OnSucceedAttack] Использует навык <color=#edc427>「Милость」</color>"
                 }
               ]
             }
@@ -1923,7 +1923,7 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto:`Фатальное ранение`] или её текущие ОЗ ниже 20% (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык <color=#edc427>「Милость」</color> после атаки",
-                  "summary": "[OnSucceedAttack] Use 'Mercé'"
+                  "summary": "[OnSucceedAttack] Использует навык <color=#edc427>「Милость」</color>"
                 }
               ]
             }
