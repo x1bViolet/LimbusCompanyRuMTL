@@ -430,7 +430,7 @@
     },
     {
       "id": "804601_umbrellafox_success_1_1",
-      "content": "<color=#ebcaa2>Все [{0}]</color> <color=#00ff9c>теряют {1} ОЗ</color>"
+      "content": "<color=#ebcaa2>Все {0}</color> <color=#00ff9c>теряют {1} ОЗ</color>"
     },
     {
       "id": "804601_umbrellafox_success_1_2",

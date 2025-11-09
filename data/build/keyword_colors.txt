@@ -935,9 +935,16 @@ ArrowInTheEyeFau ¤ #e30000
 AimForTheGoal ¤ #f8c200
 SnipingArrowMode ¤ #f8c200
 AStrokeOfDeath ¤ #f8c200
-Overcharge ¤ #9f6a3a
+WOverCharge ¤ #9f6a3a
 BloodArmorMeursault ¤ #f8c200
 FocusOnActing ¤ #f8c200
 ParadeConcentration ¤ #e30000
 EmergencyChargeForceField ¤ #f8c200
 BloodArmorCasting ¤ #f8c200
+HanafudaOne ¤ #9f6a3a
+HanafudaTwo ¤ #9f6a3a
+HanafudaThree ¤ #9f6a3a
+HanafudaCombo ¤ #f8c200
+HurtNightStiletto ¤ #e30000
+CriHurtNightStiletto ¤ #e30000
+HorrHurtNightStiletto ¤ #e30000

@@ -202,7 +202,7 @@
     },
     {
       "id": "Choice_901004",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#a0392b>грехом Гнева</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#a0392b>грехом Гнева</color> <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>15 ОЗ</color>"
     },
     {
       "id": "Choice_90100701",
@@ -210,7 +210,7 @@
     },
     {
       "id": "Choice_901008",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>10 ОЗ</color>"
     },
     {
       "id": "Choice_90100901",
@@ -246,7 +246,7 @@
     },
     {
       "id": "Choice_901024",
-      "content": "<color=#ebcaa2>Идентичность с самой низкой СД, имеющая</color> <color=#306471>грех Уныния</color> </color=#ebcaa2>полностью восстанавливает</color> <color=#fe4b48>ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичность с самой низкой СД, имеющая</color> <color=#306471>грех Уныния</color> </color=#ebcaa2>полностью восстанавливает</color> <color=#00ff9c>ОЗ</color>"
     },
     {
       "id": "Choice_901025",
@@ -254,7 +254,7 @@
     },
     {
       "id": "Choice_90102501",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#306471>грехом Уныния</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>20 ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#306471>грехом Уныния</color> <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>20 ОЗ</color>"
     },
     {
       "id": "Choice_901026",
@@ -262,7 +262,7 @@
     },
     {
       "id": "Choice_90102601",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>10 ОЗ</color>"
     },
     {
       "id": "Choice_901027",
@@ -278,7 +278,7 @@
     },
     {
       "id": "Choice_90102801",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>15 ОЗ</color>"
     },
     {
       "id": "Choice_901032",
@@ -294,7 +294,7 @@
     },
     {
       "id": "Choice_90103501",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#7d4e94>грехом Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#7d4e94>грехом Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>15 ОЗ</color>"
     },
     {
       "id": "Choice_1040301",
@@ -455,6 +455,14 @@
     {
       "id": "RecoverRatioHpOnly",
       "content": "<color=#ebcaa2>{targets} {conditions}</color><color=#00ff9c>восстанавливает {amount}% от максимальных ОЗ</color>"
+    },
+    {
+      "id": "GetConfirmedStackableEgogift",
+      "content": "<color=#ebcaa2>Получен ЭГО Дар 「{reward}」 × {stack}!</color>"
+    },
+    {
+      "id": "LoseConfirmedStackableEgogift",
+      "content": "<color=#ebcaa2>Потерян ЭГО Дар 「{reward}」 × {stack}!</color>"
     }
   ]
 }

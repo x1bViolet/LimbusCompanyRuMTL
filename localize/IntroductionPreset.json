@@ -1438,7 +1438,7 @@
     },
     {
       "id": "introduce_word_181",
-      "content": "Семья"
+      "content": "Клан"
     },
     {
       "id": "introduce_sentence_181",
@@ -1739,6 +1739,22 @@
     {
       "id": "introduce_sentence_218",
       "content": "Ни одна душа здесь не считает, что {0} стоит(-ят) своих денег."
+    },
+    {
+      "id": "introduce_word_219",
+      "content": "Пара карт"
+    },
+    {
+      "id": "introduce_sentence_219",
+      "content": "Эй, а вот и подходящая(-ие/-ий) {0}!"
+    },
+    {
+      "id": "introduce_word_220",
+      "content": "Судьба"
+    },
+    {
+      "id": "introduce_sentence_220",
+      "content": "Похоже, бегство… ничего не сделало, чтобы изменить нашу(-е) {0}(-у/-ю/-е)…"
     }
   ]
 }
