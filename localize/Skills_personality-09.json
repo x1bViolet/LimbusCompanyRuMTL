@@ -1550,7 +1550,7 @@
         {
           "level": 1,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1564,7 +1564,7 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`] \n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свой счётчик [Breath:`Дыхания`] равен 10 и более</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свой счётчик [Breath:`Дыхания`] равен 10 и более</style>",
           "coinlist": [
             {
               "coindescs": [

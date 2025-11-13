@@ -723,7 +723,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1, если есть [BloodyHand:`Окровавленная рука`], \n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood:`Застывшей крови`]",
+          "desc": "[WhenUse] Базовая сила +1, если есть [BloodyHand:`Окровавленная рука`]\n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood:`Застывшей крови`]",
           "coinlist": [
             {
               "coindescs": [
