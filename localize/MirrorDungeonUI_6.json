@@ -511,6 +511,14 @@
     {
       "id": "mirror_finished_panel_floor_format",
       "content": "Э{0}"
+    },
+    {
+      "id": "mirror_dungeon_auto_participate_order_adjustment_notice",
+      "content": "Порядок выбора восстановлен после воскрешения"
+    },
+    {
+      "id": "mirror_dungeon_option_participation_modification",
+      "content": "Восстанавливать порядок выбора Идентичностей"
     }
   ]
 }

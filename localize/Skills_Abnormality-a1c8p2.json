@@ -1440,7 +1440,7 @@
         {
           "level": 1,
           "name": "Дам тебе шанс..",
-          "desc": "[DuelCounter] \n[DefeatDuel] Все [MadFeather:`Глазные пятна`] цели исчезают",
+          "desc": "[DuelCounter]\n[DefeatDuel] Все [MadFeather:`Глазные пятна`] цели исчезают",
           "coinlist": [
             {
               "coindescs": [

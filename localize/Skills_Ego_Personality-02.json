@@ -661,7 +661,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] \n<nobr>на 1</nobr>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr>"
                 }
               ]
             },

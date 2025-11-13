@@ -63,6 +63,10 @@
     {
       "id": "mowe_bonus_preview",
       "content": "Идентичности с ивентовым бонусом"
+    },
+    {
+      "id": "mowe_chapter_map_difficulty_ui_unlock_condition",
+      "content": "Пройдите {0}-{1} для разблокировки Тяжёлой сложности"
     }
   ]
 }
