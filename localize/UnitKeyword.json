@@ -263,6 +263,10 @@
     {
       "id": "UnitKeyword_OUFI_COOP",
       "content": "Ассоциированный офис - Эуфи"
+    },
+    {
+      "id": "UnitKeyword_BLACK_BEAST_SHEEP",
+      "content": "Стая Хэйшоу - Ветвь «Вэй»"
     }
   ]
 }

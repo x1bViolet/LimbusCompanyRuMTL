@@ -33,6 +33,14 @@
       "name": "<color=#fe0000>]</color>"
     },
     {
+      "id": "AMBER",
+      "name": "<color=#f95e00>[</color>"
+    },
+    {
+      "id": "SHAMROCK",
+      "name": "<color=#f95e00>]</color>"
+    },
+    {
       "id": "EndSkill",
       "name": "[В конце атаки]"
     },
