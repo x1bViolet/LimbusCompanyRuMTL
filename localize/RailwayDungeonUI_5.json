@@ -87,6 +87,18 @@
     {
       "id": "railway_5_stage_level_warning",
       "content": "※ Текущий средний уровень команды: <color=#990000>{0}</color> (Рекомендуемый: <color=#990000>{1}</color>)"
+    },
+    {
+      "id": "railway_dungeon_5_entrance_recommended_gacksung",
+      "content": "- ЭГО : IV Уровень связи"
+    },
+    {
+      "id": "railway_dungeon_advice_5_openCondition_desc",
+      "content": "Пройдите Песнь 7"
+    },
+    {
+      "id": "railway_dungeon_advice_5_level_desc",
+      "content": "- Идентичности : IV Уровень связи, 50-ый Уровень\n- ЭГО : IV Уровень связи"
     }
   ]
 }
