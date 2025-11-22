@@ -2328,6 +2328,330 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорывание",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Прорывание",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей, чья сумма силы [Burst:`Разрыва`] и [Sinking:`Утопания`] равна 6 и более</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прорывание",
+          "desc": "<style=\"highlight\">Если на цели есть [CrushMarks:`Метка раскола`], наносит ей на 25% больше урона</style>\nСила монет +1 <style=\"highlight\">за кажде 6</style> единиц в сумме силы [Burst:`Разрыва`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Овладеть моментом, раздробить преграду",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Овладеть моментом, раздробить преграду",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей, чья сумма силы [Burst:`Разрыва`] и [Sinking:`Утопания`] равна 6 и более</style>\n<style=\"highlight\">[StartBattle] Если имеются [GrownHorns:`Проявляющиеся рога`], последняя монета этого навыка становится [SuperCoin:`Вечной`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё 5% от итогового урона этой монеты как дополнительный Рубящий урон за каждую единицу значения [GrownHorns:`Проявляющихся рогов`] (До 15%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Овладеть моментом, раздробить преграду",
+          "desc": "Сила монет +1 <style=\"highlight\">за кажде 6</style> единиц в сумме силы [Burst:`Разрыва`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] Если имеются [GrownHorns:`Проявляющиеся рога`], последняя монета этого навыка становится [SuperCoin:`Вечной`] <style=\"highlight\">и наносит на 5% больше урона за каждую единицу их значения (До 15%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё <style=\"highlight\">10%</style> от итогового урона этой монеты как дополнительный Рубящий урон за каждую единицу значения [GrownHorns:`Проявляющихся рогов`] (До <style=\"highlight\">30%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Сокрушающие рога【破碎角】",
+          "desc": "Сила монет +1 против целей, чья сумма силы [Burst:`Разрыва`] и [Sinking:`Утопания`] равна 6 и более\n[StartBattle] Если имеются [GrownHorns:`Проявляющиеся рога`], все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает максимальное значение [GrownHorns:`Проявляющихся рогов`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет эффект изменённого типа паники, наносит ей на 5% больше урона за каждую единицу значения этого эффекта (До 15%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (25% от итогового урона этой монеты) Рубящего урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [CrushMarks:`Метки раскола`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сокрушающие рога【破碎角】",
+          "desc": "Сила монет +1 <style=\"highlight\">за кажде 6</style> единиц в сумме силы [Burst:`Разрыва`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] Если имеются [GrownHorns:`Проявляющиеся рога`], все монеты этого навыка становятся [SuperCoin:`Вечными`] <style=\"highlight\">и наносят на 10% больше урона за каждую единицу их значения (До 30%)</style>\n[WhenUse] Получает максимальное значение [GrownHorns:`Проявляющихся рогов`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет эффект изменённого типа паники, наносит ей на <style=\"highlight\">10%</style> больше урона за каждую единицу значения этого эффекта (До <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (25% от итогового урона этой монеты) Рубящего урона\n<style=\"highlight\">- Если на цели есть [CrushMarks:`Метка раскола`], наносит вдвое больше Рубящего урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [CrushMarks:`Метки раскола`] на следующий ход\n<style=\"highlight\">[OnSucceedAttack] Если цель имеет эффект изменённого типа паники, повышает её счётчик [Sinking:`Утопания`] на 3 (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я сокрушу всё, что встанет у нас на пути!",
+          "desc": "[DuelCounter] \n[WhenUse] Получает максимальное значение [GrownHorns:`Проявляющихся рогов`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я сокрушу всё, что встанет у нас на пути!",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Итоговая сила +1 за каждые 3 единицы в сумме силы [Burst:`Разрыва`] и [Sinking:`Утопания`] на атакующем (До 3)</style>\n[WhenUse] Получает максимальное значение [GrownHorns:`Проявляющихся рогов`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

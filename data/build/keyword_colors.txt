@@ -948,3 +948,6 @@ HanafudaCombo ¤ #f8c200
 HurtNightStiletto ¤ #e30000
 CriHurtNightStiletto ¤ #e30000
 HorrHurtNightStiletto ¤ #e30000
+GrownHorns ¤ #f8c200
+CrushMarks ¤ #e30000
+ChickenFightlust ¤ #f8c200

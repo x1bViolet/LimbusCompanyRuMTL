@@ -842,11 +842,11 @@
     },
     {
       "id": "EgoGiftListPopupTabType_EXCLUDE_CANDIDATE",
-      "content": "Всегда активно"
+      "content": "Всегда активны"
     },
     {
       "id": "EgoGiftListPopupTabType_active",
-      "content": "Активно"
+      "content": "Активны"
     }
   ]
 }

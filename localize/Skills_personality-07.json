@@ -1934,6 +1934,456 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1071401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заклевать их",
+          "desc": "[StartDuel] Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1 себе и цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Заклевать их",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более</style>\n[StartDuel] Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1 себе и цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заклевать их",
+          "desc": "[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 10 [Combustion:`Огня`] на себе (До 2)</style>\n[StartDuel] Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1 себе и цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Калечащие когти",
+          "desc": "[StartDuel] Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1 себе и цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Combustion:`Огня`], а его счётчик повышается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Калечащие когти",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более</style>\n[StartDuel] Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1 себе и цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Combustion:`Огня`], а его счётчик повышается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Калечащие когти",
+          "desc": "[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 10 [Combustion:`Огня`] на себе (До 2)</style>\n[StartDuel] Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на 1 себе и цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Combustion:`Огня`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Burst:`Разрыва`] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Combustion:`Огня`], а его счётчик повышается на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит ((Сила [Combustion:`Огня`] на себе × 2)% от итогового урона этой монеты) урона Гневом (До 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Кроваво-пламенная резня【血炎亂舞】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[BeforeUse] При максимальном значении [ChickenFightlust:`Кровавого боевого инстинкта`] использует альтернативный третий навык <color=#fe0101>「Неистовствующие клинки петуха под залитыми кровью небесами 【血天下鷄舞亂刀】」</color> вместо этого\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n[EndSkill] Свой счётчик [Combustion:`Огня`] повышается на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`] вместе с целью"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если свои текущие ОЗ выше 50% от максимальных, активирует [Combustion:`Огонь`] на себе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`] вместе с целью"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если свои текущие ОЗ выше 50% от максимальных, активирует [Combustion:`Огонь`] на себе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`] вместе с целью"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если свои текущие ОЗ выше 50% от максимальных, активирует [Combustion:`Огонь`] на себе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Кроваво-пламенная резня【血炎亂舞】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n<style=\"highlight\">Наносит на (Сила [Combustion:`Огня`] на себе × 1.5)% больше урона (До 30%)</style>\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[BeforeUse] При максимальном значении [ChickenFightlust:`Кровавого боевого инстинкта`] использует альтернативный третий навык <color=#fe0101>「Неистовствующие клинки петуха под залитыми кровью небесами 【血天下鷄舞亂刀】」</color> вместо этого\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на главной цели (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 20% потерянных ОЗ (До 3)</style>\n[EndSkill] Свой счётчик [Combustion:`Огня`] повышается на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`] вместе с целью"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если свои текущие ОЗ выше 50% от максимальных, активирует [Combustion:`Огонь`] на себе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`] вместе с целью"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если свои текущие ОЗ выше 50% от максимальных, активирует [Combustion:`Огонь`] на себе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`] вместе с целью"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Если свои текущие ОЗ выше 50% от максимальных, активирует [Combustion:`Огонь`] на себе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит всем целям ((Сила [Combustion:`Огня`] на себе + сила [Combustion:`Огня`] на главной цели)% от итогового урона этой монеты) урона Чревоугодием (До 20%)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Больше добычи для нас",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`] на следующий ход\n[WhenUse] Сила монет +1, если имеется [ChickenStance:`Кровавое пламя`]\n[StartDuel] Свой счётчик [Combustion:`Огня`] повышается на 3 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Больше добычи для нас",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`] на следующий ход\n<style=\"highlight\">[WhenUse] Базовая сила +1, если сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] на атакующем равна 10 и более</style>\n[WhenUse] Сила монет +1, если имеется [ChickenStance:`Кровавое пламя`]\n<style=\"highlight\">[WhenUse] Наносит на 1% больше урона за каждые 3% потерянных в этой битве ОЗ (До 30%; вся потеря ОЗ складывается)</style>\n[StartDuel] Свой счётчик [Combustion:`Огня`] повышается на 3 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071405,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Неистовствующие клинки петуха под залитыми кровью небесами【血天下鷄舞亂刀】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n[WinDuel] Получает 10 [Combustion:`Огня`]\n[EndSkill] Теряет весь [ChickenFightlust:`Кровавый боевой инстинкт`]\n[EndSkill] Если на себе более чем 20 [Combustion:`Огня`], снимает с себя до 25 [Combustion:`Огня`] свыше 20 и восстанавливает (Снятое значение × 2)% от максимальных ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на себе 20 и более [Combustion:`Огня`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Неистовствующие клинки петуха под залитыми кровью небесами【血天下鷄舞亂刀】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n<style=\"highlight\">Наносит на (Сила [Combustion:`Огня`] на себе × 3)% больше урона (До 60%)\nНаносит на 1% больше урона за каждые 2% в сумме потерянных вместе с целью процентов ОЗ (До 50%)</style>\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на главной цели (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 20% потерянных ОЗ (До 3)</style>\n[WinDuel] Получает 10 [Combustion:`Огня`]\n[EndSkill] Теряет весь [ChickenFightlust:`Кровавый боевой инстинкт`]\n[EndSkill] Если на себе более чем 20 [Combustion:`Огня`], снимает с себя до 25 [Combustion:`Огня`] свыше 20 и восстанавливает (Снятое значение × 2)% от максимальных ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на себе 20 и более [Combustion:`Огня`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит (20% от итогового урона этой монеты) урона Гневом всем целям\n- Если монета последняя, восстанавливает ОЗ в количестве нанесённого этим эффектом урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
