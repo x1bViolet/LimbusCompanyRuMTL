@@ -1831,7 +1831,7 @@
         {
           "level": 1,
           "name": "Передача обработанных отчётов",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наименьшими текущими ОЗ\n[WhenUse] Теряет весь [Charge:`Заряд`]",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшими текущими ОЗ\n[WhenUse] Теряет весь [Charge:`Заряд`]",
           "coinlist": [
             {
               "coindescs": [

@@ -231,6 +231,10 @@
     {
       "id": "OnStartCoin",
       "name": "[Начало монеты]"
+    },
+    {
+      "id": "BeforeBehavior",
+      "name": "[Перед действием]"
     }
   ]
 }
