@@ -36,6 +36,10 @@ path = '$.dataList[*].chapter'
 font = "bebas"
 path = '$.dataList[*].content'
 
+[[font_rules."RailwayDungeon.json"]]
+font = "bebas"
+path = '$.dataList[*].name'
+
 [[font_rules."Ch8VideoEffectSettings.json"]]
 font = "mikodacs"
 path = '$.dataList[*].texts[*].texts[*].text'
