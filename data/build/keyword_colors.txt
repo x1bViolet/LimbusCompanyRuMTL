@@ -951,3 +951,4 @@ HorrHurtNightStiletto ¤ #e30000
 GrownHorns ¤ #f8c200
 CrushMarks ¤ #e30000
 ChickenFightlust ¤ #f8c200
+ProtectStanceRyoshu ¤ #f8c200
