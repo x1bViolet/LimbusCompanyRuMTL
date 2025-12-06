@@ -2254,6 +2254,286 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1041301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Эй, отвали!",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Эй, отвали!",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 6 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Эй, отвали!",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">На 20% больше урона при критическом попадании</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гравюра в плоти и костях【銘肌鏤骨】",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве ((Сила [Burst:`Разрыва`] на цели / 5) + 1) (До 6; округляется вниз)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Гравюра в плоти и костях【銘肌鏤骨】",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 6 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве ((Сила [Burst:`Разрыва`] на цели / 5) + 1) (До 6; округляется вниз)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гравюра в плоти и костях【銘肌鏤骨】",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве ((Сила [Burst:`Разрыва`] на цели / 5) + <style=\"highlight\">2</style>) (До 6; округляется вниз)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">На 20% больше урона при критическом попадании</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Вспомогательная атака【加斥我援】",
+          "desc": "[WhenUse] Получает 2 [ProtectStanceRyoshu:`Стойки защитника`]\n[WhenUse] Итоговая сила +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели равна 6 и более\n[WhenUse] Получает 3 [Breath:`Дыхания`] и повышает его счётчик на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] На (Сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели × 2)% больше урона при критическом попадании (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспомогательная атака【加斥我援】",
+          "desc": "[WhenUse] Получает 2 [ProtectStanceRyoshu:`Стойки защитника`]\n[WhenUse] Итоговая сила +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`] и повышает его счётчик на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] На (Сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрывов`] на цели × 2)% больше урона при критическом попадании (До <style=\"highlight\">120%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Страж",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 2 [ProtectStanceRyoshu:`Стойки защитника`]\n[WhenUse] Этот навык получает 1 Уровень защиты за каждые 10% потерянных в этой битве ОЗ (До 6; вся потеря ОЗ складывается; зависит от максимальных ОЗ в момент активации эффекта)\n[WinDuel] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5; единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Страж",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 2 [ProtectStanceRyoshu:`Стойки защитника`]\n[WhenUse] Этот навык получает 1 Уровень защиты за каждые 10% потерянных в этой битве ОЗ (До 6; вся потеря ОЗ складывается; зависит от максимальных ОЗ в момент активации эффекта)\n[WinDuel] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5; единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
