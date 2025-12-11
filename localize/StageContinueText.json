@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "id": "StageInfoUI_ContinueText",
+      "content": "Возможно продолжить"
+    },
+    {
+      "id": "ContinueMainTitle",
+      "content": "Продолжить бой"
+    },
+    {
+      "id": "ContinueMainDesc_HellChainInsufficient",
+      "content": "Вы потерпели поражение.\nПотратить <color=#e94d37>40 Безумства</color> и продолжить бой?\n\n<color=#ebcaa2><Эффекты такого продолжения боя></color>\n<color=#F8C200>- Сбросить активируемые 'единожды за битву' эффекты Идентичностей и ЭГО\n- Получить 10 ЭГО Ресурсов для всех грехов\n- Полностью восстановить ОЗ и СД всех Грешников (СД Идентичностей с отрицательными монетами будет сброшена до -30)</color>"
+    },
+    {
+      "id": "ContinueMainRemainContinueCount",
+      "content": "Осталось продолжений"
+    },
+    {
+      "id": "ContinueMainHaveLunacy",
+      "content": "Осталось Безумства"
+    },
+    {
+      "id": "ContinueMainFreeLunacy",
+      "content": "Бесплатное"
+    },
+    {
+      "id": "ContinueMainPaidLunacy",
+      "content": "Платное"
+    },
+    {
+      "id": "ContinueMainCancel",
+      "content": "Принять поражение"
+    },
+    {
+      "id": "ContinueMainUseContinue",
+      "content": "Продолжить бой"
+    },
+    {
+      "id": "ContinueMainBuyHellChain",
+      "content": "Продолжить бой"
+    },
+    {
+      "id": "ContinueConfirm_Title_HellChain",
+      "content": "Заметка"
+    },
+    {
+      "id": "ContinueConfirm_Desc",
+      "content": "Прохождение этого этапа с помощью функции «Продолжить бой» не учтёт выполнение его EX-Заданий.\nКроме того, после прохождения этапа ресурсы, потраченные на продолжение битвы, не будут восстановлены, а потраченное Безумство не подлежит возврату.\n\nОднако, если после использования функции «Продолжить бой» вы всё равно терпите поражение или если Лимбус закрывается по непредвиденным обстоятельствам, всё потраченное на продолжение битвы Безумство будет восстановлено."
+    },
+    {
+      "id": "ContinueConfirm_Skip",
+      "content": "Не показывать снова до следующего входа"
+    },
+    {
+      "id": "ContinuePurchase_LunacyTitle",
+      "content": "Безумство"
+    },
+    {
+      "id": "ContinuePurchase_Notice",
+      "content": "※ Сперва тратится бесплатное Безумтсов."
+    },
+    {
+      "id": "ContinueConfirmCancel",
+      "content": "Отмена"
+    },
+    {
+      "id": "ContinueMainConfirm",
+      "content": "Продолжить бой"
+    },
+    {
+      "id": "ContinueConfirm_Title_Lunacy",
+      "content": "Заметка"
+    },
+    {
+      "id": "ContinueResult_Win_Desc",
+      "content": "Прохождение этапа затратило все ресурсы,\nиспользованные на продолжение боя."
+    },
+    {
+      "id": "ContinueResult_Defeat_Desc",
+      "content": "Бросание этапа вернуло все ресурсы,\nиспользованные на продолжение боя."
+    }
+  ]
+}
