@@ -2239,7 +2239,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремора`] и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
