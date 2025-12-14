@@ -9511,7 +9511,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], провоцирует [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], провоцирует [SinkingSurge:`Шквал Утопания`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 10 и более, дополнительно наносит 30% от прошедшего урона"
@@ -9542,7 +9542,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], провоцирует [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Если на цели 6 и более [Sinking:`Утопания`], провоцирует [SinkingSurge:`Шквал Утопания`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 10 и более, дополнительно наносит <style=\"highlight\">40%</style> от прошедшего урона"
