@@ -176,4 +176,4 @@ cython_debug/
 .reference/
 
 !/data/build
-/localize/.vs
+/.vs
