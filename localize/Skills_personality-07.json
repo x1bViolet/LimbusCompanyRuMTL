@@ -908,7 +908,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20% от нанесённого урона"
                 }
               ]
             },
@@ -938,7 +938,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:`Утопания`] и повышает его счётчик <style=\"highlight\">на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на <style=\"highlight\">30%</style> от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на <style=\"highlight\">30%</style> от нанесённого урона"
                 }
               ]
             },
@@ -973,7 +973,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20% от нанесённого урона"
                 }
               ]
             },
@@ -1003,7 +1003,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Sinking:`Утопания`] и повышает его счётчик <style=\"highlight\">на 2</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на <style=\"highlight\">30%</style> от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на <style=\"highlight\">30%</style> от нанесённого урона"
                 }
               ]
             },

@@ -1053,7 +1053,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 3 [Paralysis:`Паралича`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает границу выносливости на 30% от нанесённого урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Поднимает границу выносливости цели на 30% от нанесённого урона</style>"
                 }
               ]
             }
@@ -1695,7 +1695,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает границу выносливости на 40% от нанесённого урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Поднимает границу выносливости цели на 40% от нанесённого урона</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`], равный (Число грехов в резонансе Гнева / 2)"
@@ -1716,7 +1716,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает границу выносливости на 40% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Поднимает границу выносливости цели на 40% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит [Combustion:`Огонь`], <style=\"highlight\">равный числу</style> грехов в резонансе Гнева"
@@ -1760,7 +1760,7 @@
                   "desc": "[OnSucceedAttack] Наносит всем участникам битвы [Combustion:`Огонь`], равный <style=\"highlight\">(</style>Число грехов в резонансе Гнева <style=\"highlight\">× 2)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает границу выносливости на 60% от нанесённого урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Поднимает границу выносливости цели на 60% от нанесённого урона</style>"
                 }
               ]
             }
@@ -1778,7 +1778,7 @@
                   "desc": "<style=\"highlight\">[EndSkill]</style> Наносит всем участникам битвы [Combustion:`Огонь`], равный (Число грехов в резонансе Гнева × 2)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 60% от нанесённого урона"
                 }
               ]
             }

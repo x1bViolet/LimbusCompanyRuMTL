@@ -880,7 +880,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по ОЗ"
@@ -890,7 +890,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по ОЗ"

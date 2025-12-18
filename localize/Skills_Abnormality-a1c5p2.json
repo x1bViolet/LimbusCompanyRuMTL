@@ -202,7 +202,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 30"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 30"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"

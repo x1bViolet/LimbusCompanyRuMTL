@@ -883,7 +883,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20% от нанесённого урона"
                 }
               ]
             },
@@ -913,7 +913,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на <style=\"highlight\">30%</style> от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на <style=\"highlight\">30%</style> от нанесённого урона"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 1 [MarkOfButler:`МС`]</style>"
