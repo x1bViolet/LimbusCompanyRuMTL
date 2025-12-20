@@ -1951,7 +1951,7 @@
         {
           "level": 4,
           "name": "Отчаянное положение",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n<style=\"highlight\">[StartBattle] Увеличивает в течение этого хода лимит активаций своего альтернативного первого навыка <color=#edc427>「Милость」</color> через эффект пассивного умения 「Изгнанный из семьи блюститель порядка」 до 2 раз за ход</style>\n[StartBattle] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)\n[WhenUse] Сила монеты +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на атакующем <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Наносит 2 [Vibration:`Тремора`] атаковавшему</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<style=\"highlight\">[StartBattle] Увеличивает в течение этого хода лимит активаций своего альтернативного первого навыка <color=#edc427>「Милость」</color> через эффект пассивного умения <b>「Изгнанный из семьи блюститель порядка」</b> до 2 раз за ход</style>\n[StartBattle] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)\n[WhenUse] Сила монеты +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на атакующем <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WinDuel] Наносит 2 [Vibration:`Тремора`] атаковавшему</style>",
           "coinlist": [
             {
               "coindescs": [

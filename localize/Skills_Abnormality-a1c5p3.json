@@ -1898,7 +1898,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Бледное искупление",
+          "name": "Отбеленное искупление",
           "desc": "[WhenUse] Тратит 5 [AaCePcBq:`Эго Квикег`](#d9d1e0)\n[WinDuel] Получает 6 [DefenseUp:`Повышений уровня защиты`]\n[DefeatDuel] Теряет 5 СД",
           "coinlist": [
             {
