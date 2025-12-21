@@ -1145,7 +1145,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости цели на количество [Laceration:`Кровотечения`] цели"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на количество [Laceration:`Кровотечения`] цели"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis:`Паралича`] на следующий ход"

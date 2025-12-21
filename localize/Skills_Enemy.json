@@ -3461,10 +3461,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 10"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает границу выносливости на 20"
+                  "desc": "[OnSucceedAttackHead] Поднимает границу выносливости цели на 20"
                 }
               ]
             }

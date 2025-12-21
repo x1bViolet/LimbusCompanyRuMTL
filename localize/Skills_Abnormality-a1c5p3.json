@@ -504,7 +504,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал Утопания`]"
                 }
               ]
             }
@@ -1723,7 +1723,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [AaCePbBa:`Бледный шум`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 30"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 30"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Цель теряет 10 СД"
@@ -1898,7 +1898,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Бледное искупление",
+          "name": "Отбеленное искупление",
           "desc": "[WhenUse] Тратит 5 [AaCePcBq:`Эго Квикег`](#d9d1e0)\n[WinDuel] Получает 6 [DefenseUp:`Повышений уровня защиты`]\n[DefeatDuel] Теряет 5 СД",
           "coinlist": [
             {

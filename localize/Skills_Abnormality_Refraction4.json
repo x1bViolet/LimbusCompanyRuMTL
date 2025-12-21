@@ -144,7 +144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал Утопания`]"
                 }
               ]
             }
@@ -551,7 +551,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал утопания`]"
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge:`Шквал Утопания`]"
                 }
               ]
             }
