@@ -1636,7 +1636,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstZilu]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
@@ -1662,7 +1662,7 @@
                   "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]"
+                  "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 }
               ]
             }
@@ -1679,7 +1679,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Накладывает [BurstZilu]"
+                  "desc": "[OnSucceedAttack] Накладывает [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
@@ -1705,7 +1705,7 @@
                   "desc": "[OnSucceedAttack] При скорости 10 и выше вновь подкидывает монету 1 раз"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu]"
+                  "desc": "[ReUseOnSucceedAttack] Накладывает [BurstZilu:`Смертный ритуал 【Раскол】`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Накладывает [BurstAgility:`Смертный ритуал 【Скоротечность】`]</style>"
