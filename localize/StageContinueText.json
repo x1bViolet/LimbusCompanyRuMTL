@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "StageInfoUI_ContinueText",
-      "content": "Возможно продолжить"
+      "content": "<voffset=1em><line-height=82%>Доступно воскрешение\nвсех грешников\nпри поражении</voffset>"
     },
     {
       "id": "ContinueMainTitle",
