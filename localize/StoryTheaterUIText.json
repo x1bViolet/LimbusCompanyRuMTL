@@ -331,6 +331,10 @@
     {
       "id": "OtherStoryOpenCondition_9120",
       "content": "Пройдите LC-PC-1"
+    },
+    {
+      "id": "MainStoryOpenCondition_109",
+      "content": "Пройдите 9-1"
     }
   ]
 }
