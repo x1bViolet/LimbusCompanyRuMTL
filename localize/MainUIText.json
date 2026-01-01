@@ -1366,7 +1366,7 @@
     },
     {
       "id": "open_date_description_month_day_time_zone",
-      "content": "Разблокируется после {1}/{0}\n(Дата обновления по {2} времени)"
+      "content": "Разблокируется после {1}/{0}\n(М/Д, Дата обновления по {2} времени)"
     },
     {
       "id": "open_date_description_month_day_time_zone_date",
@@ -1774,7 +1774,7 @@
     },
     {
       "id": "mainui_exp_dungeon_7_open_day",
-      "content": "Светодобыча опыта #7 (Рубящий) открывается в ПОН, ВТОР, и ВОСКРЕС."
+      "content": "Светодобыча опыта #7 (Рубящий) открывается в ПН, ВТ, и ВС."
     },
     {
       "id": "mainui_exp_dungeon_8_title",
@@ -1782,7 +1782,7 @@
     },
     {
       "id": "mainui_exp_dungeon_8_open_day",
-      "content": "Светодобыча опыта #7 (Пронзающий) открывается в СРЕ, ЧЕТ, и ВОСКРЕС."
+      "content": "Светодобыча опыта #7 (Пронзающий) открывается в СР, ЧТ, и ВС."
     },
     {
       "id": "mainui_exp_dungeon_9_title",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "mainui_exp_dungeon_9_open_day",
-      "content": "Светодобыча опыта #7 (Дробящий) открывается в ПЯТ, СУБ, и ВОСКРЕС."
+      "content": "Светодобыча опыта #7 (Дробящий) открывается в ПТ, СБ, и ВС."
     },
     {
       "id": "mainui_default_personality_blocked",
@@ -1823,10 +1823,6 @@
     {
       "id": "story_voice_setting_ui_title",
       "content": "Управление Голосом Истории"
-    },
-    {
-      "id": "story_voice_setting_ui_desc",
-      "content": "(임시 더미)보이스를 적용할 항목을 선택해주세요."
     },
     {
       "id": "vending_machine_item_available_date_label",
@@ -1994,7 +1990,7 @@
     },
     {
       "id": "mainui_exp_dungeon_13_open_day",
-      "content": "Светодобыча опыта #9 (Рубящий) открывается в ПОН, ВТОР, и ВОСКРЕС."
+      "content": "Светодобыча опыта #9 (Рубящий) открывается в ПН, ВТ, и ВС."
     },
     {
       "id": "mainui_exp_dungeon_14_title",
@@ -2002,7 +1998,7 @@
     },
     {
       "id": "mainui_exp_dungeon_14_open_day",
-      "content": "Светодобыча опыта #9 (Пронзающий) открывается в СРЕ, ЧЕТ, и ВОСКРЕС"
+      "content": "Светодобыча опыта #9 (Пронзающий) открывается в СР, ЧТ, и ВС"
     },
     {
       "id": "mainui_exp_dungeon_15_title",
@@ -2010,7 +2006,7 @@
     },
     {
       "id": "mainui_exp_dungeon_15_open_day",
-      "content": "Светодобыча опыта #9 (Дробящий) открывается в ПЯТ, СУБ, и ВОСКРЕС."
+      "content": "Светодобыча опыта #9 (Дробящий) открывается в ПТ, СБ, и ВС."
     }
   ]
 }
