@@ -75,6 +75,18 @@
     {
       "id": "season_8000_collaboration_filter_title",
       "content": "КОЛЛАБОРАЦИЯ - ОГРАНИЧЕННОЕ"
+    },
+    {
+      "id": "season_filter_7",
+      "content": "Сезон 7"
+    },
+    {
+      "id": "season_title_7",
+      "content": "Паутинка · ьтин яансарК"
+    },
+    {
+      "id": "season_title_7_EVENT",
+      "content": "<cspace=-2px>Паутинка · ьтин яансарК [ИВЕНТ]</cspace>"
     }
   ]
 }

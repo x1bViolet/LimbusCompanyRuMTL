@@ -2094,6 +2094,309 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фехтование кхопешем",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Фехтование кхопешем",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Sinking:`Утопания`] и [Vibration:`Тремора`] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фехтование кхопешем",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Sinking:`Утопания`] и [Vibration:`Тремора`] на цели (До 2)\n<style=\"highlight\">[WhenUse] Если имеется [TheUdjatOutis:`Уджат 【Авангард】`], Сила в столкновении +1\n[WinDuel] Наносит 2 [SheutFracture:`Раскола тени`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [Protection:`Защищённость`] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Миражный разрез",
+          "desc": "[WhenUse] Этот слот получает 5 [Aggro:`Провокации`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Миражный разрез",
+          "desc": "[WhenUse] Этот слот получает 5 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Sinking:`Утопания`] и [Vibration:`Тремора`] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Миражный разрез",
+          "desc": "[WhenUse] Этот слот получает 5 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Sinking:`Утопания`] и [Vibration:`Тремора`] на цели (До 2)\n<style=\"highlight\">[WhenUse] Если имеется [TheUdjatOutis:`Уджат 【Авангард】`], Сила в столкновении +2 и на 30% больше наносимого урона\n[WinDuel] Наносит 2 [SheutFracture:`Раскола тени`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [Protection:`Защищённость`] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Авангард доведёт дело до конца",
+          "desc": "[WhenUse] Этот слот получает 8 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Базовая сила +1 за каждый [LCA_Bullet:`Разрывной патрон LCA`], который должен потратиться этим навыком\n[EndSkill] Получает 2 [Protection:`Защищённости`] на следующий ход (Единожды за ход)\n[EndSkill] Если осталось 2 и менее [LCA_Bullet:`Разрывных патрона LCA`], [FullReload:`Перезаряжается`] (До 5 раз за битву)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet:`Разрывных патрона LCA`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [BlueSand:`Синего песка`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown:`Понижение сопротивления к Унынию`] (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet:`Разрывных патрона LCA`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Авангард доведёт дело до конца",
+          "desc": "<style=\"highlight\">[WhenUse] Если имеется [TheUdjatOutis:`Уджат 【Авангард】`], наносит на 50% больше урона</style>\n[WhenUse] Этот слот получает 8 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Если сумма силы [Sinking:`Утопания`] и [Vibration:`Тремора`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Базовая сила +1 за каждый [LCA_Bullet:`Разрывной патрон LCA`], который должен потратиться этим навыком\n[EndSkill] Получает 2 [Protection:`Защищённости`] на следующий ход (Единожды за ход)\n[EndSkill] Если осталось 2 и менее [LCA_Bullet:`Разрывных патрона LCA`], [FullReload:`Перезаряжается`] (До 5 раз за битву)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet:`Разрывных патрона LCA`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">Наносит на (Потраченные монетой [LCA_Bullet:`Разрывные патроны LCA`] × 30)% больше урона</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [BlueSand:`Синего песка`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown:`Понижение сопротивления к Унынию`] (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 2 [LCA_Bullet:`Разрывных патрона LCA`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">Наносит на (Потраченные монетой [LCA_Bullet:`Разрывные патроны LCA`] × 30)% больше урона</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у цели есть сила духа, [VibrationExplosion:`Провоцирует Тремор`] ещё раз и понижает его счётчик на 1\nЕсли СД цели ниже 0, наносит ей 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хладнокровие",
+          "desc": "Если получает удар по щиту, наносит 3 [Sinking:`Утопания`] атакующему (До 3 раз за ход)\n[WhenUse] Получает ОЗ Щита в размере 5% от максимальных ОЗ за каждую [Protection:`Защищённость`] на себе (До 15%; единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Хладнокровие",
+          "desc": "Если получает удар по щиту, наносит 3 [Sinking:`Утопания`] атакующему (До 3 раз за ход)\n<style=\"highlight\">[WhenUse] Если имеется [TheUdjatOutis:`Уджат 【Авангард】`], получает 1 [Protection:`Защищённость`]</style>\n[WhenUse] Получает ОЗ Щита в размере 5% от максимальных ОЗ за каждую [Protection:`Защищённость`] на себе (До 15%; единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

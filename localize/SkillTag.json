@@ -90,7 +90,7 @@
     },
     {
       "id": "CriticalOnSucceedAttack",
-      "name": "[Критическая атака]"
+      "name": "<color=#c6fe94>[Критическая атака]</color>"
     },
     {
       "id": "CriticalOnSucceedAttackHead",
