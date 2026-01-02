@@ -20,6 +20,10 @@ path = ""
 font = "bebas"
 path = '$.dataList[*].name'
 
+[[font_rules."AbEvents*.json"]]
+font = "bebas"
+path = '$.dataList[*].prevDesc'
+
 [[font_rules."StageChapterText*.json"]]
 font = "bebas"
 path = '$.dataList[*].company'
