@@ -1366,7 +1366,7 @@
     },
     {
       "id": "open_date_description_month_day_time_zone",
-      "content": "Разблокируется после {1}/{0}\n(М/Д, Дата обновления по {2} времени)"
+      "content": "Разблокируется после {1}/{0}\n(Д/М, Дата обновления по {2} времени)"
     },
     {
       "id": "open_date_description_month_day_time_zone_date",
