@@ -573,6 +573,244 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2070911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + 1) (До 7)\n- При 4 и более грехах в резонансе Зависти сразу повышает свой счётчик [Charge:`Заряда`] на 7 вместо этого\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × 2)% больше урона (До 30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip:`Микрочипа регистрации заселения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1~2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + 1) (До 7)\n- При 4 и более грехах в резонансе Зависти сразу повышает свой счётчик [Charge:`Заряда`] на 7 вместо этого\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × <style=\"highlight\">3</style>)% больше урона (До <style=\"highlight\">45%</style>)\n<style=\"highlight\">- Базовая сила +1, если было потрачено 5 и более единиц счётчика [Charge:`Заряда`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip:`Микрочипа регистрации заселения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1~2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 [Combustion:`Огня`] на главной цели (До 3)</style>\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + 1) (До 7)\n- При 4 и более грехах в резонансе Зависти сразу повышает свой счётчик [Charge:`Заряда`] на 7 вместо этого\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До 45%)\n- Базовая сила +1, если было потрачено 5 и более единиц счётчика [Charge:`Заряда`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip:`Микрочипа регистрации заселения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1~<style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2070921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Если свой счётчик [Charge:`Заряда`] ниже 10, теряет 10% от максимальных ОЗ и повышает его на 10 (Не может умереть или оглушиться от этого эффекта)\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + 1) (До 8)\n- При 5 и более грехах в резонансе Зависти сразу повышает свой счётчик [Charge:`Заряда`] на 8 вместо этого\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет [IDMicroChip:`Микрочип регистрации резидента`], наносит ей на 20% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip:`Микрочипа регистрации резидента`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1~2"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:`Заряда`] ещё на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Если свой счётчик [Charge:`Заряда`] ниже 10, теряет 10% от максимальных ОЗ и повышает его на 10 (Не может умереть или оглушиться от этого эффекта)\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">2</style>) (До 8)\n- При 5 и более грехах в резонансе Зависти сразу повышает свой счётчик [Charge:`Заряда`] на 8 вместо этого\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До <style=\"highlight\">55%</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет [IDMicroChip:`Микрочип регистрации резидента`], наносит ей на 20% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip:`Микрочипа регистрации резидента`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1~2"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:`Заряда`] ещё на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n<style=\"highlight\">Сила монет +1 за каждые 6 [Combustion:`Огня`] на главной цели (До 3)</style>\n[BeforeAttack] Если свой счётчик [Charge:`Заряда`] ниже 10, теряет 10% от максимальных ОЗ и повышает его на 10 (Не может умереть или оглушиться от этого эффекта)\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">3</style>) (До <style=\"highlight\">10</style>)\n- При 5 и более грехах в резонансе Зависти сразу повышает свой счётчик [Charge:`Заряда`] на <style=\"highlight\">10</style> вместо этого\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До <style=\"highlight\">60%</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет [IDMicroChip:`Микрочип регистрации резидента`], наносит ей на 20% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip:`Микрочипа регистрации резидента`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1~<style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge:`Заряда`] ещё на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

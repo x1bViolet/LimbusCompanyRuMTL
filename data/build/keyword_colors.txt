@@ -1023,3 +1023,5 @@ BeeSting ¤ #e30000
 ArtifactBeeSting ¤ #e30000
 HornetPoison ¤ #e30000
 CriticalDmgUpVespa ¤ #f8c200
+NiddleEGO ¤ #e30000
+IDMicroChip ¤ #e30000
