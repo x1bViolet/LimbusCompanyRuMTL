@@ -1959,7 +1959,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
@@ -1972,7 +1972,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [ParadeConcentration:`Ламанчских парада`]"
@@ -2009,7 +2009,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
@@ -2022,7 +2022,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [ParadeConcentration:`Ламанчских парада`]"
