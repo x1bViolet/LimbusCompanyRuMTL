@@ -1,0 +1,170 @@
+{
+  "dataList": [
+    {
+      "id": 40000601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Препятствие",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 5)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойное цепное рассечение",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 5)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бросок гарпуна",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 200%)\n[WhenUse] Получает 2 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [BeeSting:`Вонзившийся гарпун 【Пчелиное жало】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 80% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вонзание гарпуна — вот оно.",
+          "desc": "[CantChangeTarget]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 300%)\n[WhenUse] Получает 5 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [ArtifactBeeSting:`Вонзившийся гарпун 【Осиное жало】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Оглушает цель"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возврат гарпуна",
+          "desc": "[CantDuel]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 200%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Возвращает Вонзившийся гарпун с цели к себе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака.",
+          "desc": "[DuelCounter]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Получает 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательную защиту</link></u></color></color></mark></b></u>\n[WhenUse] Получает 2 [ResultEnhancement:`Повышения силы`] и 2 [AttackDmgUp:`Повышения урона`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защитная помощь.",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<b>Специальный навык для [SupportProtect:`Вспомогательной защиты`]</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
