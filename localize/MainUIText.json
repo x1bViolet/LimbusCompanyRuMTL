@@ -2007,6 +2007,10 @@
     {
       "id": "mainui_exp_dungeon_15_open_day",
       "content": "Светодобыча опыта #9 (Дробящий) открывается в ПТ, СБ, и ВС."
+    },
+    {
+      "id": "assistant_level",
+      "content": "Уровень персонажа"
     }
   ]
 }
