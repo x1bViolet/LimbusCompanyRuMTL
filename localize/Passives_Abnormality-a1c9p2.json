@@ -95,7 +95,7 @@
     {
       "id": 132502,
       "name": "Воля предписания",
-      "desc": "Конец хода:\n\n- <color=#ff6000><mark=#ff000040><b><u>Если текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color><u> было успешно выполнено</u></b></mark></color>, восстанавливает 15 СД и получает (Стадия [UnlockBuff_Base:`Разблокировки`] + 1) [BlessingOfIndexPrescriptEnemy:`Милости предписания`];\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color></b></mark></color>, получает 1 [PressureOfPrescript:`Узы ответственности`] и 5 [KarmaOfIndexStudent:`Кармических последствий`].\n   · Если не имеется [UnlockBuff_Base:`Разблокировки`], получает 1 [BlessingOfIndexPrescriptEnemy:`Милость предписания`] вместе с этим;\n   · Не получает [KarmaOfIndexStudent:`Кармические последствия`] при 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`];\n   · Если в состоянии Расцветшего ЭГО::Посредничество, получает вдвое больше [KarmaOfIndexStudent:`Кармических последствий`].",
+      "desc": "Конец хода:\n\n- <color=#ff6000><mark=#ff000040><b><u>Если текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color><u> было успешно выполнено</u></b></mark></color>, восстанавливает 15 СД и получает (Стадия [UnlockBuff_Base:`Разблокировки`] + 1) [BlessingOfIndexPrescriptEnemy:`Милости предписания`];\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее <sprite name=\"IndexPrescript_Base_2nd\"></u><color=#9f6a3a><u><link=\"IndexPrescript_Base_2nd\">Предписание</link></u></color></b></mark></color>, получает 1 [PressureOfPrescript:`Узы ответственности`] и 5 [KarmaOfIndexStudent:`Кармических последствий`].\n   · Если не имеется [UnlockBuff_Base:`Разблокировки`], получает 1 [BlessingOfIndexPrescriptEnemy:`Милость предписания`] вместе с этим;\n   · Не получает [KarmaOfIndexStudent:`Кармические последствия`] при 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`];\n   · Если в состоянии Расцветшего ЭГО::Доверенность, получает вдвое больше [KarmaOfIndexStudent:`Кармических последствий`].",
       "summary": ""
     },
     {
@@ -107,8 +107,8 @@
     },
     {
       "id": 132504,
-      "name": "Расцветшее ЭГО::Посредничество",
-      "desc": "Если в конце хода своя СД равна 25 и выше, а также при этом имеется [UnlockBuff_Base:`Разблокировка`]: тратит 15 СД, чтобы пробудить Расцветшее ЭГО::Посредничество и восстановиться от оглушения.\n- Получает [Blandishment_Enemy:`Веру вне всяких сомнений`] и меняет значения своих сопротивлений;\n- Если своя СД равна 0 и ниже в начале хода, теряет состояние Расцветшего ЭГО.",
+      "name": "Расцветшее ЭГО::Доверенность",
+      "desc": "Если в конце хода своя СД равна 25 и выше, а также при этом имеется [UnlockBuff_Base:`Разблокировка`]: тратит 15 СД, чтобы пробудить Расцветшее ЭГО::Доверенность и восстановиться от оглушения.\n- Получает [Blandishment_Enemy:`Веру вне всяких сомнений`] и меняет значения своих сопротивлений;\n- Если своя СД равна 0 и ниже в начале хода, теряет состояние Расцветшего ЭГО.",
       "summary": ""
     },
     {
