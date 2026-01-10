@@ -654,7 +654,7 @@
     },
     {
       "id": "mainui_activation",
-      "content": "АКТИВИРОВАН"
+      "content": "[font=bebas]АКТИВИРОВАН"
     },
     {
       "id": "mainui_ask_purchase_enkephalin",
@@ -1366,7 +1366,7 @@
     },
     {
       "id": "open_date_description_month_day_time_zone",
-      "content": "Разблокируется после {1}/{0}\n(М/Д, Дата обновления по {2} времени)"
+      "content": "Разблокируется после {1}/{0}\n(Д/М, Дата обновления по {2} времени)"
     },
     {
       "id": "open_date_description_month_day_time_zone_date",
@@ -2007,6 +2007,10 @@
     {
       "id": "mainui_exp_dungeon_15_open_day",
       "content": "Светодобыча опыта #9 (Дробящий) открывается в ПТ, СБ, и ВС."
+    },
+    {
+      "id": "assistant_level",
+      "content": "Уровень"
     }
   ]
 }

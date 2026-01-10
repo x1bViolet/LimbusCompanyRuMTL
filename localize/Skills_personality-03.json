@@ -2652,6 +2652,594 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крушение черепа",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Крушение черепа",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Крушение черепа",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Итоговой силе</style> и наносит на <style=\"highlight\">15%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пусть эти руки будут проводником, который..",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пусть эти руки будут проводником, который..",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пусть эти руки будут проводником, который..",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на <style=\"highlight\">15%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] цели на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Б-будьте же безмолвны",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], он получает +1 к Силе в столкновении\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Б-будьте же безмолвны",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], он получает +1 к Силе в столкновении\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Б-будьте же безмолвны",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], он получает +1 к <style=\"highlight\">Итоговой силе</style>\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] цели <nobr>на 1</nobr></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Посредничество: высекание",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 5% больше урона\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[EndSkill] Теряет 6 СД (До 2 раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Посредничество: высекание",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 5% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[EndSkill] Теряет 6 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Посредничество: высекание",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на <style=\"highlight\">10%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[EndSkill] Теряет 6 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] цели <nobr>на 1</nobr></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "С-сей же час предписание должно быть выполнено...",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при критических попаданиях\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До 2)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит на 20% больше урона этой монетой за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 1</nobr>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С-сей же час предписание должно быть выполнено...",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Силе монет и</style> наносит на <style=\"highlight\">40%</style> больше урона при критических попаданиях\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]<style=\"highlight\">, а также его урон повышается на 20% за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 60%)</style>\n[WhenUse] <style=\"highlight\">Получает (Стадия [UnlockBuff_Base:`Разблокировки`]) [Breath:`Дыхания`] и</style> повышает его счётчик на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит на <style=\"highlight\">40%</style> больше урона этой монетой за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До <style=\"highlight\">120%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 1</nobr>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Дополнительно наносит 1 [Sinking:`Утопание`] <style=\"highlight\">и повышает его счётчик на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031407,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Посредничество: уничтожение",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 15% больше урона\nЕсли сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Теряет 15 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Наносит на 20% больше урона этой монетой за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Посредничество: уничтожение",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на <style=\"highlight\">25%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] <style=\"highlight\">Получает (Стадия [UnlockBuff_Base:`Разблокировки`]) [Breath:`Дыхания`] и</style> повышает его счётчик на 3\n[EndSkill] Теряет 15 СД (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета <style=\"highlight\">получает +1 к своей Силе и</style> наносит на <style=\"highlight\">40%</style> больше урона за каждую стадию [UnlockBuff_Base:`Разблокировки`] (<style=\"highlight\">До +3 к Силе</style>; до +<style=\"highlight\">120%</style> к урону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ткань, сотканая и изготовленная по предписанию",
+          "desc": "Итоговая сила +1 за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 3)\n[StartBattle] Получает ОЗ Щита в размере 10% от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на 1% за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndBattle] Если нет [UnlockBuff_Base:`Разблокировки`], получает <nobr>[UnlockBuffAlly_1:`Разблокировку - I`]</nobr> (Единожды за ход)\n- Меняет текущее значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] на 3\n- Получает (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`] в начале следующего хода",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ткань, сотканая и изготовленная по предписанию",
+          "desc": "Итоговая сила +1 <style=\"highlight\">и на 15% больше наносимого урона</style> за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До +3 к Итоговой силе; <style=\"highlight\">до +45% к урону</style>)\n[StartBattle] Получает ОЗ Щита в размере <style=\"highlight\">15%</style> от максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на <style=\"highlight\">1.5%</style> за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndBattle] Если нет [UnlockBuff_Base:`Разблокировки`], получает <nobr>[UnlockBuffAlly_1:`Разблокировку - I`]</nobr> (Единожды за ход)\n- Меняет текущее значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] на 3\n- Получает в начале следующего хода (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Принудительная разблокировка",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[EndBattle] Если текущая стадия [UnlockBuff_Base:`Разблокировки`] ниже [UnlockBuffAlly_3:`Третьей`], активирует следующие эффекты (Единожды за ход):\n- Если имеется [UnlockBuffAlly_1:`Разблокировка - I`] или [UnlockBuffAlly_2:`Разблокировка - II`], увеличивает её стадию на 1 (Переходит на [UnlockBuffAlly_2:`Разблокировку - II`] или [UnlockBuffAlly_3:`Разблокировку - III`] соответственно)\n- При менее чем 6 / 9 [BlessingOfIndexPrescriptAlly:`Милости предписания`] меняет её значение на соответствующее новой стадии [UnlockBuff_Base:`Разблокировки`] ([UnlockBuffAlly_2:`Разблокировка - II`] / [UnlockBuffAlly_3:`Разблокировка - III`])\n- Получает в начале следующего хода (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Принудительная разблокировка",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Итоговая сила +1 каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 3)</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`]\n[EndBattle] Если текущая стадия [UnlockBuff_Base:`Разблокировки`] ниже [UnlockBuffAlly_3:`Третьей`], активирует следующие эффекты (Единожды за ход):\n- Если имеется [UnlockBuffAlly_1:`Разблокировка - I`] или [UnlockBuffAlly_2:`Разблокировка - II`], увеличивает её стадию на 1 (Переходит на [UnlockBuffAlly_2:`Разблокировку - II`] или [UnlockBuffAlly_3:`Разблокировку - III`] соответственно)\n- При менее чем 6 / 9 [BlessingOfIndexPrescriptAlly:`Милости предписания`] меняет её значение на соответствующее новой стадии [UnlockBuff_Base:`Разблокировки`] ([UnlockBuffAlly_2:`Разблокировка - II`] / [UnlockBuffAlly_3:`Разблокировка - III`])\n- Получает в начале следующего хода (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

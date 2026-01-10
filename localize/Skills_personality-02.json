@@ -1205,7 +1205,7 @@
         {
           "level": 3,
           "name": "Привлечённая огнём",
-          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик <nobr>на 1</nobr>\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует <color=#fe0101>「Предельная синхронизация 【Деградированная коррозия】」</color> вместо этого\nНаносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более единицах в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели\n[WhenUse] Сила монет +1, если свои ОЗ равны или ниже 70%",
+          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик <nobr>на 1</nobr>\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует <color=#fe0101>「Предельная сонастройка 【Деградированная коррозия】」</color> вместо этого\nНаносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более единицах в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели\n[WhenUse] Сила монет +1, если свои ОЗ равны или ниже 70%",
           "coinlist": [
             {
               "coindescs": [
@@ -1227,7 +1227,7 @@
         {
           "level": 4,
           "name": "Привлечённая огнём",
-          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик <nobr>на 1</nobr>\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует <color=#fe0101>「Предельная синхронизация 【Деградированная коррозия】」</color> вместо этого\nНаносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> единиц в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые за каждые 30% потерянных ОЗ (До 2)</style>",
+          "desc": "[StartBattle] Получает 7 [Combustion:`Огня`] и повышает его счётчик <nobr>на 1</nobr>\n[BeforeUse] При 30 и более [Combustion:`Огня`] использует <color=#fe0101>「Предельная сонастройка 【Деградированная коррозия】」</color> вместо этого\nНаносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> единиц в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые за каждые 30% потерянных ОЗ (До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1253,7 +1253,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Резонанс при повышении уровня настройки A.B.S",
+          "name": "Резонанс при повышении уровня сонастройки A.B.S",
           "desc": "[WhenUse] Теряет 5 [Combustion:`Огня`] (Единожды за ход)\n[OnSucceedEvade] Теряет 5 [Combustion:`Огня`] (Единожды за ход)",
           "coinlist": [
             {}
@@ -1261,7 +1261,7 @@
         },
         {
           "level": 4,
-          "name": "Резонанс при повышении уровня настройки A.B.S",
+          "name": "Резонанс при повышении уровня сонастройки A.B.S",
           "desc": "<style=\"highlight\">[WhenUse] Сила монет +3 при 10 и более [Combustion:`Огня`] на себе</style>\n[WhenUse] Теряет 5 [Combustion:`Огня`] (Единожды за ход)\n[OnSucceedEvade] Теряет 5 [Combustion:`Огня`] (Единожды за ход)",
           "coinlist": [
             {}
@@ -1274,7 +1274,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Предельная синхронизация【Деградированная коррозия】",
+          "name": "Предельная сонастройка【Деградированная коррозия】",
           "desc": "Умирает в конце использования этого навыка\nОЗ не могут опуститься ниже 1 во время использования этого навыка\n[WhenUse] Наносит на 7.5% больше урона за каждые 5 [Combustion:`Огня`] на себе (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более единицах в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До 2)\n[BeforeAttack] Количество целей +1 за каждые 20% потерянных ОЗ (До 2)",
           "coinlist": [
             {
@@ -1311,7 +1311,7 @@
         },
         {
           "level": 4,
-          "name": "Предельная синхронизация【Деградированная коррозия】",
+          "name": "Предельная сонастройка【Деградированная коррозия】",
           "desc": "Умирает в конце использования этого навыка\nОЗ не могут опуститься ниже 1 во время использования этого навыка\n[WhenUse] Наносит на <style=\"highlight\">12.5%</style> больше урона за каждые 5 [Combustion:`Огня`] на себе (До <style=\"highlight\">50%</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 10</style> единиц в сумме силы [Combustion:`Огня`] на себе и [Combustion:`Огня`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До <style=\"highlight\">3</style>)\n[BeforeAttack] Количество целей +1 за каждые 20% потерянных ОЗ (До <style=\"highlight\">4</style>)",
           "coinlist": [
             {
@@ -2121,7 +2121,7 @@
         {
           "level": 1,
           "name": "Безошибочно, как того требует предписание",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2142,7 +2142,7 @@
         {
           "level": 2,
           "name": "Безошибочно, как того требует предписание",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2163,7 +2163,7 @@
         {
           "level": 4,
           "name": "Безошибочно, как того требует предписание",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`]: <style=\"highlight\">Сила в столкновении +1 и</style> на <style=\"highlight\">20%</style> больше наносимого урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Силе в столкновении +1 и</style> и наносит на <style=\"highlight\">20%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2191,8 +2191,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Испольнить предписание, исполнить вновь",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], Сила в столкновении +1\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
+          "name": "Исполнить предписание, исполнить вновь",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], он получает +1 к Силе в столкновении\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2213,8 +2213,8 @@
         },
         {
           "level": 2,
-          "name": "Испольнить предписание, исполнить вновь",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], Сила в столкновении +1\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`] <style=\"highlight\">и повышает его счётчик на 1</style>",
+          "name": "Исполнить предписание, исполнить вновь",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], он получает +1 к Силе в столкновении\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`] <style=\"highlight\">и повышает его счётчик на 1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2241,8 +2241,8 @@
         },
         {
           "level": 4,
-          "name": "Испольнить предписание, исполнить вновь",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">Итоговая сила</style> +1\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 2</style>",
+          "name": "Исполнить предписание, исполнить вновь",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], он получает +1 к <style=\"highlight\">Итоговой силе</style>\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2278,7 +2278,7 @@
         {
           "level": 3,
           "name": "Как того требует предписание, вы будете устранены.",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит на 20% больше урона при критических попаданиях\nЕсли сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1\n[StartBattle] При 6 и более [BlessingOfIndexPrescriptAlly:`Милости предписания`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при критических попаданиях\nЕсли сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1\n[StartBattle] При 6 и более [BlessingOfIndexPrescriptAlly:`Милости предписания`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -2312,7 +2312,7 @@
         {
           "level": 4,
           "name": "Как того требует предписание, вы будете устранены.",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`]: <style=\"highlight\">Итоговая сила +1 и</style> на <style=\"highlight\">30%</style> больше наносимого урона при критических попаданиях\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] При 6 и более [BlessingOfIndexPrescriptAlly:`Милости предписания`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n<style=\"highlight\">- Наносит на 30% больше урона</style>\n[WhenUse] <style=\"highlight\">Получает (Значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] / 3) [Breath:`Дыхания`] (Округляется вниз)</style> и повышает его счётчик на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Итоговой силе и</style> наносит на <style=\"highlight\">30%</style> больше урона при критических попаданиях\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[StartBattle] При 6 и более [BlessingOfIndexPrescriptAlly:`Милости предписания`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n<style=\"highlight\">- Наносит на 30% больше урона</style>\n[WhenUse] <style=\"highlight\">Получает (Значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] / 3) [Breath:`Дыхания`] (Округляется вниз)</style> и повышает его счётчик на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -2351,7 +2351,7 @@
         {
           "level": 1,
           "name": "Ткань, сотканая и изготовленная по предписанию",
-          "desc": "Итоговая сила +1 за каждые 3 [BlessingOfIndexPrescriptAlly:`Милости предписания`] (До 3)\n[StartBattle] Получает ОЗ Щита в размере 10% от максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на 1% за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
+          "desc": "Итоговая сила +1 за каждые 3 [BlessingOfIndexPrescriptAlly:`Милости предписания`] (До 3)\n[StartBattle] Получает ОЗ Щита в размере 10% от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на 1% за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
           "coinlist": [
             {},
             {
@@ -2373,7 +2373,7 @@
         {
           "level": 4,
           "name": "Ткань, сотканая и изготовленная по предписанию",
-          "desc": "Итоговая сила +1 <style=\"highlight\">и на 10% больше наносимого урона</style> за каждые 3 [BlessingOfIndexPrescriptAlly:`Милости предписания`] (До +3 к Итоговой силе<style=\"highlight\">; до +30% к урону</style>)\n[StartBattle] Получает ОЗ Щита в размере <style=\"highlight\">15%</style> от максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на <style=\"highlight\">1.5%</style> за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
+          "desc": "Итоговая сила +1 <style=\"highlight\">и на 10% больше наносимого урона</style> за каждые 3 [BlessingOfIndexPrescriptAlly:`Милости предписания`] (До +3 к Итоговой силе<style=\"highlight\">; до +30% к урону</style>)\n[StartBattle] Получает ОЗ Щита в размере <style=\"highlight\">15%</style> от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на <style=\"highlight\">1.5%</style> за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Получает 2 [Breath:`Дыхания`]",
           "coinlist": [
             {},
             {

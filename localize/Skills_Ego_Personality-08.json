@@ -824,7 +824,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
@@ -837,7 +837,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -847,7 +847,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если среди целей есть оглушённые противники, сломанные Части, или же атака уже убила какую-либо цель, то наносит 2 [Sinking:`Утопания`] случайному противнику на поле боя, который не являлся целью (Единожды за ход)"
@@ -871,7 +871,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
@@ -884,7 +884,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -894,7 +894,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если среди целей есть оглушённые противники, сломанные Части, или же атака уже убила какую-либо цель, то наносит 2 [Sinking:`Утопания`] случайному противнику на поле боя, который не являлся целью (Единожды за ход)"
@@ -918,7 +918,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
@@ -931,7 +931,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">2</style> [Binding:`Связывания`] на следующий ход"
@@ -941,7 +941,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если среди целей есть оглушённые противники, сломанные Части, или же атака уже убила какую-либо цель, то наносит 2 [Sinking:`Утопания`] случайному противнику на поле боя, который не являлся целью (Единожды за ход)"

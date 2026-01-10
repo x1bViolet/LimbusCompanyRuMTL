@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Держание",
-          "desc": "[StartBattle] Кладёт [MarkOfHeresy:`Взор`] на цель в следующем ходе",
+          "desc": "[StartBattle] Кладёт [Cromer_Target:`Взор`] на цель в следующем ходе",
           "coinlist": [
             {
               "coindescs": [

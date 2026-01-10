@@ -18,7 +18,7 @@
                   "desc": "[EndSkill] Даёт 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение урона[TabExplain] Грехом</u></color> наибольшего резонанса двум союзникам с наименьшей СД"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает 20 СД двум союзникм с наименьшей СД"
+                  "desc": "[EndSkill] Восстанавливает 20 СД двум союзникам с наименьшей СД"
                 }
               ]
             }
@@ -39,7 +39,7 @@
                   "desc": "[EndSkill] Даёт 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение урона[TabExplain] Грехом</u></color> наибольшего резонанса <style=\"highlight\">трём</style> союзникам с наименьшей СД"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает 20 СД <style=\"highlight\">трём</style> союзникм с наименьшей СД"
+                  "desc": "[EndSkill] Восстанавливает 20 СД <style=\"highlight\">трём</style> союзникам с наименьшей СД"
                 }
               ]
             }
@@ -60,7 +60,7 @@
                   "desc": "[EndSkill] Даёт 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение урона[TabExplain] Грехом</u></color> наибольшего резонанса <style=\"highlight\">четырём</style> союзникам с наименьшей СД"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает 20 СД <style=\"highlight\">четырём</style> союзникм с наименьшей СД"
+                  "desc": "[EndSkill] Восстанавливает 20 СД <style=\"highlight\">четырём</style> союзникам с наименьшей СД"
                 }
               ]
             }
@@ -528,6 +528,208 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на (Количество [FreischutzShotCount:`Магических пуль`] на руках / <style=\"highlight\">2</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Ты будешь играть?",
+          "desc": "Активируемые [UnBrokenCoinOnSucceedAttack] эффекты не срабатывают при односторонней атаке \n[WinDuel] Поглощает (Число грехов в резонансе Зависти) ЭГО Ресурсов Зависти, и за каждый поглощённый ЭГО Ресурс добавляет по 1 ЭГО Ресурсу к наименее имеющимся грехам (Поглощает до 4 ЭГО Ресурсов Зависти)\n[DefeatDuel] Итоговая сила -4\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До 20)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает 6% от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ (Единожды за навык)\n- При этом игнорирует тех союзников, которые не имеют базовых атакующих навыков с грехом Зависти (Не учитывая себя)",
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Heal HP"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NiddleEGO:`Иглы`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:`Гвоздь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Ты будешь играть?",
+          "desc": "Активируемые [UnBrokenCoinOnSucceedAttack] эффекты не срабатывают при односторонней атаке \n[WinDuel] Поглощает (Число грехов в резонансе Зависти) ЭГО Ресурсов Зависти, и за каждый поглощённый ЭГО Ресурс добавляет по 1 ЭГО Ресурсу к наименее имеющимся грехам (Поглощает до <style=\"highlight\">5</style> ЭГО Ресурсов Зависти)\n[DefeatDuel] Итоговая сила -4\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До <style=\"highlight\">25</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает <style=\"highlight\">8%</style> от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ (Единожды за навык)\n- При этом игнорирует тех союзников, которые не имеют базовых атакующих навыков с грехом Зависти (Не учитывая себя)",
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Heal HP"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NiddleEGO:`Иглы`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Curse:`Проклятие`]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:`Гвоздь`]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Ты будешь играть?",
+          "desc": "Активируемые [UnBrokenCoinOnSucceedAttack] эффекты не срабатывают при односторонней атаке \n[WinDuel] Поглощает (Число грехов в резонансе Зависти) ЭГО Ресурсов Зависти, и за каждый поглощённый ЭГО Ресурс добавляет по 1 ЭГО Ресурсу к наименее имеющимся грехам (Поглощает до <style=\"highlight\">6</style> ЭГО Ресурсов Зависти)\n[DefeatDuel] Итоговая сила -4\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До <style=\"highlight\">30</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает <style=\"highlight\">10%</style> от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ (Единожды за навык)\n- При этом игнорирует тех союзников, которые не имеют базовых атакующих навыков с грехом Зависти (Не учитывая себя)",
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Heal HP"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [NiddleEGO:`Иглы`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse:`Проклятие`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:`Гвоздь`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Ты будешь играть?",
+          "desc": "[CantIdentify]\nСлучайная цель\nИтоговая сила +1 при 2 и более грехах в резонансе Зависти\n[WinDuel] Количество целей +1 за каждые 2 греха в резонансе Зависти (До 2 дополнительных целей)\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До 20)\n[DefeatDuel] Наносит на 1 [NiddleEGO:`Иглу`] и [NailPersonality:`Гвоздь`] больше при попаданиях",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NiddleEGO:`Иглы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:`Гвоздь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Ты будешь играть?",
+          "desc": "[CantIdentify]\nСлучайная цель\nИтоговая сила +1 <style=\"highlight\">за каждые 2</style> греха в резонансе Зависти <style=\"highlight\">(До 2)</style>\n[WinDuel] Количество целей +1 за каждые 2 греха в резонансе Зависти (До 2 дополнительных целей)\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До <style=\"highlight\">25</style>)\n[DefeatDuel] Наносит на 1 [NiddleEGO:`Иглу`]<style=\"highlight\">, [Curse:`Проклятие`] и</style> [NailPersonality:`Гвоздь`] больше при попаданиях",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NiddleEGO:`Иглы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:`Гвоздь`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Ты будешь играть?",
+          "desc": "[CantIdentify]\nСлучайная цель\nИтоговая сила +1 за каждые 2 греха в резонансе Зависти (До <style=\"highlight\">3</style>)\n[WinDuel] Количество целей +1 за каждые 2 греха в резонансе Зависти (До 2 дополнительных целей)\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До <style=\"highlight\">30</style>)\n[DefeatDuel] Наносит на 1 [NiddleEGO:`Иглу`], [Curse:`Проклятие`] и [NailPersonality:`Гвоздь`] больше при попаданиях",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [NiddleEGO:`Иглы`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NailPersonality:`Гвоздь`]"
                 }
               ]
             }

@@ -1803,6 +1803,30 @@
     {
       "id": "introduce_sentence_226",
       "content": "Активация тактического видения. Глаз {0}(-а/-ы/-я)."
+    },
+    {
+      "id": "introduce_word_227",
+      "content": "Пейджер"
+    },
+    {
+      "id": "introduce_sentence_227",
+      "content": "'Это была лишь Воля Предписания, прошептанная Великим Волшебным {0}(-ом/-ем)."
+    },
+    {
+      "id": "introduce_word_228",
+      "content": "Сувенир экскурсии"
+    },
+    {
+      "id": "introduce_sentence_228",
+      "content": "А ну — стоять. Вы... ушли и оставили {0}, не так ли?"
+    },
+    {
+      "id": "introduce_word_229",
+      "content": "Ножница(ы)"
+    },
+    {
+      "id": "introduce_sentence_229",
+      "content": "{0} бьёт(ют) камень."
     }
   ]
 }
