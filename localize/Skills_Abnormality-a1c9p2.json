@@ -900,7 +900,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Доверенность: высекание",
+          "name": "Посредничество: высекание",
           "desc": "Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если имеются <sprite name=\"PressureOfPrescript\"></u><color=#9f6a3a><u><link=\"PressureOfPrescript\">Узы ответственности</link></u></color><u> или атакует <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u> спомощью этого навыка</u></b></mark></color>, все его монеты становятся [SuperCoin:`Вечными`]\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Наносит на 50% больше урона <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цели предписания</link></u></color><u> этим навыком</u></b></mark></color>\n[WhenUse] Получает 3 [Breath:`Дыхания`] и повышает его счётчик на 3\n[DefeatDuel] Наносит на 80% меньше урона, а также не может оглушить цель или активировать эффект [Sinking:`Утопания`] при попадании\n[EndSkill] Теряет 6 СД",
           "coinlist": [
             {
@@ -926,7 +926,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Доверенность: уничтожение",
+          "name": "Посредничество: уничтожение",
           "desc": "Можно столкнуться независимо от скорости\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Наносит на 100% больше урона <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цели предписания</link></u></color><u> этим навыком</u></b></mark></color>\n[DefeatDuel] Получает 3 [ResultReduction:`Понижения силы`] и 4 [Paralysis:`Паралича`]\n[DefeatDuel] Наносит на 90% меньше урона, а также не может оглушить цель или активировать эффект [Sinking:`Утопания`] при попадании\n[EndSkill] Теряет 15 СД\n[EndSkill] Теряет все [PressureOfPrescript:`Узы ответственности`]",
           "coinlist": [
             {
@@ -978,7 +978,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Доверенность: уничтожение - Ман неизбежного стремления【本望】",
+          "name": "Посредничество: уничтожение - Ман неизбежного стремления【本望】",
           "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если своя СД равна 0 и выше: <i>создаёт 1 Ман</i>, наносит на 20% больше урона, получает +2 к Итоговой силе и +2 к Силе монет</u></b></mark></color>\n[EndSkill] Теряет 15 СД\n[EndSkill] Если этим навыком удалось создать Ман, теряет ещё 20 СД\n[EndSkill] Теряет все [PressureOfPrescript:`Узы ответственности`] и заканчивает этот ход",
           "coinlist": [
             {
