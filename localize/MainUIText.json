@@ -1266,7 +1266,7 @@
     },
     {
       "id": "open_scheduled_date_month_day",
-      "content": "Открывается через {0} месяцев {1} дней"
+      "content": "Разблокируется после {1}/{0} (Д/М)"
     },
     {
       "id": "mainui_acquire_user_ticker_deco",
