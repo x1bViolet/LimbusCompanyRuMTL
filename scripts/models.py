@@ -1,6 +1,7 @@
-import msgspec
-from pathlib import Path
 import typing
+from pathlib import Path
+
+import msgspec
 
 
 class FontRule(msgspec.Struct):
@@ -16,8 +17,8 @@ class IncludedFont(msgspec.Struct):
 
 
 class Font(msgspec.Struct):
+    replacement_map_path: str
     repo: str | None = None
-    replacement_map_path: str | None = None
     include: list[IncludedFont] = msgspec.field(default_factory=list)
 
 
@@ -40,13 +41,20 @@ class XmlEscape(msgspec.Struct):
     singular_keywords: list[str] = msgspec.field(default_factory=list)
 
 
+class CloseHighlight(msgspec.Struct):
+    path: str
+    file_pattern: str
+
+
 class Config(msgspec.Struct):
     font: Font
     reference: Reference
     keyword_shorthands: KeywordShorthands
     priority: Priority
     xml_escape: XmlEscape
+
     font_rules: dict[str, list[FontRule]] = msgspec.field(default_factory=dict)
+    close_highlight: list[CloseHighlight] = msgspec.field(default_factory=list)
 
     @staticmethod
     def from_file(path: Path) -> "Config":

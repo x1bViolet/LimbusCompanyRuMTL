@@ -1,23 +1,30 @@
-import requests
-import zipfile
-import io
-import re
-import collections
-import json
-import shutil
-import fnmatch
-import copy
 import argparse
 import bisect
-import typing
-
+import collections
+import copy
+import fnmatch
+import io
+import json
+import re
+import shutil
+import zipfile
+from functools import lru_cache
 from itertools import zip_longest
 from pathlib import Path
+
+import requests
 from jsonpath_ng.ext import parse
 from loguru import logger
-from functools import lru_cache
 
-from .models import Config, FontRule, Font, Reference, XmlEscape, ReleaseAsset
+from .models import (
+    CloseHighlight,
+    Config,
+    Font,
+    FontRule,
+    Reference,
+    ReleaseAsset,
+    XmlEscape,
+)
 
 
 def prepare_reference(reference: Reference, target_path: Path) -> None:
@@ -25,7 +32,7 @@ def prepare_reference(reference: Reference, target_path: Path) -> None:
         reference_path = Path(reference.path)
         if not reference_path.exists():
             raise FileNotFoundError(f"Reference path {reference_path} does not exist")
-        return reference_path
+        return
 
     logger.info(f"Downloading reference from {reference.repo}...")
     response = requests.get(
@@ -343,6 +350,15 @@ def convert_keywords(
             data[key] = replace_shorthands(value, keyword_colors, keyword_regex)
 
 
+def close_highlights(data: collections.OrderedDict, rule: CloseHighlight) -> None:
+    for match in parse(rule.path).find(data):
+        if not isinstance(match.value, str):
+            continue
+
+        if '<style="highlight">' not in match.value and match.value != "":
+            match.full_path.update(data, f'{match.value}<style="highlight"></style>')
+
+
 def merge_by_id(
     reference: list[dict],
     localize: list[dict],
@@ -467,16 +483,19 @@ def main():
             if not fnmatch.fnmatch(relative_path.as_posix(), file_pattern):
                 continue
 
-            # no_link = any(
-            #     fnmatch.fnmatch(relative_path.as_posix(), pattern)
-            #     for pattern in config.keyword_shorthands.no_link
-            # )
-
             convert_keywords(
                 localize,
                 keyword_colors,
                 re.compile(config.keyword_shorthands.regex),
             )
+
+            break
+
+        for rule in config.close_highlight:
+            if not fnmatch.fnmatch(relative_path.as_posix(), rule.file_pattern):
+                continue
+
+            close_highlights(localize, rule)
 
             break
 
@@ -493,10 +512,9 @@ def main():
         else:
             result = merge_by_id(data_reference, data_localize, dist_file)
 
-        result = {
-            **copy.deepcopy(reference),
-            "dataList": result,
-        }
+        result_list = result
+        result = copy.deepcopy(reference)
+        result["dataList"] = result_list
 
         font_converter.process(result, relative_path)
 

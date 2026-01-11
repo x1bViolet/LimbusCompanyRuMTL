@@ -48,6 +48,29 @@ path = '$.dataList[*].name'
 font = "mikodacs"
 path = '$.dataList[*].texts[*].texts[*].text'
 
+[[close_highlight]]
+file_pattern = "Skills.json"
+path = "$.dataList[*].levelList[*].coinlist[*].coindescs[*].desc"
+
+[[close_highlight]]
+file_pattern = "Skills.json"
+path = "$.dataList[*].levelList[*].desc"
+
+[[close_highlight]]
+file_pattern = "Skills_Ego.json"
+path = "$.dataList[*].levelList[*].coinlist[*].coindescs[*].desc"
+
+[[close_highlight]]
+file_pattern = "Skills_Ego.json"
+path = "$.dataList[*].levelList[*].desc"
+
+[[close_highlight]]
+file_pattern = "*_personality-*.json"
+path = "$.dataList[*].levelList[*].coinlist[*].coindescs[*].desc"
+
+[[close_highlight]]
+file_pattern = "*_personality-*.json"
+path = "$.dataList[*].levelList[*].desc"
 
 [priority]
 order = [
