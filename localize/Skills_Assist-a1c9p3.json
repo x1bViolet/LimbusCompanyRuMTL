@@ -1271,7 +1271,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Похороны мёртвого Кровососа",
+          "name": "Похороны мёртвого Кровожада",
           "desc": "Deal +1% damage for every ([Laceration] on self + [Laceration] on target) (max 50%)\n[WhenUse] Gain 10 [Laceration] and +5 [Laceration] Count\n[WhenUse] At 0+ SP, generate 3 Mang (望)\n- Coin Power +3 and deal +90% damage\n[EndSkill] If this Skill generated Mang, consume 3 SP",
           "coinlist": [
             {
@@ -1350,7 +1350,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Алебарда-комбо",
+          "name": "Комбо с алебардой",
           "desc": "[WhenUse] At 6+ Speed, deal +30% damage\n[WhenUse] Gain 1 [Breath] and +3 [Breath] Count\n[WinDuel] Deal +30% damage",
           "coinlist": [
             {
@@ -1440,7 +1440,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Штукатурный сон, безудержная рябь",
+          "name": "Пьяный сон, безудержная рябь",
           "desc": "If this unit has [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\nCan draw any attack to this unit regardless of Speed\n[WhenUse] Base Power +1 for every 3 [Breath] (max 2)\n[WhenUse] Base Power +2 for every type of negative effect on target (max 4)\n[WhenUse] Gain 5 [Agility] next turn\n[WhenUse] Gain 10 [Breath] and +2 [Breath] Count\n[WhenUse] At 10+ SP, generate 2 Mang; Base Power +6\n[EndSkill] If this Skill generated Mang, lose 10 SP",
           "coinlist": [
             {
