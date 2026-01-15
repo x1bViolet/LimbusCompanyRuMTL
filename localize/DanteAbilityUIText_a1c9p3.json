@@ -1,0 +1,28 @@
+{
+  "dataList": [
+    {
+      "id": "danteAbility_Personality_Selection_UIPopup_Title",
+      "content": "{0}: Выбрать Грешника"
+    },
+    {
+      "id": "danteAbility_Personality_Selection_UIPopup_View_Battle_Status",
+      "content": "Наблюдение за боем"
+    },
+    {
+      "id": "danteAbility_Personality_Selection_UIPopup_Confirm_Desc",
+      "content": "Применить {0} на <color=#f8c200>[{1}]</color>?"
+    },
+    {
+      "id": "danteAbility_Apply",
+      "content": "Применить"
+    },
+    {
+      "id": "danteAbilityButton_resume",
+      "content": "Вернуться"
+    },
+    {
+      "id": "danteAbility_view_battle_status",
+      "content": "Статус боя"
+    }
+  ]
+}
