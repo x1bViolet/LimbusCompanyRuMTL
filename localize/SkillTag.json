@@ -94,7 +94,7 @@
     },
     {
       "id": "CriticalOnSucceedAttackHead",
-      "name": "[Критическая атака орлом]"
+      "name": "<color=#c6fe94>[Критическая атака орлом]</color>"
     },
     {
       "id": "StartDuel",
@@ -210,7 +210,7 @@
     },
     {
       "id": "UnBrokenCoinOnSucceedAttack",
-      "name": "[При ударе целой монетой]"
+      "name": "<color=#c6fe94>[При ударе целой монетой]</color>"
     },
     {
       "id": "BeforeHit",

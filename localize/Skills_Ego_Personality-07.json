@@ -113,7 +113,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 1 [Enhancement:`Повышение силы атаки`]\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 1 [Enhancement:`Повышение силы атаки`]\n[EndSkill] Теряет 10 СД в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 1 [Enhancement:`Повышение силы атаки`]\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 1 [Enhancement:`Повышение силы атаки`]\n[EndSkill] Теряет 10 СД в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -158,7 +158,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], <style=\"highlight\">[ForwardToTheBoundKing:`Пред ликом Связанного короля`] и 2</style> [Enhancement:`Повышения силы атаки`]\n[EndSkill] В конце последующих 3-ёх ходов теряет 10 СД",
+          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], <style=\"highlight\">[ForwardToTheBoundKing:`Пред ликом Связанного короля`] и 2</style> [Enhancement:`Повышения силы атаки`]\n[EndSkill] Теряет 10 СД в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [

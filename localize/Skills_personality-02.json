@@ -1262,7 +1262,7 @@
         {
           "level": 4,
           "name": "Резонанс при повышении уровня сонастройки A.B.S",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +3 при 10 и более [Combustion:`Огня`] на себе</style>\n[WhenUse] Теряет 5 [Combustion:`Огня`] (Единожды за ход)\n[OnSucceedEvade] Теряет 5 [Combustion:`Огня`] (Единожды за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монеты +3 при 10 и более [Combustion:`Огня`] на себе</style>\n[WhenUse] Теряет 5 [Combustion:`Огня`] (Единожды за ход)\n[OnSucceedEvade] Теряет 5 [Combustion:`Огня`] (Единожды за ход)",
           "coinlist": [
             {}
           ]
