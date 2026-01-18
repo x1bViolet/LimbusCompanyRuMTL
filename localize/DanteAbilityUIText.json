@@ -34,15 +34,15 @@
     },
     {
       "id": "IsUnavailableDanteAbility_TitleText",
-      "content": "Невозможно активировать способность саженца Света."
+      "content": "Невозможно активировать способность саженца света"
     },
     {
       "id": "IsUnavailableDanteAbility_DescText_IsActivatedAbility",
-      "content": "Сегодня уже была активирована способность саженца Света."
+      "content": "Сегодня уже была активирована способность саженца света"
     },
     {
       "id": "IsUnavailableDanteAbility_DescText_RemainingCountIsZero",
-      "content": "Нет оставшихся активаций на сегодня."
+      "content": "Нет оставшихся активаций на сегодня"
     }
   ]
 }

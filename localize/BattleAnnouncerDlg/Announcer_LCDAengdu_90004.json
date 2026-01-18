@@ -1,0 +1,70 @@
+{
+  "dataList": [
+    {
+      "id": "announcer_9SV-SA2_90004_1",
+      "dlg": "Мои старшие уже перенесли их ранее; доверьтесь им, они прикроют ваши слепые зоны в моменты великой важности.",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_2",
+      "dlg": "Дыхание госпожи Мозес станет ключом, с помощью которого вы преодолеете это испытание... Её нужно защитить любой ценой!",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_3",
+      "dlg": "Слой был снят... Возможно, это сделает клинок смертоноснее.",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_4",
+      "dlg": "Мерцающая дымка огня вдоль оружия... Остерегайтесь его обжигающего жара!",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_5",
+      "dlg": "...Действительно, это вовсе не дробящее оружие, а клинковое. Мы видим истинную форму... меча.",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_6",
+      "dlg": "Ваши враги пошатнулись от гарпуна! Сейчас ваш момент...!",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_7",
+      "dlg": "Так наступает решающий момент. В брешь рассеянности вторгнется их безжалостный натиск...",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_8",
+      "dlg": "Дочь этого человека тоже что-то готовит... Пусть бдительность направляет ваши чувства, и решайте осторожно.",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_9",
+      "dlg": "Клинок дочери тоже горит алым...!",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_10",
+      "dlg": "Фиолетовый импульс... Враги станут ещё смелее.",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_9SV-SA2_90004_11",
+      "dlg": "Сияние усиливающих чернил, нанесённых под их кожу, становится ярче с каждым вашим ударом...",
+      "imgStr": "cherry_LCD_announcer",
+      "isHide": true
+    }
+  ]
+}

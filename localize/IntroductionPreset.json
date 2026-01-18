@@ -1827,6 +1827,22 @@
     {
       "id": "introduce_sentence_229",
       "content": "{0}(-ы/-и) бьют(-ёт) камень."
+    },
+    {
+      "id": "introduce_word_230",
+      "content": "История"
+    },
+    {
+      "id": "introduce_sentence_230",
+      "content": "{0}(-и/-ы) обо мне, стёртые в пыль, наконец-то, развеются... и встретят уничтожение."
+    },
+    {
+      "id": "introduce_word_231",
+      "content": "Три тысячи великих миров"
+    },
+    {
+      "id": "introduce_sentence_231",
+      "content": "{0}."
     }
   ]
 }

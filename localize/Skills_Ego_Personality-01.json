@@ -376,6 +376,352 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2010811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетенных жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath:`Дыхания`] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ThreeMirrorpartYiSang:`Разбитый мир`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] на цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетенных жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Сила монет +1, если сумма силы [Combustion:`Огня`] и [Sinking:`Утопания`] на главной цели равна 15 и более</style>\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath:`Дыхания`] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ThreeMirrorpartYiSang:`Разбитый мир`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] на цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетенных жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[BeforeAttack] Сила монет +1, если сумма силы [Combustion:`Огня`] и [Sinking:`Утопания`] на главной цели равна <style=\"highlight\">10</style> и более\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath:`Дыхания`] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ThreeMirrorpartYiSang:`Разбитый мир`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] на цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2010821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетенных жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает 5 [Combustion:`Огня`], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath:`Дыхания`] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ThreeMirrorpartYiSang:`Разбитый мир`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях этого навыка (До 40%)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы слы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетенных жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает <style=\"highlight\">4</style> [Combustion:`Огня`], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath:`Дыхания`] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ThreeMirrorpartYiSang:`Разбитый мир`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях этого навыка (До <style=\"highlight\">50%</style>)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы слы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетенных жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает <style=\"highlight\">3</style> [Combustion:`Огня`], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath:`Дыхания`] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ThreeMirrorpartYiSang:`Разбитый мир`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях этого навыка (До <style=\"highlight\">60%</style>)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы слы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

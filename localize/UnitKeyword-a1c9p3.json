@@ -1,0 +1,72 @@
+{
+  "dataList": [
+    {
+      "id": "UnitKeyword_G_CORP_FORMER",
+      "content": "Старая Корп. G"
+    },
+    {
+      "id": "UnitKeyword_KING_OF_ALL_COCKROACHES",
+      "content": "Правитель всех тараканов"
+    },
+    {
+      "id": "UnitKeyword_WINGS_ULTIMATEWEAPON",
+      "content": "Решающее оружие Крыла"
+    },
+    {
+      "id": "UnitKeyword_EMPEROR_OF_PESTS",
+      "content": "Император вредителей"
+    },
+    {
+      "id": "UnitKeyword_ROYAL",
+      "content": "Королевская особа"
+    },
+    {
+      "id": "UnitKeyword_HIDDEN_KEYWORD",
+      "content": "???"
+    },
+    {
+      "id": "UnitKeyword_SIGN_FUTURE",
+      "content": "Метка [Будущее]"
+    },
+    {
+      "id": "UnitKeyword_SMOKE_WAR_2ND",
+      "content": "Вторая Дымная Война"
+    },
+    {
+      "id": "UnitKeyword_HIDDEN_KEYWORD_2ND",
+      "content": "???"
+    },
+    {
+      "id": "UnitKeyword_ABRAXAS_CHARIOT",
+      "content": "Колесница Абраксаса"
+    },
+    {
+      "id": "UnitKeyword_HEAVENLY_KILLING_STAR",
+      "content": "Звезда Тяньша"
+    },
+    {
+      "id": "UnitKeyword_BIG_BROTHER_PAST",
+      "content": "<color=#d40000><s>Великий Брат</s></color>"
+    },
+    {
+      "id": "UnitKeyword_UNDERBOSS_FIRED",
+      "content": "<color=#d40000><s>Соттокапо</s></color>"
+    },
+    {
+      "id": "UnitKeyword_ERROR",
+      "content": "Дымная Война"
+    },
+    {
+      "id": "UnitKeyword_TEMPORARY_UNIT",
+      "content": "Герой Войны"
+    },
+    {
+      "id": "UnitKeyword_TEMPORARY_ASSO",
+      "content": "<color=#d40000><s>Семь Семей<s></color>"
+    },
+    {
+      "id": "UnitKeyword_MAYORS",
+      "content": "<color=#d40000><s>Маэстро<s></color>"
+    }
+  ]
+}

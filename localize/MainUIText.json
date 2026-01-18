@@ -1258,15 +1258,15 @@
     },
     {
       "id": "mental_low_morale_effect",
-      "content": "Эффекты низкого духа:"
+      "content": " Эффекты низкого духа:"
     },
     {
       "id": "mental_panic_effect",
-      "content": "Эффекты паники:"
+      "content": " Эффекты паники:"
     },
     {
       "id": "open_scheduled_date_month_day",
-      "content": "Открывается через {0} месяцев {1} дней"
+      "content": "Разблокируется после {1}/{0} (Д/М)"
     },
     {
       "id": "mainui_acquire_user_ticker_deco",
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "formation_must_participate_specific_character",
-      "content": "{0} обязан(а) быть в битве."
+      "content": "{0} обязан(а/ы) быть в битве."
     },
     {
       "id": "cannot_exit_node_after_enter_by_force_alice_character",
