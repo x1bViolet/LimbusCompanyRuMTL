@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "Воспрепятствование",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Base Power +1 for every 2 ([Laceration] + [Vibration]) on target (max 5)\n[WhenUse] Gain +3 [Breath] Count",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 5)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 }
               ]
             }
@@ -32,19 +32,19 @@
         {
           "level": 1,
           "name": "Двойной цепной удар",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Base Power +1 for every 2 ([Laceration] + [Vibration]) on target (max 5)\n[WhenUse] Gain +3 [Breath] Count",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы [Laceration:`Кровотечения`] и [Vibration:`Тремора`] на цели (До 5)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             }
@@ -58,7 +58,7 @@
         {
           "level": 1,
           "name": "Бросок гарпуна",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 200%)\n[WhenUse] Gain 2 [CriticalDmgUpVespa] next turn",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 200%)\n[WhenUse] Получает 2 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -66,10 +66,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BeeSting]"
+                  "desc": "[OnSucceedAttack] Наносит [BeeSting:`Вонзившийся гарпун 【Пчелиное жало】`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 40% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 40% от нанесённого урона"
                 }
               ]
             }
@@ -82,8 +82,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пронзание гарпуном - Вот оно.",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 300%)\n[WhenUse] Gain 5 [CriticalDmgUpVespa] next turn",
+          "name": "Пронзание гарпуном - вот оно.",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 300%)\n[WhenUse] Получает 5 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -91,10 +91,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [ArtifactBeeSting]"
+                  "desc": "[OnSucceedAttack] Наносит [ArtifactBeeSting:`Вонзившийся гарпун 【Осиное жало】`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Raise Stagger Threshold by 60% of damage dealt"
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости на 60% от нанесённого урона"
                 }
               ]
             }
@@ -108,12 +108,12 @@
         {
           "level": 1,
           "name": "Возврат гарпуна",
-          "desc": "[CantDuel]\nTargets the unit that has Nested Harpoon (cancel this Skill when there are no available target)\nDeal +50% damage for every type of negative effect on target (max 200%)",
+          "desc": "[CantDuel]\nНацеливается на противника с Вонзившимся гарпуном (Отменяет навык, если нет подходящих целей)\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 200%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Remove the Nested Harpoon on target"
+                  "desc": "[OnSucceedAttack] Возвращает Вонзившийся гарпун с цели к себе"
                 }
               ]
             }
@@ -127,19 +127,19 @@
         {
           "level": 1,
           "name": "Контратака.",
-          "desc": "[DuelCounter]\nDeal +50% damage for every type of negative effect on target (max 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Gain 2 [ResultEnhancement] and 2 [AttackDmgUp] next turn",
+          "desc": "[DuelCounter]\nНаносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Получает 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательную защиту</link></u></color></color></mark></b></u>\n[WhenUse] Получает 2 [ResultEnhancement:`Повышения силы`] и 2 [AttackDmgUp:`Повышения урона`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             }
@@ -152,13 +152,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Оборонительная помощь.",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n[WinDuel] Heal 4 SP for all allies (including this unit)\n- Heal 8 SP instead for LCD Faction",
+          "name": "Защитная помощь.",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<b>Специальный навык для [SupportProtect:`Вспомогательной защиты`]</b>\n[WinDuel] Восстанавливает 4 СД всем союзникам включая себя\n- Восстанавливает на 4 СД больше Мозес и Эзре",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             }
@@ -171,9 +171,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Жало жёлтой пчелы [黄蜂針]",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Gain 3 [CriticalDmgUpVespa] next turn",
-          "flavor": "<color=#fde55d>«Даже не думай сопротивляться».</color>",
+          "name": "Жало жёлтой пчелы【黄蜂針】",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Получает 3 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход",
+          "flavor": "<color=#fde55d>«Даже не думай сопротивляться.»</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -181,7 +181,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
@@ -191,7 +191,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
@@ -201,7 +201,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [BeeSting] on target"
+                  "desc": "[OnSucceedAttack] Наносит [BeeSting:`Вонзившийся гарпун 【Пчелиное жало】`]"
                 }
               ]
             },
@@ -211,7 +211,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Remove [BeeSting] on the target"
+                  "desc": "[OnSucceedAttack] Возвращает [BeeSting:`Вонзившийся гарпун 【Пчелиное жало】`] с цели к себе"
                 }
               ]
             }
@@ -225,8 +225,8 @@
         {
           "level": 1,
           "name": "Гунгнир",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Deal +20% damage for every 10 [Vibration] Potency on target\n[BeforeAttack] If target is at less than 50% HP, [VibrationExplosion] triggered by this Skill does not consume Tremor Count\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- Coin Power +1, deal +50% damage\n[WhenUse] Gain 3 [CriticalDmgUpVespa] next turn\n[EndSkill] If this Skill generated Mang (望), lose 2 SP",
-          "flavor": "<color=#fde55d>«Этот бросок попадёт и пронзит насквозь без промаха».</color>",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Наносит на 20% больше урона за каждые 10 [Vibration:`Тремора`] на цели\n[WhenUse] Если своя СД выше 0, создаёт 1 Ман (望): получает +1 к Силе монет и наносит на 50% больше урона\n[WhenUse] Получает 3 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход\n[BeforeAttack] Если ОЗ цели ниже 50%, то счётчик [Vibration:`Тремора`] цели не понижается при [VibrationExplosion:`Провокации Тремора`] этим навыком\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 2 СД",
+          "flavor": "<color=#fde55d>«Этот бросок попадёт и пронзит насквозь без промаха.»</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -234,7 +234,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
@@ -244,7 +244,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
@@ -254,7 +254,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             },
@@ -264,7 +264,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict [ArtifactBeeSting] on target"
+                  "desc": "[OnSucceedAttack] Наносит [ArtifactBeeSting:`Вонзившийся гарпун 【Осиное жало】`]"
                 }
               ]
             }
@@ -277,8 +277,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пространственный разрез - Вспышка клинка осы [空間斬 - 閃蜂光劍]",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] Deal +20% damage for every 10 [Laceration] Potency on target\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- Coin Power +2, deal +100% damage\n[BeforeAttack] If target is at less than 50% HP, [Laceration] triggered by this Skill does not consume Bleed Count\n[EndSkill] If this Skill generated Mang (望), lose 3 SP",
+          "name": "Пространственный разрез - Вспышка клинка осы【空間斬 - 閃蜂光劍】",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Наносит на 20% больше урона за каждые 10 [Vibration:`Тремора`] на цели\n[WhenUse] Если своя СД выше 0, создаёт 2 Ман (望): получает +2 к Силе монет и наносит на 100% больше урона\n[WhenUse] Получает 3 [CriticalDmgUpVespa:`Искусства владения мечом разрывающей вспышки - Хвандо`] на следующий ход\n[BeforeAttack] Если ОЗ цели ниже 50%, то счётчик [Laceration:`Кровотечения`] цели не понижается его активации этим навыком\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 3 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -286,7 +286,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -296,7 +296,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -306,7 +306,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -316,7 +316,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -326,7 +326,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Stagger target"
+                  "desc": "[OnSucceedAttack] Оглушает цель"
                 }
               ]
             }
@@ -340,19 +340,19 @@
         {
           "level": 1,
           "name": "Красное дыхание: Разрез",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] Lose 3 SP",
+          "desc": "Если цель имеет негативные эффекты, наносит ей на 50% больше урона\n[WhenUse] Теряет 3 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 5 bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 }
               ]
             }
@@ -366,15 +366,15 @@
         {
           "level": 1,
           "name": "Белое дыхание: Туман. Рассвет. Сокрытие - Защитить разум",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nНе наносит урона и не вызывает активацию защитных навыков\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Target heals 15 SP"
+                  "desc": ""
                 },
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [MosesWhiteBreathMental] on self and target"
+                  "desc": "Даёт [MosesWhiteBreathMental:`Белое дыхание - Защитить разум`] и восстанавливает 15 СД всем союзникам"
                 }
               ]
             }
@@ -388,12 +388,12 @@
         {
           "level": 1,
           "name": "Красное дыхание: Тело. Кровь. Ускорение. Закалка - Укрепить тело",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nНе наносит урона и не вызывает активацию защитных навыков\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 2 [MosesRedBreathBody], 1 [AttackUp], 1 [DefenseUp] on self and target"
+                  "desc": "Даёт, 1 [AttackUp:`Повышение уровня атаки`], 1 [DefenseUp:`Повышение уровня защиты`] и 2 [MosesRedBreathBody:`Красного дыхания - Укрепить тело`] всем союзникам"
                 }
               ]
             }
@@ -407,7 +407,7 @@
         {
           "level": 1,
           "name": "Фиолетовое дыхание: Нетерпение. Боль. Сжатие - Угнетение",
-          "desc": "This Skill does not trigger the target's Defense Skill\nIf target has a negative effect, deal +50% damage\n[WhenUse] Lose 8 SP\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count",
+          "desc": "Не вызывает активацию защитных навыков цели\nЕсли цель имеет негативные эффекты, наносит ей на 50% больше урона\n[WhenUse] Теряет 8 СД\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -415,13 +415,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal 8 SP damage"
+                  "desc": "[OnSucceedAttack] Наносит 8 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [MosesPurpleBreathBind], 2 [Vulnerable], 3 [PlusCoinValueDown]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [MosesPurpleBreathBind:`Фиолетового дыхания - Истерия`], 2 [Vulnerable:`Уязвимости`] и 3 [PlusCoinValueDown:`Ослабления положительной монеты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Binding] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:`Связывание`] на следующий ход"
                 }
               ]
             }
@@ -435,11 +435,13 @@
         {
           "level": 1,
           "name": "Успокоить дыхание",
-          "desc": "[CantDuel]\nThis Skill does not hit enemies and does not trigger Defense Skills\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -452,12 +454,12 @@
         {
           "level": 1,
           "name": "Красное дыхание: Кровь. Мышцы. Сокращение - Защита",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nНе наносит урона и не вызывает активацию защитных навыков\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 1 [MosesRedBreathShield] and 5 [Protection] on self and target"
+                  "desc": "Даёт 1 [MosesRedBreathShield:`Красное дыхание - Защита`] и 5 [Protection:`Защищённости`] всем союзникам"
                 }
               ]
             }
@@ -470,12 +472,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "«Вдохни глубже Красное дыхание».",
-          "desc": "[CantDuel]\nThis Skill does not hit enemies and does not trigger Defense Skills\n[StartBattle] Gain 100 Shield (once per Encounter)\n[StartBattle]<color=#ff6000><mark=#ff000040><b><u>Gain 1 [MosesRedBreathCharge]</u></b></mark></color>\n[EndBattle] Lose 15 SP",
+          "name": "Красное дыхание - вдохнуть глубже",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\n[StartBattle] Получает 100 ОЗ Щита (Единожды за битву)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 1 <sprite name=\"MosesRedBreathCharge\"></u><color=#9f6a3a><u><link=\"MosesRedBreathCharge\">Глубокое дыхaние - Красный</link></u></color></u></b></mark></color>\n[EndBattle] Теряет 15 СД",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -488,12 +492,12 @@
         {
           "level": 1,
           "name": "Красное дыхание: Пульс. Кровь. Закалка. Гнев. Порыв - Раздвинуть пределы тела",
-          "desc": "[CantDuel]\nThis Skill targets allies, does not trigger Defense Skills, and does not deal damage\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count",
+          "desc": "[CantDuel]\nНе наносит урона и не вызывает активацию защитных навыков\n[WhenUse] Получает 5 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Apply 1 [MosesRedBreathAttack] and 5 [AttackUp]"
+                  "desc": "Даёт 1 [MosesRedBreathAttack:`Красное дыхание - Раздвинуть пределы тела`] и 5 [AttackUp:`Повышений уровня атаки`] всем союзникам"
                 }
               ]
             }
@@ -507,19 +511,19 @@
         {
           "level": 1,
           "name": "Мастерская Алласа - Ускоряющий удар!",
-          "desc": "At 6+ Speed, deal +50% damage\n[WhenUse] Gain 3 [Agility] next turn",
+          "desc": "Наносит на 50% больше урона при скорости 6 и выше\n[WhenUse] Получает 3 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит ещё 3 Дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Deal 3 Blunt bonus damage"
+                  "desc": "[OnSucceedAttack] Наносит ещё 3 Дробящего урона"
                 }
               ]
             }
@@ -533,7 +537,7 @@
         {
           "level": 1,
           "name": "Мастерская Нестера - Раз! Два! Рассеять!",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] If target has 5+ [Vibration], inflict +1 [Vibration] Count on Coin Hit",
+          "desc": "Если цель имеет негативные эффекты, наносит ей на 50% больше урона\n[WhenUse] Если цель имеет 5 и более [Vibration:`Тремора`], повышает её счётчик [Vibration:`Тремора`] на 1 при попадании монетами",
           "coinlist": [
             {
               "coindescs": [
@@ -541,10 +545,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "- At 6+ Speed, inflict 2 additional [Vibration] Potency"
+                  "desc": "[OnSucceedAttack] Наносит на 2 [Vibration:`Тремора`] больше при скорости 6 и выше"
                 }
               ]
             },
@@ -561,7 +565,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Agility] next turn"
+                  "desc": "[OnSucceedAttack] Получает 2 [Agility:`Спешки`] на следующий ход"
                 }
               ]
             }
@@ -575,29 +579,29 @@
         {
           "level": 1,
           "name": "Ателье Винта - Винт! Бур!",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] Gain +5 [Charge] Count\n[WhenUse] At 10+ [Charge] Count, convert all Coins of this Skill to [SuperCoin]s",
+          "desc": "Если цель имеет негативные эффекты, наносит ей на 50% больше урона\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 5\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] At 6+ [Charge] Count, inflict 3 additional [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит ещё 3 [Vibration:`Тремора`] при 6 и более единицах счётчика [Charge:`Заряда`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Gain +3 [Charge] Count"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3"
                 }
               ]
             }
@@ -611,7 +615,7 @@
         {
           "level": 1,
           "name": "Мастерская Намира - Пятикратный вес!",
-          "desc": "If target has a negative effect, deal +50% damage\n[WhenUse] If this unit does not have [Charge] Count, inflict +1 additional [Vibration] Count on target on Skill Hit\n[WhenUse] At 15+ [Charge] Count, consume all [Charge] Count and apply the following effects:\n- Trigger an additional [VibrationExplosion]\n- [VibrationExplosion] triggered by this Skill does not consume target's [Vibration] Count",
+          "desc": "Если цель имеет негативные эффекты, наносит ей на 50% больше урона\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 15 и более, то полностью тратит его для активации следующего эффекта:\n- [VibrationExplosion:`Провоцирует Тремор`] на 1 раз больше при попадании и не тратит его счётчик при этом",
           "coinlist": [
             {
               "coindescs": [
@@ -619,10 +623,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion] twice; then, reduce target's [Vibration] Count by 2"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1\n[OnSucceedAttack] Если свой счётчик [Charge:`Заряда`] равен 0, повышает счётчик [Vibration:`Тремора`] цели ещё на 1"
                 }
               ]
             }
@@ -636,7 +640,7 @@
         {
           "level": 1,
           "name": "Я заблокирую их и защищу вас!",
-          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Gain 1 [SupportProtect]</color></mark></b></u>\n[WinDuel] Inflict 2 [Vibration] and +2 [Vibration] Count on target",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Получает 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательную защиту</link></u></color></color></mark></b></u>\n[WinDuel] Наносит 2 [Vibration:`Тремора`] и повышает его счётчик на 2 атаковавшему",
           "coinlist": [
             {
               "coindescs": [
@@ -655,7 +659,7 @@
         {
           "level": 1,
           "name": "Ни за что не позволю нашему младшему украсть всё внимание!",
-          "desc": "[CanDuelGuard]\n[SupportProtect] exclusive Skill\n[WinDuel] Heal 4 SP for all allies (including this unit)\n- Heal 8 SP instead for LCD Faction",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<b>Специальный навык для [SupportProtect:`Вспомогательной защиты`]</b>\n[WinDuel] Восстанавливает 4 СД всем союзникам включая себя\n- Восстанавливает на 4 СД больше Мозес и Веспе",
           "coinlist": [
             {
               "coindescs": [
@@ -673,9 +677,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ателье ЮРиа - Режим тотальной атаки, Мк. 17!",
-          "desc": "Deal +50% damage for every type of negative effect on target (max 100%)\n[WhenUse] If target has 6+ [Vibration], Base Power +3\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- Base Power +2, deal +20% damage\n[EndSkill] If this Skill generated Mang (望), lose 10 SP",
-          "flavor": "Особый топор ручной работы для золотистого ретривера.",
+          "name": "Ателье ЮРии - Режим тотальной атаки.. Мк. 17!",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +3 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Если своя СД выше 0, создаёт 1 Ман (望): получает +2 к Базовой силе и наносит на 20% больше урона\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 10 СД",
+          "flavor": "Особый топор ручной работы для золотистого ретривера",
           "coinlist": [
             {
               "coindescs": [
@@ -683,7 +687,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
@@ -693,7 +697,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Vibration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
@@ -703,10 +707,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
                 }
               ]
             },
@@ -716,10 +720,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Activate [Laceration] on target once. Target loses 1 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -732,13 +736,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Возгорание",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[WhenUse] Coin Power +1 for every 6 ([Combustion] on self + [Combustion] on target) (max 2)\n[WhenUse] Gain +1 [Combustion] Count",
+          "name": "Воспламенение",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Combustion:`Огня`] и [Combustion:`Огня`] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 1",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`] и повышает его счётчик на 1"
                 }
               ]
             },
@@ -748,7 +752,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Combustion:`Огонь`]"
                 }
               ]
             }
@@ -762,19 +766,19 @@
         {
           "level": 1,
           "name": "ЭГО - Активация A.B.S",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[WhenUse] Coin Power +1 for every 6 ([Combustion] on self + [Combustion] on main target) (max 2)\n[WhenUse] Gain +3 [Combustion] Count\n[BeforeAttack] At 5+ [Combustion], Atk Weight +1",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Combustion:`Огня`] и [Combustion:`Огня`] на главной цели (До 2)\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 3\n[BeforeAttack] Количество целей +1 при 5 и более [Combustion:`Огня`] на себе",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 }
               ]
             },
@@ -784,7 +788,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Combustion:`Огонь`]"
                 }
               ]
             }
@@ -797,20 +801,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ведомая пламенем",
-          "desc": "[WhenUse] If target has 3+ types of negative effects, Base Power +1\n[WhenUse] Coin Power +1 for every 6 ([Combustion] on self + [Combustion] on main target) (max 2)\n[WhenUse] Deal +1% damage for every 1 ([Combustion] on self + [Combustion] on main target) (max 50%)\n[WhenUse] Gain +2 [Combustion] Count\n[BeforeAttack] Atk Weight +1 for every 5 [Combustion] on self (max 3)",
+          "name": "Привлечённая огнём",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более типами негативных эффектов\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Combustion:`Огня`] и [Combustion:`Огня`] на главной цели (До 2)\n[WhenUse] Наносит на (Сумма силы своего [Combustion:`Огня`] и [Combustion:`Огня`] на главной цели)% больше урона (До 50%)\n[WhenUse] Повышает свой счётчик [Combustion:`Огня`] на 2\n[BeforeAttack] Количество целей +1 за каждые 5 [Combustion:`Огня`] на себе <nobr>(До 3)<nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 4"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion:`Огня`]"
                 }
               ]
             },
@@ -820,7 +824,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Получает 2 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -833,13 +837,15 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Я повышу уровень настройки A.B.S.",
-          "desc": "[WhenUse] At 10+ [Combustion], Coin Power +3\n[WhenUse] Lose 10 [Combustion]\n[OnSucceedEvade] Lose 5 [Combustion] (once per turn)",
-          "flavor": "«Не волнуйся. Я придумала способ, который может помочь мне выбраться живой».",
+          "name": "Я повышу уровень сонастройки A.B.S.",
+          "desc": "[WhenUse] Сила монеты +3 при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Теряет 10 [Combustion:`Огня`]\n[OnSucceedEvade] Теряет ещё 5 [Combustion:`Огня`] (Единожды за ход)",
+          "flavor": "«Не волнуйся. Я придумала способ, который может помочь мне выбраться живой.»",
           "coinlist": [
             {
               "coindescs": [
-                {}
+                {
+                  "desc": ""
+                }
               ]
             }
           ]
@@ -851,13 +857,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Максимальная настройка A.B.S 【Деградировавшая коррозия】",
-          "desc": "[CantDuel]\nThis unit cannot be defeated while using this Skill\n[BeforeAttack] Gain +(total number of all enemies' Slots) Atk Weight\n[WhenUse] Deal +1% damage for every 1 ([Combustion] on self + [Combustion] on all targets) (max 100%)\n[EndSkillAll] This unit is defeated",
+          "name": "Предельная сонастройка【Деградированная коррозия】",
+          "desc": "[CantDuel]\nНе может быть побеждена во время использования этого навыка\n[BeforeAttack] Количество целей повышается на суммарное количество слотов навыков всех противников\n[WhenUse] Наносит на (Сумма силы своего [Combustion:`Огня`] и [Combustion:`Огня`] на главной цели)% больше урона (До 100%)\n[EndSkillAll] Теряет все силы",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 10 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion:`Огня`] и повышает его счётчик <nobr>на 2</nobr>"
                 }
               ]
             }
@@ -871,7 +877,7 @@
         {
           "level": 1,
           "name": "Глаза яркие, как лампы",
-          "desc": "[CanDuelGuard]\nIf the target's Speed is faster than this unit's, Coin Power +1 for every 2 Speed difference (max 2)\n- At 1 Speed, Coin Power +2 instead\n[StartBattle] Gain 6 [LanternHohenheimBigBird]",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\nЕсли своя скорость выше скорости цели, Сила монет +1 за каждые 2 единицы разницы в скорости (До 2)\n- Если своя скорость равна 1, Сила монет +2 вместо этого\n[StartBattle] Получает 6 [LanternHohenheimBigBird:`Ламп`]",
           "coinlist": [
             {}
           ]
@@ -884,19 +890,19 @@
         {
           "level": 1,
           "name": "Скорострельный огонь",
-          "desc": "If the target's Speed is faster than this unit's, Coin Power +1 for every 2 Speed difference (max 2)\n- At 1 Speed, Coin Power +2 instead\n[WhenUse] Gain 5 [LanternHohenheimBigBird]",
+          "desc": "Если своя скорость выше скорости цели, Сила монет +1 за каждые 2 единицы разницы в скорости (До 2)\n- Если своя скорость равна 1, Сила монет +2 вместо этого\n[WhenUse] Получает 5 [LanternHohenheimBigBird:`Ламп`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion] and +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 1</nobr>"
                 }
               ]
             }
@@ -910,26 +916,26 @@
         {
           "level": 1,
           "name": "Пристальный взгляд: Нулевая дистанция",
-          "desc": "If the target's Speed is faster than this unit's, Coin Power +1 for every 2 Speed difference (max 2)\n- At 1 Speed, Coin Power +2 instead\n[WhenUse] Gain 4 [LanternHohenheimBigBird]",
+          "desc": "Если своя скорость выше скорости цели, Сила монет +1 за каждые 2 единицы разницы в скорости (До 2)\n- Если своя скорость равна 1, Сила монет +2 вместо этого\n[WhenUse] Получает 4 [LanternHohenheimBigBird:`Лампы`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Sinking] and +1 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 1</nobr>"
                 }
               ]
             }
@@ -942,8 +948,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Спасение для очарованных Лампой",
-          "desc": "Until the end of the Unopposed Attack, this unit does not take HP damage and does not gain negative effects\nIf the target's Speed is faster than this unit's, Coin Power +1 for every 1 Speed difference (max 6)\n- At 1 Speed, Coin Power +6 instead\nIf target has [DelusionHohenheimBigBird], +0.5 to target's Pierce Resist. until Attack End\n[EndSkill] Remove [DelusionHohenheimBigBird] from target",
+          "name": "Спасение для очарованных лампой",
+          "desc": "Не получает негативные эффекты или урон по ОЗ до конца односторонней атаки этим навыком\n\nЕсли своя скорость выше скорости цели, Сила монет повышается на разницу в скорости <nobr>(До 6)</nobr>\n- Если своя скорость равна 1, Сила монет +2 вместо этого\n[WhenUse] Если цель имеет [DelusionHohenheimBigBird:`Ослепление`], её сопротивление к Пронзающему урону ослабляется на 0.5 до конца этой атаки\n[EndSkill] [DelusionHohenheimBigBird:`Ослепление`] исчезает с цели",
           "coinlist": [
             {
               "coindescs": [
@@ -951,13 +957,13 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Consume all [LanternHohenheimBigBird] Stack and deal +15% damage for every Stack consumed (max 300%)"
+                  "desc": "[OnStartCoin] Тратит все [LanternHohenheimBigBird:`Лампа`] и наносит на (Потраченное значение × 15)% больше урона (До 300%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Sinking] and +2 [Sinking] Count"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 2</nobr>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Combustion] and +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion:`Огня`] и повышает его счётчик <nobr>на 2</nobr>"
                 }
               ]
             }
@@ -971,26 +977,26 @@
         {
           "level": 1,
           "name": "Раскалённый прокол",
-          "desc": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -1004,26 +1010,26 @@
         {
           "level": 1,
           "name": "Опаляющий разрез",
-          "desc": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -1037,26 +1043,26 @@
         {
           "level": 1,
           "name": "Следуя за потоком",
-          "desc": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 2)",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -1070,29 +1076,29 @@
         {
           "level": 1,
           "name": "Я открою путь",
-          "desc": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 3)\n[WhenUse] At 0+ SP, generate 1 Mang (望)\n- Coin Power +1 and deal +30% damage\n[EndSkill] If this Skill generated Mang, consume 1 SP",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] Если своя СД выше 0, создаёт 1 Ман (望): получает +1 к Силе монет и наносит на 30% больше урона\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 1 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [SlashTakeDamageUp]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -1106,33 +1112,33 @@
         {
           "level": 1,
           "name": "Тишина",
-          "desc": "Coin Power +1 for every 6 ([Combustion] + [Laceration]) on target (max 4)\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- Coin Power +2 and deal +60% damage\n[EndSkill] If this Skill generated Mang, consume 3 SP",
+          "desc": "Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на цели (До 4)\n[WhenUse] Если своя СД выше 0, создаёт 2 Ман (望): получает +2 к Силе монет и наносит на 60% больше урона\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 3 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -1146,35 +1152,35 @@
         {
           "level": 1,
           "name": "Внутреннее кровотечение",
-          "desc": "Deal +1% damage for every ([Laceration] on self + [Laceration] on target) (max 20%)\n[WhenUse] Gain 3 [Laceration] and +5 [Laceration] Count",
+          "desc": "Наносит на (Сумма силы [Laceration:`Кровотечения`] на себе и на цели)% больше урона (До 20%)\n[WhenUse] Получает 3 [Laceration:`Кровотечения`] и повышает его счётчик на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1188,32 +1194,32 @@
         {
           "level": 1,
           "name": "Ослепляющий кровавый тесак",
-          "desc": "Deal +1% damage for every ([Laceration] on self + [Laceration] on target) (max 20%)\n[WhenUse] Gain 3 [Laceration] and +5 [Laceration] Count",
+          "desc": "Наносит на (Сумма силы [Laceration:`Кровотечения`] на себе и на цели)% больше урона (До 20%)\n[WhenUse] Получает 3 [Laceration:`Кровотечения`] и повышает его счётчик на 5",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1227,38 +1233,38 @@
         {
           "level": 1,
           "name": "Утонуть в крови",
-          "desc": "Deal +1% damage for every ([Laceration] on self + [Laceration] on target) (max 30%)\n[WhenUse] Gain 6 [Laceration] and +5 [Laceration] Count\n[WhenUse] At 0+ SP, generate 2 Mang (望)\n- Coin Power +2 and deal +60% damage\n[EndSkill] If this Skill generated Mang, consume 5 SP",
+          "desc": "Наносит на (Сумма силы [Laceration:`Кровотечения`] на себе и на цели)% больше урона (До 30%)\n[WhenUse] Получает 6 [Laceration:`Кровотечения`] и повышает его счётчик на 5\n[WhenUse] Если своя СД выше 0, создаёт 2 Ман (望): получает +2 к Силе монет и наносит на 60% больше урона\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Combustion] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +4 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BloodBranch] for every 5 ([Laceration] on self + [Laceration] on target) (max 3)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodBranch:`Ослепляющую кровь 【盲血】`] за каждые 5 единиц в сумме силы [Laceration:`Кровотечения`] на себе и на цели (До 3)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [Combustion]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 4 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1272,43 +1278,43 @@
         {
           "level": 1,
           "name": "Похороны мёртвого Кровожада",
-          "desc": "Deal +1% damage for every ([Laceration] on self + [Laceration] on target) (max 50%)\n[WhenUse] Gain 10 [Laceration] and +5 [Laceration] Count\n[WhenUse] At 0+ SP, generate 3 Mang (望)\n- Coin Power +3 and deal +90% damage\n[EndSkill] If this Skill generated Mang, consume 3 SP",
+          "desc": "Наносит на (Сумма силы [Laceration:`Кровотечения`] на себе и на цели)% больше урона (До 50%)\n[WhenUse] Получает 10 [Laceration:`Кровотечения`] и повышает его счётчик на 5\n[WhenUse] Если своя СД выше 0, создаёт 3 Ман (望): получает +3 к Силе монет и наносит на 90% больше урона\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 3 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 1 [BloodBranch] for every 5 ([Laceration] on self + [Laceration] on target) (max 5)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodBranch:`Ослепляющую кровь 【盲血】`] за каждые 5 единиц в сумме силы [Laceration:`Кровотечения`] на себе и на цели (До 5)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1322,22 +1328,22 @@
         {
           "level": 1,
           "name": "Нисходящий замах",
-          "desc": "[WhenUse] At 6+ Speed, deal +20% damage\n[WhenUse] Gain 4 [Breath] and +2 [Breath] Count",
+          "desc": "[WhenUse] Наносит на 20% больше урона при скорости 6 и выше\n[WhenUse] Получает 4 [Breath:`Дыхания`] и повышает его счётчик на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 8 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 8 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1351,22 +1357,22 @@
         {
           "level": 1,
           "name": "Комбо с алебардой",
-          "desc": "[WhenUse] At 6+ Speed, deal +30% damage\n[WhenUse] Gain 1 [Breath] and +3 [Breath] Count\n[WinDuel] Deal +30% damage",
+          "desc": "[WhenUse] Наносит на 30% больше урона при скорости 6 и выше\n[WhenUse] Получает 1 [Breath:`Дыхания`] и повышает его счётчик на 3\n[WinDuel] Наносит на 30% больше урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 5 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst:`Разрывов`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -1380,26 +1386,26 @@
         {
           "level": 1,
           "name": "Окопный бой с копьём",
-          "desc": "[WhenUse] At 7+ Speed, deal +40% damage\n[WhenUse] Gain +4 [Breath] Count\n[WinDuel] Gain 1 [Enhancement]",
+          "desc": "[WhenUse] Наносит на 40% больше урона при скорости 7 и выше\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 4\n[WinDuel] Получает 1 [Enhancement:`Повышение силы атаки`]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict 6 [Burst]"
+                  "desc": "[OnSucceedAttack] Наносит 6 [Burst:`Разрывов`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             }
@@ -1413,7 +1419,7 @@
         {
           "level": 1,
           "name": "Смертельный удар истинного обезглавливания",
-          "desc": "If this unit has [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\n[WhenUse] Base Power +2 for every 5 [Breath] (max 8)\n[WhenUse] At 5+ SP, generate 1 Mang; Base Power +3\n[EndSkill] If this Skill generated Mang, lose 5 SP",
+          "desc": "Если есть [WillAwakenSinclair:`Шин 【心】 - Некий Синклер`], сопротивление цели к Рубящему урону ослабляется на 1.0 до конца этой атаки\n\n[WhenUse] Базовая сила +2 за каждые 5 [Breath:`Дыхания`] (До 8)\n[WhenUse] Если своя СД выше 5, создаёт 1 Ман (望): получает +3 к Базовой силе\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1421,13 +1427,13 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "Deal +1% damage for every ([Burst] + [Burst] Count) on the target (max 100%)"
+                  "desc": "Наносит на (Сумма силы и счётчика [Burst:`Разрыва`] цели)% больше урона (До 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Deal ([Breath] on self x 4) Pride damage (max 80)"
+                  "desc": "[OnSucceedAttack] Наносит на (Сила своего [Breath:`Дыхания`] × 4) урона Гордыней (До 80)"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal +150% damage"
+                  "desc": "[CriticalOnSucceedAttack] Наносит на 150% больше урона этой монетой"
                 }
               ]
             }
@@ -1441,7 +1447,7 @@
         {
           "level": 1,
           "name": "Пьяный сон, безудержная рябь",
-          "desc": "If this unit has [WillAwakenSinclair], +1 to target's Slash Resist. until Attack End\nCan draw any attack to this unit regardless of Speed\n[WhenUse] Base Power +1 for every 3 [Breath] (max 2)\n[WhenUse] Base Power +2 for every type of negative effect on target (max 4)\n[WhenUse] Gain 5 [Agility] next turn\n[WhenUse] Gain 10 [Breath] and +2 [Breath] Count\n[WhenUse] At 10+ SP, generate 2 Mang; Base Power +6\n[EndSkill] If this Skill generated Mang, lose 10 SP",
+          "desc": "Если есть [WillAwakenSinclair:`Шин 【心】 - Некий Синклер`], сопротивление цели к Рубящему урону ослабляется на 1.0 до конца этой атаки\n\nМожет перехватить атаки независимо от скорости противников\n[WhenUse] Базовая сила +1 за каждые 3 [Breath:`Дыхания`] (До 2)\n[WhenUse] Базовая сила +2 за каждый тип негативных эффектов на цели (До 4)\n[WhenUse] Получает 5 [Agility:`Спешки`] на следующий ход\n[WhenUse] Получает 10 [Breath:`Дыхания`] и повышает его счётчик на 2\n[WhenUse] Если своя СД выше 10, создаёт 2 Ман (望): получает +6 к Базовой силе\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1449,13 +1455,13 @@
                   "desc": "[ExtractCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 7 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 7 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Vulnerable] next turn"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимость`] на следующий ход"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Deal +400% damage"
+                  "desc": "[CriticalOnSucceedAttack] Наносит на 400% больше урона этой монетой"
                 }
               ]
             }
@@ -1469,12 +1475,12 @@
         {
           "level": 1,
           "name": "Развеять дым",
-          "desc": "[CantDuel]\nTargets the enemy with the lowest max HP\nThis Skill does not trigger the target's Defense Skill\n[BeforeAttack] Gain +(total number of all enemies' Slots) Atk Weight\n[WhenUse] At 4+ Speed, deal +50% damage",
+          "desc": "[CantDuel]\nНацеливается на противника с наименьшими максимальными ОЗ\nНе вызывает активацию защитных навыков цели\n\n[BeforeAttack] Количество целей повышается на суммарное количество слотов навыков всех противников\n[WhenUse] Наносит на 50% больше урона при скорости 4 и выше",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Deal (40% of this Coin's final damage) Slash damage"
+                  "desc": "[OnSucceedAttackHead] Наносит (40% от итогового урона этой монеты) дополнительного Рубящего урона"
                 }
               ]
             }
@@ -1488,26 +1494,26 @@
         {
           "level": 1,
           "name": "Отсечь",
-          "desc": "Cannot change target\nFinal Power +1 for every 10 [CutbondRyoshu] on self (max 3)\nFinal Power +1 for every 6 [Laceration] on target (max 3)",
-          "flavor": "«Я не могу позволить Арае прожить такую же жизнь, как у меня. Она должна начать новую жизнь вдали от этого места, вдали от меня».",
+          "desc": "[CantChangeTarget]\nИтоговая сила +1 за каждые 10 [CutbondRyoshu:`Самоотверженности`] (До 3)\nИтоговая сила +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 3)",
+          "flavor": "«Я не могу позволить Арае прожить такую же жизнь, какую прожила я. Она должна начать новую, вдали от этого места, вдали от меня.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 3 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
                 }
               ]
             }
@@ -1521,26 +1527,26 @@
         {
           "level": 1,
           "name": "Нарисовать",
-          "desc": "Cannot change target\nFinal Power +1 for every 10 [CutbondRyoshu] on self (max 3)\nFinal Power +1 for every 6 [Laceration] on target (max 3)",
-          "flavor": "«Мы сбежим из Дома Пауков...»\n\n«Пока Араю не постигла та же участь, что и Сару».",
+          "desc": "[CantChangeTarget]\nИтоговая сила +1 за каждые 10 [CutbondRyoshu:`Самоотверженности`] (До 3)\nИтоговая сила +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 3)",
+          "flavor": "«Мы сбежим из Дома Пауков...»\n\n«Пока Араю не постигла та же участь, что и Сару.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -1554,36 +1560,36 @@
         {
           "level": 1,
           "name": "Разбрызгать",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nFinal Power +1 for every 10 [CutbondRyoshu] on self (max 5)\nFinal Power +1 for every 6 [Laceration] on target (max 4)",
-          "flavor": "«Но я не могу гарантировать безопасность Араи, отбиваясь от преследующих Отцов-воспитателей».",
+          "desc": "[CantChangeTarget]\nС некоторым шансом стирает монету навыка противника, с которым сталкивается\nИтоговая сила +1 за каждые 10 [CutbondRyoshu:`Самоотверженности`] (До 5)\nИтоговая сила +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 4)",
+          "flavor": "«Но я не могу гарантировать безопасность Араи, отбиваясь от преследующих Отцов-воспитателей.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration] and +3 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
                 }
               ]
             }
@@ -1597,36 +1603,36 @@
         {
           "level": 1,
           "name": "Мазок кисти",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nFinal Power +1 for every 10 [CutbondRyoshu] on self (max 5)\nFinal Power +1 for every 6 [Laceration] on target (max 4)",
-          "flavor": "«Я спрячу её. Я спрячу её прямо у них под носом — в той комнате, полной Хранилищ Времени, куда они постоянно заходят и выходят».\n\n«Хранилища Времени безопасны. Я могу посадить Араю в одно из них».",
+          "desc": "[CantChangeTarget]\nС некоторым шансом стирает монету навыка противника, с которым сталкивается\nFИтоговая сила +1 за каждые 10 [CutbondRyoshu:`Самоотверженности`] (До 5)\nИтоговая сила +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 4)",
+          "flavor": "«Я спрячу её. Я спрячу её прямо у них под носом —  в той комнате, полной Хранилищ времени, куда они постоянно заходят и выходят.»\n\n«Хранилища времени безопасны. Я могу посадить Араю в одно из них.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration] and +1 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] и повышает его счётчик на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -1639,57 +1645,57 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Сразить Небеса - Тяньша [天殺]",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with\nFinal Power +1 for every 4 [CutbondRyoshu] on self (max 12)",
-          "flavor": "«А затем я сделаю небольшую метку на сейфе Араи своим клинком».\n\n«Таким образом, когда я вернусь, метка, оставленная моим мечом, снова станет свежей, и я смогу найти её, даже если Хранилища перемешают».\n\n«Лучшее место, чтобы спрятать дерево, — это лес».",
+          "name": "Сразить небеса - Тяньша [天殺]",
+          "desc": "[CantChangeTarget]\nС некоторым шансом стирает монету навыка противника, с которым сталкивается\nИтоговая сила +1 за каждые 4 [CutbondRyoshu:`Самоотверженности`] (До 12)",
+          "flavor": "«А затем я сделаю небольшую метку на сейфе Араи своим клинком.»\n\n«Таким образом, когда я вернусь, метка, оставленная моим мечом, снова станет свежей, и я смогу найти её, даже если Хранилища перемешают.»\n\n«Лучшее место, чтобы спрятать дерево, —  это лес.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration] and +2 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 }
               ]
             }
@@ -1702,42 +1708,42 @@
       "levelList": [
         {
           "level": 1,
-          "name": "«Стирая себя, стирая тебя».",
-          "desc": "Cannot change target\nRandom chance to delete the earliest Coin on the Skill this unit Clashed with",
-          "flavor": "«Сколько бы времени ни прошло, я надеюсь, что для неё это будет лишь мимолётным мгновением».",
+          "name": "«Стирая себя, стирая тебя»",
+          "desc": "[CantChangeTarget]\nС некоторым шансом стирает монету навыка противника, с которым сталкивается",
+          "flavor": "«Сколько бы времени ни прошло, я надеюсь, что для неё это будет лишь мимолётным мгновением.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монeта?`]"
                 }
               ]
             }

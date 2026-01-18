@@ -2,122 +2,122 @@
   "dataList": [
     {
       "id": 133303,
-      "name": "Железная Дева - Дефибрилляция",
-      "desc": "When Staggered, recover from Stagger and end this turn (once per Encounter)"
+      "name": "Железная дева - Дефибрилляция",
+      "desc": "Если попадает в оглушение впервые за битву, то выходит из него и заканчивает ход."
     },
     {
       "id": 133101,
-      "name": "Всё моё Тело было отдано Большеберцовой кости",
-      "desc": "Take -30% HP, SP damage from [Combustion], [Burst], and [Sinking]; -30% to Stagger Threshold raised by [Vibration]\nTake -50% damage from [Laceration]\n\nTurn Start: If this unit is Staggered, recover from Stagger. Afterward, gain 2 [CrimsonTakeDamageUp] and becomes unable to use 'Installation Art no. 3: Improvised Ribcage' until next turn (once per Encounter)\n\nTurn End: Gain 1 [DefenseDown] next turn for every 4 [Combustion] on self (max 15)"
+      "name": "Всё моё тело было отдано Тибии",
+      "desc": "Получает на 30% меньше урона от [Combustion:`Огня`] и [Burst:`Разрыва`], а также на 50% меньше урона от [Laceration:`Кровотечения`]. Теряет на 30% меньше СД от [Sinking:`Утопания`]. Поднятие границы выносливости от [VibrationExplosion:`Провокации Тремора`] снижено на 30%.\n\nНачало хода: если в оглушении впервые за битву, то выходит из него и получает 2 [CrimsonTakeDamageUp:`Уязвимости к Гневу`], а также не может использовать навык <color=#fe6f01>「Инсталляция №3: Импровизированная грудная клетка」</color> на протяжении этого же хода.\n\nКонец хода: получает 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход за каждые 4 [Combustion:`Огня`] на себе. (До 15)"
     },
     {
       "id": 133102,
       "name": "Телесно-ориентированное искусство",
-      "desc": "When this unit enters the Encounter, heal 30 SP\n\nOn Hit with Attack Skill: If this unit inflicts negative effect and gains beneficial effect simultaneously, heal 4 SP at Attack End\n- If this unit is at max SP when healing SP with the above effect, gain 1 [ResultEnhancement] next turn (once per turn)",
+      "desc": "Восстанавливает 30 СД при входе в битву.\n\nЕсли при попадании монетами своих атакующих навыков наносит цели негативные эффекты и сам получает положительные в этот момент, то восстанавливает 4 СД в конце атаки.\n- Если СД максимальна в этот момент, получает 1 [ResultEnhancement:`Повышение силы`] на следующий ход. (Единожды за ход)",
       "flavor": "Форма искусства, которая лепит и демонстрирует произведения, используя кости и мышцы в качестве материала. Каждый акт творения включает даже самые крошечные осколки костей в искусно созданное оружие художника."
     },
     {
       "id": 133103,
       "name": "Эстетика сбора и обработки ингредиентов на месте",
-      "desc": "After using a Skill, gain 30 [HumanBoneTheRings] and 1 [HumanBloodTheRings] for every target damaged by this unit's Skill"
+      "desc": "После использования навыка получает 30 [HumanBoneTheRings:`Ингредиентов тела (Кости)`] и 1 [HumanBloodTheRings:`Ингредиент тела (Кровь)`] за каждую цель, по которой попал навык."
     },
     {
       "id": 133104,
-      "name": "Magnum Opus: Большеберцовая кость",
-      "desc": "Turn End: At 206 [HumanBoneTheRings] and 5 [HumanBloodTheRings], reduce the Stack of each effect equal to those numbers respectively and gain 1 [MineTheRings]\n\nTurn Start: If this unit has [MineTheRings], use a powerful attack this turn\n\n<color=#ff6000><mark=#ff000040><b><u>When hit by an Attack Skill before using the powerful attack, gain 1 [PlusCoinValueDown] and 1 [ResultReduction]</u></b></mark></color> (once per Skill; max 3 times per turn)",
-      "flavor": "Большеберцовая кость, дело жизни художника, завершённое путём ломки его собственного тела и пролития его крови до последней капли — в самом буквальном смысле."
+      "name": "Магнум опус: Тибия",
+      "desc": "Конец хода: при 206 [HumanBoneTheRings:`Ингредиентах тела (Кости)`] и 5 [HumanBloodTheRings:`Ингредиентах тела (Кровь)`] полностью тратит их и получает 1 [MineTheRings:`Произведение искусства: Тибия`] на следующий ход, а затем использует мощную атакую в нём.",
+      "flavor": "Тибия —  дело жизни художника, завершённое путём ломки его собственного тела и пролития его крови до последней капли. В самом буквальном смысле."
     },
     {
       "id": 133105,
       "name": "Произведение искусства, приятное чувствам",
-      "desc": "When [MineTheRings] expires, the following units heal 30 SP and gain 2 [AttackUp] and 2 [DefenseUp] next turn:\n- The Ring Nursefather - Callisto\n- The Ring Apprentice - Albina\n- Corpus Theater[TabExplain]"
+      "desc": "Когда [MineTheRings:`Произведение искусства: Тибия`] исчезает: все союзники из Безымянного пальца восстанавливают 30 СД, а также получают 2 [AttackUp:`Повышение уровня атаки`] и 2 [DefenseUp:`Повышение уровня защиты`] на следующий ход."
     },
     {
       "id": 133106,
       "name": "Позвольте мне ненадолго насладиться выставкой моей ученицы",
-      "desc": "If this unit has [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>lose 1 [SupportProtect] on Clash Start</u></b></mark></color> (once per Skill)"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Теряет по 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защите</link></u></color><u> в начале столкновений.</u></b></mark></color>"
     },
     {
       "id": 133107,
-      "name": "Превзойти Тело",
-      "desc": "At less than 50% HP, recover from Stagger and end this turn\n- Following the activation of this effect, equip 'Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats' on this unit's last Skill Slot at the start of the next turn"
+      "name": "Превзойти тело",
+      "desc": "Если ОЗ падают до 50%, выходит из оглушения и заканчивает текущий ход, а затем использует мощную атаку <color=#fe6f01>「Время закрытия - Инсталляция №1: Ваша плоть и кости в качестве мест галереи」</color> в следующем."
     },
     {
       "id": 133109,
       "name": "Пожалуйста, прекратите бегать и присаживайтесь",
-      "desc": "Turn End: Inflict [RedemptionTheRings] to the Sinner and Assist Unit with the fastest Speed"
+      "desc": "Конец хода: наносит [RedemptionTheRings:`Исторгающую ингредиенты рану`] Грешнику и ассистенту из LCE с наивысшей скоростью."
     },
     {
       "id": 133201,
-      "name": "Связывание",
-      "desc": "Apply the following effects to the unit tethered to Corpus Theater:\n- Become 'immobilized'\n- This unit's buffs, HP, and SP cannot be changed"
+      "name": "Телесный театр",
+      "desc": "Участник боя с этим эффектом входит в обеждвиженное состояние. (СД, ОЗ и статусные эффекты не могут быть изменены во время этого)"
     },
     {
       "id": 133202,
       "name": "Сбор ингредиентов",
-      "desc": "If Corpus Theater is destroyed by the Ring Nursefather, the tethered unit becomes unavailable for the Encounter"
+      "desc": "Если [LivingSpecimenTheRings:`Телесный театр`] уничтожится Отцом-воспитателем Безымянного, то заточённый в нём до этого участник боя больше не сможет сражаться. "
     },
     {
       "id": 133203,
-      "name": "Побег от Искусства",
-      "desc": "If Corpus Theater is destroyed by units other than the Ring Nursefather, activate the following effects:\n- The tethered unit returns to battle next turn; if the unit is at less than 10 SP, heal SP to 10\n- The Ring Nursefather and The Ring Apprentice lose 10 SP\n- Gain 2 E.G.O Resource for all Affinities"
+      "name": "Побег от искусства",
+      "desc": "Если [LivingSpecimenTheRings:`Телесный театр`] уничтожится кем-то кроме Отца-воспитателя Безымянного, следующие эффекты активируются:\n- Заточённый в нём участник боя возвращается в бой в следующем ходе; (Если его СД была ниже 10, то она восстанавливается до 10)\n- Добавляет по 2 ЭГО Ресурса ко всем грехам;\n- Отец-воспитатель Безымянного и Ученица Безымянного теряют 10 СД."
     },
     {
       "id": 133204,
       "name": "Воспламеняющийся материал",
-      "desc": "Take x2 damage from [Combustion]"
+      "desc": "Получает вдвое больше урона от [Combustion:`Огня`]."
     },
     {
       "id": 133601,
-      "name": "Пульс и биение Тела, ставшего ингредиентом",
-      "desc": "Take -30% HP, SP damage from [Combustion], [Burst], and [Sinking]; -30% to Stagger Threshold raised by [Vibration]\nTake -50% damage from [Laceration]\n\nTurn End: Gain 1 [DefenseDown] next turn for every 4 [Combustion] on self (max 15)",
-      "flavor": "Фасция сделана из плоти и крови Альбины.\nТеперь у Альбины есть только мозг, а Фасции не хватает только мозга.\nПища для размышлений: кто из них обладает истинным телом?"
+      "name": "Пульс и биение тела, ставшего ингредиентом",
+      "desc": "Получает на 30% меньше урона от [Combustion:`Огня`] и [Burst:`Разрыва`], а также на 50% меньше урона от [Laceration:`Кровотечения`]. Теряет на 30% меньше СД от [Sinking:`Утопания`]. Поднятие границы выносливости от [VibrationExplosion:`Провокации Тремора`] снижено на 30%.\n\nКонец хода: получает 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход за каждые 4 [Combustion:`Огня`] на себе. (До 15)",
+      "flavor": "    Фасция сделана из плоти и крови Альбины. У неё остался лишь мозг, а Фасции не хватает именно его.\n    Пища для размышлений: кто из них обладает истинным телом?"
     },
     {
       "id": 133602,
       "name": "Корпоризм",
-      "desc": "On Hit with Attack Skills: If this unit inflicts negative effect and gains beneficial effect simultaneously, heal 4 SP\n- If this unit is at max SP when healing SP with the above effect, gain 1 [Agility] next turn (2 times per turn)"
+      "desc": "Если при попадании монетами своих атакующих навыков наносит цели негативные эффекты и сама получает положительные в этот момент, то восстанавливает 4 СД в конце атаки.\n- Если СД максимальна в этот момент, получает 1 [Agility:`Спешку`] на следующий ход. (До 2 раз за ход)"
     },
     {
       "id": 133603,
       "name": "Фасция, моё драгоценное произведение искусства",
-      "desc": "Turn End: At 2 [HumanFleshTheRings], remove [HumanFleshTheRings] and gain [BoneBladeTheRings] next turn\n\nTurn Start: If this unit has [BoneBladeTheRings], use a powerful attack this turn\n\n<color=#ff6000><mark=#ff000040><b><u>When hit by an Attack Skill before using the powerful attack, gain 1 [PlusCoinValueDown] and 1 [ResultReduction]</u></b></mark></color> (once per Skill; max 3 times per turn)"
+      "desc": "Конец хода: при 2 [HumanFleshTheRings:`Ингредиентах корпуса`] полностью тратит их и получает [BoneBladeTheRings:`Произведение искусства: Фасция`] на следующий ход, а затем использует мощную атаку в нём."
     },
     {
       "id": 133604,
       "name": "Посетители должны соблюдать правила галереи",
-      "desc": "If this unit has [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>lose 1 [SupportProtect] on Clash Start</u></b></mark></color> (once per Skill)"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Теряет по 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защите</link></u></color><u> в начале столкновений.</u></b></mark></color>"
     },
     {
       "id": 133606,
-      "name": "С этим произведением я докажу свою состоятельность Маэстро",
-      "desc": "At less than 20 SP when the Ring Nursefather enters the Encounter, heal SP to 20"
+      "name": "С этим произведением я докажу свою состоятельность пред Маэстро",
+      "desc": "Если своя СД ниже 20 в момент входа Отца-воспитателя Безымянного в битву, восстанавливает её до 20."
     },
     {
       "id": 132701,
-      "name": "Татуировки Мести [<s>Великий Брат</s>]",
-      "desc": "Takes -30% damage from [Combustion], [Laceration], [Vibration], and [Burst] (rounded down)\n-50% to the amount of Stagger Threshold raised (rounded down)",
+      "name": "Татуировки мести<nobr>【<s>Великий Брат</s>】</nobr>",
+      "desc": "Получает на 30% меньше урона от [Combustion:`Огня`], [Laceration:`Кровотечения`] и [Burst:`Разрыва`].\n\nПоднятие границы выносливости от различных эффектов снижено на 30%.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132702,
-      "name": "Книга Мести",
-      "desc": "Encounter Start: Inflict [VengeanceBookSpider] on all Sinners and LCD units\n\nIf this unit hit with more than 3 Skills this turn, gain 1 [ReinforcedTattooSpider] next turn for every excess Skill that hit",
+      "name": "Книга мести",
+      "desc": "Начало битвы: вносит всех противников в [VengeanceBookSpider:`Книгу мести`].\n\nПри получении урона от более чем 3 навыков за ход: Маттиас получает 1 [ReinforcedTattooSpider:`Татуировки мести 【<s>Великий Брат</s>】`] на следующий ход за каждый такой нанёсшый ему урон навык по счёту после 3.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132703,
       "name": "Обучение моей дочери",
-      "desc": "On Clash Win, gain 1 [DaughterEducationSpider]\n\nOn Hit with a Skill, gain 1 [DaughterEducationSpider] (once per Skill; this effect does not activate for Cracked Coins)\n\nOn Clash Win with the first-used Skill in a turn, gain 1 more [DaughterEducationSpider] and the Skill gains Coin Power +1",
+      "desc": "Получает 1 [DaughterEducationSpider:`«Зацени, мелкая!»`] при победе в столкновении.\n- Если это свой первый навык в текущем ходе, то получает на 1 больше, а сам навык получает +1 к Силе монет.\n\nПри попадании навыком получает 1 [DaughterEducationSpider:`«Зацени, мелкая!»`]. (Единожды за навык; не активиуется при попадании расколотыми [SuperCoin:`Вечными монетами`])",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132704,
       "name": "Злоба",
-      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpider] and lose 1 [DaughterEducationSpider] (number of hits taken is always tracked)\n\nAt max [ResentmentSpider] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% HP, max out this unit's [ResentmentSpider] Stack",
+      "desc": "При получении урона от двух навыков получает 1 [ResentmentSpider:`Злобу`] и теряет 1 [DaughterEducationSpider:`«Зацени, мелкая!»`].\n\nИспользует мощную атаку при максимальном значении [ResentmentSpider:`Злобы`].\n\nКонец хода: при менее чем 80% / 60% / 40% ОЗ значение [ResentmentSpider:`Злобы`] увеличивается до максимума.",
       "summary": "",
       "undefined": "-"
     },
@@ -130,15 +130,15 @@
     },
     {
       "id": 134101,
-      "name": "Татуировки Мести Максимальная мощность... Распечатать Леватэйн!",
-      "desc": "When [MiddleFatherSwordFour] is unsealed, this unit gains [MiddleFatherGuts]\n\nTargets the unit with [MosesRedBreathCharge]",
+      "name": "Татуировки мести — максимальная мощность... Распечатать Леватэйн!",
+      "desc": "Когда с [MiddleFatherSwordFour:`Леватэйна`](#f8c200) сняты все печати, получает [MiddleFatherGuts:`Невероятную стойкость`].\n- Начиная с этого момента нацеливается в первую очередь на Мозес с [MosesRedBreathCharge:`Глубоким дыханием - Красный`].",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132801,
       "name": "Я всё делаю правильно, папа?!",
-      "desc": "Begins Encounter with [HeatingWireOffSpider]\n\nTurn Start: At 3+ [GotACompliment], gain [HeatingWireOnSpider] for the turn and also inflict [Combustion] with Skills that inflict [Laceration]\n\nTurn End: At less than 3 [GotACompliment], convert this unit's [HeatingWireOnSpider] to [HeatingWireOffSpider]",
+      "desc": "Входит в битву с [HeatingWireOffSpider:`Выключенными тепловыми клинками`].\n\nНачало хода: [HeatingWireOnSpider:`Включает тепловые клинки`](#f8c200) при 3 и более [GotACompliment:`«Меня похвалили!»`].\n\nКонец хода: [HeatingWireOffSpider:`Тепловые клинки выключаются`] при менее чем 3 [GotACompliment:`«Меня похвалили!»`].",
       "summary": "",
       "undefined": "-",
       "flavor": "«Я люблю своего папу, потому что он всегда хвалит меня и покупает мне комиксы»."
@@ -146,363 +146,352 @@
     {
       "id": 132802,
       "name": "Татуировки в стиле Среднего Пальца",
-      "desc": "If this unit hit with more than 2 Skills, gain 1 [ReinforcedTattooSpiderDaughter] next turn for every excess Skill that hit",
+      "desc": "При получении урона от более чем 2 навыков за ход: Кира получает 1 [ReinforcedTattooSpiderDaughter:`Усиливающие татуировки в стиле Среднего пальца`] на следующий ход за каждый такой нанёсшый ей урон навык по счёту после 2.",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Примут ли меня старшие Сёстры и Братья Среднего Пальца однажды в свою семью, чтобы я могла продолжать жить с ними?»"
+      "flavor": "«Примут ли меня старшие Сёстры и Братья Среднего пальца однажды в свою семью, чтобы я могла продолжать жить с ними?»"
     },
     {
       "id": 132803,
       "name": "Похвала — это ветер в её парусах",
-      "desc": "On Clash Win, gain 1 [GotACompliment]\n\nOn Hit with a Skill, gain 1 [GotACompliment] (once per Skill; this effect does not activate for Cracked Coins)\n\nOn Clash Win with the first-used Skill in a turn, gain 1 more [GotACompliment] and the Skill gains Coin Power +1",
+      "desc": "Получает 1 [GotACompliment:`«Меня похвалили!»`] при победе в столкновении.\n- Если это свой первый навык в текущем ходе, то получает на 1 больше, а сам навык получает +1 к Силе монет.\n\nПри попадании навыком получает 1 [GotACompliment:`«Меня похвалили!»`]. (Единожды за навык; не активиуется при попадании расколотыми [SuperCoin:`Вечными монетами`])",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132804,
-      "name": "Я почти уверена, что Средний Палец никогда не забывает",
-      "desc": "When hit by 2 Skills, gain 1 [ResentmentSpiderDaughter] and lose 1 [GotACompliment] (number of hits taken is always tracked)\n\nAt max [ResentmentSpiderDaughter] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% HP, max out this unit's [ResentmentSpiderDaughter] Stack",
+      "name": "Я почти уверена, что Средний палец никогда не забывает",
+      "desc": "При получении урона от двух навыков получает 1 [ResentmentSpiderDaughter:`Злобу`] и теряет 1 [GotACompliment:`«Меня похвалили!»`].\n\nИспользует мощную атаку при максимальном значении [ResentmentSpiderDaughter:`Злобы`].\n\nКонец хода: при менее чем 80% / 60% / 40% ОЗ значение [ResentmentSpiderDaughter:`Злобы`] увеличивается до максимума.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 134201,
       "name": "Я всё делаю правильно, папа?!",
-      "desc": "Begins Encounter with [HeatingWireOffSpider]\n\nTurn Start: At 3+ [GotACompliment], gain [HeatingWireOnSpider] for the turn and also inflict [Combustion] with Skills that inflict [Laceration]\n\nTurn End: At less than 3 [GotACompliment], convert this unit's [HeatingWireOnSpider] to [HeatingWireOffSpider]",
+      "desc": "Входит в битву с [HeatingWireOffSpider:`Выключенными тепловыми клинками`].\n\nНачало хода: [HeatingWireOnSpider:`Включает тепловые клинки`](#f8c200) при 3 и более [GotACompliment:`«Меня похвалили!»`].\n\nКонец хода: [HeatingWireOffSpider:`Тепловые клинки выключаются`] при менее чем 3 [GotACompliment:`«Меня похвалили!»`].",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 134202,
       "name": "Воу... Это выглядит безумно опасно!",
-      "desc": "If the Middle Nursefather has [MiddleFatherSwordFour], does not enter [HeatingWireOffSpider] state\n\nTargets the unit with [MosesRedBreathCharge]",
+      "desc": "Когда Маттиас снимает все печати с [MiddleFatherSwordFour:`Леватэйна`](#f8c200), [HeatingWireOnSpider:`Тепловые клинки`](#f8c200) Киры больше не [HeatingWireOffSpider:`Выключаются`].\n- Начиная с этого момента нацеливается в первую очередь на Мозес с [MosesRedBreathCharge:`Глубоким дыханием - Красный`].",
       "summary": "",
       "undefined": "-",
-      "flavor": "Сочетание её звериных инстинктов и боевого опыта кричит ей в унисон:\nЧто бы это ни была за красная штука, если она не остановит эту атаку, она **убьёт**."
+      "flavor": "Сочетание её звериных инстинктов и боевого опыта кричит Кире в унисон: что бы это ни была за красная штука, если она не остановит её, она <b>убьёт</b>."
     },
     {
       "id": 132601,
       "name": "Изнурительная битва",
-      "desc": "Begins battle with 20% missing HP\nFor the first 3 turns of the Encounter, gain 2 [ResultReduction]",
+      "desc": "Входит в битву с 20% потерянных ОЗ и получает 2 [ResultReduction:`Понижения силы`] в течение первых трёх ходов.",
       "summary": "",
       "undefined": "-",
-      "flavor": "Встреча с Цветным Корректировщиком в бою, несомненно, станет опытом, который поднимет его навыки на новый уровень.\nЕсли он переживёт этот бой, конечно."
+      "flavor": "    Встреча с Цветным Корректировщиком в бою, несомненно, станет опытом, который поднимет его навыки на новый уровень.\n    Если он переживёт этот бой, конечно."
     },
     {
       "id": 132602,
       "name": "Разрушающаяся форма",
-      "desc": "Gain the following effects based on the target's [DuelEdge] Stack\n- For every Stack, deal +10% damage against and take -10% damage from the target with [DuelEdge]\n- At 3+ Stack, in a Clash against targets with [DuelEdge], gain Clash Power +1\n- At 5+ Stack, in a Clash against targets with [DuelEdge], gain Base Power +1\n- At 7+ Stack, in a Clash against targets with [DuelEdge], gain Coin Power +1\n- At 10+ Stack, in a Clash against targets with [DuelEdge], gain Final Power +1",
+      "desc": "За каждую единицу значения [DuelEdge:`Обостряющейся дуэли`]: наносит на 10% больше урона противникам с этим эффектом и получает на 10% меньше урона от них же.\n\nПолучает следующие складывающиеся приемущества во время столкновения в зависимости от значения [DuelEdge:`Обостряющейся дуэли`] у цели:\n- При 3+: Сила в столкновении +1;\n- При 5+: Базовая сила +1;\n- При 7+: Сила монет +1;\n- При 10+: Итоговая сила +1.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132603,
       "name": "Отчаянная борьба",
-      "desc": "After the Thumb Nursefather enters the field, deactivate the \"Hunter's Mark\" Passive and gain the following effects instead:\n- At less than 30 SP, heal up to 30 SP\n- Turn Start: Gain 3 [SupportProtect]\n<color=#ff6000><mark=#ff000040><b><u>- Can Clash regardless of Speed\n- Prioritize Clashing against Vergilius</u></b></mark></color>\n- When the Thumb Nursefather wins a Clash, and uses an Attack against the target, follow up with \"Colpi Sottani\" as an Unopposed Attack against the same target (2 times per turn)",
+      "desc": "После входа Отца-воспитателя Большого в битву больше не использует своё пассивное умение <b>「Метка охотника」</b> и активирует следующие эффекты:\n- Если своя СД ниже 20, восстанавливает её до 20;\n- Получает 3 [SupportProtect:`Вспомогательной защиты`] каждый ход;\n<color=#ff6000><mark=#ff000040><b><u>- С Лучио можно столкнуться независимо от его скорости с этого момента;\n- Нацеливается на Вергилия в первую очередь;</u></b></mark></color>\n- Если Валенсина выигрывает атакующим навыком в столкновении с противником, то использует на нём свой навык <color=#fe6f01>「Нижний удар」</color> в качестве односторонней атаки. (До 2 раз за ход)",
       "summary": "",
       "undefined": "",
-      "flavor": "«Может, я смогу убить её сейчас. Может, это мой шанс».\n\nВ очередной раз то же размышление охватывает Лучио, когда он нависает над своим мастером, который крепко спит.\nНо этот порыв остаётся лишь мыслью, не переходящей в действие, ибо в нём смешались страх, рождённый опытом, и благодарность за спасение из Подворотен.\nИ всё же его обида слишком глубока. Лучио даёт себе обещание, даже когда клянётся в полной верности без тени обмана:\n«Как только эта битва останется позади, я убью её. Я выколю ей другой глаз и буду колоть и резать её снова и снова, пока она не перестанет двигаться».\nВпервые огонь горит в глазах мальчика, чьё тело покрыто синяками."
+      "flavor": "    «Может, я смогу убить её сейчас. Может, это мой шанс».\n\n    В очередной раз то же размышление охватывает Лучио, когда он нависает над своей госпожой, которая крепко спит.\n    Но этот порыв остаётся лишь мыслью, не переходящей в действие, ибо в нём смешались страх, рождённый опытом, и благодарность за вытаскивание из Подворотен.\n    И всё же его обида слишком глубока. Лучио даёт себе обещание, даже когда клянётся в полной верности без тени обмана:\n    «Как только эта битва останется позади, я убью её. Я выколю ей другой глаз и буду колоть и резать её снова и снова, пока она не перестанет двигаться».\n    Впервые огонь горит в глазах мальчика, чьё тело покрыто синяками."
     },
     {
       "id": 132604,
       "name": "Метка охотника",
-      "desc": "Randomly select an enemy, reduce their Speed to 1, and target it with all of this unit's Skills\nActivates every 4 turns after the initial activation",
+      "desc": "Каждые 4 хода выбирает целью случайного противника и снижает его скорость до 1, а затем нацеливается всеми своими навыками.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 132606,
-      "name": "Дуелло Диспирато",
-      "desc": "After Clashing, inflict 1 [DuelEdge] against the target this unit Clashed against\nIn a Clash against targets with [DuelEdge], heal 2 SP for every [DuelEdge] Stack on target (max 10)"
+      "name": "Отчаянная дуэль",
+      "desc": "После столкновения наносит 1 [DuelEdge:`Обостряющуюся дуэль`] противнику, с которым сталкивался.\n\nПри столкновении с противником, имеющим [DuelEdge:`Обостряющуюся дуэль`], восстанавливает (Значение [DuelEdge:`Обостряющейся дуэли`] у цели × 2) СД. (До 10)"
     },
     {
       "id": 131401,
       "name": "Глаз предвидения",
-      "desc": "When this unit enters the Encounter, gain 30 [FutureEyeOn]\nAt 0 [FutureEyeOn] Stack, convert [FutureEyeOn] to [FutureEyeOff]",
+      "desc": "Входит в битву с 30 [FutureEyeOn:`Глаза предвидения`](#f8c200).\n\nЕсли значеие [FutureEyeOn:`Глаза предвидения`](#f8c200) падает до 0, он переходит в состояние [FutureEyeOff:`Перегрева`].",
       "summary": "",
       "undefined": "-",
-      "flavor": "Эта Реликвия, известная как Глаз Одина, является лишь третьей частью целой Реликвии, которая была разбита на три части."
+      "flavor": "Это Реликвия, известная как \"Глаз Одина\". Она является лишь частью целой Реликвии, которая была разбита на три части."
     },
     {
       "id": 131402,
       "name": "Ускоряющееся будущее",
-      "desc": "In a Clash, <color=#ff6000><mark=#ff000040><b><u>gain 1 [LookingFuture] with every Clash</u></b></mark></color>\nCan gain up to ([FutureEyeOn] Stack at Turn Start / 3) [LookingFuture] per turn\nWhile this unit has [FutureEyeOn], <color=#ff6000><mark=#ff000040><b><u>getting attacked by Unopposed Attacks or losing a Clash activates the \"Precognition\" Skill</u></b></mark></color>",
+      "desc": "Во время столкновения получает по 1 [LookingFuture:`Ускоряющееся будущему`] за каждое комбо в нём.\n- <color=#ff6000><mark=#ff000040><b><u>При проигрыше в столкновении теряет всё полученное в нём [LookingFuture:`Ускоряющееся будущее`]</u></b></mark></color>.\n\nМожет получить до (Значение [FutureEyeOn:`Глаза предвидения`](#f8c200) в начале хода / 3) [LookingFuture:`Ускоряющегося будущего`] за ход.\n\n<color=#ff6000><mark=#ff000040><b><u>Если подвергается односторонней атаке, пока <sprite name=\"FutureEyeOn\"></u><color=#f8c200><u><link=\"FutureEyeOn\">Глаз предвидения</link></u></color><u> не [FutureEyeOff:`Перегрет`]</u></b></mark></color>, то использует навык уворота <color=#1cc7f1>「Предвидение」</color>.",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Чем больше мы сталкиваемся, тем горячее становится мой меч... и ускоряется, чтобы привести нас к будущему, которое я предвидела»."
+      "flavor": "«Чем дольше мы сражаемся, тем горячее становится мой меч... и быстрее, чтобы привести нас к будущему, которое я предвидела.»"
     },
     {
       "id": 131408,
       "name": "Перегрузка",
-      "desc": "The following causes this unit to lose [FutureEyeOn] Stack:\n- If this unit fails to gain [LookingFuture], lose 1 [FutureEyeOn] with every Clash\n- When this unit is attacked by an Unopposed Attack, lose 1 [FutureEyeOn]\n- On Clash Lose, lose 3 [FutureEyeOn]",
+      "desc": "Значение [FutureEyeOn:`Глаза предвидения`](#f8c200) понижается при следующих условиях:\n- Если теряет полученное в столкновении [LookingFuture:`Ускоряющееся будущее`] из-за проигрыша в нём: понижается на 1 за каждое комбо в этом столкновении;\n- Если подвергается односторонней атаке: понижается на 1;\n- Если Проигрывает в столкновении: понижается на 3.",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Глаз нагревается, глазница начинает болеть, и моё зрение становится красным»."
+      "flavor": "«Глаз нагревается, глазница начинает болеть. Моё зрение становится красным от этого.»"
     },
     {
       "id": 131405,
-      "name": "Ла спада ди Палермо",
-      "desc": "Deal +15% more damage against Shields for every Burn on the main target (max 300%)\nOn Skill Use, if target's Attack Skill is either a Slash or a Pierce Skill, Clash Power +1\nIf this unit's Skill effects triggered [VibrationExplosion], gain 2 [AttackDmgUp] next turn (3 times per turn)\nIf this unit hit Critically with its Skill effects, heal 5 SP",
+      "name": "Меч Палермо",
+      "desc": "Наносит на (Сила [Combustion:`Огня`] цели × 15)% больше урона по ОЗ Щита. (До 300%)\n\nЕсли [VibrationExplosion:`Спровоцировала Тремор`] на цели своим навыком, получает 2 [AttackDmgUp:`Повышения урона`] на следующий ход. (До 3 раз за ход)\n\nСила в столкновении +1 с Рубящими или Пронзающими навыками противников.\n\nВосстанавливает 5 СД при критических попаданиях своими навыками.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 131404,
-      "name": "Позор Фамильи Боньятелли",
-      "desc": "Take -30% HP, SP damage from [Combustion], [Laceration], [Burst], [Sinking]; -30% to Stagger Threshold raised by [Vibration]\nAt 1+ [AccelBullet], Skills that spend [AccelBullet] deal +30% damage and deal +150% damage against Shields\nGain 4 [Breath] for every [AccelBullet] spent\nWhen flipping a Coin that spends [AccelBullet], does not cancel the attack even if this unit does not have Acceleration Round",
+      "name": "Позор Семьи Боньятелли",
+      "desc": "Получает на 30% меньше урона от [Combustion:`Огня`], [Laceration:`Кровотечения`] и [Burst:`Разрыва`]. Теряет на 30% меньше СД от [Sinking:`Утопания`]. Поднятие границы выносливости от [VibrationExplosion:`Провокации Тремора`] снижено на 30%.\n\nЕсли имеется хотя бы 1 [AccelBullet:`Скоростной патрон`]: тратящие их навыки наносят на 30% больше обычного урона и на 150% больше урона по ОЗ Щита.\n\nПри подбрасывании монет, которые тратят [AccelBullet:`Скоростные патроны`]: получает по 4 [Breath:`Дыхания`] за каждый потраченный монетой [AccelBullet:`Скоростной патрон`].\n- Если не осталось [AccelBullet:`Скоростных патронов`], то тратящие их монеты всё равно будут использованы для атаки.",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Ты была наследницей Палермского стиля и обладательницей нашей фамильной реликвии — у тебя были все привилегии, на которые только можно надеяться. Как ты смеешь так позорить себя?»\n«Мы позволим тебе оставить Реликвию и меч, ибо они были осквернены твоим бесчестным смрадом».\n«Быть повышенной до звания Соттокапо, Подбосса... только чтобы быть изгнанной всего через 3 дня. Никто другой не переносил такого жалкого унижения, кроме тебя, Валенсина».\n«Ты позор нашей семьи. Ла Фамилья Боньятелли лишает тебя своей любви»."
+      "flavor": "    «Ты была наследницей Палермского стиля и обладательницей нашей фамильной реликвии —  у тебя были все привилегии, на которые только можно надеяться. Как ты смеешь так позорить себя?»\n    «Мы позволим тебе оставить Реликвию и меч, ибо они уже были осквернены твоим бесчестным смрадом.»\n    «Быть повышенной до звания Соттокапо, Младшего босса... только чтобы быть изгнанной всего через 3 дня. Никто другой не переносил такого жалкого унижения, кроме тебя, Валенсина.»\n    «Ты позор нашей семьи. Семья Боньятелли лишает тебя своей любви.»"
     },
     {
       "id": 131409,
-      "name": "Шин (心) - Валенсина",
-      "desc": "When hit, or when \"The Thumb Apprentice - Lucio\" is defeated, gain [ObsessionAndGreed] next turn",
+      "name": "Шин【心】- Валенсина",
+      "desc": "Если получает удар во время боя или Ученика Большого - Лучио побеждают, получает [ObsessionAndGreed:`Шин 【心】 - Валенсина`] на следующий ход.",
       "summary": "",
       "undefined": "-",
-      "flavor": "«*вздох* Ладно. Значит, ты говоришь, что мы можем вернуть Билетик, ворвавшись туда и разгромив всё по плану того фанатика... Это действительно вернёт нам Билетик?»"
+      "flavor": "«*вздох* Ладно. Значит, ты говоришь, что мы можем вернуть мой Билетик просто ворвавшись туда и разгромив всё по плану того фанатика... Это действительно вернёт нам её?»"
     },
     {
       "id": 131406,
-      "name": "Лучио, ты бесполезное маленькое дерьмо!",
-      "desc": "When \"The Thumb Apprentice - Lucio\" is defeated, activate \"Time to Hunt\" Passive",
+      "name": "Лучио, бесполезное ты мелкое дерьмо!",
+      "desc": "Если Ученика Большого - Лучио побеждают во время боя, активирует своё пассивное умение <b>「Время охоты」</b>.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 131410,
       "name": "Время охоты",
-      "desc": "Turn Start: If this unit is Staggered, recover from Stagger\n\nSelect a random Sinner and inflict [TeachersPrey]\n- Activates every 4 turns after the initial activation\n- If this unit kills the target with the Skill \"Disposal,\" activate it again next turn",
+      "desc": "Если в оглушении в начале хода, выходит из него.\n\nКаждые 4 хода выбирает [TeachersPrey:`Целью игры`] случайного Грешника.\n- Если убивает цель своим навыком <color=#fe0101>「Утилизация」</color>, этот эффект активируется в следующем же ходе.",
       "summary": "",
       "undefined": "-",
-      "flavor": "Палермский стиль имеет много общего с создателем техники меча — Ла Фамилья Боньятелли.\nИ Фамилья, и стиль меча славятся тем, что безжалостно сосредотачиваются на одной добыче во время охоты, которая завершается Ударом Милосердия, который с таким же успехом можно назвать вскрытием. Эти казни не проводятся в тени, а вместо этого с гордостью выставляются напоказ для всеобщего обозрения.\nЗрелищный и грозный стиль меча принёс Фамилье много чести и престижа, в конечном итоге обеспечив им место среди Сетте Фамилье Подворотен.\nВаленсина, мастер Палермского стиля, использовала его, чтобы охотиться и казнить множество офицеров и так называемых закалённых в боях солдат во время Дымовой Войны, став настоящим «Героем Войны».\nПо иронии судьбы, никто не мог представить, что её падение будет таким же низким, как когда-то высоко взлетела её слава."
+      "flavor": "    Палермский стиль имеет много общего с создателем техники меча —  Семьи Боньятелли.\n    И Семья, и стиль меча славятся тем, что безжалостно сосредотачиваются на одной конкретной добыче во время охоты, которая завершается \"Ударом милосердия\", который с таким же успехом можно назвать вскрытием. Эти казни не проводятся в тени, а вместо этого с гордостью выставляются напоказ для всеобщего обозрения.\n    Зрелищный и грозный стиль меча принёс Семье Боньятелли много чести и престижа, в конечном итоге обеспечив им место среди Семи семей Подворотен.\n    Валенсина, мастер Палермского стиля, использовала его, чтобы охотиться и казнить множество офицеров и так называемых закалённых в боях солдат во время Дымной Войны, став настоящим \"Героем войны\".\n    По иронии судьбы, никто не мог представить, что её падение будет таким же низким, как когда-то высоко взлетела её слава."
     },
     {
       "id": 134501,
-      "name": "Всё моё Тело было отдано Большеберцовой кости",
-      "desc": "Take -30% HP, SP damage from [Combustion], [Burst], and [Sinking]; -30% to Stagger Threshold raised by [Vibration]\nTake -50% damage from [Laceration]\n\nTurn Start: If this unit is Staggered, recover from Stagger. Afterward, gain 2 [CrimsonTakeDamageUp] (once per Encounter)\n\nTurn End: Gain 1 [DefenseDown] next turn for every 4 [Combustion] on self (max 15)",
-      "flavor": "Скоро шедевр будет завершён — смысл существования Дома Пауков.\nЗолотые Ветви... безусловно, интересные объекты, но факт остаётся фактом: они не являются существенными для совершенства шедевра.\nЯ сомневаюсь, что было действительно необходимо захватывать их и рисковать нажить врага в лице Компании Лимбус... хотя я признаю, что эти небрежные танцевальные па в конце концов сложились в довольно приемлемый финал.\nВ любом случае, эта череда обстоятельств, в которых мы оказались, была желанием Риена — или, точнее, удовольствием так называемого бога, в которого он верит.\nОднако приходится задаться вопросом... Благословение это или проклятие — быть так непреодолимо *любимым* такой вещью, именуемой «богом»? Фу-ху-ху..."
+      "name": "Всё моё тело было отдано Тибии",
+      "desc": "Получает на 30% меньше урона от [Combustion:`Огня`] и [Burst:`Разрыва`], а также на 50% меньше урона от [Laceration:`Кровотечения`]. Теряет на 30% меньше СД от [Sinking:`Утопания`]. Поднятие границы выносливости от [VibrationExplosion:`Провокации Тремора`] снижено на 30%.\n\nНачало хода: если в оглушении впервые за битву, то выходит из него и получает 2 [CrimsonTakeDamageUp:`Уязвимости к Гневу`].\n\nКонец хода: получает 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход за каждые 4 [Combustion:`Огня`] на себе. (До 15)",
+      "flavor": "    Скоро шедевр будет завершён —  смысл существования Дома Пауков.\n    Золотые ветви... безусловно, интересные объекты, но факт остаётся фактом: они не являются существенными для совершенства шедевра.\n    Я сомневаюсь, что было действительно необходимо захватывать их и рисковать нажить врага в лице Компании Лимбус... хотя я признаю, что эти небрежные танцевальные движения в конце концов сложились в довольно приемлемый финал.\n    В любом случае, эта череда обстоятельств, в которых мы оказались, была желанием Риена —  или, точнее, удовольствием так называемого бога, в которого он верит.\n    Однако приходится задаться вопросом... Благословение это или проклятие —  быть так непреодолимо <b>любимым</b> такой вещью, именуемой «богом»? Фу-ху-ху..."
     },
     {
       "id": 134502,
       "name": "Корпоризм",
-      "desc": "On Hit with Attack Skills: If this unit inflicts negative effect and gains positive effect simultaneously, heal 4 SP at Attack End\n- If this unit is at max SP when healing SP with the above effect, gain 1 [ResultEnhancement] next turn (once per turn)"
+      "desc": "Если при попадании монетами своих атакующих навыков наносит цели негативные эффекты и сама получает положительные в этот момент, то восстанавливает 4 СД в конце атаки.\n- Если СД максимальна в этот момент, получает 1 [ResultEnhancement:`Повышение силы`] на следующий ход. (Единожды за ход)"
     },
     {
       "id": 134506,
       "name": "Позвольте мне ненадолго насладиться выставкой моей ученицы",
-      "desc": "If this unit has [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>lose 1 [SupportProtect] on Clash Start</u></b></mark></color> (once per Skill)"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Теряет по 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защите</link></u></color><u> в начале столкновений.</u></b></mark></color>"
     },
     {
       "id": 134509,
-      "name": "Здоровое Тело ведёт к Здоровому Ингредиенту",
-      "desc": "This unit deals +150% damage to the Sinner and Assist Unit with the highest level and prioritizes attacking them",
-      "flavor": "«Но как только вы достигнете определённого уровня мастерства, лучше всего нацеливаться на самое крепкое тело среди ваших ингредиентов».\n«Видите ли, здоровое тело может предоставить достаточно кусков мышц и костей, чтобы расширить размах и масштаб произведения искусства».\n«Такие захватывающие перспективы, да, дорогая Альбина?»"
+      "name": "Здоровое тело становится отличным ингредиентом",
+      "desc": "Наносит на 150% больше урона Грешникам и Ассистентам из LCE с наибольшим уровнем.",
+      "flavor": "    «Но как только вы достигнете определённого уровня мастерства, лучше всего нацеливаться на самое крепкое тело среди ваших ингредиентов.»\n    «Видите ли, здоровое тело может предоставить достаточно кусков мышц и костей, чтобы расширить размах и масштаб произведения искусства.»\n    «Такие захватывающие перспективы, да, моя дорогая Альбина?»"
     },
     {
       "id": 134510,
-      "name": "Магнум опус: Большеберцовая кость",
-      "desc": "Turn End: At 206 [HumanBoneTheRings] and 5 [HumanBloodTheRings], reduce Stack of each effect equal to those numbers and gain 1 [MineTheRings]\n\nTurn Start: If this unit has [MineTheRings], use a powerful attack this turn\n\n<color=#ff6000><mark=#ff000040><b><u>When hit by an Attack Skill before using the powerful attack, gain 1 [PlusCoinValueDown] and 1 [ResultReduction]</u></b></mark></color> (once per Skill; max 3 times per turn)",
-      "flavor": "Большеберцовая кость, дело жизни художника, завершённое путём ломки его собственного тела и пролития его крови до последней капли — в самом буквальном смысле."
+      "name": "Магнум опус: Тибия",
+      "desc": "Конец хода: при 206 [HumanBoneTheRings:`Ингредиентах тела (Кости)`] и 5 [HumanBloodTheRings:`Ингредиентах тела (Кровь)`] полностью тратит их и получает 1 [MineTheRings:`Произведение искусства: Тибия`] на следующий ход, а затем использует мощную атакую в нём.",
+      "flavor": "Тибия —  дело жизни художника, завершённое путём ломки его собственного тела и пролития его крови до последней капли. В самом буквальном смысле."
     },
     {
       "id": 134604,
       "name": "Посетители должны соблюдать правила галереи",
-      "desc": "If this unit has [SupportProtect], <color=#ff6000><mark=#ff000040><b><u>lose 1 [SupportProtect] on Clash Start</u></b></mark></color> (once per Skill)"
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Теряет по 1 <sprite name=\"SupportProtect\"></u><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защите</link></u></color><u> в начале столкновений.</u></b></mark></color>"
     },
     {
       "id": 134605,
       "name": "Выбор ингредиентов",
-      "desc": "This character prioritizes attacking the Sinner and Assist Unit with the lowest level",
-      "flavor": "«Сначала я соберу мышцы и кости самого слабого».\n«Ингредиенты могут не подойти, но я смогу собрать лучшие, по мере того как буду создавать и выставлять больше произведений искусства».\n«Какая захватывающая перспектива, правда, дорогая Фасция?»"
-    },
-    {
-      "id": 132218,
-      "name": "132218",
-      "desc": "(미사용 패시브)",
-      "flavor": ""
+      "desc": "Выбирает целью Грешников и Ассистентов из LCE с наименьшим уровнем.",
+      "flavor": "    «Сначала я соберу мышцы и кости самого слабого».\n    «Ингредиенты могут не подойти, но я смогу собрать лучшие, по мере того как буду создавать и выставлять больше произведений искусства».\n    «Какая захватывающая перспектива, правда, дорогая Фасция?»"
     },
     {
       "id": 132214,
       "name": "Послеобраз будущего",
-      "desc": "Every few turns, use the \"Destinated Opponent\" Skill\n<color=#ff6000><mark=#ff000040><b><u>Only the target of this unit's attack can Clash with the said Skill Slot</u></b></mark></color>\n\nIf this unit's \"Destinated Opponent\" Skill loses a Clash, take 36 ~ 60 fixed damage\n\nCombat End: <color=#ff6000><mark=#ff000040><b><u>If every \"Destinated Opponent\" Skill this unit used in this turn lost a Clash</u></b></mark></color>, gain 1 [Vulnerable] next turn"
-    },
-    {
-      "id": 132217,
-      "name": "132217",
-      "desc": "(미사용 패시브)"
+      "desc": "Использует навык <color=#fe6f01>「Предназначенный противник」</color> каждые несколько ходов.\n- Если проигрывает в столкновении этим навыком, получает 36~60 фиксированного урона.\n\nКонец хода: <color=#ff6000><mark=#ff000040><b><u>получает 1 <sprite name=\"Vulnerable\"></u><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color><u> на следующий ход</u></b></mark></color>, если проиграла столкновения всеми использованными в ходе навыками <color=#fe6f01>「Предназначенный противник」</color>."
     },
     {
       "id": 132219,
-      "name": "Рана от клинка Звезды Тяньша [天殺星傷]",
-      "desc": "Encounter Start: Gain [LvDownLittleFingerBossTwo] and 4 [TimeEntangleUnstable]"
+      "name": "Рана от клинка Звезды Тяньша<nobr>【天殺星傷】</nobr>",
+      "desc": "Входит в битву с [LvDownLittleFingerBossTwo:`Раной от клинка Звезды Тяньша`] и 4 [TimeEntangleUnstable:`Пароксизма - Запутанность послеобраза`]."
     },
     {
       "id": 132222,
       "name": "От заката до рассвета",
-      "desc": "Turn Start: At 0+ SP, gain 1 [SojiAbiAgeFuture]\nGain 1 [SojiAbiAgeFuture] for every 2 SP above 0\n\nTurn Start: At less than 0 SP, gain 1 [SojiAbiAgePast]\nGain 1 [SojiAbiAgePast] for every 2 SP below 0",
-      "flavor": "Прошлое, настоящее, будущее — бесчисленные моменты сходятся воедино, лишая различия во времени смысла. Юные и старые «я» одинаково притягиваются в «здесь и сейчас» из каждой точки континуума времени."
+      "desc": "Начало хода:\n\n- Если СД равна 0 и выше, получает 1 [SojiAbiAgeFuture:`Прямой поток - Сострадание`] за каждые 2 СД выше 0;\n\n- Если СД ниже 0, получает 1 [SojiAbiAgePast:`Обратный поток - Горечь`] за каждые 2 СД ниже 0.",
+      "flavor": "Прошлое, настоящее, будущее —  бесчисленные моменты сходятся воедино, лишая различия во времени смысла. Юные и старые \"я\" одинаково притягиваются в \"здесь и сейчас\" из каждой точки континуума времени."
     },
     {
       "id": 132223,
       "name": "Коллапс пространственно-временного послеобраза",
-      "desc": "Turn End: Gain 1 [TimeEntangleUnstable] for every 5 SP difference between this unit's current SP and SP at Turn Start (max 5 per turn)\n\nFor every 100 damage taken cumulatively, lose 1 [TimeEntangleUnstable] (including Shield damage)",
-      "flavor": "«Послеобразы, что долго окутывали меня своими складками, срываются слой за слоем... и я остаюсь стоять в потере и освобождении одновременно»."
+      "desc": "Конец хода: получает 1 [TimeEntangleUnstable:`Пароксизм - Запутанность послеобраза`] за каждые 5 единиц разницы своей СД по сравнению с началом хода. <nobr>(До 5)</nobr>\n\nТеряет 1 [TimeEntangleUnstable:`Пароксизм - Запутанность послеобраза`] за каждые 100 суммарно полученного урона. (Включая урон по ОЗ)",
+      "flavor": "«Послеобразы, что долго окутывали меня своими складками, срываются слой за слоем... и я остаюсь стоять в потере и освобождении одновременно.»"
     },
     {
       "id": 133701,
-      "name": "Воля Предписания",
-      "desc": "Encounter Start: Gain Shield equal to 20% of max HP (remains throughout this Encounter)\n\nTurn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- Inflict [IndexPrescriptTargetToPersonality] to a random enemy and prioritize attacking that enemy (excluding certain pattern)\n\nDeal +2.5% damage to [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage to all targets instead",
+      "name": "Воля предписания",
+      "desc": "Начало битвы: получает ОЗ Щита в размере 20% от своих максимальных ОЗ. (Щит сохраняется до конца битвы)\n\nНачало хода:\n- Случайный противник становится [IndexPrescriptTargetToPersonality:`Целью предписания`]; (За исключением особого поведения)\n- Получает [IndexPrescript_Base_2nd:`Предписание: 【Устройство】`] в зависимости от текущей стадии [UnlockBuff_Base:`Разблокировки`]:\n   · Нет эффекта: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_0\">Предписание: 【Устройство】 I</link></u></color>;\n   · [UnlockBuff_1:`Разблокировка - I`]: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_1\">Предписание: 【Устройство】 II</link></u></color>;\n   · [UnlockBuff_2:`Разблокировка - II`]: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_2\">Предписание: 【Устройство】 III</link></u></color>;\n   · [UnlockBuff_3:`Разблокировка - III`]: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptStudent_3\">Предписание: 【Устройство】 IV</link></u></color>.\n\nНаносит на (Текущее значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] × 2.5)% больше урона [IndexPrescriptTargetToPersonality:`Целям предписания`]. (До 20%)\n- При 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] наносит сразу на 30% больше урона вместо этого.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 133702,
-      "name": "Взять на себя Предписание",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 15 SP and gain [BlessingOfIndexPrescriptEnemy] by ([UnlockBuff_Base] stage + 1) (once per turn)\n\nTurn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 1 [PressureOfPrescript] and 10 [KarmaOfIndexStudent]\n- If this unit's [UnlockBuff_Base] stage is below 2, gain 1 [BlessingOfIndexPrescriptEnemy]\n- At 9 [BlessingOfIndexPrescriptEnemy], does not gain [KarmaOfIndexStudent]\n\n- Gain [EsteemNeeds] equal to [PressureOfPrescript] gained every time this unit gains [PressureOfPrescript]",
+      "name": "Исполнить предписание",
+      "desc": "Каждый раз при получении [PressureOfPrescript:`Уз ответственности`] получает столько же [EsteemNeeds:`Жажды признания`].\n\n\nКонец хода:\n\n- Если текущее [IndexPrescript_Base_2nd:`Предписание`] было успешно выполнено, восстанавливает 15 СД и получает (Стадия [UnlockBuff_Base:`Разблокировки`] + 1) [BlessingOfIndexPrescriptEnemy:`Милости предписания`];\n\n- Если не удалось выполнить текущее [IndexPrescript_Base_2nd:`Предписание`], получает 1 [PressureOfPrescript:`Узы ответственности`] и 10 [KarmaOfIndexStudent:`Кармических последствий`].\n   · Если текущая стадия [UnlockBuff_Base:`Разблокировки`] ниже [UnlockBuff_2:`Второй`], получает 1 [BlessingOfIndexPrescriptEnemy:`Милость предписания`] вместе с этим;\n   · Не получает [KarmaOfIndexStudent:`Кармические последствия`] при 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`].",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 133703,
       "name": "Снятие печати",
-      "desc": "Turn End: At 6/9 [BlessingOfIndexPrescriptEnemy] or at 80%-/60%- HP,\n- Gain [UnlockBuff_2]/[UnlockBuff_3]\n- Heal to 45 SP\n- Consume all [PressureOfPrescript] and recover from Stagger\n\nIf [UnlockBuff_Base] was gained based on HP conditional above,\n- Gain [KarmaOfIndexStudent] by (sum of healed SP / 15)\n- Increase [BlessingOfIndexPrescriptEnemy] to 6/9 if this unit had less than 6/9 [BlessingOfIndexPrescriptEnemy]; gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] next turn for every [BlessingOfIndexPrescriptEnemy] gained\n\nMin & Max Speed +10 in the turn this unit uses its powerful attack",
+      "desc": "Максимальная и минимальная скорость повышается на 10 при использовании мощной атаки.\n\n\nПри 6 / 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] или менее чем 80% / 60% ОЗ к концу хода:\n- Получает [UnlockBuff_2:`Разблокировку - II`] / [UnlockBuff_3:`Разблокировку - III`] соответственно;\n- Восстанавливает СД до 45;\n- Тратит все [PressureOfPrescript:`Узы ответственности`] для восстановления от оглушения</u></b></mark></color>.\n\nЕсли стадия [UnlockBuff_Base:`Разблокировки`] была повышена за счёт падения ОЗ до определённого порога, а не значения [BlessingOfIndexPrescriptEnemy:`Милости предписания`]:\n- Получает (Восстановленная до 45 СД / 15) [KarmaOfIndexStudent:`Кармических последствий`];\n- Значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] увеличивается до 6 / 9 соответственно стадии [UnlockBuff_Base:`Разблокировки`], но при этом Сора получает 1 [DefenseDown:`Понижение уровня защиты`] и 2 [KarmaOfIndexStudent:`Кармических последствия`] на следующий ход за каждую единицу полученной таким образом [BlessingOfIndexPrescriptEnemy:`Милости предписания`].",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 133704,
       "name": "Расцветшее ЭГО::Посредничество",
-      "desc": "For this Encounter, maintain Effloresced[TabExplain] E.G.O::Procuration state\n- Encounter Start: Gain [UnlockBuff_1] and 3 [BlessingOfIndexPrescriptEnemy]\n- Gain [Blandishment_Enemy] and a different set of Resistance values while in this state\n- SP does not drop below 0",
+      "desc": "Сохраняет проявленное Расцветшее ЭГО::Посредничество на протяжении битвы:\n- Имеет [UnlockBuff_1:`Разблокировку - I`] и 3 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] в её начале;\n- Получает [Blandishment_Enemy:`Веру вне всяких сомнений`] и меняет значения своих сопротивлений;\n- СД не падает ниже 0.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 133705,
       "name": "Концентрация",
-      "desc": "At [UnlockBuff_3], apply the following effects:\n- [Blandishment_Shin_Enemy], gain Shield equal to 50% of max HP (lasts for the rest of this Encounter)\n- Intensify [PressureOfPrescript] to [PressureOfPrescript_2nd] and max out its Stack\n- Turn Start: Gain 1 [PressureOfPrescript_2nd]",
+      "desc": "Когда достигает [UnlockBuff_Base:`Разблокировки - III`]:\n- Получает [Blandishment_Shin_Enemy:`Шин 【心】 - Сора`] и ОЗ Щита в размере 50% от максимальных ОЗ; (Щит сохраняется до конца битвы)\n- Превращает обычные [PressureOfPrescript:`Узы ответственности`] в [PressureOfPrescript_2nd:`Экстремальные узы ответственности`] и получает их максимальное значение;\n- Получает 1 [PressureOfPrescript_2nd:`Экстремальные узы ответственности`] в начале каждого хода.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": 133801,
-      "name": "Ортодоксальный клинок [整劍]",
-      "desc": "Encounter Start: gain 50 [DicipleLittleFinger]"
+      "name": "Ортодоксальный клинок<nobr>【整劍】</nobr>",
+      "desc": "Входит в битву с 50 [DicipleLittleFinger:`Лазурного клинка лунного света`]."
     },
     {
       "id": 133802,
-      "name": "Тренировка для наследования имени Звезды",
-      "desc": "After Attack Skill End, deal (# of Slash Coins that hit Critically x 10) Slash damage against each target (cannot be Staggered due to this damage)"
+      "name": "Тренировка для унаследования имени Звезды",
+      "desc": "После успешного использования атакующих навыков наносит (Количество монет, нанёсших критический удар × 10) дополнительного Рубящего урона каждой цели навыка. (Не может оглушить этим уроном)"
     },
     {
       "id": 133803,
-      "name": "Единая сосредоточенность разума",
-      "desc": "This unit's [Breath] Potency is capped at 25\nAny excess [Breath] Potency gained past 25 will be converted to [DicipleLittleFinger]\n\nGain [Fugacious] equal to [DicipleLittleFinger] lost every time this unit loses [DicipleLittleFinger] Stack"
+      "name": "Исключительная сосредоточенность ума",
+      "desc": "Сила своего [Breath:`Дыхания`] не поднимается выше 25. Вместо этого всё излишнее [Breath:`Дыхание`] превращается в [DicipleLittleFinger:`Лазурный клинок лунного света`]."
     },
     {
       "id": 133804,
-      "name": "Спокойствие [靜念]",
-      "desc": "If this unit has [DicipleLittleFinger], gain the following effects:\n- SP does not drop below 0; if it was below 0, recover to 0\n- Convert any SP damage taken into Gloom damage (save for SP changes due to \"Base factors increasing/decreasing Sanity\")"
+      "name": "Медитация【靜念】",
+      "desc": "Пока имеется [DicipleLittleFinger:`Лазурный клинок лунного света`]:\n- Своя СД не падает ниже 0;\n- Весь получаемый урон по СД превращается в урон Унынием. (За исключением базовых факторов повышения или понижения силы духа)"
     },
     {
       "id": 133805,
-      "name": "Благодать",
-      "desc": "In a Clash against targets that aren't Ryōshū, Clash Power -2\nTake -20% damage from targets other than Ryōshū"
+      "name": "Изящество",
+      "desc": "Сила в столкновении -2 против всех Грешников кроме Рёшу.\nПолучает на 20% меньше урона от всех Грешников кроме Рёшу."
     },
     {
       "id": 133901,
       "name": "Подданные Императора",
-      "desc": "Turn Start: Gain 50 [DefenseBug] (Gain 3 fewer [DefenseBug] with every subsequent turn; max reduction 20)\n- If this unit has [Combustion], [Laceration], [Vibration], [Burst], or [Sinking], <color=#ff6000><mark=#ff000040><b><u>reduce their Potency by a random value; then, lose the same Stacks of [DefenseBug] as that random value</u></b></mark></color>\n- If the above effects are at 1 Potency but has 2+ Count, reduce their Count instead\n\n<color=#ff6000><mark=#ff000040><b><u>If all [DefenseBug] was lost</u></b></mark></color> during the combat phase, gain the following effects next turn:\n- Gain 10 [DefenseDown] instead of gaining [DefenseBug]\n- Generate 2 E.G.O resources for each of the 3 least-owned Affinities\n- Turn End: Remove all negative effects from this unit and start gaining [DefenseBug] again",
+      "desc": "Начало хода: \n- Получает 50 [DefenseBug:`Защищающих паразитов 【Тараканы】`]; (Получает на 3 меньше за каждый прошедший ход; снижается максимум на 30 в итоге)\n- Если на себе есть [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]: уменьшает силу каждого из них на случайное значение и теряет столько же [DefenseBug:`Защищающих паразитов 【Тараканы】`]. (Если у эффекта всего 1 единица силы, но счётчик равен 2 и более, то снижает его вместо этого)\n\n<color=#ff6000><mark=#ff000040><b><u>Если все <sprite name=\"DefenseBug\"></u><color=#9f6a3a><u><link=\"DefenseBug\">Защищающие паразиты 【Тараканы】</link></u></color><u> были потеряны</u></b></mark></color> в течение боевой фазы при получении негативных эффектов:\n- Получает 10 [DefenseDown:`Понижений уровня защиты`] в начале следующего хода вместо 50 [DefenseBug:`Защищающих паразитов 【Тараканы】`];\n- Добавляет 2 ЭГО Ресурса к трём наименее имеющимся грехам;\n- Конец следующего хода: снимает с себя все негативные эффекты и снова начинает получать 50 [DefenseBug:`Защищающих паразитов 【Тараканы】`] в начале хода.",
       "flavor": "Они выползают без предупреждения из-за всех линий, что образуются там, где сходятся стены."
     },
     {
       "id": 133902,
       "name": "Мантия Императора",
-      "desc": "Turn Start: Gain ([DefenseBug] x 40) Shield",
-      "flavor": "Легион Тараканов движется ни для кого, кроме своего Императора."
+      "desc": "Начало хода: получает (Значение [DefenseBug:`Защищающих паразитов 【Тараканы】`] × 40) ОЗ Щита.",
+      "flavor": "Легион тараканов движется ни для кого, кроме своего Императора."
     },
     {
       "id": 133903,
       "name": "Легион Императора",
-      "desc": "- On Clash Win, inflict 3 [OffenseBug] on target\n- On Hit with a Skill, inflict 1 [OffenseBug] on target",
-      "flavor": "Рви, сочись, струись, вырезай, раздирай, пожирай."
+      "desc": "При победе в столкновении наносит 3 [OffenseBug:`Вредящих паразита 【Тараканы】`].\nПри попадании наносит 1 [OffenseBug:`Вредящего паразита 【Тараканы】`].",
+      "flavor": "Рвать, сочиться, струиться, вырезать, раздирать, пожирать."
     },
     {
       "id": 133904,
       "name": "Кровь Императора",
-      "desc": "Take -50% HP, SP damage from [Combustion], [Laceration], [Burst], and [Sinking]; -50% to Stagger Threshold raised by [Vibration]\nCannot be Staggered due to this damage\nTurn Start: Gain 2 [ResultReduction] for every 25% missing HP on the Core",
-      "flavor": "«Стань притуплённым и привыкшим ко всему»."
+      "desc": "Получает на 50% меньше урона от [Combustion:`Огня`], [Burst:`Разрыва`] и [Laceration:`Кровотечения`]. Теряет на 50% меньше СД от [Sinking:`Утопания`]. Поднятие границы выносливости от [VibrationExplosion:`Провокации Тремора`] снижено на 50%.\nНе может быть оглушён из-за урона от статусных эффектов.\n\nНачало хода: получает 2 [ResultReduction:`Понижения силы`] за каждые 25% потерянных ОЗ Ядра.",
+      "flavor": "«Стать притуплённым и привыкшим ко всему.»"
     },
     {
       "id": 133905,
       "name": "Нераспакованный подарок",
-      "desc": "This unit's SP value cannot affect the outcome of Coin flips, which is fixed to 50-50\n\n<color=#ff6000><mark=#ff000040><b><u>On Clash Win against Sinners,</u></b></mark></color> lose 5 SP and deal -40% damage against them\n\n<color=#ff6000><mark=#ff000040><b><u>When in Low Morale or Panic states</u></b></mark></color>, gain [ParryingResultDown] and [ResultReduction]\nWhen recovering from Panic, gain 2 [ResultReduction]",
+      "desc": "Шанс выпадения монеты определённой стороной всегда равен 50/50 и не зависит от текущей силы духа.\n\n<color=#ff6000><mark=#ff000040><b><u>При победе в столкновении с Хитклифом или Родей</u></b></mark></color> теряет 5 СД и наносит им на 40% меньше урона.\n\nВо время паники или низкого духа получает случайное количество [ResultReduction:`Понижений силы`] и [ParryingResultDown:`Понижений силы в столкновении`].\n- Если в состоянии паники, получает 2 [ResultReduction:`Понижения силы`] на следующий ход.",
       "flavor": "«Там внизу действительно больше нет обёрток?»"
     },
     {
       "id": 133906,
       "name": "Гнев Императора",
-      "desc": "At 50% HP, or when Staggered, recover from Stagger and remove all negative effects from this unit and gain a new pattern\nThen, gain the following effects:\n- Reset SP to 0\n- Gain 50 [DefenseBug]\n- Double the amount of [OffenseBug] inflicted by the Passive \"The Emperor's Legion\""
+      "desc": "Если ОЗ Грегора падают до 50% или его оглушают:\n- Восстанавливается от оглушения и снимает с себя все негативные эффекты, а затем меняет поведение;\n- Заканчивает текущий ход и сбрасывает СД до 0;\n- Получает 50 [DefenseBug:`Защищающих паразитов 【Тараканы】`];\n- Начинает наносить вдвое больше [OffenseBug:`Вредящих паразитов 【Тараканы】`] своим пассивным умением <b>「Легион Императора」</b>."
     },
     {
       "id": 134701,
-      "name": "Риен, Отец-воспитатель Указательного Пальца",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Take -50% damage from Unopposed Attacks</u></b></mark></color>\nTake -50% damage from [Vibration], [Burst], and [Sinking]\nWhen healing SP from [UnlockBuff_Base], if this unit's SP is below 0, heal up to 0 SP\n\nEncounter Start: Gain [BurningWoundRien_Mask]\n\nAt 55% HP, gain a new pattern\n- Remove all effects other than those exclusive to this unit\n- Reset [StackRienSpecialSkill] Stack to 0",
-      "flavor": "Я ждал «того момента», как велело мне Предписание.\nДаже после того, как моя дорогая дочь ушла, я ждал.\n\nИ через некоторое время со мной связалась Компания Лимбус, и я увидел, что Чёрный ход открыт.\nИменно тогда устройство подало сигнал и дало мне знать, что наконец пришло время вернуть мою дочь домой."
+      "name": "Риен, Отец-воспитатель Указательного пальца",
+      "desc": "Входит в битву с [BurningWoundRien_Mask:`Маской Риена`].\n\nПолучает на 50% меньше урона от [Vibration:`Тремора`] и [Burst:`Разрыва`]. Теряет на 50% меньше СД от [Sinking:`Утопания`]. <color=#ff6000><mark=#ff000040><b><u>Получает на 50% меньше урона от односторонних атак.</u></b></mark></color>\n\nКогда восстанавливает СД в конце боевой фазы посредством эффекта [UnlockBuff_Base:`Разблокировки`] и СД всё равно остаётся ниже 0, сбрасывает её <nobr>до 0.</nobr>\n\nКогда ОЗ падают до 55%, меняет поведение:\n- Заканчивает текущий ход и снимает с себя все эффекты кроме некоторых особых;\n- Значение [StackRienSpecialSkill:`Исполнения 【Гермес】`] сбрасывается до 0.",
+      "flavor": "    Я ждал \"того момента\", как велело мне Предписание. Даже после того, как моя дорогая дочь ушла, я ждал.\n    И через некоторое время со мной связалась одна личность из Компании Лимбус, и я увидел, что чёрный ход открыт.\n    Именно тогда устройство подало сигнал и дало мне знать, что наконец пришло время вернуть мою дочь домой."
     },
     {
       "id": 134702,
-      "name": "Устройство Оракула [Кадуцей]",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>A random weapon is assigned to every Coin. Each weapon has a unique effect.</u></b></mark></color>\n- [RienWeapon01Hatchet]\n- [RienWeapon02Stiletto]\n- [RienWeapon03Greatsword]\n- [RienWeapon04Rapier]\n- [RienWeapon05Sledgehammer]\n- [RienWeapon06Ultragreatsword]\n- [RienWeapon07Lance]\n- [RienWeapon08Chain]\n- [RienWeapon09Scythe]\n\nWhen using an Attack Skill, gain 1 [StackRienSpecialSkill] (max 9)\n- Can be gained once per Skill; does not gain Stack from the same Skill twice\n\n<color=#ff6000><mark=#ff000040><b><u>Turn Start: At 9 [StackRienSpecialSkill] Stacks, use a powerful Skill</u></b></mark></color>\n- After Attack using the powerful Skill for the first time, gain [Shin_Rien]\n- Reset the per-Skill [StackRienSpecialSkill] cap\n- Min & Max Speed +25\n- Turn End: Gain 1 [Vulnerable] and 2 [ResultReduction] next turn\n\nTurn 5 Start: At less than 9 [StackRienSpecialSkill], bring its Stack to 9; then, gain (Stack gained x 5) [KarmaOfIndexRien]\n- Then, activate this effect every 4 turns",
-      "flavor": "Флакон с чем-то, похожим на жидкий металл, способный изменять свою форму и массу, его свойства почти как у Сингулярностей, плещется внутри Устройства.\nФорма, которую принимает жидкость, зависит от Предписания, которое получает Устройство. Оружие, которое оно производит, зависит от информации о цели и времени, отведённого на выполнение убийства.\nОднажды, получив кинжал, слишком маленький для задачи, он решил подождать, пока оно не произведёт другое оружие. Однако, несмотря на приближающийся срок, оно отказалось предоставить ему подходящее оружие; у него не было выбора, кроме как убить свою цель вилкой."
+      "name": "Устройство оракула【Кадуцей】",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Каждой подбрасываемой монете присваивается случайное оружие, каждое имеет уникальные эффекты:</u></b></mark></color>\n- [RienWeapon01Hatchet:`Когда рубишь рёбра топориком...`]\n- [RienWeapon02Stiletto:`Когда пронзаешь лёгкие стилетом...`]\n- [RienWeapon03Greatsword:`Когда рассекаешь плечо и череп полуторным мечом...`]\n- [RienWeapon04Rapier:`Когда пробиваешь 10 или более дыр в торсе рапирой...`]\n- [RienWeapon05Sledgehammer:`Когда проламываешь затылок молотом...`]\n- [RienWeapon06Ultragreatsword:`Когда разрываешь тело двуручным мечом...`]\n- [RienWeapon07Lance:`Когда проделываешь 20-дюймовую дыру копьём...`]\n- [RienWeapon08Chain:`Когда разрываешь плоть на десять тысяч полосок плетью...`]\n- [RienWeapon09Scythe:`Когда рассекаешь само пространство косой, как некий человек...`]\n\nПолучает 1 [StackRienSpecialSkill:`Посредничество 【Гермес】`] при использовании атакующих навыков. (Повторное использование одних и тех же навыков не засчитывается)\n\n<color=#ff6000><mark=#ff000040><b><u>Начало хода: если значение <sprite name=\"StackRienSpecialSkill\"></u><color=#9f6a3a><u><link=\"StackRienSpecialSkill\">Посредничества 【Гермес】</link></u></color><u> достигло 9, использует мощную атаку:</u></b></mark></color>\n- Повышает свою минимальную и максимальную скорость на 25 в этот момент;\n- Получает <sprite name=\"Blandishment_Shin_Enemy\"><color=#f8c200><u><link=\"Shin_Rien\">Шин 【心】 - Риен</link></u></color> после её использования впервые за битву;\n- Счёт разных использованных навыков эффектом [StackRienSpecialSkill:`Посредничества 【Гермес】`] сбрасывается;\n- Получает 1 [Vulnerable:`Уязвимость`] и 2 [ResultReduction:`Понижения силы`] на седующий ход.\n\nЕсли в начале 5-го хода значение [StackRienSpecialSkill:`Посредничества 【Гермес】`] ниже 9, оно поднимается до максимума, а Риен получает (Полученное таким образом значение [StackRienSpecialSkill:`Посредничества 【Гермес】`] × 5) <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color>.\n- После этого активирует этот эффект каждые 4 хода начиная со следующего.",
+      "flavor": "    Флакон с чем-то, похожим на жидкий металл, способный изменять свою форму и массу, его свойства почти как у Сингулярностей, плещется внутри Устройства.\n    Форма, которую принимает жидкость, зависит от Предписания, которое получает Устройство. Оружие, которое оно производит, зависит от информации о цели и времени, отведённом на исполнение.\n    Однажды, получив \"кинжал\", слишком маленький для задачи, он решил подождать, пока оно не произведёт другое оружие. Однако, несмотря на приближающийся срок, оно отказалось предоставить ему подходящее оружие; поэтому у него не было другого выбора, кроме как убить свою цель вилкой."
     },
     {
       "id": 134703,
-      "name": "Воля Предписания",
-      "desc": "Turn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- Apply [IndexPrescriptTargetToPersonality] against a random non-Ryōshū Sinner, and prioritize attacking them\n<color=#ff6000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n· If [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff6000><mark=#ff000040><b><u>use the remaining Skills against a random non-Ryōshū Sinner (prioritizes targets with the least current HP)</u></b></mark></color>\n· When all other Sinners are killed, apply it to Ryōshū\n\nDeal +2.5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage against all targets",
-      "flavor": "Ты хочешь, чтобы я создал семью?\n\n«Должно быть, это судьба свела нас вместе. Подумать только, что я когда-нибудь встречу такого мужа, как ты...»"
+      "name": "Воля предписания",
+      "desc": "Начало хода:\n- Получает [IndexPrescript_Base_2nd:`Предписание: 【Устройство】`] в зависимости от текущей стадии [UnlockBuff_Base:`Разблокировки`]:\n   · Нет эффекта: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptRien_0\">Предписание: 【Устройство】 I</link></u></color>;\n   · <sprite name=\"UnlockBuff_1\"><color=#f8c200><u><link=\"UnlockBuff_Rien1\">Разблокировка - I</link></u></color>: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptRien_1\">Предписание: 【Устройство】 II</link></u></color>;\n   · <sprite name=\"UnlockBuff_2\"><color=#f8c200><u><link=\"UnlockBuff_Rien2\">Разблокировка - II</link></u></color>: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptRien_2\">Предписание: 【Устройство】 III</link></u></color>;\n   · <sprite name=\"UnlockBuff_3\"><color=#f8c200><u><link=\"UnlockBuff_Rien3\">Разблокировка - III</link></u></color>: <sprite name=\"IndexPrescript_Base_2nd\"><color=#9f6a3a><u><link=\"IndexPrescriptRien_3\">Предписание: 【Устройство】 IV</link></u></color>.\n- Случайный Грешник кроме Рёшу становится [IndexPrescriptTargetToPersonality:`Цель предписания`];\n   · <color=#ff6000><mark=#ff000040><b><u>Если главной целью используемого навыка является <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u>, все его монеты становятся [SuperCoin:`Вечными`]</u></b></mark></color>;\n   · Если [IndexPrescriptTargetToPersonality:`Цель предписания`] умирает из-за внешних факторов или Риен не может нацелиться на неё по какой-либо сторонней причине, <color=#ff6000><mark=#ff000040><b><u>использует их против случайного Грешника с наименьшими текущими ОЗ кроме Рёшу;</u></b></mark></color>\n   · Если на поле боя не остаётся противников кроме Рёшу, тогда нацеливается на неё.\n\nНаносит на (Текущее значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] × 2.5)% больше урона [IndexPrescriptTargetToPersonality:`Целям предписания`]. (До 20%)\n- При 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] наносит сразу на 30% больше урона вместо этого.",
+      "flavor": "    Ты хочешь, чтобы я создал семью?\n\n    «Должно быть, это судьба свела нас вместе. Как же мне повезло встретить такого мужа, как ты...»"
     },
     {
       "id": 134704,
-      "name": "Взять на себя Предписание",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 10 SP and gain 3 [BlessingOfIndexPrescriptEnemy] (once per turn)\n\n<color=#ff6000><mark=#ff000040><b><u>Turn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 8 [KarmaOfIndexRien], and the Sinner who had [IndexPrescriptTargetToPersonality] gains 1 [ParryingResultUp] next turn</u></b></mark></color>\n- If this unit does not have [UnlockBuff_Base], gain 1 [BlessingOfIndexPrescriptEnemy] at Turn End\n- At 9 [BlessingOfIndexPrescriptEnemy], does not gain [KarmaOfIndexRien]",
-      "flavor": "Ты хочешь, чтобы я потерял свою семью?\n\n«Дорогая, мне нужно ненадолго съездить на север сегодня».\n«Ах, и ещё — эй, приятель. Я жду посылку сегодня днём, так что будь добр, забери её для меня, милый?»"
+      "name": "Исполнить предписание",
+      "desc": "Конец хода:\n\n- Если текущее [IndexPrescript_Base_2nd:`Предписание`] было успешно выполнено, восстанавливает 10 СД и получает 3 [BlessingOfIndexPrescriptEnemy:`Милости предписания`];\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее [IndexPrescript_Base_2nd:`Предписание`]</u></b></mark></color>, то получает 8 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color>, а бывший во время хода [IndexPrescriptTargetToPersonality:`Целью предписания`] Грешник получает 1 [ParryingResultUp:`Повышение силы в столкновении`] на следующий ход.\n   · Если нет [UnlockBuff_Base:`Разблокировки`] в этот момент, получает 1 [BlessingOfIndexPrescriptEnemy:`Милость предписания`] вместе с этим;\n   · Не получает <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармические последствия</link></u></color> при 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`].",
+      "flavor": "    Ты хочешь, чтобы я потерял свою семью?\n    \n    «Дорогая, мне нужно ненадолго съездить на север Города сегодня».\n    «О, моя посылка должна прибыть во второй половине дня, так что не могла бы ты принять её за меня, дорогая?»"
     },
     {
       "id": 134705,
       "name": "Снятие печати",
-      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 95%-/85%-/75%- HP,- Gain [UnlockBuff_Rien1]/[UnlockBuff_Rien2]/[UnlockBuff_Rien3]\n\nTurn 1 End: At lower than [UnlockBuff_Base] stage 1, gain [UnlockBuff_Rien1]\nTurn 4 End: At lower than [UnlockBuff_Base] stage 2, gain [UnlockBuff_Rien2]\n\nWhen [UnlockBuff_Base] is activated due to HP or Turn conditionals:\n- At less than 3/6/9 [BlessingOfIndexPrescriptEnemy] Stack, raise them to 3/6/9\nGain 10 [KarmaOfIndexRien] at the next Turn Start for every Stack gained",
-      "flavor": "«Следовать Предписаниям — значит отпирать то, что заперто»."
+      "desc": "Конец хода: при 3 / 6 / 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] или менее чем 95% / 85% / 75% ОЗ получает <sprite name=\"UnlockBuff_1\"><color=#f8c200><u><link=\"UnlockBuff_Rien1\">Разблокировку - I</link></u></color> / <sprite name=\"UnlockBuff_2\"><color=#f8c200><u><link=\"UnlockBuff_Rien2\">Разблокировку - II</link></u></color> / <sprite name=\"UnlockBuff_3\"><color=#f8c200><u><link=\"UnlockBuff_Rien3\">Разблокировку - III</link></u></color> соответственно;\n\nКонец 1-го хода: если стадия [UnlockBuff_Base:`Разблокировки`] ниже первой, получает <sprite name=\"UnlockBuff_1\"><color=#f8c200><u><link=\"UnlockBuff_Rien1\">Разблокировку - I</link></u></color>.\nКонец 4-го хода: если стадия [UnlockBuff_Base:`Разблокировки`] ниже второй, получает <sprite name=\"UnlockBuff_2\"><color=#f8c200><u><link=\"UnlockBuff_Rien2\">Разблокировку - II</link></u></color>.\n\nЕсли стадия [UnlockBuff_Base:`Разблокировки`] была повышена за счёт падения ОЗ до определённого порога или конца 1-го или 4-го хода, а не значения [BlessingOfIndexPrescriptEnemy:`Милости предписания`]:\n- Значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] увеличивается до 3 / 6 / 9 соответственно стадии [UnlockBuff_Base:`Разблокировки`], но при этом Риен получает 10 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color> на следующий ход за каждую единицу полученной таким образом [BlessingOfIndexPrescriptEnemy:`Милости предписания`].",
+      "flavor": "«Следовать Предписаниям — значит отпирать то, что заперто.»"
     },
     {
       "id": 134801,
-      "name": "Риен, Отец [Имитация]",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>Take -75% damage from Unopposed Attacks</u></b></mark></color>\nTake -75% damage from [Vibration], [Burst], and [Sinking]\nWhen healing SP from [UnlockBuff_Base], if this unit's SP is below 15, heal up to 15 SP\n\nWhen this unit enters a new phase at 55% HP, gain the following effects:\n- Remove all effects other than those exclusive to this unit\n- Reset [StackRienSpecialSkill] Stack to 0\n- Gain [IndexPrescript_RienSecondPhase]\n- Convert [BurningWoundRien_Mask] to [BurningWoundRien]\n- Convert [KarmaOfIndexRien] to [KarmaOfIndexRien_2Phase]; then gain 10 Stacks of that effect\n- If this unit does not have [Shin_Rien], immediately gain that effect\n\nAt 25% or lower HP, gain a new pattern and greatly enhance a certain Skill",
-      "flavor": "Однажды он заподозрил, что его превращают в чью-то имитацию; он усомнился в Воле и почти воспротивился ей, ибо не знал, кому должен подражать. Лишь когда было слишком поздно, он понял её замысел и принял волю Предписания.\nТолько тогда фальшивый отец был завершён."
+      "name": "Отец Риен【Имитация】",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Получает на 75% меньше урона от односторонних атак.</u></b></mark></color>\nПолучает на 75% меньше урона от [Vibration:`Тремора`] и [Burst:`Разрыва`]. Теряет на 75% меньше СД от [Sinking:`Утопания`].\n\nКогда восстанавливает СД в конце боевой фазы посредством эффектов [UnlockBuff_Base:`Разблокировки`] и СД всё равно остаётся ниже 15, сбрасывает её до 15.\n\nКогда ОЗ падают до 55%, меняет поведение:\n- Заканчивает текущий ход и снимает с себя все эффекты кроме некоторых особых;\n- Значение [StackRienSpecialSkill:`Исполнения 【Гермес】`] сбрасывается до 0;\n- Получает [IndexPrescript_RienSecondPhase:`Предписание: 【Устройство】 - Предупреждение`];\n- [BurningWoundRien_Mask:`Маска Риена`] переходит в [BurningWoundRien:`Багровую рану`];\n- <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармические последствия</link></u></color> превращаются в [KarmaOfIndexRien_2Phase:`Кaрмические последствия 【Фортуна】`], после чего их значение повышается на 10;\n- Получает <sprite name=\"Blandishment_Shin_Enemy\"><color=#f8c200><u><link=\"Shin_Rien\">Шин 【心】 - Риен</link></u></color> при его отсутствии.\n\nКогда ОЗ падают до 25%, меняет поведение и использует более мощную версию определённой атаки.",
+      "flavor": "Однажды он заподозрил, что его превращают в чью-то имитацию; он чуть было не усомнился в Воле и почти воспротивился ей. Лишь когда было слишком поздно, он понял её замысел и принял волю Предписания, завершив создание образа лжеотца"
     },
     {
       "id": 134802,
-      "name": "Устройство Оракула [Кадуцей] - Полное снятие печати",
-      "desc": "<color=#ff6000><mark=#ff000040><b><u>A random weapon is assigned to every Coin. Each weapon has a unique effect.</u></b></mark></color>\n- [RienWeapon01Hatchet2phase]\n- [RienWeapon02Stiletto2phase]\n- [RienWeapon03Greatsword2phase]\n- [RienWeapon04Rapier2phase]\n- [RienWeapon05Sledgehammer2phase]\n- [RienWeapon06Ultragreatsword2phase]\n- [RienWeapon07Lance2phase]\n- [RienWeapon08Chain2phase]\n- [RienWeapon09Scythe2phase]\n\nWhen using an Attack Skill, gain 1 [StackRienSpecialSkill] (max 9)\n- Can be gained once per Skill; does not gain Stack from the same Skill twice\n- Does not gain Stack from a Skill used only in a special pattern\n\nTurn Start: At 9 [StackRienSpecialSkill] Stacks, use a powerful Skill\n- Reset the per-Skill [StackRienSpecialSkill] cap\n- Min & Max Speed +25\n- Turn End: Gain 2 [Vulnerable] and 3 [ResultReduction] next turn\n\nActivate the following, starting from the turn in which the phase changed\n- Every 4 turns, at less than 9 [StackRienSpecialSkill], bring its Stack to 9; then, gain (Stack gained x 5) [KarmaOfIndexRien_2Phase]",
-      "flavor": "Непревзойдённое оружие и проклятие, дарованное Гермесом, богом Города, чьи Предписания распространяются радиоволнами."
+      "name": "Устройство Оракула【Кадуцей】- Полное снятие печати",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Каждой подбрасываемой монете присваивается случайное оружие, каждое имеет уникальные эффекты:</u></b></mark></color>\n- [RienWeapon01Hatchet2phase:`Когда рубишь рёбра топориком...`]\n- [RienWeapon02Stiletto2phase:`Когда пронзаешь лёгкие стилетом...`]\n- [RienWeapon03Greatsword2phase:`Когда рассекаешь плечо и череп полуторным мечом...`]\n- [RienWeapon04Rapier2phase:`Когда пробиваешь 10 или более дыр в торсе рапирой...`]\n- [RienWeapon05Sledgehammer2phase:`Когда проламываешь затылок молотом...`]\n- [RienWeapon06Ultragreatsword2phase:`Когда разрываешь тело двуручным мечом...`]\n- [RienWeapon07Lance2phase:`Когда проделываешь 20-дюймовую дыру копьём...`]\n- [RienWeapon08Chain2phase:`Когда разрываешь плоть на десять тысяч полосок плетью...`]\n- [RienWeapon09Scythe2phase:`Когда рассекаешь само пространство косой, как некий человек...`]\n\nПолучает 1 [StackRienSpecialSkill:`Посредничество 【Гермес】`] при использовании атакующих навыков. (Повторное использование одних и тех же навыков не засчитывается)\n- Не получает этот эффект от мощного навыка, используемого только при определённом поведении.\n\n<color=#ff6000><mark=#ff000040><b><u>Начало хода: если значение [StackRienSpecialSkill:`Посредничества 【Гермес】`] достигло 9, использует мощную атаку:</u></b></mark></color>\n- Повышает свою минимальную и максимальную скорость на 25 в этот момент;\n- Счёт разных использованных навыков эффектом [StackRienSpecialSkill:`Посредничества 【Гермес】`] сбрасывается;\n- Получает 2 [Vulnerable:`Уязвимости`] и 3 [ResultReduction:`Понижения силы`] на седующий ход.\n\nАктивирует следующие эффекты начиная с хода, в котором сменил поведение:\n- Начале каждого 4-го хода: если значение [StackRienSpecialSkill:`Посредничества 【Гермес】`] ниже 9, то поднимает его до 9 и получает (Полученное таким образом значение [StackRienSpecialSkill:`Посредничества 【Гермес】`] × 5) [KarmaOfIndexRien_2Phase:`Кaрмических последствий 【Фортуна】`].",
+      "flavor": "Непревзойденное оружие и проклятие, ниспосланное Гермесом, богом Города, чьи предписания распространяются радиоволнами."
     },
     {
       "id": 134803,
-      "name": "Воля Предписания",
-      "desc": "Turn Start:\n- Apply [IndexPrescriptTargetToPersonality] against a random non-Ryōshū Sinner, and prioritize attacking them\n<color=#ff6000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n· If [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff6000><mark=#ff000040><b><u>use the remaining Skills against a random non-Ryōshū Sinner (prioritizes targets with the least current HP, unless they have 1 HP)</u></b></mark></color>\n· When all other Sinners are killed, apply it to Ryōshū\n- Gain [Protection] equal to [BlessingOfIndexPrescriptEnemy] (max 9)\n<color=#ff6000><mark=#ff000040><b><u>· Lose 1 Stack for every 20 [KarmaOfIndexRien_2Phase]</u></b></mark></color>\n\nDeal +5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 40%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +50% damage against all targets\n\nStarting from the first turn after the phase change, activate the following effects:\n- Gain [BlackNightmare] every 2 turns.\n- When gaining [BlackNightmare], if this unit has fewer than 9 [StackRienSpecialSkill] Stack, activate a unique pattern",
-      "flavor": "Я вырастил семью.\n\n«Тебе не полагается быть здесь сейчас».\n«Моя работа ещё в самом разгаре, и я хотел бы спокойно разрезать их, чтобы они могли достичь самой изысканной красоты, которую я могу вылепить».\n«...Не говори мне, ты здесь, чтобы нарушить Предписание?»"
+      "name": "Воля предписания",
+      "desc": "Начало хода:\n- Получает [Protection:`Защищённость`] в количестве текущего значения [BlessingOfIndexPrescriptEnemy:`Милости предписания`]; (До 9; <color=#ff6000><mark=#ff000040><b><u>получаемая <sprite name=\"Protection\"></u><color=#f8c200><u><link=\"Protection\">Защищённость</link></u></color><u> снижается на 1 за каждые 20 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color></u></b></mark></color>)\n- Случайный Грешник кроме Рёшу становится [IndexPrescriptTargetToPersonality:`Цель предписания`];\n   · <color=#ff6000><mark=#ff000040><b><u>Если главной целью используемого навыка является <sprite name=\"IndexPrescriptTargetToPersonality\"></u><color=#9f6a3a><u><link=\"IndexPrescriptTargetToPersonality\">Цель предписания</link></u></color><u>, все его монеты становятся [SuperCoin:`Вечными`]</u></b></mark></color>;\n   · Если [IndexPrescriptTargetToPersonality:`Цель предписания`] умирает из-за внешних факторов или Риен не может нацелиться на неё по какой-либо сторонней причине, <color=#ff6000><mark=#ff000040><b><u>использует их против случайного Грешника с наименьшими текущими ОЗ кроме Рёшу;</u></b></mark></color> (За сключением Грешников с 1 ОЗ)\n   · Если на поле боя не остаётся противников кроме Рёшу, тогда нацеливается на неё.\n\nНаносит на (Текущее значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] × 5)% больше урона [IndexPrescriptTargetToPersonality:`Целям предписания`]. (До 40%)\n- При 9 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] наносит сразу на 50% больше урона вместо этого.\n\nНачиная с 1-го же хода после смены поведения получает следующие эффекты:\n- Получает [BlackNightmare:`Потакания предписаниям`] каждые 2 хода. (Если [StackRienSpecialSkill:`Посредничество 【Гермес】`] ниже 9 в этот момент, использует особые атаки)",
+      "flavor": "    Я создал семью.\n\n    «Тебе не полагается быть здесь сейчас.»\n    «Моя работа всё ещё в самом разгаре, и я хотел бы вырезать их в спокойной обстановке, чтобы они обрели самую изысканную красоту, какую я только могу создать.»\n    «...Только не говори мне, ты здесь, чтобы нарушить Прeдписание...»"
     },
     {
       "id": 134804,
-      "name": "Взять на себя Предписание",
-      "desc": "Turn End: If [IndexPrescript_Base_2nd] was executed this turn, heal 15 SP and gain 1 [BlessingOfIndexPrescriptEnemy] (once per turn)\n\n<color=#ff6000><mark=#ff000040><b><u>Turn End: If [IndexPrescript_Base_2nd] was not executed this turn, gain 10 [KarmaOfIndexRien_2Phase], lose 1 [BlessingOfIndexPrescriptEnemy], and the Sinner who had [IndexPrescriptTargetToPersonality] gains 2 [ParryingResultUp] next turn</u></b></mark></color>\n- If this unit used a powerful Skill this turn, gain 15 [KarmaOfIndexRien_2Phase] and lose 3 [BlessingOfIndexPrescriptEnemy] instead",
-      "flavor": "Я... потерял свою семью.\n\n«Не уходи...»\n«Не уходи... Не... так... Папочка... Пожалуйста... помоги нам...»"
+      "name": "Исполнить предписание",
+      "desc": "Конец хода:\n\n- Если текущее [IndexPrescript_Base_2nd:`Предписание`] было успешно выполнено, восстанавливает 15 СД и получает 1 [BlessingOfIndexPrescriptEnemy:`Милость предписания`];\n\n- <color=#ff6000><mark=#ff000040><b><u>Если не удалось выполнить текущее [IndexPrescript_Base_2nd:`Предписание`]</u></b></mark></color>, то получает 10 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color> и теряет 1 [BlessingOfIndexPrescriptEnemy:`Милость предписания`], а бывший во время хода [IndexPrescriptTargetToPersonality:`Целью предписания`] Грешник получает 1 [ParryingResultUp:`Повышение силы в столкновении`] на следующий ход.\n   · Если использовал мощную атаку во время этого хода, получает 15 <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color> и теряет 3 [BlessingOfIndexPrescriptEnemy:`Милости предписания`] вместо этого.",
+      "flavor": "    Я... потерял свою семью.\n\n    «Не уходи...»\n    «Не уходи... Не... Папочка... Пожалуйста... помоги нам...»"
     },
     {
       "id": 132224,
       "name": "Финальная битва",
-      "desc": "In this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage and apply the following effects (once per Encounter):\n- Heal max HP and remove all removable negative effects from this unit\n- For this Encounter, gain 1 [Vulnerable] and fix [TimeEntangleUnstable] to 1. Take (# of current turn x 10) fixed damage at the end of every turn\n- Afterward, end turn and the attack pattern becomes empowered",
-      "flavor": "«Тебя заставили забыть всё, а меня — помнить всё»."
+      "desc": "При получении смертельного урона впервые за битву игнорирует его и меняет поведение:\n- Заканчивает текущий ход и полностью восстанавливает ОЗ, снимая с себя все негативные эффекты;\n- Получает 1 [Vulnerable:`Уязвимость`] до конца битвы и фиксирует значение [TimeEntangleUnstable:`Пароксизма - Запутанность послеобраза`] на 1;\n- Получает (Количество прошедших ходов × 10) фиксированного урона в конце каждого хода.",
+      "flavor": "«Тебя заставили забыть всё, а меня —  помнить всё.»"
     }
   ]
 }

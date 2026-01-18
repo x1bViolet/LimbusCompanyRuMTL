@@ -7,6 +7,10 @@
     {
       "id": "UnitKeyword_SEA_BORN",
       "content": "Морерождённый"
+    },
+    {
+      "id": "UnitKeyword_LAST_KNIGHT",
+      "content": "Посредник Оракула"
     }
   ]
 }

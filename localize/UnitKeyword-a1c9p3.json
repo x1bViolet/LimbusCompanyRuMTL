@@ -30,7 +30,7 @@
     },
     {
       "id": "UnitKeyword_SMOKE_WAR_2ND",
-      "content": "Вторая Дымовая Война"
+      "content": "Вторая Дымная Война"
     },
     {
       "id": "UnitKeyword_HIDDEN_KEYWORD_2ND",
@@ -38,7 +38,7 @@
     },
     {
       "id": "UnitKeyword_ABRAXAS_CHARIOT",
-      "content": "Колесница Абрахаса"
+      "content": "Колесница Абраксаса"
     },
     {
       "id": "UnitKeyword_HEAVENLY_KILLING_STAR",
@@ -54,7 +54,7 @@
     },
     {
       "id": "UnitKeyword_ERROR",
-      "content": "Дымовая Война"
+      "content": "Дымная Война"
     },
     {
       "id": "UnitKeyword_TEMPORARY_UNIT",
@@ -62,7 +62,7 @@
     },
     {
       "id": "UnitKeyword_TEMPORARY_ASSO",
-      "content": "<color=#d40000><s>Ле Сетте Фамилье<s></color>"
+      "content": "<color=#d40000><s>Семь Семей<s></color>"
     },
     {
       "id": "UnitKeyword_MAYORS",

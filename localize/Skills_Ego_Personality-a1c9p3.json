@@ -1,0 +1,128 @@
+{
+  "dataList": [
+    {
+      "id": 2010112,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "С высоты вороньего полёта",
+          "abName": "И Сан",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Reduction:`Понижения силы атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 3 [Agility:`Спешки`] на следующий ход всем союзникам"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030112,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "Кровь Санчо",
+          "abName": "Дон Кихот",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050112,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "Чужие цепи",
+          "abName": "Мерсо",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Binding:`Связывания`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Reduction:`Понижения силы атаки`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Reduction:`Понижения силы атаки`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Protection:`Защищённости`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060112,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "Земли иллюзий",
+          "abName": "Хон Лу",
+          "desc": "[EndSkill] Восстанавливает 15 СД себе и всем союзникам\n[EndSkill] Убирает [Combustion:`Огонь`] с себя и всех союзников",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110112,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "Страдание, ставшее опытом",
+          "abName": "Отис",
+          "desc": "Если ОЗ цели ниже 50%, наносит ей на 30% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
+                },
+                {
+                  "desc": "[EnemyKill] Даёт 1 [Enhancement:`Повышение силы атаки`] случайному союзнику"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

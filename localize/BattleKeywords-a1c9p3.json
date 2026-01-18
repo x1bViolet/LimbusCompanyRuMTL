@@ -3,35 +3,35 @@
     {
       "id": "MosesWhiteBreathMental",
       "name": "Белое дыхание - Защитить разум",
-      "desc": "- Amount of SP healed due to the unit's 'Base factors increasing Sanity(SP)' increases by 5\n- Amount of SP lost due to the unit's 'Base factors decreasing Sanity(SP)' decreases by 5\n- Turn End: Lose 1 Stack",
+      "desc": "· Потеря СД от своих базовых факторов её понижения уменьшается на 5\n· Восстановление СД от своих базовых факторов её повышения увеличивается на 5\n· Понижается на 1 в конце хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesRedBreathBody",
       "name": "Красное дыхание - Укрепить тело",
-      "desc": "- Gain +(SP/10) Offense Level and Defense Level (rounded down)\n- Turn End: Lose 1 Stack",
+      "desc": "· Получает +(Текущая СД / 10) к Уровню атаки и защиты (Округляется вниз)\n· Понижается на 1 в конце хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesRedBreathShield",
       "name": "Красное дыхание - Защита",
-      "desc": "- Turn Start: Gain 30 Shield for this turn",
+      "desc": "· Получает 30 ОЗ Щита в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesPurpleBreathBind",
       "name": "Фиолетовое дыхание - Истерия",
-      "desc": "- Max Stack: 4\n- Turn End: Lose HP and SP equal to Stack\n- Turn End: Moses loses HP and SP equal to Stack\n- Gain 2 Fragile, 3 Bind, and 3 Plus Coin Drop next turn\n- Lose 1 Stack when this effect is triggered",
+      "desc": "· Максимальное значение: 4\n· Конец хода: Мозес и участник битвы с этим эффектом теряют ОЗ и СД в количестве его значения\n· Получает 2 [Vulnerable:`Уязвимости`], 3 [Binding:`Связывания`] и 3 [PlusCoinValueDown:`Ослабления положительной монеты`] на следующий ход\n· Значение эффекта понижается на 1 при его активации",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesRedBreathCharge",
-      "name": "Глубокое дыхание - Красное",
-      "desc": "- Max Stack: 3\n- <color=#ff6000><mark color=#ff000040><b><u>Turn End: At Max Stack, use a powerful Skill</color></mark></b></u>\n- Consumed when using a certain Skill\n- Becomes immune to Panic under this effect\n- Take +(Stack x 20)% damage and lose Defense Level equal to Stack\n- Turn End: Take 10 HP damage and 20 SP damage",
+      "name": "Глубокое дыхание - Красный",
+      "desc": "· Максимальное значение: 3\n· <color=#ff6000><mark color=#ff000040><b><u>Конец хода: если значение максимально, использует мощный навык</color></mark></b></u>\n· Становится невосприимчивой к эффекту паники\n· Получает на (Значение этого эффекта × 20)% больше урона\n· Теряет Уровень защиты в количестве значения этого эффекта\n· Конец хода: теряет 10 ОЗ и 20 СД",
       "summary": "",
       "undefined": "-",
       "flavor": "Погрузись глубже и позволь багровым образам всплывать на поверхность с каждым вдохом."
@@ -39,72 +39,44 @@
     {
       "id": "MosesRedBreathAttack",
       "name": "Красное дыхание - Раздвинуть пределы тела",
-      "desc": "- Gain 5 Offense Level\n- Base Skill Clash Power +5",
+      "desc": "· Уровень атаки +5\n· Сила в столкновении +5 для базовых навыков",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesSin",
-      "name": "Шин (心) - Мозес",
-      "desc": "- Defense Level +3, Defense Power +2\n- If this unit lost SP due to its Skill's SP loss effects, gain Protection equal to (SP lost / 5) next turn",
+      "name": "Шин<nobr>【心】</nobr>- Мозес",
+      "desc": "· Уровень защиты +3, Сила защитных навыков +2\n· Если теряет СД от эффектов своих навыков, получает (Потерянная таким образом СД / 5) [Protection:`Защищённости`] на следующий ход",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MosesWarPTSD",
       "name": "Воспоминания о том дне",
-      "desc": "- Base Attack Level -??\n- Base Defense Level -??\n- Turn Start: Gain 5 Haste",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "MosesMiddle_LowMorale",
-      "name": "Тело, сломанное безвозвратно",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Fragile and apply +2 Defense Power Up to Ezra and Vespa",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "MosesMiddle_Panic",
-      "name": "Тело, сломанное безвозвратно",
-      "desc": "- Panic\n- Gain 1 Fragile and use 'Steady the Breath'",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "EzraMiddle_LowMorale",
-      "name": "Неуверенность: Маска",
-      "desc": "- Low Morale\n- Lose 1 Attack Power\n- Defense Level +2",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "EzraMiddle_Panic",
-      "name": "Неуверенность: Маска",
-      "desc": "- Panic\n- Lose 1 Attack Power\n- Defense Level +3",
+      "desc": "· Уровень атаки -??, Уровень защиты -??\n· Получает 5 [Agility:`Спешки`] в начале хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DimensionalBagEzraA",
       "name": "Пространственная сумка - Мастерская Алласа",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: Allas Workshop Gloves\n- Next Workshop weapon: Nester Workshop Hammer",
+      "desc": "Достаёт следующее оружие мастерских из пространственной сумки:\n· Текущее: Перчатки мастерской Алласа\n· Следующее: Молот мастерской Нестера",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Всё из этой Мастерской запускает ускорение с грохотом! Это супер мощно и приятно!»"
+      "flavor": "«Всё из этой Мастерской запускает ускорение с грохотом! Это супер мощно и так прикольно звучит!»"
     },
     {
       "id": "DimensionalBagEzraB",
       "name": "Пространственная сумка - Мастерская Нестера",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: Nester Workshop Hammer\n- Next Workshop weapon: Screw Atelier Drill Hammer",
+      "desc": "Достаёт следующее оружие мастерских из пространственной сумки:\n· Текущее: Молот мастерской Нестера\n· Следующее: Сверлильный молоток Ателье винта",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Так, слушай... Нажми кнопку *прямо* в момент удара, и бам! Вибрация сходит с ума и увеличивает область поражения до максимума. Это умора, как только привыкнешь!»"
+      "flavor": "«Так, слушай... Нажми кнопку <b>прямо</b> в момент удара, и бам! Вибрация достигает невероятных масштабов и увеличивает область поражения до максимума. Как только освоишься, это будет очень весело!»"
     },
     {
       "id": "DimensionalBagEzraC",
       "name": "Пространственная сумка - Ателье Винта",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: Screw Atelier Drill Hammer\n- Next Workshop weapon: Namir Workshop Gauntlets",
+      "desc": "Достаёт следующее оружие мастерских из пространственной сумки:\n· Текущее: Сверлильный молоток Ателье винта\n· Следующее: Перчатки мастерской Намира",
       "summary": "",
       "undefined": "-",
       "flavor": "«Серьёзно, надо быть осторожным с малышками из этой Мастерской. Одно неверное движение, и ты поджаришь себя вместо врага!»"
@@ -112,177 +84,149 @@
     {
       "id": "DimensionalBagEzraD",
       "name": "Пространственная сумка - Мастерская Намира",
-      "desc": "Draws the next Workshop weapon from the Dimensional Bag\n- Current Workshop weapon: Namir Workshop Gauntlets\n- Next Workshop weapon: Allas Workshop Gloves",
+      "desc": "Достаёт следующее оружие мастерских из пространственной сумки:\n· Текущее: Перчатки мастерской Намира\n· Следующее: Перчатки мастерской Алласа",
       "summary": "",
       "undefined": "-",
-      "flavor": "«А вот в эту вшита Сингулярность Корпорации G — Сфера! Вот как это работает: ты взлетаешь вверх, щёлкаешь переключателем в воздухе и обрушиваешься вниз под тяжестью гравитации. Попадёшь точно в цель, и это будет... брутально»."
+      "flavor": "«А вот в эту вшита Сингулярность Корпорации G —  Сфера! Вот как это работает: ты взлетаешь вверх, щёлкаешь переключателем в воздухе и обрушиваешься вниз под тяжестью гравитации. Попадёшь точно в цель, и это будет... брутально.»"
     },
     {
       "id": "DimensionalBagEzraE",
-      "name": "Пространственная сумка - Ателье ЮРиа",
-      "desc": "- Current Workshop Weapon: YuRia Atelier Special Handmade Golden Retriever-Exclusive Axe",
+      "name": "Пространственная сумка - Ателье ЮРиии",
+      "desc": "Текущее оружие: Эксклюзивный для золотого ретривера особый топор ручной работы Ателье ЮРии",
       "summary": "",
       "undefined": "-",
-      "flavor": "«О, ЮРиа? Да, она теперь полностью соло, и её Мастерская — чувак, она просто взрывает».\n\n«Кстати, я всё ещё помню, как она превратилась из плюшевой куклы обратно в человека... Ха-ха, тот случай был просто бомба»."
+      "flavor": "«О, ЮРиа? Да, она теперь полностью соло, и её Мастерская —  это просто отпад.»\n\n«Кстати, я всё ещё помню, как она превратилась из плюшевого медведя обратно в человека... Ха-ха, тот случай был просто бомба.»"
     },
     {
       "id": "MiddleFingerEzraSin",
-      "name": "Шин (心) - Эзра",
-      "desc": "- Base Defense Level +2\n- Base Attack Power +1, Defense Power +2\n For every 'Deep Breath - Red' Stack on Moses, Ezra and Vespa's Assist Defense heals 4 more SP for Ezra (max 12)",
+      "name": "Шин<nobr>【心】</nobr>- Эзра",
+      "desc": "· Уровень защиты +2\n· Базовая сила атакующих навыков +1, Сила защитных навыков +2\n· За каждую единицу значения [MosesRedBreathCharge:`Глубокое дыхание - Красный`] на Мозес: Эзра и Веспа восстанавливают на 4 СД больше всем союзникам при использовании своих <b>Спецальных навыков для [SupportProtect:`Вспомогательной защиты`]</b> (До 12)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VengeanceBookSpider",
-      "name": "Книга Мести",
-      "desc": "When The Middle Nursefather - Matthias or The Middle Apprentice - Kira uses a Skill to hit a target who has this effect, they heal 7 SP (once per Skill)",
+      "name": "Книга мести",
+      "desc": "Если Маттиас или Кира попадают своими навыками по противникам с этим эффектом, они восстанавливают себе 7 СД (Единожды за их навык)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Ублюдки... Готовьтесь к полному и тотальному уничтожению»."
+      "flavor": "«Ублюдки... Готовьтесь к полному и тотальному уничтожению!»"
     },
     {
       "id": "ResentmentSpider",
-      "name": "Средний Палец - Злоба",
-      "desc": "- Max Stack: 10\n- Reduced when using certain Skills\n- For every Stack, Offense Level +1, Defense Level -2, and Counter Skills deal +5% damage\n- At max Stack, take +20% damage",
+      "name": "Средний палец - Злоба",
+      "desc": "Максимальное значение: 10\n· Тратится определёнными навыками Маттиаса\n· Получает на 20% больше урона при максимальном значении этого эффекта\n· За каждую единицу значения этого эффекта:\n  - Уровень атаки +1\n  - Уровень защиты -2\n  - Контратаки наносят на 5% больше урона",
       "summary": "",
       "undefined": "-",
-      "flavor": "Средний Палец никогда не забывает."
+      "flavor": "Средний палец никогда не забывает."
     },
     {
       "id": "ResentmentSpiderDaughter",
-      "name": "Средний Палец - Злоба",
-      "desc": "- Max Stack: 10\n- Reduced when using certain Skills\n- For every Stack, Offense Level +1, Defense Level -2, and Counter Skills deal +5% damage\n- At max Stack, take +20% damage",
+      "name": "Средний палец - Злоба",
+      "desc": "Максимальное значение: 10\n· Тратится определёнными навыками Киры\n· Получает на 20% больше урона при максимальном значении этого эффекта\n· За каждую единицу значения этого эффекта:\n  - Уровень атаки +1\n  - Уровень защиты -2\n  - Контратаки наносят на 5% больше урона",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "GotACompliment",
-      "name": "Меня похвалили!",
-      "desc": "- Max Stack: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- Base Power +1 for every 2 Stack\n- Slash and Blunt Skills deal +8% damage for every Stack",
+      "name": "«Меня похвалили!»",
+      "desc": "Максимальное значение: 10\n· Понижается на 1 при получении урона от двух навыков\n· Базовая сила навыков +1 за каждые 2 единицы значения этого эффекта\n· Наносит на (Значение этого эффекта × 8)% больше урона Рубящими и Дробящими навыками",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DaughterEducationSpider",
-      "name": "Зацени, малявка!",
-      "desc": "- Max Stack: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- Base Power +1 for every 2 Stack\n- Slash and Blunt Skills deal +5% damage for every Stack",
+      "name": "«Зацени, мелкая!»",
+      "desc": "Максимальное значение: 10\n· Понижается на 1 при получении урона от двух навыков\n· Базовая сила навыков +1 за каждые 2 единицы значения этого эффекта\n· Наносит на (Значение этого эффекта × 5)% больше урона Рубящими и Дробящими навыками",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ReinforcedTattooSpider",
-      "name": "Средний Палец - Татуировка Мести [<s>Великий Брат</s>]",
-      "desc": "- Max Stack: 2\n- Expires at Turn End\n- Deal +10% Blunt and Envy damage",
+      "name": "Татуировки мести<nobr>【<s>Великий Брат</s>】</nobr>",
+      "desc": "Максимальное значение: 2\n· Маттиас наносит на 10% больше урона Дробящими навыками или навыками с грехом Зависти\n· Исчезает в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "Великий Брат, чей престиж был обеспечен его верностью; дурак, который отказался от этого ради меча."
+      "flavor": "Великий Брат, чей престиж был обеспечен его верностью; идиот, который отказался от этого ради меча."
     },
     {
       "id": "ReinforcedTattooSpiderDaughter",
-      "name": "Татуировки Усиления в стиле Среднего Пальца",
-      "desc": "- Max Stack: 3\n- Expires at Turn End\n- Deal +10% Blunt and Envy damage",
+      "name": "Усиливающие татуировки в стиле Среднего пальца",
+      "desc": "Максимальное значение: 3\n· Кира наносит на 10% больше урона Дробящими навыками или навыками с грехом Зависти\n· Исчезает в конце хода",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HeatingWireOnSpider",
       "name": "Тепловые клинки ВКЛ",
-      "desc": "On Hit with Thermal Blade Skill Coins: additionally inflict Burn Potency and Count equal to Bleed Potency and Count inflicted",
+      "desc": "Пока этот эффект активен: при нанесении силы или повышения счётчика [Laceration:`Кровотечения`] <b>Навыками [HeatingWireOnSpider:`Тепловых клинков`](#f8c200)</b> наносит цели столько же силы/счётчика [Combustion:`Огня`]",
       "summary": "",
       "undefined": "-",
-      "flavor": "Это не так хорошо, как у папы, но я тоже могу резать и прижигать одновременно!\nНо, в отличие от папы, мне нужно время от времени давать ему остыть..."
+      "flavor": "    «Это не так хорошо, как у папы, но я тоже могу резать и отжигать одновременно!»\n    «Но, в отличие от него, мне нужно время от времени давать им остыть...»"
     },
     {
       "id": "HeatingWireOffSpider",
       "name": "Тепловые клинки ВЫКЛ",
-      "desc": "Additional effects of Thermal Blade Skills do not activate",
+      "desc": "Эффекты [HeatingWireOnSpider:`Включённых тепловых клинков`](#f8c200) не активируются",
       "summary": "",
       "undefined": "-",
-      "flavor": "Тепловые нити меча деактивированы."
+      "flavor": "Тепловые нити меча деактивированы"
     },
     {
       "id": "MiddleFatherGuts",
-      "name": "Нелепая выдержка",
-      "desc": "- Reduce all incoming damage to 1 (including Keyword damages)\n- On Clash Win, heal (Clash count x 5) more SP (max 15)\n- Turn End: If this unit lost SP this turn due to its Skill effects, gain 3 Damage Up next turn",
+      "name": "Невероятная стойкость",
+      "desc": "· Весь входящий урон уменьшается до 1 (Включая урон от статусных эффектов)\n· При победе в столкновении восстанавливает (Число комбо в этом столкновении × 5) дополнительной СД (До 15 дополнительной СД)\n· Конец хода: если Маттиас терял СД от эффектов своих навыков, он получает 3 [AttackDmgUp:`Повышения урона`] на следующий ход",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Мне не нужен какой-то дурацкий костыль вроде этого «Шин (心)». Я просто должен вытянуть как можно больше силы из этих татуировок и стиснуть зубы, и я без проблем пересилю ваши модные трюки»."
-    },
-    {
-      "id": "MiddleFingerDaddy_LowMorale",
-      "name": "Безумное буйство",
-      "desc": "- Low Morale\nTurn Start: Gain 2 Attack Power Up and 4 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (max 5)",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "MiddleFingerDaddy_Panic",
-      "name": "Безумное буйство",
-      "desc": "- Panic\nTurn Start: Gain 3 Attack Power Up and 5 Defense Level Down; gain 1 Damage Up for every 25 HP damage taken last turn (max 5)",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "MiddleFingerDaughter_LowMorale",
-      "name": "Рвение",
-      "desc": "- Low Morale\nTurn Start: Gain 2 Defense Level Down; gain 1 Damage Up for every 30 HP damage taken last turn (max 5)",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "MiddleFingerDaughter_Panic",
-      "name": "Рвение",
-      "desc": "- Panic\nTurn Start: Gain 1 Attack Power Up and 3 Defense Level Down; gain 1 Damage Up for every 25 HP damage taken last turn (max 5)",
-      "summary": "",
-      "undefined": "-"
+      "flavor": "«Мне не нужны какие-то дурацкие костыли вроде этого \"Шин\". Я просто могу вытянуть как можно больше силы из этих татуировок и стиснуть зубы, чтобы без проблем пересилить ваши модные трюки.»"
     },
     {
       "id": "HumanBoneTheRings",
-      "name": "Ингредиент Тела (Кости)",
-      "desc": "- Max Stack: 206\n- Unique Charge (fixed Potency)",
+      "name": "Ингредиент тела (Кости)",
+      "desc": "<u>Особый Заряд</u> (Фиксированная сила)\nМаксимальное значение: 206",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HumanBloodTheRings",
-      "name": "Ингредиент Тела (Кровь)",
-      "desc": "- Max Stack: 5\n- Unique Charge (fixed Potency)",
+      "name": "Ингредиент тела (Кровь)",
+      "desc": "<u>Особый Заряд</u> (Фиксированная сила)\nМаксимальное значение: 5",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LivingSpecimenTheRings",
       "name": "Телесный театр",
-      "desc": "- Enter an 'immobilized' state where this unit's buffs, HP, and SP cannot be changed. Forms a Corpus Theater connected to this unit",
+      "desc": "Участник боя с этим эффектом входит в обеждвиженное состояние (СД, ОЗ и статусные эффекты не могут быть изменены во время этого)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MineTheRings",
-      "name": "Произведение искусства: Большеберцовая кость",
-      "desc": "- Turn Start: Gain 4 Power Up and 2 Slash Power Up\n- When inflicting Bleed with Attack Skills, inflict 2 more Bleed Potency",
+      "name": "Произведение искусства: Тибия",
+      "desc": "· Начало хода: получает 4 [ResultEnhancement:`Повышения силы`] и 2 [SlashResultUp:`Повышения силы Рубящих атак`]\n· Наносит на 2 [Laceration:`Кровотечения`] больше своими атакующими навыками",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ObservationTheRings",
       "name": "Осмотр картины",
-      "desc": "- Base Offense Level -20\n- Base Defense Level -20\n- Turn Start: Gain 7 Protection if The Ring Apprentice has not retreated from this Encounter",
+      "desc": "· Уровень атаки и защиты -20\n· Начало хода: получает 7 [Protection:`Защищённости`] при наличии Альбины на поле боя",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Оценка произведений искусства в галерее требует неспешного созерцания. Пожалуйста, помните — нетерпение притупляет восприятие искусства»."
+      "flavor": "«Оценка произведений искусства в галерее требует неспешного созерцания. Пожалуйста, помните —  нетерпение притупляет восприятие искусства.»"
     },
     {
       "id": "RedemptionTheRings",
-      "name": "Рана, исторгающая ингредиенты",
-      "desc": "Gain 2 Offense Level Down when using a Skill (max 3 times per turn)",
+      "name": "Исторгающая ингредиенты рана",
+      "desc": "Получает 2 [AttackDown:`Понижения уровня атаки`] при использовании навыков (До 3 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SpecimenTheRings",
       "name": "Выставка завершена!",
-      "desc": "Lose the Encounter when all Sinners and Assist Units fall under the effect of Corpus Theater",
+      "desc": "Битва окончится поражением, если все Грешники и Хохенхайм с Алиссой попадут под эффект [LivingSpecimenTheRings:`Телесного театра`]",
       "summary": "",
       "undefined": "-",
       "flavor": "Точное, деликатное место, где все элементы плоти и мышц расположены в совершенстве."
@@ -290,137 +234,95 @@
     {
       "id": "KAmpouleA1C94TH",
       "name": "Экстренная ампула Корпорации K",
-      "desc": "If at least one ally other than this unit is alive, activate the following effects upon taking damage that would reduce this unit's HP to 0:\n- If Staggered, recover from Stagger\n- Fully heal HP\n- All allies lose 1 K Corp. Emergency Ampule",
+      "desc": "· Если остаётся хотя бы 1 другой живой союзник, следующие эффекты активируются при получении смертельного урона:\n  - Все союзники тратят по 1 [KAmpouleA1C94TH:`Экстренной ампуле Корпорации K`](#f8c200) для того, чтобы полностью восстановить ОЗ этого союзника и снять с него оглушение",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LanternHohenheimBigBird",
       "name": "Лампа",
-      "desc": "- Max Stack: 20\n- Gain 1 Bind for every 2 Stack next turn (max 10)\n- Turn End: Gain +(Stack / # of this unit's Slot) Aggro to each of this unit's Skill Slot next turn",
+      "desc": "Максимальное значение: 20\n· Получает 1 [Binding:`Связывание`] на следующий ход за каждые 2 единицы значения этого эффекта (До 10)\n· Конец хода: все свои слоты навыков получают (Значение этого эффекта / количество своих слотов навыков) [Aggro:`Провокации`] на следующий ход",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "DelusionHohenheimBigBird",
       "name": "Ослепление",
-      "desc": "- Turn Start: If this unit is not Staggered, the Attack Skill equipped in this unit's last Skill Slot prioritizes Hohenheim and cannot be redirected\n- This effect expires at the end of the turn it is activated",
+      "desc": "· Начало хода: атакующий навык из своего самого правого слота навыков нацеливается на Хохенхайма и не может быть перенаправлен\n· Исчезает в конце того же хода, в котором активировалось",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpHohenheimBigBird",
-      "name": "Усиление Настройки ЭГО",
-      "desc": "- Base Offense Level +15\n- Base Defense Level +15",
+      "name": "Усиление сонастройки ЭГО",
+      "desc": "Уровень атаки и защиты +15",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpHohenheimBigBird_Over",
-      "name": "Перегрузка Настройки ЭГО",
-      "desc": "- Base Offense Level +15\n- Base Defense Level +15\n- Turn End: Increase Lamp Stack to 20; lose 2 HP and 1 SP for every Stack gained (this effect does not reduce this unit's HP below 1)",
+      "name": "Перегрузка сонастройки ЭГО",
+      "desc": "· Уровень атаки и защиты +15\n· Конец хода: увеличивает значение [LanternHohenheimBigBird:`Ламп`] до 20, а затем теряет 2 СД и 1 ОЗ за каждую полученную единицу их значения (Не может опустить ОЗ ниже 1 таким образом)",
       "summary": "",
       "undefined": "-",
       "flavor": "Чрезмерное использование силы Извлечённого ЭГО"
     },
     {
-      "id": "HohenheimBigBird_LowMorale",
-      "name": "Волна сонливости",
-      "desc": "- Low Morale\n- Gain 1 fewer Lamp from Skills",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "HohenheimBigBird_Panic",
-      "name": "Волна сонливости",
-      "desc": "- Panic\n- Does not act for this turn",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
       "id": "LvUpFireFly",
-      "name": "Усиление Настройки ЭГО",
-      "desc": "- Base Offense Level +10\n- Base Defense Level +10",
+      "name": "Усиление сонастройки ЭГО",
+      "desc": "Уровень атаки и защиты +10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LvUpFireFly_Over",
-      "name": "Перегрузка Настройки ЭГО",
-      "desc": "- Base Offense Level +10\n- Base Defense Level +10\n- Turn End: Gain 4 Burn and lose 5 SP",
+      "name": "Перегрузка сонастройки ЭГО",
+      "desc": "· Уровень атаки и защиты +10\n· Получает 4 [Combustion:`Огня`] и теряет 5 СД в конце хода",
       "summary": "",
       "undefined": "-",
       "flavor": "Чрезмерное использование силы Извлечённого ЭГО"
     },
     {
-      "id": "LCEFireFly_LowMorale",
-      "name": "Деградировавшая коррозия",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Fragile",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "LCEFireFly_Panic",
-      "name": "Деградировавшая коррозия",
-      "desc": "- Panic\n- Turn Start: Gain 1 Fragile and 5 Burn",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "Cubism_LowMorale",
-      "name": "Устаревшее искусство",
-      "desc": "- Low Morale\n- Turn Start: Lose 5 HP and gain 1 Offense Level Up",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "Cubism_Panic",
-      "name": "Устаревшее искусство",
-      "desc": "- Panic\n- Turn Start: Lose 5 HP and gain 1 Offense Level Up",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
       "id": "FutureEyeOn",
       "name": "Глаз предвидения",
-      "desc": "- Max Stack: 30\n- Clash Power +2\n- Turn Start: Gain 10 Stack\n- Turn Start: Heal (Stack / 4) SP",
+      "desc": "Максимальное значение: 30\n· Повышается на 10 в начале хода\n\n· Сила в столкновении +2\n· Начало хода: восстанавливает (Значение этого эффекта / 4) СД",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Этот глаз не обладает какой-то сверхъестественной силой, показывающей пользователю предначертанное будущее. Он больше похож на вычислительное устройство, которое анализирует всё, что видит, и выдаёт наиболее вероятный сценарий в ближайшее мгновение»."
+      "flavor": "«Этот глаз не обладает какой-то сверхъестественной силой, показывающей пользователю предначертанное будущее. Он больше схож с вычислительным устройством, которое анализирует всё в поле зрения, а затем выдаёт наиболее вероятный сценарий в ближайшее мгновение.»"
     },
     {
       "id": "FutureEyeOff",
       "name": "Глаз предвидения - Перегрев",
-      "desc": "- Max Stack: 30\n- Attack Skills deal -20% damage\n- Convert all Coins on Skills that spend Acceleration Round to Unbreakable Coins\n- Turn Start: Gain 10 Stack\n- At 30 Stack, convert into \"Eye of Precognition\"",
+      "desc": "Максимальное значение: 30\n· Повышается на 10 в начале хода\n\n· Если значение этого эффекта достигает 30, [FutureEyeOn:`Глаз предвидения`](#f8c200) возвращается в исходное состояние\n\n· Атакующие навыки наносят на 20% меньше урона\n· Все монеты своих навыков, которые тратят [AccelBullet:`Скоростные патроны`], становятся [SuperCoin:`Вечными`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "LookingFuture",
       "name": "Ускоряющееся будущее",
-      "desc": "- Max Stack: 10\n- Clash Power +1 for every Stack\n- Coin Power +1 for every 5 Stack\n- Expires at Skill End",
+      "desc": "Максимальное значение: 10\n· Сила в столкновении повышается на значение этого эффекта\n· Сила монет +1 за каждые 5 значения\n· Исчезает в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "Палермский стиль известен тем, что ускоряется, чем дольше длится дуэль."
+      "flavor": "Палермский стиль известен тем, что он ускоряется, по мере длительности дуэли."
     },
     {
       "id": "ObsessionAndGreed",
-      "name": "Шин (心) - Валенсина",
-      "desc": "- Defense Level +3 for every instance of Clash Lose in the last turn (max 6)\n- Deal +3% damage for every Poise Potency on self (max 15%)",
+      "name": "Шин<nobr>【心】</nobr>- Валенсина",
+      "desc": "· Начало хода: Уровень защиты повышается на 3 за каждое проигранное в прошлом ходе столкновение (До 6)\n· Наносит на (Сила своего [Breath:`Дыхания`] × 3)% больше урона (До 15%)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "AccelBullet",
-      "name": "Ускоряющий патрон",
-      "desc": "- Max Capacity: 10\n- Unique Ammo\n- Spent by certain Skills",
+      "name": "Скоростной патрон",
+      "desc": "<u>Особые Патроны</u>\nМаксимальное количество: 10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "TeachersPrey",
       "name": "Цель игры",
-      "desc": "Fix this unit's Speed to 1; all Attack Skills of \"The Thumb Nursefather - Valencina\" targets this unit",
+      "desc": "· Скорость фиксируется на 1\n· Валенсина нацеливает все свои навыки на Грешника с этим эффектом",
       "summary": "",
       "undefined": "-",
       "flavor": "Добыча, отмеченная Фамильей Боньятелли, будет выслежена без промаха."
@@ -429,21 +331,21 @@
       "id": "AaCfPcBiv2",
       "iconId": "AaCfPcBi",
       "name": "Супертермогенез",
-      "desc": "Turn End: Take fixed damage equal to (Stack x 0.5)% of Max HP, then the effect expires",
+      "desc": "Получает фиксированный урон в конце хода, равный половине значения этого эффекта, после чего он исчезает",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "VergiliusSin",
-      "name": "Шин (心) - Красный взор",
-      "desc": "Deal +50% Wrath damage",
-      "summary": "Наносить больше урона",
+      "name": "Шин<nobr>【心】</nobr>- Красный взор",
+      "desc": "Наносит на 50% больше урона Гневом",
+      "summary": "Наносит больше урона",
       "undefined": "-"
     },
     {
       "id": "BloodBranch",
-      "name": "Ослепляющая кровь [盲血]",
-      "desc": "Gain 1 Bind next turn for every Stack\nTurn End: Take (Bleed Potency x Stack) HP damage\nCombat Start: Gain 3 Bleed for every Stack, then expire",
+      "name": "Ослепляющая кровь<nobr>【盲血】</nobr>",
+      "desc": "· Получает [Binding:`Связывание`] на следующий ход в количестве значения этого эффекта\n· Конец хода: получает (Сила × счётчик [Laceration:`Кровотечения`] на себе) фиксированного урона\n· Начало боевой фазы: получает (Значение этого эффекта × 3) [Laceration:`Кровотечения`], а сам эффект исчезает",
       "summary": "",
       "undefined": "-",
       "flavor": "«Если кровь можно удержать во взгляде, её также можно накопить и сгустить для пронзания. Конечно, её также можно использовать, чтобы ослепить. Понятно?»"
@@ -451,112 +353,98 @@
     {
       "id": "Gebura_Reinforcement",
       "name": "Клинок Гебуры",
-      "desc": "- Convert all Skill Coins into Unbreakable Coins\n- Deal +100% damage\n- Plus Coin Skills gain Coin Power +1; Minus Coin Skills gain Final Power +1\n- For this turn, this unit cannot be Staggered from all sources of damage\n- At less than 10 HP, heal to 10 HP\n- For this turn, this unit's HP does not drop below 10\n- For this turn, every Coin Hit from Base Attack Skills and Counter Skills heals 10% of the damage dealt (max healing from each Skill: 100)\n- Expires at Turn End",
+      "desc": "Истекает в конце хода\n\n· Монеты всех навыков становятся [SuperCoin:`Вечными`]\n· Наносит на 100% больше урона\n· Сила монет навыков с положительными монетами +1, Итоговая сила навыков с отрицательными монетами +1\n\n· Грешник с этим эффектом не может быть оглушён от любого урона\n· Если ОЗ ниже 10 в момент активации, они восстанавливаются до 10\n· ОЗ не падают ниже 10 в течение хода\n· При попадании монетами своих навыков восстанавливает ОЗ на 10% от нанесённого урона (До 100 за навык)",
       "summary": "Клинок Гебуры активирован",
       "undefined": "-"
     },
     {
       "id": "ThreeMirrorpartYiSang",
       "name": "Разбитый мир",
-      "desc": "- Max Stack: 1\n- Expires at Turn End\n- Take x1.2 damage from Burn (rounded down; except Unique Burn)\n- Take +10% damage from Yi Sang's Wrath and Gloom Base Attack Skills",
+      "desc": "· Исчезает в конце хода\n· Получает в 1.2 раза больше урона от [Combustion:`Огня`] (Округляется вниз; исключая <u>Особый Огонь</u>)\n· Получает на 10% больше урона от базовых атакующих навыков И Сана с грехом Гнева или Уныния",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RyoshuEGOPF",
-      "name": "Запутанная жизнь [羅生]",
-      "desc": "Max Stack: 999\n- Gain 1 Stack for every HP damage dealt by Ryōshū's Skills\n- Deal +1% damage with Base Skills for every 33 Stack (max 10%)",
+      "name": "Запутанная жизнь<nobr>【羅生】</nobr>",
+      "desc": "Максимальное значение: 999\n· Повышается на наносимый Рёшу урон по ОЗ\n· Наносит на 1% больше урона за каждые 33 накопленного значения (До 10%)",
       "summary": " ",
       "undefined": "-",
-      "flavor": "«Перекручено и запутано сверх меры, связано и сплетено в кокон. Нить. Жизнь. Мир»."
+      "flavor": "«Перекручены и чрезмерно запутаны, связаны и сплетены в кокон. Нить. Жизнь. Мир.»"
     },
     {
       "id": "OffenseBug",
-      "name": "Вредный паразит [Тараканы]",
-      "desc": "- Max Stack: 50\n- Lose 1% max HP per Stack\n- Combat Start: Take (Stack x 12) fixed damage\n- Whenever this unit loses Stack of this effect, gain ЭГО resources of random Affinities equal to Stack lost (max 15)",
+      "name": "Вредящие паразиты<nobr>【Тараканы】</nobr>",
+      "desc": "Максимальное значение: 50\n· Снижает максимальные ОЗ на (Значение этого эффекта)%\n· Начало боевой фазы: получает (Значение этого эффекта × 12) фиксированного урона\n· При понижении значения этого эффекта добавляет столько же ЭГО Ресурсов к случайному греху (До 15)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Это существо не имеет себе равных среди тех, кого презирают как паразитов»."
+      "flavor": "«Это существо не имеет себе равных среди тех, кого презирают как паразитов.»"
     },
     {
       "id": "DefenseBug",
-      "name": "Защищающий паразит [Тараканы]",
-      "desc": "- Max Stack: 50\n- Whenever this unit is inflicted with (Burn, Bleed, Tremor, Rupture, Sinking) Potency or Count, instead of gaining those effects, lose the same amount of Stack of this effect instead\n- Expires at Turn End",
+      "name": "Защищающие паразиты<nobr>【Тараканы】</nobr>",
+      "desc": "Максимальное значение: 50\n· Защищает от получения силы и счётчика [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`] или [Burst:`Разрыва`], но взамен значение \nтого эффекта понижается на столько же при их получении\n· Исчезает в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Они злобные и упрямые, не говоря уже о том, что цепкие»."
+      "flavor": "«Они злобные и упрямые, не говоря уже о том, что цепкие.»"
     },
     {
       "id": "LvDownLittleFingerBossTwo",
-      "name": "Рана от клинка Звезды Тяньша [天殺星傷]",
-      "desc": "- Base Offense Level -15\n- Base Defense Level -15",
+      "name": "Рана от клинка Звезды Тяньша<nobr>【天殺星傷】</nobr>",
+      "desc": "Уровень атаки и защиты -15",
       "summary": "- Потерять Базовый Уровень атаки и Базовый Уровень защиты",
       "undefined": "-",
-      "flavor": "Порез от Клинка Звезды Тяньша — Араяшики оставляет рану, которая, кажется, горит неугасимым огнём.\nЭта горящая метка никогда не исчезнет, ибо владелец рассёк само существование своего противника ценой своего собственного."
+      "flavor": "    Порез от Клинка Звезды Тяньша —  Араяшики оставляет рану, которая, кажется, горит неугасимым огнём.\n    Эта горящая метка никогда не исчезнет, ибо владелец рассёк само существование своего противника ценой собственного."
     },
     {
       "id": "SojiAbiAgePast",
       "name": "Обратный поток - Горечь",
-      "desc": "- Max Stack: 20\n- Deal and take +2% damage for every Stack",
+      "desc": "Максимальное значение: 20\n· Наносит и получает на (Значение этого эффекта × 2)% больше урона",
       "summary": "Наносить и получать больше урона",
       "undefined": "-",
-      "flavor": "«Память о том, что я был забыт и брошен тобой, отказывается отпускать... как упрямый узел нитей, который цепляется»."
+      "flavor": "«Воспоминание о том, что ты меня забыла и бросила, не отпускает... словно упрямый узелок нити, который цепляется за всё.»"
     },
     {
       "id": "SojiAbiAgeFuture",
       "name": "Прямой поток - Сострадание",
-      "desc": "- Max Stack: 20\n- Deal and take -2% damage for every Stack",
+      "desc": "Максимальное значение: 20\n· Наносит и получает на (Значение этого эффекта × 2)% меньше урона",
       "summary": "Наносить и получать меньше урона",
       "undefined": "-",
-      "flavor": "«Возможно, течение времени и годы, давящие на меня, заставили меня поверить, что я наконец смогу понять и принять тебя»."
+      "flavor": "«Возможно, течение времени и годы, давящие на меня, заставили меня поверить, что я наконец смогу понять и принять тебя.»"
     },
     {
       "id": "TimeEntangleUnstable",
       "name": "Пароксизм - Запутанность послеобраза",
-      "desc": "- Max Stack: 10\n- On Hit, activate the following effects based on Stack:\n  · Deal Slash damage equal to (final damage of the Coin / 10) (activates (# of Stack) times)\n  · 2+: Inflict 1 Burn\n  · 3+: Inflict 1 Bleed\n  · 4+: Inflict 1 Bind next turn\n  · 5+: Inflict 1 Poison",
+      "desc": "Максимальное значение: 10\n· Активирует следующие эффекты при попадании по цели:\n  - Наносит (Итоговой урон попавшей монеты / 10) Рубящего урона (Активируется ещё (Значение этого эффекта - 1) раз)\n  - Наносит 1 [Poison:`Яд`]\n  - Наносит 1 [Laceration:`Кровотечение`]\n  - Наносит 1 [Combustion:`Огонь`]\n  - Наносит 1 [Binding:`Связывание`] на следующий ход",
       "summary": "Применить дополнительные эффекты к атакам этой единицы в зависимости от Количества",
       "undefined": "-"
     },
     {
       "id": "WillAwakenSinclair",
-      "name": "Шин (心) - Некий Синклер",
-      "desc": "- Min & Max Speed +3\n- Deal +20% damage with Unopposed Attack\n- Gain 2 more Poise Potency and +1 more Poise Count from Skills\n- At 20+ SP, +10% chance to flip Heads for Plus Coins\n- Turn End: Gain 1 Haste next turn for every 10 SP (max 4)\n- Turn End: Gain 1 Power Up next turn for every 20 SP (max 2)",
+      "name": "Шин<nobr>【心】</nobr>- Некий Синклер",
+      "desc": "· Минимальная и максимальная скорость +3\n· Получает на 2 [Breath:`Дыхания`] и на 1 единицу его счётчика больше от своих навыков\n· При 20 и более СД f монеты навыков с положительными монетами выпадают орлами на 10% чаще\n· Конец хода: получает 1 [Agility:`Спешку`] на следующий ход за каждые 10 положительной СД (До 4) и 1 [ResultEnhancement:`Повышение силы`] за каждые 20 (До 2)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SignAwakenSinclair",
       "name": "Метка - Проявление будущего",
-      "desc": "- When Clashing against higher-level targets, Clash Power +2\n- Turn End: If Staggered, recover from Stagger next turn",
+      "desc": "· Сила в столкновении +2 против целей с более высоким уровнем\n· Если в оглушении, восстанавливается от него в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "Абраксас"
+      "flavor": "«Абраксас.»"
     },
     {
       "id": "LimitedAwakenSinclair",
       "name": "Тень распечатана",
-      "desc": "- Deal +10% damage with Base Attack Skills\n- Turn Start: Gain 1 Plus Coin Boost",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "Veteran_LowMorale",
-      "name": "Со времён Второй Дымовой Войны",
-      "desc": "- Low Morale\n- Turn Start: Gain 1 Fragile\n- SP Heal Efficiency +2",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "Veteran_Panic",
-      "name": "Со времён Второй Дымовой Войны",
-      "desc": "- Panic\n- Turn Start: Gain 2 Fragile and 2 Clash Power Up",
+      "desc": "· Наносит на 10% больше урона своими базовыми атакущими навыками\n· Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "MiddleFatherSwordOne",
       "name": "Запечатанный меч",
-      "desc": "Unlocks access to certain Skills based on the state of the sword.",
+      "desc": "Использует более мощные навыки в зависимости от стадии снятия печати",
       "summary": "",
       "undefined": "-",
       "flavor": "Троица сплочённых братьев и сестёр вместе отправилась в глубины Руин."
@@ -564,433 +452,391 @@
     {
       "id": "MiddleFatherSwordTwo",
       "name": "Первая печать снята",
-      "desc": "Unlocks access to certain Skills based on the state of the sword.",
+      "desc": "Использует более мощные навыки в зависимости от стадии снятия печати",
       "summary": "",
       "undefined": "-",
-      "flavor": "Там они наткнулись на душную пещеру, где текла река лавы, унося здания своим течением.\nОни проследили реку до источника её жара и нашли меч... который вряд ли можно было назвать мечом. Это было больше похоже на кусок раскалённого добела металла."
+      "flavor": "    Там они наткнулись на душную пещеру, где текла река лавы, унося здания своим течением.\n    Они проследили реку до источника её жара и нашли меч... который вряд ли можно было назвать мечом. Это было больше похоже на кусок раскалённого добела металла."
     },
     {
       "id": "MiddleFatherSwordThree",
       "name": "Вторая печать снята",
-      "desc": "Unlocks access to certain Skills based on the state of the sword.",
+      "desc": "Использует более мощные навыки в зависимости от стадии снятия печати",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Как Великий брат, я объявляю этот меч своим».\nЗаявление старшего брата разожгло неутолимое пламя желания и зависти в младшем брате.\n\nПоэтому я убил и брата, и сестру, и забрал меч себе. Я не оставил никаких улик.\nНо глаза всё ещё смотрели на меня с сомнением, и когда они бросили меня в этот ад, я упал без сопротивления.\nВсё же я не потерял улыбку.\nИбо легендарный меч был моим."
+      "flavor": "    «Как Великий брат, я объявляю этот меч своим.»\n    Заявление старшего брата разожгло неутолимое пламя желания и зависти в младшем брате.\n\n    Поэтому я убил и брата, и сестру, а затем забрал меч себе. Я не оставил никаких улик.\n    Но глаза всё ещё смотрели на меня с сомнением, и когда они бросили меня в этот ад, я упал без сопротивления.\n    Всё же я не потерял улыбку, ибо легендарный меч был моим."
     },
     {
       "id": "MiddleFatherSwordFour",
       "name": "Леватэйн",
-      "desc": "Unlocks access to certain Skills based on the state of the sword.\nTurn Start: Inflict 5 Burn and +2 Burn Count against all units",
+      "desc": "· Использует новые атаки при наличии этого эффекта\n· Начало хода: наносит 5 [Combustion:`Огня`] и повышает его счётчик на 2 всем на поле боя",
       "summary": "",
       "undefined": "-",
-      "flavor": "По иронии судьбы, клинок был за пределами способности Маттиаса владеть им должным образом.\nКонечно, он бы вообще не смог держать этот меч, если бы у него не было к нему предрасположенности. Просто эта Реликвия была настолько непостоянной.\nПравда заключалась, тем не менее, в том, что его способностей было далеко недостаточно, чтобы использовать потенциал оружия в полной мере.\nНо мужчину это не беспокоило.\nВсё, что имело значение, это то, что тот самый легендарный меч, о котором он мечтал с детства, теперь был в его владении, чтобы махать им по своей прихоти."
+      "flavor": "    По иронии судьбы, клинок был за пределами способности Маттиаса владеть им должным образом.\n    Конечно, он бы вообще не смог держать этот меч, если бы у него не было к нему предрасположенности. Просто эта Реликвия была настолько непостоянной.\n    Правда заключалась, тем не менее, в том, что его способностей было далеко недостаточно, чтобы использовать потенциал оружия в полной мере.\n    Но мужчину это не беспокоило.\n    Всё, что имело значение, это то, что тот самый легендарный меч, о котором он мечтал с детства, теперь был в его владении, чтобы махать им по своей прихоти."
     },
     {
       "id": "SojiAbiBuffOne",
-      "name": "Первый крик зари (雞鳴)",
-      "desc": "Able to Clash with the enemy's specific Slot",
+      "name": "Первый крик зари<nobr>【雞鳴】</nobr>",
+      "desc": "Позволяет столкнуться с определённым навыком",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SojiAbiBuffTwo",
-      "name": "Заход солнца (日入)",
-      "desc": "Able to Clash with the enemy's specific Slot",
+      "name": "Заход солнца<nobr>【日入】</nobr>",
+      "desc": "Позволяет столкнуться с определённым навыком",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "SojiAbiBuffThree",
-      "name": "Вечернее зарево (黃昏)",
-      "desc": "Able to Clash with the enemy's specific Slot",
+      "name": "Вечернее зарево<nobr>【黃昏】</nobr>",
+      "desc": "Позволяет столкнуться с определённым навыком",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RyoshuParrySojiTwo",
       "name": "Неотсечённое воспоминание",
-      "desc": "- Deal +20% damage to and take +20% damage from The Pinky Nursefather; On Clash Win, deal 5 SP damage to The Pinky Nursefather\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; then, gain 1 Attack Power Up next turn\n- Cannot Retreat",
+      "desc": "· Наносит на 20% больше урона Отцу-воспитателю Мизинца и получает на 20% больше урона от неё же; при победе в столкновении наносит ей 5 урона по СД\n· Если Рёшу получает урон, который должен оглушить её, то она игнорирует оглушение и получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход вместо этого (Соответствующая граница выносливости исчезает при этом)\n· Не может отступить с поля боя",
       "summary": "Эксклюзивный эффект Рёшу",
       "undefined": "-"
     },
     {
       "id": "RyoshuParrySojiThree",
       "name": "Неотсекаемое время",
-      "desc": "- Deal +20% damage to and take +20% damage from The Pinky Nursefather; On Clash Win, deal 5 SP damage to The Pinky Nursefather\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; then, gain 1 Attack Power Up next turn\n- For this Encounter: After using a Skill, gain 1 ЭГО resource of the Skill's Affinity and 1 ЭГО resource for the least-owned ЭГО resource (2 times per turn)\n- Cannot Retreat (including allies)",
+      "desc": "· Наносит на 20% больше урона Отцу-воспитателю Мизинца и получает на 20% больше урона от неё же; при победе в столкновении наносит ей 5 урона по СД\n· Если Рёшу получает урон, который должен оглушить её, то она игнорирует оглушение и получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход вместо этого (Соответствующая граница выносливости исчезает при этом)\n· После использования навыков добавляет 1 ЭГО Ресурс к греху использованного навыка и 1 ЭГО Ресурс к наименее имеющемуся греху (До 2 раз за ход)\n· Рёшу и другие Грешники не могут отступить с поля боя",
       "summary": "Эксклюзивный эффект Рёшу",
       "undefined": "-"
     },
     {
       "id": "HeavenlyKillerStar",
-      "name": "Клинок Звезды Тяньша - Араяшики [天殺星刀阿賴耶識]",
-      "desc": "- Min & Max Speed +6\n- Offense Level +6\n- Inflict 3 more Bleed Potency with Skills\n- Turn Start: Gain 3 Offense Level Up for every enemy killed in this Encounter (max 6)",
+      "name": "Клинок Звезды Тяньша - Араяшики<nobr>【天殺星刀阿賴耶識】</nobr>",
+      "desc": "· Минимальная и максимальная скорость +6\n· Уровень атаки +6\n· Наносит на 3 [Laceration:`Кровотечения`] больше своими навыками\n· Начало хода: получает 3 [AttackUp:`Повышения уровня атаки`] за каждого убитого в этой битве противника (До 6)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Сами небеса не пощажены — небо, земля, человек и собственное „я“. Эта звезда восходит только для того, кто воспринимает всё сущее и время как единое целое, чтобы рассечь их всех»."
+      "flavor": "«Сами небеса не пощажены —  небо, земля, человек и собственное \"я\". Эта звезда восходит только для того, кто воспринимает всё сущее и время как единое целое, чтобы рассечь их всех.»"
     },
     {
       "id": "CutoffRyoshu",
-      "name": "Разорвать нить [切絲]",
-      "desc": "- Turn Start:\n· Gain 3 Bleed and +3 Bleed Count\n· Take Slash damage equal to (Stack / 3)\n- When hit, take Slash damage equal to (Stack / 5)\n- The more this effect stacks...\n- Max Stack: 100",
+      "name": "Разорвать нить【切絲】",
+      "desc": "Максимальное значение: 100\n· В начале хода получает 3 [Laceration:`Кровотечения`] и его счётчик повышается на 3\n· При получении удара от противника или в начале хода Получает Рубящий урон, равный трети значения этого эффекта\n· Чем больше значение этого эффекта...",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Пусть всё будет отсечено — ты, я, всё, что было, и всё, что будет».\n\n«Как только это будет сделано... я верну Араю»."
+      "flavor": "    «Пусть всё будет отсечено —  ты, я, всё, что было, и всё, что будет.»\n    «Как только это будет сделано... я верну Араю.»"
     },
     {
       "id": "CutbondRyoshu",
-      "name": "Муга [無我]",
-      "desc": "- Turn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 10 Stack\n- The more this effect stacks...\n- Max Stack: 100",
+      "name": "Самоотверженность<nobr>【無我】</nobr>",
+      "desc": "Максимальное значение: 100\n· Начало хода: получает 1 [AttackUp:`Повышение уровня атаки`] и 1 [DefenseUp:`Повышение уровня защиты`] за каждые 10 значения",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Поэтому я должна воздержаться от использования клинка. И как только буду готова, я вернусь в тот Дом»."
+      "flavor": "«Поэтому я должна воздержаться от использования клинка. И как только буду готова, я вернусь в тот Дом.»"
     },
     {
       "id": "EsteemNeeds",
       "name": "Жажда признания",
-      "desc": "- For every Stack, Deal +5% damage to and take +5% damage from Ryōshū (max 100%)\n- Final Power +1 for every 5 Stack when attacking Ryōshū as the main target (max 4)\n- At 10+ Stack, lose 5 SP upon Clash Lose\n- Max Stack: 20",
+      "desc": "Максимальное значение: 20\n· За каждую единицу значения этого эффекта: наносит на 5% больше урона Рёшу и получает на 5% больше урона от неё же (До 100%)\n· Итоговая сила +1 за каждые 5 значения, когда атакует Рёшу в качестве главной цели (До 4)\n· Если значение равно 10 и более, теряет 5 СД при поражении в столкновениях",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Как только я вернусь домой, г-господин Риен скажет мне, что я молодец...»"
+      "flavor": "«Как только я вернусь домой, г- господин Риен скажет мне, что я молодец...»"
     },
     {
       "id": "Fugacious",
-      "name": "Путь Клинка",
-      "desc": "- Turn Start:\n· Gain 1 Offense Level Up and 1 Defense Level Down for every 5 Stack\n· Gain 1 Damage Up and 1 Fragile for every 10 Stack\n- Max Stack: 50",
+      "name": "Путь клинка",
+      "desc": "Максимальное значение: 50\n· Начало хода:\n  - Получает 1 [AttackUp:`Повышение уровня атаки`] и 1 [DefenseUp:`Повышение уровня защиты`] за каждые 5 значения\n  - Получает 1 [AttackDmgUp:`Повышение урона`] и 1 [Vulnerable:`Уязвимость`] за каждые 10 значения",
       "summary": "",
       "undefined": "-",
-      "flavor": "Неважно, если этот сон всего лишь мимолётен.\nХотя мне, возможно, не удастся унаследовать имя Звезды в этой жизни, следование Пути Клинка заточит и закалит этот мой меч."
-    },
-    {
-      "id": "ObsessedTeacher_LowMorale",
-      "name": "Позор Семьи",
-      "desc": "- Turn Start: Gain 1 Slash DMG Up, 1 Clash Power Up, and 1 Fragile\n- Cannot gain Mang when using Skills",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "ObsessedTeacher_Panic",
-      "name": "Позор Семьи",
-      "desc": "- Turn Start: Gain 2 Slash DMG Up, 2 Clash Power Up, and 2 Fragile\n- Cannot gain Mang when using Skills",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "AgainstMyWill_LowMorale",
-      "name": "«У-убей... убей меня...»",
-      "desc": "Turn Start: Gain 8 Clash Power Down and 5 Power Down",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "AgainstMyWill_Panic",
-      "name": "«У-убей... убей меня...»",
-      "desc": "Turn Start: Gain 10 Clash Power Down and 5 Power Down",
-      "summary": "",
-      "undefined": "-"
+      "flavor": "    Неважно, если этот сон всего лишь мимолётен.\n    Хотя мне, возможно, не удастся унаследовать имя Звезды в этой жизни, следование пути клинка заточит и закалит мой меч."
     },
     {
       "id": "IndexPrescriptRien_0",
-      "name": "Предписание: [Устройство] I",
-      "desc": "Attack and hit a Prescript's Target before the first turn ends.\n\n- Turn Start: Gain this effect when this unit has no Unlock\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 3",
+      "name": "Предписание:<nobr>【Устройство】I</nobr>",
+      "desc": "<b>· Задача: использовать навык с [IndexPrescriptTargetMarkToEnemy:`Меткой предписания`] или попасть этим навыком по цели во время текущего хода</b>\n· Увеличивает максимальное значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] до 3",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_1",
-      "name": "Предписание: [Устройство] II",
-      "desc": "Attack and hit a Prescript's Target; or, before this turn passes, hit with 4 or more attacks. Complete before the 4th turn.\n\n- Turn Start: Gain this effect when this unit has Unlock - 1\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 6",
+      "name": "Предписание:<nobr>【Устройство】II</nobr>",
+      "desc": "<b>· Задача (Исполнить до начала 4 хода): атаковать [IndexPrescriptTargetToPersonality:`Цель предписания`]; или, во время одного хода, нанести урон 4 и более навыками</b>\n· Увеличивает максимальное значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] до 6",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_2",
-      "name": "Предписание: [Устройство] III",
-      "desc": "Use a powerful Skill that uses 9 different weapon types.\n\n- Turn Start: Gain this effect if this unit has Unlock - II\n- Maximum stackable Grace of the Prescript with this Prescript is limited to 9",
+      "name": "Предписание:<nobr>【Устройство】III</nobr>",
+      "desc": "<b>· Задача: атаковать навыком, который использует 9 разных видов оружия</b>\n· Увеличивает максимальное значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] до 9",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescriptRien_3",
-      "name": "Предписание: [Устройство] IV",
-      "desc": "Eliminate all obstacles before the next Prescript arrives.\n\n- Turn Start: Gain this effect if this unit has Unlock - III ",
+      "name": "Предписание:<nobr>【Устройство】IV</nobr>",
+      "desc": "<b>· Задача: устранить все препятствия до появления следующего предписания</b>",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "IndexPrescript_RienSecondPhase",
-      "name": "Предписание: [Устройство] - Предупреждение",
-      "desc": "Prioritize eliminating The Prescript's Target.\n\n- Gain this effect starting from the 2nd phase",
+      "name": "Предписание:<nobr>【Устройство】</nobr>- Предупреждение",
+      "desc": "Устранение [IndexPrescriptTargetToPersonality:`Цели предписания`] становится приоритетной задачей",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Писк Устройства ускоряется с каждой секундой, которую я пропускаю, не выполнив Предписание».\n\n«А вместе с ним и интервалы моего сердцебиения»."
+      "flavor": "    «Писк Устройства ускоряется с каждой секундой, которую я пропускаю, не выполнив Предписание.»\n    «А вместе с ним и интервалы моего сердцебиения.»"
     },
     {
       "id": "UnlockBuff_Rien1",
-      "name": "Снятие печати - I",
-      "desc": "- Offense Level +1, Defense Level +1\n- Combat End: Heal 10 SP",
+      "name": "Разблокировка - I",
+      "desc": "· Уровень атаки и защиты +1\n· Восстанавливает 10 СД в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuff_Rien2",
-      "name": "Снятие печати - II",
-      "desc": "- Offense Level +2, Defense Level +2\n- Combat End: Heal 20 SP",
+      "name": "Разблокировка - II",
+      "desc": "· Уровень атаки и защиты +2\n· Восстанавливает 20 СД в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "UnlockBuff_Rien3",
-      "name": "Снятие печати - III",
-      "desc": "- Offense Level +3, Defense Level +3\n- Combat End: Heal 30 SP",
+      "name": "Разблокировка - III",
+      "desc": "· Уровень атаки и защиты +3\n· Восстанавливает 30 СД в конце боевой фазы",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KarmaOfIndexRien",
-      "name": "Кармическое последствие",
-      "desc": "- Turn Start:\n· Gain 1 Defense Level Down for every 10 Stack\n· Gain 1 Fragile for every 20 Stack\n· Gain 1 Clash Power Down for every 40 Stack\n- Max Stack: 100",
+      "name": "Кармические последствия",
+      "desc": "Максимальное значение: 100\n· Начало хода:\n  - Получает 1 [DefenseDown:`Понижение уровня защиты`] за каждые 10 значения\n  - Получает 1 [Vulnerable:`Уязвимость`] за каждые 20 значения\n  - Получает 1 [ParryingResultDown:`Понижение силы в столкновении`] за каждые 40 значения",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KarmaOfIndexRien_2Phase",
-      "name": "Кармическое последствие [Фортуна]",
-      "desc": "- Turn Start:\n· Gain 1 Defense Level Down for every 10 Stack\n· Gain 1 Fragile for every 20 Stack\n· Gain 1 Clash Power Down for every 40 Stack\n- Max Stack: 200",
+      "name": "Кармические последствия<nobr>【Фортуна】</nobr>",
+      "desc": "Максимальное значение: 200\n· Начало хода:\n  - Получает 1 [DefenseDown:`Понижение уровня защиты`] за каждые 10 значения\n  - Получает 1 [Vulnerable:`Уязвимость`] за каждые 20 значения\n  - Получает 1 [ParryingResultDown:`Понижение силы в столкновении`] за каждые 40 значения",
       "summary": "",
       "undefined": "-",
-      "flavor": "O Fortúna velut luna statu variabilis"
+      "flavor": "«О, Фортуна, подобно луне, ты изменчива.»"
     },
     {
       "id": "BurningWoundRien_Mask",
       "name": "Маска Риена",
-      "desc": "- Offense Level -5, Defense Level -5\n- For every Stack, take +5% damage from Skills that inflict Burn or Bleed (includes Potency, Count, and Unique variants)\n· If the Skill inflicts both Burn and Bleed, take +7.5% damage for every Stack instead\n- Max Stack: 1",
+      "desc": "· Уровень атаки и защиты - 5\n· Получает на 5% больше урона от навыков, которые наносят [Combustion:`Огонь`] или [Laceration:`Кровотечение`] (Учитывая их <u>Особые виды</u>)\n  - Если навык наносит сразу оба эффекта, получает на 7.5% больше урона вместо этого",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Я держу её закрытой, потому что на неё больно даже смотреть»."
+      "flavor": "«Я держу её закрытой, потому что на неё больно даже смотреть.»"
     },
     {
       "id": "BurningWoundRien",
-      "name": "Шипящая рана",
-      "desc": "- Offense Level -5, Defense Level -5\n- Turn Start: Gain +1 Burn Count and +1 Bleed Count for every Stack\n- For every Stack, take +10% damage from Skills that inflict Burn or Bleed (includes Potency, Count, and Unique variants)\n· If the Skill inflicts both Burn and Bleed, take +15% damage for every Stack instead\n- Max Stack: 5",
+      "name": "Багровая рана",
+      "desc": "Максимальное значение: 5\n· Уровень атаки и защиты - 5\n· Свой счётчик [Combustion:`Огня`] и [Laceration:`Кровотечения`] повышается на значение этого эффекта в начале каждого хода (До 5)\n· За каждую единицу значения этого эффекта получает на 10% больше урона от навыков, которые наносят [Combustion:`Огонь`] или [Laceration:`Кровотечение`] (Учитывая их <u>Особые виды</u>)\n  - Если навык наносит сразу оба эффекта, получает на 15% больше урона за каждую единицу значения вместо этого",
       "summary": "",
       "undefined": "-",
-      "flavor": "В непосредственной близости от меча рана открывается, и плоть, которая когда-то остыла, снова горит."
+      "flavor": "В непосредственной близости от меча рана открывается, и плоть, которая когда- то остыла, снова начинает гореть."
     },
     {
       "id": "Shin_Rien",
-      "name": "Шин (心) - Риен",
-      "desc": "- Turn Start: Based on the missing HP on this unit...\n· Gain 1 Damage Up for every 15% missing HP (max 5)\n· Gain 1 Attack Power Up for every 40% missing HP (max 2)\n- Gain +1 more Poise Potency and Count from this unit's Skills\n- If this unit's SP is higher than the target's, deal +1% damage for every 2 SP difference (max 30%)",
+      "name": "Шин<nobr>【心】</nobr> - Риен",
+      "desc": "· Получает на 1 силу или счётчик [Breath:`Дыхания`] больше от своих навыков\n· Если СД цели ниже своей, наносит ей на 1% больше урона за каждые 2 единицы разницы в значении СД по сравнению с целью (До 30%)\n· Начало хода: \n  - Получает 1 [AttackDmgUp:`Повышение урона`] за каждые 15% потерянных ОЗ (До 5)\n  - Получает 1 [Enhancement:`Повышение силы атаки`] за каждые 40% потерянных ОЗ (До 2)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "StackRienSpecialSkill",
-      "name": "Выполнение [Гермес]",
-      "desc": "- Gain 1 Stack when using an Attack Skill (once per Skill; does not gain Stack from the same Skill twice)\n- Turn Start: at 9 Stack, use a powerful Skill\n- Consumed when using a certain Skill",
+      "name": "Посредничество<nobr>【Гермес】</nobr>",
+      "desc": "Максимальное значение: 9\n· Повышается на 1 при использовании атакующих навыков (Повторное использование одних и тех же навыков не засчитывается)\n· Использует мощную атаку, когда значение достигает максимума\n· После использования этой атаки сбрасывает значение и счёт разных использованных навыков",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Как повелевает мой бог»."
+      "flavor": "«Как повелевает мой бог.»"
     },
     {
       "id": "RienWeapon01Hatchet",
       "name": "Когда рубишь рёбра топориком...",
-      "desc": "- Deals Blunt damage\n- On Hit without Cracking, gain 2 Poise",
+      "desc": "· Наносит Дробящий урон\n· Получает 2 [Breath:`Дыхания`] при попадании целой [SuperCoin:`Вечной монетой`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon01Hatchet2phase",
       "name": "Когда рубишь рёбра топориком...",
-      "desc": "- Deals Blunt damage\n- On Hit without Cracking, gain 2 Poise and +2 Poise Count",
+      "desc": "· Наносит Дробящий урон\n· Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 2 при попадании целой [SuperCoin:`Вечной монетой`]",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Это едва ли оружие, но лучше, чем вилка»."
+      "flavor": "«Это едва ли оружие, но лучше, чем вилка.»"
     },
     {
       "id": "RienWeapon02Stiletto",
       "name": "Когда пронзаешь лёгкие стилетом...",
-      "desc": "- Deals Pierce damage\n- On Hit Without Cracking, inflict 2 Sinking",
+      "desc": "· Наносит Пронзающий урон\n· Наносит 2 [Sinking:`Утопания`] при попадании целой [SuperCoin:`Вечной монетой`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon02Stiletto2phase",
       "name": "Когда пронзаешь лёгкие стилетом...",
-      "desc": "- Deals Pierce damage\n- On Hit without Cracking, inflict 2 Sinking and +2 Sinking Count",
+      "desc": "· Наносит Пронзающий урон\n· Наносит 2 [Sinking:`Утопания`] и повышает его счётчик на 2 при попадании целой [SuperCoin:`Вечной монетой`]",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Я не мог избавиться от ужасного холодка, бегущего по спине, всякий раз, когда мне давали это оружие, когда ситуация требовала горизонтального взмаха. Мне трудно с ним работать»."
+      "flavor": "«Я не мог избавиться от ужасного холодка, бегущего по спине всякий раз, когда мне давали это оружие в требовавших горизонтального взмаха ситуациях. Мне трудно с ним работать.»"
     },
     {
       "id": "RienWeapon03Greatsword",
       "name": "Когда рассекаешь плечо и череп полуторным мечом...",
-      "desc": "- Deals Slash damage\n- This Coin deals +5% damage\n- On Hit without Cracking, gain 1 Offense Level Up next turn (2 times per turn)",
+      "desc": "· Наносит Рубящий урон\n· Монета наносит на 5% больше урона\n· Получает 1 [AttackUp:`Повышение уровня атаки`] на следующий ход при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon03Greatsword2phase",
       "name": "Когда рассекаешь плечо и череп полуторным мечом...",
-      "desc": "- Deals Slash damage\n- This Coin deals +7.5% damage\n- On Hit without Cracking, gain 1 Offense Level Up until next turn (2 times per turn)",
+      "desc": "· Наносит Рубящий урон\n· Монета наносит на 7.5% больше урона\n· Получает 1 [AttackUp:`Повышение уровня атаки`] на этот и следующий ход при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Этот меч, он... сносный, но само по себе это качество оставляет желать лучшего. Тем не менее, он всё ещё может быть надёжным оружием, если твои базовые навыки тверды»."
+      "flavor": "«Этот меч, он... сносный, но его качество само по себе оставляет желать лучшего. Тем не менее, он всё ещё может быть надёжным оружием, если твои базовые навыки тверды.»"
     },
     {
       "id": "RienWeapon04Rapier",
       "name": "Когда пробиваешь 10 или более дыр в торсе рапирой...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +5% damage\n- On Hit without Cracking, inflict 1 Defense Level Down next turn (2 times per turn)",
+      "desc": "· Наносит Пронзающий урон\n· Монета наносит на 5% больше урона\n· Наносит 1 [DefenseDown:`Понижение уровня защиты`] на следующий ход при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon04Rapier2phase",
       "name": "Когда пробиваешь 10 или более дыр в торсе рапирой...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +7.5% damage\n- On Hit without Cracking, inflict 1 Defense Level Down until next turn (2 times per turn)",
+      "desc": "· Наносит Пронзающий урон\n· Монета наносит на 7.5% больше урона\n· Наносит 1 [DefenseDown:`Понижение уровня защиты`] на этот и следующий ход при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Оружие длиннее и острее стилета. Мне также нравится рапира, так как она отлично подходит для более ловких техник»."
+      "flavor": "«Оружие длиннее и острее стилета. Мне также нравится рапира, так как она отлично подходит для более ловких техник.»"
     },
     {
       "id": "RienWeapon05Sledgehammer",
       "name": "Когда проламываешь затылок молотом...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +5% damage\n- On Hit without Cracking, raise target's Stagger Threshold by 3",
+      "desc": "· Наносит Дробящий урон\n· Монета наносит на 5% больше урона\n· Поднимает границу выносливости цели на 3 при попадании целой [SuperCoin:`Вечной монетой`]",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon05Sledgehammer2phase",
       "name": "Когда проламываешь затылок молотом...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +7.5% damage\n- On Hit without Cracking, raise target's Stagger Threshold by 5",
+      "desc": "· Наносит Дробящий урон\n· Монета наносит на 7.5% больше урона\n· Поднимает границу выносливости цели на 5 при попадании целой [SuperCoin:`Вечной монетой`]",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Просто, но окончательно. Это не полумера, как топорик — он *раздавит* всё, по чему ударит»."
+      "flavor": "«Просто, но окончательно. Это не полумера, как топорик —  молот <b>раздавит</b> всё, по чему ударит.»"
     },
     {
       "id": "RienWeapon06Ultragreatsword",
       "name": "Когда разрываешь тело двуручным мечом...",
-      "desc": "- Deals Slash damage\n- This Coin deals +10% damage\n- On Hit without Cracking, inflict 1 Slash Fragility (2 times per turn)",
+      "desc": "· Наносит Рубящий урон\n· Монета наносит на 10% больше урона\n· Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`] при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon06Ultragreatsword2phase",
       "name": "Когда разрываешь тело двуручным мечом...",
-      "desc": "- Deals Slash damage\n- This Coin deals +15% damage\n- On Hit without Cracking, inflict 1 Slash Fragility until next turn (2 times per turn)",
+      "desc": "· Наносит Рубящий урон\n· Монета наносит на 15% больше урона\n· Наносит 1 [SlashTakeDamageUp:`Уязвимость к Рубящему урону`] до конца следующего хода при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Когда дело доходит до владения клинками огромного размера и веса, такими как этот, важно найти свой центр тяжести».\n«И, конечно, не забывайте пользоваться его огромной массой».\n«Я однажды спрыгнул с крыши пятиэтажного здания с этим оружием и приземлился на голову Корректировщика 1-го ранга, убив его мгновенно»."
+      "flavor": "    «Когда дело доходит до владения клинками огромного размера и веса, такими как этот, важно найти свой центр тяжести.»\n    «И, конечно, не забывать пользоваться его огромной массой.»\n    «Я однажды спрыгнул с крыши пятиэтажного здания с этим оружием и приземлился на голову Корректировщика 1-го ранга, убив его мгновенно.»"
     },
     {
       "id": "RienWeapon07Lance",
-      "name": "Когда буришь 20-дюймовую дыру копьём...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +10% damage\n- On Hit without Cracking, inflict 1 Pierce Fragility (2 times per turn)",
+      "name": "Когда проделываешь 20-дюймовую дыру копьём...",
+      "desc": "· Наносит Пронзающий урон\n· Монета наносит на 10% больше урона\n· Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon07Lance2phase",
-      "name": "Когда буришь 20-дюймовую дыру копьём...",
-      "desc": "- Deals Pierce damage\n- This Coin deals +15% damage\n- On Hit without Cracking, inflict 1 Pierce Fragility until next turn (2 times per turn)",
+      "name": "Когда проделываешь 20-дюймовую дыру копьём...",
+      "desc": "· Наносит Пронзающий урон\n· Монета наносит на 15% больше урона\n· Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] до конца следующего хода при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Я бы счёл это оружие джекпотом. У этого копья также есть самодвижущееся свойство, которое позволяет ему пробивать цель — и всё, что стоит между нами, будь то стена или человек»."
+      "flavor": "«Я бы счёл это оружие джекпотом. У этого копья также есть самодвижущееся свойство, которое позволяет ему пробивать цель, а также всё остальное, что стоит между нами, будь то стена или человек.»"
     },
     {
       "id": "RienWeapon08Chain",
       "name": "Когда разрываешь плоть на десять тысяч полосок плетью...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +10% damage\n- On Hit without Cracking, inflict 1 Blunt Fragility (2 times per turn)",
+      "desc": "· Наносит Дробящий урон\n· Монета наносит на 10% больше урона\n· Наносит 1 [HitTakeDamageUp:`Уязвимость к Дробящему урону`] при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon08Chain2phase",
       "name": "Когда разрываешь плоть на десять тысяч полосок плетью...",
-      "desc": "- Deals Blunt damage\n- This Coin deals +15% damage\n- On Hit without Cracking, inflict 1 Blunt Fragility until next turn (2 times per turn)",
+      "desc": "· Наносит Дробящий урон\n· Монета наносит на 15% больше урона\n· Наносит 1 [HitTakeDamageUp:`Уязвимость к Дробящему урону`] до конца следующего хода при попадании целой [SuperCoin:`Вечной монетой`] (До 2 раз за ход)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Хотя некоторые могут приравнять это оружие к проигрышу в лотерее... мне оно весьма по душе».\n«Когда эта плеть щёлкает, она не просто пускает кровь; она отрывает полоску плоти цели, а вместе с ней — её решимость и энергию».\n«Я ценю то, что она позволяет мне наблюдать полный процесс того, как кто-то деконструируется по мере ослабления. О, и её также можно использовать, чтобы задушить в крайнем случае»."
+      "flavor": "    «Хотя некоторые могут приравнять это оружие к проигрышу в лотерее... мне оно весьма по душе.»\n    «Когда эта плеть щёлкает, она не просто пускает кровь; она отрывает полоску плоти цели, а вместе с ней —  её решимость и энергию.»\n    «Я ценю то, что она позволяет мне наблюдать полный процесс того, как кто-то деконструируется по мере ослабления. О, и её также можно использовать, чтобы задушить в крайнем случае.»"
     },
     {
       "id": "RienWeapon09Scythe",
       "name": "Когда рассекаешь само пространство косой, как некий человек...",
-      "desc": "- Deals Slash damage\n- This Coin deals +20% damage\n- On Hit without Cracking, it hits a guaranteed Crit; if target's base Slash Resist. is lower than 1, treat it as \"Normal\" (1.0)",
+      "desc": "· Наносит Рубящий урон\n· Монета наносит на 20% больше урона\n· При попадании целой [SuperCoin:`Вечной монетой`]:\n  - Удар становится критическим\n  - Если сопротивление цели к Рубящему урону сильнее x1.0, оно будет считается за \"Нормальное\" (x1.0)",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "RienWeapon09Scythe2phase",
       "name": "Когда рассекаешь само пространство косой, как некий человек...",
-      "desc": "- Deals Slash damage\n- This Coin deals +30% damage\n- On Hit without Cracking, it hits a guaranteed Crit; if target's base Slash Resist. is lower than 1.5, treat it as \"Weak\" (1.5)",
+      "desc": "· Наносит Рубящий урон\n· Монета наносит на 30% больше урона\n· при попадании целой [SuperCoin:`Вечной монетой`]:\n  - Удар становится критическим\n  - Если сопротивление цели к Рубящему урону сильнее x1.5, оно будет считается за \"Слабое\" (x1.5)",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Коса... Я хоть убей не мог понять, как пользоваться этим оружием, пока не увидел, как Синяя Реверберация владеет своей».\n«Даже после того, как я понаблюдал за ним, Предписание некоторое время продолжало давать мне только косу. В конце концов, она стала моим любимым, самым привычным и самым острым оружием».\n«Это оружие также режет лучше всех остальных. Хотя существует множество техник разрезания самого пространства... Хм. Возможно, эту историю лучше приберечь для другого раза»."
+      "flavor": "    «Коса... Я хоть убей не мог понять, как пользоваться этим оружием, пока не увидел, как Синяя Реверберация владеет своей.»\n    «Даже после того, как я достаточно понаблюдал за ним, Предписание некоторое время продолжало давать мне исключительно косу. В конце концов, она стала моим любимым, самым привычным и самым острым оружием.»\n    «Это оружие также режет лучше всех остальных. Хотя существует множество техник разрезания самого пространства—   ...Хм. Возможно, эту историю лучше приберечь для другого раза.»"
     },
     {
       "id": "Ryoshu_RienBattle_1Phase",
-      "name": "Кэцуэн [けつえん]",
-      "desc": "Ryōshū's HP cannot drop below 1 as long as there is 1 or more surviving allies in this Encounter\n- Clash Power +1; On Hit, deal +10% damage\n- On Clash Win, gain 1 ЭГО resource for each of the 3 least-owned Affinities\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; and gain 1 Attack Power Up next turn (no activation cap)\n- Cannot Retreat",
+      "name": "Кэцуэн<nobr>【けつえん】</nobr>",
+      "desc": "ОЗ Рёшу не могут упасть ниже 1, пока на поле боя остаётся хотя бы один другой Грешник\n· Сила в столкновении +1; наносит на 10% больше урона\n· При победе в столкновении добавляет 1 ЭГО Ресурс к трём наименее имеющимся грехам\n· Если Рёшу получает урон, который должен оглушить её, то она игнорирует оглушение и получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход вместо этого (Соответствующая граница выносливости исчезает при этом)\n· Не может отступить с поля боя",
       "summary": "",
       "undefined": "-",
-      "flavor": "Единственные ножны Рёшу, созданные для контроля Клинка Звезды Тяньша — Араяшики. Это ЭГО Араи, выкованное в вечном пламени."
+      "flavor": "Ножны Рёшу, созданные для контроля Клинка Звезды Тяньша —  Араяшики. Это ЭГО Араи, выкованное в неугасаемом огне."
     },
     {
       "id": "Ryoshu_RienBattle_2Phase",
-      "name": "Ренкэцуэн [れんけつえん]",
-      "desc": "Ryōshū's HP cannot drop below 1 as long as there is 1 or more surviving allies in this Encounter\n- Clash Power +2; On Hit, deal +25% damage\n- For every Sizzling Wound Stack on target:\n· Offense Level +1, Defense Level +1\n· Deal +5% damage On Hit (max 25%); if this unit used a Base ЭГО Skill, deal +50% damage per Stack instead (max 250%)\n- On Clash Win, gain 1 ЭГО resource for each of the 3 least-owned Affinities\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; and gain 1 Attack Power Up next turn (no activation cap)\n- Cannot Retreat",
+      "name": "Ренкэцуэн<nobr>【れんけつえん】</nobr>",
+      "desc": "ОЗ Рёшу не могут упасть ниже 1, пока на поле боя остаётся хотя бы один другой Грешник\n· Сила в столкновении +2; наносит на 25% больше урона\n· <b>За каждую единицу значения</b> [BurningWoundRien:`Шипящей раны`] Риена:\n  - Уровень атаки и защиты +1\n  - Наносит ему ещё на 5% больше урона (До 25%); если при этом использовует свой базовый ЭГО навык <color=#fe6f01>「Бушующее пламя лесов бескрайних」</color>, то наносит на 50% больше урона вместо этого (До 250%)\n· При победе в столкновении добавляет 1 ЭГО Ресурс к трём наименее имеющимся грехам\n· Если Рёшу получает урон, который должен оглушить её, то она игнорирует оглушение и получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход вместо этого (Соответствующая граница выносливости исчезает при этом)\n· Не может отступить с поля боя",
       "summary": "",
       "undefined": "-",
-      "flavor": "ЭГО парадоксального существования, ибо его эго слабо.\nНе приравнивайте то, что кажется полной преданностью кому-то другому, к абсолютному альтруизму.\nНужно обладать абсолютным эгоизмом, чтобы поставить значимость чужой жизни выше своей собственной.\n\n«Я не хочу, чтобы мамочка забыла обо мне, но... больше этого, я не хочу её потерять».\n«Так что забудь меня и позаботься о себе»."
-    },
-    {
-      "id": "PainfulScar_Panic",
-      "name": "Имитация отца",
-      "desc": "- Panic\n- Turn Start: Gain 5 Burn, +3 Burn Count, 5 Bleed, and +3 Bleed Count\n- Take +20% damage from Sinner Ryōshū",
-      "summary": "",
-      "undefined": "-"
-    },
-    {
-      "id": "PainfulScar_LowMorale",
-      "name": "Имитация отца",
-      "desc": "- Low Morale\n- Turn Start: Gain 5 Burn and 5 Bleed\n- Take +10% damage from Sinner Ryōshū",
-      "summary": "",
-      "undefined": "-"
+      "flavor": "    Парадоксальное ЭГО, в котором остается лишь слабая тень собственного \"я\".\n    Не приравнивайте то, что кажется полной преданностью кому- то другому, к абсолютному альтруизму.\n    Нужно обладать абсолютным эгоизмом, чтобы поставить значимость чужой жизни выше своей собственной.\n\n    «Я не хочу, чтобы мамочка забыла обо мне, но... больше этого, я не хочу её потерять.»\n    «Так что забудь меня и позаботься о себе.»"
     },
     {
       "id": "BlackNightmare",
-      "name": "Потакание Предписаниям",
-      "desc": "- Inflict +2 more Sinking Potency and Count\n- Expires at Turn End; then, gain (number of Skills that lost a Clash this turn x 5) Karmic Consequence",
+      "name": "Потакание предписаниям",
+      "desc": "· Наносит на 2 [Sinking:`Утопания`] и его счётчика больше своими навыками\n· Конец хода: получает (Количество проигранных в этом ходе столкновений × 5) <sprite name=\"KarmaOfIndexStudent\"><color=#e30000><u><link=\"KarmaOfIndexRien\">Кармических последствий</link></u></color>\n· Исчезает в конце хода",
       "summary": "",
       "undefined": "-",
-      "flavor": "Принятие Предписаний очевидно в их исполнении; однако по ту сторону маски можно заметить намёк на обиду за них.\nОднако, поскольку он мог предаваться всем страданиям и удовольствиям мира за маской «Предписаний», его истинная внутренняя тоска завершается благодарностью."
+      "flavor": "    Внешне он кажется готовым выполнять Предписания, но под маской скрывается и негодование по отношению к ним.\n    Однако, поскольку он мог предаваться всем страданиям и удовольствиям мира за маской Предписаний, его истинная внутренняя тоска завершается благодарностью."
     },
     {
       "id": "RyoshuParrySojiWe",
       "name": "Красная нить",
-      "desc": "- Skill Slot +3\n- Deal +50% damage to The Pinky Nursefather\n- For this Encounter: After using a Skill, gain 1 ЭГО resource of the Skill's Affinity and 1 ЭГО resource for the least-owned ЭГО resource (2 times per turn)\n- Cannot Retreat",
+      "desc": "· Количество слотов навыков +3\n· Наносит на 50% больше урона Отцу-воспитателю Указательного\n· После использования навыков добавляет 1 ЭГО Ресурс к греху использованного навыка и 1 ЭГО Ресурс к наименее имеющемуся греху (До 2 раз за ход)\n· Не может отступить с поля боя",
       "summary": "",
       "undefined": "-",
-      "flavor": "«Если эта единственная нить — единственное, что связывает тебя и меня, я буду цепляться за неё всем своим существом»."
+      "flavor": "«Если эта единственная нить —  единственное, что связывает тебя и меня, я буду цепляться за неё всем своим существом.»"
     },
     {
       "id": "RyoshuParrySojiThey",
       "name": "Красная нить",
-      "desc": "- Converts all Skill Coins into Unbreakable Coins\n- Final Power +4",
+      "desc": "· Монеты всех навыков становятся [SuperCoin:`Вечными`]\n· Итоговая сила +4",
       "summary": "",
       "undefined": "-",
       "flavor": "«Как бы мы ни пытались сбежать, эта упрямая нить всё равно заставит наши пути пересечься. Она отказывается рваться, что бы я ни делала...»"
     },
     {
       "id": "CriticalDamageUp",
-      "name": "Увел. крит. урона",
-      "desc": "For this turn: Deal +10% damage on Critical Hit for every Stack",
+      "name": "Повышение критического урона",
+      "desc": "Наносит на (Значение этого эффекта × 10)% больше урона при критических попаданиях",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "KAA1C9ActivateEffect",
-      "name": "Использована ампула Корпорации K",
-      "desc": "Used K Corp. Ampule",
+      "name": "Ампула Корпорации K нспользована",
+      "desc": "",
       "summary": "",
       "undefined": "-"
     },
