@@ -492,7 +492,7 @@
       "desc": "- Base Offense Level -15\n- Base Defense Level -15",
       "summary": "- Потерять Базовый Уровень атаки и Базовый Уровень защиты",
       "undefined": "-",
-      "flavor": "Порез от Клинка Звезды Тяньша — Араясики оставляет рану, которая, кажется, горит неугасимым огнём.\nЭта горящая метка никогда не исчезнет, ибо владелец рассёк само существование своего противника ценой своего собственного."
+      "flavor": "Порез от Клинка Звезды Тяньша — Араяшики оставляет рану, которая, кажется, горит неугасимым огнём.\nЭта горящая метка никогда не исчезнет, ибо владелец рассёк само существование своего противника ценой своего собственного."
     },
     {
       "id": "SojiAbiAgePast",
@@ -541,14 +541,14 @@
     },
     {
       "id": "Veteran_LowMorale",
-      "name": "Со времён Второй Дымной Войны",
+      "name": "Со времён Второй Дымовой Войны",
       "desc": "- Low Morale\n- Turn Start: Gain 1 Fragile\n- SP Heal Efficiency +2",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "Veteran_Panic",
-      "name": "Со времён Второй Дымной Войны",
+      "name": "Со времён Второй Дымовой Войны",
       "desc": "- Panic\n- Turn Start: Gain 2 Fragile and 2 Clash Power Up",
       "summary": "",
       "undefined": "-"
@@ -622,7 +622,7 @@
     },
     {
       "id": "HeavenlyKillerStar",
-      "name": "Клинок Звезды Тяньша - Араясики [天殺星刀阿賴耶識]",
+      "name": "Клинок Звезды Тяньша - Араяшики [天殺星刀阿賴耶識]",
       "desc": "- Min & Max Speed +6\n- Offense Level +6\n- Inflict 3 more Bleed Potency with Skills\n- Turn Start: Gain 3 Offense Level Up for every enemy killed in this Encounter (max 6)",
       "summary": "",
       "undefined": "-",
@@ -932,7 +932,7 @@
       "desc": "Ryōshū's HP cannot drop below 1 as long as there is 1 or more surviving allies in this Encounter\n- Clash Power +1; On Hit, deal +10% damage\n- On Clash Win, gain 1 ЭГО resource for each of the 3 least-owned Affinities\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; and gain 1 Attack Power Up next turn (no activation cap)\n- Cannot Retreat",
       "summary": "",
       "undefined": "-",
-      "flavor": "Единственные ножны Рёшу, созданные для контроля Клинка Звезды Тяньша — Араясики. Это ЭГО Араи, выкованное в вечном пламени."
+      "flavor": "Единственные ножны Рёшу, созданные для контроля Клинка Звезды Тяньша — Араяшики. Это ЭГО Араи, выкованное в вечном пламени."
     },
     {
       "id": "Ryoshu_RienBattle_2Phase",
