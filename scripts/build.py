@@ -312,7 +312,7 @@ def replace_shorthands(
         sprite_id = keyword_id
         text = match.group("text")
 
-        if (match.group("sprite_id")) is not None:
+        if match.group("sprite_id") is not None:
             sprite_id = match.group("sprite_id")
 
         if match.group("color") is not None:
