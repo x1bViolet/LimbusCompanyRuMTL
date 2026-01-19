@@ -957,7 +957,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Тратит все [LanternHohenheimBigBird:`Лампа`] и наносит на (Потраченное значение × 15)% больше урона (До 300%)"
+                  "desc": "[OnStartCoin] Тратит все [LanternHohenheimBigBird:`Лампы`] и наносит на (Потраченное значение × 15)% больше урона (До 300%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 8 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 2</nobr>"
@@ -1500,7 +1500,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монeта?`]"
+                  "desc": "[SuperCoin:`Вечная монeта`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`] и повышает его счётчик на 2"
@@ -1510,7 +1510,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монeта?`]"
+                  "desc": "[SuperCoin:`Вечная монeта`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
@@ -1533,7 +1533,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монeта?`]"
+                  "desc": "[SuperCoin:`Вечная монeта`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
@@ -1543,7 +1543,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin:`Вечная монeта?`]"
+                  "desc": "[SuperCoin:`Вечная монeта`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
