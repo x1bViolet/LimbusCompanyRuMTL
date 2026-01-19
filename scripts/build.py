@@ -309,7 +309,11 @@ def replace_shorthands(
 ) -> str:
     def make_replacement(match: re.Match) -> str:
         keyword_id = match.group("keyword_id")
+        sprite_id = keyword_id
         text = match.group("text")
+
+        if (match.group("sprite_id")) is not None:
+            sprite_id = match.group("sprite_id")
 
         if match.group("color") is not None:
             color = match.group("color")
@@ -320,7 +324,7 @@ def replace_shorthands(
             color = "#f8c200"
 
         return (
-            f'<sprite name="{keyword_id}">'
+            f'<sprite name="{sprite_id}">'
             f"<color={color}>"
             f"<u>"
             f'<link="{keyword_id}">'

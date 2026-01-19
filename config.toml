@@ -78,7 +78,7 @@ order = [
 ]
 
 [keyword_shorthands]
-regex = "\\[(?P<keyword_id>\\w+):`(?P<text>.*?)`\\](\\((?P<color>#[a-fA-F0-9]{6})\\))?"
+regex = "\\[(?P<keyword_id>\\w+):`(?P<text>.*?)`\\](\\((?P<color>#[a-fA-F0-9]{6})?(;(?P<sprite_id>\\w+))?\\))?"
 apply_for = [
   "Skills*.json",
   "Passive*.json",
