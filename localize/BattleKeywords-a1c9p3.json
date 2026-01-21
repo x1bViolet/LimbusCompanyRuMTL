@@ -551,7 +551,7 @@
     {
       "id": "IndexPrescriptRien_0",
       "name": "Предписание:<nobr>【Устройство】I</nobr>",
-      "desc": "<b>· Задача: использовать навык с [IndexPrescriptTargetMarkToEnemy:`Меткой предписания`] или попасть этим навыком по цели во время текущего хода</b>\n· Увеличивает максимальное значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] до 3",
+      "desc": "<b>· Задача: атаковать [IndexPrescriptTargetToPersonality:`Цель предписания`] до конца первого хода</b>\n· Увеличивает максимальное значение [BlessingOfIndexPrescriptEnemy:`Милости предписания`] до 3",
       "summary": "",
       "undefined": "-"
     },
