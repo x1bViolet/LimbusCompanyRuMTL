@@ -22,7 +22,7 @@
       "id": 1079,
       "panicName": "«У-убейте... убейте меня...»",
       "lowMoraleDescription": "Получает 5 [ResultReduction:`Понижений силы`] и 8 [ParryingResultDown:`Понижений силы в столкновении`]",
-      "panicDescription": "Получает 5 [ResultReduction:`Понижений силы`] и 8 [ParryingResultDown:`Понижений силы в столкновении`]"
+      "panicDescription": "Получает 5 [ResultReduction:`Понижений силы`] и 10 [ParryingResultDown:`Понижений силы в столкновении`]"
     },
     {
       "id": 1077,
