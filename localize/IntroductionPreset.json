@@ -1822,7 +1822,7 @@
     },
     {
       "id": "introduce_word_229",
-      "content": "Ножницы"
+      "content": "Ножница"
     },
     {
       "id": "introduce_sentence_229",
@@ -1843,6 +1843,14 @@
     {
       "id": "introduce_sentence_231",
       "content": "{0}."
+    },
+    {
+      "id": "introduce_word_232",
+      "content": "Автограф"
+    },
+    {
+      "id": "introduce_sentence_232",
+      "content": "Угх, мне правда стоило взять {0}(ы/-и/-а), прежде чем отправить его задницу на тот свет."
     }
   ]
 }
