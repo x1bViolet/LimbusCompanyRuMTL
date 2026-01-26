@@ -14,7 +14,7 @@
     },
     {
       "id": "EPISODE",
-      "content": "{0} эпизод"
+      "content": "[font=bebas]<size=85%>Эпизод №{0}</size>"
     },
     {
       "id": "PAGE",

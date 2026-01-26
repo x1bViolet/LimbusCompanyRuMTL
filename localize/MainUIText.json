@@ -1410,11 +1410,11 @@
     },
     {
       "id": "formation_force_participation_on",
-      "content": "<voffset=-0.25em><cspace=-1px>Ключевой</cspace></voffset>"
+      "content": "[font=bebas]<voffset=-0.25em><cspace=-1px>Ключевой</cspace></voffset>"
     },
     {
       "id": "formation_force_participation_off",
-      "content": "<voffset=-0.25em><size=56><cspace=-1px>Необходим</cspace></size></voffset>"
+      "content": "[font=bebas]<voffset=-0.25em><size=56><cspace=-1px>Необходим</cspace></size></voffset>"
     },
     {
       "id": "formation_must_participate_specific_character",

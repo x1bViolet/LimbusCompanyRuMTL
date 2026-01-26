@@ -1188,3 +1188,6 @@ RyoshuParrySojiThey ¤ #f8c200
 BlackNightmare ¤ #9f6a3a
 RyoshuParryIndexFingerWe ¤ #9f6a3a
 RyoshuParryIndexFingerThey ¤ #9f6a3a
+ResentmentIshmael ¤ #f8c200
+ReinforcedTattooIshmael ¤ #f8c200
+HeatingWireIshmael ¤ #f8c200
