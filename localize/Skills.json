@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Хлыст разума",
-          "desc": "[StartBattle] Тратит весь свой счётчик [Charge:`Заряда`], а навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET]",
+          "desc": "[StartBattle] Тратит весь свой счётчик [Charge:`Заряда`], а сам навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET]",
           "coinlist": [
             {
               "coindescs": [
