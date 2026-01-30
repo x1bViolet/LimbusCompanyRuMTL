@@ -596,7 +596,7 @@
                 },
                 {
                   "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях этого навыка (До 40%)",
-                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы слы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
@@ -654,7 +654,7 @@
                 },
                 {
                   "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях этого навыка (До <style=\"highlight\">50%</style>)",
-                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы слы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
@@ -712,7 +712,7 @@
                 },
                 {
                   "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях этого навыка (До <style=\"highlight\">60%</style>)",
-                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы слы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
