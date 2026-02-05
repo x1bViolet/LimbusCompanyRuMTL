@@ -2113,6 +2113,309 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пристальный взгляд: нулевая дальность",
+          "desc": "[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пристальный взгляд: нулевая дальность",
+          "desc": "<style=\"highlight\">Сила монет +1 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пристальный взгляд: нулевая дальность",
+          "desc": "Сила монет +1 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уничтожить зримое с помощью незримого",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30% от итогового урона этой монеты в качестве дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30% от итогового урона этой монеты в качестве дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Уничтожить зримое с помощью незримого",
+          "desc": "<style=\"highlight\">Сила в столкновении +2 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30% от итогового урона этой монеты в качестве дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30% от итогового урона этой монеты в качестве дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уничтожить зримое с помощью незримого",
+          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30% от итогового урона этой монеты в качестве дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30% от итогового урона этой монеты в качестве дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Спасение для тех, кто очарован лампой",
+          "desc": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird:`Ослепление`], наносит ей на 60% больше урона этой монетой",
+                  "summary": "На 60% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`], наносит ей 60% от итогового урона этой монеты в качестве урона Унынием",
+                  "summary": "[OnSucceedAttack] Наносит (60% от итогового урона монеты) урона Унынием"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Спасение для тех, кто очарован лампой",
+          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3\n<style=\"highlight\">[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird:`Ослепления`], получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход (Единожды за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird:`Ослепление`], наносит ей на 60% больше урона этой монетой",
+                  "summary": "На 60% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`], наносит ей <style=\"highlight\">80%</style> от итогового урона этой монеты в качестве урона Унынием",
+                  "summary": "[OnSucceedAttack] Наносит (80% от итогового урона монеты) урона Унынием"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фитиль из сгоревших перьев",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`] до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом [LanternGregBigBird:`Лампу`] (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (Значение [Binding:`Связывания`] на себе / 3)союзникам с наименьшей текущей скоростью 1 [Agility:`Спешку`] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фитиль из сгоревших перьев",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`] до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом [LanternGregBigBird:`Лампу`] (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (Значение [Binding:`Связывания`] на себе / 3) союзникам с наименьшей текущей скоростью 1 [Agility:`Спешку`] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

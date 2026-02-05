@@ -1930,7 +1930,7 @@
                   "desc": "[OnSucceedAttackHead] Если имеется [ChickenStance:`Кровавое пламя`] или свои текущие ОЗ ниже 50% от максимальных, вновь подкидывает эту монету 1 раз"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит дополнительный урон Гневом в размере 10% от итогового нанесённого этой монетой урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 10% от итогового урона этой монеты в качестве урона Гневом</style>"
                 }
               ]
             }
@@ -2016,7 +2016,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит дополнительный урон Чревоугодием в размере 10% от итогового нанесённого этой монетой урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 10% от итогового урона этой монеты в качестве урона Чревоугодием</style>"
                 }
               ]
             },
@@ -2029,7 +2029,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит всем целям дополнительный урон Чревоугодием в размере 20% от итогового нанесённого этой монетой урона</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит всем целям 20% от итогового урона этой монеты в качестве урона Чревоугодием</style>"
                 }
               ]
             }
@@ -2077,6 +2077,295 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цепной удар【連擊】",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Цепной удар【連擊】",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на <style=\"highlight\">3</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 при 6 и более [Breath:`Дыхания`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Цепной удар【連擊】",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Breath:`Дыхания`] <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Получает ещё 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Безымянный разрез【無名斬】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 10% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Безымянный разрез【無名斬】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 6 и более [Breath:`Дыхания`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 10% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttackHead] Вновь подкидывает эту монету 1 раз</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Безымянный разрез【無名斬】",
+          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 6</style> [Breath:`Дыхания`] <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 10% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Вновь подкидывает эту монету 1 раз"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttackHead] Если вновь подкинутая монета выпала орлом и значение [LittleFingerID:`Лазурного клинка лунного света`] при этом равно 10 и более, опять подкидывает её 1 раз</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Разрубание падающей звезды【落星一殺】",
+          "desc": "Наносит на (Излишнее количество целей этого навыка по сравнению с фактическим × 30)% больше урона (До 60%; в фокусированных битвах считаются Части)\n[WhenUse] Монета этого навыка становится [SuperCoin:`Вечной`] при максимальном значении [LittleFingerID:`Лазурного клинка лунного света`]\n[WhenUse] Сила монеты +1 за каждые 4 [Breath:`Дыхания`] (До 3)\n[WhenUse] Базовая сила +1 за каждые 4 [LittleFingerID:`Лазурного клинка лунного света`] (До 3)\n[WhenUse] Получает 5 [Breath:`Дыхания`]\n\n[BeforeAttack] Количество целей +1 за каждые 10 [LittleFingerID:`Лазурного клинка лунного света`] (До 2)\n[EndSkill] Значение [LittleFingerID:`Лазурного клинка лунного света`] понижается на 7 за каждую дополнительную цель этого навыка от эффекта выше (До 14)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 50% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Наносит 25% от итогового урона этой монеты в качестве дополнительного Рубящего урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрубание падающей звезды【落星一殺】",
+          "desc": "Наносит на (Излишнее количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">50</style>)% больше урона (До <style=\"highlight\">100%</style>; в фокусированных битвах считаются Части)\n[WhenUse] Монета этого навыка становится [SuperCoin:`Вечной`] при максимальном значении [LittleFingerID:`Лазурного клинка лунного света`]\n[WhenUse] Сила монеты +1 за каждые 4 [Breath:`Дыхания`] (До <style=\"highlight\">5</style>)\n[WhenUse] Базовая сила +1 за каждые 4 [LittleFingerID:`Лазурного клинка лунного света`] (До <style=\"highlight\">5</style>)\n[WhenUse] Получает <style=\"highlight\">7</style> [Breath:`Дыхания`]\n\n[BeforeAttack] Количество целей +1 за каждые 10 [LittleFingerID:`Лазурного клинка лунного света`] (До 2)\n[EndSkill] Значение [LittleFingerID:`Лазурного клинка лунного света`] понижается на <style=\"highlight\">5</style> за каждую дополнительную цель этого навыка от эффекта выше (До <style=\"highlight\">10</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На <style=\"highlight\">70%</style> больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Наносит 25% от итогового урона этой монеты в качестве дополнительного Рубящего урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита【守】",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[TurnStartBattle] При 25 и более [Breath:`Дыхания`] этот навык заменяется на альтернативный защитный навык <color=#014fd6>「Уклонение 【守】」</color>\n[StartBattle] Получает 6 [Breath:`Дыхания`] и повышает его счётчик на 1 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Защита【守】",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[TurnStartBattle] При 25 и более [Breath:`Дыхания`] этот навык заменяется на альтернативный защитный навык <color=#014fd6>「Уклонение 【守】」</color>\n[StartBattle] Получает 6 [Breath:`Дыхания`] и повышает его счётчик <style=\"highlight\">на 2</style> (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уклонение【回】",
+          "desc": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID:`Лазурного клинка лунного света`]\n[StartBattle] Повышает свой счётчик [Breath:`Дыхания`] на 4 (Единожды за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уклонение【回】",
+          "desc": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID:`Лазурного клинка лунного света`]\n[StartBattle] Повышает свой счётчик [Breath:`Дыхания`] на 4 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedEvade] Получает 1 [CriticalDamageUp:`Повышение критического урона`] на следующий ход (До 2 раз за ход)</style>"
                 }
               ]
             }
