@@ -2141,7 +2141,7 @@
         {
           "level": 2,
           "name": "Пристальный взгляд: нулевая дальность",
-          "desc": "<style=\"highlight\">Сила монет +1 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
+          "desc": "<style=\"highlight\">Сила монет +1 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2162,7 +2162,7 @@
         {
           "level": 4,
           "name": "Пристальный взгляд: нулевая дальность",
-          "desc": "Сила монет +1 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
+          "desc": "Сила монет +1 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2223,7 +2223,7 @@
         {
           "level": 2,
           "name": "Уничтожить зримое с помощью незримого",
-          "desc": "<style=\"highlight\">Сила в столкновении +2 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]</style>",
+          "desc": "<style=\"highlight\">Сила в столкновении +2 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2264,7 +2264,7 @@
         {
           "level": 4,
           "name": "Уничтожить зримое с помощью незримого",
-          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>",
+          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2310,7 +2310,7 @@
         {
           "level": 3,
           "name": "Спасение для тех, кто очарован лампой",
-          "desc": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3",
+          "desc": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3",
           "coinlist": [
             {
               "coindescs": [
@@ -2332,11 +2332,11 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird:`Ослепление`], наносит ей на 60% больше урона этой монетой",
+                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
                   "summary": "На 60% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`], наносит ей 60% от итогового урона этой монеты в качестве урона Унынием",
+                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей 60% от итогового урона этой монеты в качестве урона Унынием",
                   "summary": "[OnSucceedAttack] Наносит (60% от итогового урона монеты) урона Унынием"
                 }
               ]
@@ -2346,7 +2346,7 @@
         {
           "level": 4,
           "name": "Спасение для тех, кто очарован лампой",
-          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3\n<style=\"highlight\">[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird:`Ослепления`], получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход (Единожды за ход)</style>",
+          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3\n<style=\"highlight\">[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird:`Ослепления`](;DelusionHohenheimBigBird), получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2371,11 +2371,11 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird:`Ослепление`], наносит ей на 60% больше урона этой монетой",
+                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
                   "summary": "На 60% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`], наносит ей <style=\"highlight\">80%</style> от итогового урона этой монеты в качестве урона Унынием",
+                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей <style=\"highlight\">80%</style> от итогового урона этой монеты в качестве урона Унынием",
                   "summary": "[OnSucceedAttack] Наносит (80% от итогового урона монеты) урона Унынием"
                 }
               ]
