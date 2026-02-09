@@ -1191,3 +1191,7 @@ RyoshuParryIndexFingerThey ¤ #9f6a3a
 ResentmentIshmael ¤ #f8c200
 ReinforcedTattooIshmael ¤ #f8c200
 HeatingWireIshmael ¤ #f8c200
+LanternGregBigBird ¤ #9f6a3a
+ObedienceGregBigBird ¤ #f8c200
+DelusionGregBigBird ¤ #e30000
+LittleFingerID ¤ #f8c200
