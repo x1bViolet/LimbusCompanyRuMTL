@@ -3,6 +3,10 @@
     {
       "id": "railway_dungeon_advice_level_title",
       "content": "Рекомендуемый уровень и связь"
+    },
+    {
+      "id": "railway_dungeon_advice_1001_level_desc",
+      "content": "- Идентичности : IV Уровень связи, 55-ый Уровень\n- ЭГО : IV Уровень связи"
     }
   ]
 }

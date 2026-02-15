@@ -551,7 +551,7 @@
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает 6% от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ (Единожды за навык)\n- При этом игнорирует тех союзников, которые не имеют базовых атакующих навыков с грехом Зависти (Не учитывая себя)",
-                  "summary": "[UnBrokenCoinOnSucceedAttack] Heal HP"
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Восстанавливает ОЗ"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [NiddleEGO:`Иглы`]"
@@ -576,7 +576,7 @@
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает <style=\"highlight\">8%</style> от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ (Единожды за навык)\n- При этом игнорирует тех союзников, которые не имеют базовых атакующих навыков с грехом Зависти (Не учитывая себя)",
-                  "summary": "[UnBrokenCoinOnSucceedAttack] Heal HP"
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Восстанавливает ОЗ"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [NiddleEGO:`Иглы`]"
@@ -604,7 +604,7 @@
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает <style=\"highlight\">10%</style> от максимальных ОЗ двум союзникам с наименьшим процентом текущих ОЗ (Единожды за навык)\n- При этом игнорирует тех союзников, которые не имеют базовых атакующих навыков с грехом Зависти (Не учитывая себя)",
-                  "summary": "[UnBrokenCoinOnSucceedAttack] Heal HP"
+                  "summary": "[UnBrokenCoinOnSucceedAttack] Восстанавливает ОЗ"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [NiddleEGO:`Иглы`]"
