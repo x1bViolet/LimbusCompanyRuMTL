@@ -251,7 +251,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Nail:`Гвоздя`]"
+                  "desc": "[OnSucceedAttack] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -299,7 +299,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть [AffectionTeddy:`Привязанность`], снимает её и наносит такое же количество [Curse:`Проклятий`] и [Nail:`Гвоздей`] (До 4)"
+                  "desc": "[OnSucceedAttack] Если у цели есть [AffectionTeddy:`Привязанность`], снимает её и наносит такое же количество [Curse:`Проклятий`] и [NailPersonality:`Гвоздей`] (До 4)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 4 и более [Curse:`Проклятия`], тратит 4 [Curse:`Проклятия`] с цели и наносит 1 [CursePackage:`Шкатулку проклятий`]"
@@ -330,7 +330,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[WinDuelAttack] Наносит 6 [Nail:`Гвоздей`]"
+                  "desc": "[WinDuelAttack] Наносит 6 [NailPersonality:`Гвоздей`]"
                 }
               ]
             }
@@ -381,7 +381,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [Nail:`Гвоздя`]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [NailPersonality:`Гвоздя`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если удалось победить в столкновении с целью, повышает границу выносливости цели на (Количество её [AffectionTeddy:`Привязанности`] × 10)\n[OnSucceedAttack] Вся [AffectionTeddy:`Привязанность`] исчезает с цели"
