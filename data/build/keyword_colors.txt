@@ -1214,3 +1214,11 @@ YisangWeapon06Ultragreatsword ¤ #f8c200
 YisangWeapon07Lance ¤ #f8c200
 YisangWeapon08Chain ¤ #f8c200
 YisangWeapon09Scythe ¤ #f8c200
+ObjectOfExploration ¤ #9f6a3a
+Inspire ¤ #f8c200
+PaintingMaterial ¤ #e30000
+GreatAesthetics ¤ #f8c200
+GiftCannon ¤ #f8c200
+GiftGlass ¤ #e30000
+EnhanceRoseSign ¤ #f8c200
+BlandishmentShinEnemyDelete ¤ #f8c200
