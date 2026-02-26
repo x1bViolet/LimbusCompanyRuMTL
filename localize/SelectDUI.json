@@ -1,0 +1,36 @@
+{
+  "dataList": [
+    {
+      "id": "localize_dui_select_popup_using",
+      "content": "Используется"
+    },
+    {
+      "id": "localize_dui_select_popup_selecting",
+      "content": "Выбрано"
+    },
+    {
+      "id": "localize_dui_select_popup_change_button",
+      "content": "Изменить"
+    },
+    {
+      "id": "dui_mode_name_1",
+      "content": "Обычный"
+    },
+    {
+      "id": "dui_mode_name_2",
+      "content": "Тёмный"
+    },
+    {
+      "id": "dui_mode_name_2",
+      "content": "Тёмный"
+    },
+    {
+      "id": "dui_skin_name_0",
+      "content": "Обычный"
+    },
+    {
+      "id": "dui_skin_name_1",
+      "content": "Тёмный"
+    }
+  ]
+}
