@@ -2011,6 +2011,14 @@
     {
       "id": "assistant_level",
       "content": "Уровень"
+    },
+    {
+      "id": "mainui_ego_gift_keyword",
+      "content": "Эффект"
+    },
+    {
+      "id": "mainui_ego_gift_grade",
+      "content": "Ранг"
     }
   ]
 }
