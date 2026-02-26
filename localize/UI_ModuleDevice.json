@@ -42,7 +42,7 @@
     },
     {
       "id": "check_default_personality_leap_up",
-      "content": "Эту Личность можно бесплатно Повысить до Уровня 3, проходя Основной Сюжет.\n\nВсе равно Повысить эту Личность?"
+      "content": "Эту Идентичность можно бесплатно Повысить до Уровня 3, проходя Основной Сюжет.\n\nВсе равно Повысить эту Личность?"
     },
     {
       "id": "check_default_ego_leap_up",
@@ -50,11 +50,11 @@
     },
     {
       "id": "select_identity_popup_title",
-      "content": "Выбрать Личность"
+      "content": "Выбрать Идентичность"
     },
     {
       "id": "select_identity_popup_title_season_1",
-      "content": "Выбрать Личность 1 Сезона"
+      "content": "Выбрать Идентичность 1 Сезона"
     },
     {
       "id": "select_ego_popup_title_season_1_battlepass",
