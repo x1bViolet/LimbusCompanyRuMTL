@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "id": "anniversary_3rd_day_1_date",
+      "content": "[font=excelsior]<cspace=0.05em>День 1</cspace>"
+    },
+    {
+      "id": "anniversary_3rd_day_1_reward",
+      "content": "<cspace=0.02em><size=80%>Билет «Третья годовщина»\n<voffset=-0.2em>Билет выбора Идентичности</voffset>\n1-го Сезона</size></cspace>"
+    },
+    {
+      "id": "anniversary_3rd_day_7_date",
+      "content": "[font=excelsior]<cspace=0.05em>День 7</cspace>"
+    },
+    {
+      "id": "anniversary_3rd_day_7_reward",
+      "content": "<cspace=0.02em>Особый билет «Третья годовщина»</cspace>"
+    },
+    {
+      "id": "anniversary_3rd_last_day_reward",
+      "content": "• Билет выбора Идентичности 3-ьей годовщины\n\n• Комментатор Анжела (Директор Библиотеки - Ранние дни)\n\n• Особый билет «Третья годовщина»\n\n• Сама третья годовщина (Особое)"
+    },
+    {
+      "id": "anniversary_3rd_last_day_reward_desc",
+      "content": "※ Получение дубликата уже имеющегося у вас Комментатора даст 50 <b>Ящиков звеньев</b> вместо этого."
+    },
+    {
+      "id": "select_identity_popup_title_season_2",
+      "content": "Выбрать Идентичность 2-го сезона"
+    },
+    {
+      "id": "select_identity_popup_title_season_3",
+      "content": "Выбрать Идентичность 3-го сезона"
+    },
+    {
+      "id": "select_identity_popup_permanent_personality_label",
+      "content": "Всегда доступно"
+    }
+  ]
+}

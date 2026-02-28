@@ -30,7 +30,7 @@
     },
     {
       "id": "mirror_dungeon_acquire_material_ego_gift_by_start_buff_notice",
-      "content": ""
+      "content": "Благословение звёз <{0}> активировано: получены Остатки"
     },
     {
       "id": "mirrordungeon_theme_hard_blocked_7",
@@ -55,6 +55,34 @@
     {
       "id": "mirror_dungeon_start_buff_select_all_level",
       "content": "Усилить все"
+    },
+    {
+      "id": "dungeon_shop_detect_personality_skill",
+      "content": "Поиск навыков"
+    },
+    {
+      "id": "ui_blocker_mirror_dungeon_detect_personality_skill",
+      "content": "Выберите грешника"
+    },
+    {
+      "id": "mirror_dungeon_shop_back_to_heal_again_button",
+      "content": "Вылечить опять"
+    },
+    {
+      "id": "mirror_dungeon_shop_back_to_heal_again_button_desc",
+      "content": "Вернуться к выбору типа лечения"
+    },
+    {
+      "id": "purchase_personality_skill_by_starlight_desc",
+      "content": "Потратить <color=#f8c200>{0}</color> Света звёзд для замены этого навыка?"
+    },
+    {
+      "id": "mirror_starlight_result_tooltip_item_detect_personality_skill",
+      "content": "Поиск навыков"
+    },
+    {
+      "id": "mirror_dungeon_shop_cannot_detect_personality_skill_desc",
+      "content": "Нельзя приобрести"
     }
   ]
 }
