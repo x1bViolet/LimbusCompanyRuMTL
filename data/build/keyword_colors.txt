@@ -1230,3 +1230,15 @@ QueenBeepheromone ¤ #f8c200
 QueenBeeMark ¤ #e30000
 PinkPetals ¤ #e30000
 DesperadoBuff ¤ #f8c200
+ThatIsRhythm ¤ #e30000
+MeursaultBeeSpore ¤ #e30000
+MeursaultWorkerBee ¤ #f8c200
+MeursaultSporeBulletLong ¤ #9f6a3a
+MeursaultSporeBulletShort ¤ #9f6a3a
+MeursaultSporeBulletReloading
+MeursaultBeeGunLong ¤ #9f6a3a
+MeursaultBeeGunShort ¤ #9f6a3a
+BulletGodok ¤ #9f6a3a
+AlriuneEGOThey ¤ #e30000
+AlriuneEGOWe ¤ #f8c200
+GodokPanicType ¤ #e30000
