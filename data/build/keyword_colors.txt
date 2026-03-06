@@ -1222,3 +1222,11 @@ GiftCannon ¤ #f8c200
 GiftGlass ¤ #e30000
 EnhanceRoseSign ¤ #f8c200
 BlandishmentShinEnemyDelete ¤ #f8c200
+BestWelfareTeamCaptain ¤ #9f6a3a
+RunHallway ¤ #9f6a3a
+NextHallway ¤ #9f6a3a
+TensionUp ¤ #9f6a3a
+QueenBeepheromone ¤ #f8c200
+QueenBeeMark ¤ #e30000
+PinkPetals ¤ #e30000
+DesperadoBuff ¤ #f8c200
