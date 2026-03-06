@@ -1,0 +1,256 @@
+{
+  "dataList": [
+    {
+      "id": "Walpu8_event_desc",
+      "content": "Подавляйте сущности Янтарных Сумерек на Лёгкой и Тяжёлой сложности в Испытании Янтарных Сумерек.\n\nПолучайте различные награды за выполнение заданий."
+    },
+    {
+      "id": "missionConditionTitle_10117",
+      "content": "Завершите подавление, победив БонБон [Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_10118",
+      "content": "Завершите подавление, победив БонБон [Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_10119",
+      "content": "Завершите подавление, победив БанБан [Сочная соковыжималка - Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_10120",
+      "content": "Завершите подавление, не дав БонБон [Апельсиновый] отступить с поля боя"
+    },
+    {
+      "id": "missionConditionTitle_10121",
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#18bea5>Капитан Отдела Благосостояния</color> победил 5 и более врагов за битву"
+    },
+    {
+      "id": "missionConditionTitle_10122",
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#18bea5>Капитан Отдела Благосостояния</color> выжил и получил менее 5 попаданий от атакующих навыков противников"
+    },
+    {
+      "id": "missionConditionTitle_10123",
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#18bea5>Капитан Отдела Благосостояния</color> победил хотя бы 1 БанБан [Сочная соковыжималка - Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_10124",
+      "content": "Завершите подавление после того, как 3 и более Грешника получат <sprite name=\"PumpkinJelly\"><color=#e68b13>Апельсиновый БонБон</color>"
+    },
+    {
+      "id": "missionConditionTitle_10125",
+      "content": "Завершите подавление, нанеся 300+ урона атакующим навыком за раз"
+    },
+    {
+      "id": "missionConditionTitle_10126",
+      "content": "Завершите подавление без смертей Грешников"
+    },
+    {
+      "id": "missionConditionTitle_10127",
+      "content": "Завершите подавление так, чтобы СД Грешников не опускалась до -45"
+    },
+    {
+      "id": "missionConditionTitle_10128",
+      "content": "Завершите подавление так, чтобы сила <sprite name=\"Laceration\"><color=#e30000>Кровотечения</color> Грешников достигала 10"
+    },
+    {
+      "id": "missionConditionTitle_20065",
+      "content": "Завершите подавление, победив БонБон [Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_20066",
+      "content": "Завершите подавление, победив БонБон [Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_20067",
+      "content": "Завершите подавление, победив БанБан [Сочная соковыжималка - Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_20068",
+      "content": "Завершите подавление, победив БанБан [Сочная соковыжималка - Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_20069",
+      "content": "Завершите подавление, не дав БанБан [Сочная соковыжималка - Апельсиновый] отступить"
+    },
+    {
+      "id": "missionConditionTitle_20070",
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#16ac95>Капитан Отдела Благосостояния</color> победил хотя бы 1 БанБан [Сочная соковыжималка - Апельсиновый]"
+    },
+    {
+      "id": "missionConditionTitle_20071",
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#16ac95>Капитан Отдела Благосостояния</color> победил 10 и более врагов за битву"
+    },
+    {
+      "id": "missionConditionTitle_20072",
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#16ac95>Капитан Отдела Благосостояния</color> и получил менее 3 попаданий от атакующих навыков противников"
+    },
+    {
+      "id": "missionConditionTitle_20073",
+      "content": "Завершите подавление, победив 3 и более врагов одним атакующим навыком"
+    },
+    {
+      "id": "missionConditionTitle_20074",
+      "content": "Завершите подавление после того, как все Грешники получат <sprite name=\"PumpkinJelly\"><color=#e68b13>Апельсиновый БонБон</color>"
+    },
+    {
+      "id": "missionConditionTitle_20075",
+      "content": "Завершите подавление, нанеся 500+ урона атакующим навыком за раз"
+    },
+    {
+      "id": "missionConditionTitle_20076",
+      "content": "Завершите подавление без смертей Грешников"
+    },
+    {
+      "id": "missionConditionTitle_20077",
+      "content": "Завершите подавление так, чтобы СД Грешников не опускалась до -45"
+    },
+    {
+      "id": "missionConditionTitle_20078",
+      "content": "Завершите подавление так, чтобы сила <sprite name=\"Laceration\"><color=#e30000>Кровотечения</color> Грешников достигала 10"
+    },
+    {
+      "id": "missionConditionTitle_20079",
+      "content": "Выполните все задания на Лёгкой и Тяжёлой сложности"
+    },
+    {
+      "id": "walpu8_hard_stage_unlock_condition",
+      "content": "Пройдите Лёгкую сложность для разблокировки"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_01_title",
+      "content": "8-я Вальпургиева ночь — Янтарные Сумерки"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_01_title_01",
+      "content": "8-я Вальпургиева ночь — Янтарные Сумерки"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_01_desc_01",
+      "content": "[8-я Вальпургиева ночь — Янтарные Сумерки] открыта независимо от вашего прогресса в основной истории. Заходите через баннер события в Окне или меню Водителя."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_02_title_01",
+      "content": "Время проведения"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_02_desc_01",
+      "content": "Здесь показана продолжительность события 8-й Вальпургиевой ночи. Во время события выполняйте задания для испытаний Лёгкой и Тяжёлой сложности, чтобы получить награды."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_03_title_01",
+      "content": "Испытание Лёгкой сложности"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_03_desc_01",
+      "content": "Выберите дверь слева, чтобы начать испытание Лёгкой сложности.\nВ период проведения 8-й Вальпургиевой ночи вход будет требовать 1 Энкефалиновый Модуль.\n\nНа Лёгкой сложности уровень всех развёрнутых Идентичностей ниже 60 будет повышен до 60.\nТакже, любые развёрнутые Идентичности и ЭГО с уровнем Связи ниже 3 будут повышены до 3 уровня Связи."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_03_title_02",
+      "content": "Испытание Тяжёлой сложности"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_03_desc_02",
+      "content": "Первое прохождение испытания Лёгкой сложности открывает Тяжёлую сложность. На Тяжёлой сложности будут отражены текущие характеристики ваших Идентичностей и ЭГО без вспомогательных бонусов."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_04_title_01",
+      "content": "Эффекты Капитана отдела благосостояния"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_04_desc_01",
+      "content": "Первый Грешник, развёрнутый в меню Команды, получит эффект «<sprite name=\"BestWelfareTeamCaptain\"><color=#18bea5><u><link=\"BestWelfareTeamCaptain\">Капитан Отдела Благосостояния</link></u></color>».\n\nГрешник с этим эффектом получит больше слотов навыков и другие полезные эффекты."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_05_title_01",
+      "content": "Задания"
+    },
+    {
+      "id": "tutorial_mainui_walpu8_05_desc_01",
+      "content": "Вы можете перейти на страницу [Задания], где можно посмотреть список миссий, которые нужно выполнить во время битвы, а также их награды."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_06_desc_01",
+      "content": "Вы можете увидеть период обмена наград на странице [Задания]."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_06_desc_02",
+      "content": "Для Лёгкой и Тяжёлой сложности предусмотрены разные наборы заданий."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_06_desc_03",
+      "content": "Выполняйте эти задания и получайте различные награды."
+    },
+    {
+      "id": "tutorial_mainui_walpu8_07_desc_01",
+      "content": "Даже после полного завершения события вы сможете в любое время пройти битвы «8-я Вальпургиева ночь — Янтарные Сумерки» и посмотреть его историю во вкладке Водителя или в Театре - [Поездки]."
+    },
+    {
+      "id": "walpu8_reward_button_normal",
+      "content": "Лёгкая"
+    },
+    {
+      "id": "walpu8_reward_button_hard",
+      "content": "Тяжёлая"
+    },
+    {
+      "id": "walpu8_normal_difficulty",
+      "content": "Лёгкая"
+    },
+    {
+      "id": "walpu8_hard_difficulty",
+      "content": "Тяжёлая"
+    },
+    {
+      "id": "walpu8_hard_open_condition",
+      "content": "Пройдите Лёгкую сложность для разблокировки"
+    },
+    {
+      "id": "KillCount_Title_4",
+      "content": "Янтарные Сумерки"
+    },
+    {
+      "id": "LobotomyStartTypo_KillCountTitle_4",
+      "content": "Статус подавления"
+    },
+    {
+      "id": "LobotomyStartTypo_Title_Walpu8_Start",
+      "content": "Янтарные Сумерки"
+    },
+    {
+      "id": "LobotomyStartTypo_Name_Walpu8_Start",
+      "content": "Идеальная еда"
+    },
+    {
+      "id": "LobotomyStartTypo_Desc_Walpu8_Start",
+      "content": "Идеальная еда, отличная замена"
+    },
+    {
+      "id": "LobotomyClearTypo_Title_Walpu8_Win",
+      "content": "Янтарные Сумерки"
+    },
+    {
+      "id": "LobotomyClearTypo_Name_Walpu8_Win",
+      "content": "Пищевая цепь"
+    },
+    {
+      "id": "LobotomyClearTypo_Desc_Walpu8_Win",
+      "content": "Мы могли жить. Мы могли продолжать есть."
+    },
+    {
+      "id": "LobotomyStartTypo_Title_Walpu8_Appear",
+      "content": "Янтарные Сумерки"
+    },
+    {
+      "id": "LobotomyStartTypo_Name_Walpu8_Appear",
+      "content": "Пищевая цепь"
+    },
+    {
+      "id": "LobotomyStartTypo_Desc_Walpu8_Appear",
+      "content": "Привыкание к вкусу было неизбежным процессом."
+    },
+    {
+      "id": "walpu8_hard_stage_unlock_condition",
+      "content": "Пройдите Лёгкую сложность для разблокировки"
+    }
+  ]
+}

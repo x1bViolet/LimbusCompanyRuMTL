@@ -2534,6 +2534,402 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1041401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бах. Бах.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Бах. Бах.",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Vibration:`Тремора`] и [Sinking:`Утопания`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Бах. Бах.",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Vibration:`Тремора`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Распускающийся в пустоте аромат",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Распускающийся в пустоте аромат",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Vibration:`Тремора`] и [Sinking:`Утопания`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Распускающийся в пустоте аромат",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Vibration:`Тремора`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Наносит на (Значение [AlriuneEGOThey:`Слабого аромата`] на цели)% больше урона (До 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletGodok:`Патрон — Одиночество`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пышное цветение",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Vibration:`Тремора`] и [Sinking:`Утопания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AlriuneEGOThey:`Слабый аромат`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AlriuneEGOThey:`Слабый аромат`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пышное цветение",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Vibration:`Тремора`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Наносит на (Значение [AlriuneEGOThey:`Слабого аромата`] на цели)% больше урона (До 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AlriuneEGOThey:`Слабый аромат`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AlriuneEGOThey:`Слабый аромат`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит урон Унынием в количестве силы [Sinking:`Утопания`] на цели</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "П.Т.А.",
+          "desc": "[EndBattle] Получает 10 [AlriuneEGOWe:`Лепестков`] (Единожды за ход)\n[EndBattle] Получает 2 [Vulnerable:`Уязвимости`] и 2 [Enhancement:`Повышения силы атаки`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "П.Т.А.",
+          "desc": "[EndBattle] Получает 10 [AlriuneEGOWe:`Лепестков`] (Единожды за ход)\n[EndBattle] Получает 2 [Vulnerable:`Уязвимости`] и 2 [Enhancement:`Повышения силы атаки`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Истории, которые никогда не заканчиваются",
+          "desc": "[CantDuel]\nАтакует [WideAreaRampage:`Нефокусированным залпом`]\nКогда наносит [GodokPanicType:`Одиночество`] этим навыком: если цель в этот момент уже имеет этот эффект или он нанесён на следующий ход, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1 вместо нанесения [GodokPanicType:`Одиночества`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041406,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Великолепный конец",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНаносит на (Излишнее количество целей этого навыка по сравнению с фактическим × 30)% больше урона (В фокусированных битвах считаются Части)\n[WhenUse] Итоговая сила +1 за каждые 5 единиц в сумме значения [AlriuneEGOThey:`Слабого аромата`] на всех целях этого навыка (До 6)\n[EndSkill] Теряет все [AlriuneEGOWe:`Лепестки`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [AlriuneEGOThey:`Слабого аромата`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве силы [Sinking:`Утопания`] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

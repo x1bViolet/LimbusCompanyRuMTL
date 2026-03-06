@@ -26,7 +26,7 @@
         },
         {
           "abilityID": 91582,
-          "simpleDesc": "Наносит (Сила [Combustion:`Огня`] побеждённого противника / 2) [Combustion:`Огня`]"
+          "simpleDesc": "Наносит (Сила [Combustion:`Огня`] побеждённого противника) [Combustion:`Огня`]"
         },
         {
           "abilityID": 91583,

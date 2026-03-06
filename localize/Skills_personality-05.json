@@ -2038,6 +2038,375 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1051401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предупредительный выстрел",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Предупредительный выстрел",
+          "desc": "<style=\"highlight\">[BeforeUse] Если количество [MeursaultSporeBulletLong:`Споровых патронов 【Основных】`] максимально, наносит цели 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] при первом попадании этим навыком (Единожды за ход)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Предупредительный выстрел",
+          "desc": "<style=\"highlight\">Наносит на 10% больше урона за каждые 5 [MeursaultBeeSpore:`Спор`] на цели (До 30%)</style>\n[BeforeUse] Если количество [MeursaultSporeBulletLong:`Споровых патронов 【Основных】`] максимально, наносит цели 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] при первом попадании этим навыком (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на цели <style=\"highlight\">(До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Альтерация ЭГО - Картечь",
+          "desc": "Дополнительные цели получают на 50% меньше урона от этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Альтерация ЭГО - Картечь",
+          "desc": "Дополнительные цели получают на 50% меньше урона от этого навыка\n<style=\"highlight\">Наносит на 7% больше урона за каждые 5 [MeursaultBeeSpore:`Спор`] на цели (До 21%)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели равна 6 и более</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Альтерация ЭГО - Картечь",
+          "desc": "Дополнительные цели получают на 50% меньше урона от этого навыка\nНаносит на <style=\"highlight\">15%</style> больше урона за каждые 5 [MeursaultBeeSpore:`Спор`] на цели (До <style=\"highlight\">45%</style>)\n[WhenUse] Сила монет +1, если сумма силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели равна 6 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +1, если есть [MeursaultWorkerBee:`Феромоны лояльности`]\n[WhenUse] Монеты этого навыка в количестве (Текущее значение [MeursaultWorkerBee:`Феромонов лояльности`]) начиная с последней становятся [SuperCoin:`Вечными`]\n[EndSkill] При 1 и менее [MeursaultSporeBulletLong:`Споровом патроне 【Основном】`] на руках производит [MeursaultSporeBulletReloading:`Перезарядку 【Прорастание】`]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Полевые испытания - Искрение пыли",
+          "desc": "<b>Все монеты этого навыка кроме последней попадают только по одной из всех целей (В приоритете главная)</b>\n\nНаносит на 5% больше урона за каждые 5 [MeursaultBeeSpore:`Спор`] на цели (До 15%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 2)\n[EndSkill] Производит [MeursaultSporeBulletReloading:`Перезарядку 【Прорастание】`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "Дополнительные цели получают на 50% меньше урона от этой монеты"
+                },
+                {
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Если значение [MeursaultBeeSpore:`Спор`] на цели максимально, активирует следующие эффекты:\n- Наносит ((Сила [Combustion:`Огня`] × значение [MeursaultBeeSpore:`Спор`]) цели / 10) урона Гневом (Округляется вниз) и понижает счётчик [Combustion:`Огня`] на 1 (Считается за активацию [Combustion:`Огня`] на цели)\n- Все [MeursaultBeeSpore:`Споры`] исчезают с цели\n",
+                  "summary": "Наносит урон Гневом и понижает счётчик [Combustion:`Огня`] на 1, [MeursaultBeeSpore:`Споры`] исчезают с цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] и [Laceration:`Кровотечения`] <nobr>на 1</nobr>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Полевые испытания - Искрение пыли",
+          "desc": "<b>Все монеты этого навыка кроме последней попадают только по одной из всех целей (В приоритете главная)</b>\n\n<style=\"highlight\">Наносит на (Излишнее количество целей этого навыка по сравнению с фактическим × 50)% больше урона (В фокусированных битвах считаются Части)</style>\nНаносит на <style=\"highlight\">10%</style> больше урона за каждые 5 [MeursaultBeeSpore:`Спор`] на цели (До <style=\"highlight\">30%</style>)\n\n<style=\"highlight\">[BeforeUse] При 2 и менее [MeursaultSporeBulletLong:`Споровых патронах 【Основных】`] тратит 6 СД, чтобы получить 3 [MeursaultSporeBulletLong:`Споровых патрона 【Основных】`]</style>\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Сила в столкновении +1, если есть [MeursaultWorkerBee:`Феромоны лояльности`]\n[WhenUse] Монеты этого навыка в количестве (Текущее значение [MeursaultWorkerBee:`Феромонов лояльности`]) начиная с третьей становятся [SuperCoin:`Вечными`]\n[WhenUse] Количество целей +1, если значение [MeursaultWorkerBee:`Феромонов лояльности`] максимально</style>\n\n[EndSkill] Производит [MeursaultSporeBulletReloading:`Перезарядку 【Прорастание】`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletLong:`Споровый патрон 【Основной】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Тратит 1 [MeursaultSporeBulletShort:`Споровый патрон 【Картечь】`]"
+                },
+                {
+                  "desc": "Дополнительные цели получают на 50% меньше урона от этой монеты"
+                },
+                {
+                  "desc": "<style=\"highlight\">На (Текущее значение [MeursaultWorkerBee:`Феромонов лояльности`] × 5)% больше урона (До 15%)</style>"
+                },
+                {
+                  "desc": "\n[UnBrokenCoinOnSucceedAttack] Если значение [MeursaultBeeSpore:`Спор`] на цели максимально, активирует следующие эффекты:\n- Наносит ((Сила [Combustion:`Огня`] × значение [MeursaultBeeSpore:`Спор`]) цели / 10) урона Гневом (Округляется вниз) и понижает счётчик [Combustion:`Огня`] на 1 (Считается за активацию [Combustion:`Огня`] на цели)\n- Все [MeursaultBeeSpore:`Споры`] исчезают с цели\n",
+                  "summary": "Наносит урон Гневом и понижает счётчик [Combustion:`Огня`] на 1, [MeursaultBeeSpore:`Споры`] исчезают с цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1\n[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <style=\"highlight\">на 2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1051404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорастание спор",
+          "desc": "[StartBattle] Производит [MeursaultSporeBulletReloading:`Перезарядку 【Прорастание】`] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Восстанавливает 10 ОЗ (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прорастание спор",
+          "desc": "[StartBattle] Производит [MeursaultSporeBulletReloading:`Перезарядку 【Прорастание】`] (Единожды за ход)\n<style=\"highlight\">[WhenUseEvade] Сила монеты +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на атакующем (До 3)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Восстанавливает 10 ОЗ <style=\"highlight\">(Единожды за ход; если есть [MeursaultWorkerBee:`Феромоны лояльности`], восстанавливает ещё 5 ОЗ за каждую единицу их значения)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,313 @@
+{
+  "dataList": [
+    {
+      "id": 136601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наскок",
+          "desc": "Нацеливается на противника с наибольшим процентом текущих ОЗ\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Грызущий комок",
+          "desc": "Нацеливается на противника с наибольшим процентом текущих ОЗ\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration:`Кровотечение`], наносит ей 2 [PenetrateResistDown:`Понижения сопротивления к Пронзающему урону`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пузырчатая добавка со вкусом апельсина",
+          "desc": "Нацеливается на противника с наибольшим процентом текущих ОЗ\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Добавленная нотка игристого вкуса",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration:`Кровотечение`], наносит ей 2 [PenetrateResistDown:`Понижения сопротивления к Пронзающему урону`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Миграция стада",
+          "desc": "[EndBattle] [RunHallway:`Подготовка миграции стада`] исчезает; затем активирует [NextHallway:`Перемещение стада`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чавкающий глоток",
+          "desc": "Нацеливается на самого медленного противника\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и повышает его счётчик на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Наполнение апельсинового пузыря среднего размера",
+          "desc": "Нацеливается на самого медленного противника\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Более мощный, более обильный",
+          "desc": "Нацеливается на самого медленного противника\n[WhenUse] Сила монет +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [PenetrateResistDown:`Понижения сопротивления к Пронзающему урону`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Потребление корма для размножения бонбонов",
+          "desc": "Нацеливается на самого медленного противника\n[WhenUse] Сила монет +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 136905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Миграция стада",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[EndBattle] [RunHallway:`Подготовка миграции стада`] исчезает; затем активирует [NextHallway:`Перемещение стада`] для себя и всех БонБонов 【Апельсиновый】, призванных через пассивное умение <b>「Производство еды」</b> ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

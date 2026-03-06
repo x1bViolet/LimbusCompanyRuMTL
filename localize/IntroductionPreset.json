@@ -1875,6 +1875,30 @@
     {
       "id": "introduce_sentence_235",
       "content": "Итак, решено: {0} для сегодняшнего чтения."
+    },
+    {
+      "id": "introduce_word_236",
+      "content": "Пустота"
+    },
+    {
+      "id": "introduce_sentence_236",
+      "content": "Я выпущу в тебя {0}(-у/-а/-ы), которую нельзя заполнить."
+    },
+    {
+      "id": "introduce_word_237",
+      "content": "Колония"
+    },
+    {
+      "id": "introduce_sentence_237",
+      "content": "Ннгх... Защищайте {0}(-у/-ю/-е)."
+    },
+    {
+      "id": "introduce_word_238",
+      "content": "Гармония"
+    },
+    {
+      "id": "introduce_sentence_238",
+      "content": "Такая чудесная... {0}."
     }
   ]
 }
