@@ -2019,6 +2019,14 @@
     {
       "id": "mainui_ego_gift_grade",
       "content": "Ранг"
+    },
+    {
+      "id": "mainui_use_random_piece_package",
+      "content": "Использовать ящик с эгосколками"
+    },
+    {
+      "id": "mainui_use_optional_piece_package",
+      "content": "Использовать именной ящик с эгосколками"
     }
   ]
 }
