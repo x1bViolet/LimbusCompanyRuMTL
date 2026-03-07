@@ -2864,7 +2864,7 @@
         {
           "level": 1,
           "name": "Истории, которые никогда не заканчиваются",
-          "desc": "[CantDuel]\nАтакует [WideAreaRampage:`Нефокусированным залпом`]\nКогда наносит [GodokPanicType:`Одиночество`] этим навыком: если цель в этот момент уже имеет этот эффект или он нанесён на следующий ход, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1 вместо нанесения [GodokPanicType:`Одиночества`]",
+          "desc": "[CantDuel]\nАтакует [WideAreaRampage:`Нефокусированным залпом`]\nКогда наносит [GodokPanicType:`Одиночество`](;Godok_Panic) этим навыком: если цель в этот момент уже имеет этот эффект или он нанесён на следующий ход, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1 вместо нанесения [GodokPanicType:`Одиночества`](;Godok_Panic)",
           "coinlist": [
             {
               "coindescs": [
@@ -2872,7 +2872,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`](;Godok_Panic) на следующий ход"
                 }
               ]
             },
@@ -2882,7 +2882,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`](;Godok_Panic) на следующий ход"
                 }
               ]
             },
@@ -2892,7 +2892,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [GodokPanicType:`Одиночества`](;Godok_Panic) на следующий ход"
                 }
               ]
             }
