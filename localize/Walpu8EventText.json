@@ -50,7 +50,7 @@
     },
     {
       "id": "missionConditionTitle_10128",
-      "content": "Завершите подавление так, чтобы сила <sprite name=\"Laceration\"><color=#e30000>Кровотечения</color> Грешников достигала 10"
+      "content": "Завершите подавление так, чтобы сила <sprite name=\"Laceration\"><color=#e30000>Кровотечения</color> Грешников не достигала 10"
     },
     {
       "id": "missionConditionTitle_20065",
@@ -106,7 +106,7 @@
     },
     {
       "id": "missionConditionTitle_20078",
-      "content": "Завершите подавление так, чтобы сила <sprite name=\"Laceration\"><color=#e30000>Кровотечения</color> Грешников достигала 10"
+      "content": "Завершите подавление так, чтобы сила <sprite name=\"Laceration\"><color=#e30000>Кровотечения</color> Грешников не достигала 10"
     },
     {
       "id": "missionConditionTitle_20079",
