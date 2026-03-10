@@ -82,7 +82,7 @@
     },
     {
       "id": "missionConditionTitle_20072",
-      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#16ac95>Капитан Отдела Благосостояния</color> и получил менее 3 попаданий от атакующих навыков противников"
+      "content": "Завершите подавление так, чтобы <sprite name=\"BestWelfareTeamCaptain\"><color=#16ac95>Капитан Отдела Благосостояния</color> выжил и получил менее 3 попаданий от атакующих навыков противников"
     },
     {
       "id": "missionConditionTitle_20073",
