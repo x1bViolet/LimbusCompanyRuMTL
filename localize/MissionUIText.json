@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "id": "acquire_personality_title",
+      "content": "Выбрать Идентичность"
+    },
+    {
+      "id": "ask_acquire_personality",
+      "content": "Выбрать Идентичность [{0}] для {1}(-а/и)?"
+    },
+    {
+      "id": "ask_use_item_for_acquire_personality",
+      "content": "Использовать {0}?"
+    },
+    {
+      "id": "tip_able_to_check_personality_by_longclick",
+      "content": "※ Зажмите иконку, чтобы увидеть детальную информацию о Идентичности"
+    },
+    {
+      "id": "luxcavation_bonus_on",
+      "content": "Lux. Bonus Activated"
+    },
+    {
+      "id": "ask_acquire_personality_already_owned",
+      "content": "Выбрать Идентичность [{0}] для {1}(-а/и)?\nВыбор уже имеющейся Идентичности даст Эгосколки Грешника вместо этого."
+    },
+    {
+      "id": "acquire_ego_title",
+      "content": "Выбор ЭГО"
+    },
+    {
+      "id": "ask_acquire_ego",
+      "content": "Выбрать ЭГО [{0}] для {1}(-а/и)?"
+    },
+    {
+      "id": "ask_acquire_ego_already_owned",
+      "content": "Выбрать ЭГО [{0}] для {1}(-а/и)?\nВыбор уже имеющегося ЭГО даст Эгосколки Грешника вместо этого."
+    }
+  ]
+}
