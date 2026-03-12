@@ -530,11 +530,11 @@
     },
     {
       "id": "mirrordungeon_purchase_achievement_block_by_max_level",
-      "content": "Превышен уровень достижений, который можно приобрести"
+      "content": "Превышен уровень Пасса, который можно приобрести"
     },
     {
       "id": "mirrordungeon_achievement_max_level",
-      "content": "Уровень достижений максимален"
+      "content": "Уровень Пасса максимален"
     },
     {
       "id": "lack_of_point_for_shop_without_new_line",
