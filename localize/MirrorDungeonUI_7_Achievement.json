@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "id": "mirrordungeon7_mission_date",
+      "content": "Награды можно получить до выхода 7 Зеркального подземелья"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_COLLECTION",
+      "content": "Коллекционирование"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_CLEAR",
+      "content": "Прохождение"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_DECK",
+      "content": "Команды"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_SHOP",
+      "content": "Магазин"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_BATTLE",
+      "content": "Бои"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_EXTREME",
+      "content": "Совершенные испытания (ЭКСТРИМ)"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_ALL",
+      "content": "Перфекционист"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON7_HIDDEN",
+      "content": "Скрытые"
+    }
+  ]
+}
