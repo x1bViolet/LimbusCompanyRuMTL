@@ -14,7 +14,7 @@
     },
     {
       "id": "FREE_SHOP_REFRESH_EGO_GIFT_ONCE",
-      "description": "Попыток бесплатных <color=#dd0000>Обновлений каталога</color> в магазинах +{0}"
+      "description": "Попыток бесплатного <color=#dd0000>Обновления каталога</color> в магазинах +{0}"
     },
     {
       "id": "ADDITIONAL_START_COST_TEXT_HIGHLIGHT",
@@ -22,7 +22,7 @@
     },
     {
       "id": "FREE_SHOP_REFRESH_EGO_GIFT_ONCE_TEXT_HIGHLIGHT",
-      "description": "Попыток бесплатных <color=#dd0000>Обновлений каталога</color> в магазинах <color=#f8c200>+{0}</color>"
+      "description": "Попыток бесплатного <color=#dd0000>Обновления каталога</color> в магазинах <color=#f8c200>+{0}</color>"
     },
     {
       "id": "ADDITIONAL_COST_RATE_ON_CLEAR_FLOOR",
@@ -66,7 +66,7 @@
     },
     {
       "id": "ACQUIRE_COST_AFTER_SELECT_STARLIGHT_BATTLE_REWARD",
-      "description": "<color=#f8c200>Стоимость +{0} при выборе Звёздного блеска в качестве награды</color>"
+      "description": "<color=#f8c200>Стоимость +{0} при выборе Света звёзд в качестве награды</color>"
     },
     {
       "id": "ADDITIONAL_COST_AFTER_WIN_BATTLE",
@@ -86,7 +86,7 @@
     },
     {
       "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE",
-      "description": "Попыток бесплатных <color=#dd0000>Ключевых обновлений каталога</color> в магазинах +{0}"
+      "description": "Попыток бесплатного <color=#dd0000>Ключевого обновления каталога</color> в магазинах +{0}"
     },
     {
       "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR",
@@ -94,11 +94,11 @@
     },
     {
       "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE_TEXT_HIGHLIGHT",
-      "description": "Попыток бесплатных <color=#dd0000>Ключевых обновлений каталога</color> в магазинах <color=#f8c200>+{0}</color>"
+      "description": "Попыток бесплатного <color=#dd0000>Ключевого обновления каталога</color> в магазинах <color=#f8c200>+{0}</color>"
     },
     {
       "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR_TEXT_HIGHLIGHT",
-      "description": "При входе на первый этаж даёт <color=#f8c200>{0}</color> случайных <color=#dd0000>ЭГО Дара 1 ранга</color>"
+      "description": "При входе на первый этаж даёт <color=#f8c200>{0}</color> случайных <color=#dd0000>ЭГО Дара 1-го ранга</color>"
     },
     {
       "id": "ADDITIONAL_ENHANCED_SHOP_APPEARANCE_PROB",
@@ -118,7 +118,7 @@
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_6TH_FLOOR",
-      "description": "<color=#f8c200>После зачистки 6 этажа все <color=#dd0000>Идентичности</color> получают +{0} к своему Уровню</color>"
+      "description": "<color=#f8c200>После зачистки 6 этажа все Идентичности получают +{0} к своему Уровню</color>"
     },
     {
       "id": "MaxSpeedUpAdder",
@@ -150,11 +150,11 @@
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP_2",
-      "description": "При входе в магазин даёт 1 <color=#dd0000>случайный ЭГО Дар для слияния и продажи</color>\n<color=#f8c200> · Этаж 5 или ниже : 1~3 Ранг ЭГО Дара\n · Этаж 6 или выше : 2~3 Ранг ЭГО Дара</color>"
+      "description": "При входе в магазин даёт 1 <color=#dd0000>случайный ЭГО Дар для слияния и продажи</color>:\n<color=#f8c200>   · Этаж 5 или ниже - 1~3 Ранг ЭГО Дара\n   · Этаж 6 или выше - 2~3 Ранг ЭГО Дара</color>"
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP_3",
-      "description": "При входе в магазин даёт 1 <color=#dd0000>случайный ЭГО Дар для слияния и продажи</color>\n<color=#f8c200>· Этаж 5 или ниже : 2~3 Ранг ЭГО Дара\n· Этаж 6 или выше : 3~4 Ранг ЭГО Дара</color>"
+      "description": "При входе в магазин даёт 1 <color=#dd0000>случайный ЭГО Дар для слияния и продажи</color>:\n<color=#f8c200>   · Этаж 5 или ниже - 2~3 Ранг ЭГО Дара\n   · Этаж 6 или выше - 3~4 Ранг ЭГО Дара</color>"
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_EGO_GIFT_ON_ENTER_3F_5F",
