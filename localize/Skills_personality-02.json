@@ -2088,7 +2088,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Повышает свой счётчик [Breath:`Дыханияе`] на 1 (До 2 раз за ход)",
+          "desc": "[OnSucceedEvade] Повышает свой счётчик [Breath:`Дыхания`] на 1 (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2102,7 +2102,7 @@
         {
           "level": 4,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Повышает свой счётчик [Breath:`Дыханияе`] на 1 (До <style=\"highlight\">3 раз</style> за ход)",
+          "desc": "[OnSucceedEvade] Повышает свой счётчик [Breath:`Дыхания`] на 1 (До <style=\"highlight\">3 раз</style> за ход)",
           "coinlist": [
             {
               "coindescs": [
