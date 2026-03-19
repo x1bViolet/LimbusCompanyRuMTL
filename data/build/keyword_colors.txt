@@ -1242,3 +1242,7 @@ BulletGodok ¤ #9f6a3a
 AlriuneEGOThey ¤ #e30000
 AlriuneEGOWe ¤ #f8c200
 GodokPanicType ¤ #e30000
+SelfChargeAlly ¤ #f8c200
+HighVoltageExoshell ¤ #f8c200
+ChargedSting ¤ #e30000
+FaustFlameMothEmber ¤ #e30000

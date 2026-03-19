@@ -1231,6 +1231,14 @@
     {
       "id": "10514_getCondition_gacksung",
       "content": "Свяжите ЭГО Лоботомии:: Жало 【Альтерация】 Мерсо до 3-го уровня"
+    },
+    {
+      "id": "11215_getCondition_normal",
+      "content": "Заполучите ЭГО «LCE»:: РАНД Грегора"
+    },
+    {
+      "id": "11215_getCondition_gacksung",
+      "content": "Свяжите ЭГО «LCE»:: РАНД Грегора до 3-го уровня"
     }
   ]
 }
