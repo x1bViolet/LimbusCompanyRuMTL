@@ -1899,6 +1899,22 @@
     {
       "id": "introduce_sentence_238",
       "content": "Такая(-ие/-ое/-ой) чудесная(-ые/-ое/ый)... {0}."
+    },
+    {
+      "id": "introduce_word_239",
+      "content": "Испытание и проба"
+    },
+    {
+      "id": "introduce_sentence_239",
+      "content": "Проведём {0}(ы/-и/-а)."
+    },
+    {
+      "id": "introduce_word_240",
+      "content": "Пылающая дымка"
+    },
+    {
+      "id": "introduce_sentence_240",
+      "content": "Снова и снова, пока мы не коснёмся {0}(ы/-и/-а)...!"
     }
   ]
 }
