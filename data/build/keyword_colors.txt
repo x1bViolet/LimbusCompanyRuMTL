@@ -965,7 +965,7 @@ IndexPrescriptFaust_3 ¤ #9f6a3a
 IndexPrescriptTargetMarkToEnemy ¤ #9f6a3a
 IndexPrescriptTargetToEnemy ¤ #e30000
 KarmaOfIndexAlly ¤ #e30000
-MuscleContraction ¤ #f8c200 
+MuscleContraction ¤ #f8c200
 DuelEdge ¤ #e30000
 HostageCharon ¤ #e30000
 SeveredTendon ¤ #e30000
@@ -1235,7 +1235,7 @@ MeursaultBeeSpore ¤ #e30000
 MeursaultWorkerBee ¤ #f8c200
 MeursaultSporeBulletLong ¤ #9f6a3a
 MeursaultSporeBulletShort ¤ #9f6a3a
-MeursaultSporeBulletReloading
+MeursaultSporeBulletReloading ¤ #9f6a3a
 MeursaultBeeGunLong ¤ #9f6a3a
 MeursaultBeeGunShort ¤ #9f6a3a
 BulletGodok ¤ #9f6a3a
