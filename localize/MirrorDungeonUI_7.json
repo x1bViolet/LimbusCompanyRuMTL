@@ -122,7 +122,7 @@
     },
     {
       "id": "mirror_finished_panel_mirror_pass_exp_reward_label_name_format_base",
-      "content": "{0} Проекции"
+      "content": "Прогресс достижений<size=0%>{0}</size>"
     },
     {
       "id": "mirror_dungeon_ego_gift_sort_by_id",

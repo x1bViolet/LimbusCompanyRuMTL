@@ -2416,6 +2416,372 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрический разряд",
+          "desc": "[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Электрический разряд",
+          "desc": "[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +1, если свой счётчик [Charge:`Заряда`] равен 5 и более</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Электрический разряд",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит на (Сила своего [Charge:`Заряда`] × 6)% больше урона (До 30%)</style>\n[WhenUse] Сила монет +1<style=\"highlight\">/+2</style>, если сила своего [Charge:`Заряда`] равна 3<style=\"highlight\">/5</style> и более <style=\"highlight\">соответственно</style>\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые</style> 5 единиц своего счётчика [Charge:`Заряда`] <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Если свой счётчик [Charge:`Заряда`] ниже 10, повышает его на 2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Инверсия постоянного тока",
+          "desc": "[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 5 его единиц для повышения Базовой силы навыка на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на текущую силу [Charge:`Заряда`] (До 3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [PhotoElectricity:`Фотоэффект`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Инверсия постоянного тока",
+          "desc": "[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более\n<style=\"highlight\">[WhenUse] Последняя монета становится [SuperCoin:`Вечной`], если сила своего [Charge:`Заряда`] равна 3 и более</style>\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 5 его единиц для повышения Базовой силы навыка на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на <style=\"highlight\">4</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на <style=\"highlight\">(</style>Сила своего [Charge:`Заряда`] <style=\"highlight\">+ 1</style>) (До <style=\"highlight\">4</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PhotoElectricity:`Фотоэффекта`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Инверсия постоянного тока",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит на (Сила своего [Charge:`Заряда`] × 3)% больше урона (До 15%)</style>\n[WhenUse] Сила монет +1<style=\"highlight\">/+2</style>, если сила своего [Charge:`Заряда`] равна 3<style=\"highlight\">/5</style> и более <style=\"highlight\">соответственно</style>\n[WhenUse] Последняя монета становится [SuperCoin:`Вечной`], если сила своего [Charge:`Заряда`] равна 3 и более\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 5 его единиц для повышения Базовой силы навыка на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на <style=\"highlight\">5</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] цели на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на (Сила своего [Charge:`Заряда`] + <style=\"highlight\">2</style>) (До <style=\"highlight\">5</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [PhotoElectricity:`Фотоэффекта`]\n<style=\"highlight\">- Наносит на 1 [PhotoElectricity:`Фотоэффект`] больше, если сила своего [Charge:`Заряда`] равна 3 и более</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Разряд высокого напряжения",
+          "desc": "[StartBattle] Получает [HighVoltageExoshell:`Высоковольтный экзоскелет`] в количестве силы своего [Charge:`Заряда`] (До 3; единожды за ход)\n\n[BeforeUse] Если сила своего [Charge:`Заряда`] равна 3 и более, использует альтернативный третий навык <color=#9808de>「Максимальная выходная мощность - разряд сверхвысокого напряжения」</color> вместо этого (Единожды за ход)\n\n[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 3 и более\n[WhenUse] Последняя монета становится [SuperCoin:`Вечной`], если сила своего [Charge:`Заряда`] равна 3 и более\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 10 его единиц для повышения Силы монет навыка на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`] и повышает его счётчик <nobr>на 2</nobr>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [PhotoElectricity:`Фотоэффекта`]\n- Наносит на 1 [PhotoElectricity:`Фотоэффект`] больше, если сила своего [Charge:`Заряда`] равна 3 и более"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [ChargedSting:`Заряженный укус`] на следующий ход в количестве силы своего [Charge:`Заряда`] (До 3)\n- Если сила своего [Charge:`Заряда`] равна 5 и более, то наносит 3 [ChargedSting:`Заряженного укуса`] на этот и следующий ход вместо этого (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разряд высокого напряжения",
+          "desc": "[StartBattle] Получает [HighVoltageExoshell:`Высоковольтный экзоскелет`] в количестве силы своего [Charge:`Заряда`] (До <style=\"highlight\">5</style>; единожды за ход)\n\n[BeforeUse] Если сила своего [Charge:`Заряда`] равна 3 и более, использует альтернативный третий навык <color=#9808de>「Максимальная выходная мощность - разряд сверхвысокого напряжения」</color> вместо этого (Единожды за ход)\n\n[WhenUse] Сила монет +1<style=\"highlight\">/+2</style>, если сила своего [Charge:`Заряда`] равна 3<style=\"highlight\">/5</style> и более <style=\"highlight\">соответственно</style>\n[WhenUse] Последняя монета становится [SuperCoin:`Вечной`], если сила своего [Charge:`Заряда`] равна 3 и более\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 10 его единиц для повышения Силы монет навыка на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:`Разрыва`] и повышает его счётчик <nobr>на 2</nobr>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [PhotoElectricity:`Фотоэффекта`]\n- Наносит на 1 [PhotoElectricity:`Фотоэффект`] больше, если сила своего [Charge:`Заряда`] равна 3 и более"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [ChargedSting:`Заряженный укус`] на следующий ход в количестве силы своего [Charge:`Заряда`] (До <style=\"highlight\">5</style>)\n- Если сила своего [Charge:`Заряда`] равна 5 и более, то наносит <style=\"highlight\">5</style> [ChargedSting:`Заряженного укуса`] на этот и следующий ход вместо этого (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защитные способности этого ЭГО Дара обладают уникальным превосходством",
+          "desc": "[StartBattle] Получает 1 [HighVoltageExoshell:`Высоковольтный экзоскелет`] (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2 (До 2 раз за ход)\n[WhenUse] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Защитные способности этого ЭГО Дара обладают уникальным превосходством",
+          "desc": "[StartBattle] Получает <style=\"highlight\">2</style> [HighVoltageExoshell:`Высоковольтного экзоскелета`] (Единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монеты повышается на текущую силу [Charge:`Заряда`] (До 5)</style>\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2 (До 2 раз за ход)\n[WhenUse] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121505,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Максимальная выходная мощность - разряд сверхвысокого напряжения",
+          "desc": "[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 10 его единиц для повышения Базовой силы на 1 и Силы монет на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [PhotoElectricity:`Фотоэффекта`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [ChargedSting:`Заряженный укус`] на следующий ход в количестве силы своего [Charge:`Заряда`] (До 3)\n- Если сила своего [Charge:`Заряда`] равна 5 и более, то наносит 3 [ChargedSting:`Заряженного укуса`] на этот и следующий ход вместо этого (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Максимальная выходная мощность - разряд сверхвысокого напряжения",
+          "desc": "<style=\"highlight\">Наносит на (Излишнее количество целей этого навыка по сравнению с фактическим × 50)% больше урона (В фокусированных битвах считаются Части)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1, если сила своего [Charge:`Заряда`] равна 5 и более</style>\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, тратит 10 его единиц для повышения Базовой силы на 1 и Силы монет на 2\n<style=\"highlight\">- Если после этого остаётся счётчик [Charge:`Заряда`], то тратит ещё до 10 его единиц, чтобы увеличить наносимый навыком урон на (Дополнительно потраченный счётчик [Charge:`Заряда`] × 1.5)% (До 15%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:`Разрыва`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [PhotoElectricity:`Фотоэффекта`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [ChargedSting:`Заряженный укус`] на следующий ход в количестве силы своего [Charge:`Заряда`] (До <style=\"highlight\">5</style>)\n- Если сила своего [Charge:`Заряда`] равна 5 и более, то наносит <style=\"highlight\">5</style> [ChargedSting:`Заряженного укуса`] на этот и следующий ход вместо этого (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

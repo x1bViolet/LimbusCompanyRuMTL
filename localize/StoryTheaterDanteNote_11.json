@@ -1,0 +1,24 @@
+{
+  "dataList": [
+    {
+      "id": "ConceptIncinerator",
+      "content": "Сжигатель концептов"
+    },
+    {
+      "id": "TheThumb",
+      "content": "Большой палец"
+    },
+    {
+      "id": "ThePinky",
+      "content": "Мизинец"
+    },
+    {
+      "id": "Anamnaworm",
+      "content": "Анамначервь"
+    },
+    {
+      "id": "NestA",
+      "content": "Корп. A"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dataList": [
+    {
+      "id": "lcb_checkup_stagebutton_not_clear",
+      "content": "Пройдите 7-36 для разблокировки"
+    },
+    {
+      "id": "lcb_checkup_stagebutton_normal",
+      "content": "Этапы"
+    },
+    {
+      "id": "lcb_checkup_stagebutton_end_event",
+      "content": "Событие завершено"
+    },
+    {
+      "id": "lcb_checkup_storybutton_before_start",
+      "content": "<size=75%>Посмотрите 1-й сюжетный этап события \nдля разблокировки</size>"
+    },
+    {
+      "id": "lcb_checkup_storybutton_normal",
+      "content": "В Театр"
+    },
+    {
+      "id": "lcb_checkup_rewardShopButton",
+      "content": "Обмен наград"
+    },
+    {
+      "id": "lcb_checkup_scrap_guide_title",
+      "content": "Руководство по валюте события"
+    },
+    {
+      "id": "lcb_checkup_scrap_guide_desc",
+      "content": "Изредка вы можете получить <color=#ff99e6>[Секретные данные]</color> за прохождение этапов события, этапов основного сюжета или Зеркальных Подземелий.\n\n<color=#ff99e6>[Секретные данные]</color> конвертируются в 20 <color=#ff99e6>[Накопленных данных] сразу после получения</color>."
+    },
+    {
+      "id": "lcb_checkup_rewardpage_desc",
+      "content": "Вы можете получить <color=#ac1605>[Накопленные данные]</color> за первое прохождение этапов события/основного сюжета или за прохождение Зеркального Подземелья.\nТакже в процессе у вас есть небольшой шанс получить <color=#ac1605>[Секретные данные]</color>.\n\n<color=#ac1605>[Секретные данные]</color> конвертируются в 20 <color=#ac1605>[Накопленных данных]</color> сразу после получения."
+    },
+    {
+      "id": "lcb_checkup_reward_popup_desc",
+      "content": "Получайте <color=#ac1605>[Накопленные данные]</color> следующими способами:\nПервое прохождение этапов и подземелий события, а также прохождение Зеркальных Подземелий.\n\nВ окне <color=#ac1605>[Обмен наград]</color> вы можете приобретать различные награды,\nтратя собранные <color=#ac1605>[Накопленные данные]</color>."
+    },
+    {
+      "id": "lcb_checkup_reward_popup_num_of_owned_items",
+      "content": "В наличии"
+    },
+    {
+      "id": "lcb_checkup_bonusUI_Title",
+      "content": "Бонус"
+    },
+    {
+      "id": "lcb_checkup_bonusUI_Title_contain_false",
+      "content": "Нет в наличии"
+    },
+    {
+      "id": "lcb_checkup_bonusUI_Desc",
+      "content": "В период события использование в команде следующих Идентичностей или ЭГО\nувеличит количество получаемых <color=#ac1605>[Накопленных данных]</color>.\nМаксимальный бонус к получаемой валюте события составляет <color=#ac1605>120%</color>."
+    },
+    {
+      "id": "lcb_checkup_bonus_popup_title",
+      "content": "Бонусная валюта события"
+    },
+    {
+      "id": "lcb_checkup_bonus_preview",
+      "content": "Бонусная валюта события"
+    }
+  ]
+}

@@ -853,6 +853,187 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2021011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка алых мотыльков",
+          "abName": "Мотылёк алых мотыльков",
+          "desc": "[BeforeAttack] Итоговая сила + 1 за каждые 10 единиц в сумме силы [Combustion:`Огня`] на себе и на всех целях этого ЭГО навыка (До 2)\n[EndSkill] Получает 10 [Combustion:`Огня`] и повышает себе его счётчик на 1\n[EndSkill] Если на себе 15 и более [Combustion:`Огня`], получает 1 [CrimsonDamageUp:`Повышение урона Гневом`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если на себе 15 и более [Combustion:`Огня`], наносит 1 [FaustFlameMothEmber:`Угли`] всем целям этого ЭГО навыка (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Вспышка алых мотыльков",
+          "abName": "Мотылёк алых мотыльков",
+          "desc": "[BeforeAttack] Итоговая сила + 1 за каждые 10 единиц в сумме силы [Combustion:`Огня`] на себе и на всех целях этого ЭГО навыка (До 2)\n[EndSkill] Получает 10 [Combustion:`Огня`] и повышает себе его счётчик на 1\n[EndSkill] Если на себе 15 и более [Combustion:`Огня`], получает 1 [CrimsonDamageUp:`Повышение урона Гневом`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 2) [Combustion:`Огня`] (До 3; округляется вниз)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если на себе 15 и более [Combustion:`Огня`], наносит 1 [FaustFlameMothEmber:`Угли`] всем целям этого ЭГО навыка (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспышка алых мотыльков",
+          "abName": "Мотылёк алых мотыльков",
+          "desc": "[BeforeAttack] Итоговая сила + 1 за каждые 10 единиц в сумме силы [Combustion:`Огня`] на себе и на всех целях этого ЭГО навыка (До 2)\n[EndSkill] Получает 10 [Combustion:`Огня`] и повышает себе его счётчик на 1\n[EndSkill] Если на себе 15 и более [Combustion:`Огня`], получает 1 [CrimsonDamageUp:`Повышение урона Гневом`] на следующий ход (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 2) [Combustion:`Огня`] (До 3; округляется вниз)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 3) [Combustion:`Огня`] (До 2; округляется вниз)</style>"
+                },
+                {
+                  "desc": "[EndCoin] Если на себе 15 и более [Combustion:`Огня`], наносит 1 [FaustFlameMothEmber:`Угли`] всем целям этого ЭГО навыка (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка алых мотыльков",
+          "abName": "Мотылёк алых мотыльков",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Итоговая сила +1 за каждые 10 единиц в сумме силы [Combustion:`Огня`] на себе и на всех целях этого ЭГО навыка (До 2)\n[EndSkill] Получает 10 [Combustion:`Огня`] и повышает себе его счётчик на 1\n[EndSkill] Если на себе 25 и более [Combustion:`Огня`], получает 2 [CrimsonDamageUp:`Повышения урона Гневом`] на следующий ход (Единожды за ход)\n[EndSkill] Если текущие ОЗ ниже 50%, восстанавливает 5 СД за каждые 10 [Combustion:`Огня`] на себе (До 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Случайным образом наносит 3 [FaustFlameMothEmber:`Угля`] среди целей этого ЭГО навыка (Единожды за ход; исключая целей с уже максимальной силой [FaustFlameMothEmber:`Углей`])"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Вспышка алых мотыльков",
+          "abName": "Мотылёк алых мотыльков",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Итоговая сила +1 за каждые 10 единиц в сумме силы [Combustion:`Огня`] на себе и на всех целях этого ЭГО навыка (До 2)\n[EndSkill] Получает 10 [Combustion:`Огня`] и повышает себе его счётчик на 1\n[EndSkill] Если на себе 25 и более [Combustion:`Огня`], получает 2 [CrimsonDamageUp:`Повышения урона Гневом`] на следующий ход (Единожды за ход)\n[EndSkill] Если текущие ОЗ ниже 50%, восстанавливает 5 СД за каждые 10 [Combustion:`Огня`] на себе (До 10)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 2) [Combustion:`Огня`] (До 3; округляется вниз)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Случайным образом наносит 3 [FaustFlameMothEmber:`Угля`] среди целей этого ЭГО навыка (Единожды за ход; исключая целей с уже максимальной силой [FaustFlameMothEmber:`Углей`])"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспышка алых мотыльков",
+          "abName": "Мотылёк алых мотыльков",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Итоговая сила +1 за каждые 10 единиц в сумме силы [Combustion:`Огня`] на себе и на всех целях этого ЭГО навыка (До 2)\n[EndSkill] Получает 10 [Combustion:`Огня`] и повышает себе его счётчик на 1\n[EndSkill] Если на себе 25 и более [Combustion:`Огня`], получает 2 [CrimsonDamageUp:`Повышения урона Гневом`] на следующий ход (Единожды за ход)\n[EndSkill] Если текущие ОЗ ниже 50%, восстанавливает 5 СД за каждые 10 [Combustion:`Огня`] на себе (До <style=\"highlight\">15</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 3) [Combustion:`Огня`] (До 2; округляется вниз)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 2) [Combustion:`Огня`] (До 3; округляется вниз)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Случайным образом наносит <style=\"highlight\">6</style> [FaustFlameMothEmber:`Углей`] среди целей этого ЭГО навыка (Единожды за ход; исключая целей с уже максимальной силой [FaustFlameMothEmber:`Углей`])"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
