@@ -55,6 +55,22 @@
     {
       "id": "shotcutKeyManual_zoom_inout_battle",
       "content": "[Битва] Приблизить или отдалить"
+    },
+    {
+      "id": "shotcutKeyManual_mirror_dungeon_side_move",
+      "content": "[Зеркальное подземелье] Движение камерой налево/направо"
+    },
+    {
+      "id": "shotcutKeyManual_mirror_dungeon_move_node",
+      "content": "[Зеркальное подземелье] Выбрать следующий этап"
+    },
+    {
+      "id": "shotcutKeyManual_mirror_dungeon_cancel_select_node",
+      "content": "[Зеркальное подземелье] Отменить выбор этапа"
+    },
+    {
+      "id": "shotcutKeyManual_choice_event_next_dialog",
+      "content": "[Событие выбора] Следующая часть текста"
     }
   ]
 }
