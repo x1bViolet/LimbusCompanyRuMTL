@@ -1939,7 +1939,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion:`Огня`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Combustion:`Огня`]"
                 }
               ]
             }
