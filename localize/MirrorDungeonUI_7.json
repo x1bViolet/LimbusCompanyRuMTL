@@ -146,7 +146,83 @@
     },
     {
       "id": "mirror_dungeon_ego_gift_acquire_status_filter_content_1",
-      "content": "Неизвестно"
+      "content": "Нет записей"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_inventory_no_owned_ego_gift",
+      "content": "Нет ЭГО Даров"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_no_owned_ego_gift",
+      "content": "Нет ЭГО Даров"
+    },
+    {
+      "id": "mirror_dungeon_card_theme_appear_floor",
+      "content": "Связанные этажи"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_OWNED_WITH_DETAIL_TAG",
+      "content": "Имеется"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_CLEAR_THEME_REWARD",
+      "content": "Награды за прохождение"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_THEME_LIMITED_EGO_GIFT",
+      "content": "Эксклюзивные для этого набора тем"
+    },
+    {
+      "id": "EgoGiftListPopupTabType_EGO_GIFT_POOL_IN_CURRENT_THEME",
+      "content": "Отмеченные"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_owned_scroll_tag_default",
+      "content": "Обычные"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_owned_scroll_tag_theme_limited",
+      "content": "Эксклюзивные для наборов тем"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_clear_scroll_tag_theme_limited",
+      "content": "Эксклюзивные для наборов тем"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_clear_scroll_tag_theme_default",
+      "content": "Обычные"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_theme_limited_scroll_tag_theme_limited",
+      "content": "Эксклюзивные для этого набора тем"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_combine_scroll_tag_theme_limited",
+      "content": "Эксклюзивные для наборов тем"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_combine_scroll_tag_theme_limited_combine_ego_gift",
+      "content": "Эксклюзивные для этого набора тем - Слияние"
+    },
+    {
+      "id": "ego_gift_list_default",
+      "content": "ЭГО Дары"
+    },
+    {
+      "id": "mirror_dungeon_theme_list_popup_no_theme_on_list",
+      "content": "Наборы тем не разблокированы"
+    },
+    {
+      "id": "mirror_dungeon_theme_list_popup_no_selected_theme_on_list",
+      "content": "Наборы тем не выбраны"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_theme_ego_gift_pool_scroll_tag_rate_up",
+      "content": "Повышенный шанс"
+    },
+    {
+      "id": "mirror_dungeon_ego_gift_list_popup_theme_ego_gift_pool_scroll_tag_appearable",
+      "content": "Отмеченные"
     }
   ]
 }

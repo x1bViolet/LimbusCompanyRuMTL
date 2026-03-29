@@ -19,6 +19,22 @@
     {
       "id": "NestA",
       "content": "Корп. A"
+    },
+    {
+      "id": "HouseofSpiders",
+      "content": "Дом Пауков"
+    },
+    {
+      "id": "TheIndex",
+      "content": "Указательный палец"
+    },
+    {
+      "id": "SmokeWar",
+      "content": "Дымовая война"
+    },
+    {
+      "id": "ColorFixer",
+      "content": "Цветной корректировщик"
     }
   ]
 }
