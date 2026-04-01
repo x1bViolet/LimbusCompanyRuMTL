@@ -291,7 +291,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "S.C.N.C.",
+          "name": "С.Ш.И.К. ",
           "desc": "[StartBattle] Получает 2 [SlashDamageUp:`Повышения Рубящего урона`]",
           "coinlist": [
             {
@@ -324,7 +324,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "F.U.",
+          "name": "П.Б.",
           "desc": "",
           "coinlist": [
             {}
