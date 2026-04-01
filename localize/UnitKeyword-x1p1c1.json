@@ -1,0 +1,32 @@
+{
+  "dataList": [
+    {
+      "id": "UnitKeyword_X1P1C1_ASSO_1",
+      "content": "Детский сад «Лимбусята»"
+    },
+    {
+      "id": "UnitKeyword_X1P1C1_ASSO_2",
+      "content": "Задорные Пингвинята"
+    },
+    {
+      "id": "UnitKeyword_X1P1C1_ASSO_3",
+      "content": "Весёлые Цыплята"
+    },
+    {
+      "id": "UnitKeyword_X1P1C1_ASSO_4",
+      "content": "Ранние Слонята"
+    },
+    {
+      "id": "UnitKeyword_X1P1C1_KEYWORD_1",
+      "content": "Для Хрустящей Жарки"
+    },
+    {
+      "id": "UnitKeyword_X1P1C1_KEYWORD_2",
+      "content": "Для Сладкого Тушения"
+    },
+    {
+      "id": "UnitKeyword_X1P1C1_KEYWORD_3",
+      "content": "Для Пикантного Томления"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "dataList": [
+    {
+      "id": 9103901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Квуох",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кваагх",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бахавбаукх!",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ку-кудах!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [PlusCoinValueDown:`Ослабления положительной монеты`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Клуууух!",
+          "desc": "[WinDuel] Сила навыка +1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Куу",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гвгхаугкх",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1 в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вхкоук",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [Vibration:`Тремора`] на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9104104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кхгвак",
+          "desc": "[WhenUse] Восстанавливает 10 ОЗ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}
