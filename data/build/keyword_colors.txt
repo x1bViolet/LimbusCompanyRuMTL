@@ -1246,3 +1246,5 @@ SelfChargeAlly ¤ #f8c200
 HighVoltageExoshell ¤ #f8c200
 ChargedSting ¤ #e30000
 FaustFlameMothEmber ¤ #e30000
+DeliciousSauce ¤ #f8c200
+LeakedOutSauce ¤ #f8c200
