@@ -1248,3 +1248,12 @@ ChargedSting ¤ #e30000
 FaustFlameMothEmber ¤ #e30000
 DeliciousSauce ¤ #f8c200
 LeakedOutSauce ¤ #f8c200
+ChargeBodyArt ¤ #f8c200
+TibiaPersonality ¤ #f8c200
+MelodyBodyArt ¤ #f8c200
+MelodyBodyArtChebello ¤ #f8c200
+LivingSpecimenPersonality ¤ #e30000
+GoldenOpportunity ¤ #f8c200
+IronMaidenPersonality ¤ #9f6a3a
+SilverOpportunity ¤ #f8c200
+FasciaPersonality ¤ #f8c200
