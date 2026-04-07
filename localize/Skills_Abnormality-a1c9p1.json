@@ -559,7 +559,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Голод Фасции",
+          "name": "Фасция голодает",
           "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
@@ -594,7 +594,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 5 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [HumanFleshTheRings:`Ингредиент корпуса`]"
+                  "desc": "[OnSucceedAttack] Получает 1 [HumanFleshTheRings:`Телесного ингредиента`]"
                 }
               ]
             }

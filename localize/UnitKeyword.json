@@ -275,6 +275,26 @@
     {
       "id": "UnitKeyword_TRUST_AGENT",
       "content": "Посредник Оракула"
+    },
+    {
+      "id": "UnitKeyword_RING_FINGER_MAESTRO",
+      "content": "Маэстро"
+    },
+    {
+      "id": "UnitKeyword_RING_FINGER_DOCENT",
+      "content": "Доцент"
+    },
+    {
+      "id": "UnitKeyword_RING_FINGER_STUDENT",
+      "content": "Студент"
+    },
+    {
+      "id": "UnitKeyword_RING_FINGER_POINTILLISM",
+      "content": "Пуантилист"
+    },
+    {
+      "id": "UnitKeyword_RING_FINGER_PHYSICAL",
+      "content": "Корпорист"
     }
   ]
 }

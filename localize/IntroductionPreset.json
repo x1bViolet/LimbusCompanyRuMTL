@@ -1915,6 +1915,22 @@
     {
       "id": "introduce_sentence_240",
       "content": "Снова и снова, пока мы не коснёмся {0}(ы/-и/-а)...!"
+    },
+    {
+      "id": "introduce_word_241",
+      "content": "Впечатление"
+    },
+    {
+      "id": "introduce_sentence_241",
+      "content": "Пожалуйста, поделитесь же своим(-и) {0}(-ем/-ами/-ями)!"
+    },
+    {
+      "id": "introduce_word_242",
+      "content": "Фасция"
+    },
+    {
+      "id": "introduce_sentence_242",
+      "content": "Тебе страшно, {0}?"
     }
   ]
 }
