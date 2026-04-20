@@ -376,7 +376,7 @@
         {
           "level": 1,
           "name": "Я защищу.",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n<b>Специальный навык для [SupportProtect:`Вспомогательной защиты`]</b>\n[WhenUse] Восстанавливает 8 СД себе и Валенчине\n[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`] на следующий ход\n[DefeatDuel] Получает на 20% меньше урона за каждую единицу имеющейся [SupportProtect:`Вспомогательной защиты`]",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n<b>Специальный навык для [SupportProtect:`Вспомогательной защиты`]</b>\n[WhenUse] Восстанавливает 8 СД себе и Валенсине\n[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`] на следующий ход\n[DefeatDuel] Получает на 20% меньше урона за каждую единицу имеющейся [SupportProtect:`Вспомогательной защиты`]",
           "coinlist": [
             {
               "coindescs": [
@@ -586,9 +586,7 @@
           "level": 1,
           "name": "Курирование выставки",
           "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 2 [SupportProtect:`Вспомогательных защиты`]</u></b></mark></color>\n[WhenUse] Атакующий не будет терять счётчик [Laceration:`Кровотечения`] во время этого уворота",
-          "coinlist": [
-            {}
-          ]
+          "coinlist": [{}]
         }
       ]
     },
@@ -856,9 +854,7 @@
           "level": 1,
           "name": "Выставка начинается",
           "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [SupportProtect:`Вспомогательную защиту`]</u></b></mark></color>\n[StartBattle] Получает 1 [Agility:`Спешку`] на следующий ход",
-          "coinlist": [
-            {}
-          ]
+          "coinlist": [{}]
         }
       ]
     },
