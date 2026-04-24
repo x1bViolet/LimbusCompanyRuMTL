@@ -66,7 +66,7 @@
     },
     {
       "id": "boss_raid_battle_pause_ui_settings_desc",
-      "content": "Adjust various in-game settings."
+      "content": ""
     },
     {
       "id": "boss_raid_battle_pause_ui_retry_title",
@@ -74,7 +74,7 @@
     },
     {
       "id": "boss_raid_battle_pause_ui_retry_desc",
-      "content": "Пройти этап опять, используя текущий состав команды"
+      "content": "Начать битву сначала, используя такой же состав команды"
     },
     {
       "id": "boss_raid_battle_pause_ui_exit_title",
@@ -82,7 +82,7 @@
     },
     {
       "id": "boss_raid_battle_pause_ui_exit_desc",
-      "content": "Сбросить текущий прогресс этапа и вернуться в момент перед боем"
+      "content": "Сбросить текущий прогресс битвы и вернуться в момент перед боем"
     },
     {
       "id": "boss_raid_battle_pause_ui_end_title",
@@ -90,7 +90,7 @@
     },
     {
       "id": "boss_raid_battle_pause_ui_end_desc",
-      "content": "Выйти из текущей битвы и сохранить текущий прогресс"
+      "content": "Выйти из битвы и сохранить текущий прогресс"
     },
     {
       "id": "boss_raid_10001_boss_title",
@@ -106,11 +106,11 @@
     },
     {
       "id": "boss_raid_battle_pause_ui_phase_before",
-      "content": "ФАЗА {0}\nНе достигнуто"
+      "content": "ФАЗА {0}\n<size=80%>не достигнуто"
     },
     {
       "id": "boss_raid_battle_pause_ui_phase_current",
-      "content": "ФАЗА {0}\nВ процессе"
+      "content": "ФАЗА {0}\n<size=80%>в процессе"
     },
     {
       "id": "boss_raid_battle_pause_ui_phase_cleared",
@@ -158,7 +158,7 @@
     },
     {
       "id": "boss_raid_ask_give_up_popup_desc_detail",
-      "content": "<size=80%>Подтверждение <color=#f8c200>сохранит текущие ОЗ, СД, фазу боя и накопленные ЭГО Ресурсы</color>.\nЗатем вы можете продолжить со следующим выбором команды.</size>"
+      "content": "<size=80%>Подтверждение <color=#f8c200>сохранит текущие ОЗ, СД, фазу боя и накопленные ЭГО Ресурсы</color>\n\nЗатем вы можете продолжить со следующим выбором команды</size>"
     },
     {
       "id": "boss_raid_ask_exit_popup_title",
@@ -170,7 +170,7 @@
     },
     {
       "id": "boss_raid_ask_exit_popup_desc_detail",
-      "content": "<size=80%>Подтверждение вернёт к состоянию <color=#f8c200>непосредственно перед началом боя</color> с вашей текущей командой.</size>"
+      "content": "<size=80%>Подтверждение вернёт к состоянию <color=#f8c200>непосредственно перед началом боя</color> с вашей текущей командой</size>"
     },
     {
       "id": "boss_raid_phase_buff_view_ui_title",
