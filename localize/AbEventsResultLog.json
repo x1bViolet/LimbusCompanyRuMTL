@@ -350,7 +350,7 @@
     },
     {
       "id": "851901_kqe_success_1_1",
-      "content": "<color=#ebcaa2>{0} теряет весь</color> Заряд"
+      "content": "<color=#ebcaa2>{0} теряет весь</color> {1}"
     },
     {
       "id": "851901_kqe_success_1_2",

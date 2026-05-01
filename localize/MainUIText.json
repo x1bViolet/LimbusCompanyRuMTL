@@ -2027,6 +2027,22 @@
     {
       "id": "mainui_use_optional_piece_package",
       "content": "Использовать именной ящик с эгосколками"
+    },
+    {
+      "id": "mainui_battleresult_consumable",
+      "content": "Модулей потрачено"
+    },
+    {
+      "id": "mainui_cont_mine_title",
+      "content": "Последовательно"
+    },
+    {
+      "id": "mainui_cont_mine_daily_bonus_desc",
+      "content": "Дневных бонусов применено: {0}"
+    },
+    {
+      "id": "mainui_cont_mine_invalid_text",
+      "content": "Пройдите, чтобы открыть последовательную битву"
     }
   ]
 }
