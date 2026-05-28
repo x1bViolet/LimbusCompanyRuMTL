@@ -580,6 +580,12 @@
       "id": 2090911,
       "name": "Что отличает мотыльков от бабочек?",
       "desc": "Если свой самый левый базовый атакующий навык на приборной панели имеет грех Гнева или Похоти, он приобретает следующий эффект:\n- [EndSkill] Наносит случайному противнику урон грехом этого навыка, равный 30% от урона, нанесённого главной цели (До 30 урона; в фокусированных битвах урон наносится Частям)\n\nЕсли эффект выше нанёс максимально возможный урон, то получает на следующий ход 1 <sprite name=\"AmberDamageUp\"><color=#f8c200><u>Повышение урона[TabExplain] грехом</u></color>, соответствующим использованному навыку, а сам эффект перестаёт активироваться в течение следующих 2 ходов."
+    },
+    {
+      "id": 2010212,
+      "name": "Ember",
+      "desc": "<style=\"highlight\">On Use of a Wrath Skill or a Skill that inflicts [Combustion] Potency or Count: At 6+ total sum of [Combustion] on all targets, Clash Power +1</style>\n\nOn Clash Win, inflict (Wrath <style=\"highlight\">Reson. x 2</style>) [Combustion] <style=\"highlight\">on the main target</style> (<style=\"highlight\">max 8</style> per Skill)",
+      "summary": "Gain Clash Power\nWhen conditions are met, inflict [Combustion]"
     }
   ]
 }
