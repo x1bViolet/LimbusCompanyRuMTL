@@ -1315,3 +1315,4 @@ MiddleFatherSwordThreeOutis ¤ #a16a3b
 MiddleFatherSwordFourOutis ¤ #a16a3b
 MidFamilyOutis ¤ #f8c200
 CountSkillMidOutis ¤ #a16a3b
+MatchesPersonality ¤ #a16a3b

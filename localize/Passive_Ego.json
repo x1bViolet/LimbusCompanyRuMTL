@@ -8,7 +8,7 @@
     {
       "id": 2010211,
       "name": "Уголёк",
-      "desc": "При победе в столкновении наносит [Combustion:`Огонь`], равный (Число грехов в абсолютном резонансе Гнева / 2). (Единожды за навык)"
+      "desc": "При победе в столкновении наносит цели [Combustion:`Огонь`], равный (Число грехов в абсолютном резонансе Гнева / 2). (Единожды за навык)"
     },
     {
       "id": 2010311,
@@ -583,8 +583,8 @@
     },
     {
       "id": 2010212,
-      "name": "Ember",
-      "desc": "<style=\"highlight\">On Use of a Wrath Skill or a Skill that inflicts [Combustion] Potency or Count: At 6+ total sum of [Combustion] on all targets, Clash Power +1</style>\n\nOn Clash Win, inflict (Wrath <style=\"highlight\">Reson. x 2</style>) [Combustion] <style=\"highlight\">on the main target</style> (<style=\"highlight\">max 8</style> per Skill)",
+      "name": "Уголёк",
+      "desc": "<style=\"highlight\">При использовании навыков с грехом Гнева, которые наносят [Combustion:`Огонь`] или повышают его счётчик: Сила в столкновении +1, если сумма силы [Combustion:`Огня`] на всех целях равна 6 и более.</style>\n\nПри победе в столкновении наносит <style=\"highlight\">главной цели</style> [Combustion:`Огонь`], равный (Число грехов в абсолютном резонансе Гнева <style=\"highlight\">×</style> 2). (<style=\"highlight\">До 8</style> за навык)",
       "summary": "Gain Clash Power\nWhen conditions are met, inflict [Combustion]"
     }
   ]
