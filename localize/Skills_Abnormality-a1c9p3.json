@@ -4036,8 +4036,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Уныние<nobr>【落望】</nobr>",
-          "desc": "[DefeatDuel] Теряет 5 СД\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 3 [Reduction:`Понижения силы атаки`]</u></b></mark></color>",
+          "name": "Смятение<nobr>【落望】</nobr>",
+          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 3 [Reduction:`Понижения силы атаки`]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [

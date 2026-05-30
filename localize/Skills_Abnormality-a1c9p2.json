@@ -607,7 +607,7 @@
         {
           "level": 1,
           "name": "Призрачный шаг【殘像步】",
-          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Значение <sprite name=\"PhantomIncision\"></u><color=#e30000><u><link=\"PhantomIncision\">Следа клинка 【Послеобраз】</link></u></color><u> цели снижается вдвое</u></b></mark></color> (Округляется вниз)\n[DefeatDuel] Теряет 5 СД",
+          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Значение <sprite name=\"PhantomIncision\"></u><color=#e30000><u><link=\"PhantomIncision\">Следа клинка 【Послеобраз】</link></u></color><u> цели снижается вдвое</u></b></mark></color> (Округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
