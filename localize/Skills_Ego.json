@@ -969,7 +969,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                  "desc": "<style=\"highlight\">[SuperCoin:`Вечная монета`]</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит дополнительный урон Гневом, равный (Сила [Combustion:`Огня`] на цели × 3)% от итогового урона этой монеты (До 30%)</style>"

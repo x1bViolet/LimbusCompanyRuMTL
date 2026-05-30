@@ -2898,7 +2898,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Combustion:`Огня`]"
@@ -2908,7 +2908,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
@@ -2918,7 +2918,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1"
@@ -2928,7 +2928,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
@@ -2938,7 +2938,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] <style=\"highlight\">и 1 [Paralysis:`Паралич`]</style> на следующий ход (Единожды за ход)"
