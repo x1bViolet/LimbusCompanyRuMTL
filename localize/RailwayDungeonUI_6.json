@@ -74,11 +74,11 @@
     },
     {
       "id": "railway_6_ui_attack_resistance_buff_for_ui",
-      "content": "Сопротивление {0} + 0.25, Сопротивление {1} + 0.25"
+      "content": "Сопротивление к греху \"{0}\" ослабляется на 0.25, Сопротивление к типу физ. урона \"{1}\" ослабляется на 0.25"
     },
     {
       "id": "railway_6_ui_attack_resistance_buff_for_ui_only_one",
-      "content": "Сопротивление {0} + 0.25"
+      "content": "Сопротивление к типу урона \"{0}\" ослабляется на 0.25"
     },
     {
       "id": "railway_6_ui__attack_resistance_buff_for_ui_empty",
