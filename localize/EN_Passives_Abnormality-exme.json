@@ -1,0 +1,108 @@
+{
+  "dataList": [
+    {
+      "id": 145004,
+      "name": "Headsplitting Memory",
+      "desc": "On Clash Lose, gain 1 [RegretSCorp] (once per turn)"
+    },
+    {
+      "id": 144804,
+      "name": "Ch'unokkun",
+      "desc": "If this unit inflicted [TiedRope] on target, gain [TiedWithRope]",
+      "flavor": "Корп. S распоряжается двумя типами Охотников за Табу: Королевскими Цензорами и Чхуноккунами.\nАгенты Королевского Двора, Королевские Цензоры, как правило, действуют в одиночку, работая под прикрытием, чтобы преследовать тех, кто осмелился нарушить Табу Сальпиппё.\nЧхуноккуны, подобно Офисам Корректировщиков, объединяются в группы внутри своих рядов. Как только им поручают приказ или контракт на поимку Клеймёного, каждая группа выслеживает цель тем способом, который предпочитает. В охоте на Ноби нет ни чести, ни достоинства."
+    },
+    {
+      "id": 144801,
+      "name": "Scouring Hunterband [推刷巾]",
+      "desc": "Deal +5% damage for every 1 [Binding] on target (max 15%)",
+      "flavor": "Закрыть глаза — не значит ослепнуть.\nЭти ткани, созданные с использованием Сингулярности Корп. Q, имеют множество форм, таких как повязки на глаза и головные уборы, и широко используются на Востоке. Нередко можно увидеть Корректировщиков и сотрудников корпораций на Востоке, закрывающих свои головы и лица этими изделиями.\nТкани выполняют ту же функцию, что и солнцезащитные очки, визоры и боевые протезы глаз, встречающиеся в других местах Города. Они сканируют информацию о цели в реальном времени, улучшают зрение носителя и предоставляют тактический анализ. Иногда они также могут служить средством связи с удалёнными союзниками."
+    },
+    {
+      "id": 144802,
+      "name": "Tracking Traces",
+      "desc": "On Clash Win, gain 2 [Breath] for every [ScratchesHurt] on target"
+    },
+    {
+      "id": 144803,
+      "name": "Throwing the Ohra Bond",
+      "desc": "On Hit, if target is Staggered, inflict 2 [Binding] next turn"
+    },
+    {
+      "id": 145201,
+      "name": "Arranged Information",
+      "desc": "If this unit inflicted [TakePicture] on an enemy, heal 10 SP"
+    },
+    {
+      "id": 145202,
+      "name": "Firm Nailing",
+      "desc": "On triggering [VibrationExplosion] on an enemy, raise target's Stagger Threshold by [LensmanNail] Stack"
+    },
+    {
+      "id": 145001,
+      "name": "Swordplay of the Homeland [Sal] - Great Hwando",
+      "desc": "Encounter Start: Gain 5 [ChoiSwordsmanship]\n\n<color=#ff6000><mark color=#ff000040><b><u>Assume a different Battleform of the Homeland every 3 turns</color></mark></b></u>\n\nTurn End: If this unit has Shield, gain 5 [Breath] and +2 [Breath] Count next turn\n\nWhen the following conditions are met, use a pattern that includes the \"Bow of the Homeland - Arrowloose\" Skill\n- When this unit lost all Clashes for 2 turns in a row (does not check for Unopposed Attacks)\n- In the turn after the turn in which this unit spent in Stagger\n- When in Low Morale or Panic",
+      "flavor": "Меч Родины, традиционное искусство владения мечом Корп. S, также делится на три ветви: Саль, Пи и Пхьё.\nВ их учениях существуют техники, позволяющие рубить и рассекать существ колоссального роста, таких как Сангуны.\nЧтобы выполнить их в полной мере, мечник должен владеть огромным хвандо, способным выдержать напряжение этих техник."
+    },
+    {
+      "id": 145002,
+      "name": "Dujeong Brigandine [Sal] - Iron Bulwark",
+      "desc": "Take -30% damage from [Combustion], [Laceration], [Vibration], [Burst], [Sinking] (rounded down)\n\nGain the effects of [PanicChangeLock]; If this unit is Panicked at Turn End, reset SP to 45\n\nUpon entering the Encounter for the first time, gain 5 [ChoiSwordsmanshipShield]\n\n<color=#ff6000><mark color=#ff000040><b><u>When [ChoiSwordsmanshipShield] expires, end Encounter</color></mark></b></u>",
+      "flavor": "Восточные Боевые Доспехи не столько «экипируют», сколько «пилотируют». Бригантина Дучжон Корп. S — один из примеров таких доспехов.\nПодобно Силовому Бронекостюму Корп. R и Полным Латным Доспехам, используемым Рыцарями Запада, Бригантина Дучжон значительно усиливает наступательные и оборонительные боевые возможности пользователя.\nОднако эти преимущества не означают, что доспехи такой мощи легко выдаются боевому персоналу. Каждая единица имеет свои уникальные элементы управления и ограничение в виде необходимости отдельного топлива.\nЧто остаётся несомненным, так это то, что, как и со всеми вышеупомянутыми доспехами, как только наездник осваивается с увеличенным радиусом действия и повышенной мощностью Бригантины Дучжон, он становится машиной войны, шагающей по полям сражений с обещанием резни."
+    },
+    {
+      "id": 145003,
+      "name": "Martial Arts of Perseverance",
+      "desc": "On Clash Win, gain +2 [Breath] Count (2 times per turn)\n\nIf the target this unit's Skill hit has less than 5 [Laceration] Potency, inflict 1 [Laceration] and +2 [Laceration] Count at Attack End (once per Skill, 2 times per turn, prioritize the main target)",
+      "flavor": "«Есть те, кто упорно тренируется из-за недостатка таланта. А есть те, кто благословлён талантом, но позволяет ему ржаветь.»\n«Все говорят, что титул Клинка Вершины может быть завоёван только одарённым.»\n«Это неважно. До того дня, когда этот мой клинок поднимется достаточно высоко, чтобы встретиться с облаками, я буду упорно оттачивать своё мастерство.»"
+    },
+    {
+      "id": 145005,
+      "name": "Yield My Flesh",
+      "desc": "Deal and take +20% damage on Critical Hit against and from Bamboo-hatted Kim",
+      "flavor": "«Эту плоть я забираю.»"
+    },
+    {
+      "id": 145006,
+      "name": "Developed Memories",
+      "desc": "Upon entering the Encounter, gain 3 [PhotoTransitionChoi]\n\n<color=#ff6000><mark color=#ff000040><b><u>Turn Start: At 0 [PhotoTransitionChoi] Stack, Retreat and transition into a different location</color></mark></b></u>\n\nWhen Returning to the field, based on current Battleform of the Homeland, gain or lose [ChoiSwordsmanship]\n- When in [ChoiSwordsmanshipOne]: Gain Stack\n- When in [ChoiSwordsmanshipMany]: Lose Stack"
+    },
+    {
+      "id": 145007,
+      "name": "Mismatched Memories",
+      "desc": "Turn Start: Gain the following effects:\n- When in [ChoiSwordsmanshipOne]: At less than 5 [ChoiSwordsmanship] Stack, gain (5 - [ChoiSwordsmanship] Stack) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n- When in [ChoiSwordsmanshipMany]: At more than 5 [ChoiSwordsmanship] Stack, gain <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> equal to surplus [ChoiSwordsmanship] Stack past 5 "
+    },
+    {
+      "id": 145101,
+      "name": "Swordplay of the Homeland [Sal] - Rend Flesh from Flesh",
+      "desc": "Encounter Start: Gain 5 [ChoiSwordsmanship]\n\nAssume a different Battleform of the Homeland every 3 turns\n\nOn Hit using a Slash Skill, gain 1 [Breath] Potency (once per Skill)\n\nWhen the following conditions are met, use a pattern that includes the \"Bow of the Homeland - Arrowloose\" Skill\n- When this unit lost all Clashes for 2 turns in a row (does not check for Unopposed Attacks)\n- Turn after Stagger\n- When in Low Morale or Panic\n\nTurn Start: At Min or Max [ChoiSwordsmanship] Stacks, use a powerful Skill\nIf this unit used the \"Bow of the Homeland - Arrowloose\" Skill in the last turn, use a powerful Skill regardless of [ChoiSwordsmanship] Stack on self\nAt 55% or lower HP, use a powerful Skill regardless of [ChoiSwordsmanship] Stack on self",
+      "flavor": "Меч Родины, передающийся в Круге Двора Саль, в своей основе не является искусством убийства.\nРезать и резать снова, пока кровь не иссякнет, а кость не обнажится — такова суть этого искусства, разрезающего плоть противника на ленты.\nТаков Меч Родины, практикуемый 'Саль'."
+    },
+    {
+      "id": 145104,
+      "name": "Swordplay of the Homeland [Sal] - Shift Battleform",
+      "desc": "<color=#ff6000><mark color=#ff000040><b><u>Turn Start: Gain or lose 2 [ChoiSwordsmanship] Stack based on Battleform of the Homeland on self (does not activate in the first turn of the Encounter)</color></mark></b></u>\n- [ChoiSwordsmanshipOne]: Gain Stack\n- [ChoiSwordsmanshipMany]: Lose Stack\n\nIn the turn where this unit equipped Envy Skills, this unit will not be affected by [ChoiSwordsmanship] Stack adjustment effects, and will <color=#ff6000><mark color=#ff000040><b><u>reset [ChoiSwordsmanship] Stack to 5 next turn</color></mark></b></u>"
+    },
+    {
+      "id": 145105,
+      "name": "Dujeong Brigandine [Sal] - Great Mountain",
+      "desc": "Take -30% damage from [Combustion], [Laceration], [Vibration], [Burst], [Sinking] (rounded down)\n\nGain the effects of [PanicChangeLock]; If this unit is Panicked at Turn End, reset SP to 45\n\nTurn Start: Gain the following effects:\n\n- When in [ChoiSwordsmanshipOne]: At less than 5 [ChoiSwordsmanship] Stack, gain (5 - [ChoiSwordsmanship] Stack) <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u>\n\n- When in [ChoiSwordsmanshipMany]: At more than 5 [ChoiSwordsmanship] Stack, gain <color=#ff6000><mark color=#ff000040><b><u>[Vulnerable]</color></mark></b></u> equal to surplus [ChoiSwordsmanship] Stack past 5",
+      "flavor": "Каждый из трёх Кругов Двора Саль, Пи и Ппё переделал стандартную Бригантину Дучжон Корп. S в формы, подходящие для их собственных доктрин.\nВ старых легендах говорится, что 'Саль' всегда первым возглавлял резню, стремясь рассечь плоть врага раньше любого другого.\n'Пи' собирает кровь, вытекающую из каждой открытой раны на плоти, и превращает её в выносливость на поле боя.\n'Ппё' завершает резню. Они отделяют один сустав от другого, ставя врага на колени. Затем клинок сквозь шейную кость завершает коллективный акт убийства."
+    },
+    {
+      "id": 146101,
+      "name": "Scattering Memories",
+      "desc": "On death, give +1 E.G.O resource of the least-owned Affinity",
+      "summary": "Give E.G.O resource on death"
+    },
+    {
+      "id": 146001,
+      "name": "Location-type Distortion: Photo Lab",
+      "desc": "This unit cannot be killed, and does not take any damage from sources other than Skill damage from Skills attacking this unit as the main target\n\nThis unit's Speed is fixed to 1\n\nTurn Start after entering the Encounter: Gain 3 [PhotoTransitionChoiCamera]\n\nTurn End: <color=#ff6000><mark color=#ff000040><b><u>If [PhotoTransitionChoiCamera] reaches 0 Stack, or if this unit's HP reaches 1</color></mark></b></u>, activate the following at the next Turn Start:\n- Remove self and N Corp. Class 2 Staff from the Encounter\n- Return Im Gyeong-eop to the Encounter\n- Move the battle to a different location"
+    },
+    {
+      "id": 146002,
+      "name": "From Memory to Record",
+      "desc": "Combat Start: If the battlefield has returned from S Corp. to N Corp. this turn, heal 15 SP for all Sinners"
+    }
+  ]
+}
