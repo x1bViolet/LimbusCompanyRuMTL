@@ -1344,3 +1344,15 @@ YesdragonScale ¤ #e30000
 TagGameBuff ¤ #a16a3b
 MiddleFingerLeashBuff ¤ #e30000
 ObservationTheRingsRail ¤ #a16a3b
+ScratchesHurtID ¤ #e30000
+TiedRopeHonglu ¤ #e30000
+TiedWithRopeID ¤ #f8c200
+AengduNewArmIshmael ¤ #f8c200
+BladelineagePride ¤ #f8c200
+WindBladeIshmael ¤ #f8c200
+AlcoholKimPersonal ¤ #f8c200
+GrudgePersonal ¤ #f8c200
+GhostKimPersonal ¤ #f8c200
+RootSoupKimPersonal ¤ #f8c200
+RootSoupKimSatgat ¤ #f8c200
+BongukGiftEnhance ¤ #f8c200
