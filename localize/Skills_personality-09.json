@@ -3078,7 +3078,7 @@
         {
           "level": 1,
           "name": "Разделка слона",
-          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath:`Дыхания`]\n[BeforeAttack] Значение [FutureEyeOnRodion:`Глаза предвидения`] снижается до 10 (Единожды за ход)",
+          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath:`Дыхания`]\n[BeforeAttack] Теряет 10 [FutureEyeOnRodion:`Глаза предвидения`] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3128,7 +3128,7 @@
         {
           "level": 4,
           "name": "Разделка слона",
-          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath:`Дыхания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)</style>\n[BeforeAttack] Значение [FutureEyeOnRodion:`Глаза предвидения`] снижается до 10 (Единожды за ход)",
+          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath:`Дыхания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)</style>\n[BeforeAttack] Теряет 10 [FutureEyeOnRodion:`Глаза предвидения`] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
