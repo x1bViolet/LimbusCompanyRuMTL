@@ -3138,7 +3138,7 @@
           "level": 3,
           "name": "Crack of Dawn",
           "desc": "Deal +50% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n[WhenUse] Apply 2 [Protection] next turn on 2 random other allies\n(prioritize allies that do not have [Protection]; among them, prioritize Dawn Office[TabExplain] allies)\n[WhenUse] At 15+ [Combustion], Coin Power +1\n[EndSkill] Activate the following effects:\n- Apply 3 [DawnLight] next turn on all allies\n- Consume up to 15 [Combustion] on self and heal (15 + [Combustion] consumed)% HP\n- Consume all [StigmaWorkshopHandStep1] on self",
-          "flavor": "На одном из бесчисленных бушующих полей сражений Войны Дыма эта самая техника расплавила и расколола последнюю пару крыльев некоего решающего оружия и пространство, в котором оно находилось, предвещая конец рассвета.\n\n«Ха... Я чуть не умерла...!»\n«Госпожа, вы думаете... вы сможете прикончить этого монстра?»",
+          "flavor": "На одном из бесчисленных бушующих полей сражений Дымовой Войны эта самая техника расплавила и расколола последнюю пару крыльев некоего решающего оружия и пространство, в котором оно находилось, предвещая конец рассвета.\n\n«Ха... Я чуть не умерла...!»\n«Миледи, вы думаете... вы сможете прикончить этого монстра?»",
           "coinlist": [
             {
               "coindescs": [
@@ -3195,7 +3195,7 @@
           "level": 4,
           "name": "Crack of Dawn",
           "desc": "Deal +<style=\"highlight\">75</style>% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts)\n[WhenUse] Apply 2 [Protection] next turn on 2 random other allies\n(prioritize allies that do not have [Protection]; among them, prioritize Dawn Office[TabExplain] allies)\n[WhenUse] At 15+ [Combustion], Coin Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Combustion] + [Vibration]) on the main target (max 2)</style>\n[EndSkill] Activate the following effects:\n- Apply 3 [DawnLight] next turn on all allies\n- Consume up to 15 [Combustion] on self and heal (15 + [Combustion] consumed)% HP\n- Consume all [StigmaWorkshopHandStep1] on self",
-          "flavor": "На одном из бесчисленных бушующих полей сражений Войны Дыма эта самая техника расплавила и расколола последнюю пару крыльев некоего решающего оружия и пространство, в котором оно находилось, предвещая конец рассвета.\n\n«Ха... Я чуть не умерла...!»\n«Госпожа, вы думаете... вы сможете прикончить этого монстра?»",
+          "flavor": "На одном из бесчисленных бушующих полей сражений Дымовой Войны эта самая техника расплавила и расколола последнюю пару крыльев некоего решающего оружия и пространство, в котором оно находилось, предвещая конец рассвета.\n\n«Ха... Я чуть не умерла...!»\n«Миледи, вы думаете... вы сможете прикончить этого монстра?»",
           "coinlist": [
             {
               "coindescs": [
