@@ -3262,6 +3262,71 @@
       "name": "Слабаки, ни черта не стоите",
       "desc": "Когда самый быстрый союзник [VibrationExplosion:`Провоцирует Тремор`] на противнике, он получает 2 [AttackUp:`Повышения уровня атаки`] на следующий ход. (Единожды за ход)\n- Если затронутый союзник из Большого пальца, то даёт ему 1 [Agility:`Спешку`] на следующий ход вместе с этим.",
       "summary": "Получает [AttackUp:`Повышение уровня атаки`] при [VibrationExplosion:`Провокации Тремора`] на цели"
+    },
+    {
+      "id": 1121601,
+      "name": "Morgenfeuer [Stigma Workshop]",
+      "desc": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Rep Gregor uses the \"Flash of Sunup\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Flash of Sunup\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Flash of Sunup\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Fixer Faust's \"Eject\", \"Eject - High Noon[TabExplain]\", and \"Dismemberment at High Noon[TabExplain]\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Coins added to Dawn Office[TabExplain] Rep Gregor's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "If conditions are met, deal Wrath damage based on Burn Potency",
+      "flavor": "Оружие из Мастерской класса А+, которое оставалось неизменным спутником своего владельца, <i>Корректировщика на Заре</i>, с его первых дней в качестве Корректировщика, через всю Дымовую войну и ее последствия. Каждый контракт, успешно выполненный Корректировщиком, добавлял славы Мастерской Стигмы, и в знак благодарности они неоднократно модернизировали и расширяли возможности оружия. Подобно тому, как с течением времени росла заслуженная слава Корректировщика, этот клинок тоже ковался, переделывался и затачивался годами.\nРассветный пожар, когда-то считавшееся оружием класса S, неизбежно потеряло свой пыл и остроту в сумеречные годы Корректировщика на Заре, когда он ушел с передовой корректировочного бизнеса, чтобы заняться обучением следующего поколения."
+    },
+    {
+      "id": 1121611,
+      "name": "Morgenfeuer [Stigma Workshop]",
+      "desc": "When this unit has [DawnLight], gain 2 [StigmaWorkshopHandStep1] On Hit using Base Attack Skills\n\nWhen other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Rep Gregor uses the \"Flash of Sunup\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Flash of Sunup\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Flash of Sunup\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Fixer Faust's \"Eject\", \"Eject - High Noon[TabExplain]\", and \"Dismemberment at High Noon[TabExplain]\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Coins added to Dawn Office[TabExplain] Rep Gregor's Base Skills, deal additional Wrath damage equal to [Combustion] on the targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "Gain [StigmaWorkshopHandStep1]\nIf conditions are met, deal Wrath damage based on Burn Potency",
+      "flavor": "Оружие из Мастерской класса А+, которое оставалось неизменным спутником своего владельца, <i>Корректировщика на Заре</i>, с его первых дней в качестве Корректировщика, через всю Дымовую войну и ее последствия. Каждый контракт, успешно выполненный Корректировщиком, добавлял славы Мастерской Стигмы, и в знак благодарности они неоднократно модернизировали и расширяли возможности оружия. Подобно тому, как с течением времени росла заслуженная слава Корректировщика, этот клинок тоже ковался, переделывался и затачивался годами.\nРассветный пожар, когда-то считавшееся оружием класса S, неизбежно потеряло свой пыл и остроту в сумеречные годы Корректировщика на Заре, когда он ушел с передовой корректировочного бизнеса, чтобы заняться обучением следующего поколения."
+    },
+    {
+      "id": 1121602,
+      "name": "The Fixer at the Crack of Dawn",
+      "desc": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopHandStep1]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)"
+    },
+    {
+      "id": 1121603,
+      "name": "Dawn Office",
+      "desc": "Upon entering the Encounter for the first time, if there are 2+ allied Dawn Office[TabExplain] Identities (including this unit) on the field, apply [DawnTeam] Stack on all Dawn Office[TabExplain] Identities equal to the number of Dawn Office[TabExplain] Identities on the field\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnGregor]\n- Turn Start: If Dawn Office[TabExplain] Rep Gregor is defeated, convert [DawnGregor] on Dawn Office[TabExplain] Fixer Sinclair into [DawnGregorDying]\n- Turn Start: If Dawn Office[TabExplain] Fixer Sinclair has less than 50% HP, apply [RunSinclair] on that unit (once per Encounter)"
+    },
+    {
+      "id": 1121621,
+      "name": "Stigma Workshop Prosthesis",
+      "desc": "The ally who has the highest current HP inflicts 2 [Vibration] On Hit against enemies that have [Combustion] (once per turn)\n- If said enemy has 10+ [Combustion], trigger [VibrationExplosion] On final Coin Hit; then, reduce target's [Vibration] Count by 1 (once per turn)",
+      "flavor": "Протез, созданный Мастерской Стигмы — мастерской, обычно специализирующейся на клинковом оружии, — и разработанный специально для Корректировщика на Заре. Попытка использовать это огненное снаряжение без понимания специфических особенностей Мастерской Стигмы обернется быстрыми последствиями: болезненными, плавящими плоть ожогами, выжженными на теле пользователя."
+    },
+    {
+      "id": 1021602,
+      "name": "Heatproof Coat",
+      "desc": "Upon entering the Encounter for the first time, gain 0 [StigmaWorkshopCelloCaseOne]\n\nCannot be Staggered or fall below 1 HP due to [Combustion] damage\nTake -50% damage from [Combustion] effects (rounded down)\n- At less than 50% HP, take -75% damage from [Combustion] effects instead (rounded down)",
+      "summary": "Take less damage from Burn effects",
+      "flavor": "Если вы решили использовать снаряжение из Мастерских, использующее тепло, то вам лучше быть готовым оплатить множество скрытых расходов. В отличие от обычного оружия, чьи переменные лежат в более очевидной плоскости, такой как острота и прочность, оружие, излучающее тепло, требует всевозможной подготовки, чтобы гарантировать, что владелец не будет поглощен этим самым теплом. А это требует денег.\n\nКонечно, довольно просто приобрести оружие, которое поджигает всё вокруг, или ткани, которые не так легко воспламеняются. Но получить оружие, чью теплоотдачу можно точно настроить и контролировать в любой момент в соответствии с нуждами владельца, или исключительные ткани, <i>полностью</i> отражающие тепло — такое исключительное снаряжение стоит не только целое состояние, но и требует постоянных тренировок владельца, чтобы стать столь же исключительным в обращении с ним.\n\nЕстественно, если вы вложили столько денег и времени, отдача придет в виде гораздо большего количества контрактов, требующих ваших услуг."
+    },
+    {
+      "id": 1021603,
+      "name": "Seonbae",
+      "desc": "If Dawn Office[TabExplain] Fixer Sinclair is on the field, activate the following effects:\n- Dawn Office[TabExplain] Fixer Sinclair gains [DawnFaust]\n- Turn Start: If Dawn Office[TabExplain] Fixer Faust is defeated, convert [DawnFaust] on Dawn Office[TabExplain] Fixer Sinclair into [DawnFaustDying]",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": 1021601,
+      "name": "Feuerfalter [Stigma Workshop]",
+      "desc": "When other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "Activate additional attack\nOn Hit using Reused Coins, deal Wrath damage based on Burn Potency",
+      "flavor": "Привлекательность оружия в форме чемодана или футляра для музыкального инструмента вполне очевидна.\n\nВо-первых, пользователь может слиться с повседневной жизнью, не вызывая подозрений. Хотя подобное оружие громоздко и сложно в использовании в бою, этот кажущийся недостаток делает менее вероятным то, что в нем распознают орудие убийства.\n\nВо-вторых, оружие, выполненное в форме футляра, обеспечивает вместительность. Оружие в виде контейнеров, например, активно используется Корректировщиками Девять.\n\nПодобное удобство, однако, не гарантирует автоматического признания со стороны тех, кто выбирает снаряжение Мастерских в качестве своего любимого оружия. Распространено мнение, что любому, кто тратит столько времени на овладение таким оружием, лучше было бы тренироваться с чем-то другим — на самом деле, пользователь часто слышит ехидные замечания от других бойцов, от «Вот Корректировщики нынче пошли...» до «показушно и претенциозно».\n\nНо стоит ли позволять этой репутации непрактичности усыплять свою бдительность при встрече с противником, вооруженным столь привередливым оборудованием, особенно если он оказывается высокоранговым Корректировщиком или офицером Синдиката; тогда можно обнаружить, что смехотворные «контейнеры» или «футляры» несут в себе совершенно иной вес — вес, достаточно серьезный, чтобы любая уважающая себя Мастерская называла их «гробами». А гробы, как известно, имеют свойство привлекать бабочек."
+    },
+    {
+      "id": 1021611,
+      "name": "Feuerfalter [Stigma Workshop]",
+      "desc": "<style=\"highlight\">Combat Start: When this unit has [Firstlight], gain (Stack x 3) [StigmaWorkshopCelloCaseOne]</style>\n\nWhen other Dawn Office[TabExplain] Identities meet the following conditions, Dawn Office[TabExplain] Fixer Faust uses the \"Seconded Offensive\" Skill against the targeted enemy (once per turn per Identity)\n- At Base Skill Attack End: If the enemy that was hit is Staggered, use \"Seconded Offensive\" against said enemy\n(Does not activate if the said enemy was already Staggered Before Attack of the said Skill)\n- At Attack End of the following Skills, use \"Seconded Offensive\" on the enemy they hit (prioritizes Staggered targets):\n  · Dawn Office[TabExplain] Rep Gregor's \"Dawnsplitter\" and \"Crack of Dawn\"\n  · Dawn Office[TabExplain] Fixer Sinclair's \"Stigmatize\" and \"Blazing[TabExplain] Strike\"\n\nIf Dawn Office[TabExplain] Fixer Sinclair is on the field: On Hit using Reused Coins of Dawn Office[TabExplain] Fixer Faust's Base Skills, deal additional Wrath damage equal to [Combustion] on the targeted enemy (max 10; max 20 per turn)\n- Counts as activating [Combustion]",
+      "summary": "If this unit has Battle Instinct, gain Fire Butterfly Coffin\nActivate additional attack\nOn Hit using Reused Coins, deal Wrath damage based on Burn Potency",
+      "flavor": "Привлекательность оружия в форме чемодана или футляра для музыкального инструмента вполне очевидна.\n\nВо-первых, пользователь может слиться с повседневной жизнью, не вызывая подозрений. Хотя подобное оружие громоздко и сложно в использовании в бою, этот кажущийся недостаток делает менее вероятным то, что в нем распознают орудие убийства.\n\nВо-вторых, оружие, выполненное в форме футляра, обеспечивает вместительность. Оружие в виде контейнеров, например, активно используется Корректировщиками Девять.\n\nПодобное удобство, однако, не гарантирует автоматического признания со стороны тех, кто выбирает снаряжение Мастерских в качестве своего любимого оружия. Распространено мнение, что любому, кто тратит столько времени на овладение таким оружием, лучше было бы тренироваться с чем-то другим — на самом деле, пользователь часто слышит ехидные замечания от других бойцов, от «Вот Корректировщики нынче пошли...» до «показушно и претенциозно».\n\nНо стоит ли позволять этой репутации непрактичности усыплять свою бдительность при встрече с противником, вооруженным столь привередливым оборудованием, особенно если он оказывается высокоранговым Корректировщиком или офицером Синдиката; тогда можно обнаружить, что смехотворные «контейнеры» или «футляры» несут в себе совершенно иной вес — вес, достаточно серьезный, чтобы любая уважающая себя Мастерская называла их «гробами». А гробы, как известно, имеют свойство привлекать бабочек."
+    },
+    {
+      "id": 1021621,
+      "name": "The Lone Fixer",
+      "desc": "Combat Start: If there is only 1 surviving Identity, including Backup units, the said Identity gains 3 [AttackUp] and 3 [DefenseUp]",
+      "summary": "Gain 3 Offense Level Up and 3 Defense Level Up",
+      "flavor": ""
     }
   ]
 }
