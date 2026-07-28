@@ -52,7 +52,11 @@
     },
     {
       "id": "RecoverSelfHpOnSucceedAttackByDmg",
-      "desc": "Восстанавливает {0}% от нанесённого урона"
+      "desc": "Восстанавливает ОЗ на {0}% от наносимого урона"
+    },
+    {
+      "id": "RecoverSelfHpOnSucceedAttackByDmgRR2",
+      "desc": "Восстанавливает ОЗ на {0}% от наносимого урона"
     },
     {
       "id": "RailEnemyBuffF",
