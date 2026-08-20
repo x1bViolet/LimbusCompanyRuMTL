@@ -1400,3 +1400,5 @@ Firstlight ¤ #f8c200
 CaseOverheating ¤ #e30000
 DriftingDimensionYisang ¤ #f8c200
 FourDimensionYisang ¤ #f8c200
+DianxueHongLu ¤ #e30000
+DuelSousTemoinsEast ¤ #f8c200
