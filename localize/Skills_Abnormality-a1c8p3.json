@@ -350,7 +350,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
                 }
               ]
             }
