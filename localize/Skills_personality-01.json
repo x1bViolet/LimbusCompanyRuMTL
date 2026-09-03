@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Спокойно",
-          "desc": "[nxPostLine] Повышает свой счётчик [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>\n<style=\"highlight\">Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более</style>",
+          "desc": "Повышает свой счётчик [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>\n<style=\"highlight\">Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более</style>",
           "coinlist": [
             {},
             {
