@@ -1,0 +1,512 @@
+{
+  "dataList": [
+    {
+      "key": "ReturnToMainUiScene",
+      "text": "Вернуться к окну?\n<color=#ff0000>Недавний прогресс может быть потерян.</color>\n\n※ Игра сохраняется в следующих точках: Завершение задания / Переход на этаж или в область.\nПожалуйста, проверьте последнюю точку сохранения перед выходом в окно."
+    },
+    {
+      "key": "AskToMoveFloor",
+      "text": "Отправиться на {0} этаж?"
+    },
+    {
+      "key": "MoveFloorUiDesc",
+      "text": "На какой этаж нам отправиться?"
+    },
+    {
+      "key": "DialogueSkipConfirmDesc",
+      "text": "Пропустить этот сюжетный эпизод?"
+    },
+    {
+      "key": "DialogueSkipDontShowAgain",
+      "text": "Не показывать это сообщение снова"
+    },
+    {
+      "key": "AccumulatedExp",
+      "text": "Расходы глазных яблок"
+    },
+    {
+      "key": "RemainExpToNextLevel",
+      "text": "До следующего уровня"
+    },
+    {
+      "key": "ItemFilterAll",
+      "text": "Все"
+    },
+    {
+      "key": "ItemFilterKeyItem",
+      "text": "Задание"
+    },
+    {
+      "key": "ItemFilterSurvival",
+      "text": "Выживаемость"
+    },
+    {
+      "key": "ItemFilterBasicAttack",
+      "text": "Базовая атака"
+    },
+    {
+      "key": "ItemFilterAdditionalAttack",
+      "text": "Доп. атака"
+    },
+    {
+      "key": "ItemFilterPrisonerEffect",
+      "text": "Эффекты Грешников"
+    },
+    {
+      "key": "ItemFilterEtc",
+      "text": "Другое"
+    },
+    {
+      "key": "Item_QuestMark",
+      "text": "Ключевой предмет"
+    },
+    {
+      "key": "Item_Suffix_Disabled",
+      "text": "{0} (неактивно)"
+    },
+    {
+      "key": "rpg_quest_tag_dialogue",
+      "text": "Диалог"
+    },
+    {
+      "key": "rpg_quest_tag_battle",
+      "text": "Битва"
+    },
+    {
+      "key": "rpg_quest_tag_hunt",
+      "text": "Уничтожить"
+    },
+    {
+      "key": "rpg_quest_tag_gather",
+      "text": "Собрать"
+    },
+    {
+      "key": "rpg_quest_tag_shop",
+      "text": "Магазин"
+    },
+    {
+      "key": "rpg_quest_tag_move",
+      "text": "Отправиться"
+    },
+    {
+      "key": "Common_Ok",
+      "text": "Подтвердить"
+    },
+    {
+      "key": "Quest_Tag_Progress",
+      "text": "Прогресс"
+    },
+    {
+      "key": "Quest_Tag_Reward",
+      "text": "Награда"
+    },
+    {
+      "key": "Shop_Title",
+      "text": "Магазин"
+    },
+    {
+      "key": "Shop_Category_All",
+      "text": "Все"
+    },
+    {
+      "key": "Shop_Category_Artifact",
+      "text": "Артефакты"
+    },
+    {
+      "key": "Shop_Category_Etc",
+      "text": "Другое"
+    },
+    {
+      "key": "Shop_Button_Buy",
+      "text": "Купить"
+    },
+    {
+      "key": "Shop_SelectedItem_None",
+      "text": "Выберите предметы для покупки."
+    },
+    {
+      "key": "Shop_Item_Stock",
+      "text": "Наличие"
+    },
+    {
+      "key": "Shop_Item_Owned",
+      "text": "Имеется"
+    },
+    {
+      "key": "Shop_Item_NotForSale",
+      "text": "Нельзя купить"
+    },
+    {
+      "key": "Shop_Empty_Item_List",
+      "text": "Нет предметов для отображения."
+    },
+    {
+      "key": "Log_ItemAcquired",
+      "text": "Предмет получен: {0} x{1}"
+    },
+    {
+      "key": "Log_ItemAcquiredKeyItem",
+      "text": "Предмет получен: <color=#{2}>{0} x{1}</color>"
+    },
+    {
+      "key": "Log_CurrencyEarned",
+      "text": "Получено: {0} глазных яблок"
+    },
+    {
+      "key": "Log_Purchased",
+      "text": "Куплено: {0} x{1} ({2} потрачено)"
+    },
+    {
+      "key": "Log_PurchasedKeyItem",
+      "text": "Куплено: <color=#{3}>{0} x{1}</color> ({2} потрачено)"
+    },
+    {
+      "key": "Log_NpcInteracted",
+      "text": "Беседа завершена."
+    },
+    {
+      "key": "Log_ProjectileRemoved",
+      "text": "Отражен снаряд: {0}"
+    },
+    {
+      "key": "Log_ChoiceSelected",
+      "text": "Выбор сделан: {0}"
+    },
+    {
+      "key": "Log_QuestAcquired",
+      "text": "<color=#{1}>Начато задание: {0}</color>"
+    },
+    {
+      "key": "Log_QuestCompleted",
+      "text": "Задание завершено: {0}"
+    },
+    {
+      "key": "Log_QuestGoalProgress",
+      "text": "Прогресс задания: {0}"
+    },
+    {
+      "key": "Log_PlayerHit",
+      "text": "Получен удар: {0}"
+    },
+    {
+      "key": "Log_BattleResultSync",
+      "text": "Исход битвы: ({0}): ОЗ {1}/{2}, MP{3}/{4}"
+    },
+    {
+      "key": "Log_BattleDefeatHp",
+      "text": "Битва проиграна: ОЗ {0}"
+    },
+    {
+      "key": "Log_CheatVitals",
+      "text": "Чит: {0}"
+    },
+    {
+      "key": "Log_EventEffectVitals",
+      "text": "Эффект события :{0}"
+    },
+    {
+      "key": "Log_RecruitFullRecover",
+      "text": "Союзник получил ({0}): Полностью восстановлены ОЗ/СД"
+    },
+    {
+      "key": "Log_VitalsNoChange",
+      "text": "Нет изменений"
+    },
+    {
+      "key": "Log_NpcDefeated",
+      "text": "{0} победил ({1} уроном)"
+    },
+    {
+      "key": "Log_NpcDefeatedWeakness",
+      "text": "{0} победил ({1} уроном по уязвимому месту)"
+    },
+    {
+      "key": "Log_DamageDealt",
+      "text": "Нанесено {1} урона против {0}"
+    },
+    {
+      "key": "Log_DamageDealtWeakness",
+      "text": "Нанесено {1} урона по уязвимому месту против {0}"
+    },
+    {
+      "key": "Log_PlayerDead",
+      "text": "Игрок мертв"
+    },
+    {
+      "key": "Log_BattleEntered",
+      "text": "Начало битвы"
+    },
+    {
+      "key": "Log_BattleWin",
+      "text": "Битва выиграна"
+    },
+    {
+      "key": "Log_BattleLose",
+      "text": "Битва проиграна"
+    },
+    {
+      "key": "Log_RestSpotHealed",
+      "text": "ОЗ полностью восстановлены"
+    },
+    {
+      "key": "Log_EscapeBlocked",
+      "text": "Нельзя покинуть эту комнату в данный момент."
+    },
+    {
+      "key": "Log_WardenAppeared",
+      "text": "Подкрадывается тревожное предчувствие беды."
+    },
+    {
+      "key": "Log_SuicideBlocked",
+      "text": "Это не может быть выходом."
+    },
+    {
+      "key": "ProgressPopup_Title",
+      "text": "Гран-магазэн Сизиф"
+    },
+    {
+      "key": "ProgressPopup_Suicide",
+      "text": "Совершить\nсамоубийство"
+    },
+    {
+      "key": "ProgressPopup_EnemyAttackIndication",
+      "text": "Показывать точное расстояние атаки врага"
+    },
+    {
+      "key": "ProgressPopup_MyAttackIndication",
+      "text": "Показывать точное расстояние атаки союзника"
+    },
+    {
+      "key": "ProgressPopup_Restore",
+      "text": "Восстановить точку сохранения"
+    },
+    {
+      "key": "RestorePopup_Title",
+      "text": "Восстановить точку сохранения"
+    },
+    {
+      "key": "RestorePopup_Checking",
+      "text": "Проверка..."
+    },
+    {
+      "key": "RestorePopup_FoundNoQuest",
+      "text": "Точка сохранения для восстановления найдена."
+    },
+    {
+      "key": "RestoreCompare_ColCurrent",
+      "text": "Последняя точка сохранения"
+    },
+    {
+      "key": "RestoreCompare_ColBackup",
+      "text": "Восстановить"
+    },
+    {
+      "key": "RestoreCompare_NoQuest",
+      "text": "Отсутствует"
+    },
+    {
+      "key": "RestoreCompare_Unknown",
+      "text": "Не найдено"
+    },
+    {
+      "key": "RestoreCompare_SavedAt",
+      "text": "Сохранено: {0}"
+    },
+    {
+      "key": "RestorePopup_None",
+      "text": "Не найдено автосохранение, которое можно восстановить."
+    },
+    {
+      "key": "RestorePopup_LoadFailed",
+      "text": "Не удалось проверить информацию об автосохранении."
+    },
+    {
+      "key": "RestorePopup_Confirm",
+      "text": "Весь прогресс сделанный вами после этой точки сохранения будет удалён. Этот процесс необратим. Восстановить сохранение?"
+    },
+    {
+      "key": "RestorePopup_Running",
+      "text": "Восстановление..."
+    },
+    {
+      "key": "RestorePopup_NeedRestart",
+      "text": "Восстановлено. Любой прогресс, сделанный после этой точки, не будет сохранен. Пожалуйста, перезапустите игру."
+    },
+    {
+      "key": "RestorePopup_Close",
+      "text": "Закрыть"
+    },
+    {
+      "key": "Inventory_Empty",
+      "text": "Нет предметов в инвентаре."
+    },
+    {
+      "key": "Inventory_NotSelected",
+      "text": "Нет выбранных предметов."
+    },
+    {
+      "key": "LogPopup_Title",
+      "text": "Журнал истории"
+    },
+    {
+      "key": "Setting_Tab_Sisyphus",
+      "text": "Сизиф"
+    },
+    {
+      "key": "Setting_Sisyphus_UiSetting",
+      "text": "Настройки интерфейса"
+    },
+    {
+      "key": "Setting_Sisyphus_KeyManual",
+      "text": "Руководство по горячим клавишам"
+    },
+    {
+      "key": "Setting_Sisyphus_CensorDeadscene",
+      "text": "Цензура сцен смерти"
+    },
+    {
+      "key": "Setting_Sisyphus_Move",
+      "text": "Движение"
+    },
+    {
+      "key": "Setting_Sisyphus_Interaction",
+      "text": "Взаимодействие"
+    },
+    {
+      "key": "Setting_Sisyphus_Quest",
+      "text": "Журнал: Задания"
+    },
+    {
+      "key": "Setting_Sisyphus_GauntletSuicide",
+      "text": "Используйте перчатку чтобы совершить самоубийство"
+    },
+    {
+      "key": "Setting_Sisyphus_Attack",
+      "text": "Атака"
+    },
+    {
+      "key": "Setting_Sisyphus_Guard",
+      "text": "Блок"
+    },
+    {
+      "key": "Setting_Sisyphus_Dodge",
+      "text": "Уворот"
+    },
+    {
+      "key": "Setting_Sisyphus_Run",
+      "text": "Спринт"
+    },
+    {
+      "key": "Setting_Sisyphus_LockedNeedItem",
+      "text": "※ Недоступно. Приобретите соответствующий предмет для разблокировки."
+    },
+    {
+      "key": "Setting_Sisyphus_LanternToggle",
+      "text": "Фонарь вкл/выкл"
+    },
+    {
+      "key": "Setting_Sisyphus_CloseWindowOrSetting",
+      "text": "Закрыть текущее окно / Настройки"
+    },
+    {
+      "key": "Setting_Sisyphus_Inventory",
+      "text": "Показать инвентарь"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueNext",
+      "text": "Продолжить / Завершить выбор диалога"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueChoice",
+      "text": "Показать выборы диалога"
+    },
+    {
+      "key": "Setting_Sisyphus_DialogueSkip",
+      "text": "Пропустить диалог"
+    },
+    {
+      "key": "Setting_Sisyphus_FullLog",
+      "text": "Показать журнал истории"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditFastForward",
+      "text": "Ускорить прокрутку титров"
+    },
+    {
+      "key": "Setting_Sisyphus_CreditSkip",
+      "text": "Пропустить титры"
+    },
+    {
+      "key": "Setting_Sisyphus_QuestNavigation",
+      "text": "Включить целеуказатель задания"
+    },
+    {
+      "key": "Setting_Sisyphus_TabDefault",
+      "text": "Управление (Клавиатура)"
+    },
+    {
+      "key": "Setting_Sisyphus_TabMobile",
+      "text": "Управление (Телефон)"
+    },
+    {
+      "key": "WardenBigNail",
+      "text": "Большой гвоздь надзирателя"
+    },
+    {
+      "key": "FormationUI_AskToBack",
+      "text": "Выход с помощью кнопки \"назад\" будет считаться за поражение."
+    },
+    {
+      "key": "Setting_Sisyphus_Manual",
+      "text": "Руководство"
+    },
+    {
+      "key": "Setting_Sisyphus_BattleStatus",
+      "text": "Статус в Теневом"
+    },
+    {
+      "key": "TheaterTitle",
+      "text": "Кинотеатр"
+    },
+    {
+      "key": "SettingTitle",
+      "text": "Настройки"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileMenu",
+      "text": "Открыть меню"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileAutoAttack",
+      "text": "Авто-атака"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileInteraction",
+      "text": "Взаимодействие"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileQuestNavigation",
+      "text": "Целеуказатель задания"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileLantern",
+      "text": "Фонарь"
+    },
+    {
+      "key": "Setting_Sisyphus_MobileUnlockNotice",
+      "text": "Функции отмеченные \"※\" должны быть разблокированы приобретением соответствующего предмета."
+    },
+    {
+      "key": "Rpg_Menu_Status_Ego_Resources_Owned",
+      "text": "Текущие ресурсы ЭГО"
+    },
+    {
+      "key": "Rpg_Menu_Status_Character_Mental_Status",
+      "text": "Статус СД Грешников"
+    },
+    {
+      "key": "Rpg_Move_Floor_Ui_Current_Floor",
+      "text": "Текущий этаж"
+    }
+  ]
+}

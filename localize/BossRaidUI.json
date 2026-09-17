@@ -271,6 +271,14 @@
     {
       "id": "boss_raid_limited_coin_converted",
       "content": "С окончанием периода события, {1} неиспользованных {0} будет преобразовано в {3} {2}."
+    },
+    {
+      "id": "boss_raid_ui_max_level_adjusted",
+      "content": "Избыточный уровень был скорректирован до {0}."
+    },
+    {
+      "id": "boss_raid_ui_recommend_state_desc_with_max_level_adjust",
+      "content": "- Идентичности : Уровень <color=#ff0000>связи {1}</color>, Уровень <color=#ff0000>{0}</color>\n(макс. уровень <color=#ff0000>{2}</color>)\n- ЭГО : Уровень <color=#ff0000>связи {1}</color>"
     }
   ]
 }

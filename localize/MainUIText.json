@@ -129,6 +129,10 @@
       "content": "Вы точно желаете пропустить историю?"
     },
     {
+      "id": "mainui_story_continue_next_desc",
+      "content": "Продолжить к следующему эпизоду?\n(продолжение после получения любых доступных наград за первый просмотр)"
+    },
+    {
       "id": "mainui_battleresult_reward",
       "content": "<size=36>Награды</size>"
     },
@@ -2055,6 +2059,30 @@
     {
       "id": "formation_announcer_reset_desc",
       "content": "Вы уверены, что хотите сбросить {0}?"
+    },
+    {
+      "id": "mainui_exp_dungeon_16_title",
+      "content": "Светодобыча опыта #10 (Режущий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_16_open_day",
+      "content": "Светодобыча опыта #10 (Режущий) открывается в ПН, ВТ, и ВС."
+    },
+    {
+      "id": "mainui_exp_dungeon_17_title",
+      "content": "Светодобыча опыта #10 (Пронзающий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_17_open_day",
+      "content": "Светодобыча опыта #10 (Пронзающий) открывается в СР, ЧТ, и ВС."
+    },
+    {
+      "id": "mainui_exp_dungeon_18_title",
+      "content": "Светодобыча опыта #10 (Дробящий)"
+    },
+    {
+      "id": "mainui_exp_dungeon_18_open_day",
+      "content": "Светодобыча опыта #10 (Дробящий) открывается в ПТ, СБ, и ВС."
     }
   ]
 }
