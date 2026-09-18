@@ -1,0 +1,3 @@
+from ..jsonpath import JSONPath
+
+def parse(path: str, debug: bool = False) -> JSONPath: ...

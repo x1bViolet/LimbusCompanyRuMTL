@@ -1,5 +1,5 @@
-import typing
 from pathlib import Path
+from typing import Self
 
 import msgspec
 
@@ -46,6 +46,10 @@ class CloseHighlight(msgspec.Struct):
     file_pattern: str
 
 
+class Rpg(msgspec.Struct):
+    dialogue_files: list[str] = msgspec.field(default_factory=list)
+
+
 class Config(msgspec.Struct):
     font: Font
     reference: Reference
@@ -55,14 +59,29 @@ class Config(msgspec.Struct):
 
     font_rules: dict[str, list[FontRule]] = msgspec.field(default_factory=dict)
     close_highlight: list[CloseHighlight] = msgspec.field(default_factory=list)
+    rpg: Rpg = msgspec.field(default_factory=Rpg)
 
-    @staticmethod
-    def from_file(path: Path) -> "Config":
-        with open(path, "r") as f:
-            content = f.read()
-        return msgspec.toml.decode(content, type=Config)
+    @classmethod
+    def from_file(cls, path: Path) -> Self:
+        return msgspec.toml.decode(path.read_bytes(), type=cls)
 
 
-class ReleaseAsset(typing.TypedDict):
+class ReleaseAsset(msgspec.Struct):
     name: str
     browser_download_url: str
+
+
+class Release(msgspec.Struct):
+    assets: list[ReleaseAsset]
+
+
+class StoryEntity(msgspec.Struct):
+    original: str
+    translation: str
+    model: str | None = None
+
+
+class StoryEntities(msgspec.Struct):
+    teller: list[StoryEntity] = msgspec.field(default_factory=list)
+    title: list[StoryEntity] = msgspec.field(default_factory=list)
+    place: dict[str, str | int] = msgspec.field(default_factory=dict)
