@@ -1,0 +1,266 @@
+{
+  "dataList": [
+    {
+      "id": 146501,
+      "name": "Le Noir: Fabric",
+      "desc": "Encounter Start: Gain 5 [NoirBindArmor]\nTurn Start: Gain Shield equal to ([NoirBindArmor] Stack)% of this unit's max HP",
+      "flavor": "Камвольная шерсть «Ле Нуар» облегает тело подобно доспехам, подчеркивая его под строгим, неизменным силуэтом."
+    },
+    {
+      "id": 146502,
+      "name": "Ushering Customers",
+      "desc": "Deal +10% damage to and take +10% damage from target for every [NoirNoComply] on target\nDeal +200% damage to targets that have 3 [NoirNoComply]",
+      "flavor": "«Ле Нуар» обслуживает своих уважаемых клиентов в строгом соответствии с регламентом управления Главного Офиса."
+    },
+    {
+      "id": 146503,
+      "name": "Preservation",
+      "desc": "Gain 1 [NoirBindArmor] for every 3 cumulative [ChargeNoir] Count this unit consumes in this Encounter\nGain 1 [ChargeNoir] for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter",
+      "flavor": "Сила сжата, собрана и зафиксирована на месте. Порой требуется куда больше сил, чтобы предотвратить перемены, чем вызвать их."
+    },
+    {
+      "id": 146603,
+      "name": "Metabolic Action and Reaction",
+      "desc": "Upon entering the Encounter for the first time, gain 10 [ChargeRouge] Count\n\nGain 1 [ChargeRouge] for every 10 cumulative [ChargeRouge] Count this unit consumes in this Encounter"
+    },
+    {
+      "id": 149401,
+      "name": "Le Rouge: Jacket",
+      "desc": "Turn End: Gain or lose up to 10 [ChargeRouge] Count\n\nWhen hit, if the attacker used Skills that gain [Charge], transfer 1 [ChargeRouge] Count as [Charge] Count to the attacker (once per the attacker's Skill)\nGain 1 [AttackUp] every time the effect above activates\nTurn Start: Consume up to 5 excess [ChargeRouge] Count beyond 15 on self to heal ([ChargeRouge] Count consumed)% HP"
+    },
+    {
+      "id": 149402,
+      "name": "Myofiber Denim",
+      "desc": "Skills deal +1% damage for every [ChargeRouge] Potency on self (max 10%)\n\nOn Skill Use, if this unit has less than 50% HP, the said Skill gains +2 more [ChargeRouge] Count\nSkills deal +1% damage for every 1% missing HP on self"
+    },
+    {
+      "id": 149301,
+      "name": "Le Rouge: Jacket",
+      "desc": "Turn End: Gain or lose up to 10 [ChargeRouge] Count\n\nWhen hit, if the attacker used Skills that gain [Charge], transfer 1 [ChargeRouge] Count as [Charge] Count to the attacker (once per the attacker's Skill)\nGain 1 [AttackUp] every time the effect above activates"
+    },
+    {
+      "id": 149302,
+      "name": "Desperation",
+      "desc": "Turn Start: At 3+ [ChargeRouge] Potency and 10+ [ChargeRouge] Count, use \"Aggressive Marketing\" Skill\n\nSkills deal +1% damage for every 1% missing HP on self"
+    },
+    {
+      "id": 149303,
+      "name": "I hear it... the Voice of another god...!",
+      "desc": "Encounter Start: Gain [RisingMadnessRouge]\n- Turn Start: When this unit's HP drops below 50% for the first time in this Encounter, convert [RisingMadnessRouge] into [RisingMadnessRouge2nd]\n\nOn Clash Lose, gain +2 [ChargeRouge] Count",
+      "flavor": "Они услышали теплый Голос, но больше не могли меняться. Разум оказался в ловушке плоти, собственное «я» раскололось надвое и погрузилось в безумие."
+    },
+    {
+      "id": 146601,
+      "name": "Boutique du Rouge: New Arrivals Lookbook",
+      "desc": "[RougeThreeNormal] Pattern\n\nRemove [RougeThreeCocoon] and [RougeThreeCocoonShield] on self, and gain [RougeThreeNormal]\n<color=#ff6000><mark=#ff000040><b><u>When hit, gain 1 [RougeThreeNormal]\nTurn End: At 20 [RougeThreeNormal], enter [RougeThreeCocoon] pattern next turn</u></b></mark></color>\n\nWhile in [RougeThreeNormal] state:\nIf this unit takes damage that brings its HP below 10, nullify that damage, heal 30% HP, and end the turn. Then, this unit enters [RougeThreeCocoon] state and gains 2 [Enhancement] for the rest of this Encounter (once per Encounter)"
+    },
+    {
+      "id": 146602,
+      "name": "Into the Changing Room",
+      "desc": "[RougeThreeCocoon] Pattern\n\nRemove [RougeThreeNormal] on self. Gain 1 [RougeThreeCocoon] and 500 [RougeThreeCocoonShield]\n\n<color=#ff6000><mark=#ff000040><b><u>When hit, gain [RougeThreeCocoonHit]</u></b></mark></color>\nAt 0 [RougeThreeCocoonShield] or 3 [RougeThreeCocoon], lose 20 SP and end the turn. Then, enter [RougeThreeNormal] pattern next turn and gain 1 [AttackDmgUp] for the rest of this Encounter (if this unit is Staggered, recover from Stagger)"
+    },
+    {
+      "id": 147401,
+      "name": "Sous Chef",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>Upon killing a target using Attack Skills, gain 1 [SapsareeCooking]</u></b></mark></color>\n- On Skill Use, gain 1 more [SapsareeCooking] for every 3 status effects on the said target (max 2)",
+      "flavor": "Она может носить этот титул, но в ресторане на 5-м этаже её бы просто подняли на смех и выставили из кухни."
+    },
+    {
+      "id": 147402,
+      "name": "I can cook up delicious dishes so good, you hear?",
+      "desc": "<color=#ff6000><mark=#ff000040><b><u>If this unit has [SapsareeCooking], use the \"Aah! I'm on lunch break, you hear?\" Skill at the very end of the turn</u></b></mark></color>\n(does not activate if all other targets are defeated, or if this unit is Staggered)\nTurn End: If this unit failed to use the \"Aah! I'm on lunch break, you hear?\" Skill, gain 1 [SapsareeHungry]",
+      "flavor": "В ресторане на 5-м этаже это даже не удостоили бы слова «кулинария»."
+    },
+    {
+      "id": 147403,
+      "name": "Culinary Ambitions",
+      "desc": "Use a powerful Gluttony Skill every 4 turns\n(If this effect could not be activated due to Stagger, activate it next turn)\n- Turn End: At 5+ [SapsareeYammi], use a powerful Gluttony Skill next turn\n\nTurn End: At 3+ [SapsareeHungry], use a powerful Wrath Skill next turn",
+      "flavor": "Между кулинарным искусством и приготовлением чего-то съедобного лежит пропасть. Что же касается тебя... что ж, ты определенно относишься ко второй категории."
+    },
+    {
+      "id": 147404,
+      "name": "Yummies yummers, you hear?",
+      "desc": "Turn Start: Heal 3 SP for every [SapsareeYammi] on self",
+      "flavor": "Заслуживают ли они вообще вести дискуссии о вкусе? Они живут на фудкорте, ради всего святого."
+    },
+    {
+      "id": 147405,
+      "name": "Flit and flee, you hear?",
+      "desc": "End the Encounter when Sous Chef's HP falls below 30%",
+      "flavor": "Не готова умирать ради этого."
+    },
+    {
+      "id": 147501,
+      "name": "Flavorful Cooking Ingredient.",
+      "desc": "If this unit has 5 or more status effects, gain 3 Offense Level and 3 Defense Level",
+      "flavor": "Это даже не кулинарный ингредиент."
+    },
+    {
+      "id": 147502,
+      "name": "Enzymatic Tenderization",
+      "desc": "When hit, gain 1 Defense Level Down and 1 Offense Level Up next turn (3 per turn)",
+      "flavor": "Жесткий кожаный кошелек можно отбить и размягчить, но это не изменит ничего, о чем стоило бы упоминать."
+    },
+    {
+      "id": 147503,
+      "name": "Hungry...",
+      "desc": "Turn End: If Sous Chef failed to use the \"Aah! I'm on lunch break, you hear?\" Skill, gain 1 [SapsareeHungry]",
+      "flavor": "Это <b>кошелек</b>, выращиваемый как скот для употребления в пищу. И, подобно скоту, он жаждет быть накормленным."
+    },
+    {
+      "id": 148101,
+      "name": "Patchwork",
+      "desc": "Encounter Start: Gain 30 [UnresolvedFeelings]\nAt 50% or lower HP, convert a Skill used in a certain pattern into a powerful Skill",
+      "flavor": "Оставшиеся лоскуты ткани, в противном случае предназначенные на выброс, сшиваются вместе и укладываются слой за слоем. Каждый лоскут сам по себе ничего не стоит, но осязаемость его ткани сохраняется. Именно поэтому Менеджер этажа собирает их воедино."
+    },
+    {
+      "id": 148102,
+      "name": "Cautionary Inspection",
+      "desc": "Turn Start: Activate the effects below\n<color=#ff6000><mark=#ff000040><b><u>-If 1 or more Sinners have 10 [Wariness], gain an Attack Slot and equip the \"Warning Announcement\" Skill on the said Slot</u></b></mark></color>\n- Apply 1 [Wariness] on all Sinners that do not have [ReliefSense]\n- Gain 1 [HorribleEat] for every Identity that has [HorribleTerror]\n\n<color=#ff6000><mark=#ff000040><b><u>When hit by a Sinner's Skill:</u></b></mark></color>\nAt Attack End of the said Skill, <color=#ff6000><mark=#ff000040><b><u>apply [Wariness]</u></b></mark></color> on the said Sinner equal to the number of times this unit was hit by that Skill",
+      "flavor": "Чтобы услышать Голос, нужно открыть сердце прежде, чем уши."
+    },
+    {
+      "id": 148103,
+      "name": "Gratitude",
+      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>-If 1 or more Sinners have 3 [ReliefSense], gain an Attack Slot and equip the \"Thank you... for listening...\" Skill on the said Slot</u></b></mark></color>",
+      "flavor": "Слишком много покупателей пропускают объявления мимо ушей... Спасибо, что слушаете..."
+    },
+    {
+      "id": 148104,
+      "name": "Expunge the Panicked",
+      "desc": "Deal +200% damage to targets that are in Panic",
+      "flavor": "Сломи разум — и тело вскоре последует за ним. Существуют способы ускорить это еще сильнее."
+    },
+    {
+      "id": 149201,
+      "name": "Le Noir: Fabric",
+      "desc": "Encounter Start: Gain 5 [NoirBindArmor]\n\nTurn Start: Gain Shield equal to ([NoirBindArmor] Stack / 2)% of this unit's max HP\n\nWhen Staggered, lose all [NoirBindArmor]\nTurn Start: When this unit recovers from Stagger, gain 5 [NoirBindArmor]",
+      "flavor": "Камвольная шерсть «Ле Нуар» облегает тело подобно доспехам, подчеркивая его под строгим, неизменным силуэтом."
+    },
+    {
+      "id": 149202,
+      "name": "Preservation",
+      "desc": "Gain 1 [NoirBindArmor] for every 5 cumulative [ChargeNoir] Count this unit consumes in this Encounter\nGain 1 [ChargeNoir] for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter",
+      "flavor": "Сила сжата, собрана и зафиксирована на месте. Порой требуется куда больше сил, чтобы предотвратить перемены, чем вызвать их."
+    },
+    {
+      "id": 149203,
+      "name": "Change for Inertness",
+      "desc": "Turn Start: At 10+ [ChargeNoir] Count, use a powerful Skill\n\nOn Skill Use, at 15+ [ChargeNoir] Count, consume 3 [ChargeNoir] Count to deal +20% damage",
+      "flavor": "Этот новый Голос говорит мне, что поможет мне измениться... чтобы я больше никогда не менялся."
+    },
+    {
+      "id": 149204,
+      "name": "I hear it... the Voice of another god...!",
+      "desc": "Encounter Start: Gain 2 [RisingMadnessNoir]\n- Turn Start: When this unit's HP drops below 50% for the first time in this Encounter, convert [RisingMadnessNoir] into [RisingMadnessNoir2nd]\n\nOn Clash Lose, gain +2 [ChargeNoir] Count",
+      "flavor": "Они услышали теплый Голос, но больше не могли меняться. Разум оказался в ловушке плоти, собственное «я» раскололось надвое и погрузилось в безумие."
+    },
+    {
+      "id": 148201,
+      "name": "Le Noir: Fabric",
+      "desc": "Encounter Start: Gain 3 [NoirBindArmor]\n\nTurn Start: Gain Shield equal to ([NoirBindArmor] Stack)% of this unit's max HP (unless Staggered)",
+      "flavor": "Камвольная шерсть «Ле Нуар» облегает тело подобно доспехам, подчеркивая его под строгим, неизменным силуэтом."
+    },
+    {
+      "id": 148202,
+      "name": "Preservation",
+      "desc": "Gain 1 [NoirBindArmor] for every 3 cumulative [ChargeNoir] Count this unit consumes in this Encounter\nGain 1 [ChargeNoir] for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter\n\nAt 3+ [ChargeNoir] Potency, max [ChargeNoir] Count +5",
+      "flavor": "Сила сжата, собрана и зафиксирована на месте. Порой требуется куда больше сил, чтобы предотвратить перемены, чем вызвать их."
+    },
+    {
+      "id": 148203,
+      "name": "Unleash the Condensed",
+      "desc": "Turn Start: At 3+ [ChargeNoir] Potency and 10+ [ChargeNoir] Count, use a powerful Skill",
+      "flavor": "Сила, сконденсированная в одной точке ради сохранения неподвижности, однажды вырвется наружу."
+    },
+    {
+      "id": 148204,
+      "name": "Conservation-Conversion Paradox",
+      "desc": "If this unit has Shield, gain +1 [ChargeNoir] Count when hit by a Sinner (once per Skill, 3 times per turn)\n- At 3+/5+ [ChargeNoir] Potency, gain +2/+3 [ChargeNoir] Count instead\n\nTurn End: If this unit has Shield,\nGain +1 [ChargeNoir] Count and 1 [DefenseUp] next turn for every [ChargeNoir] Potency on self (max 3 each)",
+      "flavor": "Преобразуйте внешнюю силу перемен в силу самосохранения. И всё же в этом мире, как бы яростно ни отвергали перемены и ни стремились к статичности, что-то обязательно должно измениться."
+    },
+    {
+      "id": 148301,
+      "name": "Le Noir: Gabardine Fabric",
+      "desc": "Encounter Start: Gain 30 [NoirSuit]\n\nTurn Start: Gain Shield equal to ([NoirSuit] / 5)% of this unit's max HP (unless Staggered)",
+      "flavor": "Флагманский габардин Нуар, скроенный по канонам строгости без ущерба для прочности."
+    },
+    {
+      "id": 148302,
+      "name": "Preservation",
+      "desc": "Gain 1 [ChargeNoir] Potency for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter\n\nAt 3+ [ChargeNoir] Potency, max [ChargeNoir] Count +5",
+      "flavor": "Сила сжата, собрана и зафиксирована на месте. Порой требуется куда больше сил, чтобы предотвратить перемены, чем вызвать их."
+    },
+    {
+      "id": 148303,
+      "name": "Feedback",
+      "desc": "Turn Start: If this unit has [Realisation], activate \"Single Kick\" as \"Single Kick - Couture Multiple\" instead\n\nWhen triggering [VibrationExplosion], apply +20% to Stagger Threshold raised by [VibrationExplosion]\n- At 12+ [ChargeNoir] Count, when triggering [VibrationExplosion], consume 1 [ChargeNoir] Count on self and instead apply +40% to Stagger Threshold raised by [VibrationExplosion] (per-target)\n\nWhen triggering [VibrationExplosion], if target does not have a Stagger threshold, deal fixed damage equal to [DefenseUp] Stack on self (max 20)",
+      "flavor": "Нуар верят, что могут сокрушить ценность своих оппонентов, подвергнув их жестокому тремору — чем яростнее вибрирует цель, тем больше изменений она вынуждена претерпевать с каждым мгновением.\n\nБоевые техники Нуар были построены на этой убежденности."
+    },
+    {
+      "id": 148304,
+      "name": "Paradox of the Conservation-Conversion Paradox",
+      "desc": "If this unit has Shield, when hit by a Sinner,\n- Inflict 1 [Vibration] on the Sinner (once per Skill)\n- Gain +1 [ChargeNoir] Count (once per Skill, 3 times per turn)\n  · At 3+/5+ [ChargeNoir] Potency, gain +2/+3 [ChargeNoir] Count instead\n\nTurn End: If this unit has Shield,\nGain +1 [ChargeNoir] Count and 2 [DefenseUp] next turn for every [ChargeNoir] Potency on self (max 3, max 6 respectively)",
+      "flavor": "Чем отчаяннее сущее борется за то, чтобы оставаться прежним, тем вернее оно меняется. Существовать — значит всегда куда-то двигаться, а там, где есть движение, следуют перемены."
+    },
+    {
+      "id": 149601,
+      "name": "The Sewing Commences",
+      "desc": "Turn Start: Inflict [NiddleExpected] on 2 random enemies"
+    },
+    {
+      "id": 149602,
+      "name": "Handmade",
+      "desc": "Skill Final Power +1 for every Needlekin on the field",
+      "flavor": "Ручное шитье не держится на одних лишь руках. Нужна целая плеяда опытных ремесленников, чтобы вдохнуть в него жизнь."
+    },
+    {
+      "id": 149603,
+      "name": "Unending, Unavoidable Stream of Customer Complaints",
+      "desc": "\"Cry of the Cocoon\" is heard every \"multiple of 3\" turns\nUpon entering Phase 2, \"Cry of the Cocoon\" continues to be heard every turn\n\nThis unit cannot be immobilized in the turn \"Cry of the Cocoon\" is heard\n\nIf this unit's HP is brought past its Stagger Threshold, gain 2 [Vulnerable] next turn",
+      "flavor": "Голоса просачиваются из кокона.\n\n«Меньше 80 круток в две нити? Это даже не ткань!»\n«Почему петлицы не горизонтальные?»\n«Машинный трикотаж джерси? Серьезно?»\n«Почему кромка селвидж не красная?»\n«Это даже не прошло декатировку!»\n«Всё, что ниже Супер 150 — дешевая тряпка, очевидно же».\n«Думаешь, шкала Супер — это просто толщина пряжи? Диаметр и номер пряжи — это вообще разные вещи. Ты разве не знал?»\n«Ты подшиваешь край на Юнион Спешиал, да? Ну еще бы!»\n«Это сырой деним? ... Оу. Селвидж?»\n«Постой... количество стежков на дюйм слишком ровное. Ты ведь использовал швейную машинку, не так ли?»\n«Это не индпошив, если оно сшито не вручную».\n«...Это даже не миланская петлица».\n«Сорочечная ткань должна быть свыше 200 номеров».\n«Угх, я вижу стежки снаружи».\n«Вот, я вижу два ряда стежков вот там. Забраковано».\n«Что это вообще за обработка шва?»\n«В три нити, минимум»."
+    },
+    {
+      "id": 148401,
+      "name": "The Preterm Crimson God",
+      "desc": "Turn End: Does not lose [ChargeRouge] Count\n<color=#ff6000><mark=#ff000040><b><u>In a Clash, gain +1 [ChargeRouge] Count every time target's [Laceration] is activated</u></b></mark></color>\nOn Kill, gain [ChargeRouge] Count equal to ([Laceration] Potency + [Laceration] Count) on target\nTurn Start: Heal 3 SP for every [ChargeRouge] Count on self",
+      "flavor": "Бог, зачатый тоской и явившийся в мир раньше своего срока. Даже его рождение было незавершенным."
+    },
+    {
+      "id": 148402,
+      "name": "Roseate Pulsation of Musculature",
+      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>At 15+ [ChargeRouge] Count, if this unit does not have [Gourmandise], consume all [ChargeRouge] Count on self and gain [Gourmandise]</u></b></mark></color>\n\nGain the following effects while this unit has [Gourmandise]:\n- On Skill Use, gain +3 [Laceration] Count\n- On Hit, gain 1 [Laceration]\n- When hit on one of its Parts, gain 1 [BuffetSick]\n- On Clash Lose, gain 3 [BuffetSick]\n- On Kill, if target has 3+ [BloodyMucus], generate \"Ripped Flesh of the Crimson God\" next turn\n- Combat End: Heal 3 SP for every enemy that has [BloodyMucus]\n\nTurn End: <color=#ff6000><mark=#ff000040><b><u>If this unit has 30+ [BuffetSick]</u></b></mark></color> when [Gourmandise] expires, next turn, weaken this unit's patterns and Stagger \"Ripped Flesh of the Crimson God\" units on the field\n\n※ [BloodyMucus] Stack can be reduced by the following means: <color=#ff6000><mark=#ff000040><b>E.G.O Skill Use and Defense Skill Use</u></b></mark></color>\n※ \"Ripped Flesh of the Crimson God\" gains [DeterioratingBody] equal to [BloodyMucus] on the defeated target\n※ \"Ripped Flesh of the Crimson God\" that has [DeterioratingBody] cannot be defeated\n※ Up to 3 \"Ripped Flesh of the Crimson God\" can be generated on the field",
+      "flavor": "Его конечности судорожно бьются и дергаются, словно никогда ему и не принадлежали."
+    },
+    {
+      "id": 148403,
+      "name": "Disparity",
+      "desc": "Deal +50% damage against slower targets",
+      "flavor": "Всё в поле зрения мечется с совершенно разной скоростью."
+    },
+    {
+      "id": 148404,
+      "name": "Survival Instinct",
+      "desc": "Turn Start: Gain 1 [SavePlacenta] and apply 5 [Protection] on the Lifecord Part\nIf this unit has [Gourmandise], or if it is Staggered, this Passive does not activate",
+      "flavor": "Сознание не участвует в отчаянных попытках тела выжить и защитить себя — что оно и делает, даже не осознавая, где начинается и заканчивается."
+    },
+    {
+      "id": 148405,
+      "name": "Severed Lifecord",
+      "desc": "Turn End: If the Lifecord Part is broken, the Body Part gains 3 [Vulnerable] next turn",
+      "flavor": "Что это за свисающие, вялые штуковины, прикрепленные к моему телу? Это часть «меня»? Так сложно понять."
+    },
+    {
+      "id": 148406,
+      "name": "Rampage of a Violent, Traumatic Birth",
+      "desc": "Turn End: If the Lifecord Part isn't broken, and at lower than 50% Core HP, gain [Gourmandise]\nThen, does not lose [Gourmandise] Stack until the Lifecord Part is broken",
+      "flavor": "Тело вырвано из тепла в холод; разум — из прохладного спокойствия в пламенный хаос. Ничто из этого не было добровольным."
+    },
+    {
+      "id": 149701,
+      "name": "Mindless Pulsation",
+      "desc": "- When generated, gain [DeterioratingBody] equal to [BloodyMucus] Stack on target that was defeated to generate this unit\n\nDefeated when [DeterioratingBody] expires",
+      "flavor": "Оно живет, но у него нет мозга. Способен ли разум зародиться из пульсирующей мышцы вместо него?"
+    }
+  ]
+}

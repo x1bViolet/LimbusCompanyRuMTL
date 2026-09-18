@@ -3358,13 +3358,13 @@
       "id": 1061621,
       "name": "Я проплавлю нам путь",
       "desc": "Самый быстрый союзник наносит своим целям 1 [Binding:`Связывание`] на следующий ход при победе в столкновении, если они имеют [Combustion:`Огонь`] или Особый Огoнь. (Единожды за ход)\n- Если счётчик [Combustion:`Огня`] на цели ниже 5, то также повышает его на 1;\n- Если счётчик [Combustion:`Огня`] на цели равен 5 и более, то наносит цели дополнительные 3 [Combustion:`Огня`]."
-    },
+},
     {
       "id": 1041601,
       "name": "Отзыв",
       "desc": "При [VibrationExplosion:`Провокации Тремора`] на противнике повышение его границы выносливости увеличивается на 15%.\n- При 12 и более счётчика [ChargeNoirAlly:`Консервации`](;ChargeNoir) тратит 1 его единицу, чтобы усилить этот эффект вдвое. (Активируется для каждой цели навыка)\n\nЕсли получает удар при наличии ОЗ Щита, то наносит 2 [Vibration:`Тремора`] атаковавшему. (До 2 раз за ход на противника)",
       "summary": "Increase Stagger Threshold raise",
-      "flavor": "The Noirs believe they can collapse their opponents' worth by subjecting them to violent tremors—the more violently the target vibrates, the more changes it must undergo from moment to moment. The combat techniques of the Noirs were built upon that conviction.\n\nAnd though the Noirs neither remember nor have ever experienced it, beyond the Grand Magasin Sisyphe exist fighting techniques founded upon the very same principle and have since been refined far beyond."
+      "flavor": "Нуар верят, что могут сокрушить ценность своих оппонентов, подвергнув их жестокому тремору — чем яростнее вибрирует цель, тем больше изменений она вынуждена претерпевать с каждым мгновением. Боевые техники Нуар были построены на этой убежденности.\n\nИ хотя Нуар не помнят и никогда не сталкивались с этим, за пределами Гран-магазэн «Сизиф» существуют боевые техники, основанные на точно таком же принципе, которые с тех пор были усовершенствованы куда дальше."
     },
     {
       "id": 1041602,
@@ -3394,19 +3394,19 @@
       "id": 1081601,
       "name": "Колыбель преображения",
       "desc": "При использовании своих базовых навыков:\n- Если текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то Сила в столкновении повышается на 2;\n- Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то восстанавливает себе 8% ОЗ. (До 5 раз за ход)",
-      "flavor": "While some might call this a \"changing room,\" it would be more appropriate for those on the other side to call it a \"pupa\" or an \"egg.\"\nShe melts and tears herself apart, metamorphosing... Until, when the time is right, she will shatter the shells and emerge into the world outside.\nBut if someone from the outside rips into the shell before she is ready... sadly, they will end up breaking her.\nThis is her most vulnerable moment, and therefore must be nurtured and looked after."
+      "flavor": "Хотя некоторые могут называть это «примерочной», для тех, кто находится по ту сторону, куда уместнее было бы назвать это «куколкой» или «яйцом».\nОна плавится и разрывает себя на части, претерпевая метаморфоз... Пока в нужный момент она не расколет скорлупу и не явится во внешний мир.\nНо если кто-то снаружи взломает скорлупу раньше, чем она будет готова... к сожалению, они просто сломают её.\nЭто самый уязвимый момент, а потому её нужно лелеять и оберегать."
     },
     {
       "id": 1081602,
       "name": "В примерочную...",
       "desc": "Получает 1 силу [ChargeRougeAlly:`Пульсации`](;ChargeRouge) каждый раз, когда тратит 10-ую единицу счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge).\n\nТрата своих ОЗ эффектами базовых навыков не может опустить их ниже 1. (При 1 оставшемся ОЗ эти эффекты будут активироваться без ограничений)\n\nПри получении Измаил смертельного урона впервые за битву её ОЗ не могут упасть ниже 1, после чего она входит в состояние [RougeIshmaelCocoon:`Примерочной`].\n- Не активируется, если вход в состояние [RougeIshmaelCocoon:`Примерочной`] уже происходил ранее через защитный навык <color=#fe6f01>「Конечно... В конце концов, в этом мире был смысл」</color>.\n\nПри входе в состояние [RougeIshmaelCocoon:`Примерочной`] у Измаил исчезают границы выносливости, а сама она выходит из оглушения и получает ОЗ Щита, равные своим максимальным ОЗ (Этот щит не спадает в конце хода).\n- Полученные ОЗ Щита исчезают при переходе из состояния [RougeIshmaelCocoon:`Примерочной`] в [RougeIshmaelEclose:`Полное преображение`].\n\nНаходясь в состоянии [RougeIshmaelCocoon:`Примерочной`], Измаил не может экипировать никакие другие навыки кроме своего альтернативного защитного навыка <color=#fe6f01>「Как велит голос, я с радостью погружаюсь в себя」</color>.",
-      "flavor": "I'm going to get myself a makeover! So I can get nearer to my true self!"
+      "flavor": "Я полностью преображусь! Чтобы стать ближе к своему истинному «я»!"
     },
     {
       "id": 1081621,
       "name": "[Актриса Бутика Ле Руж] Платья",
       "desc": "Следующие эффекты активируются для #1 и #2 выбранных Идентичностей:\n- Восстановление ОЗ от эффектов своих навыков и пассивных умений усиливается на 20%;\n- При активации абсолютного резонанса Похоти получаемый ими урон снижается на 10% в течене хода.",
-      "flavor": "When it isn't feasible to overwrite the subject with the exact form of the Mirrored Identity, a \"costume\" fitted for each actor is designed and worn.\n\nHaute Couture is a form of cinematic reinterpretation; it replaces an existent being with an outfit, and the actor, now overwritten, dutifully performs the given role in full immersion. \n\nThis deception of reality is readily accepted by the audience at the theater while the actor, at least within the confines of the narrative, embodies the original existence in earnest recreation."
+      "flavor": "Когда невозможно полностью перезаписать субъект точным обликом Зеркальной Идентичности, для каждого актера создается и надевается подогнанный «костюм».\n\nОт-кутюр — это форма кинематографической реинтерпретации; она заменяет существующее создание нарядом, и актер, будучи перезаписанным, послушно исполняет заданную роль с полным погружением.\n\nЭтот обман реальности с готовностью принимается зрителями в театре, пока актер — по крайней мере в границах повествования — со всей искренностью воплощает первоначальное бытие в своем представлении."
     }
   ]
 }
