@@ -616,7 +616,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
                 }
               ]
             },
@@ -638,7 +638,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 1</nobr>"
                 }
               ]
             },
@@ -687,7 +687,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
                 }
               ]
             },
@@ -709,7 +709,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 1</nobr>"
                 }
               ]
             },

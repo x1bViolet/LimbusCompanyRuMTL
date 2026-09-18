@@ -458,7 +458,7 @@
         {
           "level": 1,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -470,7 +470,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 1"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1"
@@ -482,7 +482,7 @@
         {
           "level": 2,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -494,7 +494,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 1"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1"
@@ -506,7 +506,7 @@
         {
           "level": 4,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -518,7 +518,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 1"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 1"
@@ -535,12 +535,12 @@
         {
           "level": 1,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 }
               ]
             },
@@ -550,12 +550,12 @@
         {
           "level": 2,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2</style>"
@@ -568,12 +568,12 @@
         {
           "level": 4,
           "name": "Рукопашное подавление Корп. T",
-          "desc": "<style=\"highlight\">Наносит на 5% больше урона за каждое [Binding:`Связывание`] на цели (До 15%)</style>\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6</style> [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "<style=\"highlight\">Наносит на 5% больше урона за каждое [Binding:`Связывание`] на цели (До 15%)</style>\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6</style> [Vibration:`Тремора`] на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "[WinDuelAttack] Повышает счётчик [Vibration:`Тремора`] цели <style=\"highlight\">на 3</style>"
@@ -667,7 +667,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если навык потратил свой счётчик [Vibration:`Тремора`], наносит ещё 2 [Binding:`Связывания`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если навык потратил счётчик своего [Vibration:`Тремора`], наносит ещё 2 [Binding:`Связывания`] на следующий ход</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если имеется [TimeRentalTwoPersonality:`Одолженное время`], наносит 2 [TimeSuspend:`Временных моратория`]"
@@ -1317,7 +1317,7 @@
         {
           "level": 1,
           "name": "Чешуйчатый блеск",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1338,7 +1338,7 @@
         {
           "level": 2,
           "name": "Чешуйчатый блеск",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели равна 10 и более</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели равна 10 и более</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1362,7 +1362,7 @@
         {
           "level": 4,
           "name": "Чешуйчатый блеск",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1391,7 +1391,7 @@
         {
           "level": 1,
           "name": "Острый змеиный клык",
-          "desc": "[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "desc": "[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 1",
           "coinlist": [
             {},
             {
@@ -1413,7 +1413,7 @@
         {
           "level": 2,
           "name": "Острый змеиный клык",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели равна 10 и более</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 2</style>",
           "coinlist": [
             {},
             {
@@ -1438,7 +1438,7 @@
         {
           "level": 4,
           "name": "Острый змеиный клык",
-          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 10 единиц в сумме</style> силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n[WinDuel] Повышает счётчик [Burst:`Разрыва`] цели на 2\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1482,7 +1482,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1516,7 +1516,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1564,7 +1564,7 @@
         {
           "level": 4,
           "name": "Обратный натиск",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свой счётчик [Breath:`Дыхания`] равен 10 и более</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 3 [SnakeStance:`Змеиной руки`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если счётчик своего [Breath:`Дыхания`] равен 10 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2105,7 +2105,7 @@
         {
           "level": 2,
           "name": "Энергетический удар - \"Вот что вы получаете за наши праздничные смены!\"",
-          "desc": "<style=\"highlight\">Сила монет +1, если свой счётчик [Charge:`Заряда`] равен 5 и более\n[DefeatDuel] Получает 4 [Sinking:`Утопания`] и повышает свой счётчик [Charge:`Заряда`] на 3</style>",
+          "desc": "<style=\"highlight\">Сила монет +1, если счётчик своего [Charge:`Заряда`] равен 5 и более\n[DefeatDuel] Получает 4 [Sinking:`Утопания`] и повышает счётчик своего [Charge:`Заряда`] на 3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2113,7 +2113,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 2</style>"
                 }
               ]
             },
@@ -2123,7 +2123,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 2</style>"
                 }
               ]
             }
@@ -2132,7 +2132,7 @@
         {
           "level": 4,
           "name": "Энергетический удар - \"Вот что вы получаете за наши праздничные смены!\"",
-          "desc": "<style=\"highlight\">Наносит на 12.5% больше урона за каждую единицу силы [Charge:`Заряда`] (До 50%)</style>\n<style=\"highlight\">Сила монет +1, если сила своего [Charge:`Заряда`] равна 2 и более</style>\nСила монет +1, если счётчик своего [Charge:`Заряда`] равен 5 и более\n[DefeatDuel] Получает 4 [Sinking:`Утопания`] и повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 4</style>",
+          "desc": "<style=\"highlight\">Наносит на 12.5% больше урона за каждую единицу силы [Charge:`Заряда`] (До 50%)</style>\n<style=\"highlight\">Сила монет +1, если сила своего [Charge:`Заряда`] равна 2 и более</style>\nСила монет +1, если счётчик своего [Charge:`Заряда`] равен 5 и более\n[DefeatDuel] Получает 4 [Sinking:`Утопания`] и повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 4</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2140,7 +2140,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 3</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 3</style>"
                 }
               ]
             },
@@ -2150,7 +2150,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -2181,7 +2181,7 @@
         {
           "level": 2,
           "name": "Концентрация - \"Взрывайся и расцветай рождественскими красками!\"",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 5 единиц счётчика [Charge:`Заряда`] (До 2)\n[DefeatDuel] Получает 5 [Sinking:`Утопания`] и повышает свой счётчик [Charge:`Заряда`] на 2</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 5 единиц счётчика [Charge:`Заряда`] (До 2)\n[DefeatDuel] Получает 5 [Sinking:`Утопания`] и повышает счётчик своего [Charge:`Заряда`] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2189,14 +2189,14 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`] и повышает его счётчик на <style=\"highlight\">2</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 3</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если свой счётчик [Charge:`Заряда`] ниже 8, повышает его на 4 и получает 5 [Sinking:`Утопания`] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если счётчик своего [Charge:`Заряда`] ниже 8, повышает его на 4 и получает 5 [Sinking:`Утопания`] (Единожды за ход)</style>"
                 }
               ]
             }
@@ -2205,7 +2205,7 @@
         {
           "level": 4,
           "name": "Концентрация - \"Взрывайся и расцветай рождественскими красками!\"",
-          "desc": "<style=\"highlight\">Наносит на 15% больше урона за каждую единицу силы [Charge:`Заряда`] (До 60%)</style>\nСила монет +1 за каждые 5 единиц счётчика [Charge:`Заряда`] (До 2)\n[DefeatDuel] Получает 5 [Sinking:`Утопания`] и повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 5</style>",
+          "desc": "<style=\"highlight\">Наносит на 15% больше урона за каждую единицу силы [Charge:`Заряда`] (До 60%)</style>\nСила монет +1 за каждые 5 единиц счётчика [Charge:`Заряда`] (До 2)\n[DefeatDuel] Получает 5 [Sinking:`Утопания`] и повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 5</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2213,17 +2213,17 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 6</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 6</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Charge:`Заряда`] ниже 8, повышает его на 4 и получает 5 [Sinking:`Утопания`] (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Если счётчик своего [Charge:`Заряда`] ниже 8, повышает его на 4 и получает 5 [Sinking:`Утопания`] (Единожды за ход)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если свой счётчик [Charge:`Заряда`] равен 8 и более, тратит 4 его единицы для нанесения 1 [HitTakeDamageUp:`Уязвимости к Дробящему урону`] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если счётчик своего [Charge:`Заряда`] равен 8 и более, тратит 4 его единицы для нанесения 1 [HitTakeDamageUp:`Уязвимости к Дробящему урону`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }
@@ -2237,7 +2237,7 @@
         {
           "level": 3,
           "name": "Хлыст разума - \"Ахаха... Смотрите, все! Мы прямо как фейерверки на это рождество!\"",
-          "desc": "Наносит на 5% больше урона за каждую единицу силы [Charge:`Заряда`] (До 20%)\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 5~9:\n- Получает 5 [Sinking:`Утопания`] и повышает свой счётчик [Charge:`Заряда`] на 5\n- Атакует [WideAreaRampage:`Нефокусированным залпом`], а Количество целей повышается на 1\n- Навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET], если сила своего [Charge:`Заряда`] ниже 3\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, полностью тратит его для следующих эффектов:\n- Сила монет +1\n- Наносит на 6% больше урона за каждую единицу счётчика [Charge:`Заряда`], потраченную свыше 10 (До 30%)",
+          "desc": "Наносит на 5% больше урона за каждую единицу силы [Charge:`Заряда`] (До 20%)\n[WhenUse] Если счётчик своего [Charge:`Заряда`] равен 5~9:\n- Получает 5 [Sinking:`Утопания`] и повышает счётчик своего [Charge:`Заряда`] на 5\n- Атакует [WideAreaRampage:`Нефокусированным залпом`], а Количество целей повышается на 1\n- Навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET], если сила своего [Charge:`Заряда`] ниже 3\n[WhenUse] Если счётчик своего [Charge:`Заряда`] равен 10 и более, полностью тратит его для следующих эффектов:\n- Сила монет +1\n- Наносит на 6% больше урона за каждую единицу счётчика [Charge:`Заряда`], потраченную свыше 10 (До 30%)",
           "coinlist": [
             {
               "coindescs": [
@@ -2284,7 +2284,7 @@
         {
           "level": 4,
           "name": "Хлыст разума - \"Ахаха... Смотрите, все! Мы прямо как фейерверки на это рождество!\"",
-          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждую единицу силы [Charge:`Заряда`] (До <style=\"highlight\">40%</style>)\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 5~9:\n- Получает 5 [Sinking:`Утопания`] и повышает свой счётчик [Charge:`Заряда`] на 5\n- Атакует [WideAreaRampage:`Нефокусированным залпом`], а Количество целей повышается на 1\n- Навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET], если сила своего [Charge:`Заряда`] ниже 3\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 10 и более, полностью тратит его для следующих эффектов:\n- Сила монет <style=\"highlight\">+2</style>\n- Наносит на <style=\"highlight\">12%</style> больше урона за каждую единицу счётчика [Charge:`Заряда`], потраченную свыше 10 (До <style=\"highlight\">60%</style>)",
+          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждую единицу силы [Charge:`Заряда`] (До <style=\"highlight\">40%</style>)\n[WhenUse] Если счётчик своего [Charge:`Заряда`] равен 5~9:\n- Получает 5 [Sinking:`Утопания`] и повышает счётчик своего [Charge:`Заряда`] на 5\n- Атакует [WideAreaRampage:`Нефокусированным залпом`], а Количество целей повышается на 1\n- Навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET], если сила своего [Charge:`Заряда`] ниже 3\n[WhenUse] Если счётчик своего [Charge:`Заряда`] равен 10 и более, полностью тратит его для следующих эффектов:\n- Сила монет <style=\"highlight\">+2</style>\n- Наносит на <style=\"highlight\">12%</style> больше урона за каждую единицу счётчика [Charge:`Заряда`], потраченную свыше 10 (До <style=\"highlight\">60%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -2339,7 +2339,7 @@
         {
           "level": 1,
           "name": "Конденсация энергии - \"Хаха! Все искрятся и сверкают!\"",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3 (Единожды за ход)",
+          "desc": "[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 3 (Единожды за ход)",
           "coinlist": [
             {}
           ]
@@ -2347,7 +2347,7 @@
         {
           "level": 4,
           "name": "Конденсация энергии - \"Хаха! Все искрятся и сверкают!\"",
-          "desc": "<style=\"highlight\">[WhenUse] Базовая сила +2, если свой счётчик [Charge:`Заряда`] равен 5 и более</style>\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 3 (До <style=\"highlight\">2 раз</style> за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Базовая сила +2, если счётчик своего [Charge:`Заряда`] равен 5 и более</style>\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 3 (До <style=\"highlight\">2 раз</style> за ход)",
           "coinlist": [
             {}
           ]
@@ -3319,7 +3319,7 @@
         {
           "level": 1,
           "name": "Разделка оленя",
-          "desc": "[WhenUse] Если [FutureEyeOnRodion:`Глаз предвидения`] в состоянии [FutureEyeOffRodion:`Перегрева`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 4\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion:`Глаза предвидения`] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "desc": "[WhenUse] Если [FutureEyeOnRodion:`Глаз предвидения`] в состоянии [FutureEyeOffRodion:`Перегрева`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 4\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion:`Глаза предвидения`] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3353,7 +3353,7 @@
         {
           "level": 2,
           "name": "Разделка оленя",
-          "desc": "[WhenUse] Если [FutureEyeOnRodion:`Глаз предвидения`] в состоянии [FutureEyeOffRodion:`Перегрева`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]<style=\"highlight\">, а его Итоговая сила повышается на 2</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 4\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion:`Глаза предвидения`] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "desc": "[WhenUse] Если [FutureEyeOnRodion:`Глаз предвидения`] в состоянии [FutureEyeOffRodion:`Перегрева`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]<style=\"highlight\">, а его Итоговая сила повышается на 2</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 4\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion:`Глаза предвидения`] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3387,7 +3387,7 @@
         {
           "level": 4,
           "name": "Разделка оленя",
-          "desc": "[WhenUse] Если [FutureEyeOnRodion:`Глаз предвидения`] в состоянии [FutureEyeOffRodion:`Перегрева`], то все монеты этого навыка становятся [SuperCoin:`Вечными`], а его Итоговая сила повышается на 2\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 4\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion:`Глаза предвидения`] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "desc": "[WhenUse] Если [FutureEyeOnRodion:`Глаз предвидения`] в состоянии [FutureEyeOffRodion:`Перегрева`], то все монеты этого навыка становятся [SuperCoin:`Вечными`], а его Итоговая сила повышается на 2\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 4\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 2)</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion:`Глаза предвидения`] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3572,7 +3572,7 @@
         {
           "level": 1,
           "name": "Предвидение",
-          "desc": "При успешном увороте от всех монет атаковавшего использует на нём свой альтернативный первый навык <color=#fe6f01>「Разделка кролика」</color> (Единожды за ход)\nСила монет +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] (До 4)\nБазовая сила +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] свыше 10 (До 4)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3 (Единожды за ход)\n[EndSkillAll] Теряет 2 [FutureEyeOnRodion:`Глаза предвидения`]",
+          "desc": "При успешном увороте от всех монет атаковавшего использует на нём свой альтернативный первый навык <color=#fe6f01>「Разделка кролика」</color> (Единожды за ход)\nСила монет +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] (До 4)\nБазовая сила +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] свыше 10 (До 4)\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3 (Единожды за ход)\n[EndSkillAll] Теряет 2 [FutureEyeOnRodion:`Глаза предвидения`]",
           "coinlist": [
             {
               "coindescs": [
@@ -3586,7 +3586,7 @@
         {
           "level": 4,
           "name": "Предвидение",
-          "desc": "При успешном увороте от всех монет атаковавшего использует на нём свой альтернативный первый навык <color=#fe6f01>「Разделка кролика」</color> (Единожды за ход)\nСила монет +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] (До 4)\nБазовая сила +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] свыше 10 (До 4)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3 (Единожды за ход)\n[EndSkillAll] Теряет 2 [FutureEyeOnRodion:`Глаза предвидения`]",
+          "desc": "При успешном увороте от всех монет атаковавшего использует на нём свой альтернативный первый навык <color=#fe6f01>「Разделка кролика」</color> (Единожды за ход)\nСила монет +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] (До 4)\nБазовая сила +1 за каждые 2 [FutureEyeOnRodion:`Глаза предвидения`] свыше 10 (До 4)\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3 (Единожды за ход)\n[EndSkillAll] Теряет 2 [FutureEyeOnRodion:`Глаза предвидения`]",
           "coinlist": [
             {
               "coindescs": [

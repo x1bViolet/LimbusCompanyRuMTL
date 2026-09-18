@@ -492,7 +492,7 @@
         {
           "level": 1,
           "name": "Измельчение",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -527,7 +527,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -578,7 +578,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2 в следующем ходе"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2 в следующем ходе"
                 }
               ]
             }
@@ -1739,7 +1739,7 @@
         {
           "level": 1,
           "name": "Шшшх",
-          "desc": "[WhenUse] [DuelDeclaration_Camille:`Вызывает на дуэль`]\n[WhenUse] Получает 5 [Breath:`Дыхания`]\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] [DuelDeclaration_Camille:`Вызывает на дуэль`]\n[WhenUse] Получает 5 [Breath:`Дыхания`]\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1763,7 +1763,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] при скорости 7 и выше"
@@ -1790,7 +1790,7 @@
         {
           "level": 1,
           "name": "Кихх",
-          "desc": "[WhenUse] Сила монет +2 при 7 и более [Breath:`Дыхания`]\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Сила монет +2 при 7 и более [Breath:`Дыхания`]\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1820,7 +1820,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 4"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst:`Разрыва`] и повышает его счётчик на 1 при скорости 7 и выше"

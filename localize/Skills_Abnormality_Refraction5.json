@@ -50,7 +50,7 @@
         {
           "level": 1,
           "name": "Пробить насквозь",
-          "desc": "[WhenUse] Получает 2 [Breath:`Дыхания`]\n[WhenUse] Базовая сила +1 при 10 и более [Breath:`Дыхания`]\n[WhenUse] Сила монет +1 за каждые 5 единиц своего счётчика [Breath:`Дыхания`] (До 2)\n[WinDuel] Наносит на 50% больше урона при критическом попадании",
+          "desc": "[WhenUse] Получает 2 [Breath:`Дыхания`]\n[WhenUse] Базовая сила +1 при 10 и более [Breath:`Дыхания`]\n[WhenUse] Сила монет +1 за каждые 5 единиц счётчика своего [Breath:`Дыхания`] (До 2)\n[WinDuel] Наносит на 50% больше урона при критическом попадании",
           "coinlist": [
             {
               "coindescs": [
@@ -61,7 +61,7 @@
                   "desc": "Эта монета наносит урон только основной цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -222,7 +222,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 3"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 3"
                 }
               ]
             }
@@ -244,7 +244,7 @@
                   "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -254,7 +254,7 @@
                   "desc": "[OnSucceedAttack] Получает 2 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             }
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Присесть",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath:`Дыхания`] (До 5)\n[WhenUse] Получает 4 [Breath:`Дыхания`]\n[WhenUse] Если текущие ОЗ ниже 50%, повышает свой счётчик [Breath:`Дыхания`] на 4",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath:`Дыхания`] (До 5)\n[WhenUse] Получает 4 [Breath:`Дыхания`]\n[WhenUse] Если текущие ОЗ ниже 50%, повышает счётчик своего [Breath:`Дыхания`] на 4",
           "coinlist": [
             {
               "coindescs": [

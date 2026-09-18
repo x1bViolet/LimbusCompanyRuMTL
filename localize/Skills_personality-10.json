@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 1"
                 }
               ]
             },
@@ -20,7 +20,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 1"
                 }
               ]
             }
@@ -29,13 +29,13 @@
         {
           "level": 2,
           "name": "Свирепая атака",
-          "desc": "<style=\"highlight\">Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 10 и более</style>",
+          "desc": "<style=\"highlight\">Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 10 и более</style>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 2</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Vibration:`Тремора`] цели на 1</style>"
@@ -46,7 +46,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 2</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Vibration:`Тремора`] цели на 1</style>"
@@ -58,13 +58,13 @@
         {
           "level": 4,
           "name": "Свирепая атака",
-          "desc": "Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 10 и более",
+          "desc": "Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 10 и более",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик [Vibration:`Тремора`] цели на 1"
@@ -75,7 +75,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик [Vibration:`Тремора`] цели на 1"
@@ -92,7 +92,7 @@
         {
           "level": 1,
           "name": "Стойко…",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -106,7 +106,7 @@
         {
           "level": 2,
           "name": "Стойко…",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 4</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 4</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -120,7 +120,7 @@
         {
           "level": 4,
           "name": "Стойко…",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 6</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 6</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -144,7 +144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 10 и более, то полностью тратит его и повышает счётчик [Vibration:`Тремора`] цели на столько же\n[OnSucceedAttack] Если же свой счётчик [Vibration:`Тремора`] менее 10, то сам получает 6 [Vibration:`Тремора`] и он [VibrationExplosion:`Провоцируется`] на себе, нанося столько же Дробящего урона"
+                  "desc": "[OnSucceedAttack] Если счётчик своего [Vibration:`Тремора`] равен 10 и более, то полностью тратит его и повышает счётчик [Vibration:`Тремора`] цели на столько же\n[OnSucceedAttack] Если же счётчик своего [Vibration:`Тремора`] менее 10, то сам получает 6 [Vibration:`Тремора`] и он [VibrationExplosion:`Провоцируется`] на себе, нанося столько же Дробящего урона"
                 }
               ]
             }
@@ -153,12 +153,12 @@
         {
           "level": 4,
           "name": "Пойти на риск",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 10 единиц своего счётчика [Vibration:`Тремора`] <nobr>(До 2)</nobr></style>",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 10 единиц счётчика своего [Vibration:`Тремора`] <nobr>(До 2)</nobr></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 10 и более, то полностью тратит его и повышает счётчик [Vibration:`Тремора`] цели на столько же\n[OnSucceedAttack] Если же свой счётчик [Vibration:`Тремора`] менее 10, то сам получает <style=\"highlight\">10</style> [Vibration:`Тремора`] и он [VibrationExplosion:`Провоцируется`] на себе, нанося столько же Дробящего урона"
+                  "desc": "[OnSucceedAttack] Если счётчик своего [Vibration:`Тремора`] равен 10 и более, то полностью тратит его и повышает счётчик [Vibration:`Тремора`] цели на столько же\n[OnSucceedAttack] Если же счётчик своего [Vibration:`Тремора`] менее 10, то сам получает <style=\"highlight\">10</style> [Vibration:`Тремора`] и он [VibrationExplosion:`Провоцируется`] на себе, нанося столько же Дробящего урона"
                 }
               ]
             }
@@ -191,7 +191,7 @@
         {
           "level": 1,
           "name": "Ремиз",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -212,7 +212,7 @@
         {
           "level": 2,
           "name": "Ремиз",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -233,7 +233,7 @@
         {
           "level": 4,
           "name": "Ремиз",
-          "desc": "<style=\"highlight\">Если своя скорость выше скорости цели на 2 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "<style=\"highlight\">Если своя скорость выше скорости цели на 2 и более, Сила монет +1</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -259,19 +259,19 @@
         {
           "level": 1,
           "name": "Обязательство",
-          "desc": "[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
@@ -281,19 +281,19 @@
         {
           "level": 2,
           "name": "Обязательство",
-          "desc": "<style=\"highlight\">Если своя скорость выше скорости цели на 2 и более, Сила монет +1</style>\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "<style=\"highlight\">Если своя скорость выше скорости цели на 2 и более, Сила монет +1</style>\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
@@ -303,19 +303,19 @@
         {
           "level": 4,
           "name": "Обязательство",
-          "desc": "<style=\"highlight\">Если быстрее цели,</style> +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 2)</style>\n[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "<style=\"highlight\">Если быстрее цели,</style> +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 2)</style>\n[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
@@ -330,7 +330,7 @@
         {
           "level": 3,
           "name": "Контратака",
-          "desc": "Если своя скорость выше скорости цели на 2 и более, Сила монет +1\n[WinDuel] Тратит 10 единиц своего счётчика [Breath:`Дыхания`] для повышения его силы на 10\n[WinDuel] Если у Синклера произошёл [OneOnOneDuel:`Поединок`] со слотом навыков противника, наносит 1 [Vulnerable:`Уязвимость`] при ударе (До 2 раз за ход)",
+          "desc": "Если своя скорость выше скорости цели на 2 и более, Сила монет +1\n[WinDuel] Тратит 10 единиц счётчика своего [Breath:`Дыхания`] для повышения его силы на 10\n[WinDuel] Если у Синклера произошёл [OneOnOneDuel:`Поединок`] со слотом навыков противника, наносит 1 [Vulnerable:`Уязвимость`] при ударе (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -352,7 +352,7 @@
         {
           "level": 4,
           "name": "Контратака",
-          "desc": "<style=\"highlight\">Если быстрее цели,</style> +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 3)</style>\n[WinDuel] Тратит 10 единиц своего счётчика [Breath:`Дыхания`] для повышения его силы на 10\n<style=\"highlight\">- Если столкновение было с [DuelDeclaration_Sinclair:`Вызванным на дуэль`] противником, получает вдвое больше силы [Breath:`Дыхания`]</style>\n[WinDuel] Если у Синклера произошёл [OneOnOneDuel:`Поединок`] со слотом навыков противника, наносит 1 [Vulnerable:`Уязвимость`] при ударе (До 2 раз за ход)",
+          "desc": "<style=\"highlight\">Если быстрее цели,</style> +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 3)</style>\n[WinDuel] Тратит 10 единиц счётчика своего [Breath:`Дыхания`] для повышения его силы на 10\n<style=\"highlight\">- Если столкновение было с [DuelDeclaration_Sinclair:`Вызванным на дуэль`] противником, получает вдвое больше силы [Breath:`Дыхания`]</style>\n[WinDuel] Если у Синклера произошёл [OneOnOneDuel:`Поединок`] со слотом навыков противника, наносит 1 [Vulnerable:`Уязвимость`] при ударе (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -697,7 +697,7 @@
         {
           "level": 1,
           "name": "Подавление",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`]\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`]\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -718,7 +718,7 @@
         {
           "level": 2,
           "name": "Подавление",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает <style=\"highlight\">2</style> [DefenseUp:`Повышения уровня защиты`]\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 4 и более единицами счётчика [Vibration:`Тремора`]</style>\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает <style=\"highlight\">2</style> [DefenseUp:`Повышения уровня защиты`]\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 4 и более единицами счётчика [Vibration:`Тремора`]</style>\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -739,7 +739,7 @@
         {
           "level": 4,
           "name": "Подавление",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n[WhenUse] Сила в столкновении <style=\"highlight\">+2</style> против целей с 4 и более единицами счётчика [Vibration:`Тремора`]\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 2 [DefenseUp:`Повышения уровня защиты`]\n[WhenUse] Сила в столкновении <style=\"highlight\">+2</style> против целей с 4 и более единицами счётчика [Vibration:`Тремора`]\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -765,7 +765,7 @@
         {
           "level": 1,
           "name": "Боевая подготовка",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {},
             {
@@ -780,7 +780,7 @@
         {
           "level": 2,
           "name": "Боевая подготовка",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 3)\n[WhenUse] Сила монет +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]</style>\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на <style=\"highlight\">3</style>",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До 3)\n[WhenUse] Сила монет +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]</style>\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -801,7 +801,7 @@
         {
           "level": 4,
           "name": "Боевая подготовка",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 3)\n[WhenUse] Сила монет +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До 3)\n[WhenUse] Сила монет +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -827,7 +827,7 @@
         {
           "level": 3,
           "name": "Ограждение",
-          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 2)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:`Повышения уровня защиты`] (До 2)",
+          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До 2)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:`Повышения уровня защиты`] (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -846,7 +846,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 8 единиц своего счётчика [Vibration:`Тремора`] и повышает счётчик [Vibration:`Тремора`] цели на столько же"
+                  "desc": "[OnSucceedAttack] Тратит до 8 единиц счётчика своего [Vibration:`Тремора`] и повышает счётчик [Vibration:`Тремора`] цели на столько же"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -858,7 +858,7 @@
         {
           "level": 4,
           "name": "Ограждение",
-          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">4</style>)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:`Повышения уровня защиты`] (До <style=\"highlight\">3</style>)",
+          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">4</style>)\n[WhenUse] Сила монет +1 за каждые 3 [DefenseUp:`Повышения уровня защиты`] (До <style=\"highlight\">3</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -877,7 +877,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 8 единиц своего счётчика [Vibration:`Тремора`] и повышает счётчик [Vibration:`Тремора`] цели на столько же"
+                  "desc": "[OnSucceedAttack] Тратит до 8 единиц счётчика своего [Vibration:`Тремора`] и повышает счётчик [Vibration:`Тремора`] цели на столько же"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -894,7 +894,7 @@
         {
           "level": 1,
           "name": "Форма двуручного меча рыцаря «Цвай» - Блок",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2 (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] атаковавшему",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2 (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] атаковавшему",
           "coinlist": [
             {
               "coindescs": [
@@ -908,7 +908,7 @@
         {
           "level": 4,
           "name": "Форма двуручного меча рыцаря «Цвай» - Блок",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style> (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] атаковавшему",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Этот слот получает 5 [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 3</style> (Единожды за ход)\n[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] атаковавшему",
           "coinlist": [
             {
               "coindescs": [
@@ -2099,7 +2099,7 @@
         {
           "level": 1,
           "name": "Цепной удар【連擊】",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2123,7 +2123,7 @@
         {
           "level": 2,
           "name": "Цепной удар【連擊】",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на <style=\"highlight\">3</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 при 6 и более [Breath:`Дыхания`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на <style=\"highlight\">3</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 при 6 и более [Breath:`Дыхания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2150,7 +2150,7 @@
         {
           "level": 4,
           "name": "Цепной удар【連擊】",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Breath:`Дыхания`] <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Breath:`Дыхания`] <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2193,7 +2193,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
@@ -2220,7 +2220,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
@@ -2250,7 +2250,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
@@ -2260,7 +2260,7 @@
                   "desc": "На 10% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
@@ -2361,7 +2361,7 @@
         {
           "level": 1,
           "name": "Уклонение【回】",
-          "desc": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID:`Лазурного клинка лунного света`](;DicipleLittleFinger)\n[StartBattle] Повышает свой счётчик [Breath:`Дыхания`] на 4 (Единожды за ход)",
+          "desc": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID:`Лазурного клинка лунного света`](;DicipleLittleFinger)\n[StartBattle] Повышает счётчик своего [Breath:`Дыхания`] на 4 (Единожды за ход)",
           "coinlist": [
             {}
           ]
@@ -2369,7 +2369,7 @@
         {
           "level": 4,
           "name": "Уклонение【回】",
-          "desc": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID:`Лазурного клинка лунного света`](;DicipleLittleFinger)\n[StartBattle] Повышает свой счётчик [Breath:`Дыхания`] на 4 (Единожды за ход)",
+          "desc": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID:`Лазурного клинка лунного света`](;DicipleLittleFinger)\n[StartBattle] Повышает счётчик своего [Breath:`Дыхания`] на 4 (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
