@@ -416,6 +416,68 @@ def merge_by_order(
     return result
 
 
+def load_story_entities(path: Path) -> dict:
+    return {
+        field: json.loads((path / f"{filename}.json").read_text(encoding="utf-8-sig"))
+        for field, filename in (
+            ("teller", "tellers"),
+            ("title", "titles"),
+            ("place", "places"),
+        )
+    }
+
+
+def translate_story(
+    reference: collections.OrderedDict, chapter: Path, entities: dict
+) -> collections.OrderedDict:
+    content = chapter.read_text(encoding="utf-8-sig").strip()
+    clean_lines = [
+        line.strip() for line in content.split("\n") if not line.strip().startswith("#")
+    ]
+    content = "\n".join(clean_lines).strip()
+    translations = []
+    for block in re.split(r"\n{2,}", content) if content else []:
+        if ":" not in block:
+            raise ValueError(f"Invalid line format in {chapter}: {block}")
+        text = block.split(":", 1)[1].strip()
+        translations.append(text.replace("\n[KEEP_LINE]\n", "\n\n"))
+
+    result = copy.deepcopy(reference)
+    current = 0
+    for line in result["dataList"]:
+        # The story export includes a null ID for reference rows without one.
+        line_id = line.setdefault("id", None)
+        if line.get("content") and (line_id is None or line_id >= 0):
+            if current >= len(translations):
+                raise ValueError(f"Not enough translations in {chapter}")
+            line["content"] = translations[current]
+            current += 1
+
+        for field in ("title", "teller"):
+            if not line.get(field):
+                continue
+            for entity in entities[field]:
+                if entity["original"] == line[field] and entity.get(
+                    "model"
+                ) == line.get("model"):
+                    line[field] = entity["translation"]
+                    break
+            else:
+                logger.warning(
+                    f"Unknown {field} in {chapter}: {line[field]} ({line.get('model')})"
+                )
+
+        if line.get("place"):
+            if line["place"] in entities["place"]:
+                line["place"] = entities["place"][line["place"]]
+            elif line["place"] != -1:
+                logger.warning(f"Unknown place in {chapter}: {line['place']}")
+
+    if current != len(translations):
+        raise ValueError(f"Too many translations in {chapter}")
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=str, default="./config.toml")
@@ -440,7 +502,7 @@ def main():
 
     keyword_colors = load_keyword_colors()
 
-    dist_path = Path("./dist/localize")
+    dist_path = Path(args.output)
     dist_path.mkdir(parents=True, exist_ok=True)
 
     if not args.no_include_font:
@@ -456,6 +518,8 @@ def main():
     )
 
     localization_path = Path("./localize")
+    story_path = Path("./story")
+    story_entities = load_story_entities(story_path / "entities")
     for file in reference_path.glob("**/*.json"):
         if not file.is_file():
             continue
@@ -463,25 +527,29 @@ def main():
         relative_path = file.relative_to(reference_path)
         corresponding_file = localization_path / relative_path
         dist_file = dist_path / relative_path
+        chapter = story_path / "chapters" / relative_path.with_suffix(".txt").name
+        is_story = relative_path.parts[0] == "StoryData" and chapter.is_file()
 
         dist_file.parent.mkdir(parents=True, exist_ok=True)
-        if not corresponding_file.exists():
+        if not is_story and not corresponding_file.exists():
             shutil.copy(file, dist_file)
             continue
 
-        # print(f"Processing {file}")
         reference = json.loads(
             file.read_text(encoding="utf-8-sig"),
             object_pairs_hook=collections.OrderedDict,
         )
-        localize = json.loads(
-            corresponding_file.read_text(encoding="utf-8-sig"),
-            object_pairs_hook=collections.OrderedDict,
-        )
-
         if len(reference) == 0:
             shutil.copy(file, dist_file)
             continue
+
+        if is_story:
+            localize = translate_story(reference, chapter, story_entities)
+        else:
+            localize = json.loads(
+                corresponding_file.read_text(encoding="utf-8-sig"),
+                object_pairs_hook=collections.OrderedDict,
+            )
 
         for file_pattern in config.keyword_shorthands.apply_for:
             if not fnmatch.fnmatch(relative_path.as_posix(), file_pattern):
