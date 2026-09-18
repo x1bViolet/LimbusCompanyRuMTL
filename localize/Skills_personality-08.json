@@ -2774,6 +2774,331 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1081601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ахх, ты этого не слышишь, правда?",
+          "desc": "[WhenUse] Если текущие ОЗ выше 80%, то повышает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ахх, ты этого не слышишь, правда?",
+          "desc": "<style=\"highlight\">Сила монет +1, если сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) выше 1</style>\n[WhenUse] Если текущие ОЗ выше 80%, то повышает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ахх, ты этого не слышишь, правда?",
+          "desc": "Сила монет +1, если сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) выше 1\n[WhenUse] Если текущие ОЗ выше 80%, то повышает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Воистину, молчание голоса не означало его отсутствия!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 2)% ОЗ (До 10%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Воистину, молчание голоса не означало его отсутствия!",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 2 единицы силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2)\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((10 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 10\n[WhenUse] Тратит 10 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +1 к Силе монет\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на 20% больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на <style=\"highlight\">4</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 3 и более силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)</style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × <style=\"highlight\">3</style>)% ОЗ (До <style=\"highlight\">15%</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Воистину, молчание голоса не означало его отсутствия!",
+          "desc": "Итоговая сила +1 за каждые 2 единицы силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2)\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((10 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 10\n[WhenUse] Тратит 10 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +1 к Силе монет\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на <style=\"highlight\">40%</style> больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При <style=\"highlight\">2</style> и более силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 3)% ОЗ (До 15%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Выскрести, оторвать и пригвоздить!",
+          "desc": "Наносит на (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 5)% больше урона (До 25%)\n[StartBattle] Если в состоянии [RougeIshmaelEclose:`Полного преображения`] или свои текущие ОЗ ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 15\n[WhenUse] Тратит 15 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +3 к Силе монет\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на 40% больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Похотью, равный (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 10)% от итогового урона этой монеты (До 30%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 4)% ОЗ (До 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выскрести, оторвать и пригвоздить!",
+          "desc": "Наносит на (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × <style=\"highlight\">10</style>)% больше урона (До <style=\"highlight\">50%</style>)\n[StartBattle] Если в состоянии [RougeIshmaelEclose:`Полного преображения`] или свои текущие ОЗ ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 15\n[WhenUse] Тратит 15 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +3 к Силе монет\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на 40% больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Похотью, равный (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 10)% от итогового урона этой монеты (До 30%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 4)% ОЗ (До 20%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конечно... В конце концов, в этом мире был смысл",
+          "desc": "[DuelCounter]\n[StartBattle] При менее чем 10% ОЗ входит в состояние [RougeIshmaelCocoon:`Примерочной`] (Единожды за битву)\n[StartBattle] Если нет [RougeIshmaelEclose:`Полного преображения`], то тратит 20% ОЗ, чтобы повысить [Aggro:`Провокацию`] этого слота навыков на 10 в следующем ходе (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конечно... В конце концов, в этом мире был смысл",
+          "desc": "[DuelCounter]\n[StartBattle] При менее чем 10% ОЗ входит в состояние [RougeIshmaelCocoon:`Примерочной`] (Единожды за битву)\n[StartBattle] Если нет [RougeIshmaelEclose:`Полного преображения`], то тратит 20% ОЗ, чтобы повысить [Aggro:`Провокацию`] этого слота навыков на 10 в следующем ходе (Единожды за ход)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 2 единицы силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2)\n[WhenUse] Наносит на (Сила [Laceration:`Кровотечения`] атакующего × 10)% больше урона (До 40%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то восстанавливает себе 10% ОЗ (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Как велит голос, я с радостью погружаюсь в себя",
+          "desc": "<b>Навык состояния [RougeIshmaelCocoon:`Примерочной`]</b>\n\n[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит 10 его единиц, чтобы дать 1 [ResultEnhancement:`Повышение силы`] на следующий ход для 2 союзников по порядку их выбора в команду (Единожды за ход)\n[StartBattle] Восстанавливает себе 50% ОЗ (Единожды за ход)\n[WinDuel] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (До 4 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Как велит голос, я с радостью погружаюсь в себя",
+          "desc": "<b>Навык состояния [RougeIshmaelCocoon:`Примерочной`]</b>\n\n[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит 10 его единиц, чтобы дать 1 [ResultEnhancement:`Повышение силы`] на следующий ход для 2 союзников по порядку их выбора в команду (Единожды за ход)\n- Если затронутый союзник принадлежит к <b>Ле Руж</b>, то также повышает ему счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 и даёт [AttackDmgUp:`Повышение урона`]\n[StartBattle] Восстанавливает себе <style=\"highlight\">100%</style> ОЗ (Единожды за ход)\n[WinDuel] Снимает с себя 1 случайный снимаемый негативный эффект (Единожды за ход)\n[WinDuel] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (До 4 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

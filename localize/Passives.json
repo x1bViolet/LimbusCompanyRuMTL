@@ -1273,13 +1273,13 @@
     {
       "id": 1090801,
       "name": "Боевой пыл",
-      "desc": "На 5% больше урона за каждые 6 [Combustion:`Огня`] на цели. (До 15%)\n\nНачало боевой фазы: если на всех противниках или частях 6 и более [Combustion:`Огня`], даёт 1 [CrimsonDamageUp:`Повышение урона Гневом`] (Число грехов в наибольшем абсолютном резонансе Гнева) союзникам по порядку их входа в бой.",
+      "desc": "На 5% больше урона за каждые 6 [Combustion:`Огня`] на цели. (До 15%)\n\nНачало боевой фазы: если на всех противниках или частях 6 и более [Combustion:`Огня`], даёт 1 [CrimsonDamageUp:`Повышение урона Гневом`] (Число грехов в наибольшем абсолютном резонансе Гнева) союзникам по порядку их выбора в команду.",
       "summary": "На 5% больше урона за каждые 6 [Combustion:`Огня`] на цели"
     },
     {
       "id": 1090811,
       "name": "Боевой пыл",
-      "desc": "На <style=\"highlight\">10%</style> больше урона за каждые 6 [Combustion:`Огня`] на цели. (До <style=\"highlight\">30%</style>)\n\nНачало боевой фазы: если на всех противниках или частях 6 и более [Combustion:`Огня`], даёт 1 [CrimsonDamageUp:`Повышение урона Гневом`] (Число грехов в наибольшем абсолютном резонансе Гнева) союзникам по порядку их входа в бой.\n<style=\"highlight\">- Если союзник с эффектом — Корректировщик Ассоциации «Лю», дополнительно даёт ему 1 [Enhancement:`Повышение силы атаки`].</style>",
+      "desc": "На <style=\"highlight\">10%</style> больше урона за каждые 6 [Combustion:`Огня`] на цели. (До <style=\"highlight\">30%</style>)\n\nНачало боевой фазы: если на всех противниках или частях 6 и более [Combustion:`Огня`], даёт 1 [CrimsonDamageUp:`Повышение урона Гневом`] (Число грехов в наибольшем абсолютном резонансе Гнева) союзникам по порядку их выбора в команду.\n<style=\"highlight\">- Если союзник с эффектом — Корректировщик Ассоциации «Лю», дополнительно даёт ему 1 [Enhancement:`Повышение силы атаки`].</style>",
       "summary": "На 10% больше урона за каждые 6 [Combustion:`Огня`] на цели"
     },
     {
@@ -3358,6 +3358,55 @@
       "id": 1061621,
       "name": "Я проплавлю нам путь",
       "desc": "Самый быстрый союзник наносит своим целям 1 [Binding:`Связывание`] на следующий ход при победе в столкновении, если они имеют [Combustion:`Огонь`] или Особый Огoнь. (Единожды за ход)\n- Если счётчик [Combustion:`Огня`] на цели ниже 5, то также повышает его на 1;\n- Если счётчик [Combustion:`Огня`] на цели равен 5 и более, то наносит цели дополнительные 3 [Combustion:`Огня`]."
+    },
+    {
+      "id": 1041601,
+      "name": "Отзыв",
+      "desc": "При [VibrationExplosion:`Провокации Тремора`] на противнике повышение его границы выносливости увеличивается на 15%.\n- При 12 и более счётчика [ChargeNoirAlly:`Консервации`](;ChargeNoir) тратит 1 его единицу, чтобы усилить этот эффект вдвое. (Активируется для каждой цели навыка)\n\nЕсли получает удар при наличии ОЗ Щита, то наносит 2 [Vibration:`Тремора`] атаковавшему. (До 2 раз за ход на противника)",
+      "summary": "Increase Stagger Threshold raise",
+      "flavor": "The Noirs believe they can collapse their opponents' worth by subjecting them to violent tremors—the more violently the target vibrates, the more changes it must undergo from moment to moment. The combat techniques of the Noirs were built upon that conviction.\n\nAnd though the Noirs neither remember nor have ever experienced it, beyond the Grand Magasin Sisyphe exist fighting techniques founded upon the very same principle and have since been refined far beyond."
+    },
+    {
+      "id": 1041602,
+      "name": "Ле Нуар: Габардиновая ткань",
+      "desc": "Входит в битву с [NoirSuitAlly:`Габардиновым пальто Ле Нуар`](;NoirSuit).\n\nНачало хода: получает ОЗ Щита в размере ((Сумма значения [NoirSuitAlly:`Габардинового пальто Ле Нуар`](;NoirSuit) или [RealisationAlly:`Бодрствующего доспеха`](;Realisation)) / 5)% от своих максимальных ОЗ;",
+      "summary": "Gain Shield"
+    },
+    {
+      "id": 1041603,
+      "name": "Ле Нуар: Габардиновая ткань",
+      "desc": "Входит в битву с [NoirSuitAlly:`Габардиновым пальто Ле Нуар`](;NoirSuit).\n\nНачало хода:\n- Получает ОЗ Щита в размере ((Сумма значения [NoirSuitAlly:`Габардинового пальто Ле Нуар`](;NoirSuit) или [RealisationAlly:`Бодрствующего доспеха`](;Realisation)) / 5)% от своих максимальных ОЗ;\n<style=\"highlight\">- При наличии [RealisationAlly:`Бодрствующего доспеха`](;Realisation) свой третий навык <color=#fed133>「Шитьё тройного тиснения」</color> превращается в его альтернативную версию <color=#fed133>「Одиночный удар - Множественный Шов」</color>.</style>",
+      "summary": "Gain Shield"
+    },
+    {
+      "id": 1041604,
+      "name": "Консервация",
+      "desc": "Получает 1 силу [ChargeNoirAlly:`Консервации`](;ChargeNoir) каждый раз, когда тратит 10-ую единицу счётчика [ChargeNoirAlly:`Консервации`](;ChargeNoir).\n\nКонец хода: если сила своей [ChargeNoirAlly:`Консервации`](;ChargeNoir) ниже 3, то полностью тратит её счётчик, чтобы получить (Потраченный счётчик [ChargeNoirAlly:`Консервации`](;ChargeNoir) × 5) ОЗ Щита на следующий ход.\n\nПри 3 и более силы [ChargeNoirAlly:`Консервации`](;ChargeNoir): получает от своих базовых навыков на 1 единицу счётчика [ChargeNoirAlly:`Консервации`](;ChargeNoir) больше, пока он ниже 12.\n\nПри использовании базового атакующего навыка:\n- Сила монет +1 против целей с 6 и более [Vibration:`Тремора`];\n- Сила монет +1 при 3 и более силы [ChargeNoirAlly:`Консервации`](;ChargeNoir);\n- Наносит на (Текущая сила [ChargeNoirAlly:`Консервации`](;ChargeNoir) × 2)% больше урона. (До 10%; если использует при этом свой третий навык или его альтернативную версию, то этот эффект усиливается вдвое)",
+      "summary": "At fewer than a certain number of Preservation Count, gain more Preservation Count\nOn Base Attack Skill Use, gain Coin Power and deal more damage"
+    },
+    {
+      "id": 1041621,
+      "name": "Ле Нуар: благочестие и достоинство",
+      "desc": "Среди союзников, имеющих [Charge:`Заряд`] или Особый Зaряд: увеличивает повышение границы выносливости цели на 12.5% при [VibrationExplosion:`Провокации Тремора`] базовыми навыками для одного из этих союзников, выбранного в команду раньше остальных.",
+      "summary": "Increase Stagger Threshold raised by Tremor Burst\nInflict Tremor Potency when hit"
+    },
+    {
+      "id": 1081601,
+      "name": "Колыбель преображения",
+      "desc": "При использовании своих базовых навыков:\n- Если текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то Сила в столкновении повышается на 2;\n- Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то восстанавливает себе 8% ОЗ. (До 5 раз за ход)",
+      "flavor": "While some might call this a \"changing room,\" it would be more appropriate for those on the other side to call it a \"pupa\" or an \"egg.\"\nShe melts and tears herself apart, metamorphosing... Until, when the time is right, she will shatter the shells and emerge into the world outside.\nBut if someone from the outside rips into the shell before she is ready... sadly, they will end up breaking her.\nThis is her most vulnerable moment, and therefore must be nurtured and looked after."
+    },
+    {
+      "id": 1081602,
+      "name": "В примерочную...",
+      "desc": "Получает 1 силу [ChargeRougeAlly:`Пульсации`](;ChargeRouge) каждый раз, когда тратит 10-ую единицу счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge).\n\nТрата своих ОЗ эффектами базовых навыков не может опустить их ниже 1. (При 1 оставшемся ОЗ эти эффекты будут активироваться без ограничений)\n\nПри получении Измаил смертельного урона впервые за битву её ОЗ не могут упасть ниже 1, после чего она входит в состояние [RougeIshmaelCocoon:`Примерочной`].\n- Не активируется, если вход в состояние [RougeIshmaelCocoon:`Примерочной`] уже происходил ранее через защитный навык <color=#fe6f01>「Конечно... В конце концов, в этом мире был смысл」</color>.\n\nПри входе в состояние [RougeIshmaelCocoon:`Примерочной`] у Измаил исчезают границы выносливости, а сама она выходит из оглушения и получает ОЗ Щита, равные своим максимальным ОЗ (Этот щит не спадает в конце хода).\n- Полученные ОЗ Щита исчезают при переходе из состояния [RougeIshmaelCocoon:`Примерочной`] в [RougeIshmaelEclose:`Полное преображение`].\n\nНаходясь в состоянии [RougeIshmaelCocoon:`Примерочной`], Измаил не может экипировать никакие другие навыки кроме своего альтернативного защитного навыка <color=#fe6f01>「Как велит голос, я с радостью погружаюсь в себя」</color>.",
+      "flavor": "I'm going to get myself a makeover! So I can get nearer to my true self!"
+    },
+    {
+      "id": 1081621,
+      "name": "[Актриса Бутика Ле Руж] Платья",
+      "desc": "Следующие эффекты активируются для #1 и #2 выбранных Идентичностей:\n- Восстановление ОЗ от эффектов своих навыков и пассивных умений усиливается на 20%;\n- При активации абсолютного резонанса Похоти получаемый ими урон снижается на 10% в течене хода.",
+      "flavor": "When it isn't feasible to overwrite the subject with the exact form of the Mirrored Identity, a \"costume\" fitted for each actor is designed and worn.\n\nHaute Couture is a form of cinematic reinterpretation; it replaces an existent being with an outfit, and the actor, now overwritten, dutifully performs the given role in full immersion. \n\nThis deception of reality is readily accepted by the audience at the theater while the actor, at least within the confines of the narrative, embodies the original existence in earnest recreation."
     }
   ]
 }

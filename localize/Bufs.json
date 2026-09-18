@@ -265,7 +265,7 @@
     {
       "id": "Laceration",
       "name": "Кровотечение",
-      "desc": "Следующие {1} раз при подбрасывании монет атакующих навыков получит {0} фиксированного урона",
+      "desc": "Следующие {1} раз(-а) при подбрасывании монет атакующих навыков получит {0} фиксированного урона",
       "summary": "{0} фиксированного урона по ОЗ"
     },
     {
@@ -4024,6 +4024,50 @@
       "desc": "Максимальное значение: 3\n- Уровень атаки повышается на значение этого эффекта\n- Если значение этого эффекта равно 2/3 и более, то получает больше силы/счётчика [Breath:`Дыхания`] от своих базовых навыков соответственно",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "NoirSuitAlly",
+      "name": "Ле Нуар: Габардиновое пальто",
+      "desc": "Максимальное значение: 100\nБазовое значение: 25\n· Уровень защиты +1 за каждые 25 значения\n· [Aggro:`Провокация`] своего самого левого слота навыков повышается на 5\n· Значение этого эффекта повышается на 5 при получении урона во время наличия ОЗ Щита (До 10 за ход)\n· Конец хода: если имеются ОЗ Щита, то значение этого эффекта повышается на 10\n· Значение этого эффекта повышается, когда Рёшу получает или тратит счётчик [ChargeNoirAlly:`Консервации`](;ChargeNoir) через эффекты своих навыков или пассивных умений (До 30 за ход):\n   - Повышается на полученный счётчик [ChargeNoirAlly:`Консервации`](;ChargeNoir) при его повышении (Даже если её счётчик при этом был максималным)\n   - Повышается на (Потраченный счётчик [ChargeNoirAlly:`Консервации`](;ChargeNoir) × 2) при его трате\n· Когда значение достигает 100, превращается в [RealisationAlly:`Бодрствующий доспех`](;Realisation) в следующем ходе",
+      "summary": "Получает Уровень защиты и [Aggro:`Провокацию`]",
+      "flavor": "An overcoat made from twill fabric, a type of weave made by threading several weft threads over fewer warp threads.\nIts characteristic high-density weave protects its wearer from external trauma."
+    },
+    {
+      "id": "ChargeNoirAlly",
+      "name": "Консервация",
+      "desc": "<u>Особый Заряд</u>\nМаксимальный счётчик: 20\n· Счётчик или сила могут быть повышены внешними факторами\n· Счётчик понижается на 1 в конце хода\n\n<color=#cdb676>Всего потрачено счётчика: {2}</color>",
+      "summary": "",
+      "flavor": "Force is compressed, gathered, and fixed in place. Sometimes, it takes more force to prevent change than to cause it."
+    },
+    {
+      "id": "RealisationAlly",
+      "name": "Бодрствующий доспех",
+      "desc": "Максимальное значение: 100\n· Минимальная и максимальная скорость +2\n· Начало хода: восстанавливает 8 СД\n· Все монеты своих базовых атакующих навыков становятся [SuperCoin:`Вечными`]\n· Уровень атаки и защиты +1 за каждые 25 значения\n· Когда значение падает до 0, превращается обратно в [NoirSuitAlly:`Ле Нуар: Габардиновое пальто`](;NoirSuit)",
+      "summary": "Получает Уровень атаки и защиты, Скорость повышается\nМонеты базовых атакующих навыков становятся [SuperCoin:`Вечными`]",
+      "flavor": "Le Noir's fabric weave prevents external force from reaching its wearer. The purpose for which it awakens is to eliminate change imposed from the outside.\nThe fabric stores energy from attacks it absorbs, then expels all that force in a single burst to remove the external source of change."
+    },
+    {
+      "id": "ChargeRougeAlly",
+      "name": "Пульсация",
+      "desc": "<u>Особый Заряд</u>\nМаксимальный счётчик: 20\n· Счётчик или сила могут быть повышены внешними факторами\n· Счётчик понижается на 1 в конце хода",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RougeIshmaelCocoon",
+      "name": "Примерочная",
+      "desc": "Базовое значение: 2\n· Скорость фиксируется на 1\n· Начало хода: получает 10 [Aggro:`Провокации`]\n· Получает на 50% меньше урона от навыков\n· Не может [RetreatForCommon:`Отступить`] с поля боя или поддаться [EgoErode:`Коррозии ЭГО`], тип паники не меняется\n· Счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) повышается на 1 при получении урона (До 20 за ход)\n· Значение понижается на 1 в конце хода\n\n· Конец хода: если значение этого эффекта упало до X, то переходит из состояния [RougeIshmaelCocoon:`Примерочной`] в [RougeIshmaelEclose:`Полное преображение`], повышая счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Though it has become hardier, it has now become passive. When viewed through the lens of Le Rouge, however durable something might have become, what is passive is always fragile.\n\nBut one must first come to a halt in order to usher in change. And that is what makes this process painful."
+    },
+    {
+      "id": "RougeIshmaelEclose",
+      "name": "Полное преображение",
+      "desc": "· Минимальная и максимальная скорость +1\n· Максимальные ОЗ увеличиваются на 25%\n· Получает на 10% меньше урона от навыков\n· Наносит своими базовыми навыками на 1 [Laceration:`Кровотечение`] больше",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Though she has emerged from the cocoon, she has failed to truly metamorphose—as that process involves the disintegration of the self. Still, the process has managed to boost her physical abilities."
     }
   ]
 }
