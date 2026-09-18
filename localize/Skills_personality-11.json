@@ -6,12 +6,12 @@
         {
           "level": 1,
           "name": "Подождите!",
-          "desc": "Повышает свой счётчик [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
+          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на количество своего счётчика [Vibration:`Тремора`] (До 10) "
+                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
                 }
               ]
             }
@@ -20,12 +20,12 @@
         {
           "level": 2,
           "name": "Подождите!",
-          "desc": "Повышает свой счётчик [Vibration:`Тремора`] на <style=\"highlight\">4</style> при [Discard:`Сбросе`] этого навыка\n<style=\"highlight\">[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\nИтоговая сила +1, если свой счётчик [Vibration:`Тремора`] равен 6 и более</style>",
+          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">4</style> при [Discard:`Сбросе`] этого навыка\n<style=\"highlight\">[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\nИтоговая сила +1, если счётчик своего [Vibration:`Тремора`] равен 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою границу выносливости на количество своего счётчика [Vibration:`Тремора`] (До 10) "
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою границу выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
                 }
               ]
             }
@@ -34,12 +34,12 @@
         {
           "level": 4,
           "name": "Подождите!",
-          "desc": "Повышает свой счётчик [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\nИтоговая сила <style=\"highlight\">+2</style>, если свой счётчик [Vibration:`Тремора`] равен 6 и более",
+          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\nИтоговая сила <style=\"highlight\">+2</style>, если счётчик своего [Vibration:`Тремора`] равен 6 и более",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на количество своего счётчика [Vibration:`Тремора`] (До 10) "
+                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
                 }
               ]
             }
@@ -72,7 +72,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 6 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если счётчик своего [Vibration:`Тремора`] равен 6 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -100,7 +100,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 6 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если счётчик своего [Vibration:`Тремора`] равен 6 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration:`Тремора`] равен 6 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Если счётчик своего [Vibration:`Тремора`] равен 6 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 }
               ]
             }
@@ -142,7 +142,7 @@
         {
           "level": 3,
           "name": "Смелое решение",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] по 1 навыку из каждого своего слота навыков по убыванию их рангов\n[WhenUse] Тратит 10 единиц своего счётчика [Vibration:`Тремора`], чтобы получить +1 к Силе монет",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] по 1 навыку из каждого своего слота навыков по убыванию их рангов\n[WhenUse] Тратит 10 единиц счётчика своего [Vibration:`Тремора`], чтобы получить +1 к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -150,7 +150,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если навык потратил свой счётчик [Vibration:`Тремора`], то повышает счётчик [Vibration:`Тремора`] цели на 3"
+                  "desc": "[OnSucceedAttack] Если навык потратил счётчик своего [Vibration:`Тремора`], то повышает счётчик [Vibration:`Тремора`] цели на 3"
                 }
               ]
             },
@@ -180,7 +180,7 @@
         {
           "level": 4,
           "name": "Смелое решение",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] по 1 навыку из каждого своего слота навыков по убыванию их рангов\n[WhenUse] Тратит 10 единиц своего счётчика [Vibration:`Тремора`], чтобы получить <style=\"highlight\">+2</style> к Силе монет",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] по 1 навыку из каждого своего слота навыков по убыванию их рангов\n[WhenUse] Тратит 10 единиц счётчика своего [Vibration:`Тремора`], чтобы получить <style=\"highlight\">+2</style> к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -188,7 +188,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если навык потратил свой счётчик [Vibration:`Тремора`], то повышает счётчик [Vibration:`Тремора`] цели на 3"
+                  "desc": "[OnSucceedAttack] Если навык потратил счётчик своего [Vibration:`Тремора`], то повышает счётчик [Vibration:`Тремора`] цели на 3"
                 }
               ]
             },
@@ -249,14 +249,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -270,14 +270,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -291,14 +291,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -312,7 +312,7 @@
         {
           "level": 1,
           "name": "Наказание",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -333,7 +333,7 @@
         {
           "level": 2,
           "name": "Наказание",
-          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n<style=\"highlight\">[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n<style=\"highlight\">[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -354,7 +354,7 @@
         {
           "level": 4,
           "name": "Наказание",
-          "desc": "Сила монет <style=\"highlight\">+2</style> против более медленных целей\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[WhenUse] Этот слот получает <style=\"highlight\">4</style> [Aggro:`Провокации`] на следующий ход",
+          "desc": "Сила монет <style=\"highlight\">+2</style> против более медленных целей\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[WhenUse] Этот слот получает <style=\"highlight\">4</style> [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1018,13 +1018,13 @@
         {
           "level": 1,
           "name": "Пульсация",
-          "desc": "[WhenUse] Сила в столкновении +1, если свой счётчик [Charge:`Заряда`] равен 4 и более\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Сила в столкновении +1, если счётчик своего [Charge:`Заряда`] равен 4 и более\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1"
                 }
               ]
             }
@@ -1033,13 +1033,13 @@
         {
           "level": 2,
           "name": "Пульсация",
-          "desc": "[WhenUse] <style=\"highlight\">Базовая сила</style> +1, если свой счётчик [Charge:`Заряда`] равен 4 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +1, если свой счётчик [Charge:`Заряда`] равен 6 и более</style>\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] <style=\"highlight\">Базовая сила</style> +1, если счётчик своего [Charge:`Заряда`] равен 4 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +1, если счётчик своего [Charge:`Заряда`] равен 6 и более</style>\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1"
                 }
               ]
             }
@@ -1048,13 +1048,13 @@
         {
           "level": 4,
           "name": "Пульсация",
-          "desc": "[WhenUse] Базовая сила +1, если свой счётчик [Charge:`Заряда`] равен 4 и более\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 5 единиц своего счётчика [Charge:`Заряда`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Базовая сила +1, если счётчик своего [Charge:`Заряда`] равен 4 и более\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 5 единиц счётчика своего [Charge:`Заряда`] (До 2)</style>\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
                 }
               ]
             }
@@ -1068,19 +1068,19 @@
         {
           "level": 1,
           "name": "Заряженный скачок",
-          "desc": "[WhenUse] Тратит 6 единиц счётчика [Charge:`Заряда`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Тратит 6 единиц счётчика [Charge:`Заряда`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -1092,19 +1092,19 @@
         {
           "level": 2,
           "name": "Заряженный скачок",
-          "desc": "[WhenUse] Тратит 6 единиц счётчика [Charge:`Заряда`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Если навыком был потрачен счётчик [Charge:`Заряда`], Отис и два других союзника с наименьшим счётчиком [Charge:`Заряда`] получают (Сила [Charge:`Заряда`] Отис + 1) [ChargeForceField:`Зарядных барьеров`] (До 7; активируется единожды за ход)</style>\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Тратит 6 единиц счётчика [Charge:`Заряда`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Если навыком был потрачен счётчик [Charge:`Заряда`], Отис и два других союзника с наименьшим счётчиком [Charge:`Заряда`] получают (Сила [Charge:`Заряда`] Отис + 1) [ChargeForceField:`Зарядных барьеров`] (До 7; активируется единожды за ход)</style>\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -1119,19 +1119,19 @@
         {
           "level": 4,
           "name": "Заряженный скачок",
-          "desc": "[WhenUse] Тратит 6 единиц счётчика [Charge:`Заряда`], чтобы получить +1 к <style=\"highlight\">Силе монет</style>\n[WhenUse] Если навыком был потрачен счётчик [Charge:`Заряда`], Отис и два других союзника с наименьшим счётчиком [Charge:`Заряда`] получают (Сила [Charge:`Заряда`] Отис + <style=\"highlight\">2</style>) [ChargeForceField:`Зарядных барьеров`] (До <style=\"highlight\">8</style>, активируется <style=\"highlight\">до 2 раз</style> за ход)\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Тратит 6 единиц счётчика [Charge:`Заряда`], чтобы получить +1 к <style=\"highlight\">Силе монет</style>\n[WhenUse] Если навыком был потрачен счётчик [Charge:`Заряда`], Отис и два других союзника с наименьшим счётчиком [Charge:`Заряда`] получают (Сила [Charge:`Заряда`] Отис + <style=\"highlight\">2</style>) [ChargeForceField:`Зарядных барьеров`] (До <style=\"highlight\">8</style>, активируется <style=\"highlight\">до 2 раз</style> за ход)\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 2</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -1151,7 +1151,7 @@
         {
           "level": 3,
           "name": "Разрыв измерения",
-          "desc": "[StartBattle] Даёт [ChargeLoad:`Нагрузку`] себе и (Число грехов в наибольшем резонансе) союзникам с [Charge:`Зарядом`], равную силе своего [Charge:`Заряда`] (Влияет на группу до 5 союзников кроме Отис)\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 7~14, а его сила 2-ум и более, то полностью тратит свой счётчик [Charge:`Заряда`] для получения +1 к Силе монет\n[WhenUse] Тратит 15 единиц своего счётчика [Charge:`Заряда`], чтобы получить +1 к Силе монет",
+          "desc": "[StartBattle] Даёт [ChargeLoad:`Нагрузку`] себе и (Число грехов в наибольшем резонансе) союзникам с [Charge:`Зарядом`], равную силе своего [Charge:`Заряда`] (Влияет на группу до 5 союзников кроме Отис)\n[WhenUse] Если счётчик своего [Charge:`Заряда`] равен 7~14, а его сила 2-ум и более, то полностью тратит счётчик своего [Charge:`Заряда`] для получения +1 к Силе монет\n[WhenUse] Тратит 15 единиц счётчика своего [Charge:`Заряда`], чтобы получить +1 к Силе монет",
           "coinlist": [
             {},
             {
@@ -1174,7 +1174,7 @@
                   "desc": "[OnSucceedAttack] Если этот навык потратил 15 единиц счётчика [Charge:`Заряда`], наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на (5 - сила своего [Charge:`Заряда`])"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на (5 - сила своего [Charge:`Заряда`])"
                 }
               ]
             }
@@ -1183,7 +1183,7 @@
         {
           "level": 4,
           "name": "Разрыв измерения",
-          "desc": "[StartBattle] Даёт [ChargeLoad:`Нагрузку`] себе и (Число грехов в наибольшем резонансе) союзникам с [Charge:`Зарядом`], равную силе своего [Charge:`Заряда`] (Влияет на группу до 5 союзников кроме Отис)\n[WhenUse] Если свой счётчик [Charge:`Заряда`] равен 7~14, а его сила 2-ум и более, то полностью тратит свой счётчик [Charge:`Заряда`] для получения <style=\"highlight\">+2</style> к Силе монет\n[WhenUse] Тратит 15 единиц своего счётчика [Charge:`Заряда`], чтобы получить <style=\"highlight\">+2</style> к Силе монет",
+          "desc": "[StartBattle] Даёт [ChargeLoad:`Нагрузку`] себе и (Число грехов в наибольшем резонансе) союзникам с [Charge:`Зарядом`], равную силе своего [Charge:`Заряда`] (Влияет на группу до 5 союзников кроме Отис)\n[WhenUse] Если счётчик своего [Charge:`Заряда`] равен 7~14, а его сила 2-ум и более, то полностью тратит счётчик своего [Charge:`Заряда`] для получения <style=\"highlight\">+2</style> к Силе монет\n[WhenUse] Тратит 15 единиц счётчика своего [Charge:`Заряда`], чтобы получить <style=\"highlight\">+2</style> к Силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -1212,7 +1212,7 @@
                   "desc": "[OnSucceedAttack] Если этот навык потратил 15 единиц счётчика [Charge:`Заряда`], наносит <style=\"highlight\">3</style> [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на (5 - сила своего [Charge:`Заряда`])"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на (5 - сила своего [Charge:`Заряда`])"
                 }
               ]
             }
@@ -1226,7 +1226,7 @@
         {
           "level": 1,
           "name": "Развёртывание плазмы",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 2 единицы своего счётчика [Charge:`Заряда`] (До 5)\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2 (До 2 раз за ход)",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 2 единицы счётчика своего [Charge:`Заряда`] (До 5)\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2 (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1240,7 +1240,7 @@
         {
           "level": 4,
           "name": "Развёртывание плазмы",
-          "desc": "[WhenUse] Базовая сила +1 за каждую <style=\"highlight\">единицу</style> своего счётчика [Charge:`Заряда`] (До <style=\"highlight\">10</style>)\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2 (До <style=\"highlight\">3 раз</style> за ход)",
+          "desc": "[WhenUse] Базовая сила +1 за каждую <style=\"highlight\">единицу</style> счётчика своего [Charge:`Заряда`] (До <style=\"highlight\">10</style>)\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2 (До <style=\"highlight\">3 раз</style> за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1259,7 +1259,7 @@
         {
           "level": 1,
           "name": "Шитьё",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 10% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 40 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodScissorPersonalityFirst:`Окровавленные лезвия ножниц`] за каждые 8 поглощённого [BloodDinner:`Кровавого пиршества`]\nСвой счётчик [Laceration:`Кровотечения`] повышается на 2, если не удалось поглотить [BloodDinner:`Кровавое пиршество`]",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 10% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 40 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodScissorPersonalityFirst:`Окровавленные лезвия ножниц`] за каждые 8 поглощённого [BloodDinner:`Кровавого пиршества`]\nСчётчик своего [Laceration:`Кровотечения`] повышается на 2, если не удалось поглотить [BloodDinner:`Кровавое пиршество`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1280,7 +1280,7 @@
         {
           "level": 2,
           "name": "Шитьё",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 10% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 40 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodScissorPersonalityFirst:`Окровавленные лезвия ножниц`] за каждые 8 поглощённого [BloodDinner:`Кровавого пиршества`]\nСвой счётчик [Laceration:`Кровотечения`] повышается на 2, если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 10% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 40 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodScissorPersonalityFirst:`Окровавленные лезвия ножниц`] за каждые 8 поглощённого [BloodDinner:`Кровавого пиршества`]\nСчётчик своего [Laceration:`Кровотечения`] повышается на 2, если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1307,7 +1307,7 @@
         {
           "level": 4,
           "name": "Шитьё",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 10% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 40 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodScissorPersonalityFirst:`Окровавленные лезвия ножниц`] за каждые 8 поглощённого [BloodDinner:`Кровавого пиршества`]\nСвой счётчик [Laceration:`Кровотечения`] повышается на 2, если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 10% от нанесённого урона (До 10)\n[WhenUse] Поглощает до 40 [BloodDinner:`Кровавого пиршества`] и получает 1 [BloodScissorPersonalityFirst:`Окровавленные лезвия ножниц`] за каждые 8 поглощённого [BloodDinner:`Кровавого пиршества`]\nСчётчик своего [Laceration:`Кровотечения`] повышается на 2, если не удалось поглотить [BloodDinner:`Кровавое пиршество`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6 [Laceration:`Кровотечения`]</style> на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1811,7 +1811,7 @@
         {
           "level": 1,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 1",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1832,7 +1832,7 @@
         {
           "level": 2,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 2</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 2</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1853,7 +1853,7 @@
         {
           "level": 4,
           "name": "Готовность взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>\n[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 3</style>\n[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1879,7 +1879,7 @@
         {
           "level": 1,
           "name": "Модуль микрорезонанса Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1907,7 +1907,7 @@
         {
           "level": 2,
           "name": "Модуль микрорезонанса Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 3</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1922,14 +1922,14 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [Vibration:`Тремора`], тратит с неё 4 [Vibration:`Тремора`] для повышения своего счётчика [Vibration:`Тремора`] и счётчика [Vibration:`Тремора`] цели на 2</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [Vibration:`Тремора`], тратит с неё 4 [Vibration:`Тремора`] для повышения счётчика своего [Vibration:`Тремора`] и счётчика [Vibration:`Тремора`] цели на 2</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель не находится в состоянии [Switch_Vibration:`Преобразованной амплитуды`] или [FusionVibration:`Наложенной амплитуды`], то тратит 3 единицы своего счётчика [Vibration:`Тремора`], чтобы [Switch_Vibration:`Преобразовать амплитуду`] в [VibrationChainPersonality:`Тремор — Цепи`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель не находится в состоянии [Switch_Vibration:`Преобразованной амплитуды`] или [FusionVibration:`Наложенной амплитуды`], то тратит 3 единицы счётчика своего [Vibration:`Тремора`], чтобы [Switch_Vibration:`Преобразовать амплитуду`] в [VibrationChainPersonality:`Тремор — Цепи`]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 3 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -1941,7 +1941,7 @@
         {
           "level": 4,
           "name": "Модуль микрорезонанса Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] <style=\"highlight\">на 4</style>\n[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 4</style>\n[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1956,7 +1956,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:`Тремора`], тратит с неё 4 [Vibration:`Тремора`] для повышения своего счётчика [Vibration:`Тремора`] и счётчика [Vibration:`Тремора`] цели на 2"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Vibration:`Тремора`], тратит с неё 4 [Vibration:`Тремора`] для повышения счётчика своего [Vibration:`Тремора`] и счётчика [Vibration:`Тремора`] цели на 2"
                 }
               ]
             },
@@ -1966,7 +1966,7 @@
                   "desc": "<style=\"highlight\">Если цель в состоянии [Switch_Vibration:`Преобразованной амплитуды`] или [FusionVibration:`Наложенной амплитуды`], наносит на 60% больше урона этой монетой</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не находится в состоянии [Switch_Vibration:`Преобразованной амплитуды`] или [FusionVibration:`Наложенной амплитуды`], то тратит 3 единицы своего счётчика [Vibration:`Тремора`], чтобы [Switch_Vibration:`Преобразовать амплитуду`] в [VibrationChainPersonality:`Тремор — Цепи`]"
+                  "desc": "[OnSucceedAttack] Если цель не находится в состоянии [Switch_Vibration:`Преобразованной амплитуды`] или [FusionVibration:`Наложенной амплитуды`], то тратит 3 единицы счётчика своего [Vibration:`Тремора`], чтобы [Switch_Vibration:`Преобразовать амплитуду`] в [VibrationChainPersonality:`Тремор — Цепи`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 3 и более, [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -1991,7 +1991,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели:\n- Наносит (Потраченный [Vibration:`Тремор`] цели - 1) [Binding:`Связывания`] на следующий ход\n- Повышает свой счётчик [Vibration:`Тремора`] на (Потраченный [Vibration:`Тремор`] цели × 2) (До 6)"
+                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели:\n- Наносит (Потраченный [Vibration:`Тремор`] цели - 1) [Binding:`Связывания`] на следующий ход\n- Повышает счётчик своего [Vibration:`Тремора`] на (Потраченный [Vibration:`Тремор`] цели × 2) (До 6)"
                 }
               ]
             },
@@ -2005,7 +2005,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Тратит весь свой счётчик [Vibration:`Тремора`]:\n- Сила монеты +1 за каждые 5 потраченных единиц счётчика [Vibration:`Тремора`] (До 5)\n- На (Потраченный счётчик [Vibration:`Тремора`])% больше урона этой монетой (До 50%)"
+                  "desc": "[OnStartCoin] Тратит весь счётчик своего [Vibration:`Тремора`]:\n- Сила монеты +1 за каждые 5 потраченных единиц счётчика [Vibration:`Тремора`] (До 5)\n- На (Потраченный счётчик [Vibration:`Тремора`])% больше урона этой монетой (До 50%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -2031,7 +2031,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели:\n- Наносит (Потраченный [Vibration:`Тремор`] цели - 1) [Binding:`Связывания`] на следующий ход\n- Повышает свой счётчик [Vibration:`Тремора`] на (Потраченный [Vibration:`Тремор`] цели × 2) (До 6)"
+                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели:\n- Наносит (Потраченный [Vibration:`Тремор`] цели - 1) [Binding:`Связывания`] на следующий ход\n- Повышает счётчик своего [Vibration:`Тремора`] на (Потраченный [Vibration:`Тремор`] цели × 2) (До 6)"
                 }
               ]
             },
@@ -2045,7 +2045,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnStartCoin] Тратит весь свой счётчик [Vibration:`Тремора`]:\n- Сила монеты +1 за каждые <style=\"highlight\">4</style> потраченные единицы счётчика [Vibration:`Тремора`] (До 5)\n- На (Потраченный счётчик [Vibration:`Тремора`]<style=\"highlight\"> × 2</style>)% больше урона этой монетой (До <style=\"highlight\">100%</style>)"
+                  "desc": "[OnStartCoin] Тратит весь счётчик своего [Vibration:`Тремора`]:\n- Сила монеты +1 за каждые <style=\"highlight\">4</style> потраченные единицы счётчика [Vibration:`Тремора`] (До 5)\n- На (Потраченный счётчик [Vibration:`Тремора`]<style=\"highlight\"> × 2</style>)% больше урона этой монетой (До <style=\"highlight\">100%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -2068,7 +2068,7 @@
         {
           "level": 1,
           "name": "Одолженное время - Микрорезонанс",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если нет [TimeRentalTwoPersonality:`Одолженного времени`], получает 4 [TimeRentalTwoPersonality:`Одолженного времени`] в конце хода (Единожды за ход)\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] и счётчик [Vibration:`Тремора`] цели на 2\n[DefeatDuel] Повышает свой счётчик [Vibration:`Тремора`] на 4",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если нет [TimeRentalTwoPersonality:`Одолженного времени`], получает 4 [TimeRentalTwoPersonality:`Одолженного времени`] в конце хода (Единожды за ход)\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] и счётчик [Vibration:`Тремора`] цели на 2\n[DefeatDuel] Повышает счётчик своего [Vibration:`Тремора`] на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -2082,7 +2082,7 @@
         {
           "level": 4,
           "name": "Одолженное время - Микрорезонанс",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если нет [TimeRentalTwoPersonality:`Одолженного времени`], получает 4 [TimeRentalTwoPersonality:`Одолженного времени`] в конце хода (Единожды за ход)\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] и счётчик [Vibration:`Тремора`] цели на 2\n[DefeatDuel] Повышает свой счётчик [Vibration:`Тремора`] на 4",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если нет [TimeRentalTwoPersonality:`Одолженного времени`], получает 4 [TimeRentalTwoPersonality:`Одолженного времени`] в конце хода (Единожды за ход)\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] и счётчик [Vibration:`Тремора`] цели на 2\n[DefeatDuel] Повышает счётчик своего [Vibration:`Тремора`] на 4",
           "coinlist": [
             {
               "coindescs": [

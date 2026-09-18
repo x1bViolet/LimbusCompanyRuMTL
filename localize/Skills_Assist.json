@@ -183,10 +183,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1\n[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 3 [Breath:`Дыхания`] на следующий ход\n[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 2)"
+                  "desc": "[OnSucceedAttackHead] Получает 3 [Breath:`Дыхания`] на следующий ход\n[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 2)"
                 }
               ]
             },
@@ -233,10 +233,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1\n[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает 3 [Breath:`Дыхания`] на следующий ход\n[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] в следующем ходе на счётчик [Burst:`Разрыва`] цели (До 2)"
+                  "desc": "[OnSucceedAttackHead] Получает 3 [Breath:`Дыхания`] на следующий ход\n[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] в следующем ходе на счётчик [Burst:`Разрыва`] цели (До 2)"
                 }
               ]
             },
@@ -292,7 +292,7 @@
                   "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] <style=\"highlight\">в количестве суммы силы</style> [Burst:`Разрыва`] и [Combustion:`Огня`] на цели (До 10)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на сумму счётчика</style> [Burst:`Разрыва`] и [Combustion:`Огня`] цели (До 5)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на сумму счётчика</style> [Burst:`Разрыва`] и [Combustion:`Огня`] цели (До 5)"
                 }
               ]
             },
@@ -354,7 +354,7 @@
                   "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве суммы силы [Burst:`Разрыва`] и [Combustion:`Огня`] на цели (До 10)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на сумму счётчика [Burst:`Разрыва`] и [Combustion:`Огня`] цели (До 5)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на сумму счётчика [Burst:`Разрыва`] и [Combustion:`Огня`] цели (До 5)"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`]</style>"
@@ -419,7 +419,7 @@
                   "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве суммы силы [Burst:`Разрыва`] и [Combustion:`Огня`] на цели (До 10)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на сумму счётчика [Burst:`Разрыва`] и [Combustion:`Огня`] цели (До 5)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на сумму счётчика [Burst:`Разрыва`] и [Combustion:`Огня`] цели (До 5)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Vulnerable:`Уязвимости`]"
