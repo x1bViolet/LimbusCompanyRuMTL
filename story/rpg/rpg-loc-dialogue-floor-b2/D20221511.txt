@@ -1,0 +1,5 @@
+﻿# Original: Dyed fabrics hang here.
+Рассказчик: Здесь висят окрашенные ткани.
+
+# Original: Hurried footsteps come racing from somewhere as I inspect the fabric.
+Рассказчик: Пока я осматриваю ткань, откуда-то стремительно приближается топот торопливых шагов.

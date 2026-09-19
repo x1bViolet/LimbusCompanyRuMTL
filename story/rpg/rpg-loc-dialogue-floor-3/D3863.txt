@@ -1,0 +1,2 @@
+﻿# Original: A communication switchboard, as described by Outis.
+Повествователь: Коммутатор связи, как его описала Отис.

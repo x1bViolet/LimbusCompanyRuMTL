@@ -1,0 +1,26 @@
+﻿# Original: They swarmed us rather quickly.
+Отис: Они довольно быстро взяли нас в кольцо.
+
+# Original: Got a M.U.G., those things.
+Рёшу: У этих тварей С.С.П.
+
+# Original: <Okay... and that means...?>
+Данте: <Так... и что это значит...?>
+
+# Original: I cannot interpret acronyms that have not been used before, Manager.
+Мерсо: Менеджер, я не могу расшифровать аббревиатуры, которые прежде не использовались.
+
+# Original: Uh, she said... "Got a Mortally Urgent Gift, those things..."
+Синклер: Эм, она сказала... «У этих тварей смертельно срочный подарок...»
+
+# Original: The scabbard rattles angrily as Sinclair interprets Ryōshū's acronym.
+Рассказчик: Пока Синклер расшифровывает аббревиатуру Рёшу, ножны гневно дребезжат.
+
+# Original: But having caught a few scabbard-punches to the gut, Sincliar had already moved a fair bit away from Ryōshū.
+Рассказчик: Но Синклер, уже получивший несколько тычков ножнами в живот, успел отойти от Рёшу на порядочное расстояние.
+
+# Original: <They were so small, too... Couldn't even keep track of where they were coming from.>
+Данте: <А ведь они такие крошечные... Я даже не успевал замечать, откуда они лезут.>
+
+# Original: <Guess we should pay more attention to the ground.>
+Данте: <Пожалуй, нам стоит внимательнее смотреть под ноги.>

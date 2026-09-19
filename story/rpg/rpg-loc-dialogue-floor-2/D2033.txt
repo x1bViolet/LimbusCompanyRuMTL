@@ -1,0 +1,5 @@
+﻿# Original: The Rouge who had been guarding the entrance to the Luxury Hall lies defeated.
+Повествователь: Руж, охранявший вход в Элитный Зал, лежит поверженный.
+
+# Original: <Let's keep heading inside...>
+Данте: <Пойдём дальше...>
