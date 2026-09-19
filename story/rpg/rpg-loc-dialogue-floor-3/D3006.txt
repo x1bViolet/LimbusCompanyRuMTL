@@ -59,7 +59,7 @@
 Мерсо: Я знаю, кому принадлежит этот голос.
 
 # Original: <color=#cf0000>The vestments of Sisyphe gorge upon desire... gorge upon desire...</color>
-Рассказчик: <color=#cf0000>Одеяния Сизифа упиваются желанием... упиваются желанием...</color>
+Рассказчик: <color=#cf0000>Одеяния Сизифа насыщаются желанием... насыщаются желанием...</color>
 
 # Original: Upon desire, and... Ahh, she's stopped again... Please don't stop... Speak to me again, please...
 Л’Инамовибль: Желанием, и... Ах, она снова умолкла... Прошу, не умолкай... Заговори со мной снова, прошу...

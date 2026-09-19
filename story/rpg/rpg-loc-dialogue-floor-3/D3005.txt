@@ -1,5 +1,5 @@
 ﻿# Original: <color=#cf0000>Desire. Then it shall be donned.</color>
-Повествователь: <color=#cf0000>Возжелай. И тогда облачишься.</color>
+Повествователь: <color=#cf0000>Возжелайте. И тогда облачитесь.</color>
 
 # Original: <There's a Voice here, too... Though it's different from the one we heard earlier.>
 Данте: <Здесь тоже есть Голос... Но не тот, что мы слышали раньше.>
