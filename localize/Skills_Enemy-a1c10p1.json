@@ -1,0 +1,710 @@
+{
+  "dataList": [
+    {
+      "id": 9105901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Колочение",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар всем телом",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на себе есть [Laceration:`Кровотечение`], то повышает счётчик [Laceration:`Кровотечения`] цели на (Сила своего [Laceration:`Кровотечения`] / 2) (До 5; единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар всей тяжестью",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Vibration:`Тремора`]\n[WhenUse] Наносит на (Сила своего [Laceration:`Кровотечения`])% больше урона (До 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на себе есть [Laceration:`Кровотечение`], то повышает счётчик [Laceration:`Кровотечения`] цели на (Сила своего [Laceration:`Кровотечения`]) (До 8; единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[StartBattle] Восстанавливает 5 СД и получает 1 [ResultEnhancement:`Повышение силы`] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Толчок телом",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Vibration:`Тремора`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на себе есть [Laceration:`Кровотечение`], то повышает счётчик [Laceration:`Кровотечения`] цели на (Сила своего [Laceration:`Кровотечения`] / 2) (До 5; единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар всей тяжестью",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Vibration:`Тремора`]\n[WhenUse] Наносит на (Сила своего [Laceration:`Кровотечения`])% больше урона (До 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на себе есть [Laceration:`Кровотечение`], то повышает счётчик [Laceration:`Кровотечения`] цели на (Сила своего [Laceration:`Кровотечения`]) (До 8; единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[StartBattle] Восстанавливает 5 СД и получает 1 [ResultEnhancement:`Повышение силы`] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не трогайте меня...!",
+          "desc": "[WhenUse]\n- Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]\n- Сила монет +1, если счётчик [ChargeNoir:`Консервации`] равен 10 и более\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Консервации`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoir:`Консервации`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уберите от меня свои руки...!",
+          "desc": "[WhenUse]\n- Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]\n- Сила монет +1, если счётчик [ChargeNoir:`Консервации`] равен 10 и более\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Консервации`] на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoir:`Консервации`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мы не должны ничего делать...!",
+          "desc": "Наносит на (Текущая сила [ChargeNoir:`Консервации`] × 4)% больше урона (До 20%)\n[WhenUse] Если счётчик [ChargeNoir:`Консервации`] равен 10 и более, тратит 10 его единиц, чтобы получить +1 к Силе монет и нанести на 20% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рытьё",
+          "desc": "Итоговая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "flavor": "Здесь должно быть... что-то стоящее...",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хватание",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)",
+          "flavor": "Эта вещь моя!",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Есть один!",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 3)\n[WhenUse] Если текущие ОЗ ниже 50% или цель имеет 10 и более [Laceration:`Кровотечения`], то все монеты этого навыка ставновятся [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 30% больше урона при критическом попадани"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не, чел! Это моё!",
+          "desc": "[WhenUse] Получает 2 [Breath:`Дыхания`] за каждые 2 типа негативных эффектов на цели (До 5)\n[WhenUse] Если на цели 4 и более эффекта, то повышает счётчик своего [Breath:`Дыхания`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рытьё",
+          "desc": "Итоговая сила +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "flavor": "Здесь должно быть... что-то стоящее...",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хватание",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)",
+          "flavor": "Эта вещь моя!",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Попался!",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если текущие ОЗ ниже 50% или цель имеет 10 и более [Laceration:`Кровотечения`], то все монеты этого навыка ставновятся [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 30% больше урона при критическом попадани"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не-а! Моё!",
+          "desc": "[WhenUse] Получает 2 [Breath:`Дыхания`] за каждые 2 типа негативных эффектов на цели (До 5)\n[WhenUse] Если на цели 4 и более эффекта, то повышает счётчик своего [Breath:`Дыхания`] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бегущий шов - основа",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]\n[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], то монета этого навыка становится [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateResistDown:`Понижение сопротивления к Пронзающему урону`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крестообразный шов - основа",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Laceration:`Кровотечения`] ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NiddlePin:`Гвоздиглу`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный шов - основа",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Laceration:`Кровотечения`] \n[WhenUse] Наносит на (Сила [Laceration:`Кровотечения`] цели)% больше урона (До 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный силе [Laceration:`Кровотечения`] на цели (До 30)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает эту монету 1 раз"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [NiddlePin:`Гвоздиглу`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слепой шов - основа",
+          "desc": "[StartBattle] Получает 1 [PenetrateResultUp:`Повышение силы Пронзающих атак`] на следующий ход",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 9106401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бегущий шов - утóк",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]\n[WhenUse] Если на цели 6 и более [Laceration:`Кровотечения`], то монета этого навыка становится [SuperCoin:`Вечными`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смёточный шов - утóк",
+          "desc": "Итоговая сила +1 против целей с 4 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NiddlePin:`Гвоздиглу`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный шов - утóк",
+          "desc": "Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Наносит на (Сила [Laceration:`Кровотечения`] цели)% больше урона (До 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный силе [Laceration:`Кровотечения`] на цели (До 30)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает эту монету 1 раз"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [NiddlePin:`Гвоздиглу`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слепой шов - утóк",
+          "desc": "[StartBattle] Получает 1 [PenetrateResultUp:`Повышение силы Пронзающих атак`] на следующий ход",
+          "coinlist": []
+        }
+      ]
+    }
+  ]
+}
