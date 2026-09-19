@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "rpg_suicidebox_reset_button_text",
-      "content": "Ликвидация\n(Сброс)"
+      "content": "<size=80%>Ликвидация\n(Сброс)</size>"
     },
     {
       "id": "rpg_suicidebox_reset_confirm_desc",
@@ -10,7 +10,7 @@
     },
     {
       "id": "rpg_suicidebox_hardreset_button_text",
-      "content": "Закрытие\n(Полный сброс)"
+      "content": "<size=80%>Закрытие\n(Полный сброс)</size>"
     },
     {
       "id": "rpg_suicidebox_hardreset_confirm_desc",
