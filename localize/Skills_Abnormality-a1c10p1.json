@@ -1413,7 +1413,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -1496,7 +1496,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
@@ -1921,7 +1921,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"

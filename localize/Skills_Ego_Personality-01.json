@@ -808,7 +808,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 случайную [SinkingWhite:`Бабочку`]"
@@ -818,7 +818,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 случайных [SinkingWhite:`Бабочки`]"
@@ -828,7 +828,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 случайных [SinkingWhite:`Бабочки`]"
@@ -838,7 +838,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 случайных [SinkingWhite:`Бабочки`]"
@@ -848,7 +848,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "Тратит все оставшиеся [BulletLament:`Живущие и Почившие`]"
@@ -887,7 +887,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 случайную [SinkingWhite:`Бабочку`]"
@@ -900,7 +900,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 случайных [SinkingWhite:`Бабочки`]"
@@ -913,7 +913,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 случайных [SinkingWhite:`Бабочки`]"
@@ -926,7 +926,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 случайных [SinkingWhite:`Бабочки`]"
@@ -942,7 +942,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "Тратит все оставшиеся [BulletLament:`Живущие и Почившие`]"

@@ -303,7 +303,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] При 5 и более [Breath:`Дыхания`] поднимает границу выносливости цели на 50% от нанесённого урона"
@@ -986,7 +986,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели 2 [Vulnerable:`Уязвимости`]"
@@ -996,7 +996,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [ElectricStorage:`Конденсатор`]"
@@ -1691,7 +1691,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`] и 3 [Burst:`Разрыва`]"

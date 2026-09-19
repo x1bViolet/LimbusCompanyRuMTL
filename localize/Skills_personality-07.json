@@ -3049,7 +3049,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`] и повышает его счётчик на 3"
@@ -3059,7 +3059,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает его счётчик на 3"
@@ -3069,14 +3069,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnStartCoin] Сила этой монеты повышается на текущее значение [EvolvingManual:`Взросления учебника`] (До 3)"
@@ -3099,7 +3099,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Combustion:`Огня`] и повышает его счётчик на 3"
@@ -3109,7 +3109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`] и повышает его счётчик на 3"
@@ -3119,14 +3119,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "[OnStartCoin] Сила этой монеты повышается на текущее значение [EvolvingManual:`Взросления учебника`] (До 3)"

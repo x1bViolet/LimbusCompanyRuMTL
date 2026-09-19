@@ -3552,7 +3552,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[SuperCoin]"
+                  "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
                   "desc": "Тратит до 5 [AccelBullet:`Скоростных патронов`] <style=\"highlight\">и наносит на 10% больше урона за каждый потраченный [AccelBullet:`Скоростной патрон`] (До 50%)</style>"

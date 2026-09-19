@@ -2024,7 +2024,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                  "desc": "<style=\"highlight\">[SuperCoin:`Вечная монета`]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">10</style> [Combustion:`Огня`]"
