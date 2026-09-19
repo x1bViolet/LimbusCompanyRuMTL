@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 3"
                 }
               ]
             },
@@ -27,12 +27,12 @@
         {
           "level": 2,
           "name": "Готовность разрушать",
-          "desc": "<style=\"highlight\">[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 3</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 3"
                 }
               ]
             },
@@ -48,12 +48,12 @@
         {
           "level": 4,
           "name": "Готовность разрушать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 3"
                 }
               ]
             },
@@ -98,7 +98,7 @@
         {
           "level": 2,
           "name": "Ярый взрыв",
-          "desc": "<style=\"highlight\">Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более</style>",
+          "desc": "<style=\"highlight\">Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 5 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -106,7 +106,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 }
               ]
             },
@@ -125,7 +125,7 @@
         {
           "level": 4,
           "name": "Ярый взрыв",
-          "desc": "Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более",
+          "desc": "Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 5 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -133,7 +133,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Vibration:`Тремора`] на 2"
                 }
               ]
             },
@@ -157,7 +157,7 @@
         {
           "level": 3,
           "name": "Опасное решение",
-          "desc": "Сила монет +1, если свой счётчик [Vibration:`Тремора`] равен 5 и более\nНаносит на 20% больше урона целям с 6 и более [Sinking:`Утопания`]",
+          "desc": "Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 5 и более\nНаносит на 20% больше урона целям с 6 и более [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -172,7 +172,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 5 единиц своего счётчика [Vibration:`Тремора`], чтобы нанести 1 [Vulnerable:`Уязвимость`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 единиц счётчика своего [Vibration:`Тремора`], чтобы нанести 1 [Vulnerable:`Уязвимость`] на следующий ход"
                 }
               ]
             },
@@ -182,7 +182,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 5 единиц своего счётчика [Vibration:`Тремора`], чтобы нанести 2 [Vulnerable:`Уязвимости`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 единиц счётчика своего [Vibration:`Тремора`], чтобы нанести 2 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }
@@ -191,7 +191,7 @@
         {
           "level": 4,
           "name": "Опасное решение",
-          "desc": "Сила монет +1 <style=\"highlight\">за каждые 5 единиц своего счётчика [Vibration:`Тремора`] (До 2)</style>\nНаносит на <style=\"highlight\">40%</style> больше урона целям с 6 и более [Sinking:`Утопания`]",
+          "desc": "Сила монет +1 <style=\"highlight\">за каждые 5 единиц счётчика своего [Vibration:`Тремора`] (До 2)</style>\nНаносит на <style=\"highlight\">40%</style> больше урона целям с 6 и более [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -206,7 +206,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 5 единиц своего счётчика [Vibration:`Тремора`], чтобы нанести 1 [Vulnerable:`Уязвимость`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 единиц счётчика своего [Vibration:`Тремора`], чтобы нанести 1 [Vulnerable:`Уязвимость`] на следующий ход"
                 }
               ]
             },
@@ -216,7 +216,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Тратит 5 единиц своего счётчика [Vibration:`Тремора`], чтобы нанести 2 [Vulnerable:`Уязвимости`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 единиц счётчика своего [Vibration:`Тремора`], чтобы нанести 2 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }
@@ -481,7 +481,7 @@
         {
           "level": 2,
           "name": "Смести прочь",
-          "desc": "<style=\"highlight\">[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -502,7 +502,7 @@
         {
           "level": 4,
           "name": "Смести прочь",
-          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -531,7 +531,7 @@
         {
           "level": 1,
           "name": "Уборка",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -555,7 +555,7 @@
         {
           "level": 2,
           "name": "Уборка",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n<style=\"highlight\">[WinDuel] Получает 2 [Breath:`Дыхания`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n<style=\"highlight\">[WinDuel] Получает 2 [Breath:`Дыхания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -579,7 +579,7 @@
         {
           "level": 4,
           "name": "Уборка",
-          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[WinDuel] Получает 2 [Breath:`Дыхания`]",
+          "desc": "<style=\"highlight\">Сила монет +1 против более медленных целей</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[WinDuel] Получает 2 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -711,7 +711,7 @@
         {
           "level": 1,
           "name": "Рыцарское фехтование «Цвай»",
-          "desc": "[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 4 единицы своего счётчика [Vibration:`Тремора`] (До 2)",
+          "desc": "[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 4 единицы счётчика своего [Vibration:`Тремора`] (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -738,7 +738,7 @@
         {
           "level": 2,
           "name": "Рыцарское фехтование «Цвай»",
-          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые <style=\"highlight\">3</style> единицы своего счётчика [Vibration:`Тремора`] (До 2)\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]</style>",
+          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые <style=\"highlight\">3</style> единицы счётчика своего [Vibration:`Тремора`] (До 2)\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 4 и более [DefenseUp:`Повышениях уровня защиты`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -765,7 +765,7 @@
         {
           "level": 4,
           "name": "Рыцарское фехтование «Цвай»",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые <style=\"highlight\">2</style> единицы своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">3</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 4</style> [DefenseUp:`Повышения уровня защиты`] <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые <style=\"highlight\">2</style> единицы счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">3</style>)\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 4</style> [DefenseUp:`Повышения уровня защиты`] <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -797,7 +797,7 @@
         {
           "level": 1,
           "name": "Ты не пройдёшь.",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 3)\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До 3)\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -816,7 +816,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве половины своего счётчика [Vibration:`Тремора`] (До 2)"
+                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве половины счётчика своего [Vibration:`Тремора`] (До 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] при 10 и более [DefenseUp:`Повышениях уровня защиты`]"
@@ -828,7 +828,7 @@
         {
           "level": 2,
           "name": "Ты не пройдёшь.",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [DefenseUp:`Повышениях уровня защиты`]</style>\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [DefenseUp:`Повышениях уровня защиты`]</style>\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -847,7 +847,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве половины своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">3</style>)"
+                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве половины счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">3</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] при 10 и более [DefenseUp:`Повышениях уровня защиты`]"
@@ -859,7 +859,7 @@
         {
           "level": 4,
           "name": "Ты не пройдёшь.",
-          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">5</style>)\n[WhenUse] Сила монет +1 при <style=\"highlight\">4</style> и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">5</style>)\n[WhenUse] Сила монет +1 при <style=\"highlight\">4</style> и более [DefenseUp:`Повышениях уровня защиты`]\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -878,7 +878,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве половины своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">4</style>)"
+                  "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве половины счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">4</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Reduction:`Понижение силы атаки`] при <style=\"highlight\">8</style> и более [DefenseUp:`Повышениях уровня защиты`]"
@@ -895,7 +895,7 @@
         {
           "level": 3,
           "name": "Хранитель",
-          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До 3)\n[WhenUse] Наносит на 50% больше урона, если в [DefensiveStance:`Защитной стойке`]\n[WhenUse] Сила монет +1 за каждые 4 [DefenseUp:`Повышения уровня защиты`] (До 2)\n[WhenUse] Этот слот получает 8 [Aggro:`Провокаций`] на следующий ход\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До 3)\n[WhenUse] Наносит на 50% больше урона, если в [DefensiveStance:`Защитной стойке`]\n[WhenUse] Сила монет +1 за каждые 4 [DefenseUp:`Повышения уровня защиты`] (До 2)\n[WhenUse] Этот слот получает 8 [Aggro:`Провокаций`] на следующий ход\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -914,7 +914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик [Vibration:`Тремора`] и наносит столько же [Vibration:`Тремора`] на цель (До 10 на противника)\n[OnSucceedAttack] На (Потраченный свыше 10 счётчик [Vibration:`Тремора`] × 1.5)% больше урона (До 30%)"
+                  "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Vibration:`Тремора`] и наносит столько же [Vibration:`Тремора`] на цель (До 10 на противника)\n[OnSucceedAttack] На (Потраченный свыше 10 счётчик [Vibration:`Тремора`] × 1.5)% больше урона (До 30%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -929,7 +929,7 @@
         {
           "level": 4,
           "name": "Хранитель",
-          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы своего счётчика [Vibration:`Тремора`] (До <style=\"highlight\">5</style>)\n[WhenUse] Наносит на <style=\"highlight\">70%</style> больше урона, если в [DefensiveStance:`Защитной стойке`]\n[WhenUse] Сила монет +1 за каждые 4 [DefenseUp:`Повышения уровня защиты`] (До <style=\"highlight\">4</style>)\n[WhenUse] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход\n[WinDuel] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Получает 1 [DefenseUp:`Повышение уровня защиты`] за каждые 2 единицы счётчика своего [Vibration:`Тремора`] (До <style=\"highlight\">5</style>)\n[WhenUse] Наносит на <style=\"highlight\">70%</style> больше урона, если в [DefensiveStance:`Защитной стойке`]\n[WhenUse] Сила монет +1 за каждые 4 [DefenseUp:`Повышения уровня защиты`] (До <style=\"highlight\">4</style>)\n[WhenUse] Этот слот получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход\n[WinDuel] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -948,7 +948,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик [Vibration:`Тремора`] и наносит столько же [Vibration:`Тремора`] на цель (До <style=\"highlight\">20</style> на противника)\n[OnSucceedAttack] На (Потраченный свыше <style=\"highlight\">20</style> счётчик [Vibration:`Тремора`] × <style=\"highlight\">5</style>)% больше урона (До <style=\"highlight\">50%</style>)"
+                  "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Vibration:`Тремора`] и наносит столько же [Vibration:`Тремора`] на цель (До <style=\"highlight\">20</style> на противника)\n[OnSucceedAttack] На (Потраченный свыше <style=\"highlight\">20</style> счётчик [Vibration:`Тремора`] × <style=\"highlight\">5</style>)% больше урона (До <style=\"highlight\">50%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -968,7 +968,7 @@
         {
           "level": 1,
           "name": "Ваш щит",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10 (Единожды за ход)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 10 (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -982,7 +982,7 @@
         {
           "level": 4,
           "name": "Ваш щит",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода\n[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 10 (Единожды за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] атаковавшему</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Встаёт в [DefensiveStance:`Защитную стойку`] на 2 хода\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 10 (Единожды за ход)\n<style=\"highlight\">[WinDuel] [VibrationExplosion:`Провоцирует Тремор`] атаковавшему</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1357,7 +1357,7 @@
                   "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 3)"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 3)"
                 }
               ]
             },
@@ -1401,7 +1401,7 @@
                   "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 3)"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 3)"
                 }
               ]
             },
@@ -1448,7 +1448,7 @@
                   "desc": "[OnSucceedAttack] Получает [Breath:`Дыхание`] в количестве силы [Burst:`Разрыва`] на цели (До 5)"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 3)"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на счётчик [Burst:`Разрыва`] цели (До 3)"
                 }
               ]
             },
@@ -1495,7 +1495,7 @@
                   "desc": "[CriticalOnSucceedAttack] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Повышает свой счётчик [Breath:`Дыхания`] на 2 (До 3 раз за ход)"
+                  "desc": "[CriticalEnemyTargetKill] Повышает счётчик своего [Breath:`Дыхания`] на 2 (До 3 раз за ход)"
                 }
               ]
             }
@@ -1530,7 +1530,7 @@
                   "desc": "[CriticalOnSucceedAttack] Получает 2 [Breath:`Дыхания`] и повышает его счётчик на 1"
                 },
                 {
-                  "desc": "[CriticalEnemyTargetKill] Повышает свой счётчик [Breath:`Дыхания`] на 2 (До 3 раз за ход)"
+                  "desc": "[CriticalEnemyTargetKill] Повышает счётчик своего [Breath:`Дыхания`] на 2 (До 3 раз за ход)"
                 }
               ]
             }
@@ -1558,7 +1558,7 @@
         {
           "level": 4,
           "name": "Искусный уворот",
-          "desc": "[StartBattle] При 3 и более [StartXichun:`Начинаниях`] производит [RetreatForCommon:`Боевое отступление`] в конце хода\n- Во время этого отступления перемещается <b>на самое переднее место во всей очереди</b> вместо последнего\n<style=\"highlight\">[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1 (До 2 раз за ход)</style>\n[OnSucceedEvade] Получает 2 [Breath:`Дыхания`] (До 2 раз за ход)",
+          "desc": "[StartBattle] При 3 и более [StartXichun:`Начинаниях`] производит [RetreatForCommon:`Боевое отступление`] в конце хода\n- Во время этого отступления перемещается <b>на самое переднее место во всей очереди</b> вместо последнего\n<style=\"highlight\">[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 1 (До 2 раз за ход)</style>\n[OnSucceedEvade] Получает 2 [Breath:`Дыхания`] (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2252,7 +2252,7 @@
         {
           "level": 1,
           "name": "Искусство раздирания",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndSkill] Если есть [Agility:`Спешка`], то получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) (Единожды за ход)",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[EndSkill] Если есть [Agility:`Спешка`], то получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2276,7 +2276,7 @@
         {
           "level": 2,
           "name": "Искусство раздирания",
-          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3 и более [Agility:`Спешки`]</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndSkill] Если есть [Agility:`Спешка`], то получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) (Единожды за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3 и более [Agility:`Спешки`]</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[EndSkill] Если есть [Agility:`Спешка`], то получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2300,7 +2300,7 @@
         {
           "level": 4,
           "name": "Искусство раздирания",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +1 при 3 и более [Agility:`Спешки`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndSkill] Если есть [Agility:`Спешка`], то получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) (Единожды за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +1 при 3 и более [Agility:`Спешки`]\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[EndSkill] Если есть [Agility:`Спешка`], то получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2332,7 +2332,7 @@
         {
           "level": 1,
           "name": "Иглоукалывание",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Получает [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) в количестве имеющейся [Agility:`Спешки`] (До 2; единожды за ход)",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[EndSkill] Получает [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) в количестве имеющейся [Agility:`Спешки`] (До 2; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2369,7 +2369,7 @@
         {
           "level": 2,
           "name": "Иглоукалывание",
-          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +2 при 3 и более [Agility:`Спешки`]</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Получает [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) в количестве имеющейся [Agility:`Спешки`] (До 2; единожды за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +2 при 3 и более [Agility:`Спешки`]</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[EndSkill] Получает [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) в количестве имеющейся [Agility:`Спешки`] (До 2; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2406,7 +2406,7 @@
         {
           "level": 4,
           "name": "Иглоукалывание",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +2 при 3 и более [Agility:`Спешки`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Получает [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) в количестве имеющейся [Agility:`Спешки`] (До 2; единожды за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath:`Дыхания`]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +2 при 3 и более [Agility:`Спешки`]\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[EndSkill] Получает [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade) в количестве имеющейся [Agility:`Спешки`] (До 2; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2456,7 +2456,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 3"
                 }
               ]
             },
@@ -2490,7 +2490,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 3"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламя Токкэби`](;WindBlade)</style>"
@@ -2533,7 +2533,7 @@
         {
           "level": 1,
           "name": "Я буду освещать путь вперёд",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 1 [SupportProtect:`Вспомогательную защиту`] (Единожды за ход)\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2 (Единожды за ход)\n[WinDuel] Получает 3 [Breath:`Дыхания`]",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 1 [SupportProtect:`Вспомогательную защиту`] (Единожды за ход)\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход (Единожды за ход)\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2 (Единожды за ход)\n[WinDuel] Получает 3 [Breath:`Дыхания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2547,7 +2547,7 @@
         {
           "level": 4,
           "name": "Я буду освещать путь вперёд",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 1 [SupportProtect:`Вспомогательную защиту`] (Единожды за ход)\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2 (Единожды за ход)\n[WinDuel] Получает 3 [Breath:`Дыхания`]\n<style=\"highlight\">[EndSkillAll] Если есть [Agility:`Спешка`], то получает 2 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламени Токкэби`](;WindBlade) (Единожды за ход)</style>",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Получает 1 [SupportProtect:`Вспомогательную защиту`] (Единожды за ход)\n[WhenUse] Получает 2 [Agility:`Спешки`] на следующий ход (Единожды за ход)\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2 (Единожды за ход)\n[WinDuel] Получает 3 [Breath:`Дыхания`]\n<style=\"highlight\">[EndSkillAll] Если есть [Agility:`Спешка`], то получает 2 [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламени Токкэби`](;WindBlade) (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2652,7 +2652,7 @@
         {
           "level": 1,
           "name": "Уравновесить баланс - Светящееся колеблющееся пламя",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath:`Дыхания`] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламени Токкэби`](;WindBlade)",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath:`Дыхания`] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламени Токкэби`](;WindBlade)",
           "coinlist": [
             {
               "coindescs": [
@@ -2693,7 +2693,7 @@
         {
           "level": 4,
           "name": "Уравновесить баланс - Светящееся колеблющееся пламя",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath:`Дыхания`] × 1.5)% больше урона при критических попаданиях (До 30%)\n<style=\"highlight\">Наносит на 5% больше урона при критических попаданиях этим навыком за каждую имеющуюся [Agility:`Спешку`] (До 25%)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламени Токкэби`](;WindBlade)",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath:`Дыхания`] × 1.5)% больше урона при критических попаданиях (До 30%)\n<style=\"highlight\">Наносит на 5% больше урона при критических попаданиях этим навыком за каждую имеющуюся [Agility:`Спешку`] (До 25%)</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael:`Мастерская Мука - Е 【銳】 Тип II Извлечения меча / Сила тяги: Пламени Токкэби`](;WindBlade)",
           "coinlist": [
             {
               "coindescs": [
@@ -2763,6 +2763,331 @@
           "level": 4,
           "name": "Рассматривая камни на доске",
           "desc": "[CanDuelGuard:`Блок столкновением`]\n<b>Специальный навык для [SupportProtect:`Вспомогательной защиты`]</b>\n<style=\"highlight\">[WhenUse] Восстанавливает 5 СД союзнику, для [SupportProtect:`Защиты которого`] этот навык был активирован</style>\n[WhenUse] Получает 3 [Breath:`Дыхания`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ахх, ты этого не слышишь, правда?",
+          "desc": "[WhenUse] Если текущие ОЗ выше 80%, то повышает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ахх, ты этого не слышишь, правда?",
+          "desc": "<style=\"highlight\">Сила монет +1, если сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) выше 1</style>\n[WhenUse] Если текущие ОЗ выше 80%, то повышает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ахх, ты этого не слышишь, правда?",
+          "desc": "Сила монет +1, если сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) выше 1\n[WhenUse] Если текущие ОЗ выше 80%, то повышает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 3 [Laceration:`Кровотечения`] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Воистину, молчание голоса не означало его отсутствия!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 2)% ОЗ (До 10%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Воистину, молчание голоса не означало его отсутствия!",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 2 единицы силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2)\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((10 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 10\n[WhenUse] Тратит 10 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +1 к Силе монет\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на 20% больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на <style=\"highlight\">4</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 3 и более силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)</style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × <style=\"highlight\">3</style>)% ОЗ (До <style=\"highlight\">15%</style>)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Воистину, молчание голоса не означало его отсутствия!",
+          "desc": "Итоговая сила +1 за каждые 2 единицы силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2)\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((10 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 10\n[WhenUse] Тратит 10 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +1 к Силе монет\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на <style=\"highlight\">40%</style> больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При <style=\"highlight\">2</style> и более силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 3)% ОЗ (До 15%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Выскрести, оторвать и пригвоздить!",
+          "desc": "Наносит на (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 5)% больше урона (До 25%)\n[StartBattle] Если в состоянии [RougeIshmaelEclose:`Полного преображения`] или свои текущие ОЗ ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 15\n[WhenUse] Тратит 15 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +3 к Силе монет\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на 40% больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Похотью, равный (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 10)% от итогового урона этой монеты (До 30%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 4)% ОЗ (До 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выскрести, оторвать и пригвоздить!",
+          "desc": "Наносит на (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × <style=\"highlight\">10</style>)% больше урона (До <style=\"highlight\">50%</style>)\n[StartBattle] Если в состоянии [RougeIshmaelEclose:`Полного преображения`] или свои текущие ОЗ ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 10, то тратит ((15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge)) × 3)% своих ОЗ, чтобы повысить её счётчик до 15\n[WhenUse] Тратит 15 единиц счётчика [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы получить +3 к Силе монет\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[BeforeAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то наносит на 40% больше урона\n- Если нет [RougeIshmaelEclose:`Полного преображения`], то вместо этого тратит 20% своих ОЗ для увеличения урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету 1 раз, если в состоянии [RougeIshmaelEclose:`Полного преображения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон Похотью, равный (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 10)% от итогового урона этой монеты (До 30%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстанавливает себе (Текущая сила [ChargeRougeAlly:`Пульсации`](;ChargeRouge) × 4)% ОЗ (До 20%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конечно... В конце концов, в этом мире был смысл",
+          "desc": "[DuelCounter]\n[StartBattle] При менее чем 10% ОЗ входит в состояние [RougeIshmaelCocoon:`Примерочной`] (Единожды за битву)\n[StartBattle] Если нет [RougeIshmaelEclose:`Полного преображения`], то тратит 20% ОЗ, чтобы повысить [Aggro:`Провокацию`] этого слота навыков на 10 в следующем ходе (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конечно... В конце концов, в этом мире был смысл",
+          "desc": "[DuelCounter]\n[StartBattle] При менее чем 10% ОЗ входит в состояние [RougeIshmaelCocoon:`Примерочной`] (Единожды за битву)\n[StartBattle] Если нет [RougeIshmaelEclose:`Полного преображения`], то тратит 20% ОЗ, чтобы повысить [Aggro:`Провокацию`] этого слота навыков на 10 в следующем ходе (Единожды за ход)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 2 единицы силы [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2)\n[WhenUse] Наносит на (Сила [Laceration:`Кровотечения`] атакующего × 10)% больше урона (До 40%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в состоянии [RougeIshmaelEclose:`Полного преображения`], то восстанавливает себе 10% ОЗ (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Как велит голос, я с радостью погружаюсь в себя",
+          "desc": "<b>Навык состояния [RougeIshmaelCocoon:`Примерочной`]</b>\n\n[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит 10 его единиц, чтобы дать 1 [ResultEnhancement:`Повышение силы`] на следующий ход для 2 союзников по порядку их выбора в команду (Единожды за ход)\n[StartBattle] Восстанавливает себе 50% ОЗ (Единожды за ход)\n[WinDuel] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (До 4 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Как велит голос, я с радостью погружаюсь в себя",
+          "desc": "<b>Навык состояния [RougeIshmaelCocoon:`Примерочной`]</b>\n\n[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Если счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит 10 его единиц, чтобы дать 1 [ResultEnhancement:`Повышение силы`] на следующий ход для 2 союзников по порядку их выбора в команду (Единожды за ход)\n- Если затронутый союзник принадлежит к <b>Ле Руж</b>, то также повышает ему счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 и даёт [AttackDmgUp:`Повышение урона`]\n[StartBattle] Восстанавливает себе <style=\"highlight\">100%</style> ОЗ (Единожды за ход)\n[WinDuel] Снимает с себя 1 случайный снимаемый негативный эффект (Единожды за ход)\n[WinDuel] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (До 4 раз за ход)",
           "coinlist": [
             {
               "coindescs": [

@@ -871,6 +871,10 @@
     {
       "id": "contMineInfo_Desc_Invalid_Reward",
       "content": "※ Поражение теперь будет стоить {0} Энкефалиновых модулей и не принесёт вознагражение"
+    },
+    {
+      "id": "battle_operation_player_support",
+      "content": "Поддержка"
     }
   ]
 }

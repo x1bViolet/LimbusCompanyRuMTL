@@ -17,7 +17,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 2</nobr>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 2</nobr>"
                 }
               ]
             },
@@ -30,7 +30,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 2</nobr>"
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 2</nobr>"
                 }
               ]
             }

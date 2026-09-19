@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Smoke:`Дыма`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Smoke:`Дыма`] на 1"
                 }
               ]
             }
@@ -109,7 +109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Smoke:`Дыма`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Smoke:`Дыма`] на 1"
                 }
               ]
             }

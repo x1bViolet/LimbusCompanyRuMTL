@@ -87,6 +87,18 @@
     {
       "id": "season_title_7_EVENT",
       "content": "<cspace=-2px>Паутинка · ьтин яансарК [ИВЕНТ]</cspace>"
+    },
+    {
+      "id": "season_filter_8",
+      "content": "Сезон 8"
+    },
+    {
+      "id": "season_title_8",
+      "content": "ПУНКТУМ"
+    },
+    {
+      "id": "season_title_8_EVENT",
+      "content": "ПУНКТУМ [ИВЕНТ]"
     }
   ]
 }

@@ -90,7 +90,7 @@
     },
     {
       "id": "ReUseOnSucceedAttackHead",
-      "name": "<color=#c6fe94>[Повторное подкидывание - выпал орёл]</color>"
+      "name": "<color=#c6fe94>[Повторное подкидывание - Выпал орёл]</color>"
     },
     {
       "id": "CriticalOnSucceedAttack",
@@ -98,7 +98,7 @@
     },
     {
       "id": "CriticalOnSucceedAttackHead",
-      "name": "<color=#c6fe94>[Критическая атака - выпал орёл]</color>"
+      "name": "<color=#c6fe94>[Критическая атака - Выпал орёл]</color>"
     },
     {
       "id": "StartDuel",
@@ -173,10 +173,6 @@
       "name": "[Контратака столкновением]"
     },
     {
-      "id": "CantBreak",
-      "name": "[Неразрушимая монета]"
-    },
-    {
       "id": "DuelGuard",
       "name": "[Блок столкновением]"
     },
@@ -198,7 +194,7 @@
     },
     {
       "id": "DefeatDuelAttack",
-      "name": "[При ударе расколотой вечной монетой]"
+      "name": "[При ударе расколотой Вечной монетой]"
     },
     {
       "id": "TargetKillFail",
@@ -214,7 +210,7 @@
     },
     {
       "id": "UnBrokenCoinOnSucceedAttack",
-      "name": "<color=#c6fe94>[При ударе целой вечной монетой]</color>"
+      "name": "<color=#c6fe94>[При ударе целой Вечной монетой]</color>"
     },
     {
       "id": "BeforeHit",
@@ -222,11 +218,11 @@
     },
     {
       "id": "OnDirectAttack",
-      "name": "[Односторонняя атака]"
+      "name": "<color=#c6fe94>[При односторонней атаке]</color>"
     },
     {
       "id": "ReUseOnSucceedAttack",
-      "name": "<color=#c6fe94>[Повторное подкидывание - при ударе]</color>"
+      "name": "<color=#c6fe94>[Повторное подкидывание - При ударе]</color>"
     },
     {
       "id": "TabExplain",

@@ -1,0 +1,24 @@
+{
+  "dataList": [
+    {
+      "id": "battlepass_season_8",
+      "content": "ПУНКТУМ"
+    },
+    {
+      "id": "battle_pass_season_8_product_package_with_limbus_desc_summary",
+      "content": "◆ Лимбус Пасс 8 Сезона\n◆ Сразу при покупке получите 10 уровней Пасса\n◆ Билет повышения уровня VI\n◆ Специальный баннер пака с Лимбус Пассом"
+    },
+    {
+      "id": "battle_pass_season_8_product_package_without_limbus_desc_summary",
+      "content": "◆ Сразу при покупке получите 10 уровней Пасса\n◆ Билет повышения уровня VI\n◆ Специальный баннер пака с Лимбус Пассом"
+    },
+    {
+      "id": "until_season_8_start",
+      "content": "- До обновления 9 Сезона"
+    },
+    {
+      "id": "until_season_8_end_on_shop",
+      "content": "До обновления 9 Сезона"
+    }
+  ]
+}

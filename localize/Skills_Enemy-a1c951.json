@@ -21,7 +21,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Paralysis:`Паралича`]"
@@ -49,7 +49,7 @@
                   "desc": "[OnSucceedAttack] Получает 4 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -81,7 +81,7 @@
                   "desc": "На 30% больше урона при критическом попадании"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             }
@@ -110,7 +110,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
@@ -173,7 +173,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 3"
                 }
               ]
             },
@@ -183,7 +183,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 [Paralysis:`Паралича`]"
@@ -316,7 +316,7 @@
                   "desc": "[CriticalOnSucceedAttack] На 20% больше урона последней монетой"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },

@@ -1458,12 +1458,12 @@
           "level": 1,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[WhenUse] Тратит 5 единиц своего счётчика [Charge:`Заряда`] для получения +3 к Силе навыка",
+          "desc": "[WhenUse] Тратит 5 единиц счётчика своего [Charge:`Заряда`] для получения +3 к Силе навыка",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает свой счётчик [Charge:`Заряда`] на 3"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик своего [Charge:`Заряда`] на 3"
                 }
               ]
             }
@@ -1473,12 +1473,12 @@
           "level": 3,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[WhenUse] <style=\"highlight\">Повышает свой счётчик [Charge:`Заряда`] на число грехов в резонансе Зависти</style>, после чего тратит 5 единиц своего счётчика [Charge:`Заряда`] для получения +3 к Силе навыка",
+          "desc": "[WhenUse] <style=\"highlight\">Повышает счётчик своего [Charge:`Заряда`] на число грехов в резонансе Зависти</style>, после чего тратит 5 единиц счётчика своего [Charge:`Заряда`] для получения +3 к Силе навыка",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает свой счётчик [Charge:`Заряда`] на 5"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик своего [Charge:`Заряда`] на 5"
                 }
               ]
             }
@@ -1488,12 +1488,12 @@
           "level": 4,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "<style=\"highlight\">[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на число грехов в резонансе Зависти</style>, после чего тратит <style=\"highlight\">до 20 единиц</style> своего счётчика [Charge:`Заряда`] для получения +3 к Силе навыка <style=\"highlight\">за каждые 5 потраченных единиц (До 12)</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на число грехов в резонансе Зависти</style>, после чего тратит <style=\"highlight\">до 20 единиц</style> счётчика своего [Charge:`Заряда`] для получения +3 к Силе навыка <style=\"highlight\">за каждые 5 потраченных единиц (До 12)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает свой счётчик [Charge:`Заряда`] на 5"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик своего [Charge:`Заряда`] на 5"
                 }
               ]
             }
@@ -1508,7 +1508,7 @@
           "level": 1,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] Тратит весь свой счётчик [Charge:`Заряда`] для получения +6 к Силе навыка",
+          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] Тратит весь счётчик своего [Charge:`Заряда`] для получения +6 к Силе навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -1523,7 +1523,7 @@
           "level": 3,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] <style=\"highlight\">Повышает свой счётчик [Charge:`Заряда`] на число грехов в резонансе Зависти</style>, после чего полностью тратит его для получения +10 к Силе навыка",
+          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] <style=\"highlight\">Повышает счётчик своего [Charge:`Заряда`] на число грехов в резонансе Зависти</style>, после чего полностью тратит его для получения +10 к Силе навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -1538,7 +1538,7 @@
           "level": 4,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на число грехов в резонансе Зависти, после чего полностью тратит его для получения <style=\"highlight\">+15</style> к Силе навыка",
+          "desc": "[CantIdentify]\nСлучайная цель\n[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на число грехов в резонансе Зависти, после чего полностью тратит его для получения <style=\"highlight\">+15</style> к Силе навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -2024,7 +2024,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                  "desc": "<style=\"highlight\">[SuperCoin:`Вечная монета`]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">10</style> [Combustion:`Огня`]"
@@ -2824,7 +2824,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10"
                 }
               ]
             }
@@ -2839,7 +2839,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает счётчик [Charge:`Заряда`] всем союзникам на число грехов в резонансе Зависти</style>"
@@ -2857,7 +2857,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10"
                 },
                 {
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает счётчик [Charge:`Заряда`] всем союзникам на число грехов в резонансе Зависти"
@@ -2880,7 +2880,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -2895,7 +2895,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрыва`]</style>"
@@ -2913,7 +2913,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрыва`]"
@@ -2939,7 +2939,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:`Паралича`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 5"
                 }
               ]
             }
@@ -2957,7 +2957,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:`Паралича`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 7</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 7</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход</style>"
@@ -2978,10 +2978,10 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Paralysis:`Паралича`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 7"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает счётчик своего [Charge:`Заряда`] на 7"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а также повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead]</style> Даёт 1 [VioletResultUp:`Повышение силы Зависти`] и 1 [Agility:`Спешку`] двум случайным союзникам на следующий ход<style=\"highlight\">, а также повышает счётчик своего [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -3004,7 +3004,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Параличей`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] на 7"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 7"
                 }
               ]
             }
@@ -3022,7 +3022,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Параличей`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход</style>"
@@ -3043,10 +3043,10 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Paralysis:`Параличей`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает свой счётчик [Charge:`Заряда`] на 10"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает счётчик своего [Charge:`Заряда`] на 10"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход<style=\"highlight\">, а также повышает свой счётчик [Charge:`Заряда`] на 3</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход<style=\"highlight\">, а также повышает счётчик своего [Charge:`Заряда`] на 3</style>"
                 }
               ]
             }
@@ -3416,7 +3416,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик [Charge:`Заряда`])% больше урона (До 50%)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик [Charge:`Заряда`])% больше урона (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3434,7 +3434,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик [Charge:`Заряда`])% больше урона (До <style=\"highlight\">75%</style>)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик [Charge:`Заряда`])% больше урона (До <style=\"highlight\">75%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -3455,7 +3455,7 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь свой счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик [Charge:`Заряда`])% больше урона (До 75%)",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик [Charge:`Заряда`])% больше урона (До 75%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3481,7 +3481,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 3 и получает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 3 и получает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3496,7 +3496,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 5</style> и получает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 5</style> и получает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3516,7 +3516,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает 2 [Agility:`Спешки`] на следующий ход\n[WhenUse] Тратит 10 единиц своего счётчика [Charge:`Заряда`], чтобы нанести на 1 [Vulnerable:`Уязвимость`] и [DimensionRift:`Пространственный разлом`] больше этим навыком",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает 2 [Agility:`Спешки`] на следующий ход\n[WhenUse] Тратит 10 единиц счётчика своего [Charge:`Заряда`], чтобы нанести на 1 [Vulnerable:`Уязвимость`] и [DimensionRift:`Пространственный разлом`] больше этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -3531,7 +3531,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает <style=\"highlight\">3</style> [Agility:`Спешки`] на следующий ход\n[WhenUse] Тратит 10 единиц своего счётчика [Charge:`Заряда`], чтобы нанести <style=\"highlight\">на 2</style> [Vulnerable:`Уязвимости`] и [DimensionRift:`Пространственных разлома`] больше этим навыком",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшими ОЗ\n[BeforeAttack] Получает <style=\"highlight\">3</style> [Agility:`Спешки`] на следующий ход\n[WhenUse] Тратит 10 единиц счётчика своего [Charge:`Заряда`], чтобы нанести <style=\"highlight\">на 2</style> [Vulnerable:`Уязвимости`] и [DimensionRift:`Пространственных разлома`] больше этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -3787,7 +3787,7 @@
           "level": 1,
           "name": "Слепой дождь",
           "abName": "Бродячий лис",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Breath:`Дыхания`] на 4",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -3805,7 +3805,7 @@
           "level": 3,
           "name": "Слепой дождь",
           "abName": "Бродячий лис",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 6</style>",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 6</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3826,7 +3826,7 @@
           "level": 4,
           "name": "Слепой дождь",
           "abName": "Бродячий лис",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 7</style>",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 7</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3852,7 +3852,7 @@
           "level": 1,
           "name": "Слепой дождь",
           "abName": "Бродячий лис",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Повышает свой счётчик [Breath:`Дыхания`] на 5",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] на 5",
           "coinlist": [
             {
               "coindescs": [
@@ -3870,7 +3870,7 @@
           "level": 3,
           "name": "Слепой дождь",
           "abName": "Бродячий лис",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 7</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 7</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3894,7 +3894,7 @@
           "level": 4,
           "name": "Слепой дождь",
           "abName": "Бродячий лис",
-          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Повышает свой счётчик [Breath:`Дыхания`] на 7",
+          "desc": "[CantIdentify]\nВыбирает цель с наименьшими ОЗ\n[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] на 7",
           "coinlist": [
             {
               "coindescs": [
@@ -3923,7 +3923,7 @@
           "level": 1,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
@@ -3938,7 +3938,7 @@
           "level": 3,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 7</style>",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 7</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3953,7 +3953,7 @@
           "level": 4,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 10</style>",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3973,7 +3973,7 @@
           "level": 1,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 5",
+          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 5",
           "coinlist": [
             {
               "coindescs": [
@@ -3988,7 +3988,7 @@
           "level": 3,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 7</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 7</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -4003,7 +4003,7 @@
           "level": 4,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] <style=\"highlight\">на 10</style>",
+          "desc": "[CantIdentify]\nВыбирает цель с [Charge:`Зарядом`]\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -4023,7 +4023,7 @@
           "level": 1,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До 5)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До 5)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -4038,7 +4038,7 @@
           "level": 3,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До <style=\"highlight\">7</style>)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До <style=\"highlight\">7</style>)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -4058,15 +4058,15 @@
           "level": 1,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До 5)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До 5)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик [Charge:`Заряда`] для нанесения урона Унынием на (Потраченный счётчик [Charge:`Заряда`] × 1.5)% прошедшего урона (До 30%)"
+                  "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Charge:`Заряда`] для нанесения урона Унынием на (Потраченный счётчик [Charge:`Заряда`] × 1.5)% прошедшего урона (До 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Теряет 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] на 7"
+                  "desc": "[OnSucceedAttackTail] Теряет 10% от максимальных ОЗ для повышения счётчика своего [Charge:`Заряда`] на 7"
                 }
               ]
             }
@@ -4076,15 +4076,15 @@
           "level": 3,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До <style=\"highlight\">7</style>)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До <style=\"highlight\">7</style>)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик [Charge:`Заряда`] для нанесения урона Унынием на (Потраченный счётчик [Charge:`Заряда`] × <style=\"highlight\">2.5</style>)% прошедшего урона (До <style=\"highlight\">50%</style>)"
+                  "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Charge:`Заряда`] для нанесения урона Унынием на (Потраченный счётчик [Charge:`Заряда`] × <style=\"highlight\">2.5</style>)% прошедшего урона (До <style=\"highlight\">50%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Теряет 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
+                  "desc": "[OnSucceedAttackTail] Теряет 10% от максимальных ОЗ для повышения счётчика своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
                 }
               ]
             }
@@ -4094,18 +4094,18 @@
           "level": 4,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает свой счётчик [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До 7)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 1 за каждые 10% потерянных ОЗ (До 7)\nПолучает 2 [Agility:`Спешки`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит весь свой счётчик [Charge:`Заряда`] для нанесения урона Унынием на (Потраченный счётчик [Charge:`Заряда`] × 2.5)% прошедшего урона (До 50%)"
+                  "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Charge:`Заряда`] для нанесения урона Унынием на (Потраченный счётчик [Charge:`Заряда`] × 2.5)% прошедшего урона (До 50%)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill] Снова тратит весь свой счётчик [Charge:`Заряда`]</style>"
+                  "desc": "<style=\"highlight\">[EndSkill] Снова тратит весь счётчик своего [Charge:`Заряда`]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Теряет 10% от максимальных ОЗ для повышения своего счётчика [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
+                  "desc": "<style=\"highlight\">[EndSkillTail]</style> Теряет 10% от максимальных ОЗ для повышения счётчика своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
                 }
               ]
             }

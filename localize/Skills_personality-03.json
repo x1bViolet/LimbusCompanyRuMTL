@@ -584,7 +584,7 @@
         {
           "level": 1,
           "name": "Обнажение меча",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -605,7 +605,7 @@
         {
           "level": 2,
           "name": "Обнажение меча",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -626,7 +626,7 @@
         {
           "level": 4,
           "name": "Обнажение меча",
-          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более [Breath:`Дыхания`]\n</style>[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более [Breath:`Дыхания`]\n</style>[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -652,7 +652,7 @@
         {
           "level": 1,
           "name": "Взмах меча",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -673,7 +673,7 @@
         {
           "level": 2,
           "name": "Взмах меча",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -694,7 +694,7 @@
         {
           "level": 4,
           "name": "Взмах меча",
-          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более [Breath:`Дыхания`]\n</style>[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более [Breath:`Дыхания`]\n</style>[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -823,7 +823,7 @@
         {
           "level": 1,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {},
             {
@@ -838,7 +838,7 @@
         {
           "level": 2,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {},
             {
@@ -853,7 +853,7 @@
         {
           "level": 4,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -879,12 +879,12 @@
         {
           "level": 1,
           "name": "Метод ускоренного разреза Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели и повышает свой счётчик [Vibration:`Тремора`] на столько же"
+                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели и повышает счётчик своего [Vibration:`Тремора`] на столько же"
                 }
               ]
             },
@@ -900,12 +900,12 @@
         {
           "level": 2,
           "name": "Метод ускоренного разреза Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 3\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели и повышает свой счётчик [Vibration:`Тремора`] на столько же"
+                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели и повышает счётчик своего [Vibration:`Тремора`] на столько же"
                 }
               ]
             },
@@ -928,12 +928,12 @@
         {
           "level": 4,
           "name": "Метод ускоренного разреза Корп. T",
-          "desc": "[WhenUse] Повышает свой счётчик [Vibration:`Тремора`] на 3\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 3\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели и повышает свой счётчик [Vibration:`Тремора`] на <style=\"highlight\">(</style>Потраченный [Vibration:`Тремор`] цели <style=\"highlight\">× 2)</style>\n<style=\"highlight\">[OnSucceedAttack] Наносит (Потраченный [Vibration:`Тремор`] цели - 1) [Binding:`Связывания`] на следующий ход</style>"
+                  "desc": "[OnSucceedAttack] Тратит до 3 [Vibration:`Тремора`] с цели и повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">(</style>Потраченный [Vibration:`Тремор`] цели <style=\"highlight\">× 2)</style>\n<style=\"highlight\">[OnSucceedAttack] Наносит (Потраченный [Vibration:`Тремор`] цели - 1) [Binding:`Связывания`] на следующий ход</style>"
                 }
               ]
             },
@@ -961,7 +961,7 @@
         {
           "level": 3,
           "name": "Остановитесь сию же секунду!",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Тратит 10 единиц своего счётчика [Vibration:`Тремора`], чтобы получить +2 к Силе монет",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Тратит 10 единиц счётчика своего [Vibration:`Тремора`], чтобы получить +2 к Силе монет",
           "coinlist": [
             {},
             {
@@ -987,7 +987,7 @@
         {
           "level": 4,
           "name": "Остановитесь сию же секунду!",
-          "desc": "[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей со [Binding:`Связыванием`]</style>\n[WhenUse] Тратит 10 единиц своего счётчика [Vibration:`Тремора`], чтобы получить +2 к Силе монет",
+          "desc": "[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей со [Binding:`Связыванием`]</style>\n[WhenUse] Тратит 10 единиц счётчика своего [Vibration:`Тремора`], чтобы получить +2 к Силе монет",
           "coinlist": [
             {},
             {
@@ -1586,7 +1586,7 @@
         {
           "level": 1,
           "name": "Выпуск энергии",
-          "desc": "Если своя скорость выше скорости цели на 3 и более, Сила монет +1\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "Если своя скорость выше скорости цели на 3 и более, Сила монет +1\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1607,7 +1607,7 @@
         {
           "level": 2,
           "name": "Выпуск энергии",
-          "desc": "Если своя скорость выше скорости цели <style=\"highlight\">на 2</style> и более, Сила монет +1\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "Если своя скорость выше скорости цели <style=\"highlight\">на 2</style> и более, Сила монет +1\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1628,7 +1628,7 @@
         {
           "level": 4,
           "name": "Выпуск энергии",
-          "desc": "<style=\"highlight\">Если быстрее цели</style>, +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 3</style>",
+          "desc": "<style=\"highlight\">Если быстрее цели</style>, +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 2)</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 3</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1662,7 +1662,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1693,7 +1693,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1719,12 +1719,12 @@
         {
           "level": 4,
           "name": "Пиронефритовый удар",
-          "desc": "<style=\"highlight\">Если быстрее цели</style>, +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 2)</style>\n[WinDuel] Получает 3 [Breath:`Дыхания`]\n<style=\"highlight\">[WinDuel] Повышает свой счётчик [Breath:`Дыхания`] на значение [DianxueDonQuixote:`Удара по меридианам - Дон Кихот`] на цели</style>",
+          "desc": "<style=\"highlight\">Если быстрее цели</style>, +1 к Силе монет <style=\"highlight\">за каждые 2 единицы разницы в скорости (До 2)</style>\n[WinDuel] Получает 3 [Breath:`Дыхания`]\n<style=\"highlight\">[WinDuel] Повышает счётчик своего [Breath:`Дыхания`] на значение [DianxueDonQuixote:`Удара по меридианам - Дон Кихот`] на цели</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
                 }
               ]
             },
@@ -1854,7 +1854,7 @@
         {
           "level": 1,
           "name": "По указам Менеджера-милорда, я здесь!",
-          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 2</nobr>",
+          "desc": "[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 2</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -1866,7 +1866,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
@@ -1878,7 +1878,7 @@
         {
           "level": 2,
           "name": "По указам Менеджера-милорда, я здесь!",
-          "desc": "<style=\"highlight\">[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\"><nobr>на 3</nobr></style>",
+          "desc": "<style=\"highlight\">[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\"><nobr>на 3</nobr></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1890,7 +1890,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Burst:`Разрыва`]"
@@ -1902,7 +1902,7 @@
         {
           "level": 4,
           "name": "По указам Менеджера-милорда, я здесь!",
-          "desc": "[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
+          "desc": "[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -1914,7 +1914,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 3</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 3</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Burst:`Разрыва`]"
@@ -1931,7 +1931,7 @@
         {
           "level": 1,
           "name": "Где же... все злодеи...?",
-          "desc": "Наносит на 3% больше урона за каждую [HystericGauge:`Истерию`] (До 9%)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 2</nobr>\n[WhenUse] Теряет 5 СД",
+          "desc": "Наносит на 3% больше урона за каждую [HystericGauge:`Истерию`] (До 9%)\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 2</nobr>\n[WhenUse] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1943,7 +1943,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
@@ -1955,7 +1955,7 @@
         {
           "level": 2,
           "name": "Где же... все злодеи...?",
-          "desc": "Наносит на <style=\"highlight\">4%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">12%</style>)\n<style=\"highlight\">[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\"><nobr>на 3</nobr></style>\n[WhenUse] Теряет 5 СД",
+          "desc": "Наносит на <style=\"highlight\">4%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">12%</style>)\n<style=\"highlight\">[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\"><nobr>на 3</nobr></style>\n[WhenUse] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1967,7 +1967,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
@@ -1979,7 +1979,7 @@
         {
           "level": 4,
           "name": "Где же... все злодеи...?",
-          "desc": "Наносит на <style=\"highlight\">5%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">15%</style>)\n[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 5 СД",
+          "desc": "Наносит на <style=\"highlight\">5%</style> больше урона за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">15%</style>)\n[WhenUse] Тратит 5 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 2 единицы силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 2)</style>\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1991,7 +1991,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 3</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 3</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Sinking:`Утопания`]"
@@ -2008,12 +2008,12 @@
         {
           "level": 1,
           "name": "С любовью! Хия!",
-          "desc": "[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
+          "desc": "[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
                 }
               ]
             },
@@ -2029,12 +2029,12 @@
         {
           "level": 2,
           "name": "С любовью! Хия!",
-          "desc": "<style=\"highlight\">Наносит на 7.5% больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 30%)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
+          "desc": "<style=\"highlight\">Наносит на 7.5% больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До 30%)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет</style>\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 4</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 4</style>"
                 }
               ]
             },
@@ -2053,12 +2053,12 @@
         {
           "level": 4,
           "name": "С любовью! Хия!",
-          "desc": "Наносит на <style=\"highlight\">12.5%</style> больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До <style=\"highlight\">75%</style>)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\"><nobr>на 5</nobr></style>",
+          "desc": "Наносит на <style=\"highlight\">12.5%</style> больше урона за каждую единицу силы [ThePowerOfLoveAndHate:`Любви и ненависти`] (До <style=\"highlight\">75%</style>)\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\"><nobr>на 5</nobr></style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 4"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 4"
                 }
               ]
             },
@@ -2082,12 +2082,12 @@
         {
           "level": 1,
           "name": "Исчезни из моей головы...",
-          "desc": "Сила в столкновении +1, если есть 1 и более [HystericGauge:`Истерия`]\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 8 СД",
+          "desc": "Сила в столкновении +1, если есть 1 и более [HystericGauge:`Истерия`]\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 8 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
                 }
               ]
             },
@@ -2103,12 +2103,12 @@
         {
           "level": 2,
           "name": "Исчезни из моей головы...",
-          "desc": "<style=\"highlight\">Базовая сила</style> +1, если есть 1 и более [HystericGauge:`Истерия`]\n<style=\"highlight\">[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 8 СД",
+          "desc": "<style=\"highlight\">Базовая сила</style> +1, если есть 1 и более [HystericGauge:`Истерия`]\n<style=\"highlight\">[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе</style>\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 3</nobr>\n[WhenUse] Теряет 8 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
                 }
               ]
             },
@@ -2127,12 +2127,12 @@
         {
           "level": 4,
           "name": "Исчезни из моей головы...",
-          "desc": "Базовая сила +1 <style=\"highlight\">за каждую [HystericGauge:`Истерию`] (До 2)\n- Если есть 3 [HystericGauge:`Истерии`], Количество целей повышается на 1 (Наносит на 50% меньше урона дополнительным целям)</style>\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 5</nobr>\n[WhenUse] Теряет 8 СД",
+          "desc": "Базовая сила +1 <style=\"highlight\">за каждую [HystericGauge:`Истерию`] (До 2)\n- Если есть 3 [HystericGauge:`Истерии`], Количество целей повышается на 1 (Наносит на 50% меньше урона дополнительным целям)</style>\n[WhenUse] Тратит 6 единиц счётчика [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Базовой силе\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 5</nobr>\n[WhenUse] Теряет 8 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 3"
                 }
               ]
             },
@@ -2156,7 +2156,7 @@
         {
           "level": 3,
           "name": "Удары арканы!! / Малая рабыня арканы!!!!",
-          "desc": "Наносит на 15% больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До 45%)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × 20)% больше урона этим навыком (До 80%) и получает +1 к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До 2)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 6</nobr>\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
+          "desc": "Наносит на 15% больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До 45%)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × 20)% больше урона этим навыком (До 80%) и получает +1 к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До 2)\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 6</nobr>\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2190,7 +2190,7 @@
         {
           "level": 4,
           "name": "Удары арканы!! / Малая рабыня арканы!!!!",
-          "desc": "Наносит на <style=\"highlight\">30%</style> больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До <style=\"highlight\">90%</style>)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × <style=\"highlight\">25</style>)% больше урона этим навыком (До <style=\"highlight\">125%</style>) и получает <style=\"highlight\">+2</style> к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 6</nobr>\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
+          "desc": "Наносит на <style=\"highlight\">30%</style> больше урона за каждое имющееся [ArcanaQueenOfHate:`Магическое таинство`] (До <style=\"highlight\">90%</style>)\n[WhenUse] Если сила [ThePowerOfLoveAndHate:`Любви и ненависти`] равна 2 и более, наносит на (Сила [ThePowerOfLoveAndHate:`Любви и ненависти`] × <style=\"highlight\">25</style>)% больше урона этим навыком (До <style=\"highlight\">125%</style>) и получает <style=\"highlight\">+2</style> к Базовой силе\n[WhenUse] Тратит весь счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`], чтобы получить +1 к Силе монет за каждые 5 потраченных единиц счётчика (До <style=\"highlight\">4</style>)\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <nobr>на 6</nobr>\n[EndSkill] Получает 1 [ArcanaQueenOfHate:`Магическое таинство`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2302,7 +2302,7 @@
         {
           "level": 1,
           "name": "Песнопения",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Базовая сила +1 за каждую [HystericGauge:`Истерию`] (До 2)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2 (До 2 раз за ход)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Базовая сила +1 за каждую [HystericGauge:`Истерию`] (До 2)\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] на 2 (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2316,7 +2316,7 @@
         {
           "level": 4,
           "name": "Песнопения",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Базовая сила +1 за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">3</style>)\n[WhenUse] Повышает свой счётчик [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 4</style> (До 2 раз за ход)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[WhenUse] Базовая сила +1 за каждую [HystericGauge:`Истерию`] (До <style=\"highlight\">3</style>)\n[WhenUse] Повышает счётчик своего [ThePowerOfLoveAndHate:`Любви и ненависти`] <style=\"highlight\">на 4</style> (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2659,7 +2659,7 @@
         {
           "level": 1,
           "name": "Крушение черепа",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -2680,7 +2680,7 @@
         {
           "level": 2,
           "name": "Крушение черепа",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на <style=\"highlight\">2</style>",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на <style=\"highlight\">2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2701,7 +2701,7 @@
         {
           "level": 4,
           "name": "Крушение черепа",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Итоговой силе и</style> наносит на <style=\"highlight\">15%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Итоговой силе и</style> наносит на <style=\"highlight\">15%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2716,7 +2716,7 @@
                   "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
                 }
               ]
             }
@@ -2730,7 +2730,7 @@
         {
           "level": 1,
           "name": "Пусть эти руки будут проводником, который..",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 1\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 1\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2751,7 +2751,7 @@
         {
           "level": 2,
           "name": "Пусть эти руки будут проводником, который..",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] <style=\"highlight\">на 2</style>\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 2</style>\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2772,7 +2772,7 @@
         {
           "level": 4,
           "name": "Пусть эти руки будут проводником, который..",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на <style=\"highlight\">15%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на <style=\"highlight\">15%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[EndSkill] Теряет 3 СД (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2787,7 +2787,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] цели на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <nobr>на 1</nobr></style>"
                 }
               ]
             }
@@ -2814,7 +2814,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -2842,7 +2842,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -2870,7 +2870,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] цели <nobr>на 1</nobr></style>"
@@ -2900,7 +2900,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -2928,7 +2928,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }
@@ -2956,7 +2956,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] цели <nobr>на 1</nobr></style>"
@@ -2973,7 +2973,7 @@
         {
           "level": 3,
           "name": "С-сей же час предписание должно быть выполнено...",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при критических попаданиях\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До 2)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при критических попаданиях\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До 2)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -3032,7 +3032,7 @@
         {
           "level": 3,
           "name": "Посредничество: уничтожение",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 15% больше урона\nЕсли сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 3\n[EndSkill] Теряет 15 СД (До 2 раз за ход)",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 15% больше урона\nЕсли сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания `]на цели равна 6 и более, Сила монет +1\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3\n[EndSkill] Теряет 15 СД (До 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3143,7 +3143,7 @@
         {
           "level": 1,
           "name": "Ткань, сотканая и изготовленная по предписанию",
-          "desc": "Итоговая сила +1 за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 3)\n[StartBattle] Получает ОЗ Щита в размере 10% от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на 1% за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndBattle] Если нет [UnlockBuff_Base:`Разблокировки`], получает <nobr>[UnlockBuffAlly_1:`Разблокировку - I`]</nobr> (Единожды за ход)\n- Меняет текущее значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] на 3\n- Получает (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`] в начале следующего хода",
+          "desc": "Итоговая сила +1 за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 3)\n[StartBattle] Получает ОЗ Щита в размере 10% от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на 1% за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[EndBattle] Если нет [UnlockBuff_Base:`Разблокировки`], получает <nobr>[UnlockBuffAlly_1:`Разблокировку - I`]</nobr> (Единожды за ход)\n- Меняет текущее значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] на 3\n- Получает (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`] в начале следующего хода",
           "coinlist": [
             {
               "coindescs": [
@@ -3165,7 +3165,7 @@
         {
           "level": 4,
           "name": "Ткань, сотканая и изготовленная по предписанию",
-          "desc": "Итоговая сила +1 <style=\"highlight\">и на 15% больше наносимого урона</style> за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До +3 к Итоговой силе; <style=\"highlight\">до +45% к урону</style>)\n[StartBattle] Получает ОЗ Щита в размере <style=\"highlight\">15%</style> от максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на <style=\"highlight\">1.5%</style> за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Повышает свой счётчик [Breath:`Дыхания`] на 2\n[EndBattle] Если нет [UnlockBuff_Base:`Разблокировки`], получает <nobr>[UnlockBuffAlly_1:`Разблокировку - I`]</nobr> (Единожды за ход)\n- Меняет текущее значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] на 3\n- Получает в начале следующего хода (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`]",
+          "desc": "Итоговая сила +1 <style=\"highlight\">и на 15% больше наносимого урона</style> за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До +3 к Итоговой силе; <style=\"highlight\">до +45% к урону</style>)\n[StartBattle] Получает ОЗ Щита в размере <style=\"highlight\">15%</style> от максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на <style=\"highlight\">1.5%</style> за каждые 5 [KarmaOfIndexAlly:`Кармических последствий`] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly:`Кармических последствиях`])\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[EndBattle] Если нет [UnlockBuff_Base:`Разблокировки`], получает <nobr>[UnlockBuffAlly_1:`Разблокировку - I`]</nobr> (Единожды за ход)\n- Меняет текущее значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] на 3\n- Получает в начале следующего хода (Полученная таким образом [BlessingOfIndexPrescriptAlly:`Милость предписания`] × 5) [KarmaOfIndexAlly:`Кармических последствий`]",
           "coinlist": [
             {
               "coindescs": [

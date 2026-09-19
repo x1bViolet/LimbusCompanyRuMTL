@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Будьте радостны",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -28,7 +28,7 @@
         {
           "level": 1,
           "name": "Будьте спокойны",
-          "desc": "[WhenUse] Повышает свой счётчик [Charge:`Заряда`] на 2",
+          "desc": "[WhenUse] Повышает счётчик своего [Charge:`Заряда`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -46,7 +46,7 @@
                   "desc": "[CriticalOnSucceedAttack] Удваивает силу своего [Breath:`Дыхания`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath:`Дыхания`] на 3"
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 3"
                 }
               ]
             }
