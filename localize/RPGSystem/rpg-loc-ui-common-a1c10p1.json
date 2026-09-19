@@ -266,7 +266,7 @@
     },
     {
       "key": "ProgressPopup_Suicide",
-      "text": "Совершить\nсамоубийство"
+      "text": "Совершить\nсуицид"
     },
     {
       "key": "ProgressPopup_EnemyAttackIndication",
@@ -378,7 +378,7 @@
     },
     {
       "key": "Setting_Sisyphus_GauntletSuicide",
-      "text": "Используйте перчатку чтобы совершить самоубийство"
+      "text": "Используйте перчатку чтобы совершить суицид"
     },
     {
       "key": "Setting_Sisyphus_Attack",
