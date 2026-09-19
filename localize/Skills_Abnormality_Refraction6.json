@@ -1666,10 +1666,10 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Deal 5 SP damage"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Heal 5 SP (once per Skill)"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
                 }
               ]
             },
@@ -1679,10 +1679,10 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Vulnerable] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [Protection] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection:`Защищённость`] на следующий ход (Единожды за навык)"
                 }
               ]
             },
@@ -1692,10 +1692,10 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [AttackDmgDown] next turn"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown:`Понижение урона`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] next turn (once per Skill)"
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp:`Повышение урона`] на следующий ход (Единожды за навык)"
                 }
               ]
             },
@@ -1705,7 +1705,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 }
               ]
             }
