@@ -3455,7 +3455,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
@@ -3476,7 +3476,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 }
               ]
             },
@@ -3671,7 +3671,7 @@
         {
           "level": 3,
           "name": "Тц. Тупоголовый покупатель. Ты мнёшь товар!",
-          "desc": "[DuelCounter]\n[StartBattle]\n- При более чем 60 [NoirSuitAlly:`Габардинового пальто Ле Нуар`](;NoirSuit) превращает этот эффект в [RealisationAlly:`Бодрствующий доспех`](;Realisation) в следующем ходе\n- При менее чем 60 [RealisationAlly:`Бодрствующего доспеха`](;Realisation) превращает его в [NoirSuitAlly:`Габардиновое пальто Ле Нуар`](;NoirSuit) в следующем ходе\n<style=\"highlight\">[BeforeUse] При 60 и более [RealisationAlly:`Бодрствующего доспеха`](;Realisation): активирует свой альтернативный третий навык <color=#fed133>「Одиночный удар - Множественный Шов」</color> в качестве контратаки и полностью тратит [RealisationAlly:`Бодрствующий доспех`](;Realisation) в его конце (Единожды за ход)</style>\n[WhenUse] Повышает счётчик своей [ChargeNoirAlly:`Консервации`](;ChargeNoir) на 2 (До 2 раз за ход)",
+          "desc": "[DuelCounter]\n[StartBattle]\n- При более чем 60 [NoirSuitAlly:`Габардинового пальто Ле Нуар`](;NoirSuit) превращает этот эффект в [RealisationAlly:`Бодрствующий доспех`](;Realisation) в следующем ходе\n- При менее чем 60 [RealisationAlly:`Бодрствующего доспеха`](;Realisation) превращает его в [NoirSuitAlly:`Габардиновое пальто Ле Нуар`](;NoirSuit) в следующем ходе\n<style=\"highlight\">[BeforeUse] При 60 и более [RealisationAlly:`Бодрствующего доспеха`](;Realisation): активирует свой альтернативный третий навык <color=#fed133>「Одиночный удар - Множественный шов」</color> в качестве контратаки и полностью тратит [RealisationAlly:`Бодрствующий доспех`](;Realisation) в его конце (Единожды за ход)</style>\n[WhenUse] Повышает счётчик своей [ChargeNoirAlly:`Консервации`](;ChargeNoir) на 2 (До 2 раз за ход)",
           "coinlist": [
             {},
             {
@@ -3689,7 +3689,7 @@
         {
           "level": 4,
           "name": "Тц. Тупоголовый покупатель. Ты мнёшь товар!",
-          "desc": "[DuelCounter]\n[StartBattle]\n- При более чем 60 [NoirSuitAlly:`Габардинового пальто Ле Нуар`](;NoirSuit) превращает этот эффект в [RealisationAlly:`Бодрствующий доспех`](;Realisation) в следующем ходе\n- При менее чем 60 [RealisationAlly:`Бодрствующего доспеха`](;Realisation) превращает его в [NoirSuitAlly:`Габардиновое пальто Ле Нуар`](;NoirSuit) в следующем ходе\n[BeforeUse] При 60 и более [RealisationAlly:`Бодрствующего доспеха`](;Realisation): активирует свой альтернативный третий навык <color=#fed133>「Одиночный удар - Множественный Шов」</color> в качестве контратаки и полностью тратит [RealisationAlly:`Бодрствующий доспех`](;Realisation) в его конце (Единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1/+2 при 3+/5+ силы [ChargeNoirAlly:`Консервации`](;ChargeNoir) соответственно</style>\n[WhenUse] Повышает счётчик своей [ChargeNoirAlly:`Консервации`](;ChargeNoir) на 2 (До 2 раз за ход)",
+          "desc": "[DuelCounter]\n[StartBattle]\n- При более чем 60 [NoirSuitAlly:`Габардинового пальто Ле Нуар`](;NoirSuit) превращает этот эффект в [RealisationAlly:`Бодрствующий доспех`](;Realisation) в следующем ходе\n- При менее чем 60 [RealisationAlly:`Бодрствующего доспеха`](;Realisation) превращает его в [NoirSuitAlly:`Габардиновое пальто Ле Нуар`](;NoirSuit) в следующем ходе\n[BeforeUse] При 60 и более [RealisationAlly:`Бодрствующего доспеха`](;Realisation): активирует свой альтернативный третий навык <color=#fed133>「Одиночный удар - Множественный шов」</color> в качестве контратаки и полностью тратит [RealisationAlly:`Бодрствующий доспех`](;Realisation) в его конце (Единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1/+2 при 3+/5+ силы [ChargeNoirAlly:`Консервации`](;ChargeNoir) соответственно</style>\n[WhenUse] Повышает счётчик своей [ChargeNoirAlly:`Консервации`](;ChargeNoir) на 2 (До 2 раз за ход)",
           "coinlist": [
             {},
             {
@@ -3785,7 +3785,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит дополнительный Пронзающий урон, равный <style=\"highlight\">15%</style> от итогового урона этой монеты"
