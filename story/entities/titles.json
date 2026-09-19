@@ -6,15 +6,18 @@
   },
   {
     "original": "???",
-    "translation": "???"
+    "translation": "???",
+    "model": null
   },
   {
     "original": "Reminisced Soldier",
-    "translation": "Солдат из памяти"
+    "translation": "Солдат из памяти",
+    "model": null
   },
   {
     "original": "Reminisced Person",
-    "translation": "Человек из памяти"
+    "translation": "Человек из памяти",
+    "model": null
   },
   {
     "original": "Reminisced Person",
@@ -23,7 +26,8 @@
   },
   {
     "original": "Grade 8 Fixer",
-    "translation": "Корректировщица 8 ранга"
+    "translation": "Корректировщица 8 ранга",
+    "model": null
   },
   {
     "original": "???",
@@ -92,7 +96,8 @@
   },
   {
     "original": "Edgar Family",
-    "translation": "Род Эдгар"
+    "translation": "Род Эдгар",
+    "model": null
   },
   {
     "original": "Edgar Family",
@@ -146,7 +151,8 @@
   },
   {
     "original": "N Corp. Großhammer",
-    "translation": "Большой молот Корп. N"
+    "translation": "Большой молот Корп. N",
+    "model": null
   },
   {
     "original": "N Corp. Kleinhammer",
@@ -160,11 +166,13 @@
   },
   {
     "original": "L Corp.",
-    "translation": "Корпорация L "
+    "translation": "Корпорация L ",
+    "model": null
   },
   {
     "original": "L Corp. Employee",
-    "translation": "Сотрудница корпорации L"
+    "translation": "Сотрудница корпорации L",
+    "model": null
   },
   {
     "original": "Molar Boatworks",
@@ -228,7 +236,8 @@
   },
   {
     "original": "Eunbong’s Bar & Fryers",
-    "translation": "Бар \"У Ынбон\""
+    "translation": "Бар \"У Ынбон\"",
+    "model": null
   },
   {
     "original": "Molar Office",
@@ -297,7 +306,8 @@
   },
   {
     "original": "District 4 Backstreets",
-    "translation": "Подворотни 4-го Района"
+    "translation": "Подворотни 4-го Района",
+    "model": null
   },
   {
     "original": "Nagel und Hammer",
@@ -321,7 +331,8 @@
   },
   {
     "original": "Kurokumo Clan",
-    "translation": "Клан «Курокумо»"
+    "translation": "Клан «Курокумо»",
+    "model": null
   },
   {
     "original": "Kurokumo Wakashu",
@@ -330,7 +341,8 @@
   },
   {
     "original": "Calw Townsfolk",
-    "translation": "Житель Кальва"
+    "translation": "Житель Кальва",
+    "model": null
   },
   {
     "original": "???",
@@ -369,7 +381,8 @@
   },
   {
     "original": "Los Mariachis",
-    "translation": "Марьячи"
+    "translation": "Марьячи",
+    "model": null
   },
   {
     "original": "Have You Become Strong",
@@ -378,7 +391,8 @@
   },
   {
     "original": "Tieqiu Crew",
-    "translation": "Банда Железного шара"
+    "translation": "Банда Железного шара",
+    "model": null
   },
   {
     "original": "Blade Lineage?",
@@ -392,7 +406,8 @@
   },
   {
     "original": "District 25",
-    "translation": "25-ый Район"
+    "translation": "25-ый Район",
+    "model": null
   },
   {
     "original": "T Corp.",
@@ -466,7 +481,8 @@
   },
   {
     "original": "Seven Section 6",
-    "translation": "6-ая секция «Севен»"
+    "translation": "6-ая секция «Севен»",
+    "model": null
   },
   {
     "original": "K Corp. Dept. of Food Resource Development",
@@ -480,7 +496,8 @@
   },
   {
     "original": "K Corp.",
-    "translation": "Корпорация K"
+    "translation": "Корпорация K",
+    "model": null
   },
   {
     "original": "Eunbong’s Bar & Fryers?",
@@ -504,7 +521,8 @@
   },
   {
     "original": "Military Court",
-    "translation": "Военный трибунал"
+    "translation": "Военный трибунал",
+    "model": null
   },
   {
     "original": "G Corp. Head Manager",
@@ -558,7 +576,8 @@
   },
   {
     "original": "J Corp. Casino",
-    "translation": "Казино Корп. J"
+    "translation": "Казино Корп. J",
+    "model": null
   },
   {
     "original": "The One Who Shall Grip",
@@ -567,7 +586,8 @@
   },
   {
     "original": "LCCB",
-    "translation": "LCCB"
+    "translation": "LCCB",
+    "model": null
   },
   {
     "original": "LCCB Assistant Manager",
@@ -606,7 +626,8 @@
   },
   {
     "original": "W Corp.",
-    "translation": "Корпорация W"
+    "translation": "Корпорация W",
+    "model": null
   },
   {
     "original": "W Corp. Cleanup Agent",
@@ -640,7 +661,8 @@
   },
   {
     "original": "N Corp. Mittelhammer",
-    "translation": "Средний молот Корп. N"
+    "translation": "Средний молот Корп. N",
+    "model": null
   },
   {
     "original": "N Corp. Großhammer",
@@ -654,7 +676,8 @@
   },
   {
     "original": "Chump",
-    "translation": "Болван"
+    "translation": "Болван",
+    "model": null
   },
   {
     "original": "K Corp. Dept. of Food Resource Development?",
@@ -678,7 +701,8 @@
   },
   {
     "original": "My Dear Family",
-    "translation": "Моя семья"
+    "translation": "Моя семья",
+    "model": null
   },
   {
     "original": "Student?",
@@ -692,11 +716,13 @@
   },
   {
     "original": "LCD?",
-    "translation": "LCD?"
+    "translation": "LCD?",
+    "model": null
   },
   {
     "original": "LCD",
-    "translation": "LCD"
+    "translation": "LCD",
+    "model": null
   },
   {
     "original": "LCA",
@@ -730,11 +756,13 @@
   },
   {
     "original": "Student",
-    "translation": "Ученик"
+    "translation": "Ученик",
+    "model": null
   },
   {
     "original": "T Corp.",
-    "translation": "Корпорация T"
+    "translation": "Корпорация T",
+    "model": null
   },
   {
     "original": "T Corp.",
@@ -753,7 +781,8 @@
   },
   {
     "original": "K Corp. Checkpoint",
-    "translation": "Контрольно-пропускной пункт Корп. K"
+    "translation": "Контрольно-пропускной пункт Корп. K",
+    "model": null
   },
   {
     "original": "???",
@@ -817,7 +846,8 @@
   },
   {
     "original": "LCCA",
-    "translation": "LCCA"
+    "translation": "LCCA",
+    "model": null
   },
   {
     "original": "Lobotomy Corp. Remnant",
@@ -886,7 +916,8 @@
   },
   {
     "original": "G Corp. Remnant",
-    "translation": "Павшая корпорация G"
+    "translation": "Павшая корпорация G",
+    "model": null
   },
   {
     "original": "???",
@@ -900,7 +931,8 @@
   },
   {
     "original": "Liu Section 6",
-    "translation": "6-ая секция «Лю»"
+    "translation": "6-ая секция «Лю»",
+    "model": null
   },
   {
     "original": "Liu Section 6",
@@ -979,7 +1011,8 @@
   },
   {
     "original": "Lobotomy Corporation",
-    "translation": "Корпорация Лоботомия"
+    "translation": "Корпорация Лоботомия",
+    "model": null
   },
   {
     "original": "Technology Liberation Alliance",
@@ -1038,11 +1071,13 @@
   },
   {
     "original": "Sinners",
-    "translation": "Грешники"
+    "translation": "Грешники",
+    "model": null
   },
   {
     "original": "Twinhook Pirates",
-    "translation": "Пираты Двукрюки"
+    "translation": "Пираты Двукрюки",
+    "model": null
   },
   {
     "original": "???",
@@ -1256,7 +1291,8 @@
   },
   {
     "original": "MultiCrack Office",
-    "translation": "Офис МультиКрэк"
+    "translation": "Офис МультиКрэк",
+    "model": null
   },
   {
     "original": "MultiCrack Office",
@@ -1285,7 +1321,8 @@
   },
   {
     "original": "Beef Noodle Restaurant",
-    "translation": "Раменная"
+    "translation": "Раменная",
+    "model": null
   },
   {
     "original": "???",
@@ -1314,15 +1351,18 @@
   },
   {
     "original": "The Ring Fauvist Student",
-    "translation": "Фовист-Ученик Безымянного"
+    "translation": "Фовист-Ученик Безымянного",
+    "model": null
   },
   {
     "original": "The Ring Cubist Student",
-    "translation": "Кубист-Ученик Безымянного"
+    "translation": "Кубист-Ученик Безымянного",
+    "model": null
   },
   {
     "original": "District 22 Backstreets",
-    "translation": "Подворотни Района 22"
+    "translation": "Подворотни Района 22",
+    "model": null
   },
   {
     "original": "Pequod Town",
@@ -1336,7 +1376,8 @@
   },
   {
     "original": "Tingtang Gang",
-    "translation": "Банда Бом-Боб"
+    "translation": "Банда Бом-Боб",
+    "model": null
   },
   {
     "original": "Mermaid",
@@ -1350,7 +1391,8 @@
   },
   {
     "original": "The Pequod",
-    "translation": "Пекод"
+    "translation": "Пекод",
+    "model": null
   },
   {
     "original": "???",
@@ -1559,7 +1601,8 @@
   },
   {
     "original": "The Ring",
-    "translation": "Безымянный"
+    "translation": "Безымянный",
+    "model": null
   },
   {
     "original": "Distortion",
@@ -1588,7 +1631,8 @@
   },
   {
     "original": "Technology Liberation Alliance",
-    "translation": "Союз технологического особождения"
+    "translation": "Союз технологического особождения",
+    "model": null
   },
   {
     "original": "W Corp. Cleanup Agent",
@@ -1622,7 +1666,8 @@
   },
   {
     "original": "LCB",
-    "translation": "LCB"
+    "translation": "LCB",
+    "model": null
   },
   {
     "original": "???",
@@ -1636,7 +1681,8 @@
   },
   {
     "original": "Bloodbag",
-    "translation": "Кровосос"
+    "translation": "Кровосос",
+    "model": null
   },
   {
     "original": "Sinner #6",
@@ -1745,7 +1791,8 @@
   },
   {
     "original": "District 20 Resident",
-    "translation": "Житель 20-ого Района"
+    "translation": "Житель 20-ого Района",
+    "model": null
   },
   {
     "original": "Technology Liberation Alliance",
@@ -1754,7 +1801,8 @@
   },
   {
     "original": "Nest K",
-    "translation": "Гнездо K"
+    "translation": "Гнездо K",
+    "model": null
   },
   {
     "original": "League of Nine Littérateurs",
@@ -1823,7 +1871,8 @@
   },
   {
     "original": "Courier Trunk",
-    "translation": "Курьерский Сундук"
+    "translation": "Курьерский Сундук",
+    "model": null
   },
   {
     "original": "Dieci Section 4 Director",
@@ -1842,7 +1891,8 @@
   },
   {
     "original": "The Middle",
-    "translation": "Средний"
+    "translation": "Средний",
+    "model": null
   },
   {
     "original": "Safety Team Agent",
@@ -1886,7 +1936,8 @@
   },
   {
     "original": "The LCB",
-    "translation": "LCB"
+    "translation": "LCB",
+    "model": null
   },
   {
     "original": "Shi Association",
@@ -2060,7 +2111,8 @@
   },
   {
     "original": "Zwei West Section 3 Director",
-    "translation": "Директор 3-ей Секции Западного Цвай"
+    "translation": "Директор 3-ей Секции Западного Цвай",
+    "model": null
   },
   {
     "original": "Zwei West Section 3",
@@ -2069,11 +2121,13 @@
   },
   {
     "original": "Zwei West Section 3",
-    "translation": "Западный Цвай Секция 3"
+    "translation": "Западный Цвай Секция 3",
+    "model": null
   },
   {
     "original": "District 24",
-    "translation": "Район 24"
+    "translation": "Район 24",
+    "model": null
   },
   {
     "original": "Mermaid",
@@ -2092,11 +2146,13 @@
   },
   {
     "original": "Rosespanner Workshop",
-    "translation": "Офис Ключа и Розы"
+    "translation": "Офис Ключа и Розы",
+    "model": null
   },
   {
     "original": "The Client",
-    "translation": "Клиент"
+    "translation": "Клиент",
+    "model": null
   },
   {
     "original": "Zwei West Section 3",
@@ -2105,11 +2161,13 @@
   },
   {
     "original": "P Corp.",
-    "translation": "Корп. P"
+    "translation": "Корп. P",
+    "model": null
   },
   {
     "original": "Protection Target",
-    "translation": "Цель Защиты"
+    "translation": "Цель Защиты",
+    "model": null
   },
   {
     "original": "Wuthering Heights",
@@ -2133,7 +2191,8 @@
   },
   {
     "original": "District 20 Yurodivy",
-    "translation": "Юродивый 20-ого Района"
+    "translation": "Юродивый 20-ого Района",
+    "model": null
   },
   {
     "original": "District 20 Yurodivy",
@@ -2157,7 +2216,8 @@
   },
   {
     "original": "U Corp.",
-    "translation": "Корп. U"
+    "translation": "Корп. U",
+    "model": null
   },
   {
     "original": "Technology Liberation Alliance",
@@ -2231,7 +2291,8 @@
   },
   {
     "original": "Cinq Section 4",
-    "translation": "Сэнк Секция 4"
+    "translation": "Сэнк Секция 4",
+    "model": null
   },
   {
     "original": "K Corp. Laboratory",
@@ -2415,7 +2476,8 @@
   },
   {
     "original": "La Manchaland",
-    "translation": "Ла-Манчалэнд"
+    "translation": "Ла-Манчалэнд",
+    "model": null
   },
   {
     "original": "???",
@@ -2469,7 +2531,8 @@
   },
   {
     "original": "Zwei Association",
-    "translation": "Ассоциация Цвай"
+    "translation": "Ассоциация Цвай",
+    "model": null
   },
   {
     "original": "???",
@@ -2478,7 +2541,8 @@
   },
   {
     "original": "Hana Association",
-    "translation": "Ассоциация Хана"
+    "translation": "Ассоциация Хана",
+    "model": null
   },
   {
     "original": "???",
@@ -2542,11 +2606,13 @@
   },
   {
     "original": "Relative",
-    "translation": "Родственник"
+    "translation": "Родственник",
+    "model": null
   },
   {
     "original": "Family",
-    "translation": "Семья"
+    "translation": "Семья",
+    "model": null
   },
   {
     "original": "La Manchaland",
@@ -2560,7 +2626,8 @@
   },
   {
     "original": "LCE Research Team",
-    "translation": "Исследовательская команда LCE"
+    "translation": "Исследовательская команда LCE",
+    "model": null
   },
   {
     "original": "LCE Research Team",
@@ -2569,7 +2636,8 @@
   },
   {
     "original": "Limbus Company",
-    "translation": "Компания Лимбус"
+    "translation": "Компания Лимбус",
+    "model": null
   },
   {
     "original": "The Manager of La Manchaland",
@@ -2593,7 +2661,8 @@
   },
   {
     "original": "Fanghunt Office",
-    "translation": "Офис Охотников за Клыками"
+    "translation": "Офис Охотников за Клыками",
+    "model": null
   },
   {
     "original": "Devyat' North Section 3",
@@ -2607,7 +2676,8 @@
   },
   {
     "original": "The Church of Gears",
-    "translation": "Церковь Шестерней"
+    "translation": "Церковь Шестерней",
+    "model": null
   },
   {
     "original": "Full-Stop Office",
@@ -2686,7 +2756,8 @@
   },
   {
     "original": "Heishou Pack - Mao Branch",
-    "translation": "Стая Хэйшоу - Ветвь Мао"
+    "translation": "Стая Хэйшоу - Ветвь Мао",
+    "model": null
   },
   {
     "original": "???",
@@ -2705,15 +2776,18 @@
   },
   {
     "original": "Nekomata Mafia",
-    "translation": "Мафия Некомата"
+    "translation": "Мафия Некомата",
+    "model": null
   },
   {
     "original": "Tepuu Family",
-    "translation": "Семья Тепуу"
+    "translation": "Семья Тепуу",
+    "model": null
   },
   {
     "original": "The Knots",
-    "translation": "Узлы"
+    "translation": "Узлы",
+    "model": null
   },
   {
     "original": "Kurokumo Clan",
@@ -2752,7 +2826,8 @@
   },
   {
     "original": "Firefist Office",
-    "translation": "Офис Огненного Кулака"
+    "translation": "Офис Огненного Кулака",
+    "model": null
   },
   {
     "original": "???",
@@ -2776,7 +2851,8 @@
   },
   {
     "original": "Syndicate Rep",
-    "translation": "Представитель Синдиката"
+    "translation": "Представитель Синдиката",
+    "model": null
   },
   {
     "original": "Heishou Pack - Mao Branch",
@@ -2825,7 +2901,8 @@
   },
   {
     "original": "Daguanyuan",
-    "translation": "Дагуаньюань"
+    "translation": "Дагуаньюань",
+    "model": null
   },
   {
     "original": "The Middle",
@@ -2834,7 +2911,8 @@
   },
   {
     "original": "District 8",
-    "translation": "Район 8"
+    "translation": "Район 8",
+    "model": null
   },
   {
     "original": "Heishou Pack - Si Branch",
@@ -2843,7 +2921,8 @@
   },
   {
     "original": "Heishou Pack - Si Branch",
-    "translation": "Стая Хэйшоу - Ветвь Сы"
+    "translation": "Стая Хэйшоу - Ветвь Сы",
+    "model": null
   },
   {
     "original": "Heishou Pack - Si Branch",
@@ -2907,7 +2986,8 @@
   },
   {
     "original": "Jia Family",
-    "translation": "Семья Цзя"
+    "translation": "Семья Цзя",
+    "model": null
   },
   {
     "original": "R Corp. 4th Pack Reindeer",
@@ -2916,7 +2996,8 @@
   },
   {
     "original": "R Corp. 4th Pack",
-    "translation": "4 Стая Корп. R"
+    "translation": "4 Стая Корп. R",
+    "model": null
   },
   {
     "original": "R Corp. 4th Pack Rhino",
@@ -2925,7 +3006,8 @@
   },
   {
     "original": "Hongyuan",
-    "translation": "Хунъюань"
+    "translation": "Хунъюань",
+    "model": null
   },
   {
     "original": "Heishou Pack - Mao Branch Adept",
@@ -2939,7 +3021,8 @@
   },
   {
     "original": "Hongyuan's Laboratory",
-    "translation": "Лаборатория Хунъюаня"
+    "translation": "Лаборатория Хунъюаня",
+    "model": null
   },
   {
     "original": "???",
@@ -3063,7 +3146,8 @@
   },
   {
     "original": "Welfare Team Agent",
-    "translation": "Агент Команды Благосостояния"
+    "translation": "Агент Команды Благосостояния",
+    "model": null
   },
   {
     "original": "???",
@@ -3107,7 +3191,8 @@
   },
   {
     "original": "H Corp. Board Member",
-    "translation": "Член совета директоров Корп. H"
+    "translation": "Член совета директоров Корп. H",
+    "model": null
   },
   {
     "original": "The Master of Twelve Beasts",
@@ -3121,7 +3206,8 @@
   },
   {
     "original": "First Note",
-    "translation": "Первая записка"
+    "translation": "Первая записка",
+    "model": null
   },
   {
     "original": "First Note",
@@ -3130,7 +3216,8 @@
   },
   {
     "original": "Second Note",
-    "translation": "Вторая записка"
+    "translation": "Вторая записка",
+    "model": null
   },
   {
     "original": "Second Note",
@@ -3139,7 +3226,8 @@
   },
   {
     "original": "Third Note",
-    "translation": "Третья записка"
+    "translation": "Третья записка",
+    "model": null
   },
   {
     "original": "Third Note",
@@ -3148,7 +3236,8 @@
   },
   {
     "original": "Fourth Note",
-    "translation": "Четвертая записка"
+    "translation": "Четвертая записка",
+    "model": null
   },
   {
     "original": "Fourth Note",
@@ -3157,7 +3246,8 @@
   },
   {
     "original": "Fifth Note",
-    "translation": "Пятая записка"
+    "translation": "Пятая записка",
+    "model": null
   },
   {
     "original": "Fifth Note",
@@ -3166,7 +3256,8 @@
   },
   {
     "original": "Sixth Note",
-    "translation": "Шестая записка"
+    "translation": "Шестая записка",
+    "model": null
   },
   {
     "original": "Sixth Note",
@@ -3190,7 +3281,8 @@
   },
   {
     "original": "Ninth Note",
-    "translation": "Девятая записка"
+    "translation": "Девятая записка",
+    "model": null
   },
   {
     "original": "Ninth Note",
@@ -3204,7 +3296,8 @@
   },
   {
     "original": "Eleventh Note",
-    "translation": "Одиннадцатая записка"
+    "translation": "Одиннадцатая записка",
+    "model": null
   },
   {
     "original": "Eleventh Note",
@@ -3213,7 +3306,8 @@
   },
   {
     "original": "Twelfth Note",
-    "translation": "Двенадцатая записка"
+    "translation": "Двенадцатая записка",
+    "model": null
   },
   {
     "original": "Twelfth Note",
@@ -3242,11 +3336,13 @@
   },
   {
     "original": "Heishou Pack - You Branch",
-    "translation": "Стая Хэйшоу - Ветвь Ю"
+    "translation": "Стая Хэйшоу - Ветвь Ю",
+    "model": null
   },
   {
     "original": "Students",
-    "translation": "Ученики"
+    "translation": "Ученики",
+    "model": null
   },
   {
     "original": "Xichun's Clan",
@@ -3280,7 +3376,8 @@
   },
   {
     "original": "N Corp.",
-    "translation": "Корп. N"
+    "translation": "Корп. N",
+    "model": null
   },
   {
     "original": "N Corp. New League of Nine Littérateurs",
@@ -3329,11 +3426,13 @@
   },
   {
     "original": "Ægir",
-    "translation": "Эгир"
+    "translation": "Эгир",
+    "model": null
   },
   {
     "original": "Iberia",
-    "translation": "Иберия"
+    "translation": "Иберия",
+    "model": null
   },
   {
     "original": "???",
@@ -3342,7 +3441,8 @@
   },
   {
     "original": "Faro Muerto",
-    "translation": "Фаро Муэрто"
+    "translation": "Фаро Муэрто",
+    "model": null
   },
   {
     "original": "Shi East Section 3",
@@ -3356,11 +3456,13 @@
   },
   {
     "original": "Bloodfiend Hunter",
-    "translation": "Охотник на Кровожадов"
+    "translation": "Охотник на Кровожадов",
+    "model": null
   },
   {
     "original": "Third Kindred",
-    "translation": "Третий Сородич"
+    "translation": "Третий Сородич",
+    "model": null
   },
   {
     "original": "Fourth Kindred",
@@ -3369,7 +3471,8 @@
   },
   {
     "original": "Fourth Kindred",
-    "translation": "Четвертый Сородич"
+    "translation": "Четвертый Сородич",
+    "model": null
   },
   {
     "original": "Third Kindred",
@@ -3378,7 +3481,8 @@
   },
   {
     "original": "J Corp. Resident",
-    "translation": "Житель Корп. J"
+    "translation": "Житель Корп. J",
+    "model": null
   },
   {
     "original": "Jeong's Office Rep",
@@ -3392,15 +3496,18 @@
   },
   {
     "original": "Night Awls",
-    "translation": "Ночные Шилья"
+    "translation": "Ночные Шилья",
+    "model": null
   },
   {
     "original": "Library Director",
-    "translation": "Директор Библиотеки"
+    "translation": "Директор Библиотеки",
+    "model": null
   },
   {
     "original": "Floor of History",
-    "translation": "Этаж Истории"
+    "translation": "Этаж Истории",
+    "model": null
   },
   {
     "original": "Heishou Pack - You Branch Adept",
@@ -3409,11 +3516,13 @@
   },
   {
     "original": "Heishou Pack - Mao Branch Adept",
-    "translation": "Стая Хэйшоу - Адепт Ветви Мао"
+    "translation": "Стая Хэйшоу - Адепт Ветви Мао",
+    "model": null
   },
   {
     "original": "Distortion",
-    "translation": "Искажение"
+    "translation": "Искажение",
+    "model": null
   },
   {
     "original": "Heishou Pack -\nYou Branch",
@@ -3427,11 +3536,13 @@
   },
   {
     "original": "Heishou Pack - Chou Branch",
-    "translation": "Стая Хэйшоу - Ветвь Чоу"
+    "translation": "Стая Хэйшоу - Ветвь Чоу",
+    "model": null
   },
   {
     "original": "Heishou Pack - Wei Branch",
-    "translation": "Стая Хэйшоу - Ветвь Вэй"
+    "translation": "Стая Хэйшоу - Ветвь Вэй",
+    "model": null
   },
   {
     "original": "Hongyuan",
@@ -3440,7 +3551,8 @@
   },
   {
     "original": "Shi Family",
-    "translation": "Семья Ши"
+    "translation": "Семья Ши",
+    "model": null
   },
   {
     "original": "R Corp. 4th Pack Reindeer",
@@ -3469,7 +3581,8 @@
   },
   {
     "original": "The Index Messenger",
-    "translation": "Посыльный Указательного"
+    "translation": "Посыльный Указательного",
+    "model": null
   },
   {
     "original": "The Index Proselyte",
@@ -3478,7 +3591,8 @@
   },
   {
     "original": "The Carnival",
-    "translation": "Карнавал"
+    "translation": "Карнавал",
+    "model": null
   },
   {
     "original": "LCA Vanguard Team 3",
@@ -3487,11 +3601,13 @@
   },
   {
     "original": "LCA Vanguard Team 3",
-    "translation": "3-ий отряд Авангарда LCA"
+    "translation": "3-ий отряд Авангарда LCA",
+    "model": null
   },
   {
     "original": "LCA",
-    "translation": "LCA"
+    "translation": "LCA",
+    "model": null
   },
   {
     "original": "???",
@@ -3585,7 +3701,8 @@
   },
   {
     "original": "LCE",
-    "translation": "LCE"
+    "translation": "LCE",
+    "model": null
   },
   {
     "original": "???",
@@ -3619,7 +3736,8 @@
   },
   {
     "original": "Limbus Company HQ",
-    "translation": "Штаб-квартира Компании Лимбус"
+    "translation": "Штаб-квартира Компании Лимбус",
+    "model": null
   },
   {
     "original": "???",
@@ -3628,11 +3746,13 @@
   },
   {
     "original": "The House of Spiders",
-    "translation": "Дом Пауков"
+    "translation": "Дом Пауков",
+    "model": null
   },
   {
     "original": "Gesellschaft",
-    "translation": "Гезельшафт"
+    "translation": "Гезельшафт",
+    "model": null
   },
   {
     "original": "Gesellschaft",
@@ -3666,7 +3786,8 @@
   },
   {
     "original": "The Ring's Art Ingredient",
-    "translation": "Ингредиет произведения искусства Безымянного"
+    "translation": "Ингредиет произведения искусства Безымянного",
+    "model": null
   },
   {
     "original": "Welfare Team Captain",
@@ -3675,7 +3796,8 @@
   },
   {
     "original": "Welfare Team Clerk",
-    "translation": "Клерк Команды Благосостояния"
+    "translation": "Клерк Команды Благосостояния",
+    "model": null
   },
   {
     "original": "Welfare Team Agent",
@@ -3694,11 +3816,13 @@
   },
   {
     "original": "Abnormality",
-    "translation": "Аномалия"
+    "translation": "Аномалия",
+    "model": null
   },
   {
     "original": "Information Team Agent",
-    "translation": "Агент Информационной Команды"
+    "translation": "Агент Информационной Команды",
+    "model": null
   },
   {
     "original": "LCE Research Team Chief",
@@ -3707,7 +3831,8 @@
   },
   {
     "original": "LCA HR Management Team 2",
-    "translation": "2 Команда Управления Персоналом LCA"
+    "translation": "2 Команда Управления Персоналом LCA",
+    "model": null
   },
   {
     "original": "Dietitian",
@@ -3746,7 +3871,8 @@
   },
   {
     "original": "Uninvited Guest?",
-    "translation": "Незваный Гость?"
+    "translation": "Незваный Гость?",
+    "model": null
   },
   {
     "original": "The House of Spiders",
@@ -3810,7 +3936,8 @@
   },
   {
     "original": "The Ring Fauvist Docent",
-    "translation": "Доцент Фовизма Безымянного"
+    "translation": "Доцент Фовизма Безымянного",
+    "model": null
   },
   {
     "original": "The Ring Fauvist Docent",
@@ -3819,11 +3946,13 @@
   },
   {
     "original": "Wayfarer Doorbreach Team 5",
-    "translation": "5-ая группа по Взлому Дверей Вэйфарер"
+    "translation": "5-ая группа по Взлому Дверей Вэйфарер",
+    "model": null
   },
   {
     "original": "Wayfarer Doorbreach Team 5 Leader",
-    "translation": "Лидер 5-ой группы по Взлому Дверей"
+    "translation": "Лидер 5-ой группы по Взлому Дверей",
+    "model": null
   },
   {
     "original": "The Ring Fauvist Student",
@@ -3842,7 +3971,8 @@
   },
   {
     "original": "Hair Coupon Thief",
-    "translation": "Вор Купонов"
+    "translation": "Вор Купонов",
+    "model": null
   },
   {
     "original": "The Middle's Little Brother",
@@ -3861,7 +3991,8 @@
   },
   {
     "original": "Hair Coupon Thief?",
-    "translation": "Вор Купонов?"
+    "translation": "Вор Купонов?",
+    "model": null
   },
   {
     "original": "Blade of the House of Spiders",
@@ -3875,27 +4006,33 @@
   },
   {
     "original": "Nursefather of the House of Spiders",
-    "translation": "Отец-воспитатель Дома Пауков"
+    "translation": "Отец-воспитатель Дома Пауков",
+    "model": null
   },
   {
     "original": "The Thumb's Consigliere",
-    "translation": "Консильери Большого"
+    "translation": "Консильери Большого",
+    "model": null
   },
   {
     "original": "The Ring's Maestro",
-    "translation": "Маэстро Безымянного"
+    "translation": "Маэстро Безымянного",
+    "model": null
   },
   {
     "original": "A Star of the Pinky",
-    "translation": "Звезда Мизинца"
+    "translation": "Звезда Мизинца",
+    "model": null
   },
   {
     "original": "The Middle's Great Sister",
-    "translation": "Великая Сестра Среднего"
+    "translation": "Великая Сестра Среднего",
+    "model": null
   },
   {
     "original": "The Index's Messenger",
-    "translation": "Посыльный Указательного"
+    "translation": "Посыльный Указательного",
+    "model": null
   },
   {
     "original": "The Thumb Nursefather",
@@ -3904,7 +4041,8 @@
   },
   {
     "original": "The LCE",
-    "translation": "LCE"
+    "translation": "LCE",
+    "model": null
   },
   {
     "original": "The Middle's Big Sister",
@@ -3913,7 +4051,8 @@
   },
   {
     "original": "Zwei Section 1",
-    "translation": "Секция 1 Цвай"
+    "translation": "Секция 1 Цвай",
+    "model": null
   },
   {
     "original": "???",
@@ -3922,7 +4061,8 @@
   },
   {
     "original": "Right State Councilor - Pi Circle",
-    "translation": "Правый Государственный Советник - Круг Пхи"
+    "translation": "Правый Государственный Советник - Круг Пхи",
+    "model": null
   },
   {
     "original": "The LCB & The LCD",
@@ -3936,7 +4076,8 @@
   },
   {
     "original": "District 19",
-    "translation": "Район 19"
+    "translation": "Район 19",
+    "model": null
   },
   {
     "original": "Ch'unokkun",
@@ -3945,11 +4086,13 @@
   },
   {
     "original": "Ch'unokkun",
-    "translation": "Чхуноккун"
+    "translation": "Чхуноккун",
+    "model": null
   },
   {
     "original": "LCD OSIR Team",
-    "translation": "LCD ГВРУ"
+    "translation": "LCD ГВРУ",
+    "model": null
   },
   {
     "original": "LCD OSIR Team",
@@ -3958,7 +4101,8 @@
   },
   {
     "original": "The Pinky Nursefather",
-    "translation": "Отец-воспитатель Мизинца"
+    "translation": "Отец-воспитатель Мизинца",
+    "model": null
   },
   {
     "original": "The Pinky Apprentice",
@@ -3972,15 +4116,18 @@
   },
   {
     "original": "Wing Employee",
-    "translation": "Сотрудник Крыла"
+    "translation": "Сотрудник Крыла",
+    "model": null
   },
   {
     "original": "The Thumb",
-    "translation": "Большой"
+    "translation": "Большой",
+    "model": null
   },
   {
     "original": "G Corp.",
-    "translation": "Корпорация G"
+    "translation": "Корпорация G",
+    "model": null
   },
   {
     "original": "Dawn Office Rep",
@@ -3999,7 +4146,8 @@
   },
   {
     "original": "Liu Association",
-    "translation": "Ассоциация Лю"
+    "translation": "Ассоциация Лю",
+    "model": null
   },
   {
     "original": "Fixer",
@@ -4015,5 +4163,110 @@
     "original": "LCE",
     "translation": "LCE",
     "model": "이상"
+  },
+  {
+    "original": "Le Noir Footwear Hall",
+    "translation": "Зал Обуви Ле Нуар",
+    "model": "료슈"
+  },
+  {
+    "original": "Customer",
+    "translation": "Покупатель",
+    "model": null
+  },
+  {
+    "original": "Le Noir Footwear Hall",
+    "translation": "Зал Обуви Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Cinq East\nSection 3",
+    "translation": "Восточный Сэнк\nСекция 3",
+    "model": "홍루"
+  },
+  {
+    "original": "Boutique du Rouge",
+    "translation": "Бутик дю Руж",
+    "model": "이스마엘"
+  },
+  {
+    "original": "Stranger",
+    "translation": "Посторонний",
+    "model": null
+  },
+  {
+    "original": "Grand Magasin Sisyphe",
+    "translation": "Гран-Магазэн Сизиф",
+    "model": null
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "크로머언니"
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "맨얼굴크로머언니"
+  },
+  {
+    "original": "N Corp.",
+    "translation": "Корпорация N",
+    "model": "법정 경위"
+  },
+  {
+    "original": "N Corp. - New League of Nine Littérateurs",
+    "translation": "Корпорация N - Новая Лига девяти литераторов",
+    "model": "아세아"
+  },
+  {
+    "original": "N Corp. - New League of Nine Littérateurs",
+    "translation": "Корпорация N - Новая Лига девяти литераторов",
+    "model": "구보"
+  },
+  {
+    "original": "N Corp. - New League of Nine Littérateurs",
+    "translation": "Корпорация N - Новая Лига девяти литераторов",
+    "model": "가환"
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "3층가위"
+  },
+  {
+    "original": "Alterationist",
+    "translation": "Перекройщица",
+    "model": "3층가위"
+  },
+  {
+    "original": "Grand Magasin Sisyphe",
+    "translation": "Гран-Магазэн Сизиф",
+    "model": "B2층플로어매니저"
+  },
+  {
+    "original": "Dyehouse",
+    "translation": "Красильня",
+    "model": "B2층염색실주인"
+  },
+  {
+    "original": "Dyehouse",
+    "translation": "Красильня",
+    "model": "퍼티"
+  },
+  {
+    "original": "Le Rouge",
+    "translation": "Ле Руж",
+    "model": "3층하이도메루주번데기"
+  },
+  {
+    "original": "Le Rouge Mannequin",
+    "translation": "Манекен Ле Руж",
+    "model": "3층하이도메루주"
+  },
+  {
+    "original": "Defendant",
+    "translation": "Подсудимый",
+    "model": "뫼르소"
   }
 ]

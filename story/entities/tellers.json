@@ -41,11 +41,13 @@
   },
   {
     "original": "???",
-    "translation": "???"
+    "translation": "???",
+    "model": null
   },
   {
     "original": "Tomah",
-    "translation": "Тома"
+    "translation": "Тома",
+    "model": null
   },
   {
     "original": "???",
@@ -69,7 +71,8 @@
   },
   {
     "original": "Kind Citizen",
-    "translation": "Добрая жительница"
+    "translation": "Добрая жительница",
+    "model": null
   },
   {
     "original": "Kind Citizen",
@@ -78,11 +81,13 @@
   },
   {
     "original": "Security Guard",
-    "translation": "Патрульный"
+    "translation": "Патрульный",
+    "model": null
   },
   {
     "original": "Yuri",
-    "translation": "Юри"
+    "translation": "Юри",
+    "model": null
   },
   {
     "original": "Hermann",
@@ -116,7 +121,8 @@
   },
   {
     "original": "Announcement",
-    "translation": "Оповещение"
+    "translation": "Оповещение",
+    "model": null
   },
   {
     "original": "Mika",
@@ -160,7 +166,8 @@
   },
   {
     "original": "The Twinhooks?",
-    "translation": "Двукрюки?"
+    "translation": "Двукрюки?",
+    "model": null
   },
   {
     "original": "Hopkins",
@@ -184,11 +191,13 @@
   },
   {
     "original": "Sinners",
-    "translation": "Грешники"
+    "translation": "Грешники",
+    "model": null
   },
   {
     "original": "Jolly Pirate",
-    "translation": "Веселый Пират"
+    "translation": "Веселый Пират",
+    "model": null
   },
   {
     "original": "Cherry Gnome",
@@ -277,7 +286,8 @@
   },
   {
     "original": "Butler Colleague",
-    "translation": "Коллега-дворецкий"
+    "translation": "Коллега-дворецкий",
+    "model": null
   },
   {
     "original": "Gregor",
@@ -341,7 +351,8 @@
   },
   {
     "original": "Leading Inquisitor",
-    "translation": "Главный инквизитор"
+    "translation": "Главный инквизитор",
+    "model": null
   },
   {
     "original": "Strange Dead Rabbits Henchman",
@@ -355,7 +366,8 @@
   },
   {
     "original": "King Trash Crab",
-    "translation": "Король Мусорных Крабов"
+    "translation": "Король Мусорных Крабов",
+    "model": null
   },
   {
     "original": "???",
@@ -374,7 +386,8 @@
   },
   {
     "original": "Alex",
-    "translation": "Алекс"
+    "translation": "Алекс",
+    "model": null
   },
   {
     "original": "???",
@@ -413,19 +426,23 @@
   },
   {
     "original": "Interviewer",
-    "translation": "Интервьюер"
+    "translation": "Интервьюер",
+    "model": null
   },
   {
     "original": "Fight Spectator",
-    "translation": "Наблюдатель за Боем"
+    "translation": "Наблюдатель за Боем",
+    "model": null
   },
   {
     "original": "Bullied Citizen",
-    "translation": "Обиженный Гражданин"
+    "translation": "Обиженный Гражданин",
+    "model": null
   },
   {
     "original": "Agitated Citizen",
-    "translation": "Возбужденный Гражданин"
+    "translation": "Возбужденный Гражданин",
+    "model": null
   },
   {
     "original": "Sinclair",
@@ -449,11 +466,13 @@
   },
   {
     "original": "Strict Junior",
-    "translation": "Строгий Младший"
+    "translation": "Строгий Младший",
+    "model": null
   },
   {
     "original": "Another Colleague",
-    "translation": "Другой Коллега"
+    "translation": "Другой Коллега",
+    "model": null
   },
   {
     "original": "An Inquisitor",
@@ -512,7 +531,8 @@
   },
   {
     "original": "Owner’s Momma",
-    "translation": "Маменька хозяина бара"
+    "translation": "Маменька хозяина бара",
+    "model": null
   },
   {
     "original": "Erlking Heathcliff",
@@ -541,23 +561,28 @@
   },
   {
     "original": "Disgruntled Citizen",
-    "translation": "Раздражённый житель"
+    "translation": "Раздражённый житель",
+    "model": null
   },
   {
     "original": "Kind Restaurant Owner",
-    "translation": "Добрый Владелец Ресторана"
+    "translation": "Добрый Владелец Ресторана",
+    "model": null
   },
   {
     "original": "Puny Thug",
-    "translation": "Головорез"
+    "translation": "Головорез",
+    "model": null
   },
   {
     "original": "Panicked Thug",
-    "translation": "Паникующий Бандит"
+    "translation": "Паникующий Бандит",
+    "model": null
   },
   {
     "original": "Fearful Thug",
-    "translation": "Боязливый Бандит"
+    "translation": "Боязливый Бандит",
+    "model": null
   },
   {
     "original": "Kidnapper 2",
@@ -576,7 +601,8 @@
   },
   {
     "original": "Ishmael & Outis",
-    "translation": "Измаил и Отис"
+    "translation": "Измаил и Отис",
+    "model": null
   },
   {
     "original": "Wolf",
@@ -630,11 +656,13 @@
   },
   {
     "original": "Number-nuts Hooligan",
-    "translation": "Не умеющий считать хулиган"
+    "translation": "Не умеющий считать хулиган",
+    "model": null
   },
   {
     "original": "Sharp Hooligan",
-    "translation": "Смышлённый хулиган"
+    "translation": "Смышлённый хулиган",
+    "model": null
   },
   {
     "original": "Kromer",
@@ -648,19 +676,23 @@
   },
   {
     "original": "Fauvist Henchman",
-    "translation": "Прихвостень Фовистов"
+    "translation": "Прихвостень Фовистов",
+    "model": null
   },
   {
     "original": "Cubist Henchman",
-    "translation": "Прихвостень Кубистов"
+    "translation": "Прихвостень Кубистов",
+    "model": null
   },
   {
     "original": "Terrified Civilian",
-    "translation": "Напуганный Гражданский"
+    "translation": "Напуганный Гражданский",
+    "model": null
   },
   {
     "original": "Bowing Civilian",
-    "translation": "Кланяющийся Гражданский"
+    "translation": "Кланяющийся Гражданский",
+    "model": null
   },
   {
     "original": "???",
@@ -679,11 +711,13 @@
   },
   {
     "original": "Disciplined Lackey",
-    "translation": "Дисциплинированный Лакей"
+    "translation": "Дисциплинированный Лакей",
+    "model": null
   },
   {
     "original": "Wincing Intruder",
-    "translation": "Незваный Гость"
+    "translation": "Незваный Гость",
+    "model": null
   },
   {
     "original": "LCCB Agent?",
@@ -702,7 +736,8 @@
   },
   {
     "original": "Ishmael",
-    "translation": "Измаил"
+    "translation": "Измаил",
+    "model": null
   },
   {
     "original": "???",
@@ -716,7 +751,8 @@
   },
   {
     "original": "Hosa",
-    "translation": "Хоса"
+    "translation": "Хоса",
+    "model": null
   },
   {
     "original": "Yi Sang",
@@ -725,7 +761,8 @@
   },
   {
     "original": "Kashira",
-    "translation": "Вакагасира"
+    "translation": "Вакагасира",
+    "model": null
   },
   {
     "original": "Hindley's Lackey",
@@ -734,11 +771,13 @@
   },
   {
     "original": "A Prosthetic Head",
-    "translation": "Протезированная голова"
+    "translation": "Протезированная голова",
+    "model": null
   },
   {
     "original": "Excision Management Staff",
-    "translation": "Помощник Сотрудника Иссечения"
+    "translation": "Помощник Сотрудника Иссечения",
+    "model": null
   },
   {
     "original": "???",
@@ -762,11 +801,13 @@
   },
   {
     "original": "Timid Junior Butler",
-    "translation": "Робкий Младший Дворецкий"
+    "translation": "Робкий Младший Дворецкий",
+    "model": null
   },
   {
     "original": "Scared Junior Butler",
-    "translation": "Напуганный Младший Дворецкий"
+    "translation": "Напуганный Младший Дворецкий",
+    "model": null
   },
   {
     "original": "???",
@@ -800,15 +841,18 @@
   },
   {
     "original": "Mariachi Novato",
-    "translation": "Марьячи Новичок"
+    "translation": "Марьячи Новичок",
+    "model": null
   },
   {
     "original": "Mariachi Alegre",
-    "translation": "Марьячи Навеселе"
+    "translation": "Марьячи Навеселе",
+    "model": null
   },
   {
     "original": "Mariachi Vivaz",
-    "translation": "Жизнерадостный Марьячи"
+    "translation": "Жизнерадостный Марьячи",
+    "model": null
   },
   {
     "original": "You Want To Get Beat? Hurtily?",
@@ -817,11 +861,13 @@
   },
   {
     "original": "Threatening Crewman",
-    "translation": "Грозный синдикатовец"
+    "translation": "Грозный синдикатовец",
+    "model": null
   },
   {
     "original": "Flexing Crewman",
-    "translation": "Разминающийся синдикатовец"
+    "translation": "Разминающийся синдикатовец",
+    "model": null
   },
   {
     "original": "Bamboo-hatted Kim?",
@@ -855,15 +901,18 @@
   },
   {
     "original": "K Corp. Security",
-    "translation": "Охранник Корп. К"
+    "translation": "Охранник Корп. К",
+    "model": null
   },
   {
     "original": "Wicked Tax Collector",
-    "translation": "Злая сборщица налогов"
+    "translation": "Злая сборщица налогов",
+    "model": null
   },
   {
     "original": "Resident",
-    "translation": "Житель"
+    "translation": "Житель",
+    "model": null
   },
   {
     "original": "Class 2 Collection Staff",
@@ -927,7 +976,8 @@
   },
   {
     "original": "Head Hooligan",
-    "translation": "Главный хулиган"
+    "translation": "Главный хулиган",
+    "model": null
   },
   {
     "original": "Mariachi Alegre",
@@ -951,11 +1001,13 @@
   },
   {
     "original": "Troubled VIP",
-    "translation": "Обеспокоенный ВИП"
+    "translation": "Обеспокоенный ВИП",
+    "model": null
   },
   {
     "original": "Intense Bodyguard",
-    "translation": "Серьёзный телохранитель"
+    "translation": "Серьёзный телохранитель",
+    "model": null
   },
   {
     "original": "Tired Little Brother",
@@ -984,7 +1036,8 @@
   },
   {
     "original": "Researcher",
-    "translation": "Исследователь"
+    "translation": "Исследователь",
+    "model": null
   },
   {
     "original": "Heathcliff, The Heartbroken",
@@ -993,7 +1046,8 @@
   },
   {
     "original": "Preoccupied Coworker",
-    "translation": "Озабоченный Коллега"
+    "translation": "Озабоченный Коллега",
+    "model": null
   },
   {
     "original": "Twinhook Pirates?",
@@ -1012,11 +1066,13 @@
   },
   {
     "original": "Diligent Member",
-    "translation": "Прилежный Участник"
+    "translation": "Прилежный Участник",
+    "model": null
   },
   {
     "original": "Captured Thief",
-    "translation": "Схваченный Вор"
+    "translation": "Схваченный Вор",
+    "model": null
   },
   {
     "original": "Bodhisattva Chicken’s Manager",
@@ -1025,7 +1081,8 @@
   },
   {
     "original": "Nest Resident",
-    "translation": "Житель Гнезда"
+    "translation": "Житель Гнезда",
+    "model": null
   },
   {
     "original": "Eunbong’s Bar & Fryers Owner?",
@@ -1134,7 +1191,8 @@
   },
   {
     "original": "Judge Presiding",
-    "translation": "Председательствующий Судья"
+    "translation": "Председательствующий Судья",
+    "model": null
   },
   {
     "original": "Assistant Fixer",
@@ -1158,7 +1216,8 @@
   },
   {
     "original": "Class 2 Collector",
-    "translation": "Сборщик 2-ого Класса"
+    "translation": "Сборщик 2-ого Класса",
+    "model": null
   },
   {
     "original": "Firm Butler",
@@ -1182,7 +1241,8 @@
   },
   {
     "original": "Child",
-    "translation": "Ребёнок"
+    "translation": "Ребёнок",
+    "model": null
   },
   {
     "original": "Announcement",
@@ -1206,15 +1266,18 @@
   },
   {
     "original": "Class 2 Collection Staff",
-    "translation": "Сборщик 2-го уровня"
+    "translation": "Сборщик 2-го уровня",
+    "model": null
   },
   {
     "original": "Backstreets Inventor",
-    "translation": "Изобретатель в Подворотнях"
+    "translation": "Изобретатель в Подворотнях",
+    "model": null
   },
   {
     "original": "Bawling Casinogoer",
-    "translation": "Вопящий завсегдатай казино"
+    "translation": "Вопящий завсегдатай казино",
+    "model": null
   },
   {
     "original": "Dongbaek",
@@ -1223,7 +1286,8 @@
   },
   {
     "original": "Running Civilian",
-    "translation": "Бегущий Гражданский"
+    "translation": "Бегущий Гражданский",
+    "model": null
   },
   {
     "original": "Dongbaek",
@@ -1237,19 +1301,23 @@
   },
   {
     "original": "Unknown Boy",
-    "translation": "Неизвестный Мальчик"
+    "translation": "Неизвестный Мальчик",
+    "model": null
   },
   {
     "original": "Stephanette",
-    "translation": "Стефанетт"
+    "translation": "Стефанетт",
+    "model": null
   },
   {
     "original": "Panicking Colleague",
-    "translation": "Паникующий коллега"
+    "translation": "Паникующий коллега",
+    "model": null
   },
   {
     "original": "Anxious Colleague",
-    "translation": "Обеспокоенный коллега"
+    "translation": "Обеспокоенный коллега",
+    "model": null
   },
   {
     "original": "Statuehead",
@@ -1283,7 +1351,8 @@
   },
   {
     "original": "Henchman",
-    "translation": "Прихвостень"
+    "translation": "Прихвостень",
+    "model": null
   },
   {
     "original": "Pilot",
@@ -1297,7 +1366,8 @@
   },
   {
     "original": "Big Brother",
-    "translation": "Старший Брат"
+    "translation": "Старший Брат",
+    "model": null
   },
   {
     "original": "Stephanette",
@@ -1306,7 +1376,8 @@
   },
   {
     "original": "Irked Teammate",
-    "translation": "Раздражённый коллега"
+    "translation": "Раздражённый коллега",
+    "model": null
   },
   {
     "original": "Assassin",
@@ -1320,11 +1391,13 @@
   },
   {
     "original": "Shady Dealer",
-    "translation": "Сомнительный Дилер"
+    "translation": "Сомнительный Дилер",
+    "model": null
   },
   {
     "original": "Clumsy VIP",
-    "translation": "Неуклюжий ВИП"
+    "translation": "Неуклюжий ВИП",
+    "model": null
   },
   {
     "original": "???",
@@ -1343,7 +1416,8 @@
   },
   {
     "original": "Faithful Inquisitor",
-    "translation": "Верный инквизитор"
+    "translation": "Верный инквизитор",
+    "model": null
   },
   {
     "original": "Meursault",
@@ -1357,11 +1431,13 @@
   },
   {
     "original": "One Casinogoer",
-    "translation": "Игрок казино"
+    "translation": "Игрок казино",
+    "model": null
   },
   {
     "original": "Another Casinogoer",
-    "translation": "Другой игрок казино"
+    "translation": "Другой игрок казино",
+    "model": null
   },
   {
     "original": "Dongrang, Who Denies All",
@@ -1395,7 +1471,8 @@
   },
   {
     "original": "Famished Hooligan",
-    "translation": "Голодающий хулиган"
+    "translation": "Голодающий хулиган",
+    "model": null
   },
   {
     "original": "Second State Councilor",
@@ -1434,23 +1511,28 @@
   },
   {
     "original": "Sister",
-    "translation": "Сестра"
+    "translation": "Сестра",
+    "model": null
   },
   {
     "original": "Father",
-    "translation": "Отец"
+    "translation": "Отец",
+    "model": null
   },
   {
     "original": "Wincing Ruffian",
-    "translation": "Дрожащий бандит"
+    "translation": "Дрожащий бандит",
+    "model": null
   },
   {
     "original": "Radio",
-    "translation": "Рация"
+    "translation": "Рация",
+    "model": null
   },
   {
     "original": "Ezra",
-    "translation": "Эзра"
+    "translation": "Эзра",
+    "model": null
   },
   {
     "original": "Reticent Employee",
@@ -1509,7 +1591,8 @@
   },
   {
     "original": "Little Brother",
-    "translation": "Младший Брат"
+    "translation": "Младший Брат",
+    "model": null
   },
   {
     "original": "Little Brother",
@@ -1553,11 +1636,13 @@
   },
   {
     "original": "Reminisced Classmate",
-    "translation": "Одноклассник из воспоминаний"
+    "translation": "Одноклассник из воспоминаний",
+    "model": null
   },
   {
     "original": "Reminisced Schoolmate",
-    "translation": "Одноклассница из воспоминаний"
+    "translation": "Одноклассница из воспоминаний",
+    "model": null
   },
   {
     "original": "LCCB Agent?",
@@ -1566,7 +1651,8 @@
   },
   {
     "original": "T Corp. Reporter",
-    "translation": "Репортёр Корп. T"
+    "translation": "Репортёр Корп. T",
+    "model": null
   },
   {
     "original": "Mai",
@@ -1580,7 +1666,8 @@
   },
   {
     "original": "Curious Coworker",
-    "translation": "Любопытствующий коллега"
+    "translation": "Любопытствующий коллега",
+    "model": null
   },
   {
     "original": "Dongrang",
@@ -1594,7 +1681,8 @@
   },
   {
     "original": "Kind Employee",
-    "translation": "Добрый Сотрудник"
+    "translation": "Добрый Сотрудник",
+    "model": null
   },
   {
     "original": "???",
@@ -1613,7 +1701,8 @@
   },
   {
     "original": "Heathcliff",
-    "translation": "Хитклиф"
+    "translation": "Хитклиф",
+    "model": null
   },
   {
     "original": "Shouting Thug",
@@ -1662,15 +1751,18 @@
   },
   {
     "original": "Defeated Henchman",
-    "translation": "Поверженный член синдиката"
+    "translation": "Поверженный член синдиката",
+    "model": null
   },
   {
     "original": "Merchant",
-    "translation": "Торговец"
+    "translation": "Торговец",
+    "model": null
   },
   {
     "original": "Tortured Prosthesis",
-    "translation": "Пытаемый киборг"
+    "translation": "Пытаемый киборг",
+    "model": null
   },
   {
     "original": "Scourging Inquisitor",
@@ -1694,7 +1786,8 @@
   },
   {
     "original": "Club DJ",
-    "translation": "Диджей Клуба"
+    "translation": "Диджей Клуба",
+    "model": null
   },
   {
     "original": "Revived? Liberation Alliance Member",
@@ -1703,23 +1796,28 @@
   },
   {
     "original": "Stern Inquisitor",
-    "translation": "Строгий Инквизитор"
+    "translation": "Строгий Инквизитор",
+    "model": null
   },
   {
     "original": "Solemn Inquisitor",
-    "translation": "Торжественный Инквизитор"
+    "translation": "Торжественный Инквизитор",
+    "model": null
   },
   {
     "original": "Captive Prosthesis",
-    "translation": "Схваченный протезированный"
+    "translation": "Схваченный протезированный",
+    "model": null
   },
   {
     "original": "Terrified Prosthesis",
-    "translation": "Схваченный протезированный"
+    "translation": "Схваченный протезированный",
+    "model": null
   },
   {
     "original": "Time Tax Evader",
-    "translation": "Уклоняющийся от Временного Налога"
+    "translation": "Уклоняющийся от Временного Налога",
+    "model": null
   },
   {
     "original": "The Pallid Whale",
@@ -1733,15 +1831,18 @@
   },
   {
     "original": "Daft Thug",
-    "translation": "Туповатый бандит"
+    "translation": "Туповатый бандит",
+    "model": null
   },
   {
     "original": "Tense Colleague",
-    "translation": "Напряженный Коллега"
+    "translation": "Напряженный Коллега",
+    "model": null
   },
   {
     "original": "Ahab",
-    "translation": "Ахав"
+    "translation": "Ахав",
+    "model": null
   },
   {
     "original": "Nervous Pirate",
@@ -1770,11 +1871,13 @@
   },
   {
     "original": "Brave Association Member",
-    "translation": "Храбрый Член Ассоциации"
+    "translation": "Храбрый Член Ассоциации",
+    "model": null
   },
   {
     "original": "Cold Association Member",
-    "translation": "Холодный Член Ассоциации"
+    "translation": "Холодный Член Ассоциации",
+    "model": null
   },
   {
     "original": "Class 2 Clerical Staff",
@@ -1838,11 +1941,13 @@
   },
   {
     "original": "Loyal Underling",
-    "translation": "Преданный Подчиненный"
+    "translation": "Преданный Подчиненный",
+    "model": null
   },
   {
     "original": "Underlings",
-    "translation": "Подчиненные"
+    "translation": "Подчиненные",
+    "model": null
   },
   {
     "original": "Researcher",
@@ -1856,11 +1961,13 @@
   },
   {
     "original": "Embedded... Agent",
-    "translation": "Вросший... Агент"
+    "translation": "Вросший... Агент",
+    "model": null
   },
   {
     "original": "LCCB Agent?",
-    "translation": "Агент LCCB?"
+    "translation": "Агент LCCB?",
+    "model": null
   },
   {
     "original": "???",
@@ -1889,11 +1996,13 @@
   },
   {
     "original": "Candy-suckling T Corp. Citizen",
-    "translation": "Житель Корп. T, любящий конфеты"
+    "translation": "Житель Корп. T, любящий конфеты",
+    "model": null
   },
   {
     "original": "Listless T Corp. Citizen",
-    "translation": "Вялый житель Корп. T"
+    "translation": "Вялый житель Корп. T",
+    "model": null
   },
   {
     "original": "T Corp. Watch Factory Owner",
@@ -1947,7 +2056,8 @@
   },
   {
     "original": "Deranged Employee",
-    "translation": "Безумный Сотрудник"
+    "translation": "Безумный Сотрудник",
+    "model": null
   },
   {
     "original": "Dongrang, Who Denies All",
@@ -1956,11 +2066,13 @@
   },
   {
     "original": "Crooked Veteran",
-    "translation": "Нечестный ветеран проигранной войны"
+    "translation": "Нечестный ветеран проигранной войны",
+    "model": null
   },
   {
     "original": "Vulgar Veteran",
-    "translation": "Сквернословящий ветеран проигранной войны"
+    "translation": "Сквернословящий ветеран проигранной войны",
+    "model": null
   },
   {
     "original": "???",
@@ -1969,11 +2081,13 @@
   },
   {
     "original": "The Client",
-    "translation": "Клиент"
+    "translation": "Клиент",
+    "model": null
   },
   {
     "original": "Clumsy Newcomer",
-    "translation": "Неловкий новенький"
+    "translation": "Неловкий новенький",
+    "model": null
   },
   {
     "original": "Panicked Pirate",
@@ -2037,11 +2151,13 @@
   },
   {
     "original": "Rattled Passenger",
-    "translation": "Напуганный Пассажир"
+    "translation": "Напуганный Пассажир",
+    "model": null
   },
   {
     "original": "Unhinged Passenger",
-    "translation": "Невозмутимый Пассажир"
+    "translation": "Невозмутимый Пассажир",
+    "model": null
   },
   {
     "original": "Curious Child",
@@ -2050,7 +2166,8 @@
   },
   {
     "original": "Prosthetic Fixer",
-    "translation": "Аугментированный Корректировщик"
+    "translation": "Аугментированный Корректировщик",
+    "model": null
   },
   {
     "original": "???",
@@ -2059,7 +2176,8 @@
   },
   {
     "original": "Bloodbags",
-    "translation": "Кровососы"
+    "translation": "Кровососы",
+    "model": null
   },
   {
     "original": "Cleanup Agent",
@@ -2068,7 +2186,8 @@
   },
   {
     "original": "Fixer Colleague",
-    "translation": "Коллега-Корректировщик"
+    "translation": "Коллега-Корректировщик",
+    "model": null
   },
   {
     "original": "Cleanup Agent",
@@ -2087,7 +2206,8 @@
   },
   {
     "original": "Train Announcer",
-    "translation": "Диктор Поезда"
+    "translation": "Диктор Поезда",
+    "model": null
   },
   {
     "original": "Don Quixote?",
@@ -2101,31 +2221,38 @@
   },
   {
     "original": "Poludnitsa",
-    "translation": "Полудница"
+    "translation": "Полудница",
+    "model": null
   },
   {
     "original": "Thief",
-    "translation": "Вор"
+    "translation": "Вор",
+    "model": null
   },
   {
     "original": "Fixer on the Podium",
-    "translation": "Корректировщик на трибуне"
+    "translation": "Корректировщик на трибуне",
+    "model": null
   },
   {
     "original": "Disgruntled Colleague",
-    "translation": "Недовольный коллега"
+    "translation": "Недовольный коллега",
+    "model": null
   },
   {
     "original": "Whiny Colleague",
-    "translation": "Плаксивый коллега"
+    "translation": "Плаксивый коллега",
+    "model": null
   },
   {
     "original": "Terrified Citizen",
-    "translation": "Перепуганный гражданский"
+    "translation": "Перепуганный гражданский",
+    "model": null
   },
   {
     "original": "Monster of the Tunnels",
-    "translation": "Монстр из туннелей"
+    "translation": "Монстр из туннелей",
+    "model": null
   },
   {
     "original": "???",
@@ -2169,11 +2296,13 @@
   },
   {
     "original": "Amazed Fixer",
-    "translation": "Удивленный Корректировщик"
+    "translation": "Удивленный Корректировщик",
+    "model": null
   },
   {
     "original": "Murmuring Fixer",
-    "translation": "Шепчущий Корректировщик"
+    "translation": "Шепчущий Корректировщик",
+    "model": null
   },
   {
     "original": "Delighted Fixer",
@@ -2272,31 +2401,38 @@
   },
   {
     "original": "Well-dressed Citizen",
-    "translation": "Прилично одетый гражданин"
+    "translation": "Прилично одетый гражданин",
+    "model": null
   },
   {
     "original": "Well-dressed Bloodbag",
-    "translation": "Прилично одетый кровосос"
+    "translation": "Прилично одетый кровосос",
+    "model": null
   },
   {
     "original": "Fixer from the South",
-    "translation": "Корректировщик с Юга"
+    "translation": "Корректировщик с Юга",
+    "model": null
   },
   {
     "original": "Fixer from the North",
-    "translation": "Корректировщик с Севера"
+    "translation": "Корректировщик с Севера",
+    "model": null
   },
   {
     "original": "Citizen at Risk",
-    "translation": "Гражданский в опасности"
+    "translation": "Гражданский в опасности",
+    "model": null
   },
   {
     "original": "Terrified Child",
-    "translation": "Напуганный ребенок"
+    "translation": "Напуганный ребенок",
+    "model": null
   },
   {
     "original": "Challenger",
-    "translation": "Соперник"
+    "translation": "Соперник",
+    "model": null
   },
   {
     "original": "Muersault",
@@ -2320,7 +2456,8 @@
   },
   {
     "original": "Narrator",
-    "translation": "Диктор"
+    "translation": "Диктор",
+    "model": null
   },
   {
     "original": "Angry Bloodfiend",
@@ -2359,7 +2496,8 @@
   },
   {
     "original": "Captive Victim",
-    "translation": "Плененная жертва"
+    "translation": "Плененная жертва",
+    "model": null
   },
   {
     "original": "Narrator",
@@ -2373,7 +2511,8 @@
   },
   {
     "original": "Bloodfiend",
-    "translation": "Кровожад"
+    "translation": "Кровожад",
+    "model": null
   },
   {
     "original": "Corroded Bloodfiend",
@@ -2382,7 +2521,8 @@
   },
   {
     "original": "Fixer in the Poster",
-    "translation": "Корректировщик на плакате"
+    "translation": "Корректировщик на плакате",
+    "model": null
   },
   {
     "original": "???",
@@ -2401,11 +2541,13 @@
   },
   {
     "original": "Starved Bloodfiend",
-    "translation": "Истощенный Кровожад"
+    "translation": "Истощенный Кровожад",
+    "model": null
   },
   {
     "original": "Craving Bloodfiend",
-    "translation": "Жаждущий Кровожад"
+    "translation": "Жаждущий Кровожад",
+    "model": null
   },
   {
     "original": "Townsfolk",
@@ -2434,7 +2576,8 @@
   },
   {
     "original": "Sancho",
-    "translation": "Санчо"
+    "translation": "Санчо",
+    "model": null
   },
   {
     "original": "Rocinante",
@@ -2443,11 +2586,13 @@
   },
   {
     "original": "Defiant Bloodfiend",
-    "translation": "Непокорный Кровожад"
+    "translation": "Непокорный Кровожад",
+    "model": null
   },
   {
     "original": "Genuflecting Bloodfiend",
-    "translation": "Преклонившийся Кровожад"
+    "translation": "Преклонившийся Кровожад",
+    "model": null
   },
   {
     "original": "Horrified Bloodfiend",
@@ -2456,23 +2601,28 @@
   },
   {
     "original": "Stephan",
-    "translation": "Стефан"
+    "translation": "Стефан",
+    "model": null
   },
   {
     "original": "Novice Researcher",
-    "translation": "Новый Исследователь"
+    "translation": "Новый Исследователь",
+    "model": null
   },
   {
     "original": "Bloodfiend Hunter",
-    "translation": "Охотник на Кровожадов"
+    "translation": "Охотник на Кровожадов",
+    "model": null
   },
   {
     "original": "Panicked Henchman",
-    "translation": "Паникующий Приспешник"
+    "translation": "Паникующий Приспешник",
+    "model": null
   },
   {
     "original": "Calm Henchman",
-    "translation": "Спокойный Приспешник"
+    "translation": "Спокойный Приспешник",
+    "model": null
   },
   {
     "original": "Don Quixote?",
@@ -2481,7 +2631,8 @@
   },
   {
     "original": "Leader",
-    "translation": "Лидер"
+    "translation": "Лидер",
+    "model": null
   },
   {
     "original": "Johann",
@@ -2525,11 +2676,13 @@
   },
   {
     "original": "Singing Voice",
-    "translation": "Поющий Голос"
+    "translation": "Поющий Голос",
+    "model": null
   },
   {
     "original": "Another Hare",
-    "translation": "Другой Заяц"
+    "translation": "Другой Заяц",
+    "model": null
   },
   {
     "original": "???",
@@ -2543,19 +2696,23 @@
   },
   {
     "original": "Nekomata Mafia Henchman",
-    "translation": "Прихвостень Мафии Некомата"
+    "translation": "Прихвостень Мафии Некомата",
+    "model": null
   },
   {
     "original": "Tepuu Family Henchman",
-    "translation": "Прихвостень Семьи Тепуу"
+    "translation": "Прихвостень Семьи Тепуу",
+    "model": null
   },
   {
     "original": "The Knots Henchman",
-    "translation": "Прихвостень Узлов"
+    "translation": "Прихвостень Узлов",
+    "model": null
   },
   {
     "original": "Assassin",
-    "translation": "Убийца"
+    "translation": "Убийца",
+    "model": null
   },
   {
     "original": "???",
@@ -2579,19 +2736,23 @@
   },
   {
     "original": "Big Sis",
-    "translation": "Старшая Сестра"
+    "translation": "Старшая Сестра",
+    "model": null
   },
   {
     "original": "Participating Fixer",
-    "translation": "Участвующий Корректировщик"
+    "translation": "Участвующий Корректировщик",
+    "model": null
   },
   {
     "original": "P Corp. Staff",
-    "translation": "Сотрудник Корп. P"
+    "translation": "Сотрудник Корп. P",
+    "model": null
   },
   {
     "original": "Firefist Office Fixer",
-    "translation": "Корректировщик Офиса Огненного Кулака"
+    "translation": "Корректировщик Офиса Огненного Кулака",
+    "model": null
   },
   {
     "original": "???",
@@ -2620,7 +2781,8 @@
   },
   {
     "original": "Underling",
-    "translation": "Подчиненный"
+    "translation": "Подчиненный",
+    "model": null
   },
   {
     "original": "Daiyu?",
@@ -2649,31 +2811,38 @@
   },
   {
     "original": "Audience",
-    "translation": "Аудитория"
+    "translation": "Аудитория",
+    "model": null
   },
   {
     "original": "Fleeing Candidate",
-    "translation": "Бегущий кандидат"
+    "translation": "Бегущий кандидат",
+    "model": null
   },
   {
     "original": "Stumbling Candidate",
-    "translation": "Спотыкающийся кандидат"
+    "translation": "Спотыкающийся кандидат",
+    "model": null
   },
   {
     "original": "Vengeance Fugitive",
-    "translation": "Избежавший мести"
+    "translation": "Избежавший мести",
+    "model": null
   },
   {
     "original": "Bungling Little Brother",
-    "translation": "Неумелый Младший Брат"
+    "translation": "Неумелый Младший Брат",
+    "model": null
   },
   {
     "original": "Veteran Snake",
-    "translation": "Змея-ветеран"
+    "translation": "Змея-ветеран",
+    "model": null
   },
   {
     "original": "Novice Snakes",
-    "translation": "Змеи-новички"
+    "translation": "Змеи-новички",
+    "model": null
   },
   {
     "original": "Jia Xichun",
@@ -2682,11 +2851,13 @@
   },
   {
     "original": "Gossiping Audience",
-    "translation": "Перешептывающаяся аудитория"
+    "translation": "Перешептывающаяся аудитория",
+    "model": null
   },
   {
     "original": "Gabbing Audience",
-    "translation": "Болтающая аудитория"
+    "translation": "Болтающая аудитория",
+    "model": null
   },
   {
     "original": "Stunned Audience",
@@ -2730,7 +2901,8 @@
   },
   {
     "original": "Crowd",
-    "translation": "Толпа"
+    "translation": "Толпа",
+    "model": null
   },
   {
     "original": "Jia Mu's Servant",
@@ -2744,23 +2916,28 @@
   },
   {
     "original": "Fearful Villager",
-    "translation": "Напуганный житель"
+    "translation": "Напуганный житель",
+    "model": null
   },
   {
     "original": "Defiant Villager",
-    "translation": "Дерзкий житель"
+    "translation": "Дерзкий житель",
+    "model": null
   },
   {
     "original": "Commander",
-    "translation": "Командир"
+    "translation": "Командир",
+    "model": null
   },
   {
     "original": "Backstreets Resident Going Insane",
-    "translation": "Сходящий с ума житель Подворотен"
+    "translation": "Сходящий с ума житель Подворотен",
+    "model": null
   },
   {
     "original": "Insane Backstreets Resident",
-    "translation": "Сумасшедший житель Подворотен"
+    "translation": "Сумасшедший житель Подворотен",
+    "model": null
   },
   {
     "original": "Busy-looking Servant",
@@ -2769,7 +2946,8 @@
   },
   {
     "original": "Falling Villager",
-    "translation": "Падающий житель"
+    "translation": "Падающий житель",
+    "model": null
   },
   {
     "original": "???",
@@ -2793,7 +2971,8 @@
   },
   {
     "original": "The Elders",
-    "translation": "Старейшины"
+    "translation": "Старейшины",
+    "model": null
   },
   {
     "original": "???",
@@ -2827,11 +3006,13 @@
   },
   {
     "original": "Relative",
-    "translation": "Родственник"
+    "translation": "Родственник",
+    "model": null
   },
   {
     "original": "Relative's Child",
-    "translation": "Ребёнок Родственника"
+    "translation": "Ребёнок Родственника",
+    "model": null
   },
   {
     "original": "Kong Qiu",
@@ -2865,7 +3046,8 @@
   },
   {
     "original": "Tactless Employee",
-    "translation": "Бестактный Сотрудник"
+    "translation": "Бестактный Сотрудник",
+    "model": null
   },
   {
     "original": "Magical Girl",
@@ -2894,27 +3076,33 @@
   },
   {
     "original": "Class 1 Collection Staff",
-    "translation": "Сборщик 1-го класса"
+    "translation": "Сборщик 1-го класса",
+    "model": null
   },
   {
     "original": "Determined Henchman",
-    "translation": "Решительный приспешник"
+    "translation": "Решительный приспешник",
+    "model": null
   },
   {
     "original": "Violent Henchman",
-    "translation": "Грубый приспешник"
+    "translation": "Грубый приспешник",
+    "model": null
   },
   {
     "original": "Henchmen",
-    "translation": "Приспешник"
+    "translation": "Приспешник",
+    "model": null
   },
   {
     "original": "The Big Brother",
-    "translation": "Старший Брат"
+    "translation": "Старший Брат",
+    "model": null
   },
   {
     "original": "Chronicler",
-    "translation": "Летописец"
+    "translation": "Летописец",
+    "model": null
   },
   {
     "original": "Elder in a Jar",
@@ -2933,11 +3121,13 @@
   },
   {
     "original": "Fearful Employee",
-    "translation": "Напуганный сотрудник"
+    "translation": "Напуганный сотрудник",
+    "model": null
   },
   {
     "original": "Anonymous",
-    "translation": "Аноним"
+    "translation": "Аноним",
+    "model": null
   },
   {
     "original": "Anonymous",
@@ -3011,35 +3201,43 @@
   },
   {
     "original": "Anxious Civilian",
-    "translation": "Напуганный гражданин"
+    "translation": "Напуганный гражданин",
+    "model": null
   },
   {
     "original": "Gamefowl",
-    "translation": "Бойцовый Петух"
+    "translation": "Бойцовый Петух",
+    "model": null
   },
   {
     "original": "Young Master of a House",
-    "translation": "Молодой Мастер Клана"
+    "translation": "Молодой Мастер Клана",
+    "model": null
   },
   {
     "original": "Architectural Engineer",
-    "translation": "Архитектурный Инженер"
+    "translation": "Архитектурный Инженер",
+    "model": null
   },
   {
     "original": "Attendant",
-    "translation": "Прислужник"
+    "translation": "Прислужник",
+    "model": null
   },
   {
     "original": "Soldier",
-    "translation": "Солдат"
+    "translation": "Солдат",
+    "model": null
   },
   {
     "original": "Honored Guest",
-    "translation": "Почтенный гость"
+    "translation": "Почтенный гость",
+    "model": null
   },
   {
     "original": "Sinclair & Jia Xichun",
-    "translation": "Синклер и Цзя Сичунь"
+    "translation": "Синклер и Цзя Сичунь",
+    "model": null
   },
   {
     "original": "Flustered Board Member",
@@ -3093,11 +3291,13 @@
   },
   {
     "original": "Fellow Researcher",
-    "translation": "Коллега-Исследователь"
+    "translation": "Коллега-Исследователь",
+    "model": null
   },
   {
     "original": "Townsfolk",
-    "translation": "Горожане"
+    "translation": "Горожане",
+    "model": null
   },
   {
     "original": "???",
@@ -3121,75 +3321,93 @@
   },
   {
     "original": "Maman",
-    "translation": "Maman"
+    "translation": "Maman",
+    "model": null
   },
   {
     "original": "The Princess",
-    "translation": "Принцесса"
+    "translation": "Принцесса",
+    "model": null
   },
   {
     "original": "Squire",
-    "translation": "Оруженосец"
+    "translation": "Оруженосец",
+    "model": null
   },
   {
     "original": "Terrified Human",
-    "translation": "Напуганный человек"
+    "translation": "Напуганный человек",
+    "model": null
   },
   {
     "original": "Loudmouthed Gambler",
-    "translation": "Крикливый игрок"
+    "translation": "Крикливый игрок",
+    "model": null
   },
   {
     "original": "Grumbling Gambler",
-    "translation": "Ворчащий игрок"
+    "translation": "Ворчащий игрок",
+    "model": null
   },
   {
     "original": "Loudmouthed & Grumbling Gamblers",
-    "translation": "Крикливый и ворчащий игроки"
+    "translation": "Крикливый и ворчащий игроки",
+    "model": null
   },
   {
     "original": "Committed Subordinate",
-    "translation": "Преданный подчинённый"
+    "translation": "Преданный подчинённый",
+    "model": null
   },
   {
     "original": "Desperate Subordinate",
-    "translation": "Отчаявшийся подчинённый"
+    "translation": "Отчаявшийся подчинённый",
+    "model": null
   },
   {
     "original": "Decorous Subordinate",
-    "translation": "Вежливый подчинённый"
+    "translation": "Вежливый подчинённый",
+    "model": null
   },
   {
     "original": "Aggressive Subordinate",
-    "translation": "Агрессивный подчинённый"
+    "translation": "Агрессивный подчинённый",
+    "model": null
   },
   {
     "original": "Assistant Librarian",
-    "translation": "Помощник Библиотекаря"
+    "translation": "Помощник Библиотекаря",
+    "model": null
   },
   {
     "original": "Despairing Subordinate",
-    "translation": "Павший духом подчинённый"
+    "translation": "Павший духом подчинённый",
+    "model": null
   },
   {
     "original": "Patron Librarian",
-    "translation": "Главный Библиотекарь"
+    "translation": "Главный Библиотекарь",
+    "model": null
   },
   {
     "original": "Nightstrike Team Adept",
-    "translation": "???"
+    "translation": "???",
+    "model": null
   },
   {
     "original": "Hare",
-    "translation": "Заяц"
+    "translation": "Заяц",
+    "model": null
   },
   {
     "original": "Oxlord",
-    "translation": "Бычий Лорд"
+    "translation": "Бычий Лорд",
+    "model": null
   },
   {
     "original": "Pack of Sheep",
-    "translation": "Стая Овец"
+    "translation": "Стая Овец",
+    "model": null
   },
   {
     "original": "???",
@@ -3228,15 +3446,18 @@
   },
   {
     "original": "Faint-hearted Messenger",
-    "translation": "Малодушный Посыльный"
+    "translation": "Малодушный Посыльный",
+    "model": null
   },
   {
     "original": "Tailor",
-    "translation": "Ткач"
+    "translation": "Ткач",
+    "model": null
   },
   {
     "original": "Udjat Agent",
-    "translation": "Агент Уджат"
+    "translation": "Агент Уджат",
+    "model": null
   },
   {
     "original": "???",
@@ -3410,27 +3631,33 @@
   },
   {
     "original": "Old-model TV",
-    "translation": "Старый телевизор"
+    "translation": "Старый телевизор",
+    "model": null
   },
   {
     "original": "Mall Shopkeeper",
-    "translation": "Владелец магазина в торговом центре"
+    "translation": "Владелец магазина в торговом центре",
+    "model": null
   },
   {
     "original": "Rational and Brilliant Faust",
-    "translation": "Рациональная и Гениальная Фауст"
+    "translation": "Рациональная и Гениальная Фауст",
+    "model": null
   },
   {
     "original": "Unbending, Proactive, and Resourceful Faust",
-    "translation": "Непреклонная, Инициативная и Находчивая Фауст"
+    "translation": "Непреклонная, Инициативная и Находчивая Фауст",
+    "model": null
   },
   {
     "original": "August and Dignified Faust",
-    "translation": "Величественная и преисполненная достоинства Фауст"
+    "translation": "Величественная и преисполненная достоинства Фауст",
+    "model": null
   },
   {
     "original": "Lovely and Guileful Faust",
-    "translation": "Милая и Коварная Фауст"
+    "translation": "Милая и Коварная Фауст",
+    "model": null
   },
   {
     "original": "Naive Faust?",
@@ -3439,7 +3666,8 @@
   },
   {
     "original": "Astute and Intelligent Faust",
-    "translation": "Проницательная и Умная Фауст"
+    "translation": "Проницательная и Умная Фауст",
+    "model": null
   },
   {
     "original": "Stupid Faust?",
@@ -3448,15 +3676,18 @@
   },
   {
     "original": "Ryōshū",
-    "translation": "Рёшу"
+    "translation": "Рёшу",
+    "model": null
   },
   {
     "original": "Terrified Victim",
-    "translation": "Напуганная жертва"
+    "translation": "Напуганная жертва",
+    "model": null
   },
   {
     "original": "Dying Victim",
-    "translation": "Умирающая жертва"
+    "translation": "Умирающая жертва",
+    "model": null
   },
   {
     "original": "Radio",
@@ -3465,7 +3696,8 @@
   },
   {
     "original": "Target of the House of Spiders",
-    "translation": "Цель Дома Пауков"
+    "translation": "Цель Дома Пауков",
+    "model": null
   },
   {
     "original": "Araya",
@@ -3474,27 +3706,33 @@
   },
   {
     "original": "Amber",
-    "translation": "Эмбер"
+    "translation": "Эмбер",
+    "model": null
   },
   {
     "original": "Old Lady",
-    "translation": "Старая Леди"
+    "translation": "Старая Леди",
+    "model": null
   },
   {
     "original": "Vera",
-    "translation": "Вера"
+    "translation": "Вера",
+    "model": null
   },
   {
     "original": "Team Leader",
-    "translation": "Лидер Команды"
+    "translation": "Лидер Команды",
+    "model": null
   },
   {
     "original": "@!($&$2w!",
-    "translation": "@!($&$2w!"
+    "translation": "@!($&$2w!",
+    "model": null
   },
   {
     "original": "Man Tied to a Chair",
-    "translation": "Человек привязанный к стулу"
+    "translation": "Человек привязанный к стулу",
+    "model": null
   },
   {
     "original": "???",
@@ -3518,7 +3756,8 @@
   },
   {
     "original": "Instructor",
-    "translation": "Инструктор"
+    "translation": "Инструктор",
+    "model": null
   },
   {
     "original": "Miffed Child",
@@ -3542,15 +3781,18 @@
   },
   {
     "original": "Finicky Student",
-    "translation": "Привередливый Студент"
+    "translation": "Привередливый Студент",
+    "model": null
   },
   {
     "original": "Meticulous Student",
-    "translation": "Дотошный Студент"
+    "translation": "Дотошный Студент",
+    "model": null
   },
   {
     "original": "Fellow Docent",
-    "translation": "Коллега Доцент"
+    "translation": "Коллега Доцент",
+    "model": null
   },
   {
     "original": "???",
@@ -3564,27 +3806,33 @@
   },
   {
     "original": "Research Team Leader",
-    "translation": "Лидер Исследовательской Команды"
+    "translation": "Лидер Исследовательской Команды",
+    "model": null
   },
   {
     "original": "Anxious Researcher",
-    "translation": "Взволнованный Исследователь"
+    "translation": "Взволнованный Исследователь",
+    "model": null
   },
   {
     "original": "Collected Researcher",
-    "translation": "Собранный Исследователь"
+    "translation": "Собранный Исследователь",
+    "model": null
   },
   {
     "original": "Great Sister",
-    "translation": "Великая Сестра"
+    "translation": "Великая Сестра",
+    "model": null
   },
   {
     "original": "Great Brother",
-    "translation": "Великий Брат"
+    "translation": "Великий Брат",
+    "model": null
   },
   {
     "original": "Hired Fixer",
-    "translation": "Нанятый Корректировщик"
+    "translation": "Нанятый Корректировщик",
+    "model": null
   },
   {
     "original": "???",
@@ -3613,54 +3861,437 @@
   },
   {
     "original": "Levelheaded Resident",
-    "translation": "Рассудительный житель"
+    "translation": "Рассудительный житель",
+    "model": null
   },
   {
     "original": "Youthful Resident",
-    "translation": "Молодой житель"
+    "translation": "Молодой житель",
+    "model": null
   },
   {
     "original": "Young Resident",
-    "translation": "Молодой житель"
+    "translation": "Молодой житель",
+    "model": null
   },
   {
     "original": "Colleague",
-    "translation": "Коллега"
+    "translation": "Коллега",
+    "model": null
   },
   {
     "original": "Easygoing Comrade",
-    "translation": "Добродушный сослуживец"
+    "translation": "Добродушный сослуживец",
+    "model": null
   },
   {
     "original": "Courteous Soldato",
-    "translation": "Вежливый Сольдато"
+    "translation": "Вежливый Сольдато",
+    "model": null
   },
   {
     "original": "Injured Fixer",
-    "translation": "Раненный Корректировщик"
+    "translation": "Раненный Корректировщик",
+    "model": null
   },
   {
     "original": "Fixer at the Dawn",
-    "translation": "Корректировщик Рассвета"
+    "translation": "Корректировщик Рассвета",
+    "model": null
   },
   {
     "original": "The Lord of Flies",
-    "translation": "Повелитель Мух"
+    "translation": "Повелитель Мух",
+    "model": null
   },
   {
     "original": "Dependable Section Director",
-    "translation": "Надёжный Директор Секции"
+    "translation": "Надёжный Директор Секции",
+    "model": null
   },
   {
     "original": "Levelheaded Fixer",
-    "translation": "Хладнокровный Корректировщик"
+    "translation": "Хладнокровный Корректировщик",
+    "model": null
   },
   {
     "original": "Inspiring Fixer",
-    "translation": "Воодушевляющий Корректировщик"
+    "translation": "Воодушевляющий Корректировщик",
+    "model": null
   },
   {
     "original": "Tensed Colleague",
-    "translation": "Напряжённый сослуживец"
+    "translation": "Напряжённый сослуживец",
+    "model": null
+  },
+  {
+    "original": "Dubois",
+    "translation": "Дюбуа",
+    "model": null
+  },
+  {
+    "original": "Four-legs",
+    "translation": "Четвероногий",
+    "model": null
+  },
+  {
+    "original": "Left State Councilor",
+    "translation": "Левый Государственный Советник",
+    "model": "좌의정"
+  },
+  {
+    "original": "Right State Councilor",
+    "translation": "Правый Государственный Советник",
+    "model": "우의정"
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "크로머언니"
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "맨얼굴크로머언니"
+  },
+  {
+    "original": "Court Bailiff",
+    "translation": "Судебный пристав",
+    "model": "법정 경위"
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "3층가위"
+  },
+  {
+    "original": "Annette",
+    "translation": "Аннет",
+    "model": "3층가위"
+  },
+  {
+    "original": "Palette",
+    "translation": "Палетт",
+    "model": "B2층염색실주인"
+  },
+  {
+    "original": "Putty",
+    "translation": "Патти",
+    "model": "퍼티"
+  },
+  {
+    "original": "L'Inamovible",
+    "translation": "Л’Инамовибль",
+    "model": "3층하이도메루주번데기"
+  },
+  {
+    "original": "L'Inamovible",
+    "translation": "Л’Инамовибль",
+    "model": "3층하이도메루주"
+  },
+  {
+    "original": "3F Floor Manager",
+    "translation": "Управляющий 3-м этажом",
+    "model": null
+  },
+  {
+    "original": "Annette",
+    "translation": "Аннет",
+    "model": null
+  },
+  {
+    "original": "Arc Floor Lamp",
+    "translation": "Дуговой Торшер",
+    "model": null
+  },
+  {
+    "original": "B2F Floor Manager",
+    "translation": "Упраляющая этажом B2",
+    "model": null
+  },
+  {
+    "original": "Blackthread",
+    "translation": "Чернонить",
+    "model": null
+  },
+  {
+    "original": "Bonehanger",
+    "translation": "Костяная вешалка",
+    "model": null
+  },
+  {
+    "original": "Boucher",
+    "translation": "Буше",
+    "model": null
+  },
+  {
+    "original": "Brand Director",
+    "translation": "Директор Бренда",
+    "model": null
+  },
+  {
+    "original": "Brand Manager",
+    "translation": "Менеджер Бренда",
+    "model": null
+  },
+  {
+    "original": "Cocoon",
+    "translation": "Кокон",
+    "model": null
+  },
+  {
+    "original": "Desperate Customer",
+    "translation": "Отчаянный покупатель",
+    "model": null
+  },
+  {
+    "original": "Destitute Customer",
+    "translation": "Обездоленный покупатель",
+    "model": null
+  },
+  {
+    "original": "Dorothea",
+    "translation": "Доротея",
+    "model": null
+  },
+  {
+    "original": "Dying Noir",
+    "translation": "Умирающий Нуар",
+    "model": null
+  },
+  {
+    "original": "Enthralled Noir",
+    "translation": "Очарованный Нуар",
+    "model": null
+  },
+  {
+    "original": "Exploited Dye",
+    "translation": "Используемый Краситель",
+    "model": null
+  },
+  {
+    "original": "Eye-shopping Customer",
+    "translation": "Ищущий глаза покупатель",
+    "model": null
+  },
+  {
+    "original": "Felt",
+    "translation": "Фетр",
+    "model": null
+  },
+  {
+    "original": "Flannel",
+    "translation": "Фланель",
+    "model": null
+  },
+  {
+    "original": "Flesh Lamp",
+    "translation": "Мясная лампа",
+    "model": null
+  },
+  {
+    "original": "Gustave",
+    "translation": "Гюстав",
+    "model": null
+  },
+  {
+    "original": "Happy Closet",
+    "translation": "Счастливый Гардероб",
+    "model": null
+  },
+  {
+    "original": "Hungry Kaki",
+    "translation": "Голодный Хаки",
+    "model": null
+  },
+  {
+    "original": "Impatient Customer",
+    "translation": "Нетерпеливый покупатель",
+    "model": null
+  },
+  {
+    "original": "Ionesco",
+    "translation": "Ионеско",
+    "model": null
+  },
+  {
+    "original": "Jeanne",
+    "translation": "Жанна",
+    "model": null
+  },
+  {
+    "original": "King of Needleworks",
+    "translation": "Король Иглоделия",
+    "model": null
+  },
+  {
+    "original": "Kromer's Sister",
+    "translation": "Сестра Кромер",
+    "model": null
+  },
+  {
+    "original": "L'Inamovible",
+    "translation": "Л’Инамовибль",
+    "model": null
+  },
+  {
+    "original": "Laboring Needlekin",
+    "translation": "Рабочий Иглолюд",
+    "model": null
+  },
+  {
+    "original": "Laboring Needlekin 2",
+    "translation": "Рабочий Иглолюд 2",
+    "model": null
+  },
+  {
+    "original": "Lamp Twin",
+    "translation": "Лампы-близнецы",
+    "model": null
+  },
+  {
+    "original": "Le Noir",
+    "translation": "Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Noir Guard",
+    "translation": "Страж Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Noir Hammer",
+    "translation": "Молот Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Noir Porter",
+    "translation": "Носильщик Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Rouge Porter",
+    "translation": "Носильщик Ле Руж",
+    "model": null
+  },
+  {
+    "original": "Leather Glove",
+    "translation": "Кожаная Перчатка",
+    "model": null
+  },
+  {
+    "original": "Mellow Leather Bed",
+    "translation": "Сонная кожаная кровать",
+    "model": null
+  },
+  {
+    "original": "Mimosa",
+    "translation": "Мимоза",
+    "model": null
+  },
+  {
+    "original": "Naked",
+    "translation": "Нагой",
+    "model": null
+  },
+  {
+    "original": "Needlekin Laborer",
+    "translation": "Рабочий Иглолюд",
+    "model": null
+  },
+  {
+    "original": "Needlekin Laborer 2",
+    "translation": "Рабочий Иглолюд 2",
+    "model": null
+  },
+  {
+    "original": "One-leg",
+    "translation": "Одноногая",
+    "model": null
+  },
+  {
+    "original": "Palette",
+    "translation": "Палетт",
+    "model": null
+  },
+  {
+    "original": "Putty",
+    "translation": "Патти",
+    "model": null
+  },
+  {
+    "original": "Queueing Customer",
+    "translation": "Покупатель в очереди",
+    "model": null
+  },
+  {
+    "original": "Queueing Noir",
+    "translation": "Нуар в очереди",
+    "model": null
+  },
+  {
+    "original": "Quillian",
+    "translation": "Квиллиан",
+    "model": null
+  },
+  {
+    "original": "Red Needlekin",
+    "translation": "Красный Иглолюд",
+    "model": null
+  },
+  {
+    "original": "Red-cushioned Stool",
+    "translation": "Табурет с красной подушкой",
+    "model": null
+  },
+  {
+    "original": "Skinhide Couch",
+    "translation": "Кожаная кушетка",
+    "model": null
+  },
+  {
+    "original": "Sous Chef",
+    "translation": "Су-шеф",
+    "model": null
+  },
+  {
+    "original": "Taxidermied Leather Curtain",
+    "translation": "Занавеска из выделанной кожи",
+    "model": null
+  },
+  {
+    "original": "The Crimson God",
+    "translation": "Багряный Бог",
+    "model": null
+  },
+  {
+    "original": "Thirsty Kaki",
+    "translation": "Жаждущий Хаки",
+    "model": null
+  },
+  {
+    "original": "Treatment Customer",
+    "translation": "Покупатель на процедуре",
+    "model": null
+  },
+  {
+    "original": "Two-piece",
+    "translation": "Двойка",
+    "model": null
+  },
+  {
+    "original": "Umar",
+    "translation": "Умар",
+    "model": null
+  },
+  {
+    "original": "뉴비1 npc",
+    "translation": "뉴비1 npc",
+    "model": null
+  },
+  {
+    "original": "크로머",
+    "translation": "크로머",
+    "model": null
   }
 ]
