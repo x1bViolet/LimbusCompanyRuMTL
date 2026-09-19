@@ -208,6 +208,103 @@ def test_cli_can_reuse_reference_and_skip_fonts(project: Path) -> None:
     assert not (output / "Font").exists()
 
 
+def test_cli_merges_rpg_tables_by_key(project: Path) -> None:
+    root = project.parent
+    _ = project.write_text(
+        project.read_text().replace(
+            'dialogue_files = ["RPGSystem/*.json"]',
+            'dialogue_files = ["RPGSystem/dialogue.json"]',
+        )
+    )
+    filename = "RPGSystem/rpg-loc-location-floor-1.json"
+    write_json(
+        root / "reference" / filename,
+        {
+            "dataList": [
+                {"key": "2", "text": "two"},
+                {"key": "1", "text": "one"},
+                {"key": "3", "text": "fallback"},
+            ]
+        },
+    )
+    write_json(
+        root / "localize" / filename,
+        {
+            "dataList": [
+                {"key": "1", "text": "один"},
+                {"key": "2", "text": "два"},
+                {"key": "4", "text": "extra"},
+            ]
+        },
+    )
+
+    main(["--config", str(project), "--output", "output"])
+
+    assert load_document(root / "output" / filename) == {
+        "dataList": [
+            {"key": "2", "text": "два"},
+            {"key": "1", "text": "один"},
+            {"key": "3", "text": "fallback"},
+        ]
+    }
+
+
+def test_cli_applies_all_matching_highlight_rules(project: Path) -> None:
+    root = project.parent
+    _ = project.write_text(
+        project.read_text()
+        + """
+[[close_highlight]]
+file_pattern = "Skills.json"
+path = "$.dataList[*].levelList[*].coinlist[*].coindescs[*].desc"
+[[close_highlight]]
+file_pattern = "Skills.json"
+path = "$.dataList[*].levelList[*].desc"
+"""
+    )
+    write_json(root / "reference/Skills.json", {"dataList": [{"id": 1}]})
+    write_json(
+        root / "localize/Skills.json",
+        {
+            "dataList": [
+                {
+                    "id": 1,
+                    "levelList": [
+                        {
+                            "desc": "Skill description",
+                            "coinlist": [{"coindescs": [{"desc": "Coin description"}]}],
+                        }
+                    ],
+                }
+            ]
+        },
+    )
+
+    main(["--config", str(project), "--output", "output"])
+
+    assert load_document(root / "output/Skills.json") == {
+        "dataList": [
+            {
+                "id": 1,
+                "levelList": [
+                    {
+                        "desc": 'Skill description<style="highlight"></style>',
+                        "coinlist": [
+                            {
+                                "coindescs": [
+                                    {
+                                        "desc": 'Coin description<style="highlight"></style>'
+                                    }
+                                ]
+                            }
+                        ],
+                    }
+                ],
+            }
+        ]
+    }
+
+
 def test_config_rejects_invalid_field_types(project: Path) -> None:
     _ = project.write_text(
         project.read_text().replace(

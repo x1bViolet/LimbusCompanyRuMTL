@@ -25,25 +25,29 @@ STORY_PATH = Path("story")
 KEYWORD_COLORS_PATH = Path("data/build/keyword_colors.txt")
 
 
-def entry_id(entry: JsonObject) -> str | int | float | None:
-    value = entry.get("id")
+def entry_id(entry: JsonObject, key: str = "id") -> str | int | float | None:
+    value = entry.get(key)
     if isinstance(value, (dict, list)):
         raise ValueError(f"Invalid entry ID: {value}")
     return value
 
 
 def merge_by_id(
-    reference: list[JsonObject], localized: list[JsonObject], file: Path
+    reference: list[JsonObject],
+    localized: list[JsonObject],
+    file: Path,
+    *,
+    key: str = "id",
 ) -> list[JsonObject]:
-    by_id = {entry_id(entry): entry for entry in localized}
+    by_id = {entry_id(entry, key): entry for entry in localized}
     if len(by_id) != len(localized):
         logger.debug(f"Duplicate ID in {file}")
     missing_ids = [
-        entry_id(entry) for entry in reference if entry_id(entry) not in by_id
+        entry_id(entry, key) for entry in reference if entry_id(entry, key) not in by_id
     ]
     if missing_ids:
         logger.debug(f"Unknown IDs in {file}: {missing_ids}")
-    return [by_id.get(entry_id(entry), entry) for entry in reference]
+    return [by_id.get(entry_id(entry, key), entry) for entry in reference]
 
 
 def merge_by_order(
@@ -112,7 +116,6 @@ def build(
         for rule in config.close_highlight:
             if fnmatch.fnmatch(relative_path.as_posix(), rule.file_pattern):
                 close_highlights(localized, rule)
-                break
 
         reference_rows = object_list(reference["dataList"])
         localized_rows = object_list(localized["dataList"])
@@ -121,7 +124,12 @@ def build(
         elif matches_any(relative_path, config.priority.order):
             rows = merge_by_order(reference_rows, localized_rows)
         else:
-            rows = merge_by_id(reference_rows, localized_rows, output_file)
+            rows = merge_by_id(
+                reference_rows,
+                localized_rows,
+                output_file,
+                key="key" if relative_path.parts[0] == "RPGSystem" else "id",
+            )
 
         result = reference.copy()
         result["dataList"] = list(rows)
