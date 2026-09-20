@@ -11,7 +11,7 @@
 Рассказчик: Даже если ради этого всем придётся взвалить его на свои плечи.
 
 # Original: Some wish for eternity.
-Рассказчик: Иные жаждут вечности.
+Рассказчик: Многие жаждут вечности.
 
 # Original: They sing its name in reverence.
 Рассказчик: Они благоговейно воспевают её имя.
@@ -20,7 +20,7 @@
 Рассказчик: Желая, чтобы настоящее длилось вечно.
 
 # Original: Because they are nailed in place, so that they may not waver.
-Рассказчик: Ведь они пригвождены к месту, дабы не дрогнуть.
+Рассказчик: Ведь они пригвождены к месту, дабы никогда не дрогнуть.
 
 # Original: Sounds like a serious eulogy, doesn't it?
 Рассказчик: Звучит как торжественная похоронная речь, не правда ли?
@@ -38,7 +38,7 @@
 Рассказчик: Дитя, готовое выбраться из утробы на ложе страсти, заставили уснуть прежде, чем оно издало первый крик.
 
 # Original: You need not carry remorse in your heart, for it could not yet have known what pain was.
-Рассказчик: Не нужно носить в сердце раскаяние, ведь оно ещё не могло знать, что такое боль.
+Рассказчик: Не нужно терзаться угрызениями совести, ведь оно ещё не могло знать, что такое боль.
 
 # Original: The last of the Rouges died, knowing that they failed to protect the birth of their new God, their last hope.
 Рассказчик: Последние Ружи умерли, зная, что не сумели уберечь своего нового бога — свою последнюю надежду — и дать ему родиться.
@@ -67,7 +67,7 @@
 Рассказчик: Вся человеческая жизнь — лишь путь к смерти. Исключений нет.
 
 # Original: Some fear that inevitability, which is why they pursue permanence.
-Рассказчик: Иные страшатся этой неизбежности, а потому стремятся к постоянству.
+Рассказчик: Многие страшатся этой неизбежности, а потому стремятся к постоянству.
 
 # Original: Now, just because all of humanity is on a journey toward death doesn't mean they desire it. At least that's not what I think.
 Рассказчик: Но то, что всё человечество движется к смерти, ещё не значит, что оно её желает. По крайней мере, я так не думаю.
@@ -114,7 +114,7 @@
 Рассказчик: Какое ответвление ты выберешь, когда достигнешь конца одного из путей?
 
 # Original: Will you choose a nail, or a hammer?
-Рассказчик: Выберешь гвоздь или молот?
+Рассказчик: Выберешь ли ты гвоздь или молот?
 
 # Original: Whichever it may be, the Grand Magasin, as it exists now, will consolidate into itself and, after a time that is almost indistinguishable from eternity passes, become an ancient tree.
 Рассказчик: Каков бы ни был выбор, Гран-Магазэн в своём нынешнем виде уплотнится внутри себя и, спустя время, почти неотличимое от вечности, станет древним деревом.
