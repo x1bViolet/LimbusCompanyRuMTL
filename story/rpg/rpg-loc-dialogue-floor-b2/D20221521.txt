@@ -1,0 +1,29 @@
+﻿# Original: A sound resembling the rumble of a train comes from beyond the door.
+Рассказчик: Из-за двери доносится звук, похожий на грохот поезда.
+
+# Original: As I move closer to investigate, the light leaking through the gap grows steadily brighter.
+Рассказчик: Я подхожу ближе, чтобы разобраться, и свет, пробивающийся сквозь щель, становится всё ярче.
+
+# Original: <Aaargh!!>
+Данте: <А-а-а!!>
+
+# Original: ...! Executive Manager!
+Отис: ...! Исполнительный Менеджер!
+
+# Original: Are you unharmed?! What did you see?
+Отис: Вы не пострадали?! Что вы увидели?
+
+# Original: <I heard something like a train... and then this huge flash of light came through...>
+Данте: <Я услышал что-то похожее на поезд... а потом оттуда хлынул ослепительный свет...>
+
+# Original: Outis scrutinizes every inch of the gap, then points as though she has found something.
+Рассказчик: Отис тщательно осматривает каждый сантиметр щели, а затем указывает на что-то, словно сделала находку.
+
+# Original: Something is lodged inside. Meursault, can you remove it?
+Отис: Внутри что-то застряло. Мерсо, можешь извлечь?
+
+# Original: I can.
+Мерсо: Могу.
+
+# Original: Meursault removes an eyeball from the gap.
+Рассказчик: Мерсо извлекает из щели глазное яблоко.

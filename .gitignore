@@ -177,3 +177,5 @@ cython_debug/
 
 !/data/build
 /.vs
+
+.claude

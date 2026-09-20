@@ -16,6 +16,18 @@ repo = "x1bViolet/Limbus-Localization-Files"
 branch = "English"
 path = ""
 
+[rpg]
+dialogue_files = [
+  "RPGSystem/rpg-loc-dialogue-floor-1.json",
+  "RPGSystem/rpg-loc-dialogue-floor-2.json",
+  "RPGSystem/rpg-loc-dialogue-floor-3.json",
+  "RPGSystem/rpg-loc-dialogue-floor-4.json",
+  "RPGSystem/rpg-loc-dialogue-floor-b1.json",
+  "RPGSystem/rpg-loc-dialogue-floor-b2.json",
+  "RPGSystem/rpg-loc-dialogue-route-a.json",
+  "RPGSystem/rpg-loc-dialogue-common-a1c10p1.json",
+]
+
 [[font_rules."Enemies*.json"]]
 font = "bebas"
 path = '$.dataList[*].name'
