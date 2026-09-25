@@ -1,0 +1,17 @@
+﻿# Original: Blink.
+Рассказчик: Миг.
+
+# Original: Blink.
+Рассказчик: Миг.
+
+# Original: Bliiiiink.
+Рассказчик: Ми-и-и-иг.
+
+# Original: The lamp seems to blink gratefully.
+Рассказчик: Лампа, кажется, мигает в знак благодарности.
+
+# Original: BlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlinkBlink
+Рассказчик: МигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМигМиг
+
+# Original: ... Not grateful, got it.
+Рассказчик: ... Не в знак благодарности, понятно.
