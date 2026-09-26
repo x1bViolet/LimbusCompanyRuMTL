@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40004101,
+      "name": "The Nascent Crimson God",
+      "desc": "When this unit gains [Charge], gains [ChargeRouge] instead\n\nEncounter Start: Gain 1 [ChargeRouge] Potency\n\nTurn Start: At 2+ [ChargeRouge] Potency, gain +([ChargeRouge] Potency x 2) [ChargeRouge] Count",
+      "summary": "Gain [ChargeRouge]",
+      "flavor": "Юный бог, но всё же бог."
+    },
+    {
+      "id": 40004102,
+      "name": "Pulsating Nature",
+      "desc": "Gain +1 [ChargeRouge] Count every time [Laceration] effect is activated in an Encounter",
+      "summary": "Gain [ChargeRouge] Count",
+      "flavor": "Почему... кровь заставляет мое сердце биться с таким волнением?"
+    },
+    {
+      "id": 40004103,
+      "name": "The Adventure",
+      "desc": "Gain the following effects based on [ChargeRouge] Potency on self\n- 1+: For every [ChargeRouge] Count, deal +2% damage and heal +10% HP on target (max 20%, 100% respectively; rounded down)\n- 2+: Base Power +1 for every 2 [ChargeRouge] Potency on self\n- 3+: Turn Start: If this unit does not have [GourmandiseAlly], and if this unit has 15+ [ChargeRouge] Count, consume all [ChargeRouge] Count and gain 3 [GourmandiseAlly]\n- 4+: Skill Slot +1\n- 5+: Encounter Start: Gain 3 [GourmandiseAlly] and inflict 3 [BloodyMucusAlly] on all enemies",
+      "summary": "Effect enhanced based on [ChargeRouge] Potency on self",
+      "flavor": "С каждым шагом, ковыляя вслед за своими первыми опекунами, дитя познает мир, торговый центр... и себя самого, ведь её глаза были самой чистой и естественной частью её тела."
+    },
+    {
+      "id": 40004104,
+      "name": "A Helping Hand",
+      "desc": "When an ally is Staggered during an Encounter, use \"Grab My Hand\" on the said ally (2 times per turn)"
+    },
+    {
+      "id": 40004105,
+      "name": "Body Out of Control",
+      "desc": "If this unit has [GourmandiseAlly], gain the following effects:\n- Heal HP equal to 20% of damage dealt\n- On Skill Use, gain +3 [Laceration] Count\n- On Hit using a Skill, gain 1 [Laceration]",
+      "summary": "Gain 1 [Laceration]",
+      "flavor": "Хотя руки, ноги и всё остальное в её теле кажется дитя чужим, слабое биение в самом её ядре вскоре начнет свою безумную пульсацию."
+    },
+    {
+      "id": 40004107,
+      "name": "Leather-sewing Nail",
+      "desc": "When this unit fails to defeat an enemy using its Attack Skills, use \"I'll End It for You...\" on the said enemy (once per turn)",
+      "flavor": "Они сказали, что мне нужен толстый, крепкий гвоздь, чтобы пробить кожу для шитья. Если не получилось, нужно просто попробовать снова...!"
+    },
+    {
+      "id": 40004108,
+      "name": "Fate Lost",
+      "desc": "Lose this Encounter if this unit is killed",
+      "flavor": "Можно заблудиться и сойти на неверную тропу, но умышленное неповиновение или отклонение от потока запрещены «им»."
+    },
+    {
+      "id": 40004202,
+      "name": "Fate Lost",
+      "desc": "Lose this Encounter if this unit is killed",
+      "flavor": "Можно заблудиться и сойти на неверную тропу, но умышленное неповиновение или отклонение от потока запрещены «им»."
+    },
+    {
+      "id": 40004203,
+      "name": "Le Visqueux-Abject",
+      "desc": "This unit takes damage only from Skills mainly targeting this unit, and it takes no other damage\n\nUpon entering the Encounter for the first time, generate [BuffetField] on the field\n\nTurn Start: Targets within the [BuffetField] gain the following effects:\n- Allies (including this unit)\n  · Heal 5% HP\n  · Gain +4 [Charge] Count\n  · Gain 1 [Protection]\n  · If the affected ally is a \"Le Rouge\" unit, gain 2 [Enhancement]\n  · E.G.O Skills deal +50% damage\n\n- Enemies\n  · Gain 3 [AttackDown]\n  · Gain 3 [DefenseDown]\n  · Gain 2 [BloodyMucusAlly]",
+      "flavor": "В бесконечном пиршестве Багряный Бог поглощает и поглощает; то, что сожрано, затем переваривается и выделяется в виде поля слизи вокруг него.\nТаков итог потребления, где грань между собой и чужим стирается. Является ли это флегматичное выделение частью меня, или же оно принадлежит другому? Внутри этой границы всё, что принадлежит мне, пульсирует, в то время как всё остальное распадается на части.\n\nИбо я боюсь того, что лежит за этой чертой."
+    },
+    {
+      "id": 40004204,
+      "name": "La Fin de l'Enfance",
+      "desc": "Encounter Start: Gain 5 [ChargeRouge] Potency\n\nTurn End: At 15+ [ChargeRouge] Count, equip \"La Nausée\" Skill\nEvery Turn Start: Gain +20 [Aggro]",
+      "flavor": "Кто определяет конец детства?\n\nБагряное дитя взрослело на протяжении всего приключения, формируемое пережитым опытом и рисующее собственное будущее в конце пути — или так она думала. Её детство внезапно оборвалось, а вместе с ним и приключение; это никогда не было тем, что она могла бы завершить на собственных условиях.\n\nКонец детства — это внезапное, жестокое вторжение реальности внешнего мира, скорее принудительное уведомление, чем обещанный ритуал: «Ты больше не ребенок»."
+    }
+  ]
+}

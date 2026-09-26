@@ -1,0 +1,256 @@
+﻿{
+  "dataList": [
+    {
+      "id": 150301,
+      "name": "Ceaseless Wailing",
+      "desc": "Encounter Start: Enter Panic state\n\nIf this unit is in Panic state, apply the following effects:\n- <color=#ff6000><mark color=#ff000040><b><u>All Attacks target Pwie</color></mark></b></u>\n- On Skill Use, if Pwie is the main target, gain Clash Power and Base Power\n- Combat Start: Convert all Coins into [SuperCoin]s",
+      "flavor": "Детей древнего создания больше нет."
+    },
+    {
+      "id": 150302,
+      "name": "Tangled Black Thread",
+      "desc": "The effects of this unit's Skills, Low Morale, and Panic inflict [TangleBlackYarn] on the enemy\n※ [TangleBlackYarn] can be reduced either by <color=#ff6000><mark color=#ff000040><b><u>using Defense Skills or via certain Skills of this unit</color></mark></b></u>\nWhen hit, activate the following effects:\n- Gain 1 [SickBlackYarn]\n- If the Skill that hit this unit is a <color=#ff6000><mark color=#ff000040><b><u>Slash Skill</color></mark></b></u>, gain 1 additional [SickBlackYarn]\n- If the Skill that hit this unit has <color=#ff6000><mark color=#ff000040><b><u>5+ Atk Weight</color></mark></b></u>, gain [HeavyBlackYarn] next turn (once per turn)",
+      "flavor": "Черной нити, обмотанной вокруг его тела, раньше там не было. По чистой случайности, когда предыдущая эпоха уступила место следующей, эти нити обвились вокруг тела древнего создания. Укутанное нитями, оно дожило до Эпохи торгового центра. Теперь же эти черные нити начинают расплетаться.\n\nДо Эпохи Аквариума были Эпоха Плазы, Эпоха Бомбоубежищ, Эпоха Суда и многие другие. Их названия и формы могли различаться, но суть, двигавшая механизмы Системы Сизифа, всегда оставалась неизменной.\n\nС каждой прошедшей Эпохой люди приспосабливались к изменившемуся миру, стойко переживая одну эру за другой в своем человеческом облике.\n\nВ нитях нынешней Эпохи запуталось наследие не просто двух предшествующих Эпох, но каждой Эпохи, что оседала здесь слой за слоем."
+    },
+    {
+      "id": 150303,
+      "name": "Into the Waters of Eld",
+      "desc": "If a Part becomes <color=#ff6000><mark color=#ff000040><b><u>Staggered</color></mark></b></u>, remove <color=#ff6000><mark color=#ff000040><b><u>1 Stagger Threshold from other Parts and end the turn</color></mark></b></u>; then, all Parts gain [HideBlackYarn] next turn\n\n<color=#ff6000><mark color=#ff000040><b><u>If [HideBlackYarn] expired due to being hit</color></mark></b></u>,\n- Gain 10 [SickBlackYarn]\n- If [SickBlackYarn] was gained beyond its max cap, gain 3 Fragile this turn and next turn\n\nTurn End: If [HideBlackYarn] expired,\n- Gain (7 - remaining Potency) [SickBlackYarn]\n- Gain 1 [AngryBlackYarn] next turn",
+      "flavor": "В объятия моря ушедшей эпохи, где когда-то оно плавало столь естественно и свободно, сколь это вообще было возможно."
+    },
+    {
+      "id": 150304,
+      "name": "Lingering Dampness",
+      "desc": "Take less HP and SP damage from [Combustion], [Laceration], [Vibration], [Burst], and [Sinking]; -50% to Stagger Threshold raised by [Vibration]\n\nThis unit's Panic Type does not change when inflicted with an effect that changes Panic Types\nTurn End: If this unit is in Panic, SP returns to 0",
+      "flavor": "Аквариума «Сизиф» больше нет, но это тело всё еще хранит слабый след вод тех дней — влагу, которая еще не обратилась в нить."
+    },
+    {
+      "id": 150101,
+      "name": "A Doll Molded from Clay",
+      "desc": "Encounter Start: Heal to max HP\n\nThe Core and the Part do not take damage from [Combustion] and [Laceration]",
+      "flavor": "Эта фарфоровая кожа произошла из глины."
+    },
+    {
+      "id": 150102,
+      "name": "Unwithering Flower",
+      "desc": "Combat Start: Gain 1 [AlriunePetal]\n\nIf this unit becomes Staggered,\n- Gain 2 [Vulnerable] next turn\n- Heal 20 SP on Sinners and Assist Units\n- Turn Start: If this unit recovered from Stagger, reset [AlriunePetal] to 1\n\nTurn Start: If no enemies have [FlowerLaurelWreath], <color=#ff6000><mark color=#ff000040><b><u>equip the \"Fragrant Laurel Wreath\" Skill</color></mark></b></u>\n- Equip the said Skill next turn if this unit equipped \"Bearing the hope to return to dust...\" this turn\n\n<color=#ff6000><mark color=#ff000040><b><u>Take -50% damage from Skills used by enemies that do not have [FlowerLaurelWreath]</color></mark></b></u>\n<color=#ff6000><mark color=#ff000040><b><u> Take +150% damage from enemies that have [FlowerLaurelWreath]</color></mark></b></u>",
+      "flavor": "Цветы увядают. Затем они распускаются вновь."
+    },
+    {
+      "id": 150103,
+      "name": "Spring's Advent",
+      "desc": "Deal 20 SP damage to Staggered enemies\n\nTurn Start: <color=#ff6000><mark color=#ff000040><b><u>If there is a target in Panic or in Corrosion, use \"... It shall go back to the grave with all that desires to live\" on the said target</color></mark></b></u> (max 2 times per turn, prioritizes the slowest enemies in ascending order of Speed, excluding Assist Units)\n\nIf the said Skill killed the target, summon 1 \"One Who Emerged from the Earth\" next turn\n- This effect does not activate when there are 4 \"One Who Emerged from the Earth\" on the field",
+      "flavor": "Когда придет весна, оно расцветет."
+    },
+    {
+      "id": 150201,
+      "name": "From the Earth",
+      "desc": "This unit does not take damage from [Combustion] and [Laceration]\n\n<color=#ff6000><mark color=#ff000040><b><u>+100% to Stagger Threshold raised by [Vibration]</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>This unit is defeated when Staggered</color></mark></b></u>",
+      "flavor": "Обратно в землю."
+    },
+    {
+      "id": 151901,
+      "name": "Ultra-High-Speed SPM",
+      "desc": "If target's <color=#ff6000><mark color=#ff000040><b><u>Speed is slower than this unit's, Clash Power +3</color></mark></b></u>\n\n<color=#ff6000><mark color=#ff000040><b><u>If this unit has 11+ [ChargeKhaki] Count at the end of the turn this unit used a Skill that consumes [ChargeKhaki] Count</color></mark></b></u>, use a powerful Skill\n\nAt 50% or less HP, use a powerful Skill (once per Encounter)",
+      "summary": "If target's Speed is slower than this unit's, gain Clash Power",
+      "flavor": "Сестренка может делать до 10 000 стежков в минуту."
+    },
+    {
+      "id": 151902,
+      "name": "Nailed Stitch",
+      "desc": "Deal +40% damage to Staggered or immobilized targets",
+      "flavor": "Нет ничего проще, чем сшивать то, что не может двигаться."
+    },
+    {
+      "id": 151903,
+      "name": "Color Stitch",
+      "desc": "If this unit has [SpreadingDye], inflict 1 [StickyDye] against targets this unit's Skill hit\n\nApply the following effects to targets that have [ThreadDye]:\n- Skills inflict +([ThreadDye] Potency) more [Laceration] Potency and Count\n- When inflicting [StickyDye] via the effect above, inflict 1 [StickyDye] on a random enemy that has [ThreadDye], excluding the target that has been inflicted \n\nDoes not inflict [ThreadDye] on Skill targets that have [Inactible]",
+      "flavor": "Сшивай ткань, Сестренка. А я буду красить вместе с тобой."
+    },
+    {
+      "id": 151904,
+      "name": "Stitch Count Regulator Adjustment",
+      "desc": "Encounter Start: Heal max HP and 45 SP\n\nGain 1 [ChargeKhaki] for every 10 cumulative [ChargeKhaki] Count this unit consumed in this Encounter"
+    },
+    {
+      "id": 149501,
+      "name": "Alteration",
+      "desc": "Turn Start: <color=#ff6000><mark=#ff000040><b><u>Inflict 1 [TailoringTarget] on the Sinner that dealt the most damage</u></b></mark></color> to this unit last turn and use the \"Patterning\" Skill\n- If the [TailoringTarget] Sinner <color=#ff6000><mark=#ff000040><b><u>has 9 [ScissorsMark]</u></b></mark></color>, activate \"Patterning\" as <color=#ff6000><mark=#ff000040><b><u>\"Surfile à la Chaîne\"</u></b></mark></color> instead\n\nEvery time this unit is hit by a Sinner,\n- Inflict 1 [ScissorsMark] on the said Sinner (max 5 per turn per Sinner)\n- Gain +1 [ChargeKhaki] Count (max 5 per turn per Sinner)\n\n<color=#ff6000><mark=#ff000040><b><u>Gain 3 [ResultEnhancement] every time this unit is hit by a Sinner that has [TailoringTarget] (max 9 per turn)</u></b></mark></color>",
+      "flavor": "Говорят, наряд становится по-настоящему завершенным лишь после подгонки. Если только он не был сшит по индивидуальным меркам, его нужно подгонять до тех пор, пока он не сядет по фигуре.\n\nИ это касается не только одежды. Всё, что берется извне, сперва должно быть подогнано под себя, прежде чем это можно будет носить, с этим жить и приладить к сердцу."
+    },
+    {
+      "id": 149503,
+      "name": "Tailoring",
+      "desc": "At Encounter Start or at the start of the turn this unit recovered from Stagger, gain 30 [FinishedFabric]\n\nApply the [PanicChangeLock] effect\nTurn End: If this unit is in Panic, change SP to 30\n\nTurn Start:\n- <color=#ff6000><mark=#ff000040><b><u>Gain Shield equal to ([FinishedFabric] Stack)% HP</u></b></mark></color> (max 30%)\n- Heal SP equal to [FinishedFabric] Stack",
+      "flavor": "Кройка означает придание ткани формы по выкройке. Кройка дает наряду форму, в то время как подгонка делает его пригодным для носки.\n\nЗначит, для ткани сама кройка — это форма подгонки. Будучи раскроенной, ткань принимает очертания, отражающие её собственные свойства, становясь тем нарядом, который задумал закройщик."
+    },
+    {
+      "id": 149504,
+      "name": "Scissors That Do Not Rest",
+      "desc": "Every time Annette the Alterationist is hit by a Sinner, <color=#ff6000><mark=#ff000040><b><u>raise Stagger Threshold equal to 0.8% HP</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>If this unit is Staggered, lose all Shield, [FinishedFabric], and [LargeTailoringShears]; then, gain 3 [Vulnerable]</u></b></mark></color>\n\nTurn Start: At 60% or less HP,\n- Gain 1 [ResultEnhancement] and 1 [SlashDamageUp] for every 20% missing HP (max 3 respectively)\n- Convert the final Coin of \"Trimming\" and Coin 2 of \"Cutting\" to [SuperCoin]",
+      "flavor": "Тело, чья самоценность была выкована работой по перекройке, продолжает резать без конца, ведомое желанием подгонять и кроить вечно.\n\nДаже когда тело разваливается на части, она не может заставить себя прекратить подгонять и резать. Ей суждено отсекать всё лишнее, но она не способна отсечь оковы от самой себя."
+    },
+    {
+      "id": 149505,
+      "name": "Inertia of Drifting",
+      "desc": "Gain 1 [ChargeKhaki] Potency for every 10 cumulative [ChargeKhaki] Count this unit consumes in this Encounter\n\nAt 3+/5+ [ChargeKhaki] Potency, [ChargeKhaki] Count max cap +5/+10",
+      "flavor": "Они дрейфуют по течению ценностей, сформированных Эпохой торгового центра, подгоняемые своей инерцией; и чем сильнее становится эта инерция, тем меньше они способны прекратить этот дрейф."
+    },
+    {
+      "id": 150601,
+      "name": "Conservation",
+      "desc": "Gain 1 [ChargeNoir] Potency for every 10 cumulative [ChargeNoir] Count this unit consumes in this Encounter\n[ChargeNoir] Count max cap +10"
+    },
+    {
+      "id": 150602,
+      "name": "Malleus Promissionis",
+      "desc": "On Hit, or when hit, gain +1 [ChargeNoir] Count",
+      "flavor": "Молот забивает гвозди. Этот молот не бьет ни по чему, кроме гвоздей. Всё, по чему он бьет — это гвоздь. Таков был уговор."
+    },
+    {
+      "id": 150603,
+      "name": "Formation Conservation",
+      "desc": "Boost the level of \"Le Noir\" allies\n\nAll \"Le Noir\" allies take -5% damage for every living \"Le Noir\" ally on the field\nOn death of a \"Le Noir\" ally, all \"Le Noir\" allies gain 1 [NoirSquareCollapse] for the rest of this Encounter (including newly summoned units)",
+      "flavor": "Каждый остается на своем посту и преданно исполняет возложенный на него долг. Вместе они образуют строй, и этот строй становится образом, сохраняющим единое целое. Исполняйте свое поручение преданно, каждый на отведенном ему месте."
+    },
+    {
+      "id": 150401,
+      "name": "Le Noir: Fabric",
+      "desc": "Upon entering the Encounter for the first time, gain 5 [NoirBindArmor]\n\nTurn Start: Gain Shield equal to ([NoirBindArmor] Stack)% of this unit's max HP\n\nWhen Staggered, lose all [NoirBindArmor]\nTurn Start: When this unit recovers from Stagger, gain 5 [NoirBindArmor]",
+      "flavor": "Камвольная шерсть «Ле Нуар» облегает тело подобно доспехам, подчеркивая его под строгим, неизменным силуэтом."
+    },
+    {
+      "id": 150402,
+      "name": "Conservation",
+      "desc": "Apply the following effects based on cumulative [ChargeNoir] Count this unit consumes in this Encounter:\n- Gain 1 [NoirBindArmor] for every 3 cumulative [ChargeNoir] Count consumed\n- Gain 1 [ChargeNoir] for every 10 cumulative [ChargeNoir] Count consumed\n\nAt 3+ [ChargeNoir] Potency, max [ChargeNoir] Count +5",
+      "flavor": "Сила сжата, собрана и зафиксирована на месте. Порой требуется куда больше сил, чтобы предотвратить перемены, чем вызвать их."
+    },
+    {
+      "id": 150403,
+      "name": "Quality Preservation",
+      "desc": "When hit while this unit has Shield, gain +1 [ChargeNoir] Count\n\nAt 10+ [ChargeNoir] Count, use a powerful Skill",
+      "flavor": "Качество товара должно строго контролироваться и сохраняться."
+    },
+    {
+      "id": 150404,
+      "name": "Fabric Density Disparity",
+      "desc": "At 3+/5+ [ChargeNoir] Potency, inflict +1/+2 more [Vibration] Potency\n\nOn Skill Use, if this unit's Defense Level is higher than the target's, deal +3% damage for every Defense Level difference (max 30%)\n- If this unit's Defense Level is 5+ levels higher, Base Power +1",
+      "flavor": "Нуары сокрушают всё, что мягче их собственной ткани."
+    },
+    {
+      "id": 150501,
+      "name": "Le Noir: Fabric",
+      "desc": "Upon entering the Encounter for the first time, gain 5 [NoirBindArmor]\n\nTurn Start: Gain Shield equal to ([NoirBindArmor] Stack)% of this unit's max HP\n\nWhen Staggered, lose all [NoirBindArmor]\nTurn Start: When this unit recovers from Stagger, gain 5 [NoirBindArmor]",
+      "flavor": "Камвольная шерсть «Ле Нуар» облегает тело подобно доспехам, подчеркивая его под строгим, неизменным силуэтом."
+    },
+    {
+      "id": 150502,
+      "name": "Conservation",
+      "desc": "Apply the following effects based on cumulative [ChargeNoir] Count this unit consumes in this Encounter:\n- Gain 1 [NoirBindArmor] for every 3 cumulative [ChargeNoir] Count consumed\n- Gain 1 [ChargeNoir] for every 10 cumulative [ChargeNoir] Count consumed\n\nAt 3+ [ChargeNoir] Potency, [ChargeNoir] Count max cap +5",
+      "flavor": "Сила сжата, собрана и зафиксирована на месте. Порой требуется куда больше сил, чтобы предотвратить перемены, чем вызвать их."
+    },
+    {
+      "id": 150503,
+      "name": "Inspection Preservation",
+      "desc": "At 10+ [ChargeNoir] Count, use a powerful Skill",
+      "flavor": "Качество должно пройти проверку, и сохранность не должна пострадать в этом процессе."
+    },
+    {
+      "id": 150504,
+      "name": "Fabric Density Disparity",
+      "desc": "At 3+/5+ [ChargeNoir] Potency, inflict +1/+2 more [Vibration] Potency\n\nOn Attack Skill Use, if this unit's Defense Level is higher than the target's, deal +3% damage for every Defense Level difference (max 30%)\n- If this unit's Defense Level is 5+ levels higher, Base Power +1",
+      "flavor": "«Ле Нуар» сокрушает всё, что мягче их собственной ткани."
+    },
+    {
+      "id": 148801,
+      "name": "Reaping Raw Hide: Original Sin Style",
+      "desc": "Turn Start: When there are 2 or fewer Tanned Prisoners on the field, gain additional Slot\nTurn End: Gain 1 [AttackDmgUp] next turn for every <color=#ff6000><mark=#ff000040><b><u>Tanned Prisoner on the field</u></b></mark></color>",
+      "flavor": "Кожа нарушителя сдирается, а грех, вцепившийся в неё, соскабливается подчистую, оставляя для сбора лишь чистую шкуру."
+    },
+    {
+      "id": 148802,
+      "name": "Retanning Preparation",
+      "desc": "Gain additional Slot when there is an ally, excluding this unit, with less than 80% HP on the field",
+      "flavor": "Как только грех снова просачивается в кожу, Кожевница забирает её и вычищает всё заново."
+    },
+    {
+      "id": 148803,
+      "name": "Tannery of the Original Sin: Full Operation",
+      "desc": "At less than 50% Core HP, end the turn and enter a new pattern; all allies, including this unit, gain [RestrictFailed] for the rest of this Encounter",
+      "flavor": "Спрос взлетел до небес, в то время как сырую кожу стало доставать лишь труднее. На кожу первородных грешников когда-то никто бы даже не взглянул. Затем один сезон изменил всё: спрос подскочил, цены взмыли ввысь, и то, что раньше продавалось за бесценок или просто выбрасывалось, стало желанным материалом.\n\nТеперь даже изъяны на её поверхности преподносят как характер и продают как часть шарма."
+    },
+    {
+      "id": 148804,
+      "name": "Rules of the Tannery",
+      "desc": "Starting from Turn 2, randomly inflict 1 of the following effects on 3 random enemies at the start of each turn\n- [RestrictMob]\n- [RestrictBoss]\n- [RestrictTier1]\n- [RestrictDef]\n\nWhen a Rule is violated, inflict 1 [RestrictDenied]",
+      "flavor": "То, что отделяет кусок мяса от кожи — это строгий режим дубления, подчиненный суровым правилам."
+    },
+    {
+      "id": 149101,
+      "name": "Tanned Prisoner",
+      "desc": "On Death, the Overseer permanently loses 1 Defense Level for the rest of this Encounter"
+    },
+    {
+      "id": 150604,
+      "name": "The Battle Continues",
+      "desc": "Start this Encounter with 80% HP and 45 SP"
+    },
+    {
+      "id": 151001,
+      "name": "The Sewing Commences",
+      "desc": "Turn Start: Inflict [NiddleExpected] on 2 random enemies"
+    },
+    {
+      "id": 151002,
+      "name": "Handmade",
+      "desc": "Skill Final Power +1 for every Needlekin on the field",
+      "flavor": "Ручное шитье не держится на одних лишь руках. Нужна целая плеяда опытных ремесленников, чтобы вдохнуть в него жизнь."
+    },
+    {
+      "id": 151003,
+      "name": "Unending, Unavoidable Stream of Customer Complaints",
+      "desc": "\"Cry of the Cocoon\" is heard every \"multiple of 3\" turns\nUpon entering Phase 2, \"Cry of the Cocoon\" continues to be heard every turn\n\nThis unit cannot be immobilized in the turn \"Cry of the Cocoon\" is heard\n\nIf this unit's HP is brought past its Stagger Threshold, gain 2 [Vulnerable] next turn",
+      "flavor": "Голоса просачиваются из кокона.\n\n«Меньше 80 круток в две нити? Это даже не ткань!»\n«Почему петлицы не горизонтальные?»\n«Машинный трикотаж джерси? Серьезно?»\n«Почему кромка селвидж не красная?»\n«Это даже не прошло декатировку!»\n«Всё, что ниже Супер 150 — дешевая тряпка, очевидно же».\n«Думаешь, шкала Супер — это просто толщина пряжи? Диаметр и номер пряжи — это вообще разные вещи. Ты разве не знал?»\n«Ты подшиваешь край на Юнион Спешал, да? Ну еще бы!»\n«Это сырой деним? ... Оу. Селвидж?»\n«Постой... количество стежков на дюйм слишком ровное. Ты ведь использовал швейную машинку, не так ли?»\n«Это не индпошив, если оно сшито не вручную».\n«...Это даже не миланская петлица».\n«Сорочечная ткань должна быть свыше 200 номеров».\n«Угх, я вижу стежки снаружи».\n«Вот, я вижу два ряда стежков вот там. Забраковано».\n«Что это вообще за обработка шва?»\n«В три нити, минимум»."
+    },
+    {
+      "id": 149604,
+      "name": "Shower of Stinging Sunshine",
+      "desc": "This unit's level is raised due to the influence of the sunshine\n\nEncounter Start: Gain [GoldenLeatherEnhance]",
+      "flavor": "Для тех, кто внимает теплу солнечного света, его сияние отзывается еще более палящим, ослепительным и яростным."
+    },
+    {
+      "id": 148805,
+      "name": "The Battle Continues",
+      "desc": "Start this Encounter with 90% HP and 45 SP"
+    },
+    {
+      "id": 148305,
+      "name": "Shower of Stinging Sunshine",
+      "desc": "This unit's level is raised due to the influence of the shower of stinging sunshine\n\nEncounter Start: Gain 2 [ChargeNoir] Potency and +15 [ChargeNoir] Count\n\nStart the Encounter with 30 SP and 1000 persistent Shield\n",
+      "flavor": "Для тех, кто внимает теплу солнечного света, его сияние отзывается еще более палящим, ослепительным и яростным."
+    },
+    {
+      "id": 1590001,
+      "name": "Shower of Stinging Sunshine",
+      "desc": "This unit's level is raised due to the influence of the sunshine",
+      "flavor": "Для тех, кто внимает теплу солнечного света, его сияние отзывается еще более палящим, ослепительным и яростным."
+    },
+    {
+      "id": 149608,
+      "name": "Unending, Unavoidable Stream of Customer Complaints",
+      "desc": "\"Cry of the Cocoon\" continues to be heard every turn\nCannot be immobilized[TabExplain]"
+    },
+    {
+      "id": 151101,
+      "name": "Shower of Stinging Sunshine",
+      "desc": "This unit's level is raised due to the influence of the shower of stinging sunshine\n\nEncounter Start: Gain [SapsareeGold]",
+      "flavor": "Для тех, кто внимает теплу солнечного света, его сияние отзывается еще более палящим, ослепительным и яростным."
+    },
+    {
+      "id": 151201,
+      "name": "Shower of Stinging Sunshine",
+      "desc": "This unit's level is raised due to the influence of the shower of stinging sunshine\n\nEncounter Start: Heal all HP and gain [GoldenManager]",
+      "flavor": "Для тех, кто внимает теплу солнечного света, его сияние отзывается еще более палящим, ослепительным и яростным."
+    }
+  ]
+}
