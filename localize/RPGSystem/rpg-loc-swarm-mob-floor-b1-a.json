@@ -1,0 +1,32 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_baggar",
+      "displayName": "Кожаный кошелек"
+    },
+    {
+      "key": "swarm_collecter_type_e",
+      "displayName": "Дегустатор глазами"
+    },
+    {
+      "key": "swarm_collecter_type_m",
+      "displayName": "Дегустатор ртом"
+    },
+    {
+      "key": "swarm_collector_type_n",
+      "displayName": "Дегустатор носом"
+    },
+    {
+      "key": "swarm_denim_baggar",
+      "displayName": "Джинсовый кошелек"
+    },
+    {
+      "key": "swarm_resident",
+      "displayName": "Жаждущий Хаки"
+    },
+    {
+      "key": "swarm_resident_b",
+      "displayName": "Голодный Хаки"
+    }
+  ]
+}

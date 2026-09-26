@@ -418,7 +418,7 @@
     },
     {
       "key": "Setting_Sisyphus_DialogueChoice",
-      "text": "Показать выборы диалога"
+      "text": "Просмотр выборов диалога"
     },
     {
       "key": "Setting_Sisyphus_DialogueSkip",
@@ -426,7 +426,7 @@
     },
     {
       "key": "Setting_Sisyphus_FullLog",
-      "text": "Показать журнал истории"
+      "text": "Просмотр журнала истории"
     },
     {
       "key": "Setting_Sisyphus_CreditFastForward",

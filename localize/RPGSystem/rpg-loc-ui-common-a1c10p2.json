@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "key": "ItemFilterBuffetUpgrade",
+      "text": "Улучшения Буфи"
+    },
+    {
+      "key": "Setting_Tab_Key",
+      "text": "Назначение клавиш"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveUp",
+      "text": "Движение вверх"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveDown",
+      "text": "Движение вниз"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveLeft",
+      "text": "Движение влево"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveRight",
+      "text": "Движение вправо"
+    },
+    {
+      "key": "KeyDesc_PlayerFieldAttack",
+      "text": "Атака"
+    },
+    {
+      "key": "KeyDesc_PlayerGuard",
+      "text": "Блок"
+    },
+    {
+      "key": "KeyDesc_PlayerDodge",
+      "text": "Уворот"
+    },
+    {
+      "key": "KeyDesc_PlayerRun",
+      "text": "Спринт"
+    },
+    {
+      "key": "KeyDesc_PlayerQuestNavigationToggle",
+      "text": "Включить целеуказатель задания"
+    },
+    {
+      "key": "KeyDesc_PlayerLanternToggle",
+      "text": "Фонарь Вкл./Выкл."
+    },
+    {
+      "key": "KeyDesc_PlayerAutoAttackToggle",
+      "text": "Авто-атака"
+    },
+    {
+      "key": "KeyDesc_PlayerSuicide",
+      "text": "Совершить суицид"
+    },
+    {
+      "key": "KeyDesc_UiToggleInventoryTab",
+      "text": "Инвентарь"
+    },
+    {
+      "key": "KeyDesc_UiToggleQuestTab",
+      "text": "Журнал: задания"
+    },
+    {
+      "key": "KeyDesc_UiToggleManualTab",
+      "text": "Руководство по горячим клавишам"
+    },
+    {
+      "key": "KeyDesc_UiToggleSystemLog",
+      "text": "Просмотр журнала истории"
+    },
+    {
+      "key": "KeyBind_InvalidKey",
+      "text": "Данная клавиша недоступна."
+    },
+    {
+      "key": "MoveToKeyBind",
+      "text": "Назначить клавишу"
+    }
+  ]
+}

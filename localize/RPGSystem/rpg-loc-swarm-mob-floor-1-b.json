@@ -1,0 +1,24 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_denim_baggar",
+      "displayName": "Джинсовый кошелек"
+    },
+    {
+      "key": "swarm_leather_mutt",
+      "displayName": "Кожаная перчатка"
+    },
+    {
+      "key": "swarm_needle_leather_mutt",
+      "displayName": "Перчатка-игольница"
+    },
+    {
+      "key": "swarm_shopper_a",
+      "displayName": "Отчаявшийся Хаки"
+    },
+    {
+      "key": "swarm_shopper_b",
+      "displayName": "Тревожный Хаки"
+    }
+  ]
+}

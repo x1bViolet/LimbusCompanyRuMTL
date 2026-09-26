@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_b_3_leather_ghost",
+      "displayName": "Укрощенная кожа"
+    },
+    {
+      "key": "swarm_horizontal_hide_b3",
+      "displayName": "Ползущая кожа"
+    },
+    {
+      "key": "swarm_leather_mutt_b3",
+      "displayName": "Кожаная перчатка"
+    },
+    {
+      "key": "swarm_b3_larouge_1st",
+      "displayName": "Продавец-консультант «Ле Руж» [Озарённый]"
+    },
+    {
+      "key": "swarm_b3_larouge_2nd",
+      "displayName": "Продавец-консультант «Ле Руж» [Озарённый]"
+    },
+    {
+      "key": "swarm_b3_larouge_3rd",
+      "displayName": "Продавец-консультант «Ле Руж» [Озарённый]"
+    },
+    {
+      "key": "swarm_b3_golden_mutt",
+      "displayName": "Кожаная перчатка"
+    },
+    {
+      "key": "swarm_b3_needle",
+      "displayName": "Игольница"
+    },
+    {
+      "key": "swarm_b3_overhide",
+      "displayName": "Скомканная ползущая кожа"
+    }
+  ]
+}

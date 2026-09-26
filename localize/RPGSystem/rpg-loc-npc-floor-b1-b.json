@@ -9,24 +9,36 @@
       "displayName": "Су-шеф"
     },
     {
+      "key": "N201003A",
+      "displayName": "Су-шеф"
+    },
+    {
+      "key": "N201003B",
+      "displayName": "Су-шеф"
+    },
+    {
+      "key": "N201003C",
+      "displayName": "Су-шеф"
+    },
+    {
       "key": "N101018",
-      "displayName": "Данте (SD)"
+      "displayName": "Данте SD"
     },
     {
       "key": "N101022",
       "displayName": "Фауст"
     },
     {
-      "key": "N101024",
-      "displayName": "Грегор"
+      "key": "N101026",
+      "displayName": "Хитклиф"
     },
     {
       "key": "N201005",
-      "displayName": "Дегустатор ртом"
+      "displayName": "Дегустатор ртов"
     },
     {
       "key": "N201007",
-      "displayName": "Рыбак банды Буйков"
+      "displayName": "Рыбак"
     },
     {
       "key": "N201017",
@@ -45,12 +57,20 @@
       "displayName": "Голодный Хаки"
     },
     {
+      "key": "N201034",
+      "displayName": "Жаждущий Хаки"
+    },
+    {
+      "key": "N201035",
+      "displayName": "Голодный Хаки"
+    },
+    {
       "key": "N201010",
       "displayName": "Голодный Хаки"
     },
     {
       "key": "N201011",
-      "displayName": "Труп улиточки"
+      "displayName": "Труп улитки"
     },
     {
       "key": "N201019",
@@ -66,7 +86,7 @@
     },
     {
       "key": "N201022",
-      "displayName": "Истощенный Хаки"
+      "displayName": "Изголодавшийся Хаки"
     },
     {
       "key": "N201023",
@@ -94,15 +114,23 @@
     },
     {
       "key": "N201029",
-      "displayName": "Истощенный Хаки"
+      "displayName": "Изголодавшийся Хаки"
+    },
+    {
+      "key": "N201030",
+      "displayName": "Кокон"
+    },
+    {
+      "key": "N201091",
+      "displayName": "Блеск Золотой кожи"
+    },
+    {
+      "key": "N201093",
+      "displayName": "Триггер диалога с су-шефом"
     },
     {
       "key": "N201032",
-      "displayName": "Осторожный Хаки"
-    },
-    {
-      "key": "N201033",
-      "displayName": "Подозрительный Хаки"
+      "displayName": "Сделка су-шефа за руку"
     }
   ]
 }

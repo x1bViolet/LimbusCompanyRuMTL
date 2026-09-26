@@ -1,0 +1,20 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_lanoir_fanatic_3f",
+      "displayName": "Продавец-консультант «Ле Нуар» [Озарённый]"
+    },
+    {
+      "key": "swarm_larouge_spa_staff_3f",
+      "displayName": "Продавец-консультант «Ле Руж» [Озарённый]"
+    },
+    {
+      "key": "swarm_leather_scarecrow",
+      "displayName": "Кожеотец"
+    },
+    {
+      "key": "swarm_star",
+      "displayName": "Мобиль-вертушка"
+    }
+  ]
+}
