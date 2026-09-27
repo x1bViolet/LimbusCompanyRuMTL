@@ -128,7 +128,7 @@
 ???: О, я?
 
 # Original: Oh, dear. I'm quite bashful about introducing myself out in the open, you know... I'm the "Hermit," you see.
-???: Ах, боже. Знаете, я довольно робею, когда приходится представляться при всех... Я ведь «Отшельник».
+???: Ах, божечки. Знаете, я ужасно стесняюсь представляться вот так, у всех на виду... Видите ли, я «Отшельник».
 
 # Original: ... Lass has that smarmy "backstabber" look written all over her mug, clear as day. We can't be arsed figurin' out what nonsense she's on about, so let's just humor her for a bit and get our arses moving.
 Хитклиф: ... Да у неё на роже написано: вотрётся в доверие и всадит нож в спину. Неохота нам разбирать, что она там мелет, так что давайте чуть подыграем ей и потащим свои задницы дальше.
@@ -299,7 +299,7 @@
 ???: Так что можете представить, как долго я ждала нашей встречи.
 
 # Original: Like I said, I'd been waiting 'round the clock... twining like a noose to rip that prosthetic head off your torso. I wonder what kind of pretty sound it'll make once we get to the off-with-your-head stage?
-???: Как я уже сказала, я ждала... извиваясь, словно петля, готовая оторвать эту протезированную голову от твоего туловища. Интересно, какой прелестный звук она издаст, когда до этого дойдёт?
+???: Как я уже сказала, я ждала круглые сутки... извиваясь, словно петля, готовая оторвать эту протезированную голову от твоего туловища. Интересно, какой прелестный звук она издаст, когда до этого дойдёт?
 
 # Original: The woman who called herself Kromer's sister licked and smacked her lips, eyeing my head.
 Рассказчик: Женщина, назвавшаяся сестрой Кромер, облизнулась и причмокнула, разглядывая мою голову.

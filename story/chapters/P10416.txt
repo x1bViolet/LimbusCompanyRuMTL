@@ -26,7 +26,7 @@
 Рассказчик: Я так и не примкнул ни к Ружам, ни к Нуарам. Всё это время я ищу способ передать весточку во внешний мир...
 
 # Original: ... but no one here has the faintest idea how. Everything in this department store travels by word of mouth: conversations, rumors... and nothing beyond that.
-Рассказчик: ...но здесь никто даже не представляет, как это сделать. В этом универмаге всё передаётся из уст в уста: разговоры, слухи... и больше ничего.
+Рассказчик: ...но здесь никто даже не представляет, как это сделать. В этом торговом центре всё передаётся из уст в уста: разговоры, слухи... и больше ничего.
 
 # Original: S.W.R.Y.
 Рёшу: У.Ч.С.Д.
@@ -38,13 +38,13 @@
 Рёшу: Это значит «Удивительно, что слух дошёл».
 
 # Original: Is that how this department store works? The higher you climb, the further you leave common sense behind?
-Рассказчик: Так, значит, устроен этот универмаг? Чем выше поднимаешься, тем дальше остаётся здравый смысл?
+Рассказчик: Так, значит, устроен этот торговый центр? Чем выше поднимаешься, тем дальше остаётся здравый смысл?
 
 # Original: No matter how I look at it, I just can't figure out why she felt the need to chop "surprised word reached you" down to "S.W.R.Y."
 Рассказчик: Как ни посмотри, я никак не могу понять, зачем ей понадобилось сокращать «Удивительно, что слух дошёл» до «У.Ч.С.Д.».
 
 # Original: I'm trying to get somewhere. I've been going back and forth all over the department store, looking for that place... And all that walking's worn my shoes right down.
-Дюбуа: Мне нужно кое-куда попасть. Я хожу туда-сюда по всему универмагу, ищу это место... Вот и стоптал всю обувь.
+Дюбуа: Мне нужно кое-куда попасть. Я хожу туда-сюда по всему торговому центру, ищу это место... Вот и стоптал всю обувь.
 
 # Original: Do you have a pair that'll hold up? Something sturdy enough to take a bit of wear and tear...?
 Дюбуа: У вас найдётся пара, которая подольше прослужит? Что-нибудь прочное, износостойкое...?
@@ -77,7 +77,7 @@
 Рассказчик: Стол, на который хозяйка Обувного зала положила ногу... или то, что я принял за стол... зашевелился и пошёл прочь на всех четырёх ногах.
 
 # Original: Sure, this department store is full of people who look as though they've gone overboard with bodily modifications, or have prostheses grafted onto every inch of their bodies...
-Рассказчик: Конечно, в этом универмаге полно людей, которые с виду то ли переборщили с модификациями тела, то ли вживили протезы в каждый его сантиметр...
+Рассказчик: Конечно, в этом торговом центре полно людей, которые с виду то ли переборщили с модификациями тела, то ли вживили протезы в каждый его сантиметр...
 
 # Original: But walking around on four legs? That's a first.
 Рассказчик: Но чтобы ходить на четырёх ногах? Такое я вижу впервые.

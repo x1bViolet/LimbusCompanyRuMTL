@@ -20,10 +20,10 @@
 Рассказчик: И когда волны этих бездонных вод наконец взметнулись мне навстречу...
 
 # Original: <color=#916e46>We extend our warmest welcome to the valued guests of Grand Magasin Sisyphe visiting today.</color>
-Рассказчик: <color=#916e46>Сердечно приветствуем уважаемых гостей, посетивших сегодня Гран-Магазэн Сизиф.</color>
+Рассказчик: <color=#916e46>Мы сердечно приветствуем уважаемых гостей, посетивших сегодня Гран-Магазэн Сизиф.</color>
 
 # Original: <color=#916e46>Grand Magasin Sisyphe is ever committed to cherishing every experience our customers procure within.</color>
-Рассказчик: <color=#916e46>Гран-Магазэн Сизиф неизменно стремится бережно хранить каждый опыт, приобретённый нашими покупателями в его стенах.</color>
+Рассказчик: <color=#916e46>Гран-Магазэн Сизиф неизменно дорожит каждым опытом, который наши покупатели приобретают в его стенах.</color>
 
 # Original: <color=#916e46>To keep abreast of the latest fashions, we actively encourage the wide variety of shops available at the department store to open and close according to trends. Please take care not to lose your way as you explore the establishment.</color>
 Рассказчик: <color=#916e46>Чтобы идти в ногу с последними веяниями моды, мы всячески поощряем открытие и закрытие самых разнообразных магазинов торгового центра в соответствии с текущими трендами. Пожалуйста, постарайтесь не заблудиться, знакомясь с нашим торговым центром.</color>
@@ -35,7 +35,7 @@
 Рассказчик: <color=#916e46>Во избежание санитарно-гигиенических проблем доступ на каждый этаж разрешён только покупателям, достигшим требуемого Уровня престижа. По всем дополнительным вопросам просим обращаться в Центр обслуживания покупателей на шестом этаже.</color>
 
 # Original: <color=#916e46>Customers are welcome to make physical contact with all Mannequins on display. Conversely, Mannequins are also allowed to make physical contact with all customers. Should you wish to participate, please talk to the sales associate at the relevant shop, who will be delighted to assist you.</color>
-Рассказчик: <color=#916e46>Покупателям разрешается вступать в физический контакт со всеми выставленными Манекенами. В свою очередь, Манекенам также разрешается вступать в физический контакт со всеми покупателями. Если вы желаете воспользоваться этой возможностью, обратитесь к продавцу соответствующего магазина — он с радостью вам поможет.</color>
+Рассказчик: <color=#916e46>Покупателям разрешается вступать в физический контакт со всеми выставленными Манекенами. В свою очередь, Манекенам также разрешается вступать в физический контакт со всеми покупателями. Если вы желаете воспользоваться этой возможностью, обратитесь к продавцу соответствующего магазина — тот с радостью вам поможет.</color>
 
 # Original: <color=#916e46>We ask everyone to do their best to ensure another day of worthwhile consumer experience for our customers. Thank you for choosing Grand Magasin Sisyphe, and enjoy your shopping.</color>
 Рассказчик: <color=#916e46>Просим всех приложить максимум усилий, чтобы и сегодня наши покупатели получили достойный потребительский опыт. Благодарим вас за выбор Гран-Магазэна Сизиф и желаем приятных покупок.</color>
@@ -74,7 +74,7 @@
 Фауст: Есть люди, которые без какой-либо практической цели обвязываются тросом и прыгают с большой высоты или отдаются на волю бурных волн, чтобы проверить, затянет ли их под воду.
 
 # Original: It is said that people come to feel the sensation of being alive more keenly via experiences that bring them infinitely close to death.
-Фауст: Считается, что опыт, бесконечно приближающий человека к смерти, позволяет ему острее ощутить себя живым.
+Фауст: Считается, что опыт, практически вплотную приближающий человека к смерти, позволяет ему острее ощутить себя живым.
 
 # Original: ... So ya sayin' they do it on purpose?
 Родион: ... То есть, по-твоему, они это нарочно делают?

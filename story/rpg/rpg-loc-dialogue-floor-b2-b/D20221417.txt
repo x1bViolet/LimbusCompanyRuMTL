@@ -1,0 +1,14 @@
+﻿# Original: The threads twang lightly as the machine pulls them tight.
+Рассказчик: Нити тихо звенят, когда машина натягивает их.
+
+# Original: They're starting to multiply...
+Рассказчик: Они начинают множиться...
+
+# Original: ... Uh, we weren't told anything about increased production volume.
+Иглолюд-рабочий: ...Э-э, нам ничего не говорили про увеличение объёма производства.
+
+# Original: Slowly-slow! Gently-gentle! You'll break it!
+Иглолюд-рабочий 2: Медленно-медленнее! Бережно-бережнее! Ты же сломаешь!
+
+# Original: ... The customers working nearby are glaring daggers at us.
+Рассказчик: ...Покупатели, работающие поблизости, испепеляют нас взглядами.
