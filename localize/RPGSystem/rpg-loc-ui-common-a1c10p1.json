@@ -214,19 +214,7 @@
     },
     {
       "key": "Log_NpcDefeated",
-      "text": "{0} побежден ({1} урона)"
-    },
-    {
-      "key": "Log_NpcDefeatedWeakness",
-      "text": "{0} побежден ({1} урона по уязвимому месту)"
-    },
-    {
-      "key": "Log_DamageDealt",
-      "text": "{0} получил {1} урона"
-    },
-    {
-      "key": "Log_DamageDealtWeakness",
-      "text": "{0} получил {1} урона по уязвимому месту"
+      "text": "Побежден противник: {0}"
     },
     {
       "key": "Log_PlayerDead",
