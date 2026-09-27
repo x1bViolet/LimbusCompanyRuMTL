@@ -5,7 +5,7 @@
 Су-шеф: А, знакомое лицо, приятное лицо, слышь?
 
 # Original: Boucher is almost done putting the garnish on the Ruminations of the Prey, you hear?
-Су-шеф: Буше уже почти закончил украшать Раздумья добычи, слышь?
+Су-шеф: Буше уже почти закончил украшать Размышления добычи, слышь?
 
 # Original: If the smell drew you back, too bad; you hear? Strangers aren't getting a single bite, you hear?
 Су-шеф: Если вас сюда запах притащил, то не повезло, слышь? Посторонним ни кусочка не достанется, слышь?
@@ -17,7 +17,7 @@
 Су-шеф: У посторонних здесь больше никаких дел нет, так что я не знаю, о чём это вы, слышь?! Золотая Кожа лежит в кладовой для газировки следующего сезона, слышь?!
 
 # Original: Sous Chef has to taste the Ruminations of the Prey, you hear?! Boucher said the Meat Soda doesn't even compare, you hear?!
-Су-шеф: Су-шеф должна попробовать Раздумья добычи, слышь?! Буше сказал, что Мясной газировке с ними даже не сравниться, слышь?!
+Су-шеф: Су-шеф должна попробовать Размышления добычи, слышь?! Буше сказал, что Мясной газировке с ними даже не сравниться, слышь?!
 
 # Original: With that, the Sous Chef threateningly raised the kitchen knife as high as her arms would go.
 Рассказчик: С этими словами Су-шеф угрожающе подняла кухонный нож так высоко, как только дотягивались руки.

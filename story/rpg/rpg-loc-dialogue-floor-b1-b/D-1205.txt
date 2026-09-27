@@ -23,10 +23,10 @@
 Буше: …Хватит томить фразу на медленном огне, подавай уже. Что за ингредиент?
 
 # Original: Ruminations of the Prey! The ingredient Boucher is always talking about... you hear?
-Су-шеф: Раздумья добычи! Тот самый ингредиент, о котором Буше всё время говорит… слышь?
+Су-шеф: Размышления добычи! Тот самый ингредиент, о котором Буше всё время говорит… слышь?
 
 # Original: ... Ruminations of the Prey?
-Буше: …Раздумья добычи?
+Буше: …Размышления добычи?
 
 # Original: Ah... I remember that cut of meat. Its flavor was nothing short of ecstatic.
 Буше: А-а… Помню этот отруб. Вкус вызывал настоящий экстаз.
@@ -50,7 +50,7 @@
 Буше: Не похожи вы на тех, кто блефует насчёт ингредиентов. Хорошо — по рукам.
 
 # Original: Handed over the "Ruminations of the Prey" to Boucher.
-Рассказчик: «Раздумья добычи» переданы Буше.
+Рассказчик: «Размышления добычи» переданы Буше.
 
 # Original: Now that is what I call "downright delectable."
 Буше: Вот это я называю «настоящим объедением».
