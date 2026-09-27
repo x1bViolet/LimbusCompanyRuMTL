@@ -79,8 +79,8 @@
 # Original: There's... There's something skittering around in there...
 Эмбер: Там... Там внутри что-то копошится...
 
-# Original: The interval of its molting process from instar 2 to instar 2 remains the same within the margin of error.
-Мерсо: Интервал процесса её линьки от 2-й стадии до 2-й стадии остается неизменным в пределах погрешности.
+# Original: The interval of its molting process from instar 2 to instar 3 remains the same within the margin of error.
+Мерсо: Интервал процесса её линьки от 2-й стадии до 3-й стадии остается неизменным в пределах погрешности.
 
 # Original: C-Captain, there's this guy I hang out with all the time... Jacob. He was with me when it happened... Is he... okay?
 Эмбер: К-Капитан, тут есть один парень, с которым мы постоянно общаемся... Джейкоб. Он был со мной, когда это случилось... Он... в порядке?
