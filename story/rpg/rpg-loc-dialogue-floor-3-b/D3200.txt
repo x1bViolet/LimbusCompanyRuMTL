@@ -17,7 +17,7 @@
 Отис: И к тому же она... прибита к полу.
 
 # Original: <color=#cf0000>... Fan your desires... The more you are donned... the higher shall your self ascend...</color>
-Рассказчик: <color=#cf0000>...Раздувай свои желания... Чем больше облачений ты наденешь... тем выше вознесётся твоё «я»...</color>
+Рассказчик: <color=#cf0000>Разжигайте свои желания... Чем больше на вас одеяний... тем выше вознесётся ваше «я»...</color>
 
 # Original: I understand... These meager patches of—
 Л’Инамовибль: Я понимаю... Эти жалкие лоскутки...

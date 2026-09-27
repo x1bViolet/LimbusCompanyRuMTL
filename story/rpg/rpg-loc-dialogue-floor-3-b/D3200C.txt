@@ -98,7 +98,7 @@
 Данте: <...Не будем исключать этот вариант. Решим, когда выслушаем Нуаров по ту сторону.>
 
 # Original: <color=#cf0000>Fan your desires... The more you are donned... the higher...</color>
-Рассказчик: <color=#cf0000>Раздувайте свои желания... Чем больше на вас надето... тем выше...</color>
+Рассказчик: <color=#cf0000>Разжигайте свои желания... Чем больше на вас одеяний... тем выше...</color>
 
 # Original: The voice of Meursault's mother, imprinted on the flat surface of an audiotape, repeats and repeats her message from behind the wall of this shop.
 Рассказчик: Голос матери Мерсо, запечатлённый на плоской поверхности аудиоплёнки, снова и снова повторяет своё послание из-за стены этого магазина.
