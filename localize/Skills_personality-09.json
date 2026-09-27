@@ -3598,6 +3598,296 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1091701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ретушь",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[EndSkill] Если целью навыка являлась другая Идентичность:\n- Повышает счётчик её [Charge:`Заряда`] на 3 и даёт 1 [AttackUp:`Повышение уровня атаки`]\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility) и ОЗ Щита в размере 5% от своих максимальных ОЗ (Единожды за ход; если затронутая Идентичность способна использовать [Charge:`Заряд`](;PersonalityCharge), то дополнительно даёт ей 1 [Enhancement:`Повышение силы атаки`])",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ретушь",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[EndSkill] Если целью навыка являлась другая Идентичность:\n- Повышает счётчик её [Charge:`Заряда`] на <style=\"highlight\">4</style> и даёт 1 [AttackUp:`Повышение уровня атаки`]\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility) и ОЗ Щита в размере 5% от своих максимальных ОЗ (Единожды за ход; если затронутая Идентичность способна использовать [Charge:`Заряд`](;PersonalityCharge), то дополнительно даёт ей 1 [Enhancement:`Повышение силы атаки`])",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ретушь",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[EndSkill] Если целью навыка являлась другая Идентичность:\n- Повышает счётчик её [Charge:`Заряда`] на 4 и даёт 1 [AttackUp:`Повышение уровня атаки`]\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility) и ОЗ Щита в размере <style=\"highlight\">10%</style> от своих максимальных ОЗ (До <style=\"highlight\">2 раз</style> за ход; если затронутая Идентичность способна использовать [Charge:`Заряд`](;PersonalityCharge), то дополнительно даёт <style=\"highlight\">2</style> [Enhancement:`Повышения силы атаки`])",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Закрепить и обрезать вдоль узоров",
+          "desc": "[StartBattle] Активирует следующие эффекты для другой Идентичности с самым ранним порядковым номером в команде (Единожды за ход; в приоритете Идентичности, способные использовать [Charge:`Заряд`](;PersonalityCharge)):\n- Даёт 2 [AttackUp:`Повышения уровня атаки`]\n- Даёт ОЗ Щита в размере 5% от своих максимальных ОЗ\n- Если затронутая Идентичность способна использовать [Charge:`Заряд`](;PersonalityCharge), то даёт ей ещё 1 [AttackUp:`Повышение уровня атаки`] и вдвое больше ОЗ Щита\n\n[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 6</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Закрепить и обрезать вдоль узоров",
+          "desc": "[StartBattle] Активирует следующие эффекты для <style=\"highlight\">себя и</style> другой Идентичности с самым ранним порядковым номером в команде (Единожды за ход; в приоритете Идентичности, способные использовать [Charge:`Заряд`](;PersonalityCharge)):\n- Даёт 2 [AttackUp:`Повышения уровня атаки`]\n- Даёт ОЗ Щита в размере 5% от своих максимальных ОЗ\n- Если затронутая Идентичность способна использовать [Charge:`Заряд`](;PersonalityCharge), то даёт ей ещё 1 [AttackUp:`Повышение уровня атаки`] и вдвое больше ОЗ Щита\n\n[WhenUse] Сила монет +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 6</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Закрепить и обрезать вдоль узоров",
+          "desc": "[StartBattle] Активирует следующие эффекты для себя и другой Идентичности с самым ранним порядковым номером в команде (В приоритете Идентичности, способные использовать [Charge:`Заряд`](;PersonalityCharge)<style=\"highlight\">), а также для Идентичности с наименьшим процентом текущих ОЗ</style> (Единожды за ход):\n- Даёт 2 [AttackUp:`Повышения уровня атаки`]\n- Даёт ОЗ Щита в размере 5% от своих максимальных ОЗ\n- Если затронутая Идентичность способна использовать [Charge:`Заряд`](;PersonalityCharge), то даёт ей ещё 1 [AttackUp:`Повышение уровня атаки`] и вдвое больше ОЗ Щита\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 [Vibration:`Тремора`] на цели (До 2)</style>\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 6</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [AmberResistDown:`Понижение сопротивления к Лености`] (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Купе дан лё бьё",
+          "desc": "Наносит (Текущее значение [NoirScissorCut:`Ножниц цветения`](;LargeTailoringShears) × 15)% больше урона (До 30%)\n\n[StartBattle] Активирует следующие эффекты для другой Идентичности с самым ранним порядковым номером в команде (В приоритете Идентичности, способные использовать [Charge:`Заряд`](;PersonalityCharge)), а также для Идентичности с наименьшим процентом текущих ОЗ (Единожды за ход):\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility)\n- Даёт ОЗ Щита в размере 5% от своих максимальных ОЗ\n\n[WhenUse] Сила монет против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе\n\n[EndSkill] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly:`Метку среза`](;ScissorsMark)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly:`Метку среза`](;ScissorsMark)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если текущий счётчик [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) равен 5 и более, то тратит 5 его единиц, чтобы ещё раз [VibrationExplosion:`Спровоцировать Тремор`] и понизить его счётчик <nobr>на 1</nobr>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Купе дан лё бьё",
+          "desc": "Наносит (Текущее значение [NoirScissorCut:`Ножниц цветения`](;LargeTailoringShears) × <style=\"highlight\">30</style>)% больше урона (До <style=\"highlight\">60%</style>)\n\n[StartBattle] Активирует следующие эффекты для <style=\"highlight\">себя и</style> другой Идентичности с самым ранним порядковым номером в команде (В приоритете Идентичности, способные использовать [Charge:`Заряд`](;PersonalityCharge)), а также для Идентичности с наименьшим процентом текущих ОЗ (Единожды за ход):\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility)\n- Даёт ОЗ Щита в размере <style=\"highlight\">10%</style> от своих максимальных ОЗ\n\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе\n\n[EndSkill] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly:`Метку среза`](;ScissorsMark)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly:`Метку среза`](;ScissorsMark)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если текущий счётчик [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) равен 5 и более, то тратит 5 его единиц, чтобы ещё раз [VibrationExplosion:`Спровоцировать Тремор`] и понизить его счётчик <nobr>на 1</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подрезание углов",
+          "desc": "[DuelCounter]\n[StartBattle] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) на 5 (До 2 раз за ход)\n[StartBattle] Даёт ОЗ Щита в размере 5% от своих максимальных ОЗ двум другим Идентичностям на поле боя, имеющим наименьший процент текущих ОЗ (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подрезание углов",
+          "desc": "[DuelCounter]\n[StartBattle] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) на 5 (До 2 раз за ход)\n[StartBattle] Даёт ОЗ Щита в размере <style=\"highlight\">10%</style> от своих максимальных ОЗ двум другим Идентичностям на поле боя, имеющим наименьший процент текущих ОЗ (Единожды за ход)\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 4)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Формирование узора",
+          "desc": "[CantDuel]\n[WhenUse] Повышает счётик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 3</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если текущая сила своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) равна 3 и более, то вновь подкидывает эту монету 1 раз"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirScissorAlly:`Метку среза`](;ScissorsMark)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вырез",
+          "desc": "[CantDuel]\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Повышает счётик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 5</nobr>\n\n[EndSkill] Значение [NoirScissorAlly:`Метки среза`](;ScissorsMark) на цели понижается на 2\n[EndSkill] Получает 1 [NoirScissorCut:`Ножницы цветения`](;LargeTailoringShears)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
