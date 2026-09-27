@@ -93,7 +93,7 @@
           "level": 4,
           "name": "Праздник",
           "abName": "Сан-дольф",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшей СД\n<style=\"highlight\">Количество целей +1, если СД основной цели выше 15</style>\n[BeforeAttack] Цели теряют 10 СД",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшей СД\n<style=\"highlight\">Количество целей +1, если СД главной цели выше 15</style>\n[BeforeAttack] Цели теряют 10 СД",
           "coinlist": [
             {
               "coindescs": [
