@@ -1457,6 +1457,7 @@ SisyphusEmerald ¤ #f8c200
 SisyphusGold ¤ #f8c200
 SisyphusRuby ¤ #f8c200
 NiddlePin ¤ #e30000
+EmpathicDistressAlly ¤ #e30000
 ChargeKhakiAlly ¤ #f8c200
 NoirScissorAlly ¤ #e30000
 NoirScissorCut ¤ #f8c200
