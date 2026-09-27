@@ -302,35 +302,35 @@
     },
     {
       "id": "ally_own_skill_attribute_hp_increase",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков есть {0}/%, <color=#00ff9c>восстанавливают {1} ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков есть {0}/%, <color=#00ff9c>восстанавливают {1} ОЗ</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_hp_increase",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков отсутствует {0}/%, <color=#00ff9c>восстанавливают {1} ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков отсутствует {0}/%, <color=#00ff9c>восстанавливают {1} ОЗ</color>"
     },
     {
       "id": "ally_own_skill_attribute_hp_decrease",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков есть {0}/%, <color=#e30000>теряют {1} ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков есть {0}/%, <color=#e30000>теряют {1} ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_hp_decrease",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков отсутствует {0}/%, <color=#e30000>теряют {1} ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков отсутствует {0}/%, <color=#e30000>теряют {1} ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "ally_own_skill_attribute_mp_increase",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков есть {0}/%, <color=#80c9ff>восстанавливают {1} СД</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков есть {0}/%, <color=#80c9ff>восстанавливают {1} СД</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_mp_increase",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков отсутствует {0}/%, <color=#80c9ff>восстанавливают {1} ОЗ</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков отсутствует {0}/%, <color=#80c9ff>восстанавливают {1} ОЗ</color>"
     },
     {
       "id": "ally_own_skill_attribute_mp_decrease",
-      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов атакующих навыков есть {0}/%, <color=#fe4b48>теряют {1} СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности, у которых</color> %среди грехов Атакующих навыков есть {0}/%, <color=#fe4b48>теряют {1} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_mp_decrease",
-      "content": "<color=#ebcaa2>Идентичности без</color> %атакующих навыков греха {0}/% <color=#fe4b48>теряют {1} СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> %Атакующих навыков греха {0}/% <color=#fe4b48>теряют {1} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "852701_statue_success_1_1",
