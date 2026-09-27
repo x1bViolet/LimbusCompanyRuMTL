@@ -2,7 +2,7 @@
 Фланель: …!
 
 # Original: It really is as the Brand Manager has said.
-Фланель: Всё и впрямь так, как говорила Управляющая брендом.
+Фланель: Всё и впрямь так, как говорила Директор Бренда.
 
 # Original: Driven by madness, those abandoned by the Voice have begun to scheme a plan most wicked...
 Фланель: Обуянные безумием, отвергнутые Голосом замыслили злодейство...
@@ -23,7 +23,7 @@
 Фетр: Значение Перекройщицы невозможно переоценить. Даже Директору бренда приходилось прибегать к её ткани, чтобы преодолеть бесчисленные испытания.
 
 # Original: The Brand Manager has also told us much about your plans. You possess an artifact that is integral to the Rouges' insidious plot, don't you?
-Фетр: Управляющая брендом также многое поведала нам о ваших замыслах. У вас ведь есть артефакт, без которого не обойтись в коварном заговоре Ружей, не так ли?
+Фетр: Директор Бренда также многое поведала нам о ваших замыслах. У вас ведь есть артефакт, без которого не обойтись в коварном заговоре Ружей, не так ли?
 
 # Original: We'll give you a chance to prove your true allegiance right now, right here.
 Фетр: Мы дадим вам возможность доказать, на чьей вы стороне. Прямо здесь и сейчас.
