@@ -1,17 +1,17 @@
 ﻿# Original: Once, a child descended from a star and rained down as water.
-Рассказчик: Однажды дитя сошло со звезды и пролилось дождём.
+Рассказчик: Однажды дитя сошло со звезды и пролилось дождём, обратившись в воду.
 
 # Original: Water that gives the mind material form. Cogito.
-Рассказчик: Вода, что дарует разуму вещественную форму. Когито.
+Рассказчик: Воду, что придаёт разуму материальную форму. Когито.
 
 # Original: The experiments conducted using Cogito gave me the certainty:
-Рассказчик: Опыты с Когито убедили меня:
+Рассказчик: Эксперименты, проведённые с применением Когито, убедили меня:
 
 # Original: The tree bears ten fruits.
-Рассказчик: Древо приносит десять плодов.
+Рассказчик: Дерево порождает десять плодов.
 
 # Original: The tree is divided into three domains.
-Рассказчик: Древо делится на три области.
+Рассказчик: Дерево разделено на три области.
 
 # Original: And the order in which the tree is ascended carries significance.
-Рассказчик: И порядок, в котором восходят по древу, имеет значение.
+Рассказчик: И порядок, в котором восходят по дереву, имеет значение.
