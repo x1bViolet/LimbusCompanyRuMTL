@@ -23,7 +23,7 @@
     },
     {
       "id": "BloodPocket_LowMorale",
-      "name": "Гнетущая жажда крови (Низкий дух)",
+      "name": "Гнетущая жажда крови (Низкий Дух)",
       "desc": "Получает 1 [Vulnerable:`Уязвимость`] и 1 [AttackDmgUp:`Повышение урона`]",
       "summary": "",
       "undefined": "-"

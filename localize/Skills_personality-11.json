@@ -2357,7 +2357,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у цели есть сила духа, [VibrationExplosion:`Провоцирует Тремор`] ещё раз и понижает его счётчик на 1\nЕсли СД цели ниже 0, наносит ей 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у цели есть Сила Духа, [VibrationExplosion:`Провоцирует Тремор`] ещё раз и понижает его счётчик на 1\nЕсли СД цели ниже 0, наносит ей 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] (Единожды за ход)</style>"
                 }
               ]
             }

@@ -86,7 +86,7 @@
     },
     {
       "id": "FamineBloodDolci_LowMorale",
-      "name": "Узда Небытия (Низкий дух)",
+      "name": "Узда Небытия (Низкий Дух)",
       "desc": "· Получает 1 [Enhancement:`Повышение силы атаки`] и 3 [DefenseDown:`Понижения уровня защиты`]\n· Теряет 5 СД в конце хода",
       "summary": "",
       "undefined": "-"
@@ -100,7 +100,7 @@
     },
     {
       "id": "ThornyFall_LowMorale",
-      "name": "Шипы (Низкий дух)",
+      "name": "Шипы (Низкий Дух)",
       "desc": "Получает 1 [AttackDmgUp:`Повышение урона`] при победе в столкновении",
       "summary": "Получает 1 [AttackDmgUp:`Повышение урона`]",
       "undefined": "-"
@@ -114,7 +114,7 @@
     },
     {
       "id": "FamineBloodPriestServant_LowMorale",
-      "name": "Голод (Низкий дух)",
+      "name": "Голод (Низкий Дух)",
       "desc": "· Получает 1 [ParryingResultUp:`Повышение силы в столкновении`] и 3 [DefenseDown:`Понижения уровня защиты`]\n· Теряет 5 СД в конце хода",
       "summary": "",
       "undefined": "-"
