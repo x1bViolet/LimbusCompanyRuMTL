@@ -1126,6 +1126,166 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2061011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 1\n[BeforeAttack] Тратит до 6 единиц счётчика своего [Charge:`Заряда`], чтобы дать 5 [ChargeForceField:`Зарядных барьеров`] себе и (1 + (Потраченный счётчик [Charge:`Заряда`] / 2)) другим случайным Идентичностям (До 5 Идентичностей; округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила повышается на текущую силу своего [Charge:`Заряда`] (До 2)</style>\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на <style=\"highlight\">3</style>\n[BeforeAttack] Тратит до <style=\"highlight\">8</style> единиц счётчика своего [Charge:`Заряда`], чтобы дать 5 [ChargeForceField:`Зарядных барьеров`] себе и (1 + (Потраченный счётчик [Charge:`Заряда`] / 2)) другим случайным Идентичностям (До <style=\"highlight\">6</style> Идентичностей; округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [PhotoElectricity:`Фотоэффект`]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[WhenUse] Итоговая сила повышается на текущую силу своего [Charge:`Заряда`] (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на <style=\"highlight\">5</style>\n[BeforeAttack] Тратит до <style=\"highlight\">10</style> единиц счётчика своего [Charge:`Заряда`], чтобы дать 5 [ChargeForceField:`Зарядных барьеров`] себе и (1 + (Потраченный счётчик [Charge:`Заряда`] / 2)) другим случайным Идентичностям (До <style=\"highlight\">7</style> Идентичностей; округляется вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PhotoElectricity:`Фотоэффекта`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2061021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на 15% больше урона целям, имеющим ОЗ Щита\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на 3\n[BeforeAttack] Тратит до 6 единиц счётчика своего [Charge:`Заряда`], чтобы дать 7 [ChargeForceField:`Зарядных барьеров`] себе и (1 + (Потраченный счётчик [Charge:`Заряда`] / 2)) другим случайным Идентичностям (До 5 Идентичностей; округляется вниз)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит до 10 единиц счётчика своего [Charge:`Заряда`], чтобы повысить Итоговую силу этой монеты на потраченный счётчик"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">20%</style> больше урона целям, имеющим ОЗ Щита\n<style=\"highlight\">[BeforeAttack] Итоговая сила повышается на текущую силу своего [Charge:`Заряда`] (До 2)</style>\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на <style=\"highlight\">4</style>\n[BeforeAttack] Тратит до <style=\"highlight\">8</style> единиц счётчика своего [Charge:`Заряда`], чтобы дать 7 [ChargeForceField:`Зарядных барьеров`] себе и (1 + (Потраченный счётчик [Charge:`Заряда`] / 2)) другим случайным Идентичностям (До <style=\"highlight\">6</style> Идентичностей; округляется вниз)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит до 10 единиц счётчика своего [Charge:`Заряда`], чтобы повысить Итоговую силу этой монеты на потраченный счётчик"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [PhotoElectricity:`Фотоэффект`]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[CantIdentify]\nСлучайные цели\nНаносит на <style=\"highlight\">25%</style> больше урона целям, имеющим ОЗ Щита\n[BeforeAttack] Итоговая сила повышается на текущую силу своего [Charge:`Заряда`] (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на <style=\"highlight\">5</style>\n[BeforeAttack] Тратит до <style=\"highlight\">10</style> единиц счётчика своего [Charge:`Заряда`], чтобы дать 7 [ChargeForceField:`Зарядных барьеров`] себе и (1 + (Потраченный счётчик [Charge:`Заряда`] / 2)) другим случайным Идентичностям (До <style=\"highlight\">7</style> Идентичностей; округляется вниз)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит до 10 единиц счётчика своего [Charge:`Заряда`], чтобы повысить Итоговую силу этой монеты на потраченный счётчик"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PhotoElectricity:`Фотоэффекта`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
