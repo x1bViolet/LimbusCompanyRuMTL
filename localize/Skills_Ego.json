@@ -688,7 +688,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">25</style> урона по СД"
                 },
                 {
-                  "desc": "<style=\"highlight\">Если цель оглушена, в состоянии низкого духа или панике, дополнительно наносит 30% прошедшего урона</style>"
+                  "desc": "<style=\"highlight\">Если цель Оглушена, в состоянии низкого духа или панике, дополнительно наносит 30% прошедшего урона</style>"
                 }
               ]
             }
@@ -709,7 +709,7 @@
                   "desc": "[OnSucceedAttack] Наносит 25 урона по СД"
                 },
                 {
-                  "desc": "Если цель оглушена, в состоянии низкого духа или панике, дополнительно наносит 30% прошедшего урона"
+                  "desc": "Если цель Оглушена, в состоянии низкого духа или панике, дополнительно наносит 30% прошедшего урона"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]</style>"
@@ -756,7 +756,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">7</style> [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">Дополнительно наносит 50% прошедшего урона, если цель <b>не</b> оглушена, <b>не</b> в состоянии низкого духа и <b>не</b> подверглась панике</style>"
+                  "desc": "<style=\"highlight\">Дополнительно наносит 50% прошедшего урона, если цель <b>не</b> Оглушена, <b>не</b> в состоянии низкого духа и <b>не</b> подверглась панике</style>"
                 }
               ]
             }
@@ -777,7 +777,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">10</style> [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "Дополнительно наносит 50% прошедшего урона, если цель <b>не</b> оглушена, <b>не</b> в состоянии низкого духа и <b>не</b> подверглась панике"
+                  "desc": "Дополнительно наносит 50% прошедшего урона, если цель <b>не</b> Оглушена, <b>не</b> в состоянии низкого духа и <b>не</b> подверглась панике"
                 }
               ]
             }
@@ -3562,7 +3562,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве [Combustion:`Огня`] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] на 1 пяти случайным противникам"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\n- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, повышает счётчик [Combustion:`Огня`] на 1 пяти случайным противникам"
                 }
               ]
             }
@@ -3586,7 +3586,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] пяти случайным противникам</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <style=\"highlight\">на 2</style>\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 2</style> пяти случайным противникам"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <style=\"highlight\">на 2</style>\n- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 2</style> пяти случайным противникам"
                 }
               ]
             }
@@ -3610,7 +3610,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`] пяти случайным противникам"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style> пяти случайным противникам"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style> пяти случайным противникам"
                 }
               ]
             }
@@ -3636,7 +3636,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Vibration:`Тремор`] в количестве [Combustion:`Огня`] на цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] на 2 пяти случайным участникам битвы"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\n- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, повышает счётчик [Combustion:`Огня`] на 2 пяти случайным участникам битвы"
                 }
               ]
             }
@@ -3660,7 +3660,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 [Combustion:`Огня`] пяти случайным участникам битвы</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <style=\"highlight\">на 2</style>\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style> пяти случайным участникам битвы"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик <style=\"highlight\">на 2</style>\n- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 3</style> пяти случайным участникам битвы"
                 }
               ]
             }
@@ -3684,7 +3684,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`] пяти случайным участникам битвы"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 4</style> пяти случайным участникам битвы"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, повышает счётчик [Combustion:`Огня`] <style=\"highlight\">на 4</style> пяти случайным участникам битвы"
                 }
               ]
             }
@@ -3772,7 +3772,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет <style=\"highlight\">15</style> СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n<style=\"highlight\">- Если [VibrationExplosion:`Провокация Тремора`] оглушила цель, наносит 2 [Combustion:`Огня`] трём случайным участникам битвы</style>"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2\n<style=\"highlight\">- Если [VibrationExplosion:`Провокация Тремора`] Оглушила цель, наносит 2 [Combustion:`Огня`] трём случайным участникам битвы</style>"
                 }
               ]
             }
@@ -4316,7 +4316,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], на 20% больше урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если эта атака Оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ</style>"
                 }
               ]
             }
@@ -4334,7 +4334,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], на <style=\"highlight\">40%</style> больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ"
+                  "desc": "[OnSucceedAttack] Если эта атака Оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ"
                 }
               ]
             }
@@ -4372,7 +4372,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], на 30% больше урона"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если эта атака Оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ</style>"
                 }
               ]
             }
@@ -4390,7 +4390,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], на <style=\"highlight\">50%</style> больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ"
+                  "desc": "[OnSucceedAttack] Если эта атака Оглушает или побеждает цель, восстанавливает 10% ОЗ себе и союзнику с наименьшими текущими ОЗ"
                 }
               ]
             }
