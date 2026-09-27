@@ -14,7 +14,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели были [CandyForCharon:`Конфеты?`], оглушает её в следующем ходе"
+                  "desc": "[OnSucceedAttack] Если у цели были [CandyForCharon:`Конфеты?`], Оглушает её в следующем ходе"
                 }
               ]
             }

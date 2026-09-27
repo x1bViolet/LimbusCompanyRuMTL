@@ -445,7 +445,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более [TipsinessRail:`Опьянения`], не наносит урон и сам оглушается в следующем ходе"
+                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более [TipsinessRail:`Опьянения`], не наносит урон и сам Оглушается в следующем ходе"
                 },
                 {
                   "desc": "[OnSucceedAttack] Убирает всё [TipsinessRail:`Опьянение`]"
@@ -845,7 +845,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более [TipsinessRail:`Опьянения`], не наносит урон и сам оглушается в следующем ходе"
+                  "desc": "[OnSucceedAttack] Если у цели есть 5 и более [TipsinessRail:`Опьянения`], не наносит урон и сам Оглушается в следующем ходе"
                 },
                 {
                   "desc": "[OnSucceedAttack] Убирает всё [TipsinessRail:`Опьянение`]"

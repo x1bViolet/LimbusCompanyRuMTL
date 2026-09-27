@@ -166,7 +166,7 @@
                   "desc": "[EndSkill] Восстанавливает ОЗ в размере <style=\"highlight\">25%</style> от своих максимальных ОЗ двум другим союзникам с наименьшим процентом текущих ОЗ"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead] Если цель оглушена или побеждена, то даёт этим союзникам щит, равный 10% от своих максимальных ОЗ</style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead] Если цель Оглушена или побеждена, то даёт этим союзникам щит, равный 10% от своих максимальных ОЗ</style>"
                 }
               ]
             }
@@ -187,7 +187,7 @@
                   "desc": "[EndSkill] Восстанавливает ОЗ в размере <style=\"highlight\">30%</style> от своих максимальных ОЗ двум другим союзникам с наименьшим процентом текущих ОЗ"
                 },
                 {
-                  "desc": "[EndSkillHead] Если цель оглушена или побеждена, то даёт этим союзникам щит, равный <style=\"highlight\">15%</style> от своих максимальных ОЗ"
+                  "desc": "[EndSkillHead] Если цель Оглушена или побеждена, то даёт этим союзникам щит, равный <style=\"highlight\">15%</style> от своих максимальных ОЗ"
                 }
               ]
             }
@@ -231,7 +231,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">20</style> урона по СД"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель оглушена или побеждена, восстанавливает 5 СД</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель Оглушена или побеждена, восстанавливает 5 СД</style>"
                 }
               ]
             }
@@ -252,7 +252,7 @@
                   "desc": "[OnSucceedAttack] Наносит 20 урона по СД"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель оглушена или побеждена, восстанавливает <style=\"highlight\">7</style> СД"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель Оглушена или побеждена, восстанавливает <style=\"highlight\">7</style> СД"
                 }
               ]
             }

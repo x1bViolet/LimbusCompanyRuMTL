@@ -17,6 +17,14 @@
       "text": "Пропустить этот сюжетный эпизод?"
     },
     {
+      "key": "FloorMoveUnboughtConfirmDesc",
+      "text": "Вы купили не все предметы на этом этаже.\nВсё равно перейти на другой этаж?"
+    },
+    {
+      "key": "FloorMoveUnboughtDontShowAgain",
+      "text": "Не показывать снова"
+    },
+    {
       "key": "DialogueSkipDontShowAgain",
       "text": "Не показывать это сообщение снова"
     },
@@ -185,10 +193,6 @@
       "text": "Прогресс задания: {0}"
     },
     {
-      "key": "Log_PlayerHit",
-      "text": "Получен удар: {0}"
-    },
-    {
       "key": "Log_BattleResultSync",
       "text": "Исход битвы: ({0}): ОЗ {1}/{2}, MP{3}/{4}"
     },
@@ -337,6 +341,14 @@
       "text": "Журнал истории"
     },
     {
+      "key": "LogPopup_Tab_Story",
+      "text": "Журнал истории"
+    },
+    {
+      "key": "LogPopup_Tab_System",
+      "text": "Журнал действий"
+    },
+    {
       "key": "Setting_Tab_Sisyphus",
       "text": "Сизиф"
     },
@@ -353,6 +365,46 @@
       "text": "Цензура сцен смерти"
     },
     {
+      "key": "Setting_Sisyphus_LightMode",
+      "text": "Режим освещения"
+    },
+    {
+      "key": "Setting_Sisyphus_Brightness",
+      "text": "Яркость"
+    },
+    {
+      "key": "Setting_Sisyphus_BrightnessCeiling",
+      "text": "Лимит яркости"
+    },
+    {
+      "key": "Setting_Sisyphus_MoveAssist",
+      "text": "Коррекция прямого движения"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelay",
+      "text": "Таймер авто-бега"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadWalkStart",
+      "text": "Порог ходьбы на виртуальном джойстике"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunKeep",
+      "text": "Радиус сохранения бега на виртуальном джойстике"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadRunStart",
+      "text": "Порог бега на виртуальном джойстике"
+    },
+    {
+      "key": "Setting_Sisyphus_TurnAssist",
+      "text": "Порог изменения направления"
+    },
+    {
+      "key": "Setting_Sisyphus_RunStartDelayValue",
+      "text": "Секунд: {0}"
+    },
+    {
       "key": "Setting_Sisyphus_Move",
       "text": "Движение"
     },
@@ -366,7 +418,7 @@
     },
     {
       "key": "Setting_Sisyphus_GauntletSuicide",
-      "text": "Используйте перчатку чтобы совершить суицид"
+      "text": "Используйте перчатку чтобы вернуться к Фонтану"
     },
     {
       "key": "Setting_Sisyphus_Attack",
