@@ -1,0 +1,56 @@
+{
+  "dataList": [
+    {
+      "key": "1",
+      "displayName": "И Сан"
+    },
+    {
+      "key": "2",
+      "displayName": "Фауст"
+    },
+    {
+      "key": "3",
+      "displayName": "Дон Кихот"
+    },
+    {
+      "key": "4",
+      "displayName": "Рёшу"
+    },
+    {
+      "key": "5",
+      "displayName": "Мерсо"
+    },
+    {
+      "key": "6",
+      "displayName": "Хон Лу"
+    },
+    {
+      "key": "7",
+      "displayName": "Хитклиф"
+    },
+    {
+      "key": "8",
+      "displayName": "Измаил"
+    },
+    {
+      "key": "9",
+      "displayName": "Родя"
+    },
+    {
+      "key": "10",
+      "displayName": "Синклер"
+    },
+    {
+      "key": "11",
+      "displayName": "Отис"
+    },
+    {
+      "key": "12",
+      "displayName": "Грегор"
+    },
+    {
+      "key": "13",
+      "displayName": "Данте"
+    }
+  ]
+}

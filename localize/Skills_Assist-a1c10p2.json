@@ -1,0 +1,548 @@
+{
+  "dataList": [
+    {
+      "id": 40004101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Багряный гвоздь",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Багряный гвоздь",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё по 1 [BloodyMucusAlly:`Крещению`] за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у цели нет силы духа, то на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Багряный гвоздь",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если своя СД выше СД цели (Или если цель не имеет силы духа), Сила монет +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё по 1 [BloodyMucusAlly:`Крещению`] за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у цели нет силы духа, то на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold:`Золотое откровение`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уйди",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Уйди",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2 дополнительных целей)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё по 1 [BloodyMucusAlly:`Крещению`] за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё по 1 [BloodyMucusAlly:`Крещению`] за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Уйди",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2 дополнительных целей)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё по 1 [BloodyMucusAlly:`Крещению`] за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold:`Золотое откровение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё по 1 [BloodyMucusAlly:`Крещению`] за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold:`Золотое откровение`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взбодрись",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Даёт 1 [ParryingResultUp:`Повышение силы в столкновении`]"
+                },
+                {
+                  "desc": "[EndCoin] Даёт (Текущая сила своей [ChargeRouge:`Пульсации`]) [AttackUp:`Повышений уровня атаки`] (До 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Взбодрись",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2 дополнительных целей)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Даёт 1 [ParryingResultUp:`Повышение силы в столкновении`]"
+                },
+                {
+                  "desc": "[EndCoin] Даёт (Текущая сила своей [ChargeRouge:`Пульсации`]) [AttackUp:`Повышений уровня атаки`] (До 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Взбодрись",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2 дополнительных целей)\n[EndSkill] Если есть [GourmandiseAlly:`Неудержимое неистовство`] и текущий счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит до 10 его единиц, чтобы дать 1 [SkillPowerUp:`Повышение базовой силы`] всем целям этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Даёт 1 [ParryingResultUp:`Повышение силы в столкновении`]"
+                },
+                {
+                  "desc": "[EndCoin] Даёт (Текущая сила своей [ChargeRouge:`Пульсации`]) [AttackUp:`Повышений уровня атаки`] (До 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взбодрись",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2 дополнительных целей)\n[EndSkill] Если есть [GourmandiseAlly:`Неудержимое неистовство`] и текущий счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит до 10 его единиц, чтобы дать 1 [SkillPowerUp:`Повышение базовой силы`] всем целям этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Даёт 1 [SkillPowerUp:`Повышение базовой силы`]"
+                },
+                {
+                  "desc": "[EndCoin] Даёт (Текущая сила своей [ChargeRouge:`Пульсации`]) [AttackUp:`Повышений уровня атаки`] на этот и следующий ход (До 5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не болей",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цели (Итоговая сила этого навыка × 2) ОЗ\n- Если целью является Идентичность Ле Руж, то вместо этого тратит столько же её ОЗ для восстановления своих (Не может оглушить или опустить ОЗ цели ниже 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Не болей",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Если текущая сила своей [ChargeRouge:`Пульсации`] равна 3 и более, Количество целей +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цели (Итоговая сила этого навыка × 2) ОЗ\n- Если целью является Идентичность Ле Руж, то вместо этого тратит столько же её ОЗ для восстановления своих (Не может оглушить или опустить ОЗ цели ниже 1)"
+                },
+                {
+                  "desc": "[EndCoin] Восстанавливает цели (Итоговая сила этого навыка) СД\n- Если СД цели уже максимальна, то убирает с неё 1 случайный снимаемый негативный эффект вместо этого"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Не болей",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Если текущая сила своей [ChargeRouge:`Пульсации`] равна 3 и более, Количество целей +4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цели ((Итоговая сила этого навыка × 2) + (Текущая сила своей [ChargeRouge:`Пульсации`] × 2)) ОЗ\n- Если целью является Идентичность Ле Руж, то вместо этого тратит столько же её ОЗ для восстановления своих (Не может оглушить или опустить ОЗ цели ниже 1)"
+                },
+                {
+                  "desc": "[EndCoin] Восстанавливает цели (Итоговая сила этого навыка + (Текущая сила своей [ChargeRouge:`Пульсации`] × 3)) СД\n- Если СД цели уже максимальна, то убирает с неё 1 случайный снимаемый негативный эффект вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Держись за мою руку",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Получает 5 [Binding:`Связывания`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цель от оглушения"
+                },
+                {
+                  "desc": "[EndCoin] Восстанавливает цели (Итоговая сила этого навыка) ОЗ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Grab My Hand",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цель от оглушения"
+                },
+                {
+                  "desc": "[EndCoin] Восстанавливает цели (Итоговая сила этого навыка) ОЗ"
+                },
+                {
+                  "desc": "[EndCoin] Даёт цели ОЗ Щита, равные 50% от её максимальных ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крещение багряными гвоздями",
+          "desc": "[WhenUse] Если текущий счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит до 10 его единиц, чтобы получить +2 к Силе монет и +2 к Количеству целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Крещение багряными гвоздями",
+          "desc": "[WhenUse] Если текущий счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит до 10 его единиц, чтобы получить +2 к Силе монет и +2 к Количеству целей\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Крещение багряными гвоздями",
+          "desc": "[WhenUse] Если текущий счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит до 10 его единиц, чтобы получить +2 к Силе монет и +2 к Количеству целей\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[WhenUse] Если текущая сила своей [ChargeRouge:`Пульсации`] равна 5 и более:\n- Количество целей +2\n- Сила монет +(Текущая сила своей [ChargeRouge:`Пульсации`] - 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold:`Золотое откровение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold:`Золотое откровение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BloodyMucusAlly:`Крещение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BuffetGold:`Золотое откровение`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я закончу это для тебя...",
+          "desc": "[CantDuel]\nНаносит на 0.5% больше урона за каждый 1% потерянных ОЗ цели (До 30%)\n[WhenUse] Если есть [GourmandiseAlly:`Неудержимое неистовство`], Количество целей +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если есть [GourmandiseAlly:`Неудержимое неистовство`], то вновь подкидывает эту монету 1 раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ля Нозе",
+          "desc": "[StartBattle] Тратит весь счётчик своей [ChargeRouge:`Пульсации`], чтобы восстановить себе и всем Грешникам (Потраченный счётчик)% ОЗ",
+          "flavor": "Неизбежная боль роста для тех, кто вырастает в богов.\n\nЭто ощущение принимает множество форм: головокружение, тошнота, судороги, самообман... а для кого-то — отрицание. Для них мир полон ужаса и отчуждающего хаоса. Чтобы совладать с тошнотой, чтобы защитить тех, кто всё ещё принадлежит ей, и тех, кому лишь предстоит стать лишними, зарождающийся бог извергает рвоту.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле тру руж",
+          "desc": "[StartBattle] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 4",
+          "flavor": "    Это багряная пустота.\n    Хоть она и замкнута, бесконечный голод не утихает, жаждая невозможного насыщения.\n\n    Ибо именно этого от сего создания ждут остальные. Ибо такова цель, ради которой она появилась на свет.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

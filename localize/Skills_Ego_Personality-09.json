@@ -902,6 +902,268 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2091011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зеркальная тактильность",
+          "abName": "Странствующее сердце",
+          "desc": "Сила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До 2)\n[BeforeAttack] Получает (2 + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 8) и повышает его счётчик на 2\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Зеркальная тактильность",
+          "abName": "Странствующее сердце",
+          "desc": "Сила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">3</style>)\n[BeforeAttack] Получает (<style=\"highlight\">3</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 8) и повышает его счётчик на 2\n[EndSkill] Случайным образом наносит (<style=\"highlight\">3</style> + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Зеркальная тактильность",
+          "abName": "Странствующее сердце",
+          "desc": "Сила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">4</style>)\n[BeforeAttack] Получает (<style=\"highlight\">4</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 8) и повышает его счётчик на 2\n[EndSkill] Случайным образом наносит (<style=\"highlight\">4</style> + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown:`Понижения уровня атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2091021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зеркальная тактильность",
+          "abName": "Странствующее сердце",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До 2)\n[BeforeAttack] Получает (2 + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на 2\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на 20% больше урона при критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 4 и более, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 4 и более, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Зеркальная тактильность",
+          "abName": "Странствующее сердце",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">3</style>)\n[BeforeAttack] Получает (<style=\"highlight\">3</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на <style=\"highlight\">3</style>\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на <style=\"highlight\">30%</style> больше урона при критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 4 и более, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 4 и более, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Зеркальная тактильность",
+          "abName": "Странствующее сердце",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">4</style>)\n[BeforeAttack] Получает (<style=\"highlight\">4</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на <style=\"highlight\">4</style>\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на <style=\"highlight\">40%</style> больше урона при критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Vibration:`Тремора`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 4 и более, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration:`Тремора`] цели равен 4 и более, то [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown:`Понижения уровня атаки`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
