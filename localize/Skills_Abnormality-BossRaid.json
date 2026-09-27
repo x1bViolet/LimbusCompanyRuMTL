@@ -152,7 +152,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 30"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает Границу Выносливости цели на 30"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Paralysis:`Паралич`] на следующий ход"

@@ -633,14 +633,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
+                  "desc": "[OnSucceedAttackHead] Понижает свою Границу Выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
+                  "desc": "[OnSucceedAttackHead] Понижает свою Границу Выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
                 }
               ]
             }
@@ -654,14 +654,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою границу выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою Границу Выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою границу выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою Границу Выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
                 }
               ]
             }
@@ -675,14 +675,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на число [KnowledgeExplored:`Откровений`](#f8c200)"
                 }
               ]
             }

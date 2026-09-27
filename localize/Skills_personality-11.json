@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
+                  "desc": "[OnSucceedAttackHead] Понижает свою Границу Выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
                 }
               ]
             }
@@ -25,7 +25,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою границу выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Понижает свою Границу Выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
                 }
               ]
             }
@@ -39,7 +39,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на количество счётчика своего [Vibration:`Тремора`] (До 10) "
                 }
               ]
             }
@@ -2478,7 +2478,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Поднимает границу выносливости цели на 5</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Поднимает Границу Выносливости цели на 5</style>"
                 }
               ]
             },
@@ -2730,7 +2730,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 5"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на 5"
                 }
               ]
             }
@@ -2751,7 +2751,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на <style=\"highlight\">10</style>"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на <style=\"highlight\">10</style>"
                 }
               ]
             }
@@ -2776,7 +2776,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 5"
                 }
               ]
             },
@@ -2809,7 +2809,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на <style=\"highlight\">10</style>"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на <style=\"highlight\">10</style>"
                 }
               ]
             },
@@ -3114,7 +3114,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 10"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 10"
                 }
               ]
             },
@@ -3161,7 +3161,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 10"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 10"
                 }
               ]
             },

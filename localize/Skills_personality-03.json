@@ -231,14 +231,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 3"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на 3"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 3"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на 3"
                 }
               ]
             }
@@ -252,14 +252,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости <style=\"highlight\">на 5</style>"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости <style=\"highlight\">на 5</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости <style=\"highlight\">на 5</style>"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости <style=\"highlight\">на 5</style>"
                 }
               ]
             }

@@ -53,7 +53,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 дополнительного Дробящего урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 5"
                 }
               ]
             },
@@ -63,7 +63,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 дополнительного Дробящего урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 5"
                 },
                 {
                   "desc": "[OnSucceedAttack] Вновь подкидывает эту монету при 3 и более [ResentmentSpiderDaughterTwo:`Злобы`](;ResentmentSpiderDaughter),"
@@ -202,7 +202,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 дополнительного Дробящего урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 5"
                 }
               ]
             },
@@ -241,7 +241,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 10"
+                  "desc": "[OnSucceedAttack] Понижает свою Границу Выносливости на 10"
                 }
               ]
             }

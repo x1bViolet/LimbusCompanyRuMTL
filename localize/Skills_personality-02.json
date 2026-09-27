@@ -348,21 +348,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон Гневом, равный 20% от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон Гневом, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             }
@@ -376,21 +376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней границы выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             }

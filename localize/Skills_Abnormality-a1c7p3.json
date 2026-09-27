@@ -384,7 +384,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [NailPersonality:`Гвоздя`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если удалось победить в столкновении с целью, повышает границу выносливости цели на (Количество её [AffectionTeddy:`Привязанности`] × 10)\n[OnSucceedAttack] Вся [AffectionTeddy:`Привязанность`] исчезает с цели"
+                  "desc": "[OnSucceedAttack] Если удалось победить в столкновении с целью, повышает Границу Выносливости цели на (Количество её [AffectionTeddy:`Привязанности`] × 10)\n[OnSucceedAttack] Вся [AffectionTeddy:`Привязанность`] исчезает с цели"
                 }
               ]
             }

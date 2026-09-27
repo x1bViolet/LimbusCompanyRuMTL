@@ -807,7 +807,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает Границу Выносливости цели на 10"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
@@ -1167,7 +1167,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] и повышает его счётчик на 4"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает Границу Выносливости цели на 10"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
