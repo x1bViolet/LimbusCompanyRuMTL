@@ -2441,7 +2441,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает Уровень защиты цели на 2 и повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttackHead] Понижает Уровень Защиты цели на 2 и повышает счётчик [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -2492,7 +2492,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход\n[OnSucceedAttack] Понижает Уровень защиты цели на 2 в следующем ходе"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход\n[OnSucceedAttack] Понижает Уровень Защиты цели на 2 в следующем ходе"
                 }
               ]
             }
