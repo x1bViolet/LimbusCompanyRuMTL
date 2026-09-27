@@ -32,7 +32,7 @@
 Грегор: Э-э... Здорово. Рад за тебя, что ли?
 
 # Original: Good-bye, you hear? You strangers are all suckers, you hear?
-Су-шеф: До свиданья, слышь? Все вы, Посторонние, — простофили, слышь?
+Су-шеф: До свиданья, слышь? Все вы, посторонние, — простофили, слышь?
 
 # Original: She appears exceptionally pleased. We likely accepted an unfavorable exchange.
 Фауст: Она выглядит исключительно довольной. Вероятно, мы согласились на невыгодный обмен.

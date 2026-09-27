@@ -14,7 +14,7 @@
 Отис: Никто ни с кем не объединялся. Позвольте сразу прояснить: мы не связаны ни с Ле Руж, ни с Ле Нуар. Мы предпочли бы держаться в стороне, а не ввязываться в войну, в которой у нас нет никакого интереса.
 
 # Original: The Voice has prophesied your coming, strangers. That you would come here, after receiving a request to eliminate the Alterationist.
-Фланель: Голос предрёк ваше появление, Посторонние. Предрёк, что вы явитесь сюда, получив заказ на устранение Перекройщицы.
+Фланель: Голос предрёк ваше появление, посторонние. Предрёк, что вы явитесь сюда, получив заказ на устранение Перекройщицы.
 
 # Original: Should you bring her harm, we will henceforth declare you enemies of Le Noir. We cannot dispense with the fabric she weaves in times of crisis like the present.
 Фетр: Если вы причините ей вред, мы отныне объявим вас врагами Ле Нуар. В столь тяжкие времена, как нынешние, мы не можем обойтись без ткани, которую она ткёт.

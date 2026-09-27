@@ -2,7 +2,7 @@
 Данте: <Э-э, кто эти люди...?>
 
 # Original: Identity checkpoint. We have information that there are strangers who are sheltering an unholy abomination. State your name and affiliation.
-Страж Ле Нуар: Проверка личности. По нашим сведениям, некие Посторонние укрывают нечестивую мерзость. Назовите имя и принадлежность.
+Страж Ле Нуар: Проверка личности. По нашим сведениям, некие посторонние укрывают нечестивую мерзость. Назовите имя и принадлежность.
 
 # Original: I'm Pwie! And my affili... What's affiliation?
 Буфи: Я Буфи! А моя принадле... Что такое принадлежность?

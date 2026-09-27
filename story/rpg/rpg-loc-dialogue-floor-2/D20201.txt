@@ -1,5 +1,5 @@
 ﻿# Original: <... Stranger from the Fount, huh.>
-Данте: <... Посторонний из Источника, значит.>
+Данте: <... посторонний из Источника, значит.>
 
 # Original: <We... can slip beyond some of the rules and common sense that govern this place. And we belong to neither the Rouges nor the Noirs.>
 Данте: <Мы... можем обходить некоторые правила и законы, по которым живёт это место. И мы не принадлежим ни к Ружам, ни к Нуарам.>

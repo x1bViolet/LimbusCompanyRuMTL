@@ -2,7 +2,7 @@
 Су-шеф: Буше! Буше!
 
 # Original: ... You brought strangers with you. What is it, Head Chef?
-Буше: …Ты привела с собой Посторонних. В чём дело, Шеф-повар?
+Буше: …Ты привела с собой посторонних. В чём дело, Шеф-повар?
 
 # Original: It's Sous Chef; not Head Chef, you hear? I got promoted last time, you hear?
 Су-шеф: Я Су-шеф, а не Шеф-повар, слышь? Меня в прошлый раз повысили, слышь?
@@ -17,7 +17,7 @@
 Буше: …Зачем ты пришла, Су-шеф?
 
 # Original: These strangers... they said they'd contribute... <i>that</i>... to our soda, you hear?
-Су-шеф: Эти Посторонние… они сказали, что внесут… <i>это</i>… в нашу газировку, слышь?
+Су-шеф: Эти посторонние… они сказали, что внесут… <i>это</i>… в нашу газировку, слышь?
 
 # Original: ... Stop braising the sentence and serve it already. What ingredient is it?
 Буше: …Хватит томить фразу на медленном огне, подавай уже. Что за ингредиент?
@@ -32,7 +32,7 @@
 Буше: А-а… Помню этот отруб. Вкус вызывал настоящий экстаз.
 
 # Original: So, speak then, strangers. What do you want in exchange?
-Буше: Что ж, говорите, Посторонние. Чего хотите взамен?
+Буше: Что ж, говорите, посторонние. Чего хотите взамен?
 
 # Original: We demand a dish cooked with the Golden Cocoon—a larva that has stranded ashore.
 Мерсо: Мы требуем блюдо, приготовленное из Золотого кокона — личинки, выброшенной на берег.
