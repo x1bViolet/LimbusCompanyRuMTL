@@ -31,12 +31,6 @@
       "panicDescription": "Получает 1 [AttackDown:`Понижение уровня атаки`] и 1 [AttackDmgDown:`Понижение урона`]"
     },
     {
-      "id": 1109,
-      "panicName": "Круговорот смерти",
-      "lowMoraleDescription": "Получает 3 [Protection:`Защищённости`]",
-      "panicDescription": "Получает 5 [Protection:`Защищённости`]"
-    },
-    {
       "id": 1121,
       "panicName": "Внутренний раскол",
       "lowMoraleDescription": "- Уровень защиты -3\n- Уровень атаки +3\n- Сила в столкновении +2 против целей с максимальным значением [BloodyMucus:`Крещения`]",

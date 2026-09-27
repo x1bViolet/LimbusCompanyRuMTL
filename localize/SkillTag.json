@@ -45,6 +45,10 @@
       "name": "<color=#f95e00>]</color>"
     },
     {
+      "id": "AZURE",
+      "name": "<color=#93f13e>[Конец столкновения]</color>"
+    },
+    {
       "id": "EndSkill",
       "name": "[Конец атаки]"
     },
