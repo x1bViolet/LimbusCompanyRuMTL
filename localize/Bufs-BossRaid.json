@@ -37,7 +37,7 @@
       "id": "FavorBuffTwthEnemyTwo",
       "name": "Тень преломления【Синева】",
       "desc": "Начало хода: если в Панике, то получает 3 [Vulnerable:`Уязвимости`]",
-      "summary": "Получает [Vulnerable:`Уязвимость`] при панике"
+      "summary": "Получает [Vulnerable:`Уязвимость`] при Панике"
     },
     {
       "id": "FavorBuffTwthHard",
