@@ -31,6 +31,7 @@ dialogue_files = [
   "RPGSystem/rpg-loc-dialogue-floor-2-b.json",
   "RPGSystem/rpg-loc-dialogue-floor-3-b.json",
   "RPGSystem/rpg-loc-dialogue-floor-4-b.json",
+  "RPGSystem/rpg-loc-dialogue-floor-5-b.json",
   "RPGSystem/rpg-loc-dialogue-floor-b1-b.json",
   "RPGSystem/rpg-loc-dialogue-floor-b2-b.json",
   "RPGSystem/rpg-loc-dialogue-floor-b3-b.json",
