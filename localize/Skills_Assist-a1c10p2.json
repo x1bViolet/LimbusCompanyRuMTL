@@ -337,7 +337,7 @@
         },
         {
           "level": 2,
-          "name": "Grab My Hand",
+          "name": "Держись за мою руку",
           "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantDuel]\n[CantChangeTarget]",
           "coinlist": [
             {
