@@ -226,7 +226,7 @@
     },
     {
       "id": "OnDirectAttack",
-      "name": "<color=#c6fe94>[При односторонней атаке]</color>"
+      "name": "<color=#c6fe94>[При Односторонней атаке]</color>"
     },
     {
       "id": "ReUseOnSucceedAttack",

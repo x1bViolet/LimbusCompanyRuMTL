@@ -112,8 +112,8 @@
     },
     {
       "id": "OnOneSideAttackEnd",
-      "add": "Повышается на {0} после односторонних атак",
-      "min": "Понижается на {0} после односторонних атак"
+      "add": "Повышается на {0} после Односторонних атак",
+      "min": "Понижается на {0} после Односторонних атак"
     },
     {
       "id": "OnSucceedAttackAsTargetHasIndexPrescriptTargetToPersonality",
