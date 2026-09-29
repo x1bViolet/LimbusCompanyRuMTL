@@ -1218,7 +1218,7 @@
         {
           "level": 1,
           "name": "Договорённость",
-          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n\n[EndSkill] Если целью являлся союзник, то даёт ему 6 [AttackUp:`Повышений уровня атаки`] и приказывает использовать случайный атакующий навык на противниках\n\n[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`]\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Теряет 150 [NoirShieldUp:`Благословения обсидианового бога`]</u></b></mark></color>",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n\n[EndSkill] Если целью являлся союзник, то даёт ему 6 [AttackUp:`Повышений уровня атаки`] и приказывает использовать случайный Атакующий навык на противниках\n\n[DefeatDuel] Получает 1 [Vulnerable:`Уязвимость`]\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Теряет 150 [NoirShieldUp:`Благословения обсидианового бога`]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": []
