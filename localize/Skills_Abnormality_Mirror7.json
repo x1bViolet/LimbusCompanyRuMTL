@@ -474,7 +474,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
@@ -664,7 +664,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Vulnerable:`Уязвимостей`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }

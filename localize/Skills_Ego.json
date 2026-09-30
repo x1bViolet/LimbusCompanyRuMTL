@@ -2898,7 +2898,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрыва`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Повышает всем союзникам счётчик [Charge:`Заряда`] на 10, но также наносит им 5 [Vulnerable:`Уязвимости`] и 10 [Burst:`Разрыва`]</style>"
                 }
               ]
             }
@@ -2916,7 +2916,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимостей`] и 10 [Burst:`Разрыва`]"
+                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем союзникам счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимости`] и 10 [Burst:`Разрыва`]"
                 }
               ]
             }

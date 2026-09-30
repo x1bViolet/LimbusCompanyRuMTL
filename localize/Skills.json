@@ -4130,7 +4130,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:`Патрон`]\n[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]\n[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
@@ -4165,7 +4165,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Тратит 1 [Bullet:`Патрон`]\n[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`]"
+                  "desc": "Тратит 1 [Bullet:`Патрон`]\n[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }

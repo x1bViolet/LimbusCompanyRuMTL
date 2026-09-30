@@ -2242,7 +2242,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }

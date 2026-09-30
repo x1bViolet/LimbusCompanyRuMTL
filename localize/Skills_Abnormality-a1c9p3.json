@@ -1347,7 +1347,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
@@ -1838,7 +1838,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 [Vulnerable:`Уязвимостей`]"
+                  "desc": "[OnSucceedAttack] Наносит 10 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
@@ -2326,7 +2326,7 @@
         {
           "level": 1,
           "name": "«Сынок, не забудь целиться в сердце.»",
-          "desc": "[CantChangeTarget]\n[WhenUse] Получает 10 [Breath:`Дыхание`] и повышает его счётчик <nobr>на 4</nobr>\n[WinDuel] Получает ещё 10 [Breath:`Дыхания`]\n[DefeatDuel] Наносит на 80% меньше урона, а также не может попасть критически или Оглушить цель\n[DefeatDuel] Получает 5 [Vulnerable:`Уязвимостей`] на следующий ход",
+          "desc": "[CantChangeTarget]\n[WhenUse] Получает 10 [Breath:`Дыхание`] и повышает его счётчик <nobr>на 4</nobr>\n[WinDuel] Получает ещё 10 [Breath:`Дыхания`]\n[DefeatDuel] Наносит на 80% меньше урона, а также не может попасть критически или Оглушить цель\n[DefeatDuel] Получает 5 [Vulnerable:`Уязвимости`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

@@ -28,7 +28,7 @@
       "id": 1005,
       "panicName": "Обозлённость",
       "lowMoraleDescription": "Получает 1 [AttackDmgUp:`Повышение урона`] и 2 [Vulnerable:`Уязвимости`]",
-      "panicDescription": "Получает 2 [AttackDmgUp:`Повышения урона`] и 5 [Vulnerable:`Уязвимостей`]"
+      "panicDescription": "Получает 2 [AttackDmgUp:`Повышения урона`] и 5 [Vulnerable:`Уязвимости`]"
     },
     {
       "id": 1006,

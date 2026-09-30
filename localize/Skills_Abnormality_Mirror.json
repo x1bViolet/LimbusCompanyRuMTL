@@ -140,7 +140,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Оглушает цель и наносит 10 [Vulnerable:`Уязвимостей`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Оглушает цель и наносит 10 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }
@@ -382,7 +382,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] на следующий ход"
