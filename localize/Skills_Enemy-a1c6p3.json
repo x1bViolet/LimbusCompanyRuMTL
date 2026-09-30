@@ -114,21 +114,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#1cc7f1>Унынием</color> в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#1cc7f1>Унынием</color> в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#1cc7f1>Унынием</color> в количестве [Sinking:`Утопания`] цели и понижает его счётчик на 1"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Sinking:`Утопания`]"

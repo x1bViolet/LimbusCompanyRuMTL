@@ -348,21 +348,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон Гневом, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             }
@@ -376,21 +376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]\nПосле наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон Гневом, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 3\nПосле наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения последней Границы Выносливости [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             }
@@ -879,7 +879,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот навык является частью резонанса Зависти из 3 и более грехов, то тратит весь свой оставшийся счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × Сила своего [Charge:`Заряда`])% больше урона этой монетой (До 60%)"
+                  "desc": "[OnSucceedAttack] Если этот навык является частью резонанса <color=#9808de>Зависти</color> из 3 и более грехов, то тратит весь свой оставшийся счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × Сила своего [Charge:`Заряда`])% больше урона этой монетой (До 60%)"
                 }
               ]
             }
@@ -895,7 +895,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот навык является частью резонанса Зависти из 3 и более грехов, то тратит весь свой оставшийся счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × <style=\"highlight\">(</style>Сила своего [Charge:`Заряда`] <style=\"highlight\">+ 3)</style>)% больше урона этой монетой (До <style=\"highlight\">120%</style>)"
+                  "desc": "[OnSucceedAttack] Если этот навык является частью резонанса <color=#9808de>Зависти</color> из 3 и более грехов, то тратит весь свой оставшийся счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × <style=\"highlight\">(</style>Сила своего [Charge:`Заряда`] <style=\"highlight\">+ 3)</style>)% больше урона этой монетой (До <style=\"highlight\">120%</style>)"
                 }
               ]
             }
@@ -911,7 +911,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если этот навык является частью резонанса Зависти из 3 и более грехов, то тратит весь свой оставшийся счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × (Сила своего [Charge:`Заряда`] + <style=\"highlight\">4</style>))% больше урона этой монетой (До <style=\"highlight\">180%</style>)"
+                  "desc": "[OnSucceedAttack] Если этот навык является частью резонанса <color=#9808de>Зависти</color> из 3 и более грехов, то тратит весь свой оставшийся счётчик [Charge:`Заряда`] и наносит на (Потраченный счётчик × (Сила своего [Charge:`Заряда`] + <style=\"highlight\">4</style>))% больше урона этой монетой (До <style=\"highlight\">180%</style>)"
                 }
               ]
             }

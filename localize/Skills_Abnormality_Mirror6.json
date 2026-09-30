@@ -96,14 +96,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Похотью в размере 20% от максимальных ОЗ цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe6f01>Похотью</color> в размере 20% от максимальных ОЗ цели"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Похотью в размере 20% от максимальных ОЗ цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe6f01>Похотью</color> в размере 20% от максимальных ОЗ цели"
                 }
               ]
             }
@@ -142,7 +142,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Похотью в количестве (Сила × счётчик[Laceration:`Кровотечения`] цели)"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe6f01>Похотью</color> в количестве (Сила × счётчик[Laceration:`Кровотечения`] цели)"
                 }
               ]
             }

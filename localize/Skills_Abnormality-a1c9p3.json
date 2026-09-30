@@ -27,7 +27,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion:`Огня`] на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe0101>Гневом</color>, равный силе [Combustion:`Огня`] на цели"
                 }
               ]
             }
@@ -97,7 +97,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion:`Огня`] на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe0101>Гневом</color>, равный силе [Combustion:`Огня`] на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -187,7 +187,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion:`Огня`] на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe0101>Гневом</color>, равный силе [Combustion:`Огня`] на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
@@ -260,7 +260,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion:`Огня`] на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe0101>Гневом</color>, равный силе [Combustion:`Огня`] на цели"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
@@ -2337,7 +2337,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`], [Burst:`Разрыва`] или [Sinking:`Утопания`]) и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон <color=#014fd6>Гордыней</color>, равный 25% от максимальных ОЗ цели"
                 }
               ]
             },
@@ -2350,7 +2350,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`], [Burst:`Разрыва`] или [Sinking:`Утопания`]) и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон <color=#014fd6>Гордыней</color>, равный 25% от максимальных ОЗ цели"
                 }
               ]
             },
@@ -2363,7 +2363,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`], [Burst:`Разрыва`] или [Sinking:`Утопания`]) и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон <color=#014fd6>Гордыней</color>, равный 25% от максимальных ОЗ цели"
                 }
               ]
             },
@@ -2376,7 +2376,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`], [Burst:`Разрыва`] или [Sinking:`Утопания`]) и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон <color=#014fd6>Гордыней</color>, равный 25% от максимальных ОЗ цели"
                 }
               ]
             }
@@ -2678,7 +2678,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [SojiAbiBuffOne:`Первый крик зари`], [SojiAbiBuffTwo:`Заход солнца`] или [SojiAbiBuffThree:`Вечернее зарево`], наносит ей (Итоговый урон этой монеты × 5) урона Гордыней"
+                  "desc": "[OnSucceedAttack] Если цель имеет [SojiAbiBuffOne:`Первый крик зари`], [SojiAbiBuffTwo:`Заход солнца`] или [SojiAbiBuffThree:`Вечернее зарево`], наносит ей (Итоговый урон этой монеты × 5) урона <color=#014fd6>Гордыней</color>"
                 }
               ]
             }

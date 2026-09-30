@@ -2336,8 +2336,8 @@
                   "summary": "На 60% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей 60% от итогового урона этой монеты в качестве урона Унынием",
-                  "summary": "[OnSucceedAttack] Наносит (60% от итогового урона монеты) урона Унынием"
+                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей 60% от итогового урона этой монеты в качестве урона <color=#1cc7f1>Унынием</color>",
+                  "summary": "[OnSucceedAttack] Наносит (60% от итогового урона монеты) урона <color=#1cc7f1>Унынием</color>"
                 }
               ]
             }
@@ -2375,8 +2375,8 @@
                   "summary": "На 60% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей <style=\"highlight\">80%</style> от итогового урона этой монеты в качестве урона Унынием",
-                  "summary": "[OnSucceedAttack] Наносит (80% от итогового урона монеты) урона Унынием"
+                  "desc": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird), наносит ей <style=\"highlight\">80%</style> от итогового урона этой монеты в качестве урона <color=#1cc7f1>Унынием</color>",
+                  "summary": "[OnSucceedAttack] Наносит (80% от итогового урона монеты) урона <color=#1cc7f1>Унынием</color>"
                 }
               ]
             }

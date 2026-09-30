@@ -112,7 +112,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (10 × ([ColdAirDOQ:`Холод`] цели + 1)) дополнительного урона Унынием"
+                  "desc": "[OnSucceedAttack] Наносит (10 × ([ColdAirDOQ:`Холод`] цели + 1)) дополнительного урона <color=#1cc7f1>Унынием</color>"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 20 СД, если цель находилась в состоянии [FreezingDOQ:`Обморожения`]"
@@ -160,7 +160,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (10 × ([ColdAirDOQ:`Холод`] цели + 1)) дополнительного урона Унынием"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (10 × ([ColdAirDOQ:`Холод`] цели + 1)) дополнительного урона <color=#1cc7f1>Унынием</color>"
                 },
                 {
                   "desc": "[EnemyKill] Восстанавливает 20 СД, если цель находилась в состоянии [FreezingDOQ:`Обморожения`]"
@@ -292,7 +292,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [NervousImpairment:`Поражения нервов`] на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#1cc7f1>Унынием</color> в количестве [NervousImpairment:`Поражения нервов`] на цели"
                 }
               ]
             }

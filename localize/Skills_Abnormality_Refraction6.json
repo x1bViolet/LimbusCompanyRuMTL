@@ -430,7 +430,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (Сила своего [Breath:`Дыхания`] / 2) <color=#ff6000><mark=#ff000040><b><u>дополнительного урона Гордыней</u></b></mark></color> (Округляется вниз), понижая счётчик своего [Breath:`Дыхания`] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (Сила своего [Breath:`Дыхания`] / 2) <color=#ff6000><mark=#ff000040><b><u>дополнительного урона <color=#014fd6>Гордыней</color></u></b></mark></color> (Округляется вниз), понижая счётчик своего [Breath:`Дыхания`] на 1"
                 }
               ]
             }

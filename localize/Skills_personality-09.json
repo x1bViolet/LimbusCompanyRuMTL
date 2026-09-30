@@ -376,7 +376,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гневом в количестве половины силы [Combustion:`Огня`] на цели (До 20) и понижает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe0101>Гневом</color> в количестве половины силы [Combustion:`Огня`] на цели (До 20) и понижает его счётчик на 2"
                 }
               ]
             }
@@ -411,7 +411,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Гневом <style=\"highlight\">в количестве силы</style> [Combustion:`Огня`] на цели (До <style=\"highlight\">30</style>) и понижает его счётчик на 2"
+                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe0101>Гневом</color> <style=\"highlight\">в количестве силы</style> [Combustion:`Огня`] на цели (До <style=\"highlight\">30</style>) и понижает его счётчик на 2"
                 }
               ]
             }
