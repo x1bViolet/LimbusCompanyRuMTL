@@ -463,7 +463,7 @@
         {
           "level": 4,
           "name": "Трата знаний",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n[WhenUse] Сила в столкновении <style=\"highlight\">повышается на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n[WhenUse] Сила в столкновении <style=\"highlight\">повышается на (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -471,7 +471,7 @@
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking:`Утопания`] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Вновь подкидывает монету <style=\"highlight\">ещё (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1) раз (До 2)</style>"
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету <style=\"highlight\">ещё (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1) раз (До 2)</style>"
                 }
               ]
             }
@@ -517,7 +517,7 @@
         {
           "level": 4,
           "name": "Снятие печати",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков\n[WhenUse] Сила монет повышается <style=\"highlight\">на (Число [KnowledgeExplored:`Откровений`](#f8c200) - 1) (До 2)</style>",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков\n[WhenUse] Сила монет повышается <style=\"highlight\">на (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1) (До 2)</style>",
           "coinlist": [
             {},
             {},

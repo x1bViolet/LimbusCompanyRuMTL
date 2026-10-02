@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Патрулирование",
-          "desc": "<style=\"highlight\">[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход</style>\n[DefeatDuel] Получает 3 [DefenseUp:`Повышения уровня защиты`]",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком 2 [Aggro:`Провокации`] на следующий ход</style>\n[DefeatDuel] Получает 3 [DefenseUp:`Повышения уровня защиты`]",
           "coinlist": [
             {},
             {
@@ -191,7 +191,7 @@
         {
           "level": 4,
           "name": "Блок",
-          "desc": "<style=\"highlight\">[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {}
           ]

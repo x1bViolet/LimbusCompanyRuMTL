@@ -362,7 +362,7 @@
         {
           "level": 2,
           "name": "Покусаю!",
-          "desc": "<style=\"highlight\">[WhenUse] Этот слот получает 1 [Aggro:`Провокацию`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком 1 [Aggro:`Провокацию`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -376,7 +376,7 @@
         {
           "level": 4,
           "name": "Покусаю!",
-          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход",
+          "desc": "[WhenUse] Слот с этим навыком <style=\"highlight\">3</style> [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -423,7 +423,7 @@
         {
           "level": 2,
           "name": "Светящаяся приманка",
-          "desc": "<style=\"highlight\">[WhenUse] Этот слот получает 2 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком 2 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -454,7 +454,7 @@
         {
           "level": 4,
           "name": "Светящаяся приманка",
-          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">4</style> [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Burst:`Разрыва`]</style>",
+          "desc": "[WhenUse] Слот с этим навыком <style=\"highlight\">4</style> [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Burst:`Разрыва`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -490,7 +490,7 @@
         {
           "level": 3,
           "name": "Вжух-вжух ням-ням-ням!",
-          "desc": "[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход ",
+          "desc": "[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход ",
           "coinlist": [
             {
               "coindescs": [
@@ -518,7 +518,7 @@
         {
           "level": 4,
           "name": "Вжух-вжух ням-ням-ням!",
-          "desc": "[WhenUse] Этот слот получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Burst:`Разрыва`]</style>",
+          "desc": "[WhenUse] Слот с этим навыком <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Burst:`Разрыва`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -838,7 +838,7 @@
         {
           "level": 2,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {},
             {
@@ -853,12 +853,12 @@
         {
           "level": 4,
           "name": "В готовности взимать",
-          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Этот слот получает 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2\n[WhenUse] Сила в столкновении +1 <style=\"highlight\">за каждые 6 [Vibration:`Тремора`]</style> на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Этот слот получает 4 [Aggro:`Провокации`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Слот с этим навыком 4 [Aggro:`Провокации`] на следующий ход</style>"
                 }
               ]
             },
