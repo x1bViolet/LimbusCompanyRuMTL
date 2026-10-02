@@ -3426,6 +3426,46 @@
       "desc": "Идентичность с наибольшей Скоростью наносит на 10% больше Рубящего урона своими <link=\"ATL_Breath\"><link=\"ATL_Breath\"><u>Б</u>азовыми</link> навыками</link>.",
       "summary": "Наносит больше Рубящего урона",
       "flavor": "Единственная пара, которая мне дороже всего остального... будет и вашей."
+    },
+    {
+      "id": 1031501,
+      "name": "Обсидиановый завет",
+      "desc": "Наносит своими <link=\"ATL_Breath\"><u>Б</u>азовыми</link> Атакующими навыками на (Текущая сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) × 3)% больше урона по главной цели. (До 15%)\n\nКонец боевой фазы: если есть [OathFieldDonQuixote:`Святилище сохранения`], то получает 1 [Agility:`Спешку`] на следующий ход.",
+      "summary": "If [OathFieldDonQuixote] is active, gain [Agility] next turn\nBase Attack Skills deal more damage against the main target",
+      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+    },
+    {
+      "id": 1031502,
+      "name": "Молот обязательства",
+      "desc": "При входе в битву повышает счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 10 себе и всем другим Идентичностям «Ле Нуар» на поле боя.\n\nПолучает 1 силу [ChargeNoirAlly:`Презервации`](;ChargeNoir) каждый раз, когда тратит 10-ую единицу счётчика [ChargeNoirAlly:`Презервации`](;ChargeNoir).\n\nКогда наносит противникам [NoirNailDonQuixote:`Обещанный гвоздь`] своими навыками:\n- Если текущий счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 12 и более, то тратит 4 его единицы, чтобы нанести 1 дополнительный [NoirNailDonQuixote:`Обещанный гвоздь`];\n- Если текущий счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) ниже 12, то тратит 2 его единицы.\n※ Активация этого эффекта делает используемый навык считающимся за тратящий счётчик своего [Charge:`Заряда`].",
+      "summary": "Тратит счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) при нанесении [NoirNailDonQuixote:`Обещанных гвоздей`]",
+      "flavor": "A hammer drives nails. This hammer strikes nothing but nails. Whatever it strikes is a nail. That is what was agreed upon."
+    },
+    {
+      "id": 1031503,
+      "name": "Миссия сохранения",
+      "desc": "При входе в битву получает 25 [NoirShieldUpDonQuixote:`Благословения обсидианового бога`].\n\nКогда Дон Кихот тратит счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) или получает его сверх максимального значения: получает ((Потраченный счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) или его значение, полученное сверх максимума) × 5) [NoirShieldUpDonQuixote:`Благословения обсидианового бога`]. (До 30 за ход)\n\nПолучает 2 [NoirShieldUpDonQuixote:`Благословения обсидианового бога`], когда имеющая ОЗ Щита Идентичность получает урон. (Учитывая саму Дон Кихот; до 10 за ход)\n- Получает на 3 [NoirShieldUpDonQuixote:`Благословения обсидианового бога`] больше, если получившая урон Идентичность способна использовать [PersonalityCharge:`Заряд`](#f8c200).",
+      "summary": "Получает [NoirShieldUpDonQuixote:`Благословение обсидианового бога`]"
+    },
+    {
+      "id": 1031504,
+      "name": "Да пребудут с нами воля всевышнего и его ценности...",
+      "desc": "Когда другая Идентичность «Ле Нуар» собирается атаковать противника своим навыком: использует на главной цели этого навыка свой альтернативный первый навык <color=#014fd6>「Правосудие!」</color> в качестве Односторонней атаки. (Единожды за ход)\n\nВ начале атаки последней монетой своего <link=\"ATL_Breath\"><u>Б</u>азового</link> навыка: Итоговая сила этой монеты повышается на (Текущая сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) + (Количество [NoirNailDonQuixote:`Обещанных гвоздей`] на цели / 2)). (До 5)\n\nКогда есть [OathFieldDonQuixote:`Святилище сохранения`], Сила в столкновении своими <link=\"ATL_Breath\"><u>Б</u>азовыми</link> Атакующими навыками повышается на их <link=\"MDcFcBe\"><u>Р</u>анг</link>. (Навык 1/2/3 получает +1/+2/+3 к Силе в столкновении соответственно)\n\nКогда [VibrationExplosion:`Провоцирует Тремор`] на цели, которая имеет [NoirNailDonQuixote:`Обещанные гвозди`]: счётчик [Charge:`Заряда`] повышается на 2 для самой Дон Кихот и ещё одной другой Идентичности на поле боя, которая способна Использовать [PersonalityCharge:`Заряд`](#f8c200) и имеет его наименьший счётчик. (До 2 раз за ход)",
+      "summary": "Использует <color=#014fd6>「Правосудие!」</color> на целях других Идентичностей «Ле Нуар»\nСила навыков повышается",
+      "flavor": "The Obsidian God's words be our guiding light, our armor and shield in this troubled world of uncertainties; becometh His Voice the shining beam of light upon us, thereby bestowing us with meaning so coveted."
+    },
+    {
+      "id": 1031511,
+      "name": "Обсидиановый завет",
+      "desc": "Наносит своими <link=\"ATL_Breath\"><u>Б</u>азовыми</link> Атакующими навыками на (Текущая сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) × <style=\"highlight\">6</style>)% больше урона по главной цели. (До <style=\"highlight\">30%</style>)\n\nКонец боевой фазы: если есть [OathFieldDonQuixote:`Святилище сохранения`], то получает <style=\"highlight\">2</style> [Agility:`Спешки`] на следующий ход.",
+      "summary": "Наносит больше урона главной цели в зависимости от силы [ChargeNoirAlly:`Презервации`](;ChargeNoir)",
+      "flavor": "I heard His voice, His promise: \"Everything that exists has meaning.\""
+    },
+    {
+      "id": 1031521,
+      "name": "Сохранение формации",
+      "desc": "Для Идентичностей, способных использовать [PersonalityCharge:`Заряд`](#f8c200): снижает получаемый в течение хода урон на 2% за каждую такую же Идентичность, которая находилась на поле боя в начале боевой фазы. (До 10%)",
+      "summary": "Способные использовать [PersonalityCharge:`Заряд`](#f8c200) Идентичнотси получают меньше урона"
     }
   ]
 }

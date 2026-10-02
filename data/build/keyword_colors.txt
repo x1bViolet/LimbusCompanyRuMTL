@@ -1510,3 +1510,13 @@ SisyphusSapphire ¤ #f8c200
 SisyphusOnyx ¤ #f8c200
 SisyphusDiamond ¤ #f8c200
 ChargeKhaki ¤ #f8c200
+BlackWingHoleFaust ¤ #e30000
+BulletWoundHole ¤ #e30000
+BulletHole ¤ #a16a3b
+BlackWingHole ¤ #f8c200
+OathFieldDonQuixote ¤ #f8c200
+NoirShieldUpDonQuixote ¤ #f8c200
+NoirNailDonQuixote ¤ #e30000
+Tiphereth_Heads ¤ #f8c200
+Tiphereth_Tails ¤ #f8c200
+VibrationFocusing ¤ #e30000

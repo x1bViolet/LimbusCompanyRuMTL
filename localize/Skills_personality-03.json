@@ -3240,6 +3240,467 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Грядущий гвоздь",
+          "desc": "[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 3 и более, Сила монет +1\n[WhenUse] Повышает счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 2 себе и одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наименьший счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Грядущий гвоздь",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели (До 2)</style>\n[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 3 и более, Сила монет +1 <style=\"highlight\">и на 20% больше урона</style>\n[WhenUse] Повышает счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">3</style> себе и одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наименьший счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">5</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Грядущий гвоздь",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 3 и более, Сила монет +1 и на <style=\"highlight\">40%</style> больше урона\n[WhenUse] Повышает счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">4</style> себе и одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наименьший счётчик [ChargeNoirAlly:`Презервации`](;ChargeNoir) (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">6</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взывая к гвоздю",
+          "desc": "[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 3 и более, Сила монет +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 6"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Взывая к гвоздю",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели (До 2)</style>\n[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 3 и более, Сила монет +1 <style=\"highlight\">и на 20% больше урона</style>\n<style=\"highlight\">[BeforeAttack] Итоговая сила последней монеты +1 за каждый грех в наибольшем резонансе (До 4)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">7</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взывая к гвоздю",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 3 и более, Сила монет +1 и на <style=\"highlight\">30%</style> больше урона\n[BeforeAttack] Итоговая сила последней монеты +1 за каждый грех в наибольшем резонансе (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">8</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пресеку твоё пришествие!",
+          "desc": "[StartBattle] Получает 3 [OathFieldDonQuixote:`Святилища сохранения`] (Единожды за ход)\n[StartBattle] Даёт 2 [AttackUp:`Повышения уровня атаки`] и 2 [DefenseUp:`Повышения уровня защиты`] себе и ещё одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наибольшую Скорость (Единожды за ход)\n[WhenUse] Если сумма силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели равна 6 и более, Итоговая сила +1\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1 и на 20% больше урона\n[BeforeAttack] Итоговая сила последней монеты +1 за каждый грех в наибольшем резонансе (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration:`Преобразование амплитуды`] в [VibrationFocusing:`Тремор[TabExplain] — Консервацию`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [NoirNailDonQuixote:`Обещанных гвоздя`], то ещё раз [VibrationExplosion:`Провоцирует Тремор`] этой цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пресеку твоё пришествие!",
+          "desc": "[StartBattle] Получает 3 [OathFieldDonQuixote:`Святилищя сохранения`] (Единожды за ход)\n[StartBattle] Даёт 2 [AttackUp:`Повышения уровня атаки`] и 2 [DefenseUp:`Повышения уровня защиты`] себе и ещё одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наибольшую Скорость (Единожды за ход)\n[WhenUse] Итоговая сила +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1 и на <style=\"highlight\">40%</style> больше урона\n[BeforeAttack] Итоговая сила последней монеты +1 за каждый грех в наибольшем резонансе (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">4</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration:`Преобразование амплитуды`] в [VibrationFocusing:`Тремор[TabExplain] — Консервацию`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [NoirNailDonQuixote:`Обещанных гвоздя`], то ещё раз [VibrationExplosion:`Провоцирует Тремор`] этой цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Будьте безмолвными свидетелями",
+          "desc": "[StartBattle] Получает 3 [OathFieldDonQuixote:`Святилища сохранения`] (Единожды за ход)\n[StartBattle] Восстанавливает 4 СД себе и ещё одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наименьшую СД (Единожды за ход)\n[StartBattle] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 2 (Единожды за ход)\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Будьте безмолвными свидетелями",
+          "desc": "[StartBattle] Получает 3 [OathFieldDonQuixote:`Святилища сохранения`] (Единожды за ход)\n[StartBattle] Восстанавливает <style=\"highlight\">5</style> СД себе и ещё одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наименьшую СД (Единожды за ход)\n\n<style=\"highlight\">[StartBattle] В зависимости от текущего значения [NoirShieldUpDonQuixote:`Благословения обсидианового бога`]:\n- При максимальном значении (100): использует свой альтернативный третий навык <color=#fed133>「С каждым ударом, пресекаю твоё пришествие!」</color> вместо этого (Единожды за ход; может активироваться в качестве Односторонней атаки)\n- 99 и ниже: получает ОЗ Щита в размере (Текущее значение [NoirShieldUpDonQuixote:`Благословения обсидианового бога`] / 10)% от своих максимальных ОЗ (Единожды за ход)</style>\n\n[StartBattle] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">3</style> (Единожды за ход)\n<style=\"highlight\">[WhenUse] Если сумма силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на атакующем равна 6 и более, Сила монет +1</style>\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1 <style=\"highlight\">и на 10% больше урона</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Будьте безмолвными свидетелями",
+          "desc": "[StartBattle] Получает 3 [OathFieldDonQuixote:`Святилища сохранения`] (Единожды за ход)\n[StartBattle] Восстанавливает <style=\"highlight\">6</style> СД себе и ещё одной другой Идентичности «Ле Нуар» на поле боя, которая имеет наименьшую СД (Единожды за ход)\n\n[StartBattle] В зависимости от текущего значения [NoirShieldUpDonQuixote:`Благословения обсидианового бога`]:\n- При максимальном значении (100): использует свой альтернативный третий навык <color=#fed133>「С каждым ударом, пресекаю твоё пришествие!」</color> вместо этого (Единожды за ход; может активироваться в качестве Односторонней атаки)\n- 99 и ниже: получает ОЗ Щита в размере (Текущее значение [NoirShieldUpDonQuixote:`Благословения обсидианового бога`] / 10)% от своих максимальных ОЗ (Единожды за ход)\n\n[StartBattle] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">4</style> (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1 и на <style=\"highlight\">20%</style> больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">4</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Правосудие!",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНе вызывает активацию зашитных навыков цели и не опускает её ОЗ ниже 1\n[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели (До 2)\n[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 4 и более, Сила монеты +1 и на 20% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Правосудие!",
+          "desc": "[CantDuel]\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНе вызывает активацию зашитных навыков цели и не опускает её ОЗ ниже 1\n[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Если счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равен 4 и более, Сила монеты +1 и на <style=\"highlight\">40%</style> больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031506,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "С каждым ударом, пресекаю твоё пришествие!",
+          "desc": "Этот навык всегда cчитается Атакующим, даже если был активирован вместо своего Контратакующего навыка <color=#fed133>「Будьте безмолвными свидетелями」</color>\n\nНаносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 30)% больше урона (В фокусированных битвах считаются Части)\n[StartBattle] Даёт 2 [AttackUp:`Повышения уровня атаки`] и 2 [DefenseUp:`Повышения уровня защиты`] себе и всем другим Идентичностям «Ле Нуар» на поле боя (Единожды за ход)\n[WhenUse] Если сумма силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на всех целях этого навыка равна 6 и более, Сила монет +1\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1\n[BeforeAttack] Итоговая сила последней монеты +2 за каждый грех в наибольшем резонансе (До 8)\n[EndSkill] Тратит всё [NoirShieldUpDonQuixote:`Благословение обсидианового бога`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration:`Тремор`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на 3 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration:`Преобразование амплитуды`] в [VibrationFocusing:`Тремор[TabExplain] — Консервацию`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] В зависимости от количества [NoirNailDonQuixote:`Обещанных гвоздей`] на конкретной цели:\n- При 3 и более: ещё раз [VibrationExplosion:`Провоцирует Тремор`] на этой цели и понижает его счётчик на 1\n- Наносит цели дополнительный урон <color=#fed133>Леностью</color>, равный (Количество [NoirNailDonQuixote:`Обещанных гвоздей`] на ней × 1.5)% от итогового урона этой монеты (До 45%)\n[OnSucceedAttack] Цель теряет все [NoirNailDonQuixote:`Обещанные гвозди`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С каждым ударом, пресекаю твоё пришествие!",
+          "desc": "Этот навык всегда cчитается Атакующим, даже если был активирован вместо своего Контратакующего навыка <color=#fed133>「Будьте безмолвными свидетелями」</color>\n\nНаносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">50</style>)% больше урона (В фокусированных битвах считаются Части)\n[StartBattle] Даёт 2 [AttackUp:`Повышения уровня атаки`] и 2 [DefenseUp:`Повышения уровня защиты`] себе и всем другим Идентичностям «Ле Нуар» на поле боя (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Vibration:`Тремора`] и количества [NoirNailDonQuixote:`Обещанных гвоздей`] на всех целях этого навыка <style=\"highlight\">(До 2)</style>\n[WhenUse] Если сила своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) равна 3 и более, Сила монет +1\n[BeforeAttack] Итоговая сила последней монеты +2 за каждый грех в наибольшем резонансе (До 8)\n[EndSkill] Тратит всё [NoirShieldUpDonQuixote:`Благословение обсидианового бога`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [NoirNailDonQuixote:`Обещанный гвоздь`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeNoirAlly:`Презервации`](;ChargeNoir) на <style=\"highlight\">4</style> (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration:`Преобразование амплитуды`] в [VibrationFocusing:`Тремор[TabExplain] — Консервацию`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] В зависимости от количества [NoirNailDonQuixote:`Обещанных гвоздей`] на конкретной цели:\n- При 3 и более: ещё раз [VibrationExplosion:`Провоцирует Тремор`] на этой цели и понижает его счётчик на 1\n- Наносит цели дополнительный урон <color=#fed133>Леностью</color>, равный (Количество [NoirNailDonQuixote:`Обещанных гвоздей`] на ней × <style=\"highlight\">3</style>)% от итогового урона этой монеты (До <style=\"highlight\">90%</style>)\n[OnSucceedAttack] Цель теряет все [NoirNailDonQuixote:`Обещанные гвозди`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
