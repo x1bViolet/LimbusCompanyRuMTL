@@ -1,0 +1,72 @@
+{
+  "dataList": [
+    {
+      "key": "Setting_Sisyphus_CheckpointRestart",
+      "text": "Начать с контрольной точки"
+    },
+    {
+      "key": "Sisyphus_CheckpointRestartConfirmDesc",
+      "text": "Начать заново с контрольной точки?"
+    },
+    {
+      "key": "Sisyphus_SkipConfirmDesc",
+      "text": "Пропустить эту часть и перейти к следующей части сюжета?"
+    },
+    {
+      "key": "Setting_Sisyphus_PushRock",
+      "text": "Ударить падающий валун"
+    },
+    {
+      "key": "Setting_Sisyphus_CatchRock",
+      "text": "Схватить падающий валун"
+    },
+    {
+      "key": "Setting_Sisyphus_Log",
+      "text": "Журнал"
+    },
+    {
+      "key": "WardenArena_ResistFate",
+      "text": "БРОСИТЬ ВЫЗОВ СУДЬБЕ"
+    },
+    {
+      "key": "KeyDesc_SisypMoveUp",
+      "text": "Движение вверх"
+    },
+    {
+      "key": "KeyDesc_SisypMoveDown",
+      "text": "Движение вниз"
+    },
+    {
+      "key": "KeyDesc_SisypMoveLeft",
+      "text": "Движение влево"
+    },
+    {
+      "key": "KeyDesc_SisypMoveRight",
+      "text": "Движение вправо"
+    },
+    {
+      "key": "KeyDesc_SisypAttack",
+      "text": "Ударить падающий валун"
+    },
+    {
+      "key": "KeyDesc_SisypGrab",
+      "text": "Схватить падающий валун"
+    },
+    {
+      "key": "KeyDesc_SisypRunToggle",
+      "text": "Переключиться на спринт"
+    },
+    {
+      "key": "KeyDesc_SisypRestart",
+      "text": "Начать с контрольной точки"
+    },
+    {
+      "key": "KeyDesc_SyncNormalSysypKey",
+      "text": "Импортировать раскладку клавиш"
+    },
+    {
+      "key": "KeyDesc_SisypLogToggle",
+      "text": "Открыть журнал"
+    }
+  ]
+}

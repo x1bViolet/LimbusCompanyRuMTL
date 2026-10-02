@@ -1,0 +1,16 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_5f_c2_larouge_spa",
+      "displayName": "Продавец-консультант «Ле Руж»"
+    },
+    {
+      "key": "swarm_5f_c2_larouge_elite",
+      "displayName": "Менеджер магазина «Ле Руж»"
+    },
+    {
+      "key": "swarm_5f_c2_larouge_sickle",
+      "displayName": "Сотрудник «Ле Руж»"
+    }
+  ]
+}

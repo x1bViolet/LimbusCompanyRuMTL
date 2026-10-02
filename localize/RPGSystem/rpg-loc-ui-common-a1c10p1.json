@@ -401,6 +401,18 @@
       "text": "Порог изменения направления"
     },
     {
+      "key": "Setting_Sisyphus_VirtualPadMode",
+      "text": "Виртуальный джойстик"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadModeFixed",
+      "text": "Фиксированный"
+    },
+    {
+      "key": "Setting_Sisyphus_VirtualPadModeFloating",
+      "text": "Плавающий"
+    },
+    {
       "key": "Setting_Sisyphus_RunStartDelayValue",
       "text": "Секунд: {0}"
     },

@@ -213,6 +213,18 @@
     {
       "id": 912723,
       "openCondition": "Пройдите Испытание Преломления][яинелмолерП (HARD) - Крылатый тигр"
+    },
+    {
+      "id": 110,
+      "openCondition": "Пройдите Песнь 10",
+      "openConditionNumber": "Пройдите 10-7",
+      "relatedChapterText": "Песнь X"
+    },
+    {
+      "id": 9128,
+      "openCondition": "Пройдите Песнь 10",
+      "openConditionNumber": "Пройдите 10-7",
+      "relatedChapterText": "Песнь X"
     }
   ]
 }
