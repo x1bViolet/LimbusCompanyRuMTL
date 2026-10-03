@@ -1,0 +1,44 @@
+{
+  "dataList": [
+    {
+      "id": 1114,
+      "panicName": "Le Désir",
+      "lowMoraleDescription": "Offense Level +3, Defense Level +3",
+      "panicDescription": "Offense Level +5, Defense Level +5",
+      "flavor": "Я не знаю ни одного из этих слов. Они просто... откуда-то взялись.\nОни сами всплывают у меня в голове. Сами там застревают. Все эти заумные словечки, пришедшие снаружи. Я на самом деле не знаю, что хоть одно из них значит.\n\n...Но почему-то я всё понимаю..."
+    },
+    {
+      "id": 1116,
+      "panicName": "Sync Error",
+      "lowMoraleDescription": "- Take +12.5% damage\n- Min & Max Speed -1\n- Deal -15% damage using Skills that consume [ChargeNoir]",
+      "panicDescription": "- Take +20% damage\n- Min & Max Speed -2\n- Deal -25% damage using Skills that consume [ChargeNoir]"
+    },
+    {
+      "id": 1117,
+      "panicName": "Compunction",
+      "lowMoraleDescription": "- Min & Max Speed -1\n- Take +10% damage from targets with faster Speed than self",
+      "panicDescription": "- Min & Max Speed -2\n- Take +15% damage from targets with faster Speed than self",
+      "flavor": "«Ты чувствуешь, как грехи ползут по твоей спине.»"
+    },
+    {
+      "id": 1118,
+      "panicName": "The Obsidian God - The Giant of Le Noir - The Chaplain - Die Hämmer",
+      "lowMoraleDescription": "Unobservable",
+      "panicDescription": "Unobservable",
+      "flavor": "Время течёт с колоссальной скоростью внутри Системы «Сизиф», не сдерживаемое сопротивлением материи. И всё же благодаря своим индивидуальным точкам восприятия Гиганты способны синхронизироваться с внутренним течением времени Системы и общаться с её покупателями.\n\nСреди них Гигант, представляющий Молоты, обладает властью над внутренними воспоминаниями и временем Системы, имея право сбрасывать части её запасов по собственному усмотрению."
+    },
+    {
+      "id": 1120,
+      "panicName": "Farther Past the Hide!",
+      "lowMoraleDescription": "Defense Level -2, Offense Level +2",
+      "panicDescription": "Defense Level -5, Offense Level +3"
+    },
+    {
+      "id": 1122,
+      "panicName": "La Nausée",
+      "lowMoraleDescription": "Deal -10% damage",
+      "panicDescription": "Base Power -1, deal -10% damage",
+      "flavor": "Отвращение. Тошнота перед лицом мира. Мир просто существует. Ничто в нём не несёт в себе врождённого смысла; всё перед нашими глазами — лишь порождение случая.\n\nВсё — лишь случайность. Всё."
+    }
+  ]
+}

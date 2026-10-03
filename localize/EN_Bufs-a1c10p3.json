@@ -1,0 +1,433 @@
+{
+  "dataList": [
+    {
+      "id": "GoldenHideWarderFirstPhase",
+      "name": "Thumping Pulse",
+      "desc": "- Turn Start: A random Sinner gains this effect\n- Clash Power +1, take -25% damage\n- Turn End: This effect expires",
+      "summary": "Gain Clash Power, take less damage",
+      "flavor": "Обитель жизни. Воля к переменам и рождению."
+    },
+    {
+      "id": "GoldenFabricWarderFirstPhase",
+      "name": "Stillness",
+      "desc": "- Turn Start: A random Sinner gains this effect\n- Final Power +1, deal +15% damage\n- Turn End: This effect expires",
+      "summary": "Gain Final Power, deal more damage",
+      "flavor": "Обитель смерти. Стремление к сохранению и покою."
+    },
+    {
+      "id": "MeursaultBuffWarderFirstPhase",
+      "name": "Посторонний",
+      "desc": "Meursault's HP cannot drop below 1 as long as there is 1 or more surviving allies in this Encounter\n- When Clashing against the Warden:\n · Clash Power +1\n · Deal +(missing HP percentage on self / 2)% damage (max 20%)\n · On Clash Win, gain 1 E.G.O resource for each of the 2 least-owned Affinities\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; and gain 1 Attack Power Up next turn (no activation cap)\n- Cannot Retreat",
+      "summary": "Gain Clash Power and deal more damage when Clashing with the Warden\nCannot be Staggered, cannot be defeated when there are other surviving allies",
+      "flavor": "Был ли я посторонним, чужеродным элементом как в торговом центре, так и в Городе?"
+    },
+    {
+      "id": "UnstableConnection",
+      "name": "Precarious Theophany",
+      "desc": "- Max Stack: 2\n- Turn Start: Gain (Stack x 4) Clash Power Down and Fragile\n- Turn End: Heal ((45 - current SP) / 2) SP (rounded down); then, lose 1 Stack",
+      "summary": "Gain Clash Power Down and Fragile at Turn Start\nHeal SP at Turn End",
+      "flavor": "«Эх... Не лучшее время для проблем со связью...»"
+    },
+    {
+      "id": "Dominion",
+      "name": "Sisyphe System Preservation",
+      "desc": "- Max Stack: 25\n- Deal +(Stack)% damage (max 25%)\n- Take -(Stack)% damage (max 25%)",
+      "summary": "Deal more and take less damage",
+      "flavor": "«Вы что, из другого Района или как? Почему до вас до сих пор не доходит? Если Башня «Сизифа» падёт, этот «Маллеус Малефикарум» или как их там собираются... эх...»\n\n«Опять всё те же чужаки и пришлые, я полагаю. Вам ведь глубоко плевать на то, что станется с Корп. N или куда катится этот мир. Ух... неважно. Посмотрим, насколько далеко вы готовы зайти.»"
+    },
+    {
+      "id": "BlackStigmata",
+      "name": "Compunction",
+      "desc": "- SP Units: Panic Type changes to \"Compunction\"\n- Non-SP Units: Take +10% damage from targets with faster Speed than self\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but cannot change their Panic Types\n\n※ Compunction Panic Effect:\n- Low Morale: Min & Max Speed -1; take +10% damage from targets with faster Speed than this unit's\n- Panic: Min & Max Speed -2; take +15% damage from targets with faster Speed than this unit's",
+      "summary": "Lose Min & Max Speed\nTake more damage from targets with faster Speed than self",
+      "flavor": "«Ты чувствуешь, как грехи ползут по твоей спине.»"
+    },
+    {
+      "id": "BlackStigmata_Main",
+      "name": "Compunction",
+      "desc": "- SP Units: Change their Panic Type to \"Compunction\"\n- Turn End: Lose 1 Stack",
+      "summary": "Change Panic Type to \"Compunction\"",
+      "flavor": "«Ты чувствуешь, как грехи ползут по твоей спине.»"
+    },
+    {
+      "id": "BlackStigmata_Sub",
+      "name": "Compunction",
+      "desc": "- Non-SP Units: Take +10% damage from targets with faster Speed than self\n- Turn End: Lose 1 Stack",
+      "summary": "Take more damage from targets with faster Speed than self",
+      "flavor": "«Ты чувствуешь, как грехи ползут по твоей спине.»"
+    },
+    {
+      "id": "BlackStigmata_LowMorale",
+      "name": "Compunction",
+      "desc": "- Low Morale\n- Min & Max Speed -1; take +10% damage from targets with faster Speed than self",
+      "summary": "Lose Min & Max Speed\nTake more damage from targets with faster Speed than self",
+      "flavor": "«Ты чувствуешь, как грехи ползут по твоей спине.»"
+    },
+    {
+      "id": "BlackStigmata_Panic",
+      "name": "Compunction",
+      "desc": "- Panic\n- Min & Max Speed -2; take +15% damage from targets with faster Speed than self",
+      "summary": "Lose Min & Max Speed\nTake more damage from targets with faster Speed than self",
+      "flavor": "«Ты чувствуешь, как грехи ползут по твоей спине.»"
+    },
+    {
+      "id": "GoldenHideWarderSecondPhase",
+      "name": "Thumping Pulse",
+      "desc": "- Turn Start: A random Sinner gains this effect\n- On Clash Win, if the Sinner who has this effect <color=#ff6000><mark=#ff000040><b><u>won the Clash</u></b></mark></color> against the Warden's <color=#ff6000><mark=#ff000040><b><u>\"Death Unto the Condemned\"</u></b></mark></color> Skill, gain <color=#ff6000><mark=#ff000040><b><u>Shield equal to 250% of the Sinner's max HP</u></b></mark></color> (Shield gained from this effect is removed from the Sinner's total Shield at Attack End of the Warden's \"Death Unto the Condemned\")\n- Clash Power +2, take -25% damage\n- Turn End: This effect expires",
+      "summary": "Gain Clash Power and take less damage\nOn Clash Win against \"Death Unto the Condemned\", gain Shield",
+      "flavor": "Обитель жизни. Воля к переменам и рождению."
+    },
+    {
+      "id": "GoldenFabricWarderSecondPhase",
+      "name": "Stillness",
+      "desc": "- Turn Start: A random Sinner gains this effect\n- Final Power +2, deal +25% damage\n- Turn End: This effect expires",
+      "summary": "Gain Final Power, deal more damage",
+      "flavor": "Обитель смерти. Стремление к сохранению и покою."
+    },
+    {
+      "id": "MeursaultBuffWarderSecondPhase",
+      "name": "Посторонний",
+      "desc": "- Meursault's HP cannot drop below 1 as long as there is 1 or more surviving allies in this Encounter\n- Min & Max Speed +1\n- When Clashing against the Warden:\n · Clash Power +2\n · Deal +(missing HP percentage on self / 2)% damage (max 40%)\n · On Clash Win, gain 1 E.G.O resource for each of the 3 least-owned Affinities\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; and gain 2 Attack Power Up next turn (no activation cap)\n- Cannot Retreat",
+      "summary": "Gain Clash Power and deal more damage when Clashing with the Warden\nCannot be Staggered, cannot be defeated when there are other surviving allies",
+      "flavor": "Был ли я посторонним, чужеродным элементом как в торговом центре, так и в Городе?"
+    },
+    {
+      "id": "EncompassingVoiceSecondPhase",
+      "name": "Voice of the Obsidian God",
+      "desc": "- Max Stack: 100\n- Turn Start: Gain 1 Offense Level Up for every 20 Stacks (max 4)\n- Gain Stack equal to Preservation Count this unit consumes or gains due to its Skill effects (max 40 per turn; this effect's Stack is gained regardless of Preservation's max Count)\n- Turn End: Gain 10 Stacks\n- At 100 Stacks, convert this effect into \"Divinity of the Obsidian God\" next turn",
+      "summary": "Gain Offense Level based on Stack\nAt max Stack, converted into \"Divinity of the Obsidian God\"",
+      "flavor": "Голос, проповедующий правило презервации.\nВозврата к варварству быть не может."
+    },
+    {
+      "id": "EncompassingVoiceThirdPhase",
+      "name": "Voice of the Obsidian God",
+      "desc": "- Max Stack: 100\n- Turn Start: Gain 1 Offense Level Up for every 20 Stacks (max 4)\n- Gain Stack equal to Preservation Count this unit consumes or gains due to its Skill effects (max 40 per turn; this effect's Stack is gained regardless of Preservation's max Count)\n- Turn End: Gain 10 Stacks\n- At 100 Stacks, convert this effect into \"Divinity of the Obsidian God\" next turn",
+      "summary": "Gain Offense Level based on Stack\nAt max Stack, converted into \"Divinity of the Obsidian God\"",
+      "flavor": "Голос, проповедующий правило презервации.\nВозврата к варварству быть не может."
+    },
+    {
+      "id": "SpreadingVoiceSecondPhase",
+      "name": "Divinity of the Obsidian God",
+      "desc": "- Max Stack: 100\n- Turn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20 Stacks (max 4 respectively)\n- Convert all Skill Coins into Unbreakable Coins\n- At 0 Stacks, convert this effect into \"Voice of the Obsidian God\" next turn",
+      "summary": "Convert all Skill Coins into Unbreakable Coins\nGain Offense Level and Defense Level based on Stack",
+      "flavor": "Обсидиановый бог — Тот, чьей обителью являются само творение и время внутри Системы «Сизиф»."
+    },
+    {
+      "id": "SpreadingVoiceThirdPhase",
+      "name": "Divinity of the Obsidian God",
+      "desc": "- Max Stack: 100\n- Turn Start: Gain 1 Offense Level Up and 1 Defense Level Up for every 20 Stacks (max 4 respectively)\n- Convert all Skill Coins into Unbreakable Coins (excluding Excision Coins)\n- At 0 Stacks, convert this effect into \"Voice of the Obsidian God\" next turn",
+      "summary": "Convert all Skill Coins into Unbreakable Coins (excluding Excision Coins)\nGain Offense Level and Defense Level based on Stack",
+      "flavor": "Обсидиановый бог — Тот, чьей обителью являются само творение и время внутри Системы «Сизиф»."
+    },
+    {
+      "id": "LeaderVoiceSecondPhase",
+      "name": "Warden of the Sisyphe Penalty",
+      "desc": "- Max Stack: 5\n- Offense Level +1 and Defense Level +2 for every Stack\n- At 3+ Stacks, inflict +1 more \"Nail [Punishment]\" and \"Nail [Penance]\" using Skills",
+      "summary": "Gain Offense Level and Defense Level based on Stack\nAt 3+ Stack, inflict more \"Nail [Punishment]\" and \"Nail [Penance]\"",
+      "flavor": "Надзиратель предстаёт перед теми, кто отказывается действовать так, как предписано. Ибо так устроена система."
+    },
+    {
+      "id": "ConfessionSecondPhase",
+      "name": "Proof of Confession",
+      "desc": "- The following effects are collectively referred to as \"Proof of Confession\":\n · Hammernail [Condemnation]\n · Hammernail [Judgment]\n · Nail [Punishment]\n · Nail [Penance]",
+      "summary": "Collectively refers to \"Nails\" and \"Hammernails\" the Warden inflicts",
+      "flavor": "Вбей столько гвоздей, сколько требуют твои грехи, и докажи своё раскаяние."
+    },
+    {
+      "id": "LeaderVoiceThirdPhase",
+      "name": "Chaplain of the Sisyphe Penalty",
+      "desc": "- Max Stack: 5\n- Offense Level +2 and Defense Level +3 for every Stack\n- At 3+ Stacks, inflict +1 more \"Nail [Console]\" using Skills",
+      "summary": "Gain Offense Level and Defense Level based on Stack\nAt 3+ Stack, inflict more \"Nail [Console]\"",
+      "flavor": "Капеллан предстаёт перед теми, кто отказывается действовать так, как предписано. Ибо так устроена система."
+    },
+    {
+      "id": "ConfessionThirdPhase",
+      "name": "〜",
+      "desc": "- The following effects are collectively referred to as \"〜\":\n· Nail [Exception]\n· Nail [Breakpoint]\n· Nail [Console]",
+      "summary": "Collectively refers to \"Nails\" the Chaplain inflicts",
+      "flavor": "«Теперь я уверен. Все вы — чужеродные элементы, которых нельзя было подпускать к этой системе. Полагаю, настало время заглянуть в инструкцию. В законах и правилах учтено абсолютно всё.»"
+    },
+    {
+      "id": "ExecutionNailSecondPhase",
+      "name": "Hammernail [Judgment]",
+      "desc": "- Max Stack: 9\n- If this effect is triggered by \"Judgment... Sentencing... Condemnation!\", <color=#ff6000><mark=#ff000040><b><u>take fixed damage equal to (Stack x 5%) of max HP</u></b></mark></color> (min 10)\n · Combat Start: If this unit has equipped a Defense Skill, halve damage taken and this unit cannot be killed or Staggered by this effect",
+      "summary": "When activated, take fixed damage\nWhen Defense Skill is equipped, halve damage taken and this unit cannot be killed",
+      "flavor": "Ибо сие есть гвоздь, и всё же не гвоздь. Сие есть молот, выносящий приговор."
+    },
+    {
+      "id": "RestrainingNailSecondPhase",
+      "name": "Hammernail [Condemnation]",
+      "desc": "- Max Stack: 9\n- Turn Start: If this unit has this effect, become <color=#ff6000><mark=#ff000040><b><u>Staggered</u></b></mark></color>\n · Turn End: This effect expires if triggered this turn\n · If this unit has \"Thumping Pulse\", it cannot be Staggered via this effect, and this effect expires at Turn End",
+      "summary": "Turn Start: Become Staggered\nIf this unit has \"Thumping Pulse\", does not become Staggered",
+      "flavor": "Каждый гвоздь, коего не сумел ты извлечь, восстанет свидетелем грехов твоих; и когда настанет Судный день, каждый оставшийся в тебе гвоздь будет вбит ещё глубже в плоть и душу твою."
+    },
+    {
+      "id": "CeremonialNail",
+      "name": "Nail [Punishment]",
+      "desc": "- Max Stack: 9\n- If this effect is triggered by \"Judgment... Sentencing... Condemnation!\", gain Sinking equal to Stack",
+      "summary": "When activated, gain Sinking",
+      "flavor": "Ибо наказание есть мука совести, носимая теми, кто преступает правила и уставы."
+    },
+    {
+      "id": "MarkingNail",
+      "name": "Nail [Penance]",
+      "desc": "- Max Stack: 9\n- If this effect is triggered by \"Judgment... Sentencing... Condemnation!\", raise Stagger Threshold by (Stack x 2)",
+      "summary": "When activated raise Stagger Threshold",
+      "flavor": "Это гвоздь, вбитый в сердца нераскаявшихся."
+    },
+    {
+      "id": "GoldenHideWarderThirdPhase",
+      "name": "Thumping Pulse",
+      "desc": "- Turn Start: A random Sinner gains this effect\n- On Clash Win, if the Sinner who has this effect <color=#ff6000><mark=#ff000040><b><u>won the Clash</u></b></mark></color> against the Chaplain's <color=#ff6000><mark=#ff000040><b><u>\"Systemwide Ban\"</u></b></mark></color> Skill, gain <color=#ff6000><mark=#ff000040><b><u>Shield equal to 250% of the Sinner's max HP</u></b></mark></color> (Shield gained from this effect is removed from the Sinner's total Shield at Attack End of the Chaplain's \"Systemwide Ban\")\n- Clash Power +3, take -50% damage\n- On Hit, inflict 1 Offense Level Down (max 9)\n- Turn End: This effect expires",
+      "summary": "Gain Clash Power and take less damage\nOn Clash Win against \"Systemwide Ban\", gain Shield",
+      "flavor": "Обитель жизни. Воля к переменам и рождению."
+    },
+    {
+      "id": "GoldenFabricWarderThirdPhase",
+      "name": "Stillness",
+      "desc": "- Turn Start: A random Sinner gains this effect\n- Final Power +2, deal +25% damage\n- On Hit, inflict 1 Defense Level Down (max 9)\n- Turn End: This effect expires",
+      "summary": "Gain Final Power and deal more damage\nOn Hit, inflict Defense Level Down",
+      "flavor": "Обитель смерти. Стремление к сохранению и покою."
+    },
+    {
+      "id": "MeursaultBuffWarderThirdPhase",
+      "name": "Посторонний",
+      "desc": "- Meursault's HP cannot drop below 1 as long as there is 1 or more surviving allies in this Encounter\n- Min & Max Speed +3\n- Final Power +3 and deal +30% damage\n- When Clashing against the Chaplain:\n · Deal +(missing HP percentage on self)% damage (max 90%)\n · On Clash Win, heal 8 SP\n · On Clash Win, gain 1 E.G.O resource for each of the 5 least-owned Affinities\n- When taking damage that would Stagger this unit, does not get Staggered and remove the corresponding Stagger Threshold; and gain 3 Attack Power Up next turn (no activation cap)\n- Cannot Retreat",
+      "summary": "Gain Clash Power and deal more damage when Clashing with the Chaplain\nCannot be Staggered, cannot be defeated when there are other surviving allies",
+      "flavor": "Был ли я посторонним, чужеродным элементом как в торговом центре, так и в Городе?"
+    },
+    {
+      "id": "GoldenNail",
+      "name": "Nail [Console]",
+      "desc": "- Max Stack: 9\n- Combat Start: <color=#ff6000><mark=#ff000040><b><u>At 9 Stacks, On Hit against the Chaplain</u></b></mark></color>, the Sinner who has this effect for this turn <color=#ff6000><mark=#ff000040><b><u>takes fixed damage equal to 2% of max HP</u></b></mark></color> (this effect cannot Stagger this unit)\n- If this effect is triggered by \"Do you seriously mean to break the Sisyphe System?\", gain Sinking equal to Stack and raise Stagger Threshold by (Stack x 2)",
+      "summary": "When activated, gain Sinking and raise Stagger Threshold\nAt max Stack, take fixed damage when hit",
+      "flavor": "«Посмотрим, инструкция к этому гвоздю... „Ты чувствуешь, как грехи ползут по твоей спине...“ Хм, нет, не то.»\n\n«Она должна быть в ящике 42 вот здесь... Я точно её клал... а, вот она! „Руководство администратора «Ле Нуар» по консольным командам Системы «Сизиф»“.»"
+    },
+    {
+      "id": "VibrationFocusing",
+      "name": "Tremor - Conservation",
+      "desc": "- On Tremor Burst, take Sloth Damage equal to (60 + sum of Charge Potency or Unique Charge on the attacker x 8)% of Tremor Potency, and reduce the Count by 1 (max 120%)\n · When \"Le Noir\" units' Skills and Passives trigger Tremor Burst, the above effect does not reduce the Count\n- When hit by Tremor Burst Skills, raise Stagger Threshold by this effect's Potency\n- Turn End: Lose 1 Count\n(Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)",
+      "summary": "On Tremor Burst, take Sloth Damage\nWhen hit by Skills that trigger Tremor Burst, raise Stagger Threshold"
+    },
+    {
+      "id": "ExecutionNailThirdPhase",
+      "name": "Nail [Breakpoint]",
+      "desc": "- Max Stack: 9\n- If this effect is triggered by \"Do you seriously mean to break the Sisyphe System?\", <color=#ff6000><mark=#ff000040><b><u>take fixed damage equal to (Stack x 10%) of max HP</u></b></mark></color> (min 10)\n · Combat Start: If this unit has equipped a Defense Skill, halve damage taken and this unit cannot be killed or Staggered by this effect",
+      "summary": "When activated, take fixed damage\nWhen Defense Skill is equipped, halve damage taken and this unit cannot be killed",
+      "flavor": "«В руководстве администратора всё сказано предельно ясно. Как только эта команда пригвоздит тебя внутри системы, ты ничего не сможешь поделать.»"
+    },
+    {
+      "id": "RestrainingNailThirdPhase",
+      "name": "Nail [Exception]",
+      "desc": "- Max Stack: 9\n- Turn Start: If this unit has this effect, <color=#ff6000><mark=#ff000040><b><u>take fixed damage equal to 50% current HP</u></b></mark></color> and become <color=#ff6000><mark=#ff000040><b><u>Staggered</u></b></mark></color>\n · Turn End: This effect expires if triggered this turn\n · If this unit has \"Thumping Pulse\", it cannot be Staggered via this effect, halve damage taken, and this effect expires at Turn End",
+      "summary": "Turn Start: Take fixed damage and become Staggered\nIf this unit has \"Thumping Pulse\", does not become Staggered and take only half damage",
+      "flavor": "«Даже исключения неизбежно насаживаются на этот гвоздь.»"
+    },
+    {
+      "id": "ConnectionError_LowMorale",
+      "name": "Sync Error",
+      "desc": "- Low Morale\n- Take +12.5% damage\n- Min & Max Speed -1\n- Deal -15% damage using Skills that consume Preservation",
+      "summary": "Lose Min & Max Speed, take more damage\nSkills that consume Preservation deal less damage",
+      "undefined": "-"
+    },
+    {
+      "id": "ConnectionError_Panic",
+      "name": "Sync Error",
+      "desc": "- Panic\n- Take +20% damage\n- Min & Max Speed -2\n- Deal -25% damage using Skills that consume Preservation",
+      "summary": "Lose Min & Max Speed, take more damage\nSkills that consume Preservation deal less damage",
+      "undefined": "-"
+    },
+    {
+      "id": "JeanneDesign",
+      "name": "Nailed",
+      "desc": "- Max Stack: 3\n- <color=#ff6000><mark color=#ff000040><b><u>This unit has 95% chance to flip Heads</color></mark></b></u>\n- At 2 Stacks, <color=#ff6000><mark color=#ff000040><b><u>Clash Power -2 for targets</color></mark></b></u> Clashing with this unit\n- At 3 Stacks, consume all Stacks and gain <color=#ff6000><mark color=#ff000040><b><u>Engagement</color></mark></b></u> next turn\n- Turn End: Lose 1 Stack (does not lose Stack in the turn this effect is gained)\n- Cannot gain this effect if this unit has Engagement",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Существование предшествует сущности."
+    },
+    {
+      "id": "JeanneManager",
+      "name": "Engagement",
+      "desc": "- <color=#ff6000><mark color=#ff000040><b><u>This unit has 100% chance to flip Heads</color></mark></b></u>\n- Targets Clashing with or attacking this unit have <color=#ff6000><mark color=#ff000040><b><u>100% chance to flip Tails for Plus Coins</color></mark></b></u>\n · The said units' Minus Coins have 100% chance to flip Heads\n- Remove this effect upon equipping the \"Focusing\" Skill, or if this unit becomes Staggered",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Я спроектировала этот торговый центр. И теперь я модель на его подиуме, актриса на его сцене.\n\nА ты, <i>ма пю́с</i>... ты был бы самим <i>синема́</i>, не так ли?"
+    },
+    {
+      "id": "JeannePartner",
+      "name": "Être-pour-autrui",
+      "desc": "- Targets that gain this effect lose all negative effects\n- Fix SP to 45\n · For Minus Coin Identities, fix SP to -30\n- Cannot be Staggered\n- Remove this effect when Jeanne enters a new phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Каким, по-твоему, ты кажешься мне? Тот, кем видишь себя ты, и тот, кого вижу я, должно быть, совершенно разные люди.\n<i>Ма пю́с</i>... ты уже намертво пригвождён внутри меня."
+    },
+    {
+      "id": "JeannePartnerTwo",
+      "name": "Être-pour-soi",
+      "desc": "- Fix SP to 45\n- Does not take damage\n- Remove this effect when Jeanne enters a new phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Сознание — пугающая штука, знаешь ли. Где-то внутри него непременно разверзнется пустота.\n\nЗаполнишь ли ты её для меня, <i>ма пю́с</i>?"
+    },
+    {
+      "id": "JeannePathos",
+      "name": "Pathos - Désir d'être",
+      "desc": "- Max Stack: 100\n- On Clash Win, gain 3 Stacks\n- On Clash Lose, gain 5 Stacks\n- Gain Stack equal to Clash count\n- Turn End: At max Stack, enter a new phase",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Я хотела расцвести алым... со всей той алой страстью, всем тем пылом, всем тем пафосом, что пылают во мне."
+    },
+    {
+      "id": "JeanneLogos",
+      "name": "Logos - Manque d'être",
+      "desc": "- Max Stack: 100\n- On Clash Win, gain 5 Stacks\n- Gain Stack equal to Clash count\n- Offense Level +1 for every 10 Stacks\n- Clash Power +1 for every 20 Stacks",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "В тебе чего-то не хватает — как и во мне. Мы можем заполнить друг друга."
+    },
+    {
+      "id": "JeanneCheat",
+      "name": "Désespoir",
+      "desc": "- This unit has 100% chance to flip Tails (for Minus Coins, Heads)\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "...<i>Ма пю́с</i>, ты убегаешь? От суда, от этого света...?"
+    },
+    {
+      "id": "JeanneBlueprint",
+      "name": "Délaissement",
+      "desc": "- Max Stack: 5\n- Clash Power +1 for every Stack\n- Take +10% damage from Skills for every Stack\n- Turn Start: At 4+ Stacks, apply the following effects:\n · Remove all Stagger Thresholds\n · When Staggered, recover from Stagger\n · Slot Weight +1",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Среди свободы отчаяния, не сулящей ничего, один лишь Гран-магазэн «Сизиф» дарует благословение: быть раскроенным по мерке замысла и взора, обретая тем самым определённость и непрерывность."
+    },
+    {
+      "id": "BoneNail",
+      "name": "L'Abject",
+      "desc": "- Max Stack: 5\n- Lose 1 Speed for every Stack\n- Take +20% damage from Bleed for every Stack (rounded down)\n- On Base Attack Skill Use, gain (Stack x 2) Bleed Count",
+      "summary": "",
+      "flavor": "Отторгнутый придаток. Буфет вытолкнул его, изрыгнул, выплеснул изнутри себя.\n\nХоть он и происходил из собственного тела, будучи выброшенным вовне, он перестал принадлежать сущности. И даже окажись он внедрён в другого, он никогда не станет принадлежать и этому телу тоже."
+    },
+    {
+      "id": "BuffetDream",
+      "name": "Pwie's Memories",
+      "desc": "- Max Stack: 5\n- For every Stack,\n · Base Offense Level -5\n · Base Defense Level -5\n · Clash Power -1\n- Turn Start: Heal (8 x Stack) SP",
+      "summary": "",
+      "flavor": ""
+    },
+    {
+      "id": "BuffetDream1",
+      "name": "Pwie's Memories",
+      "desc": "- Max Stack: 5\n- For every Stack,\n · Base Offense Level -5\n · Base Defense Level -5\n · Clash Power -1\n- Turn Start: Heal (8 x Stack) SP",
+      "summary": "",
+      "flavor": "Туфельки... сделали меня по-настоящему счастливым..."
+    },
+    {
+      "id": "BuffetDream2",
+      "name": "Pwie's Memories",
+      "desc": "- Max Stack: 5\n- For every Stack,\n · Base Offense Level -5\n · Base Defense Level -5\n · Clash Power -1\n- Turn Start: Heal (8 x Stack) SP",
+      "summary": "",
+      "flavor": "Спасибо... что встретился со мной взглядом...\n\nТуфельки... сделали меня по-настоящему счастливым..."
+    },
+    {
+      "id": "BuffetDream3",
+      "name": "Pwie's Memories",
+      "desc": "- Max Stack: 5\n- For every Stack,\n · Base Offense Level -5\n · Base Defense Level -5\n · Clash Power -1\n- Turn Start: Heal (8 x Stack) SP",
+      "summary": "",
+      "flavor": "Мы отправились в приключение... Было весело...\n\nСпасибо... что встретился со мной взглядом...\n\nТуфельки... сделали меня по-настоящему счастливым..."
+    },
+    {
+      "id": "BuffetDream4",
+      "name": "Pwie's Memories",
+      "desc": "- Max Stack: 5\n- For every Stack,\n · Base Offense Level -5\n · Base Defense Level -5\n · Clash Power -1\n- Turn Start: Heal (8 x Stack) SP",
+      "summary": "",
+      "flavor": "Я был голоден... Я не хотел никому причинять зла... Было так больно...\n\nМы отправились в приключение... Было весело...\n\nСпасибо... что встретился со мной взглядом...\n\nТуфельки... сделали меня по-настоящему счастливым..."
+    },
+    {
+      "id": "BuffetDream5",
+      "name": "Pwie's Memories",
+      "desc": "- Max Stack: 5\n- For every Stack,\n · Base Offense Level -5\n · Base Defense Level -5\n · Clash Power -1\n- Turn Start: Heal (8 x Stack) SP",
+      "summary": "",
+      "flavor": "Я не мог остановиться... Я скучал по тебе... Я был совсем один, поэтому... я хотел пойти с тобой...\n\nЯ был голоден... Я не хотел никому причинять зла... Было так больно...\n\nМы отправились в приключение... Было весело...\n\nСпасибо... что встретился со мной взглядом...\n\nТуфельки... сделали меня по-настоящему счастливым..."
+    },
+    {
+      "id": "BuffetDreamEnd",
+      "name": "I... am \"Pwie\".",
+      "desc": "- Base Offense Level -30\n- Base Defense Level -30\n- Take +100% damage",
+      "summary": "",
+      "flavor": "Запомни меня как «Буфи», ладно?\nСпасибо тебе... за всё."
+    },
+    {
+      "id": "BuffetRevival",
+      "name": "Voice of the Crimson God",
+      "desc": "- Max Stack: 3\n- Cannot be defeated\n- Turn End: Lose 1 Stack\n- When this effect expires,\n · Return to \"Le Rouge Senior Staff\" form\n · Heal 5 SP for every 10 HP that remained while this unit was in \"Ripped Flesh of the Crimson God\" form; gain +2 Pulsation Count\n · If this unit gained 10+ Pulsation Count, consume all Pulsation Count; then, gain 1 Uncontrollable Rampage [Le Désir] next turn for every 5 Stacks consumed",
+      "summary": "",
+      "flavor": "Живи, и живи снова.\n\nПереживать опыт, жить — значит для разума пребывать не в настоящем, но уже в будущем.\n\nИбо человек с надеждой ждёт того, чему ещё только предстоит настать, он жаждет опыта. А жаждая опыта, он выбирает продолжать жить."
+    },
+    {
+      "id": "BuffetRouge",
+      "name": "Uncontrollable Rampage [Le Désir]",
+      "desc": "- Max Stack: 3\n- Min & Max Speed +1\n- Clash Power +1 for every Stack\n- Take -50% damage from Bleed\n- Cannot be defeated by Bleed damage\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "flavor": "Я никогда не смогу насытиться.\n\nДаже если это желание на самом деле не моё, я ошибочно принимаю его за нечто, принадлежащее мне.\n\nЭто желание, рождённое тобой, — желание, что рвётся наружу из тебя, ради тебя."
+    },
+    {
+      "id": "BuffetScruple",
+      "name": "Shared with Pwie",
+      "desc": "- Min & Max Speed +3\n- Take -50% final damage from The Crimson God [Adulthood]",
+      "summary": "",
+      "flavor": "Мы разделили опыт вместе с Буфи. Вдвоём. Это неоспоримо.\n\nСомнения начинают всплывать на поверхность."
+    },
+    {
+      "id": "BuffetResolve",
+      "name": "Decision",
+      "desc": "- Max Stack: 1\n- Deal and take +30% damage to and from The Crimson God [Adulthood]\n- Turn Start: Heal 5 SP",
+      "summary": "",
+      "flavor": "«Как Менеджер... я должен выбрать, верно?»\n\n«Верно, Менеджер.»\n\n«.......»\n\n«.......»\n\n«...Я принял решение.»"
+    },
+    {
+      "id": "MeursaultBuffetEnd",
+      "name": "He Who Nails",
+      "desc": "- Min & Max Speed +3\n- On Skill Use, gain 2 additional E.G.O Resource for the said Skill's Affinity (2 times per turn)\n- Cannot Retreat",
+      "summary": ""
+    },
+    {
+      "id": "GrandBuffet_LowMorale",
+      "name": "Le Désir",
+      "desc": "- Low Morale\n- Offense Level +3\n- Defense Level +3",
+      "summary": ""
+    },
+    {
+      "id": "GrandBuffet_Panic",
+      "name": "Le Désir",
+      "desc": "- Panic\n- Offense Level +5\n- Defense Level +5",
+      "summary": ""
+    },
+    {
+      "id": "LaRougeSuperior_LowMorale",
+      "name": "Farther Past the Hide!",
+      "desc": "- Low Morale\n- Defense Level -2\n- Offense Level +2",
+      "summary": ""
+    },
+    {
+      "id": "LaRougeSuperior_Panic",
+      "name": "Farther Past the Hide!",
+      "desc": "- Panic\n- Defense Level -5\n- Offense Level +3",
+      "summary": ""
+    },
+    {
+      "id": "Jeanne_LowMorale",
+      "name": "La Nausée",
+      "desc": "- Low Morale\n- Deal -10% damage",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Jeanne_Panic",
+      "name": "La Nausée",
+      "desc": "- Panic\n- Base Power -1\n- Deal -10% damage",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}
