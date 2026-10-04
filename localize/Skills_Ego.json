@@ -3978,7 +3978,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [EmittedCurrent:`Искровых разрядов`] и повышаает счётчик [Charge:`Заряда`] цели на 5"
+                  "desc": "[OnSucceedAttack] Наносит 5 [EmittedCurrent:`Искровых разрядов`] и повышает счётчик [Charge:`Заряда`] цели на 5"
                 }
               ]
             }
