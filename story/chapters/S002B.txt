@@ -8,7 +8,7 @@
 ???: Дёрг-дёрг. Уже проснулся?
 
 # Original: Awake at last. I would’ve been a tad bit disappointed if you croaked on us.
-???: Наконец-то очнулся. Я бы чуток расстроилась, если б ты взял и окочурился.
+???: Наконец-то очнулся. Я бы чуток расстроился, если бы ты взял и окочурился.
 
 # Original: Refreshing morning. This is Charon the Bus Driver.
 Харон: Бодрящего утречка. Это водитель автобуса Харон.

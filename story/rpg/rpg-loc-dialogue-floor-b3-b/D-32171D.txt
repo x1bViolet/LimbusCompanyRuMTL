@@ -1,0 +1,14 @@
+﻿# Original: ... Is Wriggley going to die?
+Буфи: ...Дрыгалка умрёт?
+
+# Original: Yes.
+Мерсо: Да.
+
+# Original: Because of my new clothing?
+Буфи: Из-за моей новой одежды?
+
+# Original: ... Correct.
+Мерсо: ...Верно.
+
+# Original: Then... I don't want it anymore.
+Буфи: Тогда... я её больше не хочу.

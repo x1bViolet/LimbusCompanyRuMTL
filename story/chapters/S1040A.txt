@@ -1,0 +1,5 @@
+﻿# Original: ... It doesn't matter.
+Мерсо: ...Это не имеет значения.
+
+# Original: I too, am Hell.
+Мерсо: Я тоже — Ад.

@@ -1,0 +1,8 @@
+﻿# Original: The Manager... won't abandon you.
+Мерсо: Менеджер... не бросит тебя.
+
+# Original: What about you?
+Буфи: А ты?
+
+# Original: …….
+Мерсо: …….

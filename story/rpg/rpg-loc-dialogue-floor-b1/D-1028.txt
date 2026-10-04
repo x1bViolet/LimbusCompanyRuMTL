@@ -74,7 +74,7 @@
 Фауст: Менеджер желает знать, что за человек Буше.
 
 # Original: Boucher is the Floor Manager, you hear? He handles all sorts of work across B1, you hear?
-Су-шеф: Буше — Управляющий этажом, слышь? Он ведает всякими делами на всём B1, слышь?
+Су-шеф: Буше — Менеджер Этажа, слышь? Он ведает всякими делами на всём B1, слышь?
 
 # Original: Then what do <i>you</i> do? Hey, <i>HEY!</i> stop licking! You said three licks only!
 Грегор: А <i>ты</i> тогда чем занимаешься? Эй, <i>ЭЙ!</i> Хватит облизывать! Ты же сказала — только три раза!

@@ -1,14 +1,14 @@
 ﻿# Original: With this... every last strand has been drawn.
-Управляющая этажом B2: Вот и всё... вытянута последняя нить.
+Менеджер Этажа B2: Вот и всё... вытянута последняя нить.
 
 # Original: Do you have a spool for it?
-Управляющая этажом B2: Есть ли у вас катушка для неё?
+Менеджер Этажа B2: Есть ли у вас катушка для неё?
 
 # Original: Not yet.
 Мерсо: Пока нет.
 
 # Original: Then make it into a tangle of yarn and take it with you.
-Управляющая этажом B2: Тогда соберите пряжу в моток и забирайте с собой.
+Менеджер Этажа B2: Тогда соберите пряжу в моток и забирайте с собой.
 
 # Original: With this... we have obtained the Golden Skein listed in the recipe.
 Отис: Итак... мы получили Золотой моток, указанный в рецепте.

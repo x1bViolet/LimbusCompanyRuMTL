@@ -1,8 +1,8 @@
 ﻿# Original: We extend our warmest welcome to the valued guests of Grand Magasin Sisyphe visiting today.
-Объявление: Сердечно приветствуем уважаемых гостей, посетивших сегодня Гран-Магазэн Сизиф.
+Объявление: Мы сердечно приветствуем уважаемых гостей, посетивших сегодня Гран-Магазэн Сизиф.
 
 # Original: Grand Magasin Sisyphe is ever committed to cherishing every experience our customers procure within.
-Объявление: Гран-Магазэн Сизиф неизменно стремится бережно хранить каждый опыт, приобретённый нашими покупателями в его стенах.
+Объявление: Гран-Магазэн Сизиф неизменно дорожит каждым опытом, который наши покупатели приобретают в его стенах.
 
 # Original: To keep abreast of the latest fashions, we actively encourage the wide variety of shops available at the department store to open and close according to trends. Please take care not to lose your way as you explore the establishment.
 Объявление: Чтобы идти в ногу с последними веяниями моды, мы всячески поощряем открытие и закрытие самых разнообразных магазинов торгового центра в соответствии с текущими трендами. Пожалуйста, постарайтесь не заблудиться, знакомясь с нашим торговым центром.

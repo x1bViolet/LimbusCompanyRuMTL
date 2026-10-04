@@ -1,29 +1,29 @@
 ﻿# Original: Are you the Floor Manager of B2F?
-Отис: Вы — Управляющая этажом B2?
+Отис: Вы — Менеджер Этажа B2?
 
 # Original: You've found them. We are spinners of thread, and we manage this floor.
-Управляющая этажом B2: Ты нашла того, кого искала. Мы прядём нити и ведаем этим этажом.
+Менеджер Этажа B2: Ты нашла того, кого искала. Мы прядём нити и ведаем этим этажом.
 
 # Original: Tell me what it is you seek.
-Управляющая этажом B2: Поведай мне, чего вы ищете.
+Менеджер Этажа B2: Поведай мне, чего вы ищете.
 
 # Original: If your wish does not fall out of step with the voice of fate, I shall grant it.
-Управляющая этажом B2: Коли желание ваше не идёт вразрез с гласом судьбы, я исполню его.
+Менеджер Этажа B2: Коли желание ваше не идёт вразрез с гласом судьбы, я исполню его.
 
 # Original: We have accepted a commission from Le Noir and come to make a Golden Skein.
 Мерсо: Мы приняли заказ от Ле Нуар и пришли изготовить Золотой моток.
 
 # Original: The Floor Manager regarded the Authenticity Certificate Meursault produced with little interest—until the cocoon caught their eye, and a broad smile spread across their lips.
-Рассказчик: Управляющий этажом без особого интереса рассматривал Сертификат подлинности, предъявленный Мерсо, — пока не заметил кокон. Тогда на его губах расцвела широкая улыбка.
+Рассказчик: Менеджер Этажа без особого интереса рассматривал Сертификат подлинности, предъявленный Мерсо, — пока не заметил кокон. Тогда на его губах расцвела широкая улыбка.
 
 # Original: A Golden Cocoon... You have brought me a precious material—that of a being of eld.
-Управляющая этажом B2: Золотой кокон... Вы принесли мне драгоценный материал — дар древнего существа.
+Менеджер Этажа B2: Золотой кокон... Вы принесли мне драгоценный материал — дар древнего существа.
 
 # Original: But... there's something missing.
-Управляющая этажом B2: Но... чего-то недостаёт.
+Менеджер Этажа B2: Но... чего-то недостаёт.
 
 # Original: I could spin fine thread from this... but the cocoon alone cannot yield the Golden Skein.
-Управляющая этажом B2: Я могла бы спрясть из него прекрасную нить... но одного кокона для Золотого мотка недостаточно.
+Менеджер Этажа B2: Я могла бы спрясть из него прекрасную нить... но одного кокона для Золотого мотка недостаточно.
 
 # Original: <The recipe didn't list anything else... Do we need another ingredient?>
 Данте: <В рецепте больше ничего не было... Нужен ещё один ингредиент?>
@@ -41,13 +41,13 @@
 Мерсо: ... Понятно.
 
 # Original: I assume you mean the Golden Hide. It is not a suitable medium for coloring thread, child.
-Управляющая этажом B2: Полагаю, ты имеешь в виду Золотую Кожу. Она не годится для окрашивания нитей, дитя.
+Менеджер Этажа B2: Полагаю, ты имеешь в виду Золотую Кожу. Она не годится для окрашивания нитей, дитя.
 
 # Original: Go to the Dyehouse and fetch the Golden Dye.
-Управляющая этажом B2: Ступайте в Красильню и принесите Золотой краситель.
+Менеджер Этажа B2: Ступайте в Красильню и принесите Золотой краситель.
 
 # Original: Palette has been gathering it with great care, one drop at a time.
-Управляющая этажом B2: Палетт собирала его с великим тщанием, каплю за каплей.
+Менеджер Этажа B2: Палетт собирала его с великим тщанием, каплю за каплей.
 
 # Original: ... I expect this will cost another mountain of eyeballs.
 Отис: ... Полагаю, это обойдётся нам ещё в целую гору глазных яблок.

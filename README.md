@@ -34,6 +34,7 @@
 - [x] Глава 7
 - [x] Глава 8
 - [x] Глава 9
+- [x] Глава 10 (части 1 и 2)
 
 ## Интерваллы
 - [x] **Hell's Chicken** 3.5
@@ -46,6 +47,8 @@
 - [x] **Nocturnal Sweeping** 7.5 (2)
 - [x] **Spring Cultivation** 8.5 (1)
 - [x] **Piligrimage of Compassion** 8.5 EX
+- [x] **Twining Threads** 9.5 (1)
+- [x] **Mnestic Experience** 9.5 (2)
 
 ---
 

@@ -3991,7 +3991,7 @@
   },
   {
     "original": "3F Floor Manager",
-    "translation": "Менеджер 3-м этажом",
+    "translation": "Менеджер 3-его этажа",
     "model": null
   },
   {
@@ -4006,7 +4006,7 @@
   },
   {
     "original": "B2F Floor Manager",
-    "translation": "Упраляющая этажом B2",
+    "translation": "Менеджер 2-ого подземного этажа",
     "model": null
   },
   {
@@ -4292,6 +4292,201 @@
   {
     "original": "크로머",
     "translation": "크로머",
+    "model": null
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "싱클레어"
+  },
+  {
+    "original": "Hostile Customer",
+    "translation": "Агрессивный Покупатель",
+    "model": null
+  },
+  {
+    "original": "???",
+    "translation": "???",
+    "model": "뷔페어린이"
+  },
+  {
+    "original": "Pwie?",
+    "translation": "Буфи?",
+    "model": "뷔페어른"
+  },
+  {
+    "original": "Adamant Customer",
+    "translation": "Уверенный Покупатель",
+    "model": null
+  },
+  {
+    "original": "Annette the Alterationist",
+    "translation": "Аннет-Перекройщица",
+    "model": null
+  },
+  {
+    "original": "Crawling Leather",
+    "translation": "Ползучая Кожа",
+    "model": null
+  },
+  {
+    "original": "Fisherman",
+    "translation": "Рыбак",
+    "model": null
+  },
+  {
+    "original": "Fussy Needlekin",
+    "translation": "Суетливый Иглолюд",
+    "model": null
+  },
+  {
+    "original": "Greedy Needlekin",
+    "translation": "Жадный Иглолюд",
+    "model": null
+  },
+  {
+    "original": "Le Noir Handbags Hall Designer",
+    "translation": "Дизайнер Зала сумок Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Noir Officer",
+    "translation": "Командир Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Noir Staff Manager",
+    "translation": "Менеджер по персоналу Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Le Rouge Handbags Hall Designer",
+    "translation": "Дизайнер Зала сумок Ле Руж",
+    "model": null
+  },
+  {
+    "original": "Loudmouthed Needlekin",
+    "translation": "Громкоголосый Иглолюд",
+    "model": null
+  },
+  {
+    "original": "Nurturer",
+    "translation": "Пропитчик",
+    "model": null
+  },
+  {
+    "original": "Overseer",
+    "translation": "Смотритель",
+    "model": null
+  },
+  {
+    "original": "Pwie",
+    "translation": "Буфи",
+    "model": null
+  },
+  {
+    "original": "Pwuh-Pwuhie...",
+    "translation": "Бу-у-Бу-фх...",
+    "model": null
+  },
+  {
+    "original": "Pwuh...",
+    "translation": "Бу-у...",
+    "model": null
+  },
+  {
+    "original": "Queueing Needlekin",
+    "translation": "Иглолюд в очереди",
+    "model": null
+  },
+  {
+    "original": "Renée",
+    "translation": "Рене",
+    "model": null
+  },
+  {
+    "original": "Scraper",
+    "translation": "Скребок",
+    "model": null
+  },
+  {
+    "original": "Tanner",
+    "translation": "Кожевенница",
+    "model": null
+  },
+  {
+    "original": "Tannery",
+    "translation": "Дубильня",
+    "model": null
+  },
+  {
+    "original": "The Designer's Chef D'oeuvre",
+    "translation": "Шедевр Дизайнера",
+    "model": null
+  },
+  {
+    "original": "Buffet",
+    "translation": "Буфет",
+    "model": null
+  },
+  {
+    "original": "Le Noir's Brand Manager",
+    "translation": "Менеджер Бренда Ле Нуар",
+    "model": null
+  },
+  {
+    "original": "Sales Associate",
+    "translation": "Продавец-консультант",
+    "model": null
+  },
+  {
+    "original": "Mother",
+    "translation": "Мать",
+    "model": "뫼르소엄마"
+  },
+  {
+    "original": "Mother",
+    "translation": "Мать",
+    "model": "뫼르소엄마아픔"
+  },
+  {
+    "original": "Monologue",
+    "translation": "Монолог",
+    "model": "뫼르소"
+  },
+  {
+    "original": "N Corp. Staff",
+    "translation": "Сотрудник Корп. N",
+    "model": null
+  },
+  {
+    "original": "Inquisitor",
+    "translation": "Инквизитор",
+    "model": null
+  },
+  {
+    "original": "Puzzled Fixer",
+    "translation": "Озадаченный Корректировщик",
+    "model": null
+  },
+  {
+    "original": "Serious Fixer",
+    "translation": "Серьёзный Корректировщик",
+    "model": null
+  },
+  {
+    "original": "Couch?",
+    "translation": "Кушетка?",
+    "model": null
+  },
+  {
+    "original": "Le Néant",
+    "translation": "Ле Неан",
+    "model": null
+  },
+  {
+    "original": "Mother",
+    "translation": "Мать",
     "model": null
   }
 ]

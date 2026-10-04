@@ -1,0 +1,20 @@
+﻿# Original: …….
+Счастливый Гардероб: …….
+
+# Original: (There's no movement. Only remnants of the pillaging remain.)
+Счастливый Гардероб: (Никакого движения. Остались лишь следы разграбления.)
+
+# Original: (Between the remnants of broken furniture, a red, congealed lump can be seen.)
+Счастливый Гардероб: (Среди обломков разбитой мебели виднеется красный застывший комок.)
+
+# Original: Hmm...? What's this...?
+Хон Лу: Хм-м?.. Что это такое?..
+
+# Original: <The... heart.>
+Данте: <Это... сердце.>
+
+# Original: ... This one didn't want to take anything.
+Буфи: ...Он ничего... не хотел брать.
+
+# Original: So why did this happen to them?
+Буфи: Тогда почему... с ним такое случилось?

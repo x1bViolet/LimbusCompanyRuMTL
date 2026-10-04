@@ -1,0 +1,8 @@
+﻿# Original: Keep them from laying so much as a finger on the work, please.
+Кожевенница: Прошу, не дайте им даже пальцем коснуться работы.
+
+# Original: <Meursault! We've got company closing in from every direction!>
+Данте: <Мерсо! К нам подбираются со всех сторон!>
+
+# Original: Acknowledged, Manager.
+Мерсо: Понял, Менеджер.

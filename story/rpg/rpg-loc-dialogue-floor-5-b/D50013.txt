@@ -1,0 +1,8 @@
+﻿# Original: ... We can't go in. Both you and me.
+Буфи: ...Нам туда нельзя. Ни тебе, ни мне.
+
+# Original: We don't have... enough virtue yet...
+Буфи: У нас ещё нет... достаточно добродетели...
+
+# Original: <"Virtue"...?>
+Данте: <«Добродетели»...?>
