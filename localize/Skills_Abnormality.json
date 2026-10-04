@@ -1488,7 +1488,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 10\n[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 10\n[OnSucceedAttack] Наносит 5 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -1736,7 +1736,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Оглушает цель и наносит 10 [Vulnerable:`Уязвимостей`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Оглушает цель и наносит 10 [Vulnerable:`Уязвимости`] на следующий ход"
                 }
               ]
             }
@@ -1985,7 +1985,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Laceration:`Кровотечения`] на следующий ход"
@@ -2893,7 +2893,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 20% от нанесённого урона"
                 }
               ]
             },
@@ -2903,7 +2903,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 20% от нанесённого урона"
                 }
               ]
             },
@@ -2913,7 +2913,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 20% от нанесённого урона"
                 }
               ]
             }
@@ -2935,7 +2935,7 @@
                   "desc": "[OnSucceedAttack] Наносит 15 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 50% от нанесённого урона"
                 }
               ]
             }
@@ -3775,7 +3775,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 50% от нанесённого урона"
                 }
               ]
             }
@@ -4377,7 +4377,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимостей`]"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
@@ -4670,7 +4670,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает Уровень защиты цели на 2 в следующем ходе"
+                  "desc": "[OnSucceedAttack] Понижает Уровень Защиты цели на 2 в следующем ходе"
                 }
               ]
             }

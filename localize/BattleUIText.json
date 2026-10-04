@@ -522,7 +522,7 @@
     },
     {
       "id": "babayaga_alert",
-      "content": "Осталось ходов: {0}."
+      "content": "Осталось ходов: {0}"
     },
     {
       "id": "battle_operation_offset",

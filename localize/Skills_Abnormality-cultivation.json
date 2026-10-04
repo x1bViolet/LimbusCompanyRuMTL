@@ -486,7 +486,7 @@
                   "desc": "[OnSucceedAttack] Получает 2 [SipOfAlcoholJin:`Глотка алкоголя`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Значение [DrunkBlood:`Кровопролития`] на цели × 5) дополнительного урона Похотью (До 25)"
+                  "desc": "[OnSucceedAttack] Наносит (Значение [DrunkBlood:`Кровопролития`] на цели × 5) дополнительного урона <color=#fe6f01>Похотью</color> (До 25)"
                 }
               ]
             }
@@ -525,7 +525,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Значение [DrunkBlood:`Кровопролития`] на цели × 5) урона Похотью (До 25)"
+                  "desc": "[OnSucceedAttack] Наносит (Значение [DrunkBlood:`Кровопролития`] на цели × 5) урона <color=#fe6f01>Похотью</color> (До 25)"
                 }
               ]
             }
@@ -556,7 +556,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (Значение [DrunkBlood:`Кровопролития`] на цели × 10) урона Похотью (До 50)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (Значение [DrunkBlood:`Кровопролития`] на цели × 10) урона <color=#fe6f01>Похотью</color> (До 50)"
                 }
               ]
             }

@@ -1,0 +1,2173 @@
+{
+  "dataList": [
+    {
+      "id": 148501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "То совершил грех...",
+          "desc": "[WhenUse] Итоговая сила +1 <color=#ff6000><mark=#ff000040><b><u>за каждую оставшуюся на поле боя <b>Свечу воздаяния</b></u></b></mark></color> (До 4)\n[WhenUse] Если счётчик своей [ChargeNoir:`Презервации`] равен 10 и более, Сила в столкновении +1\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 3\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искупись.",
+          "desc": "[WhenUse] Итоговая сила +2 <color=#ff6000><mark=#ff000040><b><u>за каждую оставшуюся на поле боя <b>Свечу воздаяния</b></u></b></mark></color> (До 8)\n[WhenUse] Если счётчик своей [ChargeNoir:`Презервации`] равен 15 и более, то тратит 5 его единиц, чтобы получить +2 к Итоговой силе\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 5\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [Binding:`Связывание`]</u></b></mark></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Осуждение",
+          "desc": "[nxCenterLine]\n\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Количество целей повышается на</u></b></mark></color> число оставшихся на поле боя <b>Свеч воздаяния</b> (До 2 дополнительных целей)\n\n[WhenUse] Итоговая сила +2 <color=#ff6000><mark=#ff000040><b><u>за каждую оставшуюся на поле боя <b>Свечу воздаяния</b></u></b></mark></color> (До 8)\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если Скорость главной цели равна 1</u></b></mark></color>, то наносит этим навыком на <color=#ff6000><mark=#ff000040><b><u>50%</u></b></mark></color> больше урона\n[WhenUse] Если счётчик своей [ChargeNoir:`Презервации`] равен 15 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n\n[DefeatDuel] Получает 3 [Paralysis:`Паралича`]\n[DefeatDuel] Наносит на 50% меньше урона и не может Оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 1</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит на следующий ход 4 [Binding:`Связывания`] главной цели и 2 [Binding:`Связывания`] дополнительным целям",
+                  "summary": "Наносит [Binding:`Связывание`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ваша греховность должна сковывать вас.",
+          "desc": "[nxCenterLine]\n\n[BeforeAttack] <color=#ff6000><mark=#ff000040><b><u>Количество целей повышается на</u></b></mark></color> число оставшихся на поле боя <b>Свеч воздаяния</b> (До 4 дополнительных целей)\n\n[WhenUse]\n- Итоговая сила +2 <color=#ff6000><mark=#ff000040><b><u>за каждую оставшуюся на поле боя <b>Свечу воздаяния</b></u></b></mark></color> (До 8)\n- Если на поле боя не осталось <b>Свеч воздаяния</b>, Сила в столкновении -3\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если Скорость главной цели равна 1</u></b></mark></color>, то наносит этим навыком на <color=#ff6000><mark=#ff000040><b><u>100%</u></b></mark></color> больше урона\n[WhenUse] Если счётчик своей [ChargeNoir:`Презервации`] равен 15 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет и +1 к Итоговой силе\n\n[DefeatDuel] Получает 4 [Paralysis:`Паралича`]\n[DefeatDuel] Наносит на 50% меньше урона и не может Оглушить целей",
+          "flavor": "«Манекены поют...»",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит на следующий ход 3 [Binding:`Связывания`] главной цели и 1 [Binding:`Связывание`] дополнительным целям",
+                  "summary": "Наносит [Binding:`Связывание`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит на следующий ход 3 [Binding:`Связывания`] главной цели и 1 [Binding:`Связывание`] дополнительным целям",
+                  "summary": "Наносит [Binding:`Связывание`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`] и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BlackStigmata:`Угрызения совести`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Божественная кара",
+          "desc": "[nxCenterLine]\n\n[TurnStartBattle] Получает <color=#ff6000><mark=#ff000040><b><u>1 [ParryingResultDown:`Понижение силы в столкновении`] при получении урона</u></b></mark></color> от Грешников в течение этого хода (Единожды за ход на каждого Грешника)\n\n[WhenUse]\n- Итоговая сила +2 <color=#ff6000><mark=#ff000040><b><u>за каждую оставшуюся на поле боя <b>Свечу воздаяния</b></u></b></mark></color> (До 8)\n- Если на поле боя не осталось <b>Свеч воздаяния</b>, Сила в столкновении -5\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если Скорость главной цели равна 1</u></b></mark></color>, то наносит этим навыком на <color=#ff6000><mark=#ff000040><b><u>100%</u></b></mark></color> больше урона\n[WhenUse] Полностью тратит счётчик своей [ChargeNoir:`Презервации`], чтобы получить +2 к Силе монет\n\n[DefeatDuel] Получает 4 [Paralysis:`Паралича`]\n[DefeatDuel] Наносит на 50% меньше урона и не может Оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гвоздь покаяния",
+          "desc": "Когда текущие ОЗ <b>Надзирателя</b> ниже 50%, первая монета этого навыка становится [SuperCoin:`Вечной`]\n\nЕсли значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на цели равно 9, Итоговая сила +2\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 4\n[WhenUse] Получает 1 [Breath:`Дыхание`] и повышает его счётчик <nobr>на 1</nobr>\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [MarkingNail:`Гвоздь 【Покаяние】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MarkingNail:`Гвоздя 【Покаяние】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гвоздь наказания",
+          "desc": "Когда текущие ОЗ <b>Надзирателя</b> ниже 50%, первая монета этого навыка становится [SuperCoin:`Вечной`]\n\nЕсли значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на цели равно 6+ / 9, Итоговая сила +2 / +3 соответственно\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 4\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 2</nobr>\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [CeremonialNail:`Гвоздь 【Наказание】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [CeremonialNail:`Гвоздя 【Наказание】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Правосудие",
+          "desc": "[nxCenterLine]\n\nЕсли значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на главной цели равно 3+ / 6+ / 9, Итоговая сила +2 / +3 / +5 соответственно\n[BeforeAttack] Если значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на главной цели равно 5+ / 9, <color=#ff6000><mark=#ff000040><b><u>Количество целей +1 / +3 соответственно</u></b></mark></color>\n[WhenUse] Полностью тратит счётчик своей [ChargeNoir:`Презервации`], чтобы получить +2 к Силе монет\n\n[DefeatDuel] Получает 3 [Paralysis:`Паралича`]\n[DefeatDuel] Наносит на 50% меньше урона и не может Оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Эта монета <color=#ff6000><mark=#ff000040><b><u>попадает только по главной цели</u></b></mark></color>"
+                },
+                {
+                  "desc": "На (Процент своих потерянных ОЗ)% больше урона (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <color=#ff6000><mark=#ff000040><b><u>4 [ExecutionNailSecondPhase:`Молота 【Правосудие】`]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искупись перед богом.",
+          "desc": "[StartBattle] Если слот навыков <b>Надзирателя</b> с этим навыком является главной целью навыка <color=#ff6000><mark=#ff000040><b><u>Грешника, который имеет [GoldenFabricWarderSecondPhase:`Безмолвие`](;GoldenFabricWarderFirstPhase)</u></b></mark></color>: этот навык Грешника наносит на 100% больше урона (Если это ЭГО Навык, то на 200% больше урона вместо этого)\n\n[EndBattle] Если значение [EncompassingVoiceSecondPhase:`Голоса обсидианового бога`] ниже 100, то поднимает его до 100 и превращает в [SpreadingVoiceSecondPhase:`Божественность обсидианового бога`]\n- Теряет после этого (Полученное значение [EncompassingVoiceSecondPhase:`Голоса обсидианового бога`]) СД (До 45)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Покайся.",
+          "desc": "Если значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на цели равно 9, Итоговая сила +2\n\n[WhenUse] Тратит до 15 [SpreadingVoiceSecondPhase:`Божественности обсидианового бога`], чтобы получить +1 к Итоговой силе и нанести на 15% больше урона\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 4\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [MarkingNail:`Гвоздь 【Покаяние】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [MarkingNail:`Гвоздь 【Покаяние】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [MarkingNail:`Гвоздь 【Покаяние】`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прими же своё наказание.",
+          "desc": "Если значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на цели равно 6+ / 9, Итоговая сила +2 / +3 соответственно\n\n[WhenUse] Тратит до 15 [SpreadingVoiceSecondPhase:`Божественности обсидианового бога`], чтобы получить +2 к Итоговой силе и нанести на 30% больше урона\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 4\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [CeremonialNail:`Гвоздь 【Наказание】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [CeremonialNail:`Гвоздь 【Наказание】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [CeremonialNail:`Гвоздь 【Наказание】`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Суждение... Приговор... Осуждение!",
+          "desc": "[nxCenterLine]\n\nНе вызывает активацию Защитных навыков целей\n<b>Надзиратель</b> не может быть Оглушён до использования этого навыка\n\nЕсли значение текущего [ConfessionSecondPhase:`Доказательства исповеди`] на главной цели равно 3+ / 6+ / 9, Итоговая сила +2 / +3 / +5 соответственно\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [GoldenFabricWarderSecondPhase:`Безмолвие`](;GoldenFabricWarderFirstPhase)</u></b></mark></color>: Итоговая сила -5, Сила в столкновении -5\n\n[WhenUse] Полностью тратит счётчик своей [ChargeNoir:`Презервации`], чтобы получить +2 к Силе монет\n[WhenUse] Тратит до 40 [SpreadingVoiceSecondPhase:`Божественности обсидианового бога`], чтобы получить +3 к Итоговой силе и нанести на 50% больше урона\n\n[WhenUse] Наносит на (Оставшееся значение [SpreadingVoiceSecondPhase:`Божественности обсидианового бога`])% больше урона; после этого теряет её всю в конце атаки и она превращается обратно в [EncompassingVoiceSecondPhase:`Голос обсидианового бога`]\n- [DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Не теряет</u></b></mark></color> [SpreadingVoiceSecondPhase:`Божественность обсидианового бога`]\n\n[DefeatDuel] Получает 5 [Paralysis:`Параличей`]\n[DefeatDuel] Наносит на 75% меньше урона и не может Оглушить целей\n\n[EndSkill] Заканчивает этот ход и получает 2 [Vulnerable:`Уязвимости`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует эффекты [ConfessionSecondPhase:`Доказательств исповеди`]</u></b></mark></color> на целях, после чего они исчезают со всех Грешников"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[DefeatDuelAttack] <color=#ff6000><mark=#ff000040><b><u>Попадает только по главной цели</u></b></mark></color> и наносит ей <color=#ff6000><mark=#ff000040><b><u>9 [RestrainingNailSecondPhase:`Молотов 【Осуждение】`]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если попадает по главной цели, то наносит ей 3 [BlackStigmata:`Угрызения совести`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Исполнение приговора",
+          "desc": "Нацеливется на Грешника, имеющего [RestrainingNailSecondPhase:`Молот 【Осуждение】`]\n\n[CantChangeTarget]\n- Однако Грешник с [GoldenHideWarderSecondPhase:`Гулким пульсом`](;GoldenHideWarderFirstPhase) <color=#ff6000><mark=#ff000040><b><u>может перехватить этот навык</u></b></mark></color> независимо от своей Скорости\n\nНе вызывает активацию Защитных навыков цели\n<b>Надзиратель</b> не может быть Оглушён до использования этого навыка\n\n[WhenUse] Если цель имеет [GoldenHideWarderSecondPhase:`Гулкий пульс`](;GoldenHideWarderFirstPhase), Сила в столкновении -15\n[DefeatDuel] Если цель имеет [GoldenHideWarderSecondPhase:`Гулкий пульс`](;GoldenHideWarderFirstPhase), то она получает <color=#ff6000><mark=#ff000040><b><u>ОЗ Щита в размере 250%</u></b></mark></color> от своих максимальных ОЗ на время получения урона от этого навыка\n[DefeatDuel] Получает 5 [Vulnerable:`Уязвимости`] на следующий ход\n\n[EndBattle] Теряет всю оставшуюся [SpreadingVoiceSecondPhase:`Божественность обсидианового бога`], превращая её в [EncompassingVoiceSecondPhase:`Голос обсидианового бога`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>200% от максимальных ОЗ</u></b></mark></color> цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "То совершил грех...",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 2\n[WhenUse] Получает 1 [Breath:`Дыхание`] и повышает его счётчик <nobr>на 2</nobr>\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искупись.",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 2\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 1</nobr>\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "*вздох* Ты можешь просто... уже перемотаться назад?",
+          "desc": "Если цель имеет 5 и более [ConfessionThirdPhase:`〜`], первая монета этого навыка становится [SuperCoin:`Вечной`]\n\nЕсли значение текущего [ConfessionThirdPhase:`〜`] на цели равно 9, Итоговая сила +2\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 3\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 1</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Да ладно тебе, дай парню в кои-то веки уйти вовремя.",
+          "desc": "Если цель имеет 5 и более [ConfessionThirdPhase:`〜`], первая монета этого навыка становится [SuperCoin:`Вечной`]\n\nЕсли значение текущего [ConfessionThirdPhase:`〜`] на цели равно 6+ / 9, Итоговая сила +2 / +3 соответственно\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 5\n[WhenUse] Получает 2 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 2</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [GoldenNail:`Гвоздя 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "\"Правосудие.\"",
+          "desc": "[nxCenterLine]\n\nЕсли значение текущего [ConfessionThirdPhase:`〜`] на главной цели равно 3+ / 6+ / 9, Итоговая сила +2 / +3 / +5 соответственно\n[BeforeAttack] Если значение текущего [ConfessionThirdPhase:`〜`] на главной цели равно 5+ / 9, <color=#ff6000><mark=#ff000040><b><u>Количество целей +1 / +3 соответственно</u></b></mark></color>\n[WhenUse] Полностью тратит счётчик своей [ChargeNoir:`Презервации`], чтобы получить +2 к Силе монет\n\n[DefeatDuel] Получает 3 [Paralysis:`Паралича`]\n[DefeatDuel] Наносит на 75% меньше урона и не может Оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "Эта монета <color=#ff6000><mark=#ff000040><b><u>попадает только по главной цели</u></b></mark></color>"
+                },
+                {
+                  "desc": "На (Процент своих потерянных ОЗ)% больше урона (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 4 [ExecutionNailThirdPhase:`Гвоздя 【Точка останова】`]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "\"Искупись перед богом.\"... так было?",
+          "desc": "[StartBattle] Если слот навыков <b>Капеллана</b> с этим навыком является главной целью навыка <color=#ff6000><mark=#ff000040><b><u>Грешника, который имеет [GoldenFabricWarderThirdPhase:`Безмолвие`](;GoldenFabricWarderFirstPhase)</u></b></mark></color>: этот навык Грешника наносит на 100% больше урона (Если это ЭГО Навык, то на 200% больше урона вместо этого)\n\n[EndBattle] Если значение [EncompassingVoiceThirdPhase:`Голоса обсидианового бога`](;EncompassingVoiceSecondPhase) ниже 100, то поднимает его до 100 и превращает в [SpreadingVoiceThirdPhase:`Божественность обсидианового бога`](;SpreadingVoiceSecondPhase)\n- Теряет после этого (Полученное значение [EncompassingVoiceThirdPhase:`Голоса обсидианового бога`](;EncompassingVoiceSecondPhase)) СД (До 45)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "\"Покайся.\"",
+          "desc": "Если значение текущего [ConfessionThirdPhase:`〜`] на цели равно 9, Итоговая сила +2\n\n[WhenUse] Тратит до 15 [SpreadingVoiceThirdPhase:`Божественности обсидианового бога`](;SpreadingVoiceSecondPhase), чтобы получить +1 к Итоговой силе и нанести на 15% больше урона\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "\"Прими же своё наказание.\"",
+          "desc": "Если значение текущего [ConfessionThirdPhase:`〜`] на цели равно 6+ / 9, Итоговая сила +2 / +3 соответственно\n\n[WhenUse] Тратит до 15 [SpreadingVoiceThirdPhase:`Божественности обсидианового бога`](;SpreadingVoiceSecondPhase), чтобы получить +2 к Итоговой силе и нанести на 30% больше урона\n[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 6",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [GoldenNail:`Гвоздь 【Консоль】`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вы серьёзно собираетесь разрушить систему Сизифа?",
+          "desc": "[nxCenterLine]\n\nНе вызывает активацию Защитных навыков целей\n<b>Капеллан</b> не может быть Оглушён до использования этого навыка\n\nНаносит на 5% больше урона за каждого [ConfessionThirdPhase:`〜`] на цели (До 45%; для каждой цели отдельно)\n\nЕсли значение текущего [ConfessionThirdPhase:`〜`] на главной цели равно 3+ / 6+ / 9, Итоговая сила +2 / +3 / +5 соответственно\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [GoldenFabricWarderThirdPhase:`Безмолвие`](;GoldenFabricWarderFirstPhase)</u></b></mark></color>:\n- Итоговая сила -5, Сила в столкновении -5\n- Все Грешники получают <color=#ff6000><mark=#ff000040><b><u>ОЗ Щита</u></b></mark></color> на время получения урона от этого навыка, равные <color=#ff6000><mark=#ff000040><b><u>50%</u></b></mark></color> от их максимальных ОЗ\n\n[WhenUse] Полностью тратит счётчик своей [ChargeNoir:`Презервации`], чтобы получить +2 к Силе монет\n[WhenUse] Тратит до 40 [SpreadingVoiceThirdPhase:`Божественности обсидианового бога`](;SpreadingVoiceSecondPhase), чтобы получить +3 к Итоговой силе и нанести на 50% больше урона\n\n[WhenUse] Наносит на (Оставшееся значение [SpreadingVoiceThirdPhase:`Божественности обсидианового бога`](;SpreadingVoiceSecondPhase))% больше урона; после этого теряет её всю в конце атаки и она превращается обратно в [EncompassingVoiceThirdPhase:`Голос обсидианового бога`](;EncompassingVoiceSecondPhase)\n- [DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Не теряет</u></b></mark></color> [SpreadingVoiceThirdPhase:`Божественность обсидианового бога`](;SpreadingVoiceSecondPhase)\n\n[DefeatDuel] Получает 5 [Paralysis:`Параличей`]\n[DefeatDuel] Наносит на 90% меньше урона и не может Оглушить целей\n\n[EndSkill] Заканчивает этот ход и получает 2 [Vulnerable:`Уязвимости`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration:`Преобразование амплитуды`] в [VibrationFocusing:`Тремор[TabExplain] — Консервацию`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует эффекты [ConfessionThirdPhase:`〜`]</u></b></mark></color> на целях, после чего они исчезают со всех Грешников"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[DefeatDuelAttack] <color=#ff6000><mark=#ff000040><b><u>Попадает только по главной цели</u></b></mark></color> и наносит ей <color=#ff6000><mark=#ff000040><b><u>9 [RestrainingNailThirdPhase:`Гвоздей 【Исключение】`]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Общесистемный бан",
+          "desc": "Нацеливется на Грешника, имеющего [RestrainingNailThirdPhase:`Гвозди[TabExplain] 【Исключение】`]\n\n[CantChangeTarget]\n- Однако Грешник с [GoldenHideWarderThirdPhase:`Гулким пульсом`](;GoldenHideWarderFirstPhase) <color=#ff6000><mark=#ff000040><b><u>может перехватить этот навык</u></b></mark></color> независимо от своей Скорости\n\nНе вызывает активацию Защитных навыков цели\n<b>Капеллан</b> не может быть Оглушён до использования этого навыка\n\n[WhenUse] Если цель имеет [GoldenHideWarderThirdPhase:`Гулкий пульс`](;GoldenHideWarderFirstPhase), Сила в столкновении -15\n[DefeatDuel] Если цель имеет [GoldenHideWarderThirdPhase:`Гулкий пульс`](;GoldenHideWarderFirstPhase), то она получает <color=#ff6000><mark=#ff000040><b><u>ОЗ Щита в размере 250%</u></b></mark></color> от своих максимальных ОЗ на время получения урона от этого навыка\n[DefeatDuel] Получает 5 [Vulnerable:`Уязвимости`] на следующий ход\n\n[EndBattle] Теряет всю оставшуюся [SpreadingVoiceThirdPhase:`Божественность обсидианового бога`](;SpreadingVoiceSecondPhase), превращая её в [EncompassingVoiceThirdPhase:`Голос обсидианового бога`](;EncompassingVoiceSecondPhase)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin:`Высекающая монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>200% от максимальных ОЗ</u></b></mark></color> цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шифт + Делит",
+          "desc": "Нацеливается на Грешников кроме Мерсо\n\nНе вызывает активацию Защитных навыков цели\n<b>Капеллан</b> не может быть Оглушён до использования этого навыка\n\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Сила в столкновении -20 против Мерсо</u></b></mark></color>\n[DefeatDuel] Получает 10 [Vulnerable:`Уязвимости`] на этот и следующий ход\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Теряет 50% имеющихся ОЗ Щита</u></b></mark></color> в конце атаки этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin:`Высекающая монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>50%</u></b></mark></color> от текущих ОЗ цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin:`Высекающая монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>50%</u></b></mark></color> от текущих ОЗ цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin:`Высекающая монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>50%</u></b></mark></color> от текущих ОЗ цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подготовка портновских гвоздей",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeKhaki:`Инерции течения`] <nobr>на 3</nobr>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Росчерки и чертежи",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeKhaki:`Инерции течения`] <nobr>на 3</nobr>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown:`Понижение урона`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фиксированная точка",
+          "desc": "[WhenUse] Полностью тратит весь счётчик своей [ChargeKhaki:`Инерции течения`], чтобы нанести на 25% больше урона за каждые 3 потраченных единицы (До 50%)\n[WhenUse] Повышает счётчик своей [ChargeKhaki:`Инерции течения`] <nobr>на 3</nobr>\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 2\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [PenetrateResistDown:`Понижение сопротивления к Пронзающему урону`] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking:`Утопание`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный (<color=#ff6000><mark color=#ff000040><b><u>Количество типов негативных эффектов на цели</color></mark></b></u> × 15)% от итогового урона этой монеты (До 45%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В перспективе",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 2 единицы счётчика своей [ChargeKhaki:`Инерции течения`] (До 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] <color=#ff6000><mark color=#ff000040><b><u>Восстанавливает себе 2% ОЗ</color></mark></b></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фокусировка",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n\nНацеливается на <b>Чертёж Гран-магазэна «Сизиф»</b> и не вызывает активацию его Защитных навыков, уничтожает его при попадании\n\nЕсли являвшийся целью <b>Чертёж Гран-магазэна «Сизиф»</b> уничтожен до использования этого навыка, то получает 1 [Vulnerable:`Уязвимость`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[TargetKill] Получает <color=#ff6000><mark=#ff000040><b><u>1 [JeanneDesign]</u></b></mark></color>"
+                },
+                {
+                  "desc": ""
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Первый шаг",
+          "desc": "[BeforeUse] Если сталкивается не с <color=#ff6000><mark=#ff000040><b><u>1-ым Навыком</u></b></mark></color> текущей Идентичности Мерсо, то этот навык меняется на <color=#fe6f01>「Тебе нужно придерживаться ритма.」</color>\n\n[WinDuel] Заканчивает этот навык и испольузет <color=#a5fe06>「В те времена мы часто болтали в кафе」</color> на Мерсо",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Второй темп",
+          "desc": "[BeforeUse] Если сталкивается не со <color=#ff6000><mark=#ff000040><b><u>2-ым Навыком</u></b></mark></color> текущей Идентичности Мерсо, то этот навык меняется на <color=#fe6f01>「Тебе нужно придерживаться ритма.」</color>\n\n[WinDuel] Заканчивает этот навык и испольузет <color=#a5fe06>「В те времена мы часто болтали в кафе」</color> на Мерсо",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Третье движение",
+          "desc": "[BeforeUse] Если сталкивается не с <color=#ff6000><mark=#ff000040><b><u>3-им Навыком</u></b></mark></color> текущей Идентичности Мерсо или ЭГО Навыком, то этот навык меняется на <color=#fe6f01>「Тебе нужно придерживаться ритма.」</color>\n\n[WinDuel] Заканчивает этот навык и испольузет <color=#a5fe06>「В те времена мы часто болтали в кафе」</color> на Мерсо",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тебе нужно придерживаться ритма.",
+          "desc": "Этот навык всегда попадает Критически\n\n[StartDuel] Монеты навыка цели выпадают Решкой с шансом 100% (Отрицательные — Орлом)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [JeannePathos:`Пафос - Дéзир д’этр`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [JeannePathos:`Пафос - Дéзир д’этр`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В те времена мы часто болтали в кафе",
+          "desc": "Не вызывает активацию Защитных навыков и не наносит урон\n\n[CantDuel]\n[WhenUse] Жанна и Мерсо получают 5 [JeannePathos:`Пафос - Дéзир д’этр`] и 5 [JeanneLogos:`Логос - Манк д’этр`] соответственно",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Да, у нас были небольшие ссоры.",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Жанна и Мерсо получают 4 [JeannePathos:`Пафос - Дéзир д’этр`] и 4 [JeanneLogos:`Логос - Манк д’этр`] соответственно"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Права: Реконструкция",
+          "desc": "[StartDuel] Монета этого навыка выпадает Орлом с шансом 100%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Мерсо умирает"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Права: Бан",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>[EndSkillAll]</color></mark></b></u> Наносит <color=#ff6000><mark=#ff000040><b><u>1 [JeanneCheat:`Дéзеспуар`]</u></b></mark></color> на следующий ход",
+          "flavor": "<b>Мер</b>. Если хочешь, ты больше не обязан сковывать себя этими цепями. Тебе позволено судить самому. Тебе должно быть позволено говорить. Хватит оглядываться на чьи-либо взоры, хватит позволять чужим мыслям тяготить тебя... Просто <b>будь</b> собой.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "На 20% больше урона, если монета не расколота"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "На 20% больше урона, если монета не расколота"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "По крайней мере, на этой сцене всё расставлено и зафиксировано.",
+          "desc": "[BeforeUse] Если столкновение произойдёт <color=#ff6000><mark=#ff000040><b><u>не с навыком Мерсо</u></b></mark></color> или этот навык будет использован в качестве Односторонней атаки, <color=#ff6000><mark=#ff000040><b><u>то он заменится на</u></b></mark></color> <color=#fe6f01>「Ты потерял ритм.」</color>\n\n[DefeatDuel]\n- Мерсо получает 10 [JeanneLogos:`Логос - Манк д’этр`]\n- Экипировавший этот навык <b>Чертёж</b> в форме <b>Жанны Сартр, искусной портнихи</b> будет получать 5 [Vulnerable:`Уязвимости`] в каждом ходе начиная со следующего",
+          "coinlist": [
+            {
+              "coindescs": []
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты потерял ритм.",
+          "desc": "Этот навык всегда попадает Критически\n\n[StartDuel] Монеты навыка цели выпадают <color=#ff6000><mark=#ff000040><b><u>Решкой с шансом 100%</u></b></mark></color> (Отрицательные — Орлом)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Восстанавливает себе 50% ОЗ</color></mark></b></u>",
+          "flavor": "<b>Мер</b>, тебе нужно правильно соблюдать механику.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проектировка была до этого момента.",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 2 единицы счётчика своего [Charge:`Заряда`] (До 5; учитывая <u>Особый Заряд</u>)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Права: Взор",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы и счётчика своего [Charge:`Заряда`] (До 3; учитывая <u>Особый Заряд</u>)\n[WhenUse] Наносит на 10% больше урона за каждые 2 типа негативных эффектов на всех целях этого навыка суммарно (До 50%)\n\n<color=#ff6000><mark color=#ff000040><b><u>[WinDuel]</color></mark></b></u> Наносит <color=#ff6000><mark=#ff000040><b><u>1 [JeanneCheat:`Дéзеспуар`]</u></b></mark></color> на следующий ход\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
+          "flavor": "Должно быть, ты лучше кого бы то ни было понимал тревогу, терзавшую твою мать. Но, <b>Мер</b>... просто делить с кем-то одно пространство уже значит ощущать на себе его взор. Пока вы были там вместе, тебе приходилось сносить взор своей матери. И ты едва ли мог не смотреть на неё в ответ.\n\nПоэтому ты чувствуешь себя виноватым?\nМне кажется, ты всё ещё пытаешься сделать случившееся с твоей матерью своей собственной виной.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "На 50% больше урона, если монета не расколота"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDmgDown:`Понижения урона`] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "На 50% больше урона, если монета не расколота"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чертёж торгового центра",
+          "desc": "[WhenUse] Получает на 90% меньше урона от навыка атакующего (Единожды за ход)",
+          "flavor": "Это не чертёж торгового центра.",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаблон: \"Желание.\"",
+          "desc": "[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] не максимален, то тратит 5% ОЗ, чтобы повысить его на 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаблон: \"Пустота.\"",
+          "desc": "[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] не максимален, то тратит 5% ОЗ, чтобы повысить его на 10\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeRouge:`Пульсации`], чтобы получить +2 к Итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаблон: \"Пожирать.\"",
+          "desc": "[WhenUse] Наносит на 3% больше урона за каждые 2% потерянных ОЗ (До 60%)\n[WhenUse] Полностью тратит счётчик своей [ChargeRouge:`Пульсации`], чтобы получить +1 к Итоговой силе за каждые 2 потраченных единицы (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон <color=#fe6f01>Похотью</color>, равный (Процент своих потерянных ОЗ)% от итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаблон: \"Соскребать и собирать.\"",
+          "desc": "[WhenUse] Восстанавливает себе 25% ОЗ (Если текущая сила своей [ChargeRouge:`Пульсации`] равна 2 и более, то восстанавливает 50% вместо этого)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаблон: \"Консервировать.\"",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 5\n- Если цель имеет [Vibration:`Тремор`], то повышает его ещё на 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаблон: \"Свидетельствовать в молчании.\"",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeNoir:`Презервации`] на 5\n- Если цель имеет [Vibration:`Тремор`], то повышает его ещё на 5\n[WhenUse] Итоговая сила +1 за каждые 2 единицы счётчика своей [ChargeNoir:`Презервации`] (До 2)\n[WhenUse] Если счётчик своей [ChargeNoir:`Презервации`] равен 10 и более, то наносит 5 [Vibration:`Тремора`] при попаданиях этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пошив: \"Пусть всё будет зафиксировано.\"",
+          "desc": "Наносит на (Сила своей [ChargeNoir:`Презервации`] × 4)% больше урона (До 20%)\n[WhenUse] Полностью тратит счётчик своей [ChargeNoir:`Презервации`], чтобы получить +1 к Итоговой силе за каждые 2 потраченных единицы (До 3)\n- Если было потрачено 10 и более единиц, то наносит 5 [Vibration:`Тремора`] при попаданиях этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон <color=#fed133>Леностью</color>, равный (Сила [Vibration:`Тремора`] цели)% от итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пошив: \"Взывая к гвоздю.\"",
+          "desc": "[StartBattle] Получает на этот и следующий ход ОЗ Щита, равные 25% от своих максимальных ОЗ\n- Если сила своей [ChargeNoir:`Презервации`] равна 2 и более, то получает в размере 40% вместо этого",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жё м’экспюльс",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель не имеет [Laceration:`Кровотечения`], то</u></b></mark></color> все монеты этого навыка становятся [SuperCoin:`Вечными`]\n\n[WhenUse] Если главная цель имеет 6 и более [Laceration:`Кровотечения`], Сила монет +1\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей",
+          "flavor": "Исторгни.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жё мё краш",
+          "desc": "[WhenUse] Если главная цель имеет 6 и более [Laceration:`Кровотечения`], Базовая сила +2\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)",
+          "flavor": "Изрыгни.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [BoneNail:`Л'Абжекта`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жё м’абжект",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)",
+          "flavor": "И выбрось это в мир.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoneNail:`Л'Абжекта`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 3 и более [BoneNail:`Л'Абжекта`], наносит ей 2 [Vulnerable:`Уязвимости`] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Пюльсьон",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Нацеливается на <b>Старших сотрудников «Ле Руж»</b>\n- Используется в начале боевой фазы\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы увеличить Количество целей на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] <color=#ff6000><mark=#ff000040><b><u>Уменьшает ОЗ цели на 50%</u></b></mark></color> и даёт 5 [AttackUp:`Повышений уровня атаки`]"
+                },
+                {
+                  "desc": "[EndCoin] Повышает счётчик [ChargeRouge:`Пульсации`] цели на 10"
+                },
+                {
+                  "desc": "[EndCoin] Даёт 3 [BuffetRouge:`Неудержимого неистовства 【Ле Дезѝр】`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле манк-а-этр",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Используется во время хода на <b>Старшем сотруднике «Ле Руж»</b>, когда его Оглушают (Единожды за ход)\n- Восстановленный от Оглушения <b>Старший сотрудник «Ле Руж»</b> <color=#ff6000><mark=#ff000040><b><u>использует на последнем атаковавшем</u></b></mark></color> свой навык <color=#fe6f01>「Серпами моими я откликаюсь на твой зов!」</color> в качестве Односторонней атаки сразу после этого\n\n[CantDuel]\n[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цель от Оглушения и даёт 1 [BuffetRouge:`Неудержимое неистовство[TabExplain] 【Ле Дезѝр】`]"
+                },
+                {
+                  "desc": "[EndCoin] Восстанавливает цели ОЗ, равные Итоговой силе этого навыка"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Жуисанс",
+          "desc": "Не может быть Оглушён до использования этого навыка\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Восстанавливает 15 СД</u></b></mark></color> и <color=#ff6000><mark=#ff000040><b><u>даёт +2 к Силе в столкновении</u></b></mark></color> всем <b>Старшим сотрудникам «Ле Руж»</b> на поле боя\n[WhenUse] Если на поле боя нет <b>Старших сотрудников «Ле Руж»</b>, Сила в столкновении -3\n\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n\n[EndSkill] Главная цель теряет [BuffetScruple:`Пережитое с Буфи`] и получает [BuffetResolve:`Решение`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Деманд",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Используется на главной цели других своих навыков, если</u></b></mark></color> к концу их атаки она имеет <color=#ff6000><mark=#ff000040><b><u>5 [BoneNail:`Л'Абжектов`]</u></b></mark></color>\n\n[CantDuel]\n[CantChangeTarget]\n\nНе вызывает активацию Защитных навыков целей\n\n[WhenUse] Главная цель теряет все [BoneNail:`Л'Абжекты`]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[EndSkill] Главная цель <color=#ff6000><mark=#ff000040><b><u>теряет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле Ном-дю-Пэр",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, Количество целей понижается 2\n\n[StartBattle] Если есть [BuffetRouge:`Неудержимое неистовство[TabExplain] 【Ле Дезѝр】`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[EndSkill] Главная цель <color=#ff6000><mark=#ff000040><b><u>теряет [BuffetScruple]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoneNail:`Л'Абжекта`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 1 <nobr>[BoneNail:`Л'Абжект`]</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNail:`Л'Абжект`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNail:`Л'Абжект`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Кастрасьон",
+          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до использования этого навыка\n\n<color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, Сила монет -3\n\n[WhenUse] Если количество [BuffetDream:`Воспоминаний Буфи`] ниже 5, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +2 за каждые 6 [Laceration:`Кровотечения`] на главной цели (До 6)\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 2 раза и понижает его счётчик <nobr>на 2</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле Трэ Юнэр",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[WhenUse] Количество целей +1 за каждые 5 <nobr>[BoneNail:`Л'Абжековт`]</nobr> на всех противниках в сумме (До 4 дополнительных целей)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Тратит все [BoneNail:`Л'Абжекты`] с целей</u></b></mark></color>:"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон <color=#fe6f01>Похотью</color>, равный (Потраченное количество [BoneNail:`Л'Абжектов`] × 10)% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] за каждые 4 потраченных [BoneNail:`Л'Абжекта`] (До 5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дегаже",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель не имеет [Laceration:`Кровотечения`], то</u></b></mark></color> монета этого навыка становится [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNail:`Л'Абжект`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 2 <nobr>[BoneNail:`Л'Абжекта`]</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле Пуэн де Капитон",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель не имеет [Laceration:`Кровотечения`], то</u></b></mark></color> все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 3)\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNail:`Л'Абжект`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 1 <nobr>[BoneNail:`Л'Абжект`]</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNail:`Л'Абжект`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 1 <nobr>[BoneNail:`Л'Абжект`]</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151713,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Жуисанс",
+          "desc": "Не может быть Оглушён до использования этого навыка\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, то <color=#ff6000><mark=#ff000040><b><u>теряет 10 СД</u></b></mark></color> и получает <color=#ff6000><mark=#ff000040><b><u>-2 к Силе монет</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] Главная цель теряет [BuffetScruple:`Пережитое с Буфи`] и получает [BuffetResolve:`Решение`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151714,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Мéтафор Патэрнэль",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Используется в конце хода\n\n[CantDuel]\n[CantChangeTarget]\n\n[EndSkill] Восстанавливает себе 25% от максимальных ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Превращает <b>Разорванную</b> и <b>Отделившуюся</b> <b>Плоть Багряного бога</b> в <b>Старших сотрудников «Ле Руж»</b>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Впусти нас...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Теряет 1 [BuffetRevival:`Голос багряного бога`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ой... Наш багряный голос...",
+          "desc": "[StartBattle] Получает ОЗ Щита в размере 25% от своих максимальных ОЗ\n- При получении удара во время наличия ОЗ Щита от этого навыка: повышает счётчик [Laceration:`Кровотечения`] атакующего на 1\n[EndBattle] Если ОЗ Щита остались, то теряет 1 [BuffetRevival:`Голос багряного бога`]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Серпами моими я откликаюсь на твой зов!",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 6\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 5 его единиц, чтобы получить +2 к Базовой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Примите моё подношение плоти!",
+          "desc": "[WhenUse] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 4\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дар из моих объятий!",
+          "desc": "[StartBattle] Если свои текущие ОЗ ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мы должны пожрать всё это!",
+          "desc": "[StartBattle] Если свои текущие ОЗ ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n\n[WhenUse] Для первых трёх монет:\n- [UnBrokenCoinOnSucceedAttack] Тратит до 5 единиц счётчика своей [ChargeRouge:`Пульсации`], чтобы нанести дополнительный Рубящий урон в размере (Потраченный счётчик × 3)% от итогового урона этой монеты (До 15%) и восстановить себе (Потраченный счётчик)% ОЗ\n\n[WinDuel] Повышает счётчик своей [ChargeRouge:`Пульсации`] <nobr>на 10</nobr>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мы не должны пока быть преданы земле!",
+          "desc": "[DuelCounter]\n[WhenUse] Итоговая сила +1 за каждые 5 единиц счётчика своей [ChargeRouge:`Пульсации`] (До 3)\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик своей [ChargeRouge:`Пульсации`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 152106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мольба к голосу",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Нацеливается на <b>Багряного бога 【Зрелость】</b>\n\n[CantDuel]\n[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстанавливает цели 20 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

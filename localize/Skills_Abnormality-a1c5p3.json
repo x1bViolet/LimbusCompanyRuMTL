@@ -1042,7 +1042,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает первую границу выносливости цели на 50% от нанесённого урона"
+                  "desc": "[CriticalOnSucceedAttack] Повышает первую Границу Выносливости цели на 50% от нанесённого урона"
                 }
               ]
             },
@@ -1296,7 +1296,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает первую границу выносливости цели на 50% от нанесённого урона"
+                  "desc": "[CriticalOnSucceedAttack] Повышает первую Границу Выносливости цели на 50% от нанесённого урона"
                 }
               ]
             }
@@ -1383,7 +1383,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Повышает первую границу выносливости цели на 50% от нанесённого урона"
+                  "desc": "[CriticalOnSucceedAttack] Повышает первую Границу Выносливости цели на 50% от нанесённого урона"
                 }
               ]
             }
@@ -1723,7 +1723,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [AaCePbBa:`Бледный шум`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 30"
+                  "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 30"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Цель теряет 10 СД"

@@ -395,7 +395,7 @@
                   "desc": "[OnSucceedAttack] Наносит 10 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Счётчик своего [Vibration:`Тремора`] × 10)% дополнительного урона Леностью"
+                  "desc": "[OnSucceedAttack] Наносит (Счётчик своего [Vibration:`Тремора`] × 10)% дополнительного урона <color=#fed133>Леностью</color>"
                 }
               ]
             },
@@ -405,7 +405,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Счётчик своего [Vibration:`Тремора`] × 10)% дополнительного урона Леностью]"
+                  "desc": "[OnSucceedAttack] Наносит (Счётчик своего [Vibration:`Тремора`] × 10)% дополнительного урона <color=#fed133>Леностью</color>"
                 }
               ]
             },

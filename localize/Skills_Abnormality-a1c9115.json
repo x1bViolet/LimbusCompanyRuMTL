@@ -14,7 +14,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`] и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath:`Дыхания`] и повышает его счётчик <nobr>на 1</nobr>"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] цели на 1"
