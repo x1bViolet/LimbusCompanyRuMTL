@@ -2,52 +2,52 @@
 Хитклиф: О-ого!
 
 # Original: I know full well who ye are.
-Директор Бренда: Мне доподлинно ведомо, кто вы.
+Менеджер Бренда: Мне доподлинно ведомо, кто вы.
 
 # Original: Ye must be wielders of the "Golden Nail" the Lord hath prophesied.
-Директор Бренда: Должно быть, вы — носители «Золотого гвоздя», о коем пророчествовал Господь.
+Менеджер Бренда: Должно быть, вы — носители «Золотого гвоздя», о коем пророчествовал Господь.
 
 # Original: <The knight knocked her away... with a single swing...!>
 Данте: <Рыцарь отбросила её... одним взмахом...!>
 
 # Original: The voice that counteth out the hours findeth no purchase upon mine ears.
-Директор Бренда: Голос, отсчитывающий часы, не достигает слуха моего.
+Менеджер Бренда: Голос, отсчитывающий часы, не достигает слуха моего.
 
 # Original: The Lord hath charged me to serve as naught but the bearer of His word. What cause have I to heed any voice but His?
-Директор Бренда: Господь повелел мне быть лишь вестницей слова Его. Для чего мне внимать иному голосу, кроме Его?
+Менеджер Бренда: Господь повелел мне быть лишь вестницей слова Его. Для чего мне внимать иному голосу, кроме Его?
 
 # Original: We... we are...
 Фауст: Мы... мы...
 
 # Original: Witness ye in silence,
-Директор Бренда: Внемлите же безмолвно,
+Менеджер Бренда: Внемлите же безмолвно,
 
 # Original: for I speak now the will of the Lord.
-Директор Бренда: ибо ныне я изрекаю волю Господню.
+Менеджер Бренда: ибо ныне я изрекаю волю Господню.
 
 # Original: .......
 Мерсо: .......
 
 # Original: The Le Noir of the third floor spake thus: soon shall a false idol be wrought in the depths below. The hour hath therefore come to draw back the veil.
-Директор Бренда: Ле Нуар третьего этажа изрекли так: вскоре в глубинах будет сотворён ложный идол. Посему настал час отдёрнуть завесу.
+Менеджер Бренда: Ле Нуар третьего этажа изрекли так: вскоре в глубинах будет сотворён ложный идол. Посему настал час отдёрнуть завесу.
 
 # Original: And God did answer: "Receive the 'Golden Nail', which shall stand in the hammer's stead. Do so, and eternity shall be bestowed upon thee."
-Директор Бренда: И ответил Бог: «Прими „Золотой гвоздь“, коему суждено заменить молот. Исполни сие, и будет дарована тебе вечность».
+Менеджер Бренда: И ответил Бог: «Прими „Золотой гвоздь“, коему суждено заменить молот. Исполни сие, и будет дарована тебе вечность».
 
 # Original: ... And thus it is that I now stand before ye.
-Директор Бренда: ... Вот почему я ныне стою пред вами.
+Менеджер Бренда: ... Вот почему я ныне стою пред вами.
 
 # Original: Listen, you big lass. We're just doin' whatever we chose—
 Хитклиф: Слышь, здоровячка. Мы просто делаем, что сами решили—
 
 # Original: I said, hold thy silence.
-Директор Бренда: Я велела вам молчать.
+Менеджер Бренда: Я велела вам молчать.
 
 # Original: With your Golden Nail, ye are to pierce through the cradle of that horror soon to be born, and rend it asunder.
-Директор Бренда: Золотым гвоздём своим пронзите колыбель ужаса, коему вскоре суждено родиться, и разорвите её на части.
+Менеджер Бренда: Золотым гвоздём своим пронзите колыбель ужаса, коему вскоре суждено родиться, и разорвите её на части.
 
 # Original: I shall hold back the Rouges making for this place. Make haste, and see your ordained fate fulfilled.
-Директор Бренда: Я сдержу Ружей, что идут сюда. Спешите же исполнить предначертанное вам.
+Менеджер Бренда: Я сдержу Ружей, что идут сюда. Спешите же исполнить предначертанное вам.
 
 # Original: <But... it didn't look like there was any way through that veil.>
 Данте: <Но... похоже, сквозь эту завесу никак не пробраться.>
@@ -59,25 +59,25 @@
 Мерсо: Вопрос.
 
 # Original: Be thou silent...
-Директор Бренда: Молчи...
+Менеджер Бренда: Молчи...
 
 # Original: ... Hold. This gaze...
-Директор Бренда: ... Постой. Этот взгляд...
+Менеджер Бренда: ... Постой. Этот взгляд...
 
 # Original: Thou...
-Директор Бренда: Ты...
+Менеджер Бренда: Ты...
 
 # Original: The tabernacle's barrier cannot be torn nor permeated. How are we to progress?
 Мерсо: Барьер Скинии невозможно ни разорвать, ни преодолеть. Как нам пройти дальше?
 
 # Original: Thou, what...
-Директор Бренда: Ты, что...
+Менеджер Бренда: Ты, что...
 
 # Original: What bond hast thou with the voice...?
-Директор Бренда: Какие узы связывают тебя с Голосом...?
+Менеджер Бренда: Какие узы связывают тебя с Голосом...?
 
 # Original: ... Nay. Perhaps this, too, is but another trial laid upon me. I shall not doubt.
-Директор Бренда: ... Нет. Быть может, и сие — лишь ещё одно испытание, ниспосланное мне. Не стану сомневаться.
+Менеджер Бренда: ... Нет. Быть может, и сие — лишь ещё одно испытание, ниспосланное мне. Не стану сомневаться.
 
 # Original: Thou art but a stranger from the Fount, whom God hath made ready for this hour.
-Директор Бренда: Ты лишь посторонний из Источника, коего Бог уготовил к этому часу.
+Менеджер Бренда: Ты лишь посторонний из Источника, коего Бог уготовил к этому часу.
