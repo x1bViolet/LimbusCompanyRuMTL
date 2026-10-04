@@ -37,6 +37,18 @@ dialogue_files = [
   "RPGSystem/rpg-loc-dialogue-floor-b3-b.json",
   "RPGSystem/rpg-loc-dialogue-route-b.json",
   "RPGSystem/rpg-loc-dialogue-common-a1c10p2.json",
+
+  "RPGSystem/rpg-loc-dialogue-floor-1-c1.json",
+  "RPGSystem/rpg-loc-dialogue-floor-1-c2.json",
+  "RPGSystem/rpg-loc-dialogue-floor-2-c1.json",
+  "RPGSystem/rpg-loc-dialogue-floor-2-c2.json",
+  "RPGSystem/rpg-loc-dialogue-floor-3-c2.json",
+  "RPGSystem/rpg-loc-dialogue-floor-4-c2.json",
+  "RPGSystem/rpg-loc-dialogue-floor-5-c2.json",
+  "RPGSystem/rpg-loc-dialogue-floor-7-c2.json",
+  "RPGSystem/rpg-loc-dialogue-route-c.json",
+  "RPGSystem/rpg-loc-dialogue-route-c2.json",
+  "RPGSystem/rpg-loc-dialogue-common-a1c10p3.json",
 ]
 
 [[font_rules."Enemies*.json"]]

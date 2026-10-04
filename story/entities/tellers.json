@@ -4433,5 +4433,60 @@
     "original": "Le Noir's Brand Manager",
     "translation": "Директор Бренда Ле Нуар",
     "model": null
+  },
+  {
+    "original": "Sales Associate",
+    "translation": "Продавец-консультант",
+    "model": null
+  },
+  {
+    "original": "Mother",
+    "translation": "Мать",
+    "model": "뫼르소엄마"
+  },
+  {
+    "original": "Mother",
+    "translation": "Мать",
+    "model": "뫼르소엄마아픔"
+  },
+  {
+    "original": "Monologue",
+    "translation": "Монолог",
+    "model": "뫼르소"
+  },
+  {
+    "original": "N Corp. Staff",
+    "translation": "Сотрудник Корп. N",
+    "model": null
+  },
+  {
+    "original": "Inquisitor",
+    "translation": "Инквизитор",
+    "model": null
+  },
+  {
+    "original": "Puzzled Fixer",
+    "translation": "Озадаченный Корректировщик",
+    "model": null
+  },
+  {
+    "original": "Serious Fixer",
+    "translation": "Серьёзный Корректировщик",
+    "model": null
+  },
+  {
+    "original": "Couch?",
+    "translation": "Кушетка?",
+    "model": null
+  },
+  {
+    "original": "Le Néant",
+    "translation": "Ле Неан",
+    "model": null
+  },
+  {
+    "original": "Mother",
+    "translation": "Мать",
+    "model": null
   }
 ]

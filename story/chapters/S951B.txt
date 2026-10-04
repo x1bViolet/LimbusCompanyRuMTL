@@ -374,13 +374,13 @@ Hermann: ... Пока мы останемся здесь и сосредоточ
 Hermann: Кстати, Соня... Ты выяснил то, о чём я просила?
 
 # Original: Yes, the infiltrator agents reported back just yesterday. Heinrich Kromer and Jacob—both are confirmed to attend the board meeting.
-Sonya: Да, агенты-лазутчики доложили буквально вчера. Генрих Кромер и Яков — участие обоих в заседании совета подтверждено.
+Sonya: Да, агенты-лазутчики доложили буквально вчера. Генрих Кромер и Якоб — участие обоих в заседании совета подтверждено.
 
 # Original: It's a hassle to deal with people who make even the simplest of conversations a nuisance... But I won't deny that this bodes well.
 Hermann: Хлопотно иметь дело с людьми, которые превращают даже простейшие разговоры в муку... Но не буду отрицать, это добрый знак.
 
 # Original: If the same Heinrich, who didn't even budge when the younger Kromer was killed, is finally making a move... I suppose it's just around the corner now.
-Sonya: Если тот самый Генрих, который даже не пошевелился, когда была убита младшая Кромер, наконец делает ход... Полагаю, всё уже не за горами.
+Sonya: Если та самая Генрих, которая даже не пошевелилась, когда была убита младшая Кромер, наконец делает ход... Полагаю, всё уже не за горами.
 
 # Original: Indeed. It won't be long before the Malleus Maleficarum's roster is finalized.
 Hermann: Действительно. Скоро состав Маллеус Малефикарум будет окончательно утверждён.
