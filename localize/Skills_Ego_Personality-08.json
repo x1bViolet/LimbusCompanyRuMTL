@@ -557,7 +557,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётик [Vibration:`Тремора`] на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 5"
                 }
               ]
             },
@@ -586,7 +586,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётик [Vibration:`Тремора`] на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 5"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель не является вышеописанной, наносит 5 [Sinking:`Утопания`] и повышает его счётчик на 2</style>"
@@ -621,7 +621,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётик [Vibration:`Тремора`] на 5"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 5"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если цель не является вышеописанной, наносит 5 [Sinking:`Утопания`] и повышает его счётчик на 2"

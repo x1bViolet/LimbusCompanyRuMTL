@@ -397,7 +397,7 @@
       "simpleDesc": [
         {
           "abilityID": 1053,
-          "simpleDesc": "Повышает счётик [Burst:`Разрыва`] на 5"
+          "simpleDesc": "Повышает счётчик [Burst:`Разрыва`] на 5"
         }
       ]
     },

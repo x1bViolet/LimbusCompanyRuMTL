@@ -3844,7 +3844,7 @@
         {
           "level": 1,
           "name": "Формирование узора",
-          "desc": "[CantDuel]\n[WhenUse] Повышает счётик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 3</nobr>",
+          "desc": "[CantDuel]\n[WhenUse] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 3</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -3869,7 +3869,7 @@
         {
           "level": 1,
           "name": "Вырез",
-          "desc": "[CantDuel]\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Повышает счётик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 5</nobr>\n\n[EndSkill] Значение [NoirScissorAlly:`Метки среза`](;ScissorsMark) на цели понижается на 2\n[EndSkill] Получает 1 [NoirScissorCut:`Ножницы цветения`](;LargeTailoringShears)",
+          "desc": "[CantDuel]\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) <nobr>на 5</nobr>\n\n[EndSkill] Значение [NoirScissorAlly:`Метки среза`](;ScissorsMark) на цели понижается на 2\n[EndSkill] Получает 1 [NoirScissorCut:`Ножницы цветения`](;LargeTailoringShears)",
           "coinlist": [
             {
               "coindescs": [
