@@ -26,7 +26,7 @@
     },
     {
       "id": "nxCenterLine",
-      "name": "<color=#ffa600>[С этим навыком можно столкнуться независимо от скорости]</color>"
+      "name": "<color=#ffa600>[С этим навыком можно столкнуться независимо от Скорости]</color>"
     },
     {
       "id": "CantIdentify",
@@ -90,7 +90,7 @@
     },
     {
       "id": "EnemyKillFail",
-      "name": "[При неудачном убийстве]"
+      "name": "<color=#fe0000>[При неудачном убийстве]</color>"
     },
     {
       "id": "ReUse",
@@ -154,7 +154,7 @@
     },
     {
       "id": "EndSkillAll",
-      "name": "[Окончание навыка]"
+      "name": "<color=#26cfff>[Конец использования]</color>"
     },
     {
       "id": "WhenUse_Force",
@@ -181,10 +181,6 @@
       "name": "[Контратака столкновением]"
     },
     {
-      "id": "DuelGuard",
-      "name": "[Блок столкновением]"
-    },
-    {
       "id": "WhenUseEvade",
       "name": "<color=#26cfff>[При использовании уворота]</color>"
     },
@@ -194,7 +190,7 @@
     },
     {
       "id": "CriticalEnemyTargetKillFail",
-      "name": "[При неудавшемся убийстве критической атакой]"
+      "name": "<color=#fe0000>[При неудавшемся убийстве критической атакой]</color>"
     },
     {
       "id": "CriticalEnemyTargetKill",
@@ -202,11 +198,11 @@
     },
     {
       "id": "DefeatDuelAttack",
-      "name": "[При ударе расколотой Вечной монетой]"
+      "name": "<color=#c6fe94>[При ударе расколотой <link=\"SuperCoin\">Вечной монетой</link>]</color>"
     },
     {
       "id": "TargetKillFail",
-      "name": "[При неудавшемся убийстве цели]"
+      "name": "<color=#fe0000>[При неудавшемся убийстве цели]</color>"
     },
     {
       "id": "AllyKill",
@@ -214,11 +210,11 @@
     },
     {
       "id": "AllyKillFail",
-      "name": "[При неудавшемся убийстве союзника]"
+      "name": "<color=#fe0000>[При неудавшемся убийстве союзника]</color>"
     },
     {
       "id": "UnBrokenCoinOnSucceedAttack",
-      "name": "<color=#c6fe94>[При ударе целой Вечной монетой]</color>"
+      "name": "<color=#c6fe94>[При ударе целой <link=\"SuperCoin\">Вечной монетой</link>]</color>"
     },
     {
       "id": "BeforeHit",
@@ -270,7 +266,7 @@
     },
     {
       "id": "CoinHead",
-      "name": "[Выпал Орёл]"
+      "name": "<color=#c6fe94>[Выпал Орёл]</color>"
     },
     {
       "id": "CoinTail",
