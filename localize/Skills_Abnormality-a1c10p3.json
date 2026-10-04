@@ -823,7 +823,7 @@
                   "desc": "[ExtractCoin:`Высекающая монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>50%</u></b></mark></color> от текущих ОЗ цели"
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>200%</u></b></mark></color> от текущих ОЗ цели"
                 }
               ]
             }
