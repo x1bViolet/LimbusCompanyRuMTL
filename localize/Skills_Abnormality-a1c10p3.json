@@ -1875,7 +1875,7 @@
         {
           "level": 1,
           "name": "Ла Жуисанс",
-          "desc": "Не может быть Оглушён до использования этого навыка\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, то <color=#ff6000><mark=#ff000040><b><u>теряет 10 <color=#80c9ff>СД</color></u></b></mark></color> и получает <color=#ff6000><mark=#ff000040><b><u>-2 к Силе монет</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] Главная цель теряет [BuffetScruple:`Пережитое с Буфи`] и получает [BuffetResolve:`Решение`]",
+          "desc": "Не может быть Оглушён до использования этого навыка\n\n[WhenUse] Теряет 10 <color=#80c9ff>СД</color> и получает -2 к Силе монет, если <color=#ff6000><mark=#ff000040><b><u>главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] Главная цель теряет [BuffetScruple:`Пережитое с Буфи`] и получает [BuffetResolve:`Решение`]",
           "coinlist": [
             {
               "coindescs": [
