@@ -3731,7 +3731,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Купе дан лё бьё",
+          "name": "Кройка по косой【Coupez dans le Biais】",
           "desc": "Наносит (Текущее значение [NoirScissorCut:`Ножниц цветения`](;LargeTailoringShears) × 15)% больше урона (До 30%)\n\n[StartBattle] Активирует следующие эффекты для другой Идентичности с самым ранним порядковым номером в команде (В приоритете Идентичности, способные использовать [PersonalityCharge:`Заряд`](#f8c200)), а также для Идентичности с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (Единожды за ход):\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility)\n- Даёт <color=#366ffb>OЗ Щита</color> в размере 5% от своих максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] Сила монет против целей с 6 и более [Vibration:`Тремора`]\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе\n\n[EndSkill] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) на 5",
           "coinlist": [
             {
@@ -3768,7 +3768,7 @@
         },
         {
           "level": 4,
-          "name": "Купе дан лё бьё",
+          "name": "Кройка по косой【Coupez dans le Biais】",
           "desc": "Наносит (Текущее значение [NoirScissorCut:`Ножниц цветения`](;LargeTailoringShears) × <style=\"highlight\">30</style>)% больше урона (До <style=\"highlight\">60%</style>)\n\n[StartBattle] Активирует следующие эффекты для <style=\"highlight\">себя и</style> другой Идентичности с самым ранним порядковым номером в команде (В приоритете Идентичности, способные использовать [PersonalityCharge:`Заряд`](#f8c200)), а также для Идентичности с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (Единожды за ход):\n- Даёт [NoirScissorShield:`Пару лезвий`](;TailoringSensibility)\n- Даёт <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">10%</style> от своих максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> [Vibration:`Тремора`] на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждые 3 единицы силы своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) (До 2)\n[WhenUse] Тратит 5 единиц счётчика своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki), чтобы получить +2 к Итоговой силе\n\n[EndSkill] Повышает счётчик своей [ChargeKhakiAlly:`Инерции течения`](;ChargeKhaki) на 5",
           "coinlist": [
             {
