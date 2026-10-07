@@ -526,7 +526,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking:`Утопания`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Получает -2 к [MentalSystemResultDecrease_Typo:`Эффективности потери <color=#80c9ff>СД</color>`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Получает -2 к [MentalSystemResultDecrease_Typo:`Эффективности потери СД`] на следующий ход"
                 }
               ]
             },

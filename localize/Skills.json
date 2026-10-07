@@ -7720,7 +7720,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`] или [Paralysis:`Паралич`], наносит ей 1 [TakeHpHealReduce:`Понижение восстановления <color=#00ff9c>ОЗ</color>`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`] или [Paralysis:`Паралич`], наносит ей 1 [TakeHpHealReduce:`Понижение восстановления ОЗ`] на следующий ход"
                 }
               ]
             }
@@ -7748,7 +7748,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`] или [Paralysis:`Паралич`], наносит ей <style=\"highlight\">3</style> [TakeHpHealReduce:`Понижения восстановления <color=#00ff9c>ОЗ</color>`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`] или [Paralysis:`Паралич`], наносит ей <style=\"highlight\">3</style> [TakeHpHealReduce:`Понижения восстановления ОЗ`] на следующий ход"
                 }
               ]
             }
@@ -7776,7 +7776,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`] или [Paralysis:`Паралич`], наносит ей <style=\"highlight\">4</style> [TakeHpHealReduce:`Понижения восстановления <color=#00ff9c>ОЗ</color>`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration:`Кровотечение`] или [Paralysis:`Паралич`], наносит ей <style=\"highlight\">4</style> [TakeHpHealReduce:`Понижения восстановления ОЗ`] на следующий ход"
                 }
               ]
             }

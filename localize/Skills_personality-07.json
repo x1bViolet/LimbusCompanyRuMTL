@@ -526,7 +526,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [TakeHpHealReduce:`Понижение восстановления <color=#00ff9c>ОЗ</color>`]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [TakeHpHealReduce:`Понижение восстановления ОЗ`]</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит [PhotoElectricity:`Фотоэффект`], равный силе своего [Charge:`Заряда`] (До <style=\"highlight\">3</style>)"
@@ -557,7 +557,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [TakeHpHealReduce:`Понижения восстановления <color=#00ff9c>ОЗ</color>`]"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [TakeHpHealReduce:`Понижения восстановления ОЗ`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит [PhotoElectricity:`Фотоэффект`], равный силе своего [Charge:`Заряда`] (До 3)"

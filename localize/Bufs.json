@@ -942,7 +942,7 @@
     },
     {
       "id": "TakeHpHealReduce",
-      "name": "Понижение восстановления <color=#00ff9c>ОЗ</color>",
+      "name": "Понижение восстановления ОЗ",
       "desc": "Восстанавливает на {0}0% <color=#00ff9c>ОЗ</color> меньше от эффектов пассивных умений, навыков и монет",
       "summary": "Восстановление <color=#00ff9c>ОЗ</color> -{0}0%"
     },
@@ -1351,7 +1351,7 @@
     },
     {
       "id": "TakeHpHealIncrease",
-      "name": "Повышение восстановления <color=#00ff9c>ОЗ</color>",
+      "name": "Повышение восстановления ОЗ",
       "desc": "Восстанавливает на {0}0% <color=#00ff9c>ОЗ</color> больше от эффектов пассивных умений, навыков и монет",
       "summary": "Восстановление <color=#00ff9c>ОЗ</color> +{0}0%"
     },
@@ -1405,7 +1405,7 @@
     },
     {
       "id": "MaxHpMultiplier",
-      "name": "Повышение максимальных <color=#00ff9c>ОЗ</color>",
+      "name": "Повышение максимальных ОЗ",
       "desc": "Максимальные <color=#00ff9c>ОЗ</color> +{0}0",
       "summary": "Максимальные <color=#00ff9c>ОЗ</color> +{0}0"
     },
@@ -1465,12 +1465,12 @@
     },
     {
       "id": "MentalSystemResultIncrease_Typo",
-      "name": "Эффективность восстановления <color=#80c9ff>СД</color>",
+      "name": "Эффективность восстановления СД",
       "desc": "Количество восстанавливаемого <color=#80c9ff>СД</color>"
     },
     {
       "id": "MentalSystemResultDecrease_Typo",
-      "name": "Эффективность потери <color=#80c9ff>СД</color>",
+      "name": "Эффективность потери СД",
       "desc": "Количество теряемого <color=#80c9ff>СД</color>"
     },
     {
@@ -2384,12 +2384,12 @@
     {
       "id": "Hohenheim_LowMorale",
       "name": "Страдание (Низкий Дух)",
-      "desc": "Получает 1 [Vulnerable:`Уязвимость`] и 2 [MentalIncreaseDown:`Понижения восстановления <color=#80c9ff>СД</color>`]"
+      "desc": "Получает 1 [Vulnerable:`Уязвимость`] и 2 [MentalIncreaseDown:`Понижения восстановления СД`]"
     },
     {
       "id": "Hohenheim_Panic",
       "name": "Страдание (Паника)",
-      "desc": "Получает 2 [Vulnerable:`Уязвимости`] и 3 [MentalIncreaseDown:`Понижения восстановления <color=#80c9ff>СД</color>`]"
+      "desc": "Получает 2 [Vulnerable:`Уязвимости`] и 3 [MentalIncreaseDown:`Понижения восстановления СД`]"
     },
     {
       "id": "BlackCloud",
