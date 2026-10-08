@@ -404,7 +404,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedEvade] На 1 наносимый своими навыками [Burst:`Разрыв`] больше в следующем ходе при первом его нанесении <nobr>(До 3)</nobr></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedEvade] На 1 наносимый своими навыками [Burst:`Разрыв`] больше в следующем ходе при первом его нанесении <nobr>(До 3 за ход)</nobr></style>"
                 }
               ]
             }
@@ -724,7 +724,7 @@
         {
           "level": 2,
           "name": "Сокрытие за печатью",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n<style=\"highlight\">[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {},
             {
@@ -746,7 +746,7 @@
         {
           "level": 4,
           "name": "Сокрытие за печатью",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">6</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]</style>\n[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">6</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]</style>\n[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {
@@ -773,7 +773,7 @@
         {
           "level": 3,
           "name": "Благословение знания",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 9)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] Слот с этим навыком 8 [Aggro:`Провокаций`] на следующий ход",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 9)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] Слот с этим навыком получает 8 [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {},
             {},
@@ -790,7 +790,7 @@
         {
           "level": 4,
           "name": "Благословение знания",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">12</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] Слот с этим навыком <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%</style>",
+          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">12</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n[WhenUse] Слот с этим навыком получает <style=\"highlight\">10</style> [Aggro:`Провокаций`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%</style>",
           "coinlist": [
             {},
             {},
@@ -812,7 +812,7 @@
         {
           "level": 1,
           "name": "Погружение в поиск",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга из своих слотов навыков\n[WhenUse] Слот с этим навыком 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга из своих слотов навыков\n[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -826,7 +826,7 @@
         {
           "level": 4,
           "name": "Погружение в поиск",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга из своих слотов навыков\n[WhenUse] Слот с этим навыком <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка низшего ранга из своих слотов навыков\n[WhenUse] Слот с этим навыком получает <style=\"highlight\">5</style> [Aggro:`Провокаций`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1891,7 +1891,7 @@
         {
           "level": 1,
           "name": "Пламенный контрудар",
-          "desc": "[BeforeHit] Получает <color=#366ffb>OЗ Щита</color>, равные силе [Combustion:`Огня`] цели (До 10; единожды за ход)",
+          "desc": "[BeforeHit] Получает <color=#366ffb>OЗ Щита</color>, равные силе [Combustion:`Огня`] на атакующем (До 10; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1912,19 +1912,19 @@
         {
           "level": 4,
           "name": "Пламенный контрудар",
-          "desc": "<style=\"highlight\">[WhenUse] Наносит на 10% больше урона целям с 10 и более [Combustion:`Огня`]</style>\n[BeforeHit] Получает <color=#366ffb>OЗ Щита</color>, равные силе [Combustion:`Огня`] цели (До <style=\"highlight\">15</style>; единожды за ход)",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит на 10% больше урона, если на атакующем 10 и более [Combustion:`Огня`]</style>\n[BeforeHit] Получает <color=#366ffb>OЗ Щита</color>, равные силе [Combustion:`Огня`] на атакующем (До <style=\"highlight\">15</style>; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`]\nЕсли остался щит, наносит ещё 1 [Combustion:`Огонь`]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`]\n- Если остался щит, наносит ещё 1 [Combustion:`Огонь`]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`]\nЕсли остался щит, наносит ещё 1 [Combustion:`Огонь`]"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`]\n- Если остался щит, наносит ещё 1 [Combustion:`Огонь`]"
                 }
               ]
             }
