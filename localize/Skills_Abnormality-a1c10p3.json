@@ -1466,7 +1466,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             }
@@ -1480,7 +1480,7 @@
         {
           "level": 1,
           "name": "Изрыгаю себя【Je me crache】",
-          "desc": "[WhenUse] Если главная цель имеет 6 и более [Laceration:`Кровотечения`], Базовая сила +2\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)",
+          "desc": "[WhenUse] Если главная цель имеет 6 и более [Laceration:`Кровотечения`], Базовая сила +2\n[WhenUse] Количество целей +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 2</u></b></mark></color> единицы силы своей [ChargeRouge:`Пульсации`] (До 2)",
           "flavor": "Изрыгни.",
           "coinlist": [
             {
@@ -1503,7 +1503,7 @@
         {
           "level": 1,
           "name": "Извергаю себя【Je m'abjecte】",
-          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRouge:`Пульсации`] (До 2)",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[WhenUse] Количество целей +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 2</u></b></mark></color> единицы силы своей [ChargeRouge:`Пульсации`] (До 2)",
           "flavor": "И выбрось это в мир.",
           "coinlist": [
             {
@@ -1586,7 +1586,7 @@
         {
           "level": 1,
           "name": "Наслаждение【La Jouissance】",
-          "desc": "Не может быть Оглушён до использования этого навыка\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Восстанавливает 15 <color=#80c9ff>СД</color></u></b></mark></color> и <color=#ff6000><mark=#ff000040><b><u>даёт +2 к Силе в столкновении</u></b></mark></color> всем <b>Старшим сотрудникам «Ле Руж»</b> на поле боя\n[WhenUse] Если на поле боя нет <b>Старших сотрудников «Ле Руж»</b>, Сила в столкновении -3\n\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n\n[EndSkill] Главная цель теряет [BuffetScruple:`Пережитое с Буфи`] и получает [BuffetResolve:`Решение`]",
+          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до использования этого навыка\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Восстанавливает 15 <color=#80c9ff>СД</color></u></b></mark></color> и <color=#ff6000><mark=#ff000040><b><u>даёт +2 к Силе в столкновении</u></b></mark></color> всем <b>Старшим сотрудникам «Ле Руж»</b> на поле боя\n[WhenUse] Если на поле боя нет <b>Старших сотрудников «Ле Руж»</b>, Сила в столкновении -3\n\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n\n[EndSkill] [BuffetScruple:`Пережитое с Буфи`] главной цели превращается в [BuffetResolve:`Решение`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1604,7 +1604,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
@@ -1617,7 +1617,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
@@ -1712,7 +1712,7 @@
         {
           "level": 1,
           "name": "Кастрация【La Castration】",
-          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до использования этого навыка\n\n<color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, Сила монет -3\n\n[WhenUse] Если количество [BuffetDream:`Воспоминаний Буфи`] ниже 5, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +2 за каждые 6 [Laceration:`Кровотечения`] на главной цели (До 6)\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>",
+          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до использования этого навыка\n\n<color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, Сила монет -3\n\n[WhenUse] Если количество [BuffetDream:`Воспоминаний Буфи`] ниже 5, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 6)\n[DefeatDuel] Наносит на 95% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1764,7 +1764,7 @@
         {
           "level": 1,
           "name": "Унарный признак【Le Trait Unaire】",
-          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[WhenUse] Количество целей +1 за каждые 5 <nobr>[BoneNail:`Л'Абжековт`]</nobr> на всех противниках в сумме (До 4 дополнительных целей)",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1, если на атакующем 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Количество целей +1 <color=#ff6000><mark=#ff000040><b><u>за каждые 5</u></b></mark></color> <nobr>[BoneNail:`Л'Абжековт`]</nobr> на всех противниках в сумме (До 4 дополнительных целей)\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей",
           "coinlist": [
             {
               "coindescs": [
@@ -1782,7 +1782,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 }
               ]
             },
@@ -1795,10 +1795,10 @@
                   "desc": "<color=#ff6000><mark=#ff000040><b><u>Тратит всё [BoneNail:`Отвращённое`] с целей</u></b></mark></color>:"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит дополнительный урон <color=#fe6f01>Похотью</color>, равный (Потраченное количество [BoneNail:`Отвращённого`] × 10)% от итогового урона этой монеты"
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон <color=#fe6f01>Похотью</color>, равный (Потраченное количество [BoneNail:`Отвращённого`] × 5)% от итогового урона этой монеты"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] за каждые 4 потраченных [BoneNail:`Отвращённого`] (До 5)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] за каждые 4 потраченных [BoneNail:`Отвращённого`] (До 3)"
                 }
               ]
             }
@@ -1875,7 +1875,7 @@
         {
           "level": 1,
           "name": "Наслаждение【La Jouissance】",
-          "desc": "Не может быть Оглушён до использования этого навыка\n\n[WhenUse] Теряет 10 <color=#80c9ff>СД</color> и получает -2 к Силе монет, если <color=#ff6000><mark=#ff000040><b><u>главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] Главная цель теряет [BuffetScruple:`Пережитое с Буфи`] и получает [BuffetResolve:`Решение`]",
+          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до использования этого навыка\n\n[WhenUse] Теряет 20 <color=#80c9ff>СД</color> и получает -3 к Силе монет, если <color=#ff6000><mark=#ff000040><b><u>главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] [BuffetScruple:`Пережитое с Буфи`] главной цели превращается в [BuffetResolve:`Решение`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1893,7 +1893,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит ещё 2 [Laceration:`Кровотечения`]"
@@ -1906,7 +1906,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
@@ -2033,7 +2033,7 @@
         {
           "level": 1,
           "name": "Дар из моих объятий!",
-          "desc": "[StartBattle] Если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n[DefeatDuel] Не может оглушить цель",
+          "desc": "[StartBattle] Если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n[DefeatDuel] Не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2075,7 +2075,7 @@
         {
           "level": 1,
           "name": "Мы должны пожрать всё это!",
-          "desc": "[StartBattle] Если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 за каждые 6 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n\n[WhenUse] Для первых трёх монет:\n- [UnBrokenCoinOnSucceedAttack] Тратит до 5 единиц счётчика своей [ChargeRouge:`Пульсации`], чтобы нанести дополнительный Рубящий урон в размере (Потраченный счётчик × 3)% от итогового урона этой монеты (До 15%) и восстановить себе (Потраченный счётчик)% <color=#00ff9c>ОЗ</color>\n\n[WinDuel] Повышает счётчик своей [ChargeRouge:`Пульсации`] <nobr>на 10</nobr>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
+          "desc": "[StartBattle] Если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы получить +1 к Силе монет\n\n[WhenUse] Для первых трёх монет:\n- [UnBrokenCoinOnSucceedAttack] Тратит до 5 единиц счётчика своей [ChargeRouge:`Пульсации`], чтобы нанести дополнительный Рубящий урон в размере (Потраченный счётчик × 3)% от итогового урона этой монеты (До 15%) и восстановить себе (Потраченный счётчик)% <color=#00ff9c>ОЗ</color>\n\n[WinDuel] Повышает счётчик своей [ChargeRouge:`Пульсации`] <nobr>на 10</nobr>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить цель",
           "coinlist": [
             {
               "coindescs": [
