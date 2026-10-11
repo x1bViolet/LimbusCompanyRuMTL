@@ -799,7 +799,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает её счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает счётчик её [Sinking:`Утопания`] на 2"
                 }
               ]
             },
@@ -826,7 +826,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 4</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает её счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает счётчик её [Sinking:`Утопания`] на 2"
                 }
               ]
             },

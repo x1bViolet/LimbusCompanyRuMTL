@@ -71,7 +71,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:`Разрыва`] на 2"
+                  "desc": "[CoinTail] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Восстанавливает <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
@@ -89,7 +89,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
+                  "desc": "[CoinTail] Повышает счётчик [Burst:`Разрыва`] <style=\"highlight\">на 3</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]</style>"
@@ -178,7 +178,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей 1 [Reduction:`Понижение силы атаки`] и 1 [Disarming:`Понижение силы защиты`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей 1 [Reduction:`Понижение силы атаки`] и 1 [Disarming:`Понижение силы защиты`] на следующий ход</style>"
                 }
               ]
             }
@@ -222,7 +222,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход</style>"
                 }
               ]
             }
@@ -243,7 +243,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход"
+                  "desc": "[CoinTail] Если на цели 10 и более [Combustion:`Огня`], наносит ей <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход"
                 }
               ]
             }
@@ -503,7 +503,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Laceration:`Кровотечения`]"
+                  "desc": "[CoinTail] Наносит 2 [Laceration:`Кровотечения`]"
                 }
               ]
             },
@@ -528,7 +528,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
+                  "desc": "[CoinTail] Наносит <style=\"highlight\">3</style> [Laceration:`Кровотечения`]"
                 }
               ]
             },
@@ -541,7 +541,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }
@@ -556,7 +556,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 3 [Laceration:`Кровотечения`]"
+                  "desc": "[CoinTail] Наносит 3 [Laceration:`Кровотечения`]"
                 }
               ]
             },
@@ -572,10 +572,10 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ParryingResultDown:`Понижение силы в столкновении`] при 4 и более грехах в резонансе <color=#9808de>Зависти</color>, включающем этот навык (Единожды за ход)</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"
+                  "desc": "[CoinTail] Наносит 2 [Binding:`Связывания`] на следующий ход (Единожды за ход)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Наносит 2 [DefenseDown:`Понижения уровня защиты`] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }

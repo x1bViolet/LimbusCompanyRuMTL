@@ -1361,7 +1361,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable:`Уязвимость`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Вновь подкидывает монету (До 3 раз)"
+                  "desc": "[CoinTail] Вновь подкидывает монету (До 3 раз)"
                 }
               ]
             }

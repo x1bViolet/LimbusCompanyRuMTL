@@ -231,7 +231,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">20</style> урона по <color=#80c9ff>СД</color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель Оглушена или побеждена, восстанавливает 5 <color=#80c9ff>СД</color></style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Если цель Оглушена или побеждена, восстанавливает 5 <color=#80c9ff>СД</color></style>"
                 }
               ]
             }
@@ -480,7 +480,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [NailPersonality:`Гвоздя`]"
+                  "desc": "[CoinTail] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -508,7 +508,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [NailPersonality:`Гвоздя`]"
+                  "desc": "[CoinTail] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -536,7 +536,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
+                  "desc": "[CoinTail] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 }
               ]
             }

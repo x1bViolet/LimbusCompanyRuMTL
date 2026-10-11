@@ -405,7 +405,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[CoinTail] Повышает счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             },
@@ -433,7 +433,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[CoinTail] Повышает счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             },
@@ -461,7 +461,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">5</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
+                  "desc": "[CoinTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
                 }
               ]
             },
@@ -494,7 +494,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 4 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[CoinTail] Повышает счётчик [Vibration:`Тремора`] на 2"
                 }
               ]
             },
@@ -525,7 +525,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">5</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
+                  "desc": "[CoinTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
                 }
               ]
             },
@@ -556,7 +556,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">6</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 4</style>"
+                  "desc": "[CoinTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 4</style>"
                 }
               ]
             },

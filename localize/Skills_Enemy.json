@@ -4366,7 +4366,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\n[OnSucceedAttack] Наносит фиксированный урон в размере 50% от уже нанесённого"
+                  "desc": "[CoinTail] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\n[OnSucceedAttack] Наносит фиксированный урон в размере 50% от уже нанесённого"
                 }
               ]
             }
@@ -4385,7 +4385,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 3 [Burst:`Разрыва`]"
+                  "desc": "[CoinTail] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -4404,7 +4404,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 3 [Burst:`Разрыва`]"
+                  "desc": "[CoinTail] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
             }

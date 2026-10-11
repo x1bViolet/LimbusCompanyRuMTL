@@ -763,7 +763,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst:`Разрыва`] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
+                  "desc": "[CoinTail] Наносит 10 [OminousTalisman:`Предзнаменующих талисманов`]"
                 }
               ]
             },

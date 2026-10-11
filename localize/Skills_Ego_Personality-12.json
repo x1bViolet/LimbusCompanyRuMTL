@@ -883,7 +883,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip:`Микрочип регистрации заселения`] или [Binding:`Связывание`], то повышает её счётчик [Combustion:`Огня`] на 2"
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip:`Микрочип регистрации заселения`] или [Binding:`Связывание`], то повышает счётчик её [Combustion:`Огня`] на 2"
                 }
               ]
             },
@@ -911,7 +911,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip:`Микрочип регистрации заселения`] или [Binding:`Связывание`], то повышает её счётчик [Combustion:`Огня`] на 2"
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip:`Микрочип регистрации заселения`] или [Binding:`Связывание`], то повышает счётчик её [Combustion:`Огня`] на 2"
                 }
               ]
             },
@@ -942,7 +942,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip:`Микрочип регистрации заселения`] или [Binding:`Связывание`], то повышает её счётчик [Combustion:`Огня`] на 2"
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip:`Микрочип регистрации заселения`] или [Binding:`Связывание`], то повышает счётчик её [Combustion:`Огня`] на 2"
                 }
               ]
             },

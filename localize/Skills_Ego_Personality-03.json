@@ -83,7 +83,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 4 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] [VibrationExplosion:`Провоцирует Тремор`]"
+                  "desc": "[CoinTail] [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2"
@@ -107,7 +107,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">6</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] [VibrationExplosion:`Провоцирует Тремор`]"
+                  "desc": "[CoinTail] [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2"
@@ -131,7 +131,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">8</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] [VibrationExplosion:`Провоцирует Тремор`]"
+                  "desc": "[CoinTail] [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 2"
@@ -799,7 +799,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход"
+                  "desc": "[CoinTail] Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит (Сила своего [Charge:`Заряда`] - 1) [Sinking:`Утопания`] (До 2)"
@@ -830,7 +830,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход"
+                  "desc": "[CoinTail] Наносит [VillainMark:`Метку злодейства`] главной цели на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит (Сила своего [Charge:`Заряда`] - 1) [Sinking:`Утопания`] (До <style=\"highlight\">3</style>)"

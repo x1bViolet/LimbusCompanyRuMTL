@@ -443,7 +443,7 @@
                   "desc": "[OnSucceedAttack] Наносит 20 урона по <color=#80c9ff>СД</color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит ещё 10 урона по <color=#80c9ff>СД</color></style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Наносит ещё 10 урона по <color=#80c9ff>СД</color></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Reduction:`Понижения силы атаки`] на следующий ход"
@@ -1339,7 +1339,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown:`Понижения уровня защиты`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 4 [Binding:`Связывания`] на следующий ход"
+                  "desc": "[CoinTail] Наносит 4 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -1463,7 +1463,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик своего [Charge:`Заряда`] на 3"
+                  "desc": "[CoinTail] Повышает счётчик своего [Charge:`Заряда`] на 3"
                 }
               ]
             }
@@ -1478,7 +1478,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик своего [Charge:`Заряда`] на 5"
+                  "desc": "[CoinTail] Повышает счётчик своего [Charge:`Заряда`] на 5"
                 }
               ]
             }
@@ -1493,7 +1493,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик своего [Charge:`Заряда`] на 5"
+                  "desc": "[CoinTail] Повышает счётчик своего [Charge:`Заряда`] на 5"
                 }
               ]
             }
@@ -2192,7 +2192,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Теряет 10 <color=#80c9ff>СД</color></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Восстанавливает 10 <color=#80c9ff>СД</color></style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Восстанавливает 10 <color=#80c9ff>СД</color></style>"
                 }
               ]
             }
@@ -2213,7 +2213,7 @@
                   "desc": "[OnSucceedAttackHead] Теряет 10 <color=#80c9ff>СД</color> <style=\"highlight\">и получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает 10 <color=#80c9ff>СД</color> <style=\"highlight\">и получает 1 [Protection:`Защищённость`] на следующий ход</style>"
+                  "desc": "[CoinTail] Восстанавливает 10 <color=#80c9ff>СД</color> <style=\"highlight\">и получает 1 [Protection:`Защищённость`] на следующий ход</style>"
                 }
               ]
             }
@@ -2524,10 +2524,10 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1 [Vulnerable:`Уязвимость`]"
+                  "desc": "[CoinTail] Наносит 1 [Vulnerable:`Уязвимость`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Получает 1 [Vulnerable:`Уязвимость`]"
+                  "desc": "[CoinTail] Получает 1 [Vulnerable:`Уязвимость`]"
                 }
               ]
             }
@@ -2548,7 +2548,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит <style=\"highlight\">2</style> [Vulnerable:`Уязвимости`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Получает <style=\"highlight\">2</style> [Vulnerable:`Уязвимости`]"
+                  "desc": "[CoinTail] Получает <style=\"highlight\">2</style> [Vulnerable:`Уязвимости`]"
                 }
               ]
             }
@@ -3025,7 +3025,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Наносит 2 [Paralysis:`Паралича`] и 2 [Binding:`Связывания`] двум случайным участникам битвы на следующий ход</style>"
                 }
               ]
             }
@@ -3208,7 +3208,7 @@
                   "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает ему 5% от максимальных <color=#00ff9c>ОЗ</color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] на следующий ход вместо этого"
+                  "desc": "[CoinTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] на следующий ход вместо этого"
                 }
               ]
             }
@@ -3226,7 +3226,7 @@
                   "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает ему <style=\"highlight\">10%</style> от максимальных <color=#00ff9c>ОЗ</color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] <style=\"highlight\">и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`]</style> на следующий ход вместо этого"
+                  "desc": "[CoinTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] <style=\"highlight\">и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`]</style> на следующий ход вместо этого"
                 }
               ]
             }
@@ -3244,7 +3244,7 @@
                   "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает ему 10% от максимальных <color=#00ff9c>ОЗ</color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`] на следующий ход вместо этого"
+                  "desc": "[CoinTail] Наносит 7 [Combustion:`Огня`]\n- Если целью стал союзник, даёт ему 2 [Agility:`Спешки`] и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`] на следующий ход вместо этого"
                 }
               ]
             }
@@ -3271,7 +3271,7 @@
                   "desc": "- Даёт ему 2 [Agility:`Спешки`] и 1 [GainSinStockAdder:`Множитель ЭГО Ресурсов`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 [Combustion:`Огня`]"
+                  "desc": "[CoinTail] Наносит 7 [Combustion:`Огня`]"
                 }
               ]
             }
@@ -4066,7 +4066,7 @@
                   "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Charge:`Заряда`] для нанесения урона <color=#1cc7f1>Унынием</color> на (Потраченный счётчик [Charge:`Заряда`] × 1.5)% прошедшего урона (До 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Теряет 10% от максимальных <color=#00ff9c>ОЗ</color> для повышения счётчика своего [Charge:`Заряда`] на 7"
+                  "desc": "[CoinTail] Теряет 10% от максимальных <color=#00ff9c>ОЗ</color> для повышения счётчика своего [Charge:`Заряда`] на 7"
                 }
               ]
             }
@@ -4084,7 +4084,7 @@
                   "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Charge:`Заряда`] для нанесения урона <color=#1cc7f1>Унынием</color> на (Потраченный счётчик [Charge:`Заряда`] × <style=\"highlight\">2.5</style>)% прошедшего урона (До <style=\"highlight\">50%</style>)"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Теряет 10% от максимальных <color=#00ff9c>ОЗ</color> для повышения счётчика своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
+                  "desc": "[CoinTail] Теряет 10% от максимальных <color=#00ff9c>ОЗ</color> для повышения счётчика своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"
                 }
               ]
             }
@@ -4499,7 +4499,7 @@
                   "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp:`Повышение урона`] на следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Восстанавливает 4 <color=#80c9ff>СД</color></style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Восстанавливает 4 <color=#80c9ff>СД</color></style>"
                 }
               ]
             }
@@ -4523,10 +4523,10 @@
                   "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp:`Повышение урона`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает 4 <color=#80c9ff>СД</color>"
+                  "desc": "[CoinTail] Восстанавливает 4 <color=#80c9ff>СД</color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 1 [Vulnerable:`Уязвимость`]</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Наносит 1 [Vulnerable:`Уязвимость`]</style>"
                 }
               ]
             }

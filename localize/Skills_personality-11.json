@@ -1312,7 +1312,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1</style>"
                 }
               ]
             },
@@ -1322,7 +1322,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1</style>"
                 }
               ]
             }
@@ -1339,7 +1339,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
@@ -1349,7 +1349,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }

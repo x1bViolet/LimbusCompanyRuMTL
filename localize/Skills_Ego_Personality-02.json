@@ -89,7 +89,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 4 [Combustion:`Огня`]"
+                  "desc": "[CoinTail] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
@@ -107,7 +107,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`]</style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Наносит 2 [Binding:`Связывания`]</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 4 [Combustion:`Огня`]"
@@ -128,7 +128,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 2 [Binding:`Связывания`]"
+                  "desc": "[CoinTail] Наносит 2 [Binding:`Связывания`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"

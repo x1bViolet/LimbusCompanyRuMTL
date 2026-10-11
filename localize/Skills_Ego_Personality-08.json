@@ -95,7 +95,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Восстанавливает 3% от максимальных <color=#00ff9c>ОЗ</color></style>"
+                  "desc": "<style=\"highlight\">[CoinTail] Восстанавливает 3% от максимальных <color=#00ff9c>ОЗ</color></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 1 [Breath:`Дыхание`] и повышает его счётчик на 1"
@@ -255,10 +255,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает <color=#00ff9c>ОЗ</color> на 10% от нанесённого урона"
+                  "desc": "[CoinTail] Восстанавливает <color=#00ff9c>ОЗ</color> на 10% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 1~4 [Laceration:`Кровотечения`]"
+                  "desc": "[CoinTail] Наносит 1~4 [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -273,10 +273,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает <color=#00ff9c>ОЗ</color> на <style=\"highlight\">15%</style> от нанесённого урона"
+                  "desc": "[CoinTail] Восстанавливает <color=#00ff9c>ОЗ</color> на <style=\"highlight\">15%</style> от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">2~5</style> [Laceration:`Кровотечения`]"
+                  "desc": "[CoinTail] Наносит <style=\"highlight\">2~5</style> [Laceration:`Кровотечения`]"
                 }
               ]
             }
@@ -291,10 +291,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает <color=#00ff9c>ОЗ</color> на <style=\"highlight\">20%</style> от нанесённого урона"
+                  "desc": "[CoinTail] Восстанавливает <color=#00ff9c>ОЗ</color> на <style=\"highlight\">20%</style> от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3~6</style> [Laceration:`Кровотечения`]"
+                  "desc": "[CoinTail] Наносит <style=\"highlight\">3~6</style> [Laceration:`Кровотечения`]"
                 },
                 {
                   "desc": "<style=\"highlight\">[EnemyKill] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход (До 3)</style>"
