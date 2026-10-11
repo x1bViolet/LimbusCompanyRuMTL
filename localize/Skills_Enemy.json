@@ -257,9 +257,6 @@
         {
           "level": 1,
           "name": "Взмах",
-          "keywords": [
-            "Bleeding"
-          ],
           "desc": "",
           "coinlist": [
             {},
@@ -316,9 +313,6 @@
         {
           "level": 1,
           "name": "Смести",
-          "keywords": [
-            "Bleeding"
-          ],
           "desc": "",
           "coinlist": [
             {}
@@ -1156,27 +1150,27 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Bailemos~",
+          "name": "Потанцуем~【Bailemos~】",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 2 <color=#80c9ff>СД</color>"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 2 <color=#80c9ff>СД</color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 2 <color=#80c9ff>СД</color>"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 2 <color=#80c9ff>СД</color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 2 <color=#80c9ff>СД</color>"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 2 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1189,7 +1183,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Danza de Paz",
+          "name": "Танец спокойствия【Danza de Paz】",
           "desc": "[WhenUse] Даёт 1 [Endurance:`Повышение силы защиты`] всем союзникам на следующий ход",
           "coinlist": [
             {}
@@ -1202,7 +1196,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Duelo de Baile",
+          "name": "Танцевальная дуэль【Duelo de Baile】",
           "desc": "[WinDuel] Цель теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {},
@@ -1223,8 +1217,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puñales Joviales",
-          "desc": "Если <color=#80c9ff>СД</color> цели ниже 0, Сила навыка +1",
+          "name": "Весёлые кинжалы【Puñales Joviales】",
+          "desc": "Итоговая сила +1 против целей с <color=#80c9ff>СД</color> ниже 0",
           "coinlist": [
             {}
           ]
@@ -1236,10 +1230,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Olé!",
-          "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
+          "name": "Оле!【¡Olé!】",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -1249,7 +1249,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Danza de Emoción",
+          "name": "Танец эмоций【Danza de Emoción】",
           "desc": "[WhenUse] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход",
           "coinlist": [
             {}
@@ -1262,8 +1262,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pasos Pasionales",
-          "desc": "[WhenUse] Восстанавливает 5 <color=#80c9ff>СД</color>",
+          "name": "Шаги страсти【Pasos Pasionales】",
+          "desc": "[WhenUse] Восстанавливает себе 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1302,8 +1302,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¿Eso es todo?",
-          "desc": "[WinDuel] Противник теряет 10 <color=#80c9ff>СД</color>",
+          "name": "И это все?【¿Eso es todo?】",
+          "desc": "[WinDuel] Цель теряет 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1321,7 +1321,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Bruscamente!",
+          "name": "Внезапность!【¡Bruscamente!】",
           "desc": "",
           "coinlist": [
             {},
@@ -1341,7 +1341,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rápidamente~",
+          "name": "Быстрее~【Rápidamente~】",
           "desc": "",
           "coinlist": [
             {},
@@ -1361,13 +1361,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pañata Party~!",
-          "desc": "[WhenUse] Если <color=#80c9ff>СД</color> цели ниже 0, вероятность критического удара повышается на значение отрицательной <color=#80c9ff>СД</color> цели (До 45%)",
+          "name": "Вечеринка с пиньятой~!【Pañata Party~!】",
+          "desc": "[WhenUse] Если <color=#80c9ff>СД</color> цели ниже 0, то вероятность критического удара повышается на значение отрицательной <color=#80c9ff>СД</color> цели (До 45%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою Границу Выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Понижает свою Границу Выносливости на 50% от итогового урона этой монеты"
                 }
               ]
             }
@@ -1380,10 +1380,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Excelente!",
-          "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>, а своя Граница Выносливости понижается на 5",
+          "name": "Отлично!【¡Excelente!】",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>, а своя Граница Выносливости понижается на 5"
+                }
+              ]
+            }
           ]
         }
       ]

@@ -216,7 +216,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Danza de Paz",
+          "name": "Танец спокойствия【Danza de Paz】",
           "desc": "[WhenUse] Даёт 1 [Endurance:`Повышение силы защиты`] всем союзникам на следующий ход",
           "coinlist": [
             {},
@@ -236,10 +236,16 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Olé!",
-          "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
+          "name": "Оле!【¡Olé!】",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -249,7 +255,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Duelo de Baile",
+          "name": "Танцевальная дуэль【Duelo de Baile】",
           "desc": "[WinDuel] Цель теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {},
@@ -270,7 +276,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puñales Joviales",
+          "name": "Весёлые кинжалы【Puñales Joviales】",
           "desc": "Итоговая сила +2 против целей с <color=#80c9ff>СД</color> ниже 0",
           "coinlist": [
             {
@@ -310,7 +316,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Danza de Emoción",
+          "name": "Танец эмоций【Danza de Emoción】",
           "desc": "[WhenUse] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход",
           "coinlist": [
             {},
@@ -330,7 +336,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Duelo de Baile",
+          "name": "Танец эмоций【Danza de Emoción】",
           "desc": "[WinDuel] Цель теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {},
@@ -351,7 +357,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puñales Joviales",
+          "name": "Весёлые кинжалы【Puñales Joviales】",
           "desc": "Итоговая сила +2 против целей с <color=#80c9ff>СД</color> ниже 0",
           "coinlist": [
             {
@@ -556,7 +562,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Puñales Joviales",
+          "name": "Весёлые кинжалы【Puñales Joviales】",
           "desc": "Итоговая сила +2 против целей с <color=#80c9ff>СД</color> ниже 0",
           "coinlist": [
             {
@@ -596,7 +602,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¿Eso es todo?",
+          "name": "И это все?【¿Eso es todo?】",
           "desc": "[WinDuel] Цель теряет 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
@@ -615,7 +621,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Excelente!",
+          "name": "Отлично!【¡Excelente!】",
           "desc": "[OnSucceedEvade] Понижает свою Границу Выносливости на 5\n[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {}
@@ -628,7 +634,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "¡Bruscamente!",
+          "name": "Внезапность!【¡Bruscamente!】",
           "desc": "",
           "coinlist": [
             {},
@@ -651,7 +657,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Rápidamente~",
+          "name": "Быстрее~【Rápidamente~】",
           "desc": "",
           "coinlist": [
             {},
@@ -674,8 +680,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Pañata Party~!",
-          "desc": "Итоговая сила +3 против целей с <color=#80c9ff>СД</color> ниже 0\n[WhenUse] Если <color=#80c9ff>СД</color> цели ниже 0, увеличивает шанс критического попадания этой атакой на 2.2% за каждую единицу <color=#80c9ff>СД</color> цели ниже 0",
+          "name": "Вечеринка с пиньятой~!【Pañata Party~!】",
+          "desc": "Итоговая сила +3 против целей с <color=#80c9ff>СД</color> ниже 0\n[WhenUse] Если <color=#80c9ff>СД</color> цели ниже 0, то увеличивает шанс критического попадания этой атакой на 2.2% за каждую единицу <color=#80c9ff>СД</color> цели ниже 0",
           "coinlist": [
             {
               "coindescs": [
