@@ -588,7 +588,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный силе [Laceration:`Кровотечения`] на цели (До 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный силе [Laceration:`Кровотечения`] цели (До 30)"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает эту монету 1 раз"
@@ -681,7 +681,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный силе [Laceration:`Кровотечения`] на цели (До 30)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Пронзающий урон, равный силе [Laceration:`Кровотечения`] цели (До 30)"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает эту монету 1 раз"

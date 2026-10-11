@@ -5193,7 +5193,7 @@
         {
           "level": 4,
           "name": "Сильный удар",
-          "desc": "[WhenUse] Даёт 1 [Protection:`Защищённость`] на следующий ход союзнику с наименьшими <color=#00ff9c>ОЗ</color>\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 10 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "[WhenUse] Даёт 1 [Protection:`Защищённость`] на следующий ход союзнику с наименьшими <color=#00ff9c>ОЗ</color>\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 10 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -6602,7 +6602,7 @@
         {
           "level": 4,
           "name": "Сними грех с тела его",
-          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 6 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 6 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -6652,7 +6652,7 @@
         {
           "level": 4,
           "name": "Уничтожение ереси",
-          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 6 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 6 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -9763,7 +9763,7 @@
         {
           "level": 4,
           "name": "Задержка нарушителей",
-          "desc": "Сила монет <style=\"highlight\">+3</style> против целей с 5 и более [Burst:`Разрыва`]\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "Сила монет <style=\"highlight\">+3</style> против целей с 5 и более [Burst:`Разрыва`]\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {}
           ]
@@ -9818,7 +9818,7 @@
         {
           "level": 4,
           "name": "Разлагающее лезвие",
-          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -9899,7 +9899,7 @@
         {
           "level": 4,
           "name": "Инъекция ампулы",
-          "desc": "[WhenUse] Получает 1 [KCorpSerum:`Ампулу Корп. K`] на следующий ход\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "[WhenUse] Получает 1 [KCorpSerum:`Ампулу Корп. K`] на следующий ход\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {}
           ]
@@ -10769,7 +10769,7 @@
         {
           "level": 4,
           "name": "Блок",
-          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокаций`] на следующий ход</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {
               "coindescs": [

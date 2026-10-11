@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
                 }
               ]
             }
@@ -30,7 +30,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 3 [Combustion:`Огня`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
                 }
               ]
             }
@@ -48,7 +48,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 3 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
                 }
               ]
             }
@@ -69,7 +69,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 5 [DefenseDown:`Понижений уровня защиты`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (<style=\"highlight\">До 5; не опускает силу [Combustion:`Огня`] на цели ниже 1</style>)\n<style=\"highlight\">- Если на цели менее 10 [Combustion:`Огня`], то вместо этого эффекта может потратить силу [Combustion:`Огня`] свыше 30 на себе</style>"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (<style=\"highlight\">До 5; не опускает силу [Combustion:`Огня`] цели ниже 1</style>)\n<style=\"highlight\">- Если на цели менее 10 [Combustion:`Огня`], то вместо этого эффекта может потратить силу [Combustion:`Огня`] свыше 30 на себе</style>"
                 }
               ]
             }
@@ -92,7 +92,7 @@
                   "desc": "[OnSucceedAttackTail] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
                 }
               ]
             }
@@ -113,7 +113,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
                 }
               ]
             }
@@ -134,7 +134,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (До 10)"
                 }
               ]
             }
@@ -161,7 +161,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 5 [DefenseDown:`Понижений уровня защиты`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Превращает по 2 [Combustion:`Огня`] на цели в 1 [DefenseDown:`Понижение уровня защиты`] (<style=\"highlight\">До 5; не опускает силу [Combustion:`Огня`] на цели ниже 1</style>)\n<style=\"highlight\">- Если на цели менее 10 [Combustion:`Огня`], то вместо этого эффекта может потратить силу [Combustion:`Огня`] свыше 30 на себе</style>"
+                  "desc": "[OnSucceedAttack] Превращает 2 [Combustion:`Огня`] цели в 1 [DefenseDown:`Понижение уровня защиты`] (<style=\"highlight\">До 5; не опускает силу [Combustion:`Огня`] цели ниже 1</style>)\n<style=\"highlight\">- Если на цели менее 10 [Combustion:`Огня`], то вместо этого эффекта может потратить силу [Combustion:`Огня`] свыше 30 на себе</style>"
                 }
               ]
             }

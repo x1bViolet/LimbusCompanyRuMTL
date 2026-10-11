@@ -718,7 +718,7 @@
                   "desc": "Эта монета попадает по всем целям навыка независимо от эффекта [WideAreaRampage:`Нефокусированного залпа`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [ThreadDye:`Окрашенной нити`] на следующий ход"

@@ -415,7 +415,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] на цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
@@ -428,7 +428,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -469,7 +469,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] на цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
@@ -482,7 +482,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -523,7 +523,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] на цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Sinking:`Утопания`] цели / 3) [Combustion:`Огня`] (До 5; округляется вниз)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] <nobr>на 1</nobr>"
@@ -536,7 +536,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -599,7 +599,7 @@
                   "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -657,7 +657,7 @@
                   "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -715,7 +715,7 @@
                   "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion:`Огня`] и [Sinking:`Утопания`] на всех целях"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion:`Огонь`] цели и понижает его счётчик на 1"
                 }
               ]
             }

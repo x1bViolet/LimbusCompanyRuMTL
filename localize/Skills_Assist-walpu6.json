@@ -96,7 +96,7 @@
         {
           "level": 1,
           "name": "Похоже, мне придётся использовать эту силу!",
-          "desc": "[StartBattle] Начинает готовить [ChasingArcana:`Заклинание — Рабыня арканы`]\n[StartBattle] Получает 50 <color=#366ffb>OЗ Щита</color>\n[StartBattle] Получает 20 [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[StartBattle] Начинает готовить [ChasingArcana:`Заклинание — Рабыня арканы`]\n[StartBattle] Получает 50 <color=#366ffb>OЗ Щита</color>\n[StartBattle] Получает 20 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -115,7 +115,7 @@
         {
           "level": 1,
           "name": "Заклинание — Рабыня арканы",
-          "desc": "[StartBattle] Получает 50 <color=#366ffb>OЗ Щита</color>\n[StartBattle] Получает 20 [Aggro:`Провокаций`] на следующий ход\n[EndBattle] Если <color=#366ffb>OЗ Щита</color> истощены, Отступает с поля боя",
+          "desc": "[StartBattle] Получает 50 <color=#366ffb>OЗ Щита</color>\n[StartBattle] Получает 20 [Aggro:`Провокации`] на следующий ход\n[EndBattle] Если <color=#366ffb>OЗ Щита</color> истощены, Отступает с поля боя",
           "coinlist": [
             {
               "coindescs": [
@@ -172,7 +172,7 @@
         {
           "level": 1,
           "name": "Похоже, мне придётся использовать эту силу!",
-          "desc": "[StartBattle] Начинает готовить [ChasingArcanahard:`Заклинание — Рабыня арканы`]\n[StartBattle] Получает 50 <color=#366ffb>OЗ Щита</color>\n[StartBattle] Получает 20 [Aggro:`Провокаций`] на следующий ход",
+          "desc": "[StartBattle] Начинает готовить [ChasingArcanahard:`Заклинание — Рабыня арканы`]\n[StartBattle] Получает 50 <color=#366ffb>OЗ Щита</color>\n[StartBattle] Получает 20 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

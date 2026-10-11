@@ -946,7 +946,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] на цели × 10)% от итогового урона этой монеты (До 100%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -1077,7 +1077,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -1090,7 +1090,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -1103,7 +1103,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             },

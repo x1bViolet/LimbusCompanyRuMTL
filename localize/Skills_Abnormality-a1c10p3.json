@@ -1620,7 +1620,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
                 }
               ]
             }
@@ -1653,7 +1653,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -1740,7 +1740,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             },
@@ -1750,7 +1750,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 2 раза и понижает его счётчик <nobr>на 2</nobr>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели 2 раза и понижает его счётчик <nobr>на 2</nobr>"
                 }
               ]
             }
@@ -1909,7 +1909,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели 3 раза и понижает его счётчик <nobr>на 3</nobr>"
                 }
               ]
             }
@@ -1950,7 +1950,7 @@
                   "desc": "[OnSucceedAttack] Теряет 1 [BuffetRevival:`Голос багряного бога`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             }
@@ -2113,7 +2113,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Laceration:`Кровотечение`] цели и понижает его счётчик на 1"
                 }
               ]
             }
