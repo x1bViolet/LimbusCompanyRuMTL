@@ -53,6 +53,10 @@
       "name": "<color=#93f13e>[Конец столкновения]</color>"
     },
     {
+      "id": "INDIGO",
+      "name": "<color=#93f13e>[Конец монеты]</color>"
+    },
+    {
       "id": "EndSkill",
       "name": "[Конец атаки]"
     },
