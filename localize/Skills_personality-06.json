@@ -444,7 +444,7 @@
         {
           "level": 1,
           "name": "Трата знаний",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -458,7 +458,7 @@
         {
           "level": 2,
           "name": "Трата знаний",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3 и более [KnowledgeExplored:`Откровениях`](#f8c200)</style>",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3 и более [KnowledgeExplored:`Откровениях`](#f8c200)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -475,7 +475,7 @@
         {
           "level": 4,
           "name": "Трата знаний",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего ранга из своих слотов навыков\n[WhenUse] Сила в столкновении <style=\"highlight\">повышается на (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n[WhenUse] Сила в столкновении <style=\"highlight\">повышается на (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -497,7 +497,7 @@
         {
           "level": 1,
           "name": "Снятие печати",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {},
             {},
@@ -513,7 +513,7 @@
         {
           "level": 2,
           "name": "Снятие печати",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более [KnowledgeExplored:`Откровениях`](#f9c200)</style>",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 при 3 и более [KnowledgeExplored:`Откровениях`](#f9c200)</style>",
           "coinlist": [
             {},
             {},
@@ -529,7 +529,7 @@
         {
           "level": 4,
           "name": "Снятие печати",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков\n[WhenUse] Сила монет повышается <style=\"highlight\">на (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1) (До 2)</style>",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n[WhenUse] Сила монет повышается <style=\"highlight\">на (Число своих [KnowledgeExplored:`Откровений`](#f8c200) - 1) (До 2)</style>",
           "coinlist": [
             {},
             {},
@@ -593,7 +593,7 @@
         {
           "level": 1,
           "name": "Направляющие шажки",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {}
           ]
@@ -601,7 +601,7 @@
         {
           "level": 4,
           "name": "Направляющие шажки",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] 2 навыка по возрастанию их <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {}
           ]
