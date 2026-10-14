@@ -676,7 +676,7 @@
         {
           "level": 2,
           "name": "Обезглавливание",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с <style=\"highlight\">6</style> и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Sinking:`Утопания`]</style>",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с <style=\"highlight\">6</style> и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чей счётчик [Sinking:`Утопания`] равен 3 и более</style>",
           "coinlist": [
             {},
             {
@@ -2759,7 +2759,7 @@
         {
           "level": 2,
           "name": "Меч Палермо【La Spada di Palermo】",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2828,7 +2828,7 @@
         {
           "level": 2,
           "name": "Нижний удар【Colpi Sottani】",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2889,7 +2889,7 @@
         {
           "level": 3,
           "name": "Охотник【Il Cacciatore】",
-          "desc": "[BeforeUse] Если цель имеет 5 [DuelEdgeAlly:`Обостряющейся дуэли`], то использует альтернативный третий навык <color=#fe0101>「Разделка оленя 【Sezionatura di Cervo】」</color> вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Следующие эффекты активируются для этого навыка в зависимости от значения [DuelEdgeAlly:`Обостряющейся дуэли`] на цели:\n- 1+: наносит на 1 [Vibration:`Тремор`] больше\n- 2+: повышает счётчик [Vibration:`Тремора`] ещё на 1\n- 3+: наносит на 1 [Combustion:`Огонь`] больше\n- 4+: повышает счётчик [Combustion:`Огня`] ещё на 1\n[WhenUse] Если есть [EvolvingManual:`Взросление учебника`] или цель имеет 3 и более [DuelEdgeAlly:`Обостряющейся дуэли`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
+          "desc": "[BeforeUse] Если цель имеет 5 [DuelEdgeAlly:`Обостряющейся дуэли`], то использует альтернативный третий навык <color=#fe0101>「Разделка оленя 【Sezionatura di Cervo】」</color> вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более\n[WhenUse] Следующие эффекты активируются для этого навыка в зависимости от значения [DuelEdgeAlly:`Обостряющейся дуэли`] на цели:\n- 1+: наносит на 1 [Vibration:`Тремор`] больше\n- 2+: повышает счётчик [Vibration:`Тремора`] ещё на 1\n- 3+: наносит на 1 [Combustion:`Огонь`] больше\n- 4+: повышает счётчик [Combustion:`Огня`] ещё на 1\n[WhenUse] Если есть [EvolvingManual:`Взросление учебника`] или цель имеет 3 и более [DuelEdgeAlly:`Обостряющейся дуэли`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [

@@ -310,7 +310,7 @@
         {
           "level": 1,
           "name": "Перезарядка зажигательных патронов",
-          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
+          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
           "coinlist": [
             {
               "coindescs": [
@@ -425,7 +425,7 @@
         {
           "level": 1,
           "name": "Перезарядка зажигательных патронов",
-          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
+          "desc": "[StartBattle] [FullReload:`Перезаряжается`] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более\n[WhenUse] Получает 1 [AttackDmgUp:`Повышение урона`]",
           "coinlist": [
             {
               "coindescs": [

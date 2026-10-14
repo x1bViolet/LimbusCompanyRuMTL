@@ -4095,7 +4095,7 @@
         {
           "level": 4,
           "name": "Усмирение",
-          "desc": "<style=\"highlight\">Сила монет +1 против целей с 5 и более единицами счётчика [Vibration:`Тремора`]</style>",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей, чей счётчик [Vibration:`Тремора`] равен 5 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -7509,7 +7509,7 @@
         {
           "level": 4,
           "name": "Огненный поток",
-          "desc": "<style=\"highlight\">Сила монет +2 против целей с 6 и более единицами счётчика [Combustion:`Огня`]",
+          "desc": "<style=\"highlight\">Сила монет +2 против целей, чей счётчик [Combustion:`Огня`] равен 6 и более",
           "coinlist": [
             {
               "coindescs": [
