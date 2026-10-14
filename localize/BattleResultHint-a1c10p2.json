@@ -22,7 +22,7 @@
     },
     {
       "id": "battleTip_11030_2",
-      "content": "Если не подчиниться <color=#e30000>(<link=\"RestrictMob\"><sprite name=\"RestrictMob\"></link>/<link=\"RestrictBoss\"><sprite name=\"RestrictBoss\"></link>/<link=\"RestrictDef\"><sprite name=\"RestrictDef\"></link>)<u>Правилам</u></color> <b>Смотрителя</b>, то он ответит мощной атакой."
+      "content": "Если не подчиниться [@Tuple(RestrictMob,RestrictBoss,RestrictDef):`Правилам`](#e30000) <b>Смотрителя</b>, то он ответит мощной атакой."
     },
     {
       "id": "battleTip_11031_1",
