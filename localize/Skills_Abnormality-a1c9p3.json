@@ -2236,7 +2236,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в случайный <u>Особый Трeмор</u>"
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в случайный [PersonalityVibration:`Особый Трeмор`](:nolink)"
                 }
               ]
             },
