@@ -563,7 +563,7 @@
     {
       "id": 9255,
       "name": "Хлоп-хлоп!",
-      "desc": "При победе в столкновении <link=\"ATL_Breath\"><u>Б</u>азовым</link> навыком, который наносит [Vibration:`Тремор`], повышает его счётчик или наносит [PersonalityVibration:`Особый Трeмор`](:nolink), производит [FusionVibration:`Наложение амплитуды`] с одним из следующих <u>Особых видов Тремора</u> (Единожды за ход):\n- [VibrationIgnition:`Тремор — Ожог`]\n- [VibrationBleeding:`Тремор — Кровоизлияние`]\n- [VibrationEcho:`Тремор — Эхо`]\n- [VibrationCollapse:`Тремор — Распад`]\n- [VibrationChainPersonality:`Тремор — Цепи`]",
+      "desc": "При победе в столкновении <link=\"ATL_Breath\"><u>Б</u>азовым</link> навыком, который наносит [Vibration:`Тремор`], повышает его счётчик или наносит [PersonalityVibration:`Особый Трeмор`](:nolink), производит [FusionVibration:`Наложение амплитуды`] с одним из следующих [PersonalityVibration:`Особых видов Тремора`](:nolink) (Единожды за ход):\n- [VibrationIgnition:`Тремор — Ожог`]\n- [VibrationBleeding:`Тремор — Кровоизлияние`]\n- [VibrationEcho:`Тремор — Эхо`]\n- [VibrationCollapse:`Тремор — Распад`]\n- [VibrationChainPersonality:`Тремор — Цепи`]",
       "simpleDesc": [
         {
           "simpleDesc": ""
