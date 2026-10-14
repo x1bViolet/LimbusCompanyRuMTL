@@ -1890,7 +1890,7 @@
         {
           "level": 1,
           "name": "Перетасовка рук — цветочная колода",
-          "desc": "[DuelCounter]\n[StartBattle] [Discard:`Сбрасывает`] навыки низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из 2 своих слотов навыков начиная с самого левого (Единожды за ход)\n[StartBattle] Если этот Контратакующий навык используется из своего самого левого слота навыков, то меняет <nobr><color=#9f6a3a>(<u><link=\"HanafudaOne\"><sprite name=\"HanafudaOne\"></link></u>/<u><link=\"HanafudaTwo\"><sprite name=\"HanafudaTwo\"></link></u>/<u><link=\"HanafudaThree\"><sprite name=\"HanafudaThree\"></link></u>)<u>Масть</u></color></nobr> в руке в следующем ходе на случайную другую, которая отличается от текущей (Единожды за ход)",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard:`Сбрасывает`] навыки низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из 2 своих слотов навыков начиная с самого левого (Единожды за ход)\n[StartBattle] Если этот Контратакующий навык используется из своего самого левого слота навыков, то меняет <nobr>[@Tuple(HanafudaOne,HanafudaTwo,HanafudaThree):`Масть`](#9f6a3a)</nobr>\nв руке в следующем ходе на случайную другую, которая отличается от текущей (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
