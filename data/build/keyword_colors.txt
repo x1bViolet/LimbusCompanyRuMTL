@@ -1570,3 +1570,10 @@ BuffetRouge ¤ #f8c200
 BuffetScruple ¤ #f8c200
 BuffetResolve ¤ #a16a3b
 MeursaultBuffetEnd ¤ #f8c200
+PersonalityVibration ¤ #a16a3b
+PersonalityCombustion ¤ #a16a3b
+PersonalityLaceration ¤ #a16a3b
+PersonalityBurst ¤ #a16a3b
+PersonalitySinking ¤ #a16a3b
+PersonalityBreath ¤ #a16a3b
+PersonalityCharge ¤ #a16a3b
