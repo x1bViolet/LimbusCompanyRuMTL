@@ -183,14 +183,14 @@
     {
       "id": "HumanBoneTheRings",
       "name": "Ингредиент тела (Кости)",
-      "desc": "[PersonalityCharge:`Особый Заряд`](:nolink) (Фиксированная сила)\nМаксимальное значение: 206",
+      "desc": "<b>Является [PersonalityCharge:`Особым Зарядом`](:nolink)</b> (Фиксированная сила)\nМаксимальное значение: 206",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "HumanBloodTheRings",
       "name": "Ингредиент тела (Кровь)",
-      "desc": "[PersonalityCharge:`Особый Заряд`](:nolink) (Фиксированная сила)\nМаксимальное значение: 5",
+      "desc": "<b>Является [PersonalityCharge:`Особым Зарядом`](:nolink)</b> (Фиксированная сила)\nМаксимальное значение: 5",
       "summary": "",
       "undefined": "-"
     },
