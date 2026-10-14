@@ -1146,7 +1146,7 @@
         {
           "level": 1,
           "name": "Система помощи курьера и контроля кризисов",
-          "desc": "[StartBattle] Если число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f) равно 15 и более, то использует альтернативный защитный навык <color=#a5fe06>「П-погоди, мне нужно провести техобслуживание...!」</color> (Единожды за ход)\n[BeforeUse] Получает <color=#366ffb>OЗ Щита</color> в размере (Число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f) / 2)% от максимальных <color=#00ff9c>ОЗ</color> (До 15%; единожды за ход)",
+          "desc": "[StartBattle] Если число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f) равно 15 и более, то использует альтернативный Защитный навык <color=#a5fe06>「П-погоди, мне нужно провести техобслуживание...!」</color> (Единожды за ход)\n[BeforeUse] Получает <color=#366ffb>OЗ Щита</color> в размере (Число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f) / 2)% от максимальных <color=#00ff9c>ОЗ</color> (До 15%; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1160,7 +1160,7 @@
         {
           "level": 4,
           "name": "Система помощи курьера и контроля кризисов",
-          "desc": "[StartBattle] Если число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f) равно 15 и более, то использует альтернативный защитный навык <color=#a5fe06>「П-погоди, мне нужно провести техобслуживание...!」</color> (Единожды за ход)\n[BeforeUse] Получает <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">(Число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f))%</style> от максимальных <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">25%</style>; единожды за ход)",
+          "desc": "[StartBattle] Если число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f) равно 15 и более, то использует альтернативный Защитный навык <color=#a5fe06>「П-погоди, мне нужно провести техобслуживание...!」</color> (Единожды за ход)\n[BeforeUse] Получает <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">(Число [DevyatDimensionalSackSinclair:`Курьерской сумки`](#6fb78f))%</style> от максимальных <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">25%</style>; единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
