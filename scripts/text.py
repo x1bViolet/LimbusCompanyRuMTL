@@ -135,8 +135,8 @@ def replace_shorthands(
     keyword_pattern: re.Pattern[str],
     converting_tuple: bool
 ) -> str:
-    def replacement(match: re.Match[str]) -> str:
-        if converting_tuple:
+    def replacement(match: re.Match[str], _converting_tuple: bool) -> str:
+        if _converting_tuple:
             keyword_ids = [
                 f'<u><link="{value}"><sprite name="{value}"></link></u>'
                 for value in match.group("keyword_ids").split(",")
@@ -151,7 +151,7 @@ def replace_shorthands(
             label = match.group("text")
             if match.group("cancel_link") is None: label = f'<link="{keyword_id}">{label}</link>'
             return f'<sprite name="{sprite_id}"><color={color}><u>{label}</u></color>'
-    return keyword_pattern.sub(replacement, text)
+    return keyword_pattern.sub(replacement, text, converting_tuple)
 
 
 def convert_keywords(
