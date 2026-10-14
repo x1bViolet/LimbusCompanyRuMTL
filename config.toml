@@ -122,7 +122,7 @@ order = [
 
 [keyword_shorthands]
 regex = "\\[(?P<keyword_id>\\w+):`(?P<text>.*?)`\\](\\((?P<color>#[a-fA-F0-9]{6})?(;(?P<sprite_id>\\w+))?(?P<cancel_link>:nolink)?\\))?"
-regex_tuple = "\\[@Tuple\\((?P<keyword_ids>.*?)\\):`(?P<text>.*?)`\\](\\((?P<color>#[a-fA-F0-9]{6})\\))"
+regex_tuple = "\\[@Tuple\\((?P<keyword_ids>.*?)\\):`(?P<text>.*?)`\\]\\((?P<color>#[a-fA-F0-9]{6})\\)"
 apply_for = [
   "Skills*.json",
   "Passive*.json",
