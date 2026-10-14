@@ -400,12 +400,12 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 <color=#80c9ff>СД</color> (До 2 раз за ход)",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 5 <color=#80c9ff>СД</color> (До 2 раз за ход)"
                 }
               ]
             }

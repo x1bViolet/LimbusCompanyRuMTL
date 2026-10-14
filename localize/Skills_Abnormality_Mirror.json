@@ -154,9 +154,15 @@
         {
           "level": 1,
           "name": "Вы – ничто",
-          "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>"
+                }
+              ]
+            }
           ]
         }
       ]

@@ -838,13 +838,13 @@
         {
           "level": 1,
           "name": "Я повышу уровень сонастройки Вспышки алых лепестков.",
-          "desc": "[WhenUse] Сила монеты +3 при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Теряет 10 [Combustion:`Огня`]\n[OnSucceedEvade] Теряет ещё 5 [Combustion:`Огня`] (Единожды за ход)",
+          "desc": "[WhenUse] Сила монеты +3 при 10 и более [Combustion:`Огня`] на себе\n[WhenUse] Теряет 10 [Combustion:`Огня`]",
           "flavor": "«Не волнуйся. Я придумала способ, который может помочь мне выбраться живой.»",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Теряет ещё 5 [Combustion:`Огня`] (Единожды за ход)"
                 }
               ]
             }

@@ -310,12 +310,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Получает 1 [Enhancement:`Повышение силы атаки`] (Единожды)",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Получает 1 [Enhancement:`Повышение силы атаки`] (Единожды за ход)"
                 }
               ]
             }
@@ -739,12 +739,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Получает 1 [Enhancement:`Повышение силы атаки`] (До 2 за навык)",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Получает 1 [Enhancement:`Повышение силы атаки`] (До 2 за навык)"
                 }
               ]
             }

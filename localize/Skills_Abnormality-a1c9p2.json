@@ -162,9 +162,15 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Combustion:`Огня`] на цели (До 3)\n[WhenUse] Наносит 4 [Combustion:`Огня`]\n[OnSucceedEvade] Получает 1 [MRcAiBa:`Искру`] на следующий ход",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Combustion:`Огня`] на цели (До 3)\n[WhenUse] Наносит 4 [Combustion:`Огня`]",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Получает 1 [MRcAiBa:`Искру`] на следующий ход"
+                }
+              ]
+            }
           ]
         }
       ]

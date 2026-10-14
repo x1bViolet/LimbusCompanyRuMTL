@@ -1750,9 +1750,15 @@
         {
           "level": 1,
           "name": "Вы – ничто",
-          "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -4041,9 +4047,15 @@
         {
           "level": 1,
           "name": "Пряный запах",
-          "desc": "[OnSucceedEvade] Наносит 1 [DongbaekFlorescence:`Цветение`] атакующему",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Наносит 1 [DongbaekFlorescence:`Цветение`] атакующему"
+                }
+              ]
+            }
           ]
         }
       ]

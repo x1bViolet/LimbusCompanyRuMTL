@@ -604,12 +604,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 <color=#80c9ff>СД</color>\n[OnSucceedEvade] Получает дополнительный слот навыков только на следующий ход (Единожды за ход)",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 5 <color=#80c9ff>СД</color>\n[OnSucceedEvade] Получает дополнительный слот навыков во время следующего хода (Единожды за ход)"
                 }
               ]
             }
@@ -1475,12 +1475,12 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[OnSucceedEvade] Наносит 1 [Binding:`Связывание`] атакующему на следующий ход (До 2)",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Наносит 1 [Binding:`Связывание`] атакующему на следующий ход (До 2)"
                 }
               ]
             }

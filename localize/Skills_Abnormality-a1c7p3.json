@@ -1886,12 +1886,12 @@
         {
           "level": 1,
           "name": "Кнххх",
-          "desc": "[OnSucceedEvade] Получает 1 [Agility:`Спешку`] на следующий ход",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Получает 1 [Agility:`Спешку`] на следующий ход"
                 }
               ]
             }

@@ -1498,9 +1498,15 @@
         {
           "level": 1,
           "name": "Острая бдительность",
-          "desc": "[OnSucceedEvade] Получает 1 [Aggressive:`Инстинкты`]",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Получает 1 [Aggressive:`Инстинкты`]"
+                }
+              ]
+            }
           ]
         }
       ]

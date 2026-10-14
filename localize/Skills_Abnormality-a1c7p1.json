@@ -153,12 +153,12 @@
         {
           "level": 1,
           "name": "Защитная стойка",
-          "desc": "[OnSucceedEvade] Получает 1 [Agility:`Спешку`] на следующий ход",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Получает 1 [Agility:`Спешку`] на следующий ход"
                 }
               ]
             }

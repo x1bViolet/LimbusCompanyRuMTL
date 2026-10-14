@@ -622,9 +622,15 @@
         {
           "level": 1,
           "name": "Отлично!【¡Excelente!】",
-          "desc": "[OnSucceedEvade] Понижает свою Границу Выносливости на 5\n[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Понижает свою Границу Выносливости на 5\n[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -1865,9 +1871,6 @@
                 }
               ]
             }
-          ],
-          "keywords": [
-            "Reduction"
           ]
         }
       ]
@@ -1887,9 +1890,6 @@
                 }
               ]
             }
-          ],
-          "keywords": [
-            "Reduction"
           ]
         }
       ]
@@ -1916,9 +1916,6 @@
                 }
               ]
             }
-          ],
-          "keywords": [
-            "Vulnerable"
           ]
         }
       ]
@@ -1938,9 +1935,6 @@
                 }
               ]
             }
-          ],
-          "keywords": [
-            "Binding"
           ]
         }
       ]
@@ -1966,9 +1960,6 @@
                 }
               ]
             }
-          ],
-          "keywords": [
-            "Bleeding"
           ]
         }
       ]
@@ -1994,9 +1985,6 @@
                 }
               ]
             }
-          ],
-          "keywords": [
-            "Bleeding"
           ]
         }
       ]
@@ -2643,9 +2631,15 @@
         {
           "level": 1,
           "name": "Навострённая бдительность",
-          "desc": "[OnSucceedEvade] Получает 1 [AggressiveBokgak:`Инстинкты`]",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Получает 1 [AggressiveBokgak:`Инстинкты`]"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -3000,9 +2994,15 @@
         {
           "level": 1,
           "name": "Вы – ничто",
-          "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
-            {}
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Атакующий теряет 5 <color=#80c9ff>СД</color>"
+                }
+              ]
+            }
           ]
         }
       ]

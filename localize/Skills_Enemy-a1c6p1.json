@@ -638,12 +638,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 3 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 3 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -747,12 +747,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 3 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 3 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -890,12 +890,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 5 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1010,12 +1010,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 3 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 3 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1205,12 +1205,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 5 <color=#80c9ff>СД</color>"
                 }
               ]
             }

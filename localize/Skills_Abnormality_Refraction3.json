@@ -125,12 +125,12 @@
         {
           "level": 1,
           "name": "Рассеивающий ветер",
-          "desc": "[OnSucceedEvade] Наносит атакующему 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1 ",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Наносит атакующему 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
                 }
               ]
             }
@@ -559,12 +559,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Атакующий теряет 4 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Атакующий теряет 4 <color=#80c9ff>СД</color>"
                 }
               ]
             }

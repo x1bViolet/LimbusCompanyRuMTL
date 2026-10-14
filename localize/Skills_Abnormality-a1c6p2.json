@@ -687,12 +687,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Наносит 1 [Binding:`Связывание`] атакующему на следующий ход (До 2)",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Наносит 1 [Binding:`Связывание`] атакующему на следующий ход (До 2)"
                 }
               ]
             }
