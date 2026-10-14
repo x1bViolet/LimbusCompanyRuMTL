@@ -343,7 +343,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [DimensionRift:`Пространственных разлома`], если навык потратил 15 единиц счётчика [Charge:`Заряда`]"
                 },
                 {
-                  "desc": "[EnemyKill] Получает 3 [ChargeForceField:`Зарядных барьера`]"
+                  "desc": "[TargetKill] Получает 3 [ChargeForceField:`Зарядных барьера`]"
                 }
               ]
             }

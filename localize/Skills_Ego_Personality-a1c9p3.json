@@ -116,7 +116,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт 1 [Enhancement:`Повышение силы атаки`] случайному союзнику"
+                  "desc": "[TargetKill] Даёт 1 [Enhancement:`Повышение силы атаки`] случайному союзнику"
                 }
               ]
             }

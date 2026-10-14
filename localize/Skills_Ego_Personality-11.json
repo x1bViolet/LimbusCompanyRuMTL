@@ -311,7 +311,7 @@
                   "desc": "[OnSucceedAttack] Получает [Agility:`Спешку`] и [ChargeLoad:`Нагрузку`] на следующий ход, равную силе своего [Charge:`Заряда`] (До 1 за навык)"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -332,7 +332,7 @@
                   "desc": "[OnSucceedAttack] Получает [Agility:`Спешку`] и [ChargeLoad:`Нагрузку`] на следующий ход, равную силе своего [Charge:`Заряда`] (До <style=\"highlight\">2</style> за навык)"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -353,7 +353,7 @@
                   "desc": "[OnSucceedAttack] Получает [Agility:`Спешку`] и [ChargeLoad:`Нагрузку`] на следующий ход, равную силе своего [Charge:`Заряда`] (До <style=\"highlight\">3</style> за навык)"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -379,7 +379,7 @@
                   "desc": "[OnSucceedAttack] Получает [Agility:`Спешку`] и [ChargeLoad:`Нагрузку`] на следующий ход, равную силе своего [Charge:`Заряда`] (До 2 за навык)"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -400,7 +400,7 @@
                   "desc": "[OnSucceedAttack] Получает [Agility:`Спешку`] и [ChargeLoad:`Нагрузку`] на следующий ход, равную силе своего [Charge:`Заряда`] (До 2 за навык)"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -421,7 +421,7 @@
                   "desc": "[OnSucceedAttack] Получает [Agility:`Спешку`] и [ChargeLoad:`Нагрузку`] на следующий ход, равную силе своего [Charge:`Заряда`] (До <style=\"highlight\">3</style> за навык)"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }

@@ -297,7 +297,7 @@
                   "desc": "[CoinTail] Наносит <style=\"highlight\">3~6</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход (До 3)</style>"
+                  "desc": "<style=\"highlight\">[TargetKill] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход (До 3)</style>"
                 }
               ]
             }

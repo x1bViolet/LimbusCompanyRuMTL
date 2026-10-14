@@ -2066,7 +2066,7 @@
                   "desc": "[OnSucceedAttack] Тратит 1 [ArrowShiFau:`Стрелу 【Ши】`] и наносит 1 [ArrowInTheEyeFau:`Попадание стрелы`]"
                 },
                 {
-                  "desc": "[EnemyKill] Получает [AStrokeOfDeath:`Окончание жизни`] на следующий ход"
+                  "desc": "[TargetKill] Получает [AStrokeOfDeath:`Окончание жизни`] на следующий ход"
                 }
               ]
             }
@@ -2083,7 +2083,7 @@
                   "desc": "[OnSucceedAttack] Тратит 1 [ArrowShiFau:`Стрелу 【Ши】`] и наносит 1 [ArrowInTheEyeFau:`Попадание стрелы`]"
                 },
                 {
-                  "desc": "[EnemyKill] Получает [AStrokeOfDeath:`Окончание жизни`] на следующий ход"
+                  "desc": "[TargetKill] Получает [AStrokeOfDeath:`Окончание жизни`] на следующий ход"
                 },
                 {
                   "desc": "<style=\"highlight\">[CriticalEnemyTargetKill] Повышает счётчик своего [Breath:`Дыхания`] на 4</style>"

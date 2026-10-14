@@ -6982,7 +6982,7 @@
         {
           "level": 3,
           "name": "Казнь",
-          "desc": "[EnemyKill] Восстанавливает 10 <color=#80c9ff>СД</color> всем Идентичностям, а также даёт им 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] и [HitDamageUp:`Повышение Дробящего урона`]",
+          "desc": "[TargetKill] Восстанавливает 10 <color=#80c9ff>СД</color> всем Идентичностям, а также даёт им 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] и [HitDamageUp:`Повышение Дробящего урона`]",
           "coinlist": [
             {
               "coindescs": [
@@ -7010,7 +7010,7 @@
         {
           "level": 4,
           "name": "Казнь",
-          "desc": "[EnemyKill] Восстанавливает 10 <color=#80c9ff>СД</color> всем Идентичностям, а также даёт им 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] и [HitDamageUp:`Повышение Дробящего урона`]",
+          "desc": "[TargetKill] Восстанавливает 10 <color=#80c9ff>СД</color> всем Идентичностям, а также даёт им 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] и [HitDamageUp:`Повышение Дробящего урона`]",
           "coinlist": [
             {
               "coindescs": [
@@ -8158,7 +8158,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration:`Кровотечения`], то наносит ей 5 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[EnemyKill] Получает 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход"
+                  "desc": "[TargetKill] Получает 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход"
                 }
               ]
             }
@@ -8183,7 +8183,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration:`Кровотечения`], то наносит ей <style=\"highlight\">7</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[EnemyKill] Получает 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход"
+                  "desc": "[TargetKill] Получает 1 [HitResultUp:`Повышение силы Дробящих атак`] на следующий ход"
                 }
               ]
             }
@@ -10895,7 +10895,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] Восстанавливает 15 <color=#80c9ff>СД</color></style>"
+                  "desc": "<style=\"highlight\">[TargetKill] Восстанавливает себе 15 <color=#80c9ff>СД</color></style>"
                 }
               ]
             }

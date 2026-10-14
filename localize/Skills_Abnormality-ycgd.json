@@ -439,7 +439,7 @@
         {
           "level": 1,
           "name": "Танец с мечом",
-          "desc": "[EnemyKill] Получает 3 [AttackUp:`Повышения уровня атаки`] и 3 [DefenseUp:`Повышения уровня защиты`] на следующий ход",
+          "desc": "[TargetKill] Получает 3 [AttackUp:`Повышения уровня атаки`] и 3 [DefenseUp:`Повышения уровня защиты`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -458,7 +458,7 @@
         {
           "level": 1,
           "name": "Дабы забрать их кости",
-          "desc": "[CantChangeTarget]\nНацеливается на противника с наименьшими текущими <color=#00ff9c>ОЗ</color>\n[EnemyKill] Удваивает [Grudge:`Растущую горечь`](#4b679d)\n[EnemyKill] Восстанавливает себе <color=#00ff9c>ОЗ</color> на количество [Grudge:`Растущей горечи`](#4b679d)",
+          "desc": "[CantChangeTarget]\nНацеливается на противника с наименьшими текущими <color=#00ff9c>ОЗ</color>\n[TargetKill] Удваивает [Grudge:`Растущую горечь`](#4b679d)\n[TargetKill] Восстанавливает себе <color=#00ff9c>ОЗ</color> на количество [Grudge:`Растущей горечи`](#4b679d)",
           "coinlist": [
             {},
             {},

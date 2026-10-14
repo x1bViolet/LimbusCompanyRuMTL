@@ -154,7 +154,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -169,7 +169,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -184,7 +184,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 2"
                 }
               ]
             }
@@ -204,7 +204,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 3"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 3"
                 }
               ]
             }
@@ -219,7 +219,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 3"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 3"
                 }
               ]
             }
@@ -234,7 +234,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] на 3"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] на 3"
                 }
               ]
             }

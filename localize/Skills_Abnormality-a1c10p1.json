@@ -1810,7 +1810,7 @@
                   "desc": "[OnSucceedAttack] Если цель [NiddlePinned:`Таксидермирована`], то наносит ей фиксированный урон, равный <color=#ff6000><mark=#ff000040><b><u>99% от её максимальных <color=#00ff9c>ОЗ</color></u></b></mark></color>"
                 },
                 {
-                  "desc": "[EnemyKill] Восстанавливает себе 5% <color=#00ff9c>ОЗ</color>"
+                  "desc": "[TargetKill] Восстанавливает себе 5% <color=#00ff9c>ОЗ</color>"
                 }
               ]
             }
