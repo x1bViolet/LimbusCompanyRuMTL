@@ -150,7 +150,7 @@
     },
     {
       "id": "CantChangeTarget",
-      "name": "[Цель неизменна]"
+      "name": "<color=#ffa600>[Цель неизменна]</color>"
     },
     {
       "id": "TurnStartBattle",
