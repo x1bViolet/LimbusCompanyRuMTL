@@ -1930,7 +1930,7 @@
     {
       "id": "VibrationEcho",
       "name": "Тремор — Эхо",
-      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· При [VibrationExplosion:`Провокации Тремора`] также наносит {0} урона <color=#fed133>Леностью</color>\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
+      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationEcho:`Тремора`] <b>наносит урон <color=#fed133>Леностью</color></b>, равный его силе\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
       "summary": ""
     },
     {
@@ -2805,7 +2805,7 @@
     {
       "id": "VibrationBleeding",
       "name": "Тремор — Кровоизлияние",
-      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· При [VibrationExplosion:`Провокации Тремора`] на себе <b>получает урон <color=#fe6f01>Похотью</color></b>, равный (Сумма силы своего [VibrationBleeding:`Тремора`] и [Laceration:`Кровотечения`] / 2), а счётчик [Laceration:`Кровотечения`] понижается на 1\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
+      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationBleeding:`Тремора`] <b>наносит урон <color=#fe6f01>Похотью</color></b> в количестве (Сумма силы своего [VibrationBleeding:`Тремора`] и [Laceration:`Кровотечения`] / 2), понижая счётчик [Laceration:`Кровотечения`] на 1\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
       "summary": "",
       "undefined": "-"
     },

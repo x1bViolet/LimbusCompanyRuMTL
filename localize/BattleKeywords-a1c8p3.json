@@ -9,7 +9,7 @@
     {
       "id": "VibrationIgnition",
       "name": "Тремор — Ожог",
-      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· При [VibrationExplosion:`Провокации Тремора`] на себе <b>получает урон <color=#fe0101>Гневом</color></b>, равный (Сумма силы [VibrationIgnition:`Тремора`] и [Combustion:`Огня`] / 2), а счётчик [Combustion:`Огня`] понижается на 1\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
+      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationIgnition:`Тремора`] <b>наносит урон <color=#fe0101>Гневом</color></b> в количестве (Сумма силы [VibrationIgnition:`Тремора`] и [Combustion:`Огня`] / 2), понижая счётчик [Combustion:`Огня`] на 1\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]",
       "summary": ""
     },
     {
