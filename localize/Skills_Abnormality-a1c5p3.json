@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Всеобщее рассеяние",
-          "desc": "В приоритете [AaCePcBa:`Помеченные`] противники",
+          "desc": "※ Нацеливается на [AaCePcBa:`Помеченных`] противников",
           "coinlist": [
             {
               "coindescs": [
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Тоска...",
-          "desc": "В приоритете [AaCePcBa:`Помеченные`] противники",
+          "desc": "※ Нацеливается на [AaCePcBa:`Помеченных`] противников",
           "coinlist": [
             {
               "coindescs": [
@@ -166,7 +166,7 @@
         {
           "level": 1,
           "name": "Искрящееся пламя",
-          "desc": "В приоритете [AaCePcBa:`Помеченные`] противники",
+          "desc": "※ Нацеливается на [AaCePcBa:`Помеченных`] противников",
           "coinlist": [
             {
               "coindescs": [
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "Чтобы всё сгорело",
-          "desc": "[StartBattle] Получает 20 <color=#366ffb>OЗ Щита</color>\nГасит все свечи в следующем ходе и затем щит спадает",
+          "desc": "[StartBattle] Получает 20 <color=#366ffb>OЗ Щита</color>\n[EndBattle] Гасит все свечи в следующем ходе и теряет <color=#366ffb>OЗ Щита</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -354,7 +354,7 @@
         {
           "level": 1,
           "name": "Поглощение",
-          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на Зелёную слизь и поглощает её при атаке",
+          "desc": "※ Нацеливается на Зелёную слизь и поглощает её при атаке\n\n[CantDuel]\n[CantChangeTarget]",
           "coinlist": [
             {
               "coindescs": [
@@ -373,12 +373,12 @@
         {
           "level": 1,
           "name": "Переполняющий яд",
-          "desc": "[OnSucceedEvade] Наносит 5 [Poison:`Яда`] атакующему",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Наносит 5 [Poison:`Яда`] атакующему"
                 }
               ]
             }
@@ -469,7 +469,7 @@
         {
           "level": 1,
           "name": "Слепая одержимость",
-          "desc": "[DefeatDuel] Часть «Флуоресцентные лампы» теряет 34% от максимальных <color=#00ff9c>ОЗ</color>\n[DefeatDuel] Получает 1 [AaCePcBc:`Слепую одержимость`](#298e86)",
+          "desc": "[DefeatDuel] Часть <b>「Флуоресцентные лампы」</b> теряет 34% от максимальных <color=#00ff9c>ОЗ</color>\n[DefeatDuel] Получает 1 [AaCePcBc:`Слепую одержимость`](#298e86)",
           "coinlist": [
             {
               "coindescs": [
@@ -547,12 +547,12 @@
         {
           "level": 1,
           "name": "Блуждающая слепая одержимость",
-          "desc": "[CantDuel]\n[CantChangeTarget] Нацеливается на Расколотые обломки\n[EndSkill] Часть «Флуоресцентные лампы» теряет 34% от максимальных <color=#00ff9c>ОЗ</color>\n[EndBattle] Получает 1 [AaCePcBc:`Слепую одержимость`](#298e86)",
+          "desc": "※ Нацеливается на <b>Расколотые обломки</b>\n\n[CantDuel]\n[CantChangeTarget]\n[EndSkill] Часть <b>「Флуоресцентные лампы」</b> теряет 34% от максимальных <color=#00ff9c>ОЗ</color>\n[EndBattle] Получает 1 [AaCePcBc:`Слепую одержимость`](#298e86)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Уничтожает Расколотые обломки"
+                  "desc": "[OnSucceedAttack] Уничтожает <b>Расколотые обломки</b>"
                 }
               ]
             }
@@ -566,7 +566,7 @@
         {
           "level": 1,
           "name": "Извивание",
-          "desc": "[EndBattle] На поле боя появляются Дрейфующие обломки",
+          "desc": "[EndBattle] На поле боя появляются <b>Дрейфующие обломки</b>",
           "coinlist": [
             {
               "coindescs": [
@@ -598,7 +598,7 @@
         {
           "level": 1,
           "name": "Холодный поток",
-          "desc": "[StartBattle] Теряет всю [AaCePcBc:`Слепую одержимость`](#298e86)\n[StartBattle] Уничтожает все Дрейфующие и Расколотые обломки",
+          "desc": "[StartBattle] Теряет всю [AaCePcBc:`Слепую одержимость`](#298e86)\n[StartBattle] Уничтожает все <b>Дрейфующие</b> и <b>Расколотые обломки</b>",
           "coinlist": [
             {
               "coindescs": [
@@ -1644,7 +1644,7 @@
         {
           "level": 1,
           "name": "Смертельный удар",
-          "desc": "Нацеливается на противника с наименьшими максимальными <color=#00ff9c>ОЗ</color>",
+          "desc": "※ Нацеливается на противника с наименьшими максимальными <color=#00ff9c>ОЗ</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1715,7 +1715,7 @@
         {
           "level": 1,
           "name": "Тяжесть вины",
-          "desc": "Нацеливается на троих противников с наименьшими максимальными <color=#00ff9c>ОЗ</color>\n[StartBattle] Базовая сила +2 и Количество целей +1 за каждые 5 [AaCePcBo:`Эго Пипа`](#d1dbdc)\n[WhenUse] Теряет 3 [AaCePcBo:`Эго Пипа`](#d1dbdc)",
+          "desc": "※ Нацеливается на троих противников с наименьшими максимальными <color=#00ff9c>ОЗ</color>\n[StartBattle] Базовая сила +2 и Количество целей +1 за каждые 5 [AaCePcBo:`Эго Пипа`](#d1dbdc)\n[WhenUse] Теряет 3 [AaCePcBo:`Эго Пипа`](#d1dbdc)",
           "coinlist": [
             {
               "coindescs": [

@@ -458,7 +458,7 @@
         {
           "level": 1,
           "name": "Дабы забрать их кости",
-          "desc": "[CantChangeTarget]\nНацеливается на противника с наименьшими текущими <color=#00ff9c>ОЗ</color>\n[TargetKill] Удваивает [Grudge:`Растущую горечь`](#4b679d)\n[TargetKill] Восстанавливает себе <color=#00ff9c>ОЗ</color> на количество [Grudge:`Растущей горечи`](#4b679d)",
+          "desc": "※ Нацеливается на противника с наименьшими текущими <color=#00ff9c>ОЗ</color>\n\n[CantChangeTarget]\n[TargetKill] Удваивает [Grudge:`Растущую горечь`](#4b679d)\n[TargetKill] Восстанавливает себе <color=#00ff9c>ОЗ</color> на количество [Grudge:`Растущей горечи`](#4b679d)",
           "coinlist": [
             {},
             {},

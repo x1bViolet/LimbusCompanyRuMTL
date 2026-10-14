@@ -3110,7 +3110,7 @@
         {
           "level": 1,
           "name": "Время распаковки!",
-          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
           "coinlist": [
             {
               "coindescs": [
@@ -3157,7 +3157,7 @@
         {
           "level": 3,
           "name": "Время распаковки!",
-          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки[TabExplain] мести 【<s>Великая Сестра</s>】`], то наносит монетами этого навыка дополнительный Рубящий урон, равный 25% от их итогового урона</style>\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки[TabExplain] мести 【<s>Великая Сестра</s>】`], то наносит монетами этого навыка дополнительный Рубящий урон, равный 25% от их итогового урона</style>\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
           "coinlist": [
             {
               "coindescs": [
@@ -3209,7 +3209,7 @@
         {
           "level": 3,
           "name": "Хорошая девочка. Твоя жертва ради семьи не будет забыта.",
-          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНе вызывает активацию Защитных навыков цели\n\n[CantDuel]\n[CantChangeTarget]\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 3)\n[WhenUse] Итоговая сила +1 и на 10% больше урона за каждую единицу текущего значения [ReinforcedTattooSpiderOutis:`Татуировок мести 【<s>Великая Сестра</s>】`] (До +3 к Итоговой силе; до +100% к урону)\n[WhenUse] Если среди целей этого навыка есть <b>「Дом Пауков: Ученица Среднего」</b> Измаил, то его урон увеличивается на 100%\n[EndSkill] Тратит всю имеющуюся [ResentmentSpiderOutis:`Злобу`], а затем восстанавливает 5 единиц её значения (Если являвшаяся дополнительной целью этого навыка Идентичность была им убита, то восстанавливает ещё 10 [ResentmentSpiderOutis:`Злобы`])",
+          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\n※ Внешние эффекты не могут вызвать повторное использование этого навыка\n※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\n[CantChangeTarget]\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 3)\n[WhenUse] Итоговая сила +1 и на 10% больше урона за каждую единицу текущего значения [ReinforcedTattooSpiderOutis:`Татуировок мести 【<s>Великая Сестра</s>】`] (До +3 к Итоговой силе; до +100% к урону)\n[WhenUse] Если среди целей этого навыка есть <b>「Дом Пауков: Ученица Среднего」</b> Измаил, то его урон увеличивается на 100%\n[EndSkill] Тратит всю имеющуюся [ResentmentSpiderOutis:`Злобу`], а затем восстанавливает 5 единиц её значения (Если являвшаяся дополнительной целью этого навыка Идентичность была им убита, то восстанавливает ещё 10 [ResentmentSpiderOutis:`Злобы`])",
           "coinlist": [
             {
               "coindescs": [
