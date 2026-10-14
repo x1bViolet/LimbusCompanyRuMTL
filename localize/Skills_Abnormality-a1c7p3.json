@@ -890,7 +890,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Приключение было окончено【La Aventura Ha Terminado】",
+          "name": "Приключение подошло к концу【La Aventura Ha Terminado】",
           "desc": "[WhenUse] Поглощает (45 - текущая <color=#80c9ff>СД</color>) [BloodDinner:`Кровавого пиршества`], чтобы восстановить <color=#80c9ff>СД</color> до 45\n- если не удаётся поглотить [BloodDinner:`Кровавое пиршество`], тратит до (45 - текущая <color=#80c9ff>СД</color>) своих <color=#00ff9c>ОЗ</color>, чтобы восстановить <color=#80c9ff>СД</color> до 45 (Не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n- Получает <color=#366ffb>OЗ Щита</color> в количестве оставшегося [BloodDinner:`Кровавого пиршества`] (До 100)\n[WinDuel] Наносит 10 [Laceration:`Кровотечения`] цели\n[DefeatDuel] [BloodDinner:`Кровавое пиршество`] уменьшается на 100\n[EndSkill] Увеличивает [BloodDinner:`Кровавое пиршество`] на количество нанесённого урона",
           "coinlist": [
             {
