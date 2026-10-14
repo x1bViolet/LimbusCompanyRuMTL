@@ -1711,7 +1711,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -3525,7 +3525,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -3544,7 +3544,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [PlusCoinValueDown:`Ослабления положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [PlusCoinValueDown:`Ослабления положительных монет`] на следующий ход"
                 }
               ]
             },

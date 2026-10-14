@@ -7144,7 +7144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -7158,7 +7158,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">2</style> [PlusCoinValueDown:`Ослабления положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">2</style> [PlusCoinValueDown:`Ослабления положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -10289,7 +10289,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель Оглушена или убита, то получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход"
+                  "desc": "[EndCoin] Если цель Оглушена или убита, то получает 1 [PlusCoinValueUp:`Усиление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -10324,7 +10324,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если цель Оглушена или убита, то получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход"
+                  "desc": "[EndCoin] Если цель Оглушена или убита, то получает 1 [PlusCoinValueUp:`Усиление положительных монет`] на следующий ход"
                 }
               ]
             }

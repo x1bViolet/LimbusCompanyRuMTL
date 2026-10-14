@@ -895,14 +895,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }

@@ -418,7 +418,7 @@
                   "desc": "[OnSucceedAttack] Наносит 8 урона по <color=#80c9ff>СД</color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 [MosesPurpleBreathBind:`Фиолетового дыхания - Истерия`], 2 [Vulnerable:`Уязвимости`] и 3 [PlusCoinValueDown:`Ослабления положительной монеты`]"
+                  "desc": "[OnSucceedAttack] Наносит 4 [MosesPurpleBreathBind:`Фиолетового дыхания - Истерия`], 2 [Vulnerable:`Уязвимости`] и 3 [PlusCoinValueDown:`Ослабления положительных монет`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 [Binding:`Связывание`] на следующий ход"

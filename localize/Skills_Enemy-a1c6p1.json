@@ -1253,7 +1253,7 @@
         {
           "level": 1,
           "name": "Прием чужака",
-          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
+          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительных монет`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1369,7 +1369,7 @@
         {
           "level": 1,
           "name": "Ответ чужака",
-          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
+          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительных монет`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1493,7 +1493,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             },

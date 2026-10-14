@@ -301,7 +301,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход</style>"
                 }
               ]
             }
@@ -329,7 +329,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }

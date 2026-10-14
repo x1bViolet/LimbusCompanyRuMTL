@@ -4192,7 +4192,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит ей 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит ей 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -4210,7 +4210,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит ей 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит ей 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если быстрее цели, наносит ей 2 [SlashTakeDamageUp:`Уязвимости к Рубящему урону`] на следующий ход</style>"
@@ -4231,7 +4231,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит ей 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит ей 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если быстрее цели, наносит ей 2 [SlashTakeDamageUp:`Уязвимости к Рубящему урону`] на следующий ход"
@@ -4257,7 +4257,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит 2 [PlusCoinValueDown:`Ослабления положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит 2 [PlusCoinValueDown:`Ослабления положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -4275,7 +4275,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит 2 ей [PlusCoinValueDown:`Ослабления положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 3 и более [Binding:`Связывания`], наносит 2 ей [PlusCoinValueDown:`Ослабления положительных монет`] на следующий ход"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если быстрее цели, наносит ей 1~3 [SlashTakeDamageUp:`Уязвимости к Рубящему урону`] на следующий ход</style>"
