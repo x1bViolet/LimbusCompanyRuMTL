@@ -29,6 +29,7 @@ filename = "font.ttf"
 path = "reference"
 [keyword_shorthands]
 regex = '\[(?P<keyword_id>\w+):`(?P<text>.*?)`\](\((?P<color>#[a-fA-F0-9]{6})?(;(?P<sprite_id>\w+))?\))?'
+regex_tuple = '\[@Tuple\((?P<keyword_ids>.*?)\):`(?P<text>.*?)`\](\((?P<color>#[a-fA-F0-9]{6})\))'
 apply_for = ["UI.json"]
 [priority]
 order = ["StoryData/*.json", "Order.json"]

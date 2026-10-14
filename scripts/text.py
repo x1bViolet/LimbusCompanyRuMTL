@@ -132,34 +132,42 @@ class FontConverter:
 def replace_shorthands(
     text: str,
     keyword_colors: dict[str, str],
-    keyword_regex: re.Pattern[str],
+    keyword_pattern: re.Pattern[str],
+    converting_tuple: bool
 ) -> str:
     def replacement(match: re.Match[str]) -> str:
-        keyword_id = match.group("keyword_id")
-        sprite_id = match.group("sprite_id") or keyword_id
-        color = match.group("color") or keyword_colors.get(keyword_id, "#f8c200")
-        label = match.group("text")
-        return (
-            f'<sprite name="{sprite_id}"><color={color}>'
-            f'<u><link="{keyword_id}">{label}</link></u></color>'
-        )
-
-    return keyword_regex.sub(replacement, text)
+        if converting_tuple:
+            keyword_ids = [
+                f'<u><link="{value}"><sprite name="{value}"></link></u>'
+                for value in match.group("keyword_ids").split(",")
+            ]
+            color = match.group("color")
+            label = match.group("text")
+            return f'<color={color}>({"/".join(keyword_ids)})<u>{label}</u></color>'
+        else:
+            keyword_id = match.group("keyword_id")
+            sprite_id = match.group("sprite_id") or keyword_id
+            color = match.group("color") or keyword_colors.get(keyword_id, "#f8c200")
+            label = match.group("text")
+            if match.group("cancel_link") is None: label = f'<link="{keyword_id}">{label}</link>'
+            return f'<sprite name="{sprite_id}"><color={color}><u>{label}</u></color>'
+    return keyword_pattern.sub(replacement, text)
 
 
 def convert_keywords(
     data: JsonValue,
     keyword_colors: dict[str, str],
-    keyword_regex: re.Pattern[str],
+    keyword_pattern: re.Pattern[str],
+    converting_tuple: bool
 ) -> JsonValue:
     if isinstance(data, dict):
         for key, value in data.items():
-            data[key] = convert_keywords(value, keyword_colors, keyword_regex)
+            data[key] = convert_keywords(value, keyword_colors, keyword_pattern, converting_tuple)
     elif isinstance(data, list):
         for index, value in enumerate(data):
-            data[index] = convert_keywords(value, keyword_colors, keyword_regex)
+            data[index] = convert_keywords(value, keyword_colors, keyword_pattern, converting_tuple)
     elif isinstance(data, str):
-        return replace_shorthands(data, keyword_colors, keyword_regex)
+        return replace_shorthands(data, keyword_colors, keyword_pattern, converting_tuple)
     return data
 
 

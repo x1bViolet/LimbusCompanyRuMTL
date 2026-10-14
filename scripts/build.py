@@ -78,6 +78,7 @@ def build(
     )
     keyword_colors = load_keyword_colors(keyword_colors_path)
     keyword_regex = re.compile(config.keyword_shorthands.regex)
+    keyword_tuple_regex = re.compile(config.keyword_shorthands.regex_tuple)
     entities = load_story_entities(story_path / "entities")
     output_path.mkdir(parents=True, exist_ok=True)
     if include_fonts:
@@ -112,7 +113,8 @@ def build(
             localized = load_document(localized_file)
 
         if matches_any(relative_path, config.keyword_shorthands.apply_for):
-            _ = convert_keywords(localized, keyword_colors, keyword_regex)
+            _ = convert_keywords(localized, keyword_colors, keyword_regex, converting_tuple=False)
+            _ = convert_keywords(localized, keyword_colors, keyword_tuple_regex, converting_tuple=True)
         for rule in config.close_highlight:
             if fnmatch.fnmatch(relative_path.as_posix(), rule.file_pattern):
                 close_highlights(localized, rule)
