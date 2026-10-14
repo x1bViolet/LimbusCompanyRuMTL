@@ -1954,7 +1954,7 @@
         {
           "level": 3,
           "name": "Кроваво-пламенная резня【血炎亂舞】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
           "coinlist": [
             {
               "coindescs": [
@@ -1998,7 +1998,7 @@
         {
           "level": 4,
           "name": "Кроваво-пламенная резня【血炎亂舞】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">Наносит на (Сумма потерянных вместе с целью процентов <color=#00ff9c>ОЗ</color> × 2)% больше урона (До 50%)</style>\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> (До 2)</style>\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">Наносит на (Сумма потерянных вместе с целью процентов <color=#00ff9c>ОЗ</color> × 2)% больше урона (До 50%)</style>\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на цели <style=\"highlight\">(До 2)</style>\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> (До 2)</style>\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
           "coinlist": [
             {
               "coindescs": [
@@ -2186,7 +2186,7 @@
         {
           "level": 1,
           "name": "Безымянный разрез【無名斬】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2213,7 +2213,7 @@
         {
           "level": 2,
           "name": "Безымянный разрез【無名斬】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 6 и более [Breath:`Дыхания`]</style>",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">[WhenUse] Базовая сила +1 при 6 и более [Breath:`Дыхания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2243,7 +2243,7 @@
         {
           "level": 4,
           "name": "Безымянный разрез【無名斬】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 6</style> [Breath:`Дыхания`] <style=\"highlight\">(До 2)</style>",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[WhenUse] Базовая сила +1 <style=\"highlight\">за каждые 6</style> [Breath:`Дыхания`] <style=\"highlight\">(До 2)</style>",
           "coinlist": [
             {
               "coindescs": [
