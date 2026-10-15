@@ -1536,7 +1536,7 @@
         {
           "level": 1,
           "name": "Импульс【La Pulsion】",
-          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Нацеливается на <b>Старших сотрудников «Ле Руж»</b>\n- Используется в начале боевой фазы\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы увеличить Количество целей на 2",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n\n※ (<sprite name=\"SupportAlly\">) Нацеливается на <b>Старших сотрудников «Ле Руж»</b> и используется в начале боевой фазы\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Если счётчик своей [ChargeRouge:`Пульсации`] равен 10 и более, то тратит 10 его единиц, чтобы увеличить Количество целей на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1561,7 +1561,7 @@
         {
           "level": 1,
           "name": "Недостающее до бытия【Le Manque-à-être】",
-          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Используется во время хода на <b>Старшем сотруднике «Ле Руж»</b>, когда его Оглушают (Единожды за ход)\n- Восстановленный от Оглушения <b>Старший сотрудник «Ле Руж»</b> <color=#ff6000><mark=#ff000040><b><u>использует на последнем атаковавшем</u></b></mark></color> свой навык <color=#fe6f01>「Серпами моими я откликаюсь на твой зов!」</color> в качестве Односторонней атаки сразу после этого\n\n[CantDuel]\n[CantChangeTarget]",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n\n※ (<sprite name=\"SupportAlly\">) Используется во время хода на <b>Старшем сотруднике «Ле Руж»</b>, когда его Оглушают (Единожды за ход)\n※ Восстановленный от Оглушения <b>Старший сотрудник «Ле Руж»</b> <color=#ff6000><mark=#ff000040><b><u>использует на последнем атаковавшем</u></b></mark></color> свой навык <color=#fe6f01>「Серпами моими я откликаюсь на твой зов!」</color> в качестве Односторонней атаки сразу после этого\n\n[CantDuel]\n[CantChangeTarget]",
           "coinlist": [
             {
               "coindescs": [
@@ -1586,7 +1586,7 @@
         {
           "level": 1,
           "name": "Наслаждение【La Jouissance】",
-          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до конца использования этого навыка\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Восстанавливает 15 <color=#80c9ff>СД</color></u></b></mark></color> и <color=#ff6000><mark=#ff000040><b><u>даёт +2 к Силе в столкновении</u></b></mark></color> всем <b>Старшим сотрудникам «Ле Руж»</b> на поле боя\n[WhenUse] Если на поле боя нет <b>Старших сотрудников «Ле Руж»</b>, Сила в столкновении -3\n\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n\n[EndSkill] [BuffetScruple:`Пережитое с Буфи`] главной цели превращается в [BuffetResolve:`Решение`]",
+          "desc": "※ Не может быть Оглушён до конца использования этого навыка\n\n[nxCenterLine]\n\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Восстанавливает 15 <color=#80c9ff>СД</color></u></b></mark></color> и <color=#ff6000><mark=#ff000040><b><u>даёт +2 к Силе в столкновении</u></b></mark></color> всем <b>Старшим сотрудникам «Ле Руж»</b> на поле боя\n[WhenUse] Если на поле боя нет <b>Старших сотрудников «Ле Руж»</b>, Сила в столкновении -3\n\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n\n[EndSkill] [BuffetScruple:`Пережитое с Буфи`] главной цели превращается в [BuffetResolve:`Решение`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1633,8 +1633,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Предложение【La Demande】",
-          "desc": "※ <color=#ff6000><mark=#ff000040><b><u>Используется на главной цели других своих навыков, если</u></b></mark></color> к концу их атаки она имеет <color=#ff6000><mark=#ff000040><b><u>5 [BoneNail:`Отвращённого`]</u></b></mark></color>\n※ Не вызывает активацию Защитных навыков целей\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Главная цель теряет всё [BoneNail:`Отвращённое`]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[EndSkill] Главная цель <color=#ff6000><mark=#ff000040><b><u>теряет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>",
+          "name": "Требование【La Demande】",
+          "desc": "※ <color=#ff6000><mark=#ff000040><b><u>Используется на главной цели других своих Атакующих навыков, если</u></b></mark></color> к концу их использования она имеет <color=#ff6000><mark=#ff000040><b><u>5 [BoneNail:`Отвращённого`]</u></b></mark></color> (Единожды за ход)\n※ Не вызывает активацию Защитных навыков целей\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Главная цель теряет всё [BoneNail:`Отвращённое`]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[EndSkill] Главная цель <color=#ff6000><mark=#ff000040><b><u>теряет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1712,7 +1712,7 @@
         {
           "level": 1,
           "name": "Кастрация【La Castration】",
-          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до конца использования этого навыка\n\n<color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, Сила монет -3\n\n[WhenUse] Если количество [BuffetDream:`Воспоминаний Буфи`] ниже 5, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 6)\n[DefeatDuel] Наносит на 95% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>",
+          "desc": "※ Не может быть Оглушён до конца использования этого навыка\n\n[nxCenterLine]\n\n<color=#ff6000><mark=#ff000040><b><u>Если главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>, Сила монет -3\n[WhenUse] Если количество [BuffetDream:`Воспоминаний Буфи`] ниже 5, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 6)\n[DefeatDuel] Наносит на 95% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1875,7 +1875,7 @@
         {
           "level": 1,
           "name": "Наслаждение【La Jouissance】",
-          "desc": "[nxCenterLine]\n\nНе может быть Оглушён до конца использования этого навыка\n\n[WhenUse] Теряет 20 <color=#80c9ff>СД</color> и получает -3 к Силе монет, если <color=#ff6000><mark=#ff000040><b><u>главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] [BuffetScruple:`Пережитое с Буфи`] главной цели превращается в [BuffetResolve:`Решение`]",
+          "desc": "※ Не может быть Оглушён до конца использования этого навыка\n\n[nxCenterLine]\n\n[WhenUse] Теряет 20 <color=#80c9ff>СД</color> и получает -3 к Силе монет, если <color=#ff6000><mark=#ff000040><b><u>главная цель имеет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>\n[DefeatDuel] Наносит на 80% меньше урона и не может Оглушить целей\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [BuffetDream:`Воспоминания Буфи`]</u></b></mark></color>\n[EndSkill] [BuffetScruple:`Пережитое с Буфи`] главной цели превращается в [BuffetResolve:`Решение`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1923,7 +1923,7 @@
         {
           "level": 1,
           "name": "Отцовская метафора【La Métaphore Paternelle】",
-          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Используется в конце хода\n\n[CantDuel]\n[CantChangeTarget]\n\n[EndSkill] Восстанавливает себе 25% от максимальных <color=#00ff9c>ОЗ</color>",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n\n※ (<sprite name=\"SupportAlly\">) Используется в конце хода\n\n[CantDuel]\n[CantChangeTarget]\n[EndSkill] Восстанавливает себе 25% от максимальных <color=#00ff9c>ОЗ</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2156,7 +2156,7 @@
         {
           "level": 1,
           "name": "Мольба к голосу",
-          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n- Нацеливается на <b>Багряного бога 【Зрелость】</b>\n\n[CantDuel]\n[CantChangeTarget]",
+          "desc": "<b>[SupportEnemy:`Двойственный`](;SupportAlly) навык</b>\n\n※ (<sprite name=\"SupportAlly\">) Нацеливается на <b>Багряного бога 【Зрелость】</b>\n\n[CantDuel]\n[CantChangeTarget]",
           "coinlist": [
             {
               "coindescs": [

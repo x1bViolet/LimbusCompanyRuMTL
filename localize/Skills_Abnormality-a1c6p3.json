@@ -1037,7 +1037,7 @@
         {
           "level": 1,
           "name": "Каждый Хитклиф должен умереть...",
-          "desc": "[CantChangeTarget]\n[CantDuel]\nНе может быть Оглушён в течение этого хода",
+          "desc": "※ Не может быть Оглушён в течение этого хода\n\n[CantChangeTarget]\n[CantDuel]",
           "coinlist": [
             {
               "coindescs": [
