@@ -1577,3 +1577,11 @@ PersonalityBurst ¤ #a16a3b
 PersonalitySinking ¤ #a16a3b
 PersonalityBreath ¤ #a16a3b
 PersonalityCharge ¤ #a16a3b
+HungrySinclair ¤ #f8c200
+TransformSinclair ¤ #f8c200
+BoneNailSinclair ¤ #e30000
+BuffetSinclair ¤ #f8c200
+DinnerField ¤ #a16a3b
+BuffetFriendShield ¤ #a16a3b
+BuffetThirst ¤ #f8c200
+RougeFamilySinclair ¤ #f8c200

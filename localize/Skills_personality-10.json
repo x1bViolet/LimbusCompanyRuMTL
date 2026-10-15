@@ -2382,6 +2382,805 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Импульс【La Pulsion】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantChangeTarget]\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (Если целью навыка является другая Идентичность, то повышает его ещё на 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Если целью являлась другая Идентичность (До 2 раз за ход):\n- Восстанавливает ей 10% <color=#00ff9c>ОЗ</color> (До 15%)\n   · Если Идентичность принадлежит «Ле Руж», то вместо этого тратит 20% её <color=#00ff9c>ОЗ</color>, чтобы дать 2 [ResultEnhancement:`Повышения силы`])\n- Восстанавливает ей 10 <color=#80c9ff>СД</color> (До 15)\n   · Если её <color=#80c9ff>СД</color> была максимальной в этот момент, то повышает счётчик её [Charge:`Заряда`] на 4 вместо этого"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Импульс【La Pulsion】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantChangeTarget]\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)</style>\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (Если целью навыка является другая Идентичность, то повышает его ещё на 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Если целью являлась другая Идентичность (До 2 раз за ход):\n- Восстанавливает ей 10% <color=#00ff9c>ОЗ</color> (До 15%)\n   · Если Идентичность принадлежит «Ле Руж», то вместо этого тратит 20% её <color=#00ff9c>ОЗ</color>, чтобы дать 2 [ResultEnhancement:`Повышения силы`])\n- Восстанавливает ей 10 <color=#80c9ff>СД</color> (До 15)\n   · Если её <color=#80c9ff>СД</color> была максимальной в этот момент, то повышает счётчик её [Charge:`Заряда`] на 4 вместо этого"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Импульс【La Pulsion】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantChangeTarget]\n[WhenUse] Сила в столкновении +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 2)\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 5 (Если целью навыка является другая Идентичность, то повышает его ещё на 5)\n<style=\"highlight\">[WhenUse] Количество целей повышается на (Сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) - 1) (До 2 дополнительных целей; делает дополнительными целями в первую очередь Идентичностей «Ле Руж» по возрастанию их процента текущих <color=#00ff9c>ОЗ</color>)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Если целью являлась другая Идентичность (До 2 раз за ход):\n- Восстанавливает ей <style=\"highlight\">(</style>10 <style=\"highlight\">+ Сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge))%</style> <color=#00ff9c>ОЗ</color> (До 15%)\n   · Если Идентичность принадлежит «Ле Руж», то вместо этого тратит 20% её <color=#00ff9c>ОЗ</color>, чтобы дать 2 [ResultEnhancement:`Повышения силы`])\n- Восстанавливает ей <style=\"highlight\">(</style>10 <style=\"highlight\">+ Сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge))</style> <color=#80c9ff>СД</color> (До 15)\n   · Если её <color=#80c9ff>СД</color> была максимальной в этот момент, то повышает счётчик её [Charge:`Заряда`] на 4 вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я помогу вам【Je vous aide】",
+          "desc": "※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\nНаносит на 50% больше урона, если есть [BuffetSinclair:`Неудержимое неистовство`]\n[WhenUse] Получает 5 [HungrySinclair:`Неутолимого голода`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Я помогу вам【Je vous aide】",
+          "desc": "※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\nНаносит на 50% больше урона, если есть [BuffetSinclair:`Неудержимое неистовство`]\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 4)</style>\n[WhenUse] Получает 5 [HungrySinclair:`Неутолимого голода`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я помогу вам【Je vous aide】",
+          "desc": "※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\nНаносит на 50% больше урона, если есть [BuffetSinclair:`Неудержимое неистовство`]\n<style=\"highlight\">Наносит на (Процент потерянных <color=#00ff9c>ОЗ</color> цели × 5)% больше урона (До 100%)</style>\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на цели (До 4)\n[WhenUse] Получает 5 [HungrySinclair:`Неутолимого голода`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] (Единожды за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Исторгаю себя【Je m'expulse】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Исторгаю себя【Je m'expulse】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n<style=\"highlight\">[WhenUse] Сила монет +1, против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [BoneNailSinclair:`Отвращённого`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Аппетит【L'Appétit】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantChangeTarget]\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3\n[WhenUse] Если среди целей есть другие Идентичности, то заканчивает этот навык после использования первой монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Если целью являлась другая Идентичность:\n- Даёт ей [BuffetThirst:`Отчаянный голод`]\n- Если она способна использовать [Charge:`Заряд`], то повышает счётчик её [Charge:`Заряда`] на 4\n- Если она принадлежит «Ле Руж», то тратит 10% её <color=#00ff9c>ОЗ</color>, чтобы дать 2 [AttackUp:`Повышения уровня атаки`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Аппетит【L'Appétit】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantChangeTarget]\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 3 единицы силы своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 3)</style>\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3\n[WhenUse] Если среди целей есть другие Идентичности, то заканчивает этот навык после использования первой монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Если целью являлась другая Идентичность:\n- Даёт ей [BuffetThirst:`Отчаянный голод`]\n- Если она способна использовать [Charge:`Заряд`], то повышает счётчик её [Charge:`Заряда`] на 4\n- Если она принадлежит «Ле Руж», то тратит 10% её <color=#00ff9c>ОЗ</color>, чтобы дать 2 [AttackUp:`Повышения уровня атаки`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Аппетит【L'Appétit】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n[CantChangeTarget]\n<style=\"highlight\">[WhenUse] Количество целей +1 за каждые 2 единицы силы своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 2 дополнительных целей; делает дополнительными целями в первую очередь Идентичностей «Ле Руж» по возрастанию их процента текущих <color=#00ff9c>ОЗ</color>)</style>\n[WhenUse] Сила в столкновении +1 за каждые 3 единицы силы своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) (До 3)\n[WhenUse] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 3\n[WhenUse] Если среди целей есть другие Идентичности, то заканчивает этот навык после использования первой монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Если целью являлась другая Идентичность:\n- Даёт ей [BuffetThirst:`Отчаянный голод`] <style=\"highlight\">и 1 [ParryingResultUp:`Повышение силы в столкновении`]</style>\n- Если она способна использовать [Charge:`Заряд`], то повышает счётчик её [Charge:`Заряда`] на 4\n- Если она принадлежит «Ле Руж», то тратит 10% её <color=#00ff9c>ОЗ</color>, чтобы дать 2 [AttackUp:`Повышения уровня атаки`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101607,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Извергаю себя【Je m'abjecte】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[BeforeAttack] Для 2 других Идентичностей на поле боя: тратит 15% их <color=#00ff9c>ОЗ</color>, чтобы нанести на (Число затронутых Идентичностей × 15)% больше урона (В приоритете Идентичности «Ле Руж» по порядку убывания их текущих <color=#00ff9c>ОЗ</color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoneNailSinclair:`Отвращённого`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]\n- Если есть [BuffetSinclair:`Неудержимое неистовство`], то наносит ещё 1 [BoneNailSinclair:`Отвращённое`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Извергаю себя【Je m'abjecte】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более [Laceration:`Кровотечения`]</style>\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[BeforeAttack] Для 2 других Идентичностей на поле боя: тратит 15% их <color=#00ff9c>ОЗ</color>, чтобы нанести на (Число затронутых Идентичностей × 15)% больше урона (В приоритете Идентичности «Ле Руж» по порядку убывания их текущих <color=#00ff9c>ОЗ</color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoneNailSinclair:`Отвращённого`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]\n- Если есть [BuffetSinclair:`Неудержимое неистовство`], то наносит ещё 1 [BoneNailSinclair:`Отвращённое`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101608,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Требование【La Demande】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n※ Когда есть [TransformSinclair:`Благородное достоинство`], этот навык используется на главной цели других своих <link=\"ATL_Breath\"><u>Б</u>азовых</link> Атакующих навыков, если к концу их использования она имеет 5 [BoneNailSinclair:`Отвращённого`] (Эффект пассивного умения <b>「Жатва 【La Moisson】」</b>)\n※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\nНаносит на 5% больше урона за каждые 3 [Laceration:`Кровотечения`] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующй ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Требование【La Demande】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\nНаносит на 5% больше урона за каждые 3 [Laceration:`Кровотечения`] на цели (До 3)\n<style=\"highlight\">[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующй ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Багряное крещение【Le Baptême rouge】",
+          "desc": "[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[WhenUse] Если есть [BuffetSinclair:`Неудержимое неистовство`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит до 10 его единиц, чтобы получить +2 к Количеству целей и +1 к Силе монет\n[BeforeAttack] Для 2 других Идентичностей на поле боя: тратит 15% их <color=#00ff9c>ОЗ</color> и даёт 3 [AttackUp:`Повышения уровня атаки`]\n- Выбирает Идентичностей по порядку убывания их текущих <color=#00ff9c>ОЗ</color> среди тех, чей процент текущих <color=#00ff9c>ОЗ</color> равен 50% и более\n- Для Идентичностей «Ле Руж»: \n   · Они становятся приоритетными для этого эффекта независимо от процента текущих <color=#00ff9c>ОЗ</color>, пока их текущие <color=#00ff9c>ОЗ</color> равны 2 и более\n   · Тратит ещё 10% их <color=#00ff9c>ОЗ</color>, чтобы дать 1 [Enhancement:`Повышение силы атаки`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Багряное крещение【Le Baptême rouge】",
+          "desc": "<style=\"highlight\">Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 50)% больше урона (В фокусированных битвах считаются Части)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)</style>\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[WhenUse] Если есть [BuffetSinclair:`Неудержимое неистовство`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит до 10 его единиц, чтобы получить +2 к Количеству целей и +1 к Силе монет\n[BeforeAttack] Для 2 других Идентичностей на поле боя: тратит 15% их <color=#00ff9c>ОЗ</color> и даёт 3 [AttackUp:`Повышения уровня атаки`]\n- Выбирает Идентичностей по порядку убывания их текущих <color=#00ff9c>ОЗ</color> среди тех, чей процент текущих <color=#00ff9c>ОЗ</color> равен 50% и более\n- Для Идентичностей «Ле Руж»: \n   · Они становятся приоритетными для этого эффекта независимо от процента текущих <color=#00ff9c>ОЗ</color>, пока их текущие <color=#00ff9c>ОЗ</color> равны 2 и более\n   · Тратит ещё 10% их <color=#00ff9c>ОЗ</color>, чтобы дать 1 [Enhancement:`Повышение силы атаки`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 3 [HungrySinclair:`Неутолимого голода`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 3 [HungrySinclair:`Неутолимого голода`]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 3"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получает 3 [HungrySinclair:`Неутолимого голода`]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101609,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Недостающее до бытия【Le Manque-à-être】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n- Когда пассивное умение Синклера <b>「Силы жизни 【Les Pouvoirs de la vie】」</b> активно, он использует этот навык на других Идентичностях после того, как они Оглушаются из-за полученного урона (Единожды за ход на Идентичностей «Ле Руж» и единожды за битву на остальных Идентичностей; при наличии [TransformSinclair:`Благородного достоинства`] активируется только для Идентичностей «Ле Руж»)\n\n※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[CantDuel]\n[CantChangeTarget]\n[WhenUse] Получает 5 [Binding:`Связывания`] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Восстанавливает цель от Оглушения"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Недостающее до бытия【Le Manque-à-être】",
+          "desc": "<b>[SupportAlly:`Двойственный`] навык</b>\n\n※ (<sprite name=\"SupportAlly\">) Когда пассивное умение Синклера <b>「Силы жизни 【Les Pouvoirs de la vie】」</b> активно, он использует этот навык на других Идентичностях после того, как они Оглушаются из-за полученного урона (Единожды за ход на Идентичностей «Ле Руж» и единожды за битву на остальных Идентичностей; при наличии [TransformSinclair:`Благородного достоинства`] активируется только для Идентичностей «Ле Руж»)\n※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[CantDuel]\n[CantChangeTarget]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[INDIGO] Восстанавливает цель от Оглушения"
+                },
+                {
+                  "desc": "<style=\"highlight\">[INDIGO] Восстанавливает цели 15% <color=#00ff9c>ОЗ</color></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101610,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ненасытность【La Voracité】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[TurnStartBattle] Если имеется 150 [HungrySinclair:`Неутолимого голода`], то этот навык заменяется на альтернативный третий навык <color=#fe6f01>「Кастрация 【La Castration】」</color> (Единожды за ход)\n\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[WhenUse] Если есть [BuffetSinclair:`Неудержимое неистовство`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит 10 его единиц, чтобы получить +2 к Количеству целей и +1 к Силе монет\n[BeforeAttack] Для 3 других Идентичностей на поле боя: тратит 15% их <color=#00ff9c>ОЗ</color>, чтобы нанести на (Число затронутых Идентичностей × 10)% больше урона (В приоритете Идентичности «Ле Руж» по порядку убывания их текущих <color=#00ff9c>ОЗ</color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если попадает по главной цели, то наносит ей 1 дополнительное [BoneNailSinclair:`Отвращённое`] за каждую излишнюю цель этого навыка по сравнению с его фактическим Количеством целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ненасытность【La Voracité】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[TurnStartBattle] Если имеется 150 [HungrySinclair:`Неутолимого голода`], то этот навык заменяется на альтернативный третий навык <color=#fe6f01>「Кастрация 【La Castration】」</color> (Единожды за ход)\n\n<style=\"highlight\">Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 50)% больше урона (В фокусированных битвах считаются Части)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели</style>\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[WhenUse] Если есть [BuffetSinclair:`Неудержимое неистовство`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равен 10 и более, то тратит 10 его единиц, чтобы получить +2 к Количеству целей и +1 к Силе монет\n[BeforeAttack] Для 3 других Идентичностей на поле боя: тратит 15% их <color=#00ff9c>ОЗ</color>, чтобы нанести на (Число затронутых Идентичностей × 10)% больше урона (В приоритете Идентичности «Ле Руж» по порядку убывания их текущих <color=#00ff9c>ОЗ</color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если попадает по главной цели, то наносит ей 1 дополнительное [BoneNailSinclair:`Отвращённое`] за каждую излишнюю цель этого навыка по сравнению с его фактическим Количеством целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101611,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Кастрация【La Castration】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[BeforeUse] При менее чем 150 [HungrySinclair:`Неутолимого голода`] использует альтернативный третий навык <color=#fe6f01>「Ненасытность 【La Voracité】」</color> вместо этого \n[StartBattle] Тратит 50% текущих <color=#00ff9c>ОЗ</color> всех других Идентичностей «Ле Руж» и даёт им 3 [BuffetSinclair:`Неудержимого неистовства`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n[EndSkill] Теряет весь [HungrySinclair:`Неутолимый голод`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если попадает по главной цели, то наносит ей 1 дополнительное [BoneNailSinclair:`Отвращённое`] за каждую излишнюю цель этого навыка по сравнению с его фактическим Количеством целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает (Потерянное значение) [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующй ход (До 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Кастрация【La Castration】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n<style=\"highlight\">Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 50)% больше урона (В фокусированных битвах считаются Части)</style>\n[BeforeUse] При менее чем 150 [HungrySinclair:`Неутолимого голода`] использует альтернативный третий навык <color=#fe6f01>「Ненасытность 【La Voracité】」</color> вместо этого \n[StartBattle] Тратит 50% текущих <color=#00ff9c>ОЗ</color> всех других Идентичностей «Ле Руж» и даёт им 3 [BuffetSinclair:`Неудержимого неистовства`]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели\n[WhenUse] Если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3 и более, Сила монет +1\n<style=\"highlight\">[WhenUse] Если есть [BuffetSinclair:`Неудержимое неистовство`], Сила монет +1</style>\n[EndSkill] Теряет весь [HungrySinclair:`Неутолимый голод`]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если попадает по главной цели, то наносит ей 1 дополнительное [BoneNailSinclair:`Отвращённое`] за каждую излишнюю цель этого навыка по сравнению с его фактическим Количеством целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает (Потерянное значение) [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующй ход (До 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Тратит до 15 единиц счётчика своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge), чтобы нанести этой монетой на (Потраченный счётчик × 3)% больше урона</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уклонение【La Fuite】",
+          "desc": "[StartBattle] Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 15 и не имеется [BuffetSinclair:`Неудержимого неистовства`], то тратит (15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge))% своих <color=#00ff9c>ОЗ</color> и поднимает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) до 15 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 2 (До 2 раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уклонение【La Fuite】",
+          "desc": "[StartBattle] Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 15 и не имеется [BuffetSinclair:`Неудержимого неистовства`], то тратит (15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge))% своих <color=#00ff9c>ОЗ</color> и поднимает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) до 15 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedEvade] Повышает счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) на 2 (До 2 раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101612,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стража【La Garde】",
+          "desc": "※ Этот навык считается <b>Специальным навыком для [SupportProtect:`Вспомогательной защиты`]</b> только для того, кто его использует во время боя посредством эффекта [BuffetFriendShield:`Служения божеству`]\n\nСинклер получает 2 [HungrySinclair:`Неутолимого голода`], когда использующая этот навык Идентичность получает удар от атакующего\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на атакующем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin:`Вечная монета`]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101613,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Унарный признак【Le Trait unaire】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[DuelCounter]\n[StartBattle] Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 15 и не имеется [BuffetSinclair:`Неудержимого неистовства`], то тратит (15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge))% своих <color=#00ff9c>ОЗ</color> и поднимает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) до 15 (Единожды за ход)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на атакующем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Унарный признак【Le Trait unaire】",
+          "desc": "<b>Навык [TransformSinclair:`Благородного достоинства`]</b>\n\n[DuelCounter]\n[StartBattle] Если счётчик своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) ниже 15 и не имеется [BuffetSinclair:`Неудержимого неистовства`], то тратит (15 - текущий счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge))% своих <color=#00ff9c>ОЗ</color> и поднимает счётчик [ChargeRougeAlly:`Пульсации`](;ChargeRouge) до 15 (Единожды за ход)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration:`Кровотечения`] на атакующем\n<style=\"highlight\">[WhenUse] Сила монет +1/+2, если сила своей [ChargeRougeAlly:`Пульсации`](;ChargeRouge) равна 3+/5+ соответственно</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoneNailSinclair:`Отвращённое`] <style=\"highlight\">(Наносит ещё 1 [BoneNailSinclair:`Отвращённое`], если есть [BuffetSinclair:`Неудержимое неистовство`])</style>"
+                },
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
