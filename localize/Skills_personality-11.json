@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Подождите!",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -20,7 +20,7 @@
         {
           "level": 2,
           "name": "Подождите!",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">4</style> при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">Итоговая сила +1, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2</style>",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">4</style> при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">Итоговая сила +1, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -34,7 +34,7 @@
         {
           "level": 4,
           "name": "Подождите!",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\nИтоговая сила <style=\"highlight\">+2</style>, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\nИтоговая сила <style=\"highlight\">+2</style>, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -81,7 +81,7 @@
         {
           "level": 2,
           "name": "На кусочки",
-          "desc": "<style=\"highlight\">Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка</style>\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "<style=\"highlight\">※ Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка</style>\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -109,7 +109,7 @@
         {
           "level": 4,
           "name": "На кусочки",
-          "desc": "Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [

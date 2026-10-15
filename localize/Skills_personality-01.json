@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Спокойно",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
           "coinlist": [
             {},
             {
@@ -21,7 +21,7 @@
         {
           "level": 2,
           "name": "Спокойно",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 4</style> при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2</style>",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 4</style> при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2</style>",
           "coinlist": [
             {},
             {
@@ -36,7 +36,7 @@
         {
           "level": 4,
           "name": "Спокойно",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 5 и более</style>\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 3</style>",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">Сила монет +1, если счётчик своего [Vibration:`Тремора`] равен 5 и более</style>\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 3</style>",
           "coinlist": [
             {},
             {
@@ -56,7 +56,7 @@
         {
           "level": 1,
           "name": "Риск",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -70,7 +70,7 @@
         {
           "level": 2,
           "name": "Риск",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 4</style> при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] <style=\"highlight\">на 4</style> при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -87,7 +87,7 @@
         {
           "level": 4,
           "name": "Риск",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -634,7 +634,7 @@
         {
           "level": 1,
           "name": "Трата знаний",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 2)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 2)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -655,7 +655,7 @@
         {
           "level": 2,
           "name": "Трата знаний",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">3</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">3</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -676,7 +676,7 @@
         {
           "level": 4,
           "name": "Трата знаний",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 3)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]</style>",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 3)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -702,7 +702,7 @@
         {
           "level": 1,
           "name": "Сокрытие за печатью",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 4)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 4)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {},
             {
@@ -724,7 +724,7 @@
         {
           "level": 2,
           "name": "Сокрытие за печатью",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход</style>",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">5</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход</style>",
           "coinlist": [
             {},
             {
@@ -746,7 +746,7 @@
         {
           "level": 4,
           "name": "Сокрытие за печатью",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">6</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]</style>\n[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">6</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] [Discard:`Сбрасывает`] навык высшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 5 и более [Sinking:`Утопания`]</style>\n[WhenUse] Слот с этим навыком получает 3 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {
@@ -773,7 +773,7 @@
         {
           "level": 3,
           "name": "Благословение знания",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 9)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] Слот с этим навыком получает 8 [Aggro:`Провокации`] на следующий ход",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × 9)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] Слот с этим навыком получает 8 [Aggro:`Провокации`] на следующий ход",
           "coinlist": [
             {},
             {},
@@ -790,7 +790,7 @@
         {
           "level": 4,
           "name": "Благословение знания",
-          "desc": "При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">12</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] Слот с этим навыком получает <style=\"highlight\">10</style> [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%</style>",
+          "desc": "※ При [Discard:`Сбросе`] этого навыка получает <color=#366ffb>OЗ Щита</color>, равные (Число своих [KnowledgeExplored:`Откровений`](#f8c200) × <style=\"highlight\">12</style>)% от максимальных <color=#00ff9c>ОЗ</color>\n\n[WhenUse] Слот с этим навыком получает <style=\"highlight\">10</style> [Aggro:`Провокации`] на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1, если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%</style>",
           "coinlist": [
             {},
             {},
