@@ -1789,7 +1789,7 @@
         {
           "level": 2,
           "name": "Ах, пусть запах сгорающей крови...",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1817,7 +1817,7 @@
         {
           "level": 4,
           "name": "Ах, пусть запах сгорающей крови...",
-          "desc": "[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более",
+          "desc": "[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -1884,7 +1884,7 @@
         {
           "level": 2,
           "name": "...Утолит моё неистовство",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1912,7 +1912,7 @@
         {
           "level": 4,
           "name": "...Утолит моё неистовство",
-          "desc": "[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более",
+          "desc": "[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -1954,7 +1954,7 @@
         {
           "level": 3,
           "name": "Кроваво-пламенная резня【血炎亂舞】",
-          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 6 и более\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50%, то все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Получает 1 [ChickenStance:`Кровавое пламя`]\n[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 6 и более\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
           "coinlist": [
             {
               "coindescs": [
@@ -2074,7 +2074,7 @@
         {
           "level": 4,
           "name": "Смертельный удар парящего петуха【鷄窮則殺】",
-          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`] на следующий ход\n<style=\"highlight\">[WhenUse] Базовая сила +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:Разрыва] равна 10 и более</style>\n[WhenUse] Сила монет +1, если имеется [ChickenStance]\n<style=\"highlight\">[WhenUse] Наносит на 1% больше урона за каждые 3% потерянных в этой битве <color=#00ff9c>ОЗ</color> (До 30%; вся потеря <color=#00ff9c>ОЗ</color> складывается)</style>\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
+          "desc": "[DuelCounter]\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`] на следующий ход\n<style=\"highlight\">[WhenUse] Базовая сила +1 против целей, чья сумма силы [Combustion:`Огня`] и [Burst:`Разрыва`] равна 10 и более</style>\n[WhenUse] Сила монет +1, если имеется [ChickenStance]\n<style=\"highlight\">[WhenUse] Наносит на 1% больше урона за каждые 3% потерянных в этой битве <color=#00ff9c>ОЗ</color> (До 30%; вся потеря <color=#00ff9c>ОЗ</color> складывается)</style>\n[DefeatDuel] Получает 2 [Combustion:`Огня`] вместе с целью",
           "coinlist": [
             {
               "coindescs": [

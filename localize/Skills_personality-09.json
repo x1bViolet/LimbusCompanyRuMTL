@@ -2819,7 +2819,7 @@
         {
           "level": 3,
           "name": "Критика",
-          "desc": "[DuelCounter]\nНаносит на 8% больше урона за каждый тип негативных эффектов на цели (До 40%)\nНаносит на 30% больше урона целям, имеющим [IntenseColorsRodion:`Цветастую палитру`]\n[WhenUse] Итоговая сила +3 против целей, чья сумма силы [Laceration:`Кровотечения`] и [Sinking:Утопания] равна 4 и более\n[WhenUse] Получает 2 [ParryingResultUp:`Повышения силы в столкновении`], если цель имеет [IntenseColorsRodion:`Цветастую палитру`] \n[EndSkillAll] Получает 2 [TestWaitDocentRodion:`Рефлексии`]",
+          "desc": "[DuelCounter]\nНаносит на 8% больше урона за каждый тип негативных эффектов на цели (До 40%)\nНаносит на 30% больше урона целям, имеющим [IntenseColorsRodion:`Цветастую палитру`]\n[WhenUse] Итоговая сила +3 против целей, чья сумма силы [Laceration:`Кровотечения`] и [Sinking:`Утопания`] равна 4 и более\n[WhenUse] Получает 2 [ParryingResultUp:`Повышения силы в столкновении`], если цель имеет [IntenseColorsRodion:`Цветастую палитру`] \n[EndSkillAll] Получает 2 [TestWaitDocentRodion:`Рефлексии`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2845,7 +2845,7 @@
         {
           "level": 4,
           "name": "Критика",
-          "desc": "[DuelCounter]\nНаносит на <style=\"highlight\">10%</style> больше урона за каждый тип негативных эффектов на цели (До 40%)\nНаносит на 30% больше урона целям, имеющим [IntenseColorsRodion:`Цветастую палитру`]\n[WhenUse] Итоговая сила +3 против целей, чья сумма силы [Laceration:`Кровотечения`] и [Sinking:Утопания] равна 4 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 за каждые 2 типа негативных эффектов на цели (До 6)</style>\n[WhenUse] Получает 2 [ParryingResultUp:`Повышения силы в столкновении`], если цель имеет [IntenseColorsRodion:`Цветастую палитру`] \n[EndSkillAll] Получает 2 [TestWaitDocentRodion:`Рефлексии`]",
+          "desc": "[DuelCounter]\nНаносит на <style=\"highlight\">10%</style> больше урона за каждый тип негативных эффектов на цели (До 40%)\nНаносит на 30% больше урона целям, имеющим [IntenseColorsRodion:`Цветастую палитру`]\n[WhenUse] Итоговая сила +3 против целей, чья сумма силы [Laceration:`Кровотечения`] и [Sinking:`Утопания`] равна 4 и более\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 за каждые 2 типа негативных эффектов на цели (До 6)</style>\n[WhenUse] Получает 2 [ParryingResultUp:`Повышения силы в столкновении`], если цель имеет [IntenseColorsRodion:`Цветастую палитру`] \n[EndSkillAll] Получает 2 [TestWaitDocentRodion:`Рефлексии`]",
           "coinlist": [
             {
               "coindescs": [
