@@ -1634,7 +1634,7 @@
         {
           "level": 1,
           "name": "Требование【La Demande】",
-          "desc": "※ <color=#ff6000><mark=#ff000040><b><u>Используется на главной цели других своих Атакующих навыков, если</u></b></mark></color> к концу их использования она имеет <color=#ff6000><mark=#ff000040><b><u>5 [BoneNail:`Отвращённого`]</u></b></mark></color> (Единожды за ход)\n※ Не вызывает активацию Защитных навыков целей\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Главная цель теряет всё [BoneNail:`Отвращённое`]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[EndSkill] Главная цель <color=#ff6000><mark=#ff000040><b><u>теряет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>",
+          "desc": "※ Не вызывает активацию Защитных навыков целей\n※ <color=#ff6000><mark=#ff000040><b><u>Используется на главной цели других своих Атакующих навыков, если</u></b></mark></color> к концу их использования она имеет <color=#ff6000><mark=#ff000040><b><u>5 [BoneNail:`Отвращённого`]</u></b></mark></color> (Единожды за ход)\n\n[CantDuel]\n[CantChangeTarget]\n\n[WhenUse] Главная цель теряет всё [BoneNail:`Отвращённое`]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration:`Кровотечения`] на главной цели (До 2)\n[EndSkill] Главная цель <color=#ff6000><mark=#ff000040><b><u>теряет [BuffetScruple:`Пережитое с Буфи`]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
