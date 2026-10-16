@@ -1,4 +1,5 @@
 ﻿{
+  "Manual File Type": "Keywords (Bufs)",
   "dataList": [
     {
       "id": "AtkDamageMultiplier",
@@ -98,27 +99,27 @@
     },
     {
       "id": "Crack",
-      "desc": "<b>【[VibrationCrack:`Тремор - Разлом`]】</b>\nЕсли сумма силы и счётчика своего [VibrationCrack:`Тремора`] будучи в Оглушении равна 20 и более, уровень Оглушения повышается на 1 (Не может превысить максимальный уровень Оглушения)\n"
+      "desc": "<b>【[VibrationCrack:`Тремор - Разлом`]】</b>\n· Если сумма силы и счётчика своего [VibrationCrack:`Тремора`] будучи в Оглушении равна 20 и более, то уровень Оглушения повышается на 1 (Не может превысить максимальный уровень Оглушения)\n"
     },
     {
       "id": "VibrationEcho",
-      "desc": "<b>【[VibrationEcho:`Тремор - Эхо`]】</b>\nПри получении атак, вызывающих [VibrationExplosion:`Провокацию Тремора`], получит {0} урона Леностью.\n"
+      "desc": "<b>【[VibrationEcho:`Тремор - Эхо`]】</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationEcho:`Тремора`] <b>наносит урон <color=#fed133>Леностью</color></b>, равный его силе\n"
     },
     {
       "id": "VibrationDistribution",
-      "desc": "<b>【[VibrationDistribution:`Тремор - Распределение`]】</b>\nВ конце хода получает (Сумма счётчика [Vibration:`Тремора`] всех союзников / число живых союзников) [AttackUp:`Повышений уровня атаки`] на следующий ход (До 5)\n"
+      "desc": "<b>【[VibrationDistribution:`Тремор - Распределение`]】</b>\n· Конец хода: получает (Сумма счётчика [Vibration:`Тремора`] всех союзников / число живых союзников) [AttackUp:`Повышений уровня атаки`] на следующий ход (До 5)\n"
     },
     {
       "id": "VibrationChain",
-      "desc": "<b>【[VibrationChain:`Тремор - Цепи`]】</b>\n<b>Сила в столкновении понижается</b> на 1 за каждые 10 [VibrationChain:`Тремора`] на себе (До 3)\n"
+      "desc": "<b>【[VibrationChain:`Тремор - Цепи`]】</b>\n· <b>Сила в столкновении понижается</b> на 1 за каждые 10 [VibrationChain:`Тремора`] на себе (До 3)\n"
     },
     {
       "id": "VibrationContinue",
-      "desc": "<b>【[VibrationContinue:`Тремор - Вечность`]】</b>\nПри получении удара от навыка или монеты, что [VibrationExplosion:`Провоцирует Тремор`]:\n  - С шансом (Сила своего [VibrationContinue:`Тремора`])% он может спровоцироваться <b>ещё раз</b> (До 50% шанса)\n  - С шансом (Счётчик своего [VibrationContinue:`Тремора`])% он может спровоцироваться <b>ещё раз</b> (До 50% шанса)\n"
+      "desc": "<b>【[VibrationContinue:`Тремор - Вечность`]】</b>\n· При [VibrationExplosion:`Провокации`] этого [VibrationContinue:`Тремора`] эффектами навыков или монет:\n  - С шансом (Сила своего [VibrationContinue:`Тремора`])% он может спровоцироваться <b>ещё раз</b> (До 50% шанса)\n  - С шансом (Счётчик своего [VibrationContinue:`Тремора`])% он может спровоцироваться <b>ещё раз</b> (До 50% шанса)\n"
     },
     {
       "id": "VibrationFocusing",
-      "desc": "<b>【[VibrationContinue:`Тремор - Консервация`]】</b>\n· При [VibrationExplosion:`Провокации`] своего [VibrationFocusing:`Тремора`] получает урон <color=#fed133>Леностью</color> в размере (60 + (Сила [Charge:`Заряда`] или Особого Заряда атакующего × 8))% от силы своего [VibrationFocusing:`Тремора`], после чего его счётчик понижается на 1 (До 120%)\n  - Счётчик [VibrationFocusing:`Тремора`] не понижается, если атакующим является Идентичность «Ле Нуар»\n· Граница Выносливости повышается на силу своего [VibrationFocusing:`Тремора`] при получении урона от навыков, которые [VibrationExplosion:`Провоцируют Тремор`]\n"
+      "desc": "<b>【[VibrationContinue:`Тремор - Консервация`]】</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationFocusing:`Тремора`] <b>наносит урон <color=#fed133>Леностью</color></b> в размере (60 + (Сила [Charge:`Заряда`] или [PersonalityCharge:`Особого Заряда`](:nolink) атакующего × 8))% от силы [VibrationFocusing:`Тремора`] (До 120%), после чего его счётчик понижается на 1\n  - Счётчик [VibrationFocusing:`Тремора`] не понижается, если атакующим является Идентичность «Ле Нуар»\n· Граница Выносливости повышается на силу своего [VibrationFocusing:`Тремора`] при получении урона от навыков, которые [VibrationExplosion:`Провоцируют Тремор`]\n"
     },
     {
       "id": "TimeSuspend",
@@ -133,7 +134,7 @@
     {
       "id": "VibrationChainPersonality",
       "name": "Тремор - Цепи",
-      "desc": "<b>【[VibrationChainPersonality:`Тремор - Цепи`]】</b>\n<b>Сила в столкновении понижается</b> на 1 за каждые 10 [VibrationChainPersonality:`Тремора`] на себе (До 3)\n",
+      "desc": "<b>【[VibrationChainPersonality:`Тремор - Цепи`]】</b>\n· <b>Сила в столкновении понижается</b> на 1 за каждые 10 [VibrationChainPersonality:`Тремора`] на себе (До 3)\n",
       "summary": ""
     },
     {
@@ -358,7 +359,7 @@
     },
     {
       "id": "VibrationIgnition",
-      "desc": "【[VibrationIgnition:`Тремор - Ожог`]】\nСледующие {1} [VibrationExplosion:`Провокаций Тремора`] получит (({0} + Сила [Combustion:`Огня`]) / 2) урона Гневом\n"
+      "desc": "【[VibrationIgnition:`Тремор - Ожог`]】\n· [VibrationExplosion:`Провокация`] этого [VibrationIgnition:`Тремора`] <b>наносит урон <color=#fe0101>Гневом</color></b> в количестве (Сумма силы [VibrationIgnition:`Тремора`] и [Combustion:`Огня`] / 2), понижая счётчик [Combustion:`Огня`] на 1\n"
     },
     {
       "id": "Heishou10212",
@@ -434,7 +435,7 @@
     },
     {
       "id": "VibrationBleeding",
-      "desc": "<b>【[VibrationBleeding:`Тремор - Кровоизлияние`]】</b>\nСледующие {1} [VibrationExplosion:`Провокаций Тремора`] получит (({0} + Сила [Laceration:`Кровотечения`]) / 2) урона Похотью\n"
+      "desc": "<b>【[VibrationBleeding:`Тремор - Кровоизлияние`]】</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationBleeding:`Тремора`] <b>наносит урон <color=#fe6f01>Похотью</color></b> в количестве (Сумма силы своего [VibrationBleeding:`Тремора`] и [Laceration:`Кровотечения`] / 2), понижая счётчик [Laceration:`Кровотечения`] на 1\n"
     },
     {
       "id": "MD7LimitGiveBuffAllyDie",
@@ -513,6 +514,14 @@
       "desc": "· Сопротивление к греху \"{0}\" ослабляется на {2}\n· Сопротивление к типу физ. урона \"{1}\" ослабляется на {2}",
       "variation": "Сопротивление к типу урона \"{1}\" ослабляется на {2}",
       "variation2": "Без эффекта"
+    },
+    {
+      "id": "RougeFamilySinclair",
+      "desc": "When conditions are met by other \"Le Rouge\" allies, activate corresponding effects for Haute Couture::The Crimson God of Le Rouge Sinclair\n- Effects remain active even if the corresponding ally is defeated"
+    },
+    {
+      "id": "RougeFamily10816",
+      "desc": "Le Rouge Ishmael\n- If Ishmael is in \"Full Makeover\" state, Sinclair's max HP +10%; Sinclair heals 5% max HP On Base Attack Hit (rounded up, 5 times per turn)"
     }
   ]
 }
