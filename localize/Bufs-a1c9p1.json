@@ -45,7 +45,7 @@
     {
       "id": "HumanFleshTheRings",
       "name": "Телесный ингредиент",
-      "desc": "<b>Является [PersonalityCharge:`Особым Зарядом`](:nolink)</b> (Фиксированная сила)\nМаксимальное значение: 2",
+      "desc": "<line-height=134%><size=90%><b>Является [PersonalityCharge:`Особым Зарядом`](:nolink)</b></size></line-height> (Фиксированная сила)\nМаксимальное значение: 2",
       "summary": "",
       "undefined": "-"
     },

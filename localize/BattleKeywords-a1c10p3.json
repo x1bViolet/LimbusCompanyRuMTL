@@ -165,7 +165,7 @@
     {
       "id": "VibrationFocusing",
       "name": "Тремор — Консервация",
-      "desc": "<b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b>\n· [VibrationExplosion:`Провокация`] этого [VibrationFocusing:`Тремора`] <b>наносит урон <color=#fed133>Леностью</color></b> в размере (60 + (Сила [Charge:`Заряда`] или [PersonalityCharge:`Особого Заряда`](:nolink) атакующего × 8))% от силы [VibrationFocusing:`Тремора`] (До 120%), после чего его счётчик понижается на 1\n  - Счётчик [VibrationFocusing:`Тремора`] не понижается, если атакующим является Идентичность «Ле Нуар»\n· Граница Выносливости повышается на силу своего [VibrationFocusing:`Тремора`] при получении урона от навыков, которые [VibrationExplosion:`Провоцируют Тремор`]\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]"
+      "desc": "<line-height=134%><size=90%><b>Является [PersonalityVibration:`Особым Тремором`](:nolink)</b></size>\n<line-height=100%>· [VibrationExplosion:`Провокация`] этого [VibrationFocusing:`Тремора`] <b>наносит урон <color=#fed133>Леностью</color></b> в размере (60 + (Сила [Charge:`Заряда`] или [PersonalityCharge:`Особого Заряда`](:nolink) атакующего × 8))% от силы [VibrationFocusing:`Тремора`] (До 120%), после чего его счётчик понижается на 1\n  - Счётчик [VibrationFocusing:`Тремора`] не понижается, если атакующим является Идентичность «Ле Нуар»\n· Граница Выносливости повышается на силу своего [VibrationFocusing:`Тремора`] при получении урона от навыков, которые [VibrationExplosion:`Провоцируют Тремор`]\n※ Сохраняет все остальные свойства обычного [Vibration:`Тремора`]"
     },
     {
       "id": "ExecutionNailThirdPhase",
