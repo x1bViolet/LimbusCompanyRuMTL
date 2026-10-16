@@ -517,11 +517,11 @@
     },
     {
       "id": "RougeFamilySinclair",
-      "desc": "When conditions are met by other \"Le Rouge\" allies, activate corresponding effects for Haute Couture::The Crimson God of Le Rouge Sinclair\n- Effects remain active even if the corresponding ally is defeated"
+      "desc": "Следующие эффекты активируются для <b>「От-кутюр::Багряного бога «Ле Руж»」</b> Синклера в зависимости от текущего состояния других Идентичностей «Ле Руж» (Эффекты остаются активными даже после их смерти):\n"
     },
     {
       "id": "RougeFamily10816",
-      "desc": "Le Rouge Ishmael\n- If Ishmael is in \"Full Makeover\" state, Sinclair's max HP +10%; Sinclair heals 5% max HP On Base Attack Hit (rounded up, 5 times per turn)"
+      "desc": "<b>「От Кутюр::Бутик дю «Руж»」</b> Измаил:\n• Когда она в состоянии [RougeIshmaelEclose:`Полного преображения`]: максимальные <color=#00ff9c>ОЗ</color> Синклера увеличиваются на 10%, Синклер восстанавливает свои <color=#00ff9c>ОЗ</color> на 5% от наносимого своими <link=\"ATL_Breath\"><u>Б</u>азовыми</link> Атакующими навыками урона (До 5 раз за ход; округляется вверх)\n"
     }
   ]
 }
