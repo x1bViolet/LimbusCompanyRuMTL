@@ -34,6 +34,12 @@ class KeywordShorthands(msgspec.Struct):
     apply_for: list[str]
 
 
+class IllegalSquareBracketsTweak(msgspec.Struct):
+    regex: str
+    open_skilltag: str
+    close_skilltag: str
+
+
 class Priority(msgspec.Struct):
     order: list[str] = msgspec.field(default_factory=list)
 
@@ -55,6 +61,7 @@ class Config(msgspec.Struct):
     font: Font
     reference: Reference
     keyword_shorthands: KeywordShorthands
+    illegal_square_brackets_tweak: IllegalSquareBracketsTweak
     priority: Priority
     xml_escape: XmlEscape
 

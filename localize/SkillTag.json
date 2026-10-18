@@ -1,24 +1,89 @@
 ﻿{
   "dataList": [
     {
+      "id": "Заголовок",
+      "name": "-------------------< Монеты >-------------------"
+    },
+    {
+      "id": "OnStartCoin",
+      "name": "[Начало монеты]"
+    },
+    {
+      "id": "CoinHead",
+      "name": "[Выпал Орёл]"
+    },
+    {
+      "id": "CoinTail",
+      "name": "[Выпала Решка]"
+    },
+    {
+      "id": "OnSucceedEvade",
+      "name": "<color=#c6fe94>[Успешный уворот]</color>"
+    },
+    {
+      "id": "OnDefeatEvade",
+      "name": "<color=#fe0000>[Неудачный уворот]</color>"
+    },
+    {
       "id": "OnSucceedAttack",
       "name": "[При ударе]"
     },
     {
-      "id": "WhenUse",
-      "name": "[При использовании]"
+      "id": "WinDuelAttack",
+      "name": "[При ударе после победы в столкновении]"
     },
     {
-      "id": "WinDuel",
-      "name": "[Победа в столкновении]"
+      "id": "WinDuelAttackHead",
+      "name": "<color=#fe59c0>[При ударе Орлом после победы в столкновении]</color>"
     },
     {
-      "id": "BeforeAttack",
-      "name": "[Перед атакой]"
+      "id": "CriticalOnSucceedAttack",
+      "name": "<color=#c6fe94>[При Критическом ударе]</color>"
     },
     {
-      "id": "Wide",
-      "name": "<color=#93f03f>[Во время столкновения]</color>"
+      "id": "CriticalOnSucceedAttackHead",
+      "name": "<color=#fe59c0>[При Критическом ударе Орлом]</color>"
+    },
+    {
+      "id": "OnSucceedAttackHead",
+      "name": "<color=#fe59c0>[При ударе Орлом]</color>"
+    },
+    {
+      "id": "OnSucceedAttackTail",
+      "name": "<color=#c90080>[При ударе Решкой]</color>"
+    },
+    {
+      "id": "ReUse",
+      "name": "<color=#c6fe94>[Повторное подкидывание]</color>"
+    },
+    {
+      "id": "ReUseOnSucceedAttack",
+      "name": "<color=#c6fe94>[Повторное подкидывание - При ударе]</color>"
+    },
+    {
+      "id": "ReUseOnSucceedAttackHead",
+      "name": "<color=#fe59c0>[Повторное подкидывание - При ударе Орлом]</color>"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "<color=#c6fe94>[При ударе расколотой <link=\"SuperCoin\">Вечной монетой</link>]</color>"
+    },
+    {
+      "id": "UnBrokenCoinOnSucceedAttack",
+      "name": "<color=#c6fe94>[При ударе целой <link=\"SuperCoin\">Вечной монетой</link>]</color>"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[Конец монеты]"
+    },
+    
+    
+    
+    
+    
+    {
+      "id": "Заголовок",
+      "name": "-------------------< Навыки >-------------------"
     },
     {
       "id": "nxPostLine",
@@ -33,120 +98,12 @@
       "name": "[Неуправляемый]"
     },
     {
-      "id": "CRIMSON",
-      "name": "<color=#fe0000>[</color>"
-    },
-    {
-      "id": "SCARLET",
-      "name": "<color=#fe0000>]</color>"
-    },
-    {
-      "id": "AMBER",
-      "name": "<color=#f95e00>[</color>"
-    },
-    {
-      "id": "SHAMROCK",
-      "name": "<color=#f95e00>]</color>"
-    },
-    {
-      "id": "AZURE",
-      "name": "<color=#93f13e>[Конец столкновения]</color>"
-    },
-    {
-      "id": "INDIGO",
-      "name": "<color=#93f13e>[Конец монеты]</color>"
-    },
-    {
-      "id": "EndSkill",
-      "name": "[Конец атаки]"
-    },
-    {
-      "id": "StartBattle",
-      "name": "[Начало боевой фазы]"
-    },
-    {
-      "id": "DefeatDuel",
-      "name": "[Поражение в столкновении]"
-    },
-    {
-      "id": "OnSucceedAttackHead",
-      "name": "[Выпал орёл]"
-    },
-    {
-      "id": "OnSucceedAttackTail",
-      "name": "[Выпала решка]"
-    },
-    {
-      "id": "OnSucceedEvade",
-      "name": "<color=#c6fe94>[Успешный уворот]</color>"
-    },
-    {
-      "id": "AlwaysUse",
-      "name": "[Постоянно]"
+      "id": "DuelCounter",
+      "name": "[Контратака столкновением]"
     },
     {
       "id": "CantDuel",
       "name": "[Нельзя столкнуться]"
-    },
-    {
-      "id": "EnemyKill",
-      "name": "[При убийстве]"
-    },
-    {
-      "id": "EnemyKillFail",
-      "name": "<color=#fe0000>[При неудачном убийстве]</color>"
-    },
-    {
-      "id": "ReUse",
-      "name": "<color=#c6fe94>[Повторное подкидывание]</color>"
-    },
-    {
-      "id": "ReUseOnSucceedAttackHead",
-      "name": "<color=#c6fe94>[Повторное подкидывание - Выпал орёл]</color>"
-    },
-    {
-      "id": "CriticalOnSucceedAttack",
-      "name": "<color=#c6fe94>[Критическая атака]</color>"
-    },
-    {
-      "id": "CriticalOnSucceedAttackHead",
-      "name": "<color=#c6fe94>[Критическая атака - Выпал орёл]</color>"
-    },
-    {
-      "id": "StartDuel",
-      "name": "[Начало столкновения]"
-    },
-    {
-      "id": "EndBattle",
-      "name": "[Конец хода]"
-    },
-    {
-      "id": "OnDefeatEvade",
-      "name": "<color=#fe0000>[Неудачный уворот]</color>"
-    },
-    {
-      "id": "EndSkillHead",
-      "name": "[Конец атаки орлом]"
-    },
-    {
-      "id": "EndSkillTail",
-      "name": "[Конец атаки решкой]"
-    },
-    {
-      "id": "WinDuelAttackHead",
-      "name": "[Орёл после победы в столкновении]"
-    },
-    {
-      "id": "WinDuelAttack",
-      "name": "[Удар после победы в столкновении]"
-    },
-    {
-      "id": "CriticalActivated",
-      "name": "[Начало критической атаки]"
-    },
-    {
-      "id": "CriticalEndSkill",
-      "name": "[Конец критической атаки]"
     },
     {
       "id": "CantChangeTarget",
@@ -157,16 +114,109 @@
       "name": "[Начало хода]"
     },
     {
-      "id": "EndSkillAll",
-      "name": "<color=#26cfff>[Конец использования]</color>"
+      "id": "StartBattle",
+      "name": "[Начало боевой фазы]"
+    },
+    {
+      "id": "StartBattle_Force",
+      "name": "<color=#93f13e>[Начало боевой фазы]</color>"
+    },
+    {
+      "id": "BeforeUse",
+      "name": "[Перед использованием]"
+    },
+    {
+      "id": "WhenUse",
+      "name": "[При использовании]"
     },
     {
       "id": "WhenUse_Force",
       "name": "<color=#26cfff>[При использовании]</color>"
     },
     {
-      "id": "StartBattle_Force",
-      "name": "<color=#93f13e>[Начало боевой фазы]</color>"
+      "id": "WhenUseEvade",
+      "name": "<color=#26cfff>[При использовании Уворота]</color>"
+    },
+    {
+      "id": "OnDirectAttack",
+      "name": "<color=#c6fe94>[При Односторонней атаке]</color>"
+    },
+    {
+      "id": "StartDuel",
+      "name": "[Начало столкновения]"
+    },
+    {
+      "id": "Wide",
+      "name": "<color=#93f03f>[Во время столкновения]</color>"
+    },
+    {
+      "id": "WinDuel",
+      "name": "[Победа в столкновении]"
+    },
+    {
+      "id": "AZURE",
+      "name": "<color=#93f13e>[Конец столкновения]</color>"
+    },
+    {
+      "id": "DefeatDuel",
+      "name": "[Поражение в столкновении]"
+    },
+    {
+      "id": "BeforeHit",
+      "name": "[Перед получением удара]"
+    },
+    {
+      "id": "BeforeAttack",
+      "name": "[Перед атакой]"
+    },
+    {
+      "id": "CriticalActivated",
+      "name": "[Начало Критической атаки]"
+    },
+    {
+      "id": "EndSkill",
+      "name": "[Конец атаки]"
+    },
+    {
+      "id": "WinDuelEndSkill",
+      "name": "[Конец атаки после победы в столкновении]"
+    },
+    {
+      "id": "EndSkillHead",
+      "name": "[Конец атаки орлом]"
+    },
+    {
+      "id": "EndSkillTail",
+      "name": "[Конец атаки решкой]"
+    },
+    {
+      "id": "CriticalEndSkill",
+      "name": "<color=#93f13e>[Конец Критической атаки]</color>"
+    },
+    {
+      "id": "EndSkillAll",
+      "name": "<color=#26cfff>[Конец использования]</color>"
+    },
+    {
+      "id": "EndBattle",
+      "name": "[Конец хода]"
+    },
+    
+    
+    
+    
+    
+    {
+      "id": "Заголовок",
+      "name": "-------------------< При убийстве >-------------------"
+    },
+    {
+      "id": "EnemyKill",
+      "name": "[При убийстве противника]"
+    },
+    {
+      "id": "AllyKill",
+      "name": "[При убийстве союзника]"
     },
     {
       "id": "TargetKill",
@@ -174,87 +224,48 @@
     },
     {
       "id": "CriticalTargetKill",
-      "name": "[При убийстве критической атакой]"
-    },
-    {
-      "id": "BeforeUse",
-      "name": "[Перед использованием]"
-    },
-    {
-      "id": "DuelCounter",
-      "name": "[Контратака столкновением]"
-    },
-    {
-      "id": "WhenUseEvade",
-      "name": "<color=#26cfff>[При использовании уворота]</color>"
-    },
-    {
-      "id": "EndCoin",
-      "name": "[После атаки монетой]"
-    },
-    {
-      "id": "CriticalEnemyTargetKillFail",
-      "name": "<color=#fe0000>[При неудавшемся убийстве критической атакой]</color>"
+      "name": "[При убийстве цели Критической атакой]"
     },
     {
       "id": "CriticalEnemyTargetKill",
-      "name": "[При убийстве критической атакой]"
+      "name": "[При убийстве противника Критической атакой]"
     },
     {
-      "id": "DefeatDuelAttack",
-      "name": "<color=#c6fe94>[При ударе расколотой <link=\"SuperCoin\">Вечной монетой</link>]</color>"
+      "id": "EnemyKillFail",
+      "name": "<color=#fe0000>[При неудавшемся убийстве противника]</color>"
     },
     {
       "id": "TargetKillFail",
       "name": "<color=#fe0000>[При неудавшемся убийстве цели]</color>"
     },
     {
-      "id": "AllyKill",
-      "name": "[При убийстве союзника]"
-    },
-    {
       "id": "AllyKillFail",
       "name": "<color=#fe0000>[При неудавшемся убийстве союзника]</color>"
     },
     {
-      "id": "UnBrokenCoinOnSucceedAttack",
-      "name": "<color=#c6fe94>[При ударе целой <link=\"SuperCoin\">Вечной монетой</link>]</color>"
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "<color=#fe0000>[При неудавшемся убийстве противника Критической атакой]</color>"
     },
+    
+    
+    
+    
+    
     {
-      "id": "BeforeHit",
-      "name": "[Перед получением удара]"
-    },
-    {
-      "id": "OnDirectAttack",
-      "name": "<color=#c6fe94>[При Односторонней атаке]</color>"
-    },
-    {
-      "id": "ReUseOnSucceedAttack",
-      "name": "<color=#c6fe94>[Повторное подкидывание - При ударе]</color>"
-    },
-    {
-      "id": "TabExplain",
-      "name": ""
-    },
-    {
-      "id": "OnStartCoin",
-      "name": "[Начало монеты]"
-    },
-    {
-      "id": "BeforeBehavior",
-      "name": "[Перед действием]"
-    },
-    {
-      "id": "AlwaysUseEGOPassive2050911",
-      "name": "[Активно вне зависимости от использования ЭГО навыка - Эксклюзивный эффект для <b>「Наставника «Родословной клинка»」</b> Мерсо]"
+      "id": "Заголовок",
+      "name": "-------------------< Постоянные эффекты >-------------------"
     },
     {
       "id": "WhenUseEGOPassive",
       "name": "<color=#26cfff>[При использовании ЭГО навыка]</color>"
     },
     {
-      "id": "WinDuelEndSkill",
-      "name": "[Конец атаки после победы в столкновении]"
+      "id": "AlwaysUseEGOPassive",
+      "name": "[Активно вне зависимости от использования ЭГО навыка]"
+    },
+    {
+      "id": "AlwaysUseEGOPassive2050911",
+      "name": "[Активно вне зависимости от использования ЭГО навыка - Эксклюзивный эффект для <b>「Наставника «Родословной клинка»」</b> Мерсо]"
     },
     {
       "id": "WhenUseEGOPassive2010911",
@@ -264,17 +275,43 @@
       "id": "AlwaysUseEGOPassive2010911",
       "name": "[Активно вне зависимости от использования ЭГО навыка - Эксклюзивный эффект для <b>「ЭГО «Лоботомии»::Торжественный траур」</b> И Сана]"
     },
+    
+    
+    
+    
+    
     {
-      "id": "AlwaysUseEGOPassive",
-      "name": "[Активно вне зависимости от использования ЭГО навыка]"
+      "id": "Заголовок",
+      "name": "-------------------< Что-то >-------------------"
     },
     {
-      "id": "CoinHead",
-      "name": "<color=#c6fe94>[Выпал Орёл]</color>"
+      "id": "BeforeBehavior",
+      "name": "[Перед действием]"
     },
     {
-      "id": "CoinTail",
-      "name": "[Выпала Решка]"
+      "id": "AlwaysUse",
+      "name": "[Постоянно]"
+    },
+    
+    
+    
+    
+    
+    {
+      "id": "Заголовок",
+      "name": "-------------------< Специальные >-------------------"
+    },
+    {
+      "id": "WHITE",
+      "name": "</color>["
+    },
+    {
+      "id": "BLACK",
+      "name": "</color>]"
+    },
+    {
+      "id": "TabExplain",
+      "name": ""
     }
   ]
 }

@@ -91,7 +91,7 @@
     },
     {
       "id": "Vibration",
-      "desc": "Следующие {1} [VibrationExplosion:`Провокаций Тремора`] повышает границу выносливости на {0}"
+      "desc": "Граница Выносливости поднимется на {0} при [VibrationExplosion:`Провокации Тремора`]"
     },
     {
       "id": "DefAdderByStackCeilToInt",

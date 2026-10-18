@@ -153,14 +153,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] На 30% больше урона"
+                  "desc": "[OnSucceedAttackTail] На 30% больше урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] На 30% больше урона"
+                  "desc": "[OnSucceedAttackTail] На 30% больше урона"
                 }
               ]
             }
@@ -243,14 +243,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] На 30% больше урона"
+                  "desc": "[OnSucceedAttackTail] На 30% больше урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] На 30% больше урона"
+                  "desc": "[OnSucceedAttackTail] На 30% больше урона"
                 }
               ]
             }

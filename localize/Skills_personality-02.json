@@ -348,21 +348,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
                 }
               ]
             }
@@ -376,21 +376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
                 }
               ]
             }
@@ -516,7 +516,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
+                  "desc": "<style=\"highlight\">На 30% больше урона при Критическом попадании</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] <style=\"highlight\">на 2</style>"
@@ -543,7 +543,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 30% больше урона при критическом попадании"
+                  "desc": "На 30% больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Breath:`Дыхания`] на 2"
@@ -591,7 +591,7 @@
         {
           "level": 4,
           "name": "Разлетающиеся лепестки красной сливы",
-          "desc": "<style=\"highlight\">Не тратит [RedApricotBlossom:`Красные лепестки сливы`] цели при критических попаданиях</style>\n\nНаносит на 3% больше урона за каждый [RedApricotBlossom:`Красный лепесток сливы`] на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 [Breath:`Дыхания`] (До 3)</style>\n[WinDuel] Тратит половину счётчика своего [Breath:`Дыхания`] и получает силу [Breath:`Дыхания`], равную потраченному счётчику (До 10)",
+          "desc": "<style=\"highlight\">Не тратит [RedApricotBlossom:`Красные лепестки сливы`] цели при Критических попаданиях</style>\n\nНаносит на 3% больше урона за каждый [RedApricotBlossom:`Красный лепесток сливы`] на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 [Breath:`Дыхания`] (До 3)</style>\n[WinDuel] Тратит половину счётчика своего [Breath:`Дыхания`] и получает силу [Breath:`Дыхания`], равную потраченному счётчику (До 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -2058,7 +2058,7 @@
         {
           "level": 3,
           "name": "Мерцание лука【閃弓】",
-          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[CantDuel]\nЕсли значение [AimForTheGoal:`Нацеливания`] ниже 4:\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × 24)% больше урона <nobr>(До 72%)</nobr>\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × 24)% больше урона при критическом попадании (До 72%)\n\nПри 4 [AimForTheGoal:`Нацеливания`]:\n- Наносит на 444% больше урона при критическом попадании\n\n[WhenUse] Базовая сила +2 при 4 и более [Breath:`Дыхания`]\n[WhenUse] Сила монеты +(Значение [AimForTheGoal:`Нацеливания`] × 2)% <nobr>(До 4)</nobr>\n[WhenUse] Получает (Значение [AimForTheGoal:`Нацеливания`] × 5)% [Breath:`Дыхания`] (До 20)\n[EndSkill] Теряет (Значение [AimForTheGoal:`Нацеливания`] × 5) [Breath:`Дыхания`]\n[EndSkill] [SnipingArrowMode:`Готовность выстрелить`] и [AimForTheGoal:`Нацеливание`] исчезают",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[CantDuel]\nЕсли значение [AimForTheGoal:`Нацеливания`] ниже 4:\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × 24)% больше урона <nobr>(До 72%)</nobr>\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × 24)% больше урона при Критическом попадании (До 72%)\n\nПри 4 [AimForTheGoal:`Нацеливания`]:\n- Наносит на 444% больше урона при Критическом попадании\n\n[WhenUse] Базовая сила +2 при 4 и более [Breath:`Дыхания`]\n[WhenUse] Сила монеты +(Значение [AimForTheGoal:`Нацеливания`] × 2)% <nobr>(До 4)</nobr>\n[WhenUse] Получает (Значение [AimForTheGoal:`Нацеливания`] × 5)% [Breath:`Дыхания`] (До 20)\n[EndSkill] Теряет (Значение [AimForTheGoal:`Нацеливания`] × 5) [Breath:`Дыхания`]\n[EndSkill] [SnipingArrowMode:`Готовность выстрелить`] и [AimForTheGoal:`Нацеливание`] исчезают",
           "coinlist": [
             {
               "coindescs": [
@@ -2075,7 +2075,7 @@
         {
           "level": 4,
           "name": "Мерцание лука【閃弓】",
-          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[CantDuel]\nЕсли значение [AimForTheGoal:`Нацеливания`] ниже 4:\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × <style=\"highlight\">48</style>)% больше урона (До <style=\"highlight\">144%</style>)\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × <style=\"highlight\">48</style>)% больше урона при критическом попадании (До <style=\"highlight\">144%</style>)\n\nПри 4 [AimForTheGoal:`Нацеливания`]:\n- Наносит на 444% больше урона при критическом попадании\n\n[WhenUse] Базовая сила +2 <style=\"highlight\">за каждые 4</style> [Breath:`Дыхания`] <style=\"highlight\"><nobr>(До 10)</nobr></style>\n[WhenUse] Сила монеты +(Значение [AimForTheGoal:`Нацеливания`] × <style=\"highlight\">4</style>)% (До <style=\"highlight\">10</style>)\n[WhenUse] Получает (Значение [AimForTheGoal:`Нацеливания`] × 5)% [Breath:`Дыхания`] (До 20)\n[EndSkill] Теряет (<style=\"highlight\">(</style>Значение [AimForTheGoal:`Нацеливания`] <style=\"highlight\">- 1)</style> × 5) [Breath:`Дыхания`]\n[EndSkill] [SnipingArrowMode:`Готовность выстрелить`] и [AimForTheGoal:`Нацеливание`] исчезают",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[CantDuel]\nЕсли значение [AimForTheGoal:`Нацеливания`] ниже 4:\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × <style=\"highlight\">48</style>)% больше урона (До <style=\"highlight\">144%</style>)\n- Наносит на (Значение [AimForTheGoal:`Нацеливания`] × <style=\"highlight\">48</style>)% больше урона при Критическом попадании (До <style=\"highlight\">144%</style>)\n\nПри 4 [AimForTheGoal:`Нацеливания`]:\n- Наносит на 444% больше урона при Критическом попадании\n\n[WhenUse] Базовая сила +2 <style=\"highlight\">за каждые 4</style> [Breath:`Дыхания`] <style=\"highlight\"><nobr>(До 10)</nobr></style>\n[WhenUse] Сила монеты +(Значение [AimForTheGoal:`Нацеливания`] × <style=\"highlight\">4</style>)% (До <style=\"highlight\">10</style>)\n[WhenUse] Получает (Значение [AimForTheGoal:`Нацеливания`] × 5)% [Breath:`Дыхания`] (До 20)\n[EndSkill] Теряет (<style=\"highlight\">(</style>Значение [AimForTheGoal:`Нацеливания`] <style=\"highlight\">- 1)</style> × 5) [Breath:`Дыхания`]\n[EndSkill] [SnipingArrowMode:`Готовность выстрелить`] и [AimForTheGoal:`Нацеливание`] исчезают",
           "coinlist": [
             {
               "coindescs": [
@@ -2290,7 +2290,7 @@
         {
           "level": 3,
           "name": "Как того требует предписание, вы будете устранены.",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при критических попаданиях\n\n[StartBattle] При 6~9 [BlessingOfIndexPrescriptAlly:`Милости предписания`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при Критических попаданиях\n\n[StartBattle] При 6~9 [BlessingOfIndexPrescriptAlly:`Милости предписания`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Если сумма силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели равна 6 и более, Сила монет +1\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -2324,7 +2324,7 @@
         {
           "level": 4,
           "name": "Как того требует предписание, вы будете устранены.",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Итоговой силе и</style> наносит на <style=\"highlight\">30%</style> больше урона при критических попаданиях\n\n[StartBattle] При 6~9 [BlessingOfIndexPrescriptAlly:`Милости предписания`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n<style=\"highlight\">- Наносит на 30% больше урона</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] <style=\"highlight\">Получает (Значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] / 3) [Breath:`Дыхания`] (Округляется вниз)</style> и повышает его счётчик на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Итоговой силе и</style> наносит на <style=\"highlight\">30%</style> больше урона при Критических попаданиях\n\n[StartBattle] При 6~9 [BlessingOfIndexPrescriptAlly:`Милости предписания`]:\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n<style=\"highlight\">- Наносит на 30% больше урона</style>\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] <style=\"highlight\">Получает (Значение [BlessingOfIndexPrescriptAlly:`Милости предписания`] / 3) [Breath:`Дыхания`] (Округляется вниз)</style> и повышает его счётчик на 3",
           "coinlist": [
             {
               "coindescs": [
