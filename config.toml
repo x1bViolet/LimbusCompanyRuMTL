@@ -139,7 +139,7 @@ apply_for = [
 
 # Потому что в скиллах и пассивках нельзя свободно ставить квадратные скобки, только через SkillTag.json с ухищрениями
 [illegal_square_brackets_tweak]
-regex = "\\[@SquareBrackets:`(?P<text>.*?)`\\]\\((?P<color>#[a-fA-F0-9]{6})?\\)"
+regex = "\\[@SquareBrackets:`(?P<text>.*?)`\\](\\((?P<color>#[a-fA-F0-9]{6})?\\))?"
 open_skilltag  = "WHITE"
 close_skilltag = "BLACK"
 # В итоге должна получиться мешанина из тегов с квадратными скобками, вставленными из

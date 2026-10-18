@@ -183,6 +183,7 @@ def replace_illegalsquarebreackets(
     def replacement(match: re.Match[str]) -> str:
         color = match.group("color")
         label = match.group("text")
+        if color is None: color = "#ebcaa2"
         return f'<color={color}>[{open_skilltag}]<color={color}>{label}[{close_skilltag}]'
     return tweak_pattern.sub(replacement, text)
 
