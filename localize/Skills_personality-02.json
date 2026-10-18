@@ -348,21 +348,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный 20% от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До 13)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
                 }
               ]
             }
@@ -376,21 +376,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от повышения Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и наносит урон <color=#fe0101>Гневом</color>, равный <style=\"highlight\">30%</style> от поднятия Границы Выносливости цели [VibrationExplosion:`Провокацией Тремора`] (До <style=\"highlight\">20</style>)\n[OnSucceedAttack] Понижает счётчик [Vibration:`Тремора`] цели на 3"
                 }
               ]
             }
