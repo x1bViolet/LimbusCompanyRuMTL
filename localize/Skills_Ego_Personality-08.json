@@ -57,7 +57,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] на <style=\"highlight\">2</style> случайной Идентичности"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Даёт <style=\"highlight\">2</style> [PenetrateResultUp:`Повышения силы Пронзающих атак`] и <style=\"highlight\">2</style> [AttackDmgUp:`Повышения урона`] четырём Идентичностям с наибольшей <color=#80c9ff>СД</color>"
+                  "desc": "<style=\"highlight\">[EndCoin]</style> Даёт <style=\"highlight\">2</style> [PenetrateResultUp:`Повышения силы Пронзающих атак`] и <style=\"highlight\">2</style> [AttackDmgUp:`Повышения урона`] четырём Идентичностям с наибольшей <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -128,7 +128,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [IndigoTakeDamageUp:`Уязвимости к Гордыне`] на этот и следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Даёт 2 [AttackDmgUp:`Повышения урона`] на этот и следующий ход четырём Идентичностям с наименьшей <color=#80c9ff>СД</color>"
+                  "desc": "<style=\"highlight\">[EndCoin]</style> Даёт 2 [AttackDmgUp:`Повышения урона`] на этот и следующий ход четырём Идентичностям с наименьшей <color=#80c9ff>СД</color>"
                 }
               ]
             }

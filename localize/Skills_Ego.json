@@ -1257,7 +1257,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill] Все Идентичности получают -2 к [MentalSystemResultDecrease_Typo:`Эффективности потери СД`] в следующем ходе включая использование ЭГО</style>"
+                  "desc": "<style=\"highlight\">[EndCoin] Все Идентичности получают -2 к [MentalSystemResultDecrease_Typo:`Эффективности потери СД`] в следующем ходе включая использование ЭГО</style>"
                 }
               ]
             }
@@ -1856,7 +1856,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Наносит всем участникам битвы [Combustion:`Огонь`], равный (Число грехов в резонансе <color=#fe0101>Гнева</color> × 2)"
+                  "desc": "<style=\"highlight\">[EndCoin]</style> Наносит всем участникам битвы [Combustion:`Огонь`], равный (Число грехов в резонансе <color=#fe0101>Гнева</color> × 2)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 60% от итогового урона этой монеты"
@@ -2919,7 +2919,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 10 и получает 10 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill]</style> Повышает всем Идентичностям счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимости`] и 10 [Burst:`Разрыва`]"
+                  "desc": "<style=\"highlight\">[EndCoin]</style> Повышает всем Идентичностям счётчик [Charge:`Заряда`] на <style=\"highlight\">12</style>, но также наносит им 5 [Vulnerable:`Уязвимости`] и 10 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -4105,7 +4105,7 @@
                   "desc": "[OnSucceedAttack] Тратит весь счётчик своего [Charge:`Заряда`], чтобы нанести дополнительный урон <color=#1cc7f1>Унынием</color>, равный (Потраченный счётчик [Charge:`Заряда`] × 2.5)% от итогового урона этой монеты (До 50%)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkill] Снова тратит весь счётчик своего [Charge:`Заряда`]</style>"
+                  "desc": "<style=\"highlight\">[EndCoin] Снова тратит весь счётчик своего [Charge:`Заряда`]</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[EndSkillTail]</style> Теряет 10% <color=#00ff9c>ОЗ</color> для повышения счётчика своего [Charge:`Заряда`] <style=\"highlight\">на 10</style>"

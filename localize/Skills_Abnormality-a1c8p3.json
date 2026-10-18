@@ -466,7 +466,7 @@
                   "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на (Значение [GazeReplica:`Взора`] цели × 5)"
                 },
                 {
-                  "desc": "[EndSkill] Весь [GazeReplica:`Взор`] исчезает с цели"
+                  "desc": "[EndCoin] Весь [GazeReplica:`Взор`] исчезает с цели"
                 }
               ]
             }

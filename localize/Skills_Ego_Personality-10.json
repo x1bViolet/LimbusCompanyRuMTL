@@ -263,7 +263,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере 10% от своих максимальных <color=#00ff9c>ОЗ</color> себе и другой Идентичности с наименьшими текущими <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndCoin] Даёт 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере 10% от своих максимальных <color=#00ff9c>ОЗ</color> себе и другой Идентичности с наименьшими текущими <color=#00ff9c>ОЗ</color>"
                 },
                 {
                   "desc": "- Если в наибольшем резонансе 4 и более греха, то ещё 1 Идентичность получает <color=#366ffb>OЗ Щита</color> и [ShieldManagerCryingToad:`Слезинку`] "
@@ -287,7 +287,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">14%</style> от своих максимальных <color=#00ff9c>ОЗ</color> себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> другим Идентичностям с наименьшими текущими <color=#00ff9c>ОЗ</color> <style=\"highlight\">(До 3 других Идентичностей могут получить [ShieldManagerCryingToad:`Слезинку`])</style>"
+                  "desc": "[EndCoin] Даёт 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">14%</style> от своих максимальных <color=#00ff9c>ОЗ</color> себе и <style=\"highlight\">(1 + (Число грехов в наибольшем резонансе - 2))</style> другим Идентичностям с наименьшими текущими <color=#00ff9c>ОЗ</color> <style=\"highlight\">(До 3 других Идентичностей могут получить [ShieldManagerCryingToad:`Слезинку`])</style>"
                 },
                 {
                   "desc": "- Если на затронутой Идентичности уже есть [ShieldManagerCryingToad:`Слезинка`], то обновляет её значение до 2"
@@ -308,7 +308,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Даёт 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">20%</style> от своих максимальных <color=#00ff9c>ОЗ</color> себе и (1 + (Число грехов в наибольшем резонансе - 2)) другим Идентичностям с наименьшими текущими <color=#00ff9c>ОЗ</color> (До 3 других Идентичностей могут получить [ShieldManagerCryingToad:`Слезинку`])"
+                  "desc": "[EndCoin] Даёт 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">20%</style> от своих максимальных <color=#00ff9c>ОЗ</color> себе и (1 + (Число грехов в наибольшем резонансе - 2)) другим Идентичностям с наименьшими текущими <color=#00ff9c>ОЗ</color> (До 3 других Идентичностей могут получить [ShieldManagerCryingToad:`Слезинку`])"
                 },
                 {
                   "desc": "- Если на затронутой Идентичности уже есть [ShieldManagerCryingToad:`Слезинка`], то обновляет её значение до 2"
@@ -337,7 +337,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] Получает 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере (15 + (Число грехов в наибольшем резонансе × 2.5))% от своих максимальных <color=#00ff9c>ОЗ</color> (До 25%)"
+                  "desc": "[EndCoin] Получает 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере (15 + (Число грехов в наибольшем резонансе × 2.5))% от своих максимальных <color=#00ff9c>ОЗ</color> (До 25%)"
                 },
                 {
                   "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], то обновляет её значение до 2 "
@@ -361,7 +361,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] Получает 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>))% от своих максимальных <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">30%</style>)"
+                  "desc": "[EndCoin] Получает 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере (<style=\"highlight\">18</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">3</style>))% от своих максимальных <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">30%</style>)"
                 },
                 {
                   "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], то обновляет её значение до 2 "
@@ -385,7 +385,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking:`Утопания`] <style=\"highlight\">и повышает его счётчик на 3</style>"
                 },
                 {
-                  "desc": "[EndSkill] Получает 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>))% от своих максимальных <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">40%</style>)"
+                  "desc": "[EndCoin] Получает 2 [ShieldManagerCryingToad:`Слезинки`] и <color=#366ffb>OЗ Щита</color> в размере (<style=\"highlight\">20</style> + (Число грехов в наибольшем резонансе × <style=\"highlight\">5</style>))% от своих максимальных <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">40%</style>)"
                 },
                 {
                   "desc": "- Если уже есть [ShieldManagerCryingToad:`Слезинка`], то обновляет её значение до 2 "

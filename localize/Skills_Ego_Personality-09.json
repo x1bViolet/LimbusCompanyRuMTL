@@ -145,7 +145,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 15% от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndCoin] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 15% от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
                 }
               ]
             }
@@ -163,7 +163,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">25%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndCoin] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">25%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
                 },
                 {
                   "desc": "<style=\"highlight\">[EndSkillHead] Если цель Оглушена или убита, то также даёт этим Идентичностям <color=#366ffb>OЗ Щита</color> в размере 10% от своих максимальных <color=#00ff9c>ОЗ</color></style>"
@@ -184,7 +184,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">30%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndCoin] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">30%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
                 },
                 {
                   "desc": "[EndSkillHead] Если цель Оглушена или убита, то также даёт этим Идентичностям <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">15%</style> от своих максимальных <color=#00ff9c>ОЗ</color>"
