@@ -165,7 +165,7 @@ close_skilltag = "BLACK"
 #     [@SquareBrackets:`Неизменной`](#ffa600)
 #
 #   Текст после билда когда convert_illegalsquarebreackets() из text.py отработал:
-#     [@SquareBrackets:`Неизменной`](#ffa600)
+#     <color=#ffa600>[WHITE]<color=#ffa600>Неизменной[BLACK]</color>
 #
 #   В игре после автоматического раскрытия ею тегов [WHITE] и [BLACK] (<color=#ffffff>/<color=#444444> перед значением "name" и </color> после автоматически вставлены самой игрой)
 #     <color=#ffa600><color=#ffffff></color>[</color><color=#ffa600>Неизменной<color=#444444></color>]</color></color>
