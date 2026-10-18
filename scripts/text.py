@@ -139,8 +139,8 @@ def replace_shorthands(
     def replacement(match: re.Match[str]) -> str:
         if converting_tuple:
             def format_keyword(value: str) -> str:
-                sprite_id, separator, link_id = value.partition(":")
-                if link_id == "": link_id = sprite_id
+                link_id, separator, sprite_id = value.partition(":")
+                if separator == "": sprite_id = link_id
                 return f'<u><link="{link_id}"><sprite name="{sprite_id}"></link></u>'
             keyword_ids = [format_keyword(value) for value in match.group("keyword_ids").split(",")]
             color = match.group("color")
