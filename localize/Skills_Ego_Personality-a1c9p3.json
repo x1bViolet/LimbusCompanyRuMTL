@@ -15,10 +15,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Reduction:`Понижения силы атаки`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Даёт 3 [Agility:`Спешки`] на следующий ход всем союзникам"
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Даёт 3 [Agility:`Спешки`] на следующий ход всем Идентичностям"
                 }
               ]
             }
@@ -31,7 +31,7 @@
       "levelList": [
         {
           "level": 4,
-          "name": "Кровь Санчо",
+          "name": "Кровь Санчо【La Sangre de Sancho】",
           "abName": "Дон Кихот",
           "desc": "",
           "coinlist": [
@@ -41,7 +41,7 @@
                   "desc": "[OnSucceedAttack] Наносит 8 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает <color=#00ff9c>ОЗ</color> на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает свои <color=#00ff9c>ОЗ</color> на 50% от итогового урона этой монеты"
                 }
               ]
             }
@@ -88,7 +88,7 @@
           "level": 4,
           "name": "Земли иллюзий",
           "abName": "Хон Лу",
-          "desc": "[EndSkill] Восстанавливает 15 <color=#80c9ff>СД</color> себе и всем союзникам\n[EndSkill] Убирает [Combustion:`Огонь`] с себя и всех союзников",
+          "desc": "[EndSkill] Восстанавливает 15 <color=#80c9ff>СД</color> себе и всем Идентичностям\n[EndSkill] Убирает [Combustion:`Огонь`] с себя и всех Идентичностей",
           "coinlist": [
             {
               "coindescs": [
@@ -106,9 +106,9 @@
       "levelList": [
         {
           "level": 4,
-          "name": "Страдание, ставшее опытом",
+          "name": "Страдание, ставшее опытом【To Páthos Máthos】",
           "abName": "Отис",
-          "desc": "Если <color=#00ff9c>ОЗ</color> цели ниже 50%, наносит ей на 30% больше урона",
+          "desc": "Если текущие <color=#00ff9c>ОЗ</color> цели ниже 50%, то наносит ей на 10% больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -116,7 +116,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "[TargetKill] Даёт 1 [Enhancement:`Повышение силы атаки`] случайному союзнику"
+                  "desc": "[TargetKill] Даёт 1 [Enhancement:`Повышение силы атаки`] случайной Идентичности"
                 }
               ]
             }

@@ -25,7 +25,7 @@
           "level": 3,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1, если <color=#00ff9c>ОЗ</color> главной цели равны или выше 50%</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей +1, если текущие <color=#00ff9c>ОЗ</color> главной цели выше 50%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -33,10 +33,10 @@
                   "desc": "[OnSucceedAttack] <style=\"highlight\">Наносит 3 [Vibration:`Тремора`] и</style> повышает его счётчик на 5"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] [VibrationExplosion:`Провоцирует Тремор`]</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttackHead] [VibrationExplosion:`Провоцирует Тремор`]</style>"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -46,7 +46,7 @@
           "level": 4,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[BeforeAttack] Количество целей повышается 1, если <color=#00ff9c>ОЗ</color> главной цели равны или выше 50%\n<style=\"highlight\">- Количество целей повышается ещё на 1, если <color=#00ff9c>ОЗ</color> главной цели равны или выше 75%</style>",
+          "desc": "[BeforeAttack] Количество целей повышается 1, если текущие <color=#00ff9c>ОЗ</color> главной цели выше 50%\n<style=\"highlight\">- Количество целей повышается ещё на 1, если текущие <color=#00ff9c>ОЗ</color> главной цели выше 75%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -54,10 +54,10 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Vibration:`Тремора`] и повышает его счётчик <style=\"highlight\">на 7</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> [VibrationExplosion:`Провоцирует Тремор`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> [VibrationExplosion:`Провоцирует Тремор`]"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding:`Связывания`] на следующий ход"
                 }
               ]
             }
@@ -72,12 +72,12 @@
           "level": 1,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify] (Случайная цель)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает свои <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`]"
@@ -90,12 +90,12 @@
           "level": 3,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Количество целей +1, если <color=#00ff9c>ОЗ</color> главной цели равны или выше 50%</style>",
+          "desc": "[CantIdentify] (Случайная цель)\n\n<style=\"highlight\">[BeforeAttack] Количество целей +1, если текущие <color=#00ff9c>ОЗ</color> главной цели выше 50%</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает свои <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`]</style>"
@@ -111,12 +111,12 @@
           "level": 4,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается 1, если <color=#00ff9c>ОЗ</color> главной цели равны или выше 50%\n<style=\"highlight\">- Количество целей повышается ещё на 1, если <color=#00ff9c>ОЗ</color> главной цели равны или выше 75%</style>",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается 1, если текущие <color=#00ff9c>ОЗ</color> главной цели выше 50%\n<style=\"highlight\">- Количество целей повышается ещё на 1, если текущие <color=#00ff9c>ОЗ</color> главной цели выше 75%</style>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает свои <color=#00ff9c>ОЗ</color> на 30% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [DefenseDown:`Понижений уровня защиты`]"
@@ -145,7 +145,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 15% от своих максимальных <color=#00ff9c>ОЗ</color> двум другим союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 15% от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
                 }
               ]
             }
@@ -163,10 +163,10 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">25%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">25%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndSkillHead] Если цель Оглушена или побеждена, то даёт этим союзникам щит, равный 10% от своих максимальных <color=#00ff9c>ОЗ</color></style>"
+                  "desc": "<style=\"highlight\">[EndSkillHead] Если цель Оглушена или убита, то также даёт этим Идентичностям <color=#366ffb>OЗ Щита</color> в размере 10% от своих максимальных <color=#00ff9c>ОЗ</color></style>"
                 }
               ]
             }
@@ -184,10 +184,10 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">30%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">30%</style> от своих максимальных <color=#00ff9c>ОЗ</color> двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>"
                 },
                 {
-                  "desc": "[EndSkillHead] Если цель Оглушена или побеждена, то даёт этим союзникам щит, равный <style=\"highlight\">15%</style> от своих максимальных <color=#00ff9c>ОЗ</color>"
+                  "desc": "[EndSkillHead] Если цель Оглушена или убита, то также даёт этим Идентичностям <color=#366ffb>OЗ Щита</color> в размере <style=\"highlight\">15%</style> от своих максимальных <color=#00ff9c>ОЗ</color>"
                 }
               ]
             }
@@ -202,7 +202,7 @@
           "level": 1,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify] (Случайная цель)",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
           "level": 3,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Количество целей +1, если свои <color=#00ff9c>ОЗ</color> ниже 50%</style>",
+          "desc": "[CantIdentify] (Случайная цель)\n\n<style=\"highlight\">[BeforeAttack] Количество целей +1, если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -231,7 +231,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">20</style> урона по <color=#80c9ff>СД</color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CoinTail] Если цель Оглушена или побеждена, восстанавливает 5 <color=#80c9ff>СД</color></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Если цель Оглушена или убита, то восстанавливает себе 5 <color=#80c9ff>СД</color></style>"
                 }
               ]
             }
@@ -241,7 +241,7 @@
           "level": 4,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style>, если свои <color=#00ff9c>ОЗ</color> ниже 50%",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей <style=\"highlight\">+2</style>, если свои текущие <color=#00ff9c>ОЗ</color> ниже 50%",
           "coinlist": [
             {
               "coindescs": [
@@ -252,7 +252,7 @@
                   "desc": "[OnSucceedAttack] Наносит 20 урона по <color=#80c9ff>СД</color>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель Оглушена или побеждена, восстанавливает <style=\"highlight\">7</style> <color=#80c9ff>СД</color>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Если цель Оглушена или убита, то восстанавливает себе <style=\"highlight\">7</style> <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -267,15 +267,15 @@
           "level": 1,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До 6)\n[StartBattle] Главная цель не теряет счётчик [Laceration:`Кровотечения`] в течение этого хода\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До 6)\n[StartBattle] Цель не теряет счётчик [Laceration:`Кровотечения`] в течение этого хода\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe6f01>Похотью</color>, равный силе [Laceration:`Кровотечения`] цели\n- Если в резонансе <color=#fe6f01>Похоти</color> 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × 1.2)"
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон <color=#fe6f01>Похотью</color>, равный силе [Laceration:`Кровотечения`] цели\n- Если в резонансе <color=#fe6f01>Похоти</color> 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × 1.2)"
                 },
                 {
-                  "desc": "[TargetKill] Если эффект навыка или монеты наносит больше урона, чем осталось у цели (Или же у Ядра в фокусированных битвах), то избыток наносится фиксированным уроном между всеми остальными противниками"
+                  "desc": "[TargetKill] Если наносит больше урона, чем у цели осталось <color=#00ff9c>ОЗ</color>, то избыток наносится фиксированным уроном между всеми остальными противниками"
                 }
               ]
             }
@@ -285,15 +285,15 @@
           "level": 3,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Главная цель не теряет счётчик [Laceration:`Кровотечения`] в течение этого хода\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Цель не теряет счётчик [Laceration:`Кровотечения`] в течение этого хода\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe6f01>Похотью</color>, равный <style=\"highlight\">(</style>Сила [Laceration:`Кровотечения`] цели <style=\"highlight\">× 1.2)</style>\n- Если в резонансе <color=#fe6f01>Похоти</color> 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.5</style>)\n<style=\"highlight\">- Если наибольшем абсолютном резонансе <color=#fe6f01>Похоти</color> в 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × 1.8)</style>"
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(</style>Сила [Laceration:`Кровотечения`] цели <style=\"highlight\">× 1.2)</style> дополнительного урона <color=#fe6f01>Похотью</color>\n- Если в резонансе <color=#fe6f01>Похоти</color> 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.5</style>)\n<style=\"highlight\">- Если наибольшем абсолютном резонансе <color=#fe6f01>Похоти</color> в 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × 1.8)</style>"
                 },
                 {
-                  "desc": "[TargetKill] Если эффект навыка или монеты наносит больше урона, чем осталось у цели (Или же у Ядра в фокусированных битвах), то избыток наносится фиксированным уроном между всеми остальными противниками"
+                  "desc": "[TargetKill] Если наносит больше урона, чем у цели осталось <color=#00ff9c>ОЗ</color>, то избыток наносится фиксированным уроном между всеми остальными противниками"
                 }
               ]
             }
@@ -303,15 +303,15 @@
           "level": 4,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Главная цель не теряет счётчик [Laceration:`Кровотечения`] в течение этого хода\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "Сила монет +1 за каждые 2 [Laceration:`Кровотечения`] на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Цель не теряет счётчик [Laceration:`Кровотечения`] в течение этого хода\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.5</style>)\n- Если в резонансе <color=#fe6f01>Похоти</color> 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.8</style>)\n- Если наибольшем абсолютном резонансе <color=#fe6f01>Похоти</color> в 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">2</style>)"
+                  "desc": "[OnSucceedAttack] Наносит (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.5</style>) дополнительного урона <color=#fe6f01>Похотью</color>\n- Если в резонансе <color=#fe6f01>Похоти</color> 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">1.8</style>)\n- Если наибольшем абсолютном резонансе <color=#fe6f01>Похоти</color> в 4 и более греха, то вместо этого наносит урон <color=#fe6f01>Похотью</color>, равный (Сила [Laceration:`Кровотечения`] цели × <style=\"highlight\">2</style>)"
                 },
                 {
-                  "desc": "[TargetKill] Если эффект навыка или монеты наносит больше урона, чем осталось у цели (Или же у Ядра в фокусированных битвах), то избыток наносится фиксированным уроном между всеми остальными противниками"
+                  "desc": "[TargetKill] Если наносит больше урона, чем у цели осталось <color=#00ff9c>ОЗ</color>, то избыток наносится фиксированным уроном между всеми остальными противниками"
                 }
               ]
             }
@@ -326,7 +326,7 @@
           "level": 1,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
           "coinlist": [
             {
               "coindescs": [
@@ -341,7 +341,7 @@
           "level": 3,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
           "coinlist": [
             {
               "coindescs": [
@@ -359,7 +359,7 @@
           "level": 4,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе - 2) (До 2 дополнительных целей)",
           "coinlist": [
             {
               "coindescs": [
@@ -382,7 +382,7 @@
           "level": 1,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> себе и двум другим союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> на 12.5% от своих максимальных <color=#00ff9c>ОЗ</color>",
+          "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 12.5% от своих максимальных <color=#00ff9c>ОЗ</color> себе и двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -407,7 +407,7 @@
           "level": 3,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> себе и двум другим союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> на 12.5% от своих максимальных <color=#00ff9c>ОЗ</color>\n<style=\"highlight\">- Восстанавливает каждому из этих союзников ещё 2.5% <color=#00ff9c>ОЗ</color> за каждые 2 негативных эффекта на нём (До 7.5%)</style>",
+          "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 12.5% от своих максимальных <color=#00ff9c>ОЗ</color> себе и двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>\n<style=\"highlight\">- Восстанавливает каждой из этих Идентичностей ещё по 2.5% <color=#00ff9c>ОЗ</color> за каждые 2 негативных эффекта на ней (До 7.5%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -432,7 +432,7 @@
           "level": 4,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> себе и двум другим союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> на <style=\"highlight\">15%</style> от своих максимальных <color=#00ff9c>ОЗ</color>\n- Восстанавливает каждому из этих союзников ещё 2.5% <color=#00ff9c>ОЗ</color> <style=\"highlight\">за каждый</style> негативный эффект нём (До <style=\"highlight\">10%</style>)\n<style=\"highlight\">- Если в резонансе <color=#9808de>Зависти</color> 4 и более греха включая этот навык, восстанавливает <color=#00ff9c>ОЗ</color> ещё одному союзнику</style>",
+          "desc": "[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">15%</style> от своих максимальных <color=#00ff9c>ОЗ</color> себе и двум другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>\n<style=\"highlight\">- Если в резонансе <color=#9808de>Зависти</color> 4 и более греха включая этот навык, то восстанавливает <color=#00ff9c>ОЗ</color> ещё одной Идентичности</style>\n- Восстанавливает каждой из этих Идентичностей ещё по 2.5% <color=#00ff9c>ОЗ</color> <style=\"highlight\">за каждый</style> негативный эффект ней (До <style=\"highlight\">10%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -462,7 +462,7 @@
           "level": 1,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> трём другим союзникам с наименьшим процентом <color=#00ff9c>ОЗ</color> на 15% от своих максимальных <color=#00ff9c>ОЗ</color>",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 15% от своих максимальных <color=#00ff9c>ОЗ</color> трём другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -480,7 +480,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[CoinTail] Наносит 2 [NailPersonality:`Гвоздя`]"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -490,7 +490,7 @@
           "level": 3,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> трём другим союзникам с наименьшим процентом <color=#00ff9c>ОЗ</color> на 15% от своих максимальных <color=#00ff9c>ОЗ</color><style=\"highlight\">, а также даёт им 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за каждые 2 негативных эффекта на них <nobr>(До 2)</nobr></style>",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере 15% от своих максимальных <color=#00ff9c>ОЗ</color> трём другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color><style=\"highlight\">, а также даёт им 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за каждые 2 негативных эффекта на них <nobr>(До 2)</nobr></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -508,7 +508,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[CoinTail] Наносит 2 [NailPersonality:`Гвоздя`]"
+                  "desc": "[OnSucceedAttackTail] Наносит 2 [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -518,7 +518,7 @@
           "level": 4,
           "name": "Проклятый гвоздь",
           "abName": "Больной мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> трём другим союзникам с наименьшим процентом <color=#00ff9c>ОЗ</color> на <style=\"highlight\">20%</style> от своих максимальных <color=#00ff9c>ОЗ</color>, а также даёт им 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за <style=\"highlight\">каждый</style> негативный эффект на них (До <style=\"highlight\">3</style>)\n<style=\"highlight\">- Если в резонансе <color=#9808de>Зависти</color> 4 и более греха включая этот навык, восстанавливает <color=#00ff9c>ОЗ</color> ещё одному союзнику</style>",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[EndSkill] Восстанавливает <color=#00ff9c>ОЗ</color> в размере <style=\"highlight\">20%</style> от своих максимальных <color=#00ff9c>ОЗ</color> трём другим Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color>, а также даёт им 1 [AttackUp:`Повышение уровня атаки`] на следующий ход за <style=\"highlight\">каждый</style> негативный эффект на них (До <style=\"highlight\">3</style>)\n<style=\"highlight\">- Если в резонансе <color=#9808de>Зависти</color> 4 и более греха включая этот навык, то восстанавливает <color=#00ff9c>ОЗ</color> ещё одной Идентичности</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -536,7 +536,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Curse:`Проклятия`]"
                 },
                 {
-                  "desc": "[CoinTail] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3</style> [NailPersonality:`Гвоздя`]"
                 }
               ]
             }
@@ -551,7 +551,7 @@
           "level": 1,
           "name": "Указанный суд",
           "abName": "Пылающая герцогиня",
-          "desc": "[EndSkill] Восстанавливает 15% от максимальных <color=#00ff9c>ОЗ</color> <nobr>(1 +</nobr> число грехов в наибольшем резонансе) союзникам с наименьшим процентом <color=#00ff9c>ОЗ</color> (До 3 союзников)\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "[EndSkill] Восстанавливает 15% <color=#00ff9c>ОЗ</color> для (1 + Число грехов в наибольшем резонансе) Идентичностей с наименьшим процентом <color=#00ff9c>ОЗ</color> (До 3 Идентичностей)\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -570,7 +570,7 @@
           "level": 3,
           "name": "Указанный суд",
           "abName": "Пылающая герцогиня",
-          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">18%</style> от максимальных <color=#00ff9c>ОЗ</color> <nobr>(1 +</nobr> число грехов в наибольшем резонансе) союзникам с наименьшим процентом <color=#00ff9c>ОЗ</color> (До 3 союзников)\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "<style=\"highlight\">[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">18%</style> <color=#00ff9c>ОЗ</color> для (1 + Число грехов в наибольшем резонансе) Идентичностей с наименьшим процентом <color=#00ff9c>ОЗ</color> (До 3 Идентичностей)\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -589,7 +589,7 @@
           "level": 4,
           "name": "Указанный суд",
           "abName": "Пылающая герцогиня",
-          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)\n[EndSkill] Восстанавливает <style=\"highlight\">20%</style> от максимальных <color=#00ff9c>ОЗ</color> <nobr>(1 +</nobr> число грехов в наибольшем резонансе) союзникам с наименьшим процентом <color=#00ff9c>ОЗ</color> (До 3 союзников)\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)\n[EndSkill] Восстанавливает <style=\"highlight\">20%</style> <color=#00ff9c>ОЗ</color> для (1 + Число грехов в наибольшем резонансе) Идентичностей с наименьшим процентом <color=#00ff9c>ОЗ</color> (До 3 Идентичностей)\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -613,7 +613,7 @@
           "level": 1,
           "name": "Указанный суд",
           "abName": "Пылающая герцогиня",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -624,7 +624,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + число грехов в резонансе <color=#fe0101>Гнева</color>) [BirdCage:`Обжигающей птичьей клетки`] (До 3)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + Число грехов в резонансе <color=#fe0101>Гнева</color>) [BirdCage:`Обжигающей птичьей клетки`] (До 3)"
                 }
               ]
             },
@@ -637,7 +637,7 @@
                   "desc": "На 1% больше урона главной цели за каждую единицу её силы [Combustion:`Огня`] (До 50%)"
                 },
                 {
-                  "desc": "[TargetKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (До 4 союзников; единожды за навык)"
+                  "desc": "[TargetKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + Число грехов в наибольшем резонансе) Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (До 4 Идентичностей; единожды за навык)"
                 }
               ]
             }
@@ -647,7 +647,7 @@
           "level": 3,
           "name": "Указанный суд",
           "abName": "Пылающая герцогиня",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -658,7 +658,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">8</style> [Combustion:`Огня`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + число грехов в резонансе <color=#fe0101>Гнева</color>) [BirdCage:`Обжигающей птичьей клетки`] (До <style=\"highlight\">4</style>)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + Число грехов в резонансе <color=#fe0101>Гнева</color>) [BirdCage:`Обжигающей птичьей клетки`] (До <style=\"highlight\">4</style>)"
                 }
               ]
             },
@@ -671,7 +671,7 @@
                   "desc": "На 1% больше урона главной цели за каждую единицу её силы [Combustion:`Огня`] (До 50%)"
                 },
                 {
-                  "desc": "[TargetKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">5</style> союзников; единожды за навык)"
+                  "desc": "[TargetKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + Число грехов в наибольшем резонансе) Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">5</style> Идентичностей; единожды за навык)"
                 }
               ]
             }
@@ -681,7 +681,7 @@
           "level": 4,
           "name": "Указанный суд",
           "abName": "Пылающая герцогиня",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 3 дополнительных целей; округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -695,7 +695,7 @@
                   "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 1</style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + число грехов в резонансе <color=#fe0101>Гнева</color>) [BirdCage:`Обжигающей птичьей клетки`] (До <style=\"highlight\">5</style>)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит главной цели (1 + Число грехов в резонансе <color=#fe0101>Гнева</color>) [BirdCage:`Обжигающей птичьей клетки`] (До <style=\"highlight\">5</style>)"
                 }
               ]
             },
@@ -708,7 +708,7 @@
                   "desc": "На <style=\"highlight\">2%</style> больше урона главной цели за каждую единицу её силы [Combustion:`Огня`] (До <style=\"highlight\">100%</style>)"
                 },
                 {
-                  "desc": "[TargetKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + число грехов в наибольшем резонансе) союзникам с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">6</style> союзников; единожды за навык)"
+                  "desc": "[TargetKill] Даёт 1 [CrimsonResultUp:`Повышение силы Гнева`] и 1 [CrimsonDamageUp:`Повышение урона Гневом`] (1 + Число грехов в наибольшем резонансе) Идентичностям с наименьшим процентом текущих <color=#00ff9c>ОЗ</color> (До <style=\"highlight\">6</style> Идентичностей; единожды за навык)"
                 }
               ]
             }
@@ -723,7 +723,7 @@
           "level": 1,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[EndSkill] Восстанавливает 5% от максимальных <color=#00ff9c>ОЗ</color> и даёт 2 [ScarletMothRodion:`Алых мотылька`] для 2 союзников, которые имеют наименьший процент текущих <color=#00ff9c>ОЗ</color>\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе <color=#fe6f01>Похоти</color> - 1) (До 2 дополнительных союзников)",
+          "desc": "[EndSkill] Восстанавливает 5% <color=#00ff9c>ОЗ</color> и даёт 2 [ScarletMothRodion:`Алых мотылька`] двум Идентичностям, которые имеют наименьший процент текущих <color=#00ff9c>ОЗ</color>\n- Количество затрагиваемых Идентичностей увеличивается на (Число грехов в резонансе <color=#fe6f01>Похоти</color> - 1) (До 2 дополнительных Идентичностей)",
           "coinlist": [
             {
               "coindescs": [
@@ -741,7 +741,7 @@
           "level": 3,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях этого навыка (До 2)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">8%</style> от максимальных <color=#00ff9c>ОЗ</color> и даёт 2 [ScarletMothRodion:`Алых мотылька`] для 2 союзников, которые имеют наименьший процент текущих <color=#00ff9c>ОЗ</color>\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе <color=#fe6f01>Похоти</color> - 1) (До 2 дополнительных союзников)\n<style=\"highlight\">- Если затронутый союзник имеет экипированный навык с грехом <color=#fe6f01>Похоти</color>, то восстанавливает ему дополнительные 3 <color=#80c9ff>СД</color></style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях (До 2)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">8%</style> <color=#00ff9c>ОЗ</color> и даёт 2 [ScarletMothRodion:`Алых мотылька`] двум Идентичностям, которые имеют наименьший процент текущих <color=#00ff9c>ОЗ</color>\n- Количество затрагиваемых Идентичностей увеличивается на (Число грехов в резонансе <color=#fe6f01>Похоти</color> - 1) (До 2 дополнительных Идентичностей)\n<style=\"highlight\">- Если затронутая Идентичность имеет экипированный навык с грехом <color=#fe6f01>Похоти</color>, то дополнительно восстанавливает ей 3 <color=#80c9ff>СД</color></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -759,7 +759,7 @@
           "level": 4,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях этого навыка (До 2)\n[EndSkill] Восстанавливает <style=\"highlight\">10%</style> от максимальных <color=#00ff9c>ОЗ</color> и даёт 2 [ScarletMothRodion:`Алых мотылька`] для 2 союзников, которые имеют наименьший процент текущих <color=#00ff9c>ОЗ</color>\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе <color=#fe6f01>Похоти</color> - 1) (До 2 дополнительных союзников)\n- Если затронутый союзник имеет экипированный навык с грехом <color=#fe6f01>Похоти</color>, то восстанавливает ему дополнительные <style=\"highlight\">6</style> <color=#80c9ff>СД</color>",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях (До 2)\n[EndSkill] Восстанавливает <style=\"highlight\">10%</style> <color=#00ff9c>ОЗ</color> и даёт 2 [ScarletMothRodion:`Алых мотылька`] двум Идентичностям, которые имеют наименьший процент текущих <color=#00ff9c>ОЗ</color>\n- Количество затрагиваемых Идентичностей увеличивается на (Число грехов в резонансе <color=#fe6f01>Похоти</color> - 1) (До 2 дополнительных Идентичностей)\n- Если затронутая Идентичность имеет экипированный навык с грехом <color=#fe6f01>Похоти</color>, то дополнительно восстанавливает ей <style=\"highlight\">6</style> <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -770,7 +770,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndCoin] Наносит 1 [CrimsonTakeDamageUp:`Уязвимость к Гневу`] и 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[EndCoin] Наносит на следующий ход 1 [CrimsonTakeDamageUp:`Уязвимость к Гневу`] и 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`]</style>"
                 }
               ]
             }
@@ -785,7 +785,7 @@
           "level": 1,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Наносит на 5% больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях этого навыка (До 15%)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -12)\n[EndSkill] Даёт 1 [ScarletMothRodion:`Алого мотылька`] 3 раза между случайными союзниками",
+          "desc": "[CantIdentify] (Случайные цели)\n\n[BeforeAttack] Наносит на 5% больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях (До 15%)\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -12)\n[EndSkill] Даёт 1 [ScarletMothRodion:`Алого мотылька`] 3 раза между случайными Идентичностями",
           "coinlist": [
             {
               "coindescs": [
@@ -812,7 +812,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <nobr>на 1</nobr>"
                 },
                 {
                   "desc": "[EndCoin] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)"
@@ -825,7 +825,7 @@
           "level": 3,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Наносит на 5% больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях этого навыка (До 15%)\n<style=\"highlight\">- Урон увеличивается ещё на 10%, если был активирован абсолютный резонанс <color=#fe0101>Гнева</color> или <color=#fe6f01>Похоти</color></style>\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -12)\n[EndSkill] Даёт 1 [ScarletMothRodion:`Алого мотылька`] <style=\"highlight\">4</style> раза между случайными союзниками",
+          "desc": "[CantIdentify] (Случайные цели)\n\n[BeforeAttack] Наносит на 5% больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях (До 15%)\n<style=\"highlight\">- Урон увеличивается ещё на 10%, если в начале боевой фазы был активирован абсолютный резонанс <color=#fe0101>Гнева</color> или <color=#fe6f01>Похоти</color></style>\n[BeforeAttack] Базовая сила -6 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -12)\n[EndSkill] Даёт 1 [ScarletMothRodion:`Алого мотылька`] <style=\"highlight\">4</style> раза между случайными Идентичностями",
           "coinlist": [
             {
               "coindescs": [
@@ -852,7 +852,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <nobr>на 1</nobr>"
                 },
                 {
                   "desc": "[EndCoin] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)"
@@ -865,7 +865,7 @@
           "level": 4,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Наносит на <style=\"highlight\">10%</style> больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях этого навыка (До <style=\"highlight\">30%</style>)\n- Урон увеличивается ещё на <style=\"highlight\">20%</style>, если был активирован абсолютный резонанс <color=#fe0101>Гнева</color> или <color=#fe6f01>Похоти</color>\n[BeforeAttack] Базовая сила <style=\"highlight\">-5</style> за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До <style=\"highlight\">-10</style>)\n[EndSkill] Даёт 1 [ScarletMothRodion:`Алого мотылька`] <style=\"highlight\">5</style> раз между случайными союзниками",
+          "desc": "[CantIdentify] (Случайные цели)\n\n[BeforeAttack] Наносит на <style=\"highlight\">10%</style> больше урона за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на всех целях (До <style=\"highlight\">30%</style>)\n- Урон увеличивается ещё на <style=\"highlight\">20%</style>, если в начале боевой фазы был активирован абсолютный резонанс <color=#fe0101>Гнева</color> или <color=#fe6f01>Похоти</color>\n[BeforeAttack] Базовая сила <style=\"highlight\">-5</style> за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До <style=\"highlight\">-10</style>)\n[EndSkill] Даёт 1 [ScarletMothRodion:`Алого мотылька`] <style=\"highlight\">5</style> раз между случайными Идентичностями",
           "coinlist": [
             {
               "coindescs": [
@@ -892,7 +892,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] на <style=\"highlight\">2</style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration:`Кровотечения`] <nobr>на <style=\"highlight\">2</style></nobr>"
                 },
                 {
                   "desc": "[EndCoin] Наносит 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)"
@@ -1011,7 +1011,7 @@
           "level": 1,
           "name": "Зеркальная тактильность",
           "abName": "Странствующее сердце",
-          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До 2)\n[BeforeAttack] Получает (2 + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на 2\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на 20% больше урона при критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "desc": "[CantIdentify] (Случайные цели)\n\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До 2)\n[BeforeAttack] Получает (2 + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на 2\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на 20% больше урона при Критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -1061,7 +1061,7 @@
           "level": 3,
           "name": "Зеркальная тактильность",
           "abName": "Странствующее сердце",
-          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">3</style>)\n[BeforeAttack] Получает (<style=\"highlight\">3</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на <style=\"highlight\">3</style>\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на <style=\"highlight\">30%</style> больше урона при критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "desc": "[CantIdentify] (Случайные цели)\n\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">3</style>)\n[BeforeAttack] Получает (<style=\"highlight\">3</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на <style=\"highlight\">3</style>\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на <style=\"highlight\">30%</style> больше урона при Критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
           "coinlist": [
             {
               "coindescs": [
@@ -1114,7 +1114,7 @@
           "level": 4,
           "name": "Зеркальная тактильность",
           "abName": "Странствующее сердце",
-          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">4</style>)\n[BeforeAttack] Получает (<style=\"highlight\">4</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на <style=\"highlight\">4</style>\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на <style=\"highlight\">40%</style> больше урона при критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
+          "desc": "[CantIdentify] (Случайные цели)\n\nСила в столкновении +1 за каждые 6 единиц в сумме силы своего [Breath:`Дыхания`] и [Vibration:`Тремора`] на главной цели (До <style=\"highlight\">4</style>)\n[BeforeAttack] Получает (<style=\"highlight\">4</style> + Число грехов в наибольшем резонансе) [Breath:`Дыхания`] (До 10) и повышает его счётчик на <style=\"highlight\">4</style>\n[BeforeAttack] Если счётчик своего [Breath:`Дыхания`] равен 10 и более, то тратит 4 его единицы, чтобы нанести на <style=\"highlight\">40%</style> больше урона при Критических попаданиях по главной цели\n[BeforeAttack] Базовая сила -4 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`]\n[EndSkill] Случайным образом наносит (1 + Число грехов в наибольшем резонансе) [EmpathicDistressAlly:`Раскола чувств`] среди целей <nobr>(До 5)</nobr>",
           "coinlist": [
             {
               "coindescs": [
