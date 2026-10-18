@@ -137,6 +137,39 @@ apply_for = [
   "RPGSystem/rpg-loc-item-common-*.json"
 ]
 
+# Потому что в скиллах и пассивках нельзя свободно ставить квадратные скобки, только через SkillTag.json с ухищрениями
+[illegal_square_brackets_tweak]
+regex = "\\[@SquareBrackets:`(?P<text>.*?)`\\]\\((?P<color>#[a-fA-F0-9]{6})?\\)"
+open_skilltag  = "WHITE"
+close_skilltag = "BLACK"
+# В итоге должна получиться мешанина из тегов с квадратными скобками, вставленными из
+# скилл тега, в которой цвет из ?P<color> наложен на скобки и ?P<text> используя механизмы
+# TMPro с сохранением тега на фоне, если он идёт сквозь такой же.
+# (То есть: "<color=#e30000>Красный, <color=#f8c200>Жёлтый</color>, всё ещё Красный</color>")
+#
+# Значением для open_skilltag должно быть "</color>[", а для close_skilltag "</color>]"
+#
+# Например:
+#
+#  Внутри SkillTag.json:
+#   {
+#     "id": "WHITE",
+#     "name": "</color>["
+#   },
+#   {
+#     "id": "BLACK",
+#     "name": "</color>]"
+#   },
+#
+#   Исходный текст используя illegal_square_brackets_tweak:
+#     [@SquareBrackets:`Неизменной`](#ffa600)
+#
+#   Текст после билда когда convert_illegalsquarebreackets() из text.py отработал:
+#     [@SquareBrackets:`Неизменной`](#ffa600)
+#
+#   В игре после автоматического раскрытия ею тегов [WHITE] и [BLACK] (<color=#ffffff>/<color=#444444> перед значением "name" и </color> после автоматически вставлены самой игрой)
+#     <color=#ffa600><color=#ffffff></color>[</color><color=#ffa600>Неизменной<color=#444444></color>]</color></color>
+
 # no_link = [
 #   "BattleKeywords*.json",
 #   "Bufs*.json",

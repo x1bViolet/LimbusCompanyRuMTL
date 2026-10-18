@@ -3615,7 +3615,7 @@
         {
           "level": 3,
           "name": "Хлыст разума",
-          "desc": "[StartBattle] Тратит весь счётчик своего [Charge:`Заряда`]\n[StartBattle] Если счётчик своего [Charge:`Заряда`] был меньше 10 перед его тратой, то этот навык становится <color=#fe0000>[WHITE]<color=#fe0000>Неуправляемым[BLACK]</color>",
+          "desc": "[StartBattle] Тратит весь счётчик своего [Charge:`Заряда`]\n[StartBattle] Если счётчик своего [Charge:`Заряда`] был меньше 10 перед его тратой, то этот навык становится [@SquareBrackets:`Неуправляемым`](#fe0000)",
           "coinlist": [
             {
               "coindescs": [
@@ -3662,7 +3662,7 @@
         {
           "level": 4,
           "name": "Хлыст разума",
-          "desc": "[StartBattle] Тратит <style=\"highlight\">8 единиц</style> счётчика своего [Charge:`Заряда`]\n[StartBattle] Если счётчик своего [Charge:`Заряда`] был <style=\"highlight\">менее 8</style> перед его тратой, то этот навык становится <color=#fe0000>[WHITE]<color=#fe0000>Неуправляемым[BLACK]</color>",
+          "desc": "[StartBattle] Тратит <style=\"highlight\">8 единиц</style> счётчика своего [Charge:`Заряда`]\n[StartBattle] Если счётчик своего [Charge:`Заряда`] был <style=\"highlight\">менее 8</style> перед его тратой, то этот навык становится [@SquareBrackets:`Неуправляемым`](#fe0000)",
           "coinlist": [
             {
               "coindescs": [

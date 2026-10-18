@@ -129,6 +129,7 @@ class FontConverter:
                     updated.add(location)
 
 
+
 def replace_shorthands(
     text: str,
     keyword_colors: dict[str, str],
@@ -169,6 +170,37 @@ def convert_keywords(
     elif isinstance(data, str):
         return replace_shorthands(data, keyword_colors, keyword_pattern, converting_tuple)
     return data
+
+
+
+def replace_illegalsquarebreackets(
+    text: str,
+    tweak_pattern: re.Pattern[str],
+    open_skilltag: str,
+    close_skilltag: str
+) -> str:
+    def replacement(match: re.Match[str]) -> str:
+        color = match.group("color")
+        label = match.group("text")
+        return f'<color={color}>[{open_skilltag}]<color={color}>{label}[{close_skilltag}]</color>'
+    return tweak_pattern.sub(replacement, text)
+
+def convert_illegalsquarebreackets(
+    data: JsonValue,
+    tweak_pattern: re.Pattern[str],
+    open_skilltag: str,
+    close_skilltag: str
+) -> JsonValue:
+    if isinstance(data, dict):
+        for key, value in data.items():
+            data[key] = convert_illegalsquarebreackets(value, tweak_pattern, open_skilltag, close_skilltag)
+    elif isinstance(data, list):
+        for index, value in enumerate(data):
+            data[index] = convert_illegalsquarebreackets(value, tweak_pattern, open_skilltag, close_skilltag)
+    elif isinstance(data, str):
+        return replace_illegalsquarebreackets(data, tweak_pattern, open_skilltag, close_skilltag)
+    return data
+
 
 
 def close_highlights(data: JsonObject, rule: CloseHighlight) -> None:

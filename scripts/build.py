@@ -18,7 +18,7 @@ from .assets import (
 from .json_data import JsonObject, load_document, object_list
 from .models import Config
 from .story import load_story_entities, translate_rpg, translate_story
-from .text import FontConverter, close_highlights, convert_keywords
+from .text import FontConverter, close_highlights, convert_keywords, convert_illegalsquarebreackets
 
 LOCALIZATION_PATH = Path("localize")
 STORY_PATH = Path("story")
@@ -79,6 +79,7 @@ def build(
     keyword_colors = load_keyword_colors(keyword_colors_path)
     keyword_regex = re.compile(config.keyword_shorthands.regex)
     keyword_tuple_regex = re.compile(config.keyword_shorthands.regex_tuple)
+    illegal_square_brackets_tweak_regex = re.compile(config.illegal_square_brackets_tweak.regex)
     entities = load_story_entities(story_path / "entities")
     output_path.mkdir(parents=True, exist_ok=True)
     if include_fonts:
@@ -111,6 +112,14 @@ def build(
             localized = translate_story(reference, chapter, entities)
         else:
             localized = load_document(localized_file)
+
+        if matches_any(relative_path, ["Skill*.json", "Passive*.json"]):
+            _ = convert_illegalsquarebreackets(
+                localized,
+                illegal_square_brackets_tweak_regex,
+                config.illegal_square_brackets_tweak.open_skilltag,
+                config.illegal_square_brackets_tweak.close_skilltag
+            )
 
         if matches_any(relative_path, config.keyword_shorthands.apply_for):
             _ = convert_keywords(localized, keyword_colors, keyword_regex, converting_tuple=False)

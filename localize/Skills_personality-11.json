@@ -594,7 +594,7 @@
         {
           "level": 3,
           "name": "Выстрел магической пулей",
-          "desc": "Наносит на (Сила [Combustion:`Огня`] цели × 0.5)% больше урона (До 15%)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится <color=#fe0000>[WHITE]<color=#fe0000>Неуправляемым[BLACK]</color> с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
+          "desc": "Наносит на (Сила [Combustion:`Огня`] цели × 0.5)% больше урона (До 15%)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится [@SquareBrackets:`Неуправляемым`](#fe0000) с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
           "coinlist": [
             {
               "coindescs": [
@@ -608,7 +608,7 @@
         {
           "level": 4,
           "name": "Выстрел магической пулей",
-          "desc": "Наносит на <style=\"highlight\">(</style>Сила [Combustion:`Огня`] цели<style=\"highlight\">)%</style> больше урона (До <style=\"highlight\">30%</style>)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится <color=#fe0000>[WHITE]<color=#fe0000>Неуправляемым[BLACK]</color> с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
+          "desc": "Наносит на <style=\"highlight\">(</style>Сила [Combustion:`Огня`] цели<style=\"highlight\">)%</style> больше урона (До <style=\"highlight\">30%</style>)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится [@SquareBrackets:`Неуправляемым`](#fe0000) с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
           "coinlist": [
             {
               "coindescs": [
