@@ -1362,7 +1362,7 @@
         {
           "level": 1,
           "name": "Вечеринка с пиньятой~!【Pañata Party~!】",
-          "desc": "[WhenUse] Если <color=#80c9ff>СД</color> цели ниже 0, то вероятность критического удара повышается на значение отрицательной <color=#80c9ff>СД</color> цели (До 45%)",
+          "desc": "[WhenUse] Если <color=#80c9ff>СД</color> цели ниже 0, то вероятность Критического удара повышается на значение отрицательной <color=#80c9ff>СД</color> цели (До 45%)",
           "coinlist": [
             {
               "coindescs": [
@@ -4366,7 +4366,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\n[OnSucceedAttack] Наносит фиксированный урон в размере 50% от уже нанесённого"
+                  "desc": "[OnSucceedAttackTail] Если на цели 9 и более [ReattachedCurseTag:`Переклеенных оберегов проклятия`], наносит 5 [Paralysis:`Параличей`]\n[OnSucceedAttack] Наносит фиксированный урон в размере 50% от уже нанесённого"
                 }
               ]
             }
@@ -4385,7 +4385,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] Наносит 3 [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttackTail] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
             }
@@ -4404,7 +4404,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CoinTail] Наносит 3 [Burst:`Разрыва`]"
+                  "desc": "[OnSucceedAttackTail] Наносит 3 [Burst:`Разрыва`]"
                 }
               ]
             }

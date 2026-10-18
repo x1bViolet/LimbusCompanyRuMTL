@@ -78,7 +78,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] На 100% больше критического урона"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На 100% больше Критического урона"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
@@ -123,7 +123,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] На 100% больше критического урона"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] На 100% больше Критического урона"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Paralysis:`Параличей`] на следующий ход"

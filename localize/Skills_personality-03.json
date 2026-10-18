@@ -770,7 +770,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
+                  "desc": "<style=\"highlight\">На 30% больше урона при Критическом попадании</style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Breath:`Дыхания`] двум Идентичностям с наименьшей силой [Breath:`Дыхания`] на 2\n<style=\"highlight\">- Если затронутая Идентичность принадлежит «Родословной клинка», то провышает счётчик её [Breath:`Дыхания`] ещё на 2</style>"
@@ -1781,7 +1781,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На (Сумма силы своего [Breath:`Дыхания`] и [Combustion:`Огня`] на цели)% больше урона при критическом попадании (До 30%)"
+                  "desc": "На (Сумма силы своего [Breath:`Дыхания`] и [Combustion:`Огня`] на цели)% больше урона при Критическом попадании (До 30%)"
                 }
               ]
             }
@@ -1816,7 +1816,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На (Сумма силы своего [Breath:`Дыхания`] и [Combustion:`Огня`] на цели)% больше урона при критическом попадании (До <style=\"highlight\">50%</style>)"
+                  "desc": "На (Сумма силы своего [Breath:`Дыхания`] и [Combustion:`Огня`] на цели)% больше урона при Критическом попадании (До <style=\"highlight\">50%</style>)"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 [DefenseDown:`Понижения уровня защиты`], если цель имеет [DianxueDonQuixote:`Удар по меридианам - Дон Кихот`]</style>"
@@ -2118,7 +2118,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[CoinTail] Наносит главной цели [VillainMark:`Метку злодейства`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttackTail] Наносит главной цели [VillainMark:`Метку злодейства`] на следующий ход</style>"
                 }
               ]
             }
@@ -2973,7 +2973,7 @@
         {
           "level": 3,
           "name": "С-сей же час предписание должно быть выполнено...",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при критических попаданиях\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До 2)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], наносит им на 20% больше урона при Критических попаданиях\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До 2)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[WhenUse] Повышает счётчик своего [Breath:`Дыхания`] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -3000,7 +3000,7 @@
         {
           "level": 4,
           "name": "С-сей же час предписание должно быть выполнено...",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Силе монет и</style> наносит на <style=\"highlight\">40%</style> больше урона при критических попаданиях\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]<style=\"highlight\">, а его урон повышается на 20% за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 60%)</style>\n[WhenUse] <style=\"highlight\">Получает (Стадия [UnlockBuff_Base:`Разблокировки`]) [Breath:`Дыхания`] и</style> повышает его счётчик на 3",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy:`Метку предписания`], <style=\"highlight\">он получает +1 к Силе монет и</style> наносит на <style=\"highlight\">40%</style> больше урона при Критических попаданиях\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы своего [Breath:`Дыхания`] и [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[StartBattle] При [UnlockBuffAlly_2:`Второй`] и более стадии [UnlockBuff_Base:`Разблокировки`] все монеты этого навыка становятся [SuperCoin:`Вечными`]<style=\"highlight\">, а его урон повышается на 20% за каждую стадию [UnlockBuff_Base:`Разблокировки`] (До 60%)</style>\n[WhenUse] <style=\"highlight\">Получает (Стадия [UnlockBuff_Base:`Разблокировки`]) [Breath:`Дыхания`] и</style> повышает его счётчик на 3",
           "coinlist": [
             {
               "coindescs": [
