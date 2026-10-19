@@ -1,0 +1,28 @@
+{
+  "dataList": [
+    {
+      "id": "mirror_dungeon_progress_text_8",
+      "content": "Зеркало Сизифа - Э{0}"
+    },
+    {
+      "id": "mirror_dungeon_start_buff_Panel_title_md8",
+      "content": "Благословение Сизифовой звезды"
+    },
+    {
+      "id": "mirrordungeon_theme_hard_blocked_8",
+      "content": "Пройдите 9 Песнь для разблокировки"
+    },
+    {
+      "id": "mirrordungeon_theme_hard_blocked_short_8",
+      "content": "Пройдите 9 Песнь"
+    },
+    {
+      "id": "mirror_dungeon_detect_theme_pack_side_popup_locked_by_unlockcode_110",
+      "content": "Этот набор тем будет доступен после соблюдения следующих условий: пройдите Этап 9.5-26 и 10 Песнь"
+    },
+    {
+      "id": "mirrordungeon_theme_pack_blocked_short_110",
+      "content": "Пройдите Этап 9.5-26 и 10 Песнь"
+    }
+  ]
+}
