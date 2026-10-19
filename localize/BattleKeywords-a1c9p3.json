@@ -315,7 +315,7 @@
     {
       "id": "AccelBullet",
       "name": "Скоростные патроны",
-      "desc": "<line-height=134%><size=90%><b>Являются <color=#a16a3b><u>Особыми Патронами</u></color></b>\n<line-height=100%>Максимальное количество: 10",
+      "desc": "<line-height=134%><size=90%><b>Являются <color=#a16a3b><u>Особыми Патронами</u></color></b></size>\n<line-height=100%>Максимальное количество: 10",
       "summary": "",
       "undefined": "-"
     },
