@@ -2402,7 +2402,7 @@
         {
           "level": 1,
           "name": "Фитиль из сгоревших перьев",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 3) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 2) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -2416,7 +2416,7 @@
         {
           "level": 4,
           "name": "Фитиль из сгоревших перьев",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% от максимальных <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 3) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 2) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
