@@ -18,7 +18,7 @@ from .assets import (
 from .json_data import JsonObject, load_document, object_list
 from .models import Config
 from .story import load_story_entities, translate_rpg, translate_story
-from .text import FontConverter, close_highlights, convert_keywords, convert_illegalsquarebreackets
+from .text import FontConverter, close_highlights, convert_keywords, convert_illegal_square_brackets
 
 LOCALIZATION_PATH = Path("localize")
 STORY_PATH = Path("story")
@@ -114,7 +114,7 @@ def build(
             localized = load_document(localized_file)
 
         if matches_any(relative_path, ["Skill*.json", "Passive*.json"]):
-            _ = convert_illegalsquarebreackets(
+            _ = convert_illegal_square_brackets(
                 localized,
                 illegal_square_brackets_tweak_regex,
                 config.illegal_square_brackets_tweak.open_skilltag,
