@@ -31,7 +31,7 @@
         {
           "level": 1,
           "name": "Куккуу!",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]",
           "coinlist": [
             {
               "coindescs": [
@@ -234,7 +234,7 @@
         {
           "level": 1,
           "name": "Кхгх",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]",
           "coinlist": [
             {
               "coindescs": [

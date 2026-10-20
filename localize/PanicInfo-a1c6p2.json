@@ -4,7 +4,7 @@
       "id": 1019,
       "panicName": "Искажённая картина",
       "lowMoraleDescription": "Получает 1 [Enhancement:`Повышение силы атаки`] и 1 [Vulnerable:`Уязвимость`]\n",
-      "panicDescription": "Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] и 3 [Vulnerable:`Уязвимости`]"
+      "panicDescription": "Получает 1 [PlusCoinValueUp:`Усиление положительных монет`] и 3 [Vulnerable:`Уязвимости`]"
     },
     {
       "id": 1021,

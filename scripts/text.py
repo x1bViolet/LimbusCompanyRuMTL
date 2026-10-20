@@ -129,38 +129,80 @@ class FontConverter:
                     updated.add(location)
 
 
+
 def replace_shorthands(
     text: str,
     keyword_colors: dict[str, str],
-    keyword_regex: re.Pattern[str],
+    keyword_pattern: re.Pattern[str],
+    converting_tuple: bool
 ) -> str:
     def replacement(match: re.Match[str]) -> str:
-        keyword_id = match.group("keyword_id")
-        sprite_id = match.group("sprite_id") or keyword_id
-        color = match.group("color") or keyword_colors.get(keyword_id, "#f8c200")
-        label = match.group("text")
-        return (
-            f'<sprite name="{sprite_id}"><color={color}>'
-            f'<u><link="{keyword_id}">{label}</link></u></color>'
-        )
-
-    return keyword_regex.sub(replacement, text)
+        if converting_tuple:
+            def format_keyword(value: str) -> str:
+                link_id, separator, sprite_id = value.partition(":")
+                if separator == "": sprite_id = link_id
+                return f'<u><link="{link_id}"><sprite name="{sprite_id}"></link></u>'
+            keyword_ids = [format_keyword(value) for value in match.group("keyword_ids").split(",")]
+            color = match.group("color")
+            label = match.group("text")
+            return f'<color={color}>({"/".join(keyword_ids)})<u>{label}</u></color>'
+        else:
+            keyword_id = match.group("keyword_id")
+            sprite_id = match.group("sprite_id") or keyword_id
+            color = match.group("color") or keyword_colors.get(keyword_id, "#f8c200")
+            label = match.group("text")
+            if match.group("cancel_link") is None: label = f'<link="{keyword_id}">{label}</link>'
+            return f'<sprite name="{sprite_id}"><color={color}><u>{label}</u></color>'
+    return keyword_pattern.sub(replacement, text)
 
 
 def convert_keywords(
     data: JsonValue,
     keyword_colors: dict[str, str],
-    keyword_regex: re.Pattern[str],
+    keyword_pattern: re.Pattern[str],
+    converting_tuple: bool
 ) -> JsonValue:
     if isinstance(data, dict):
         for key, value in data.items():
-            data[key] = convert_keywords(value, keyword_colors, keyword_regex)
+            data[key] = convert_keywords(value, keyword_colors, keyword_pattern, converting_tuple)
     elif isinstance(data, list):
         for index, value in enumerate(data):
-            data[index] = convert_keywords(value, keyword_colors, keyword_regex)
+            data[index] = convert_keywords(value, keyword_colors, keyword_pattern, converting_tuple)
     elif isinstance(data, str):
-        return replace_shorthands(data, keyword_colors, keyword_regex)
+        return replace_shorthands(data, keyword_colors, keyword_pattern, converting_tuple)
     return data
+
+
+
+def replace_illegal_square_brackets(
+    text: str,
+    tweak_pattern: re.Pattern[str],
+    open_skilltag: str,
+    close_skilltag: str
+) -> str:
+    def replacement(match: re.Match[str]) -> str:
+        color = match.group("color")
+        label = match.group("text")
+        if color is None: color = "#ebcaa2"
+        return f'<color={color}>[{open_skilltag}]<color={color}>{label}[{close_skilltag}]'
+    return tweak_pattern.sub(replacement, text)
+
+def convert_illegal_square_brackets(
+    data: JsonValue,
+    tweak_pattern: re.Pattern[str],
+    open_skilltag: str,
+    close_skilltag: str
+) -> JsonValue:
+    if isinstance(data, dict):
+        for key, value in data.items():
+            data[key] = convert_illegal_square_brackets(value, tweak_pattern, open_skilltag, close_skilltag)
+    elif isinstance(data, list):
+        for index, value in enumerate(data):
+            data[index] = convert_illegal_square_brackets(value, tweak_pattern, open_skilltag, close_skilltag)
+    elif isinstance(data, str):
+        return replace_illegal_square_brackets(data, tweak_pattern, open_skilltag, close_skilltag)
+    return data
+
 
 
 def close_highlights(data: JsonObject, rule: CloseHighlight) -> None:

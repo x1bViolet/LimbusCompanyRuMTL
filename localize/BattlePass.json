@@ -110,7 +110,7 @@
     },
     {
       "id": "buy_battlepass_word",
-      "content": "[font=bebas]<cspace=-2px>Пробить</cspace>"
+      "content": "[font=bebas]<cspace=-2px><size=74><pos=-62%>Купить</size></cspace>"
     },
     {
       "id": "battlepass_level_ex_reward",

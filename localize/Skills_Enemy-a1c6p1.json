@@ -261,7 +261,7 @@
         {
           "level": 1,
           "name": "Б-броня рр-",
-          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более единицами счётчика [Burst:`Разрыва`]",
+          "desc": "[WhenUse] Базовая сила +1 против целей, чей счётчик [Burst:`Разрыва`] равен 3 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -465,7 +465,7 @@
         {
           "level": 1,
           "name": "Убирайся... из моего...",
-          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более единицами счётчика [Burst:`Разрыва`]",
+          "desc": "[WhenUse] Базовая сила +1 против целей, чей счётчик [Burst:`Разрыва`] равен 3 и более",
           "coinlist": [
             {
               "coindescs": [
@@ -638,12 +638,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 3 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 3 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -747,12 +747,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 3 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 3 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -890,12 +890,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 5 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1010,12 +1010,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 3 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 3 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1205,12 +1205,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Восстанавливает себе 5 <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1253,7 +1253,7 @@
         {
           "level": 1,
           "name": "Прием чужака",
-          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
+          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительных монет`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1369,7 +1369,7 @@
         {
           "level": 1,
           "name": "Ответ чужака",
-          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
+          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp:`Усиление положительных монет`]\n[DefeatDuel] Получает 3 [Sinking:`Утопания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1493,7 +1493,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             },

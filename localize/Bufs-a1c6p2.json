@@ -66,7 +66,7 @@
     {
       "id": "AaCfPbBh",
       "name": "Искажённая картина (Паника)",
-      "desc": "Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] и 3 [Vulnerable:`Уязвимости`]",
+      "desc": "Получает 1 [PlusCoinValueUp:`Усиление положительных монет`] и 3 [Vulnerable:`Уязвимости`]",
       "summary": "",
       "undefined": "-"
     },

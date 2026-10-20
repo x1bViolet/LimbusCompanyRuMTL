@@ -319,7 +319,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
+                  "desc": "<style=\"highlight\">На 30% больше урона при Критическом попадании</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
@@ -349,7 +349,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">50%</style> больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
@@ -384,7 +384,7 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "На 50% больше урона при критическом попадании"
+                  "desc": "На 50% больше урона при Критическом попадании"
                 }
               ]
             }
@@ -408,10 +408,10 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "На <style=\"highlight\">100%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">100%</style> больше урона при Критическом попадании"
                 },
                 {
-                  "desc": "<style=\"highlight\">[TargetKill] Получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[TargetKill] Получает 1 [PlusCoinValueUp:`Усиление положительных монет`] на следующий ход</style>"
                 }
               ]
             }
@@ -621,7 +621,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:`Кровотечения`], то наносит ей 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели 10 и более [Laceration:`Кровотечения`], то наносит ей 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -658,7 +658,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] Наносит 3 [Laceration:`Кровотечения`]</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели <style=\"highlight\">7</style> и более [Laceration:`Кровотечения`], то наносит ей 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если на цели <style=\"highlight\">7</style> и более [Laceration:`Кровотечения`], то наносит ей 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -808,7 +808,7 @@
         {
           "level": 3,
           "name": "Кошмарная охота",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До 2)\n[EndSkill] При Оглушении цели повышает её счётчик [Sinking:`Утопания`] на 3\n[TargetKill] Повышает счётчик [Sinking:`Утопания`] случайного противника на 3",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До 2)\n[EndSkill] При Оглушении цели повышает счётчик её [Sinking:`Утопания`] на 3\n[TargetKill] Повышает счётчик [Sinking:`Утопания`] случайного противника на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -834,7 +834,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp:`Повышение урона`] и 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход, но вместе с этим с шансом 50% переносит на себя до 10 [Sinking:`Утопания`] с цели"
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp:`Повышение урона`] и 1 [PlusCoinValueUp:`Усиление положительных монет`] на следующий ход, но вместе с этим с шансом 50% переносит на себя до 10 [Sinking:`Утопания`] с цели"
                 }
               ]
             }
@@ -843,7 +843,7 @@
         {
           "level": 4,
           "name": "Кошмарная охота",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До <style=\"highlight\">3</style>)\n[EndSkill] При Оглушении цели повышает её счётчик [Sinking:`Утопания`] на 3\n[TargetKill] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">двух</style> случайных противников на 3",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 3 единицы счётчика [Sinking:`Утопания`] цели (До <style=\"highlight\">3</style>)\n[EndSkill] При Оглушении цели повышает счётчик её [Sinking:`Утопания`] на 3\n[TargetKill] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">двух</style> случайных противников на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -869,7 +869,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [AttackDmgUp:`Повышения урона`] и 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход, но вместе с этим с шансом 50% переносит на себя до 10 [Sinking:`Утопания`] с цели"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">3</style> [AttackDmgUp:`Повышения урона`] и 1 [PlusCoinValueUp:`Усиление положительных монет`] на следующий ход, но вместе с этим с шансом 50% переносит на себя до 10 [Sinking:`Утопания`] с цели"
                 }
               ]
             }
@@ -1601,7 +1601,7 @@
                   "desc": "На (Сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели × 5)% больше урона (До 150%)"
                 },
                 {
-                  "desc": "На 75% больше урона при критическом попадании, если есть [SnakeStance:`Змеиная рука`]"
+                  "desc": "На 75% больше урона при Критическом попадании, если есть [SnakeStance:`Змеиная рука`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2"
@@ -1627,7 +1627,7 @@
                   "desc": "На (Сумма силы своего [Breath:`Дыхания`] и [Burst:`Разрыва`] на цели × <style=\"highlight\">10</style>)% больше урона (До <style=\"highlight\">200%</style>)"
                 },
                 {
-                  "desc": "На <style=\"highlight\">100%</style> больше урона при критическом попадании, если есть [SnakeStance:`Змеиная рука`]"
+                  "desc": "На <style=\"highlight\">100%</style> больше урона при Критическом попадании, если есть [SnakeStance:`Змеиная рука`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] [BurstPoison:`Смертный ритуал 【Яд】`] цели снижается на 2"
@@ -1982,7 +1982,7 @@
         {
           "level": 2,
           "name": "Милость",
-          "desc": "Не вызывает активацию Защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\n\n[CantDuel]\nЕсли текущие <color=#00ff9c>ОЗ</color> цели ниже 20%, то наносит ей на 80% больше урона\n(В фокусированных битвах учитываются <color=#00ff9c>ОЗ</color> Ядра цели)\n\nСила монеты +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> цели (До 2)",
+          "desc": "※ Не вызывает активацию Защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\n\n[CantDuel]\nЕсли текущие <color=#00ff9c>ОЗ</color> цели ниже 20%, то наносит ей на 80% больше урона\n(В фокусированных битвах учитываются <color=#00ff9c>ОЗ</color> Ядра цели)\n\nСила монеты +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1996,7 +1996,7 @@
         {
           "level": 4,
           "name": "Милость",
-          "desc": "Не вызывает активацию Защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\n\n[CantDuel]\n<style=\"highlight\">Наносит на (Процент потерянных <color=#00ff9c>ОЗ</color> цели)% больше урона</style>\n- Если текущие <color=#00ff9c>ОЗ</color> цели ниже 20%, то наносит ей на <style=\"highlight\">120%</style> больше урона <style=\"highlight\">вместо этого</style>\n(В фокусированных битвах учитываются <color=#00ff9c>ОЗ</color> Ядра цели)\n\nСила монеты +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> цели (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>",
+          "desc": "※ Не вызывает активацию Защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\n\n[CantDuel]\n<style=\"highlight\">Наносит на (Процент потерянных <color=#00ff9c>ОЗ</color> цели)% больше урона</style>\n- Если текущие <color=#00ff9c>ОЗ</color> цели ниже 20%, то наносит ей на <style=\"highlight\">120%</style> больше урона <style=\"highlight\">вместо этого</style>\n(В фокусированных битвах учитываются <color=#00ff9c>ОЗ</color> Ядра цели)\n\nСила монеты +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> цели (До <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] Получает 1 [Agility:`Спешку`] на следующий ход (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2174,7 +2174,7 @@
         {
           "level": 4,
           "name": "Пристальный взгляд: нулевая дальность",
-          "desc": "Сила монет +1 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя Скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
+          "desc": "Сила монет +1 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя Скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Sinking:`Утопания`] и [Combustion:`Огня`] равна 6 и более</style>\n[WhenUse] Получает 1 [Binding:`Связывание`] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2276,7 +2276,7 @@
         {
           "level": 4,
           "name": "Уничтожить зримое с помощью незримого",
-          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя Скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>",
+          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя Скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Sinking:`Утопания`] и [Combustion:`Огня`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2358,7 +2358,7 @@
         {
           "level": 4,
           "name": "Спасение для тех, кто очарован лампой",
-          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя Скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking:`Утопания`] и [Combustion:`Огня`]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3\n<style=\"highlight\">[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird:`Ослепления`](;DelusionHohenheimBigBird), то получает 1 [PlusCoinValueUp:`Усиление положительной монеты`] на следующий ход (Единожды за ход)</style>",
+          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя Скорость равна 1\n- Цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Sinking:`Утопания`] и [Combustion:`Огня`] равна 6 и более</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird:`Ослепление`](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin:`Вечными`]\n- Сила в столкновении +3\n<style=\"highlight\">[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird:`Ослепления`](;DelusionHohenheimBigBird), то получает 1 [PlusCoinValueUp:`Усиление положительных монет`] на следующий ход (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2402,7 +2402,7 @@
         {
           "level": 1,
           "name": "Фитиль из сгоревших перьев",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 3) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 2) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -2416,7 +2416,7 @@
         {
           "level": 4,
           "name": "Фитиль из сгоревших перьев",
-          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% от максимальных <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 3) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
+          "desc": "[CanDuelGuard:`Блок столкновением`]\n[StartBattle] Поднимает значение [LanternGregBigBird:`Ламп`](;LanternHohenheimBigBird) до 8, а затем теряет по 1% <color=#00ff9c>ОЗ</color> за каждую полученную таким образом [LanternGregBigBird:`Лампу`](;LanternHohenheimBigBird) (Этот эффект не может опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[EndBattle] Даёт 1 [Agility:`Спешку`] на следующий ход другим (Значение [Binding:`Связывания`] на себе / 2) Идентичностям с наименьшей Скоростью (Единожды за ход; число затрагиваемых Идентичностей округляется вниз)",
           "coinlist": [
             {
               "coindescs": [

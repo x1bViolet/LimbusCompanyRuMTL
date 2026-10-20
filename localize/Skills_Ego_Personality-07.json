@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`] на следующий ход\n- Повторяет эффект (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 5)"
+                  "desc": "[OnSucceedAttackHead] Наносит на следующий ход 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]\n- Повторяет этот эффект ещё (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 5)"
                 }
               ]
             }
@@ -27,10 +27,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`] на следующий ход\n- Повторяет эффект (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 5)"
+                  "desc": "[OnSucceedAttackHead] Наносит на следующий ход 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]\n- Повторяет этот эффект ещё (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 5)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EnemyKill] Даёт двум случайным союзникам 1 единицу счётчика [Breath:`Дыхания`], 1 единицу счётчика [Charge:`Заряда`], [Agility:`Спешку`], [AttackUp:`Повышение уровня атаки`] или [DefenseUp:`Повышение уровня защиты`] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[TargetKill] Даёт на следующий ход двум случайным Идентичностям 1 единицу счётчика [Breath:`Дыхания`], 1 единицу счётчика [Charge:`Заряда`], [Agility:`Спешку`], [AttackUp:`Повышение уровня атаки`] или [DefenseUp:`Повышение уровня защиты`]</style>"
                 }
               ]
             }
@@ -45,10 +45,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`] на следующий ход\n- Повторяет эффект (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До <style=\"highlight\">7</style>)"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит на следующий ход 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]\n- Повторяет этот эффект ещё (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До <style=\"highlight\">7</style>)"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт двум случайным союзникам <style=\"highlight\">2</style> единицы счётчика [Breath:`Дыхания`], <style=\"highlight\">2</style> единицы счётчика [Charge:`Заряда`], [Agility:`Спешки`], [AttackUp:`Повышения уровня атаки`] или [DefenseUp:`Повышения уровня защиты`] на следующий ход"
+                  "desc": "[TargetKill] Даёт на следующий ход двум случайным Идентичностям <style=\"highlight\">2</style> единицы счётчика [Breath:`Дыхания`], <style=\"highlight\">2</style> единицы счётчика [Charge:`Заряда`], [Agility:`Спешки`], [AttackUp:`Повышения уровня атаки`] или [DefenseUp:`Повышения уровня защиты`]"
                 }
               ]
             }
@@ -63,12 +63,12 @@
           "level": 1,
           "name": "Праздник",
           "abName": "Сан-дольф",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшей <color=#80c9ff>СД</color>\n[BeforeAttack] Цели теряют 10 <color=#80c9ff>СД</color>",
+          "desc": "[CantIdentify] (Нацеливается на участника битвы с наибольшей <color=#80c9ff>СД</color>)\n\n[BeforeAttack] Цели теряют 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`] на следующий ход\n- Повторяет эффект (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит на следующий ход 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]\n- Повторяет этот эффект ещё (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 7)"
                 }
               ]
             }
@@ -78,12 +78,12 @@
           "level": 3,
           "name": "Праздник",
           "abName": "Сан-дольф",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшей <color=#80c9ff>СД</color>\n[BeforeAttack] Цели теряют 10 <color=#80c9ff>СД</color>",
+          "desc": "[CantIdentify] (Нацеливается на участника битвы с наибольшей <color=#80c9ff>СД</color>)\n\n[BeforeAttack] Цели теряют 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`] на следующий ход\n- Повторяет эффект (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит на следующий ход 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]\n- Повторяет этот эффект ещё (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 7)"
                 }
               ]
             }
@@ -93,12 +93,12 @@
           "level": 4,
           "name": "Праздник",
           "abName": "Сан-дольф",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшей <color=#80c9ff>СД</color>\n<style=\"highlight\">Количество целей +1, если <color=#80c9ff>СД</color> главной цели выше 15</style>\n[BeforeAttack] Цели теряют 10 <color=#80c9ff>СД</color>",
+          "desc": "[CantIdentify] (Нацеливается на участника битвы с наибольшей <color=#80c9ff>СД</color>)\n\n<style=\"highlight\">Количество целей +1, если <color=#80c9ff>СД</color> главной цели выше 15</style>\n[BeforeAttack] Цели теряют 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`] на следующий ход\n- Повторяет эффект (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 7)"
+                  "desc": "[OnSucceedAttack] Наносит на следующий ход 1 [Combustion:`Огонь`], [Laceration:`Кровотечение`], [Vibration:`Тремор`], [Burst:`Разрыв`] или [Sinking:`Утопание`]\n- Повторяет этот эффект ещё (2 + (Число грехов в наибольшем абсолютном резонансе <color=#a5fe06>Чревоугодия</color>)) раз (До 7)"
                 }
               ]
             }
@@ -113,7 +113,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 1 [Enhancement:`Повышение силы атаки`]\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "[EndSkill] Получает на следующий ход <nobr>20 [Binding:`Связывания`]</nobr>, 1 [Enhancement:`Повышение силы атаки`] и [ForwardToTheKing:`Пред ликом Короля`]\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 1 [Enhancement:`Повышение силы атаки`]\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "[EndSkill] Получает на следующий ход <nobr>20 [Binding:`Связывания`]</nobr>, 1 [Enhancement:`Повышение силы атаки`] и [ForwardToTheKing:`Пред ликом Короля`]\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -158,7 +158,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], <style=\"highlight\">[ForwardToTheBoundKing:`Пред ликом Связанного короля`] и 2</style> [Enhancement:`Повышения силы атаки`]\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
+          "desc": "[EndSkill] Получает на следующий ход <nobr>20 [Binding:`Связывания`]</nobr>, 1 [Enhancement:`Повышение силы атаки`] и [ForwardToTheKing:`Пред ликом Короля`]\n[EndSkill] Теряет 10 <color=#80c9ff>СД</color> в конце последующих 3-ёх ходов ",
           "coinlist": [
             {
               "coindescs": [
@@ -187,7 +187,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 2 [Enhancement:`Повышения силы атаки`]\n[EndSkill] Даёт двум другим союзникам 20 [Binding:`Связывания`] и 3 [Enhancement:`Повышения силы атаки`] на следующий ход в порядке их выбора в команду\n- Количество этих союзников повышается на (Число грехов в наибольшем резонансе <color=#1cc7f1>Уныния</color> или <color=#014fd6>Гордыни</color> - 2) (До 2 дополнительных союзников)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[EndSkill] Получает на следующий ход <nobr>20 [Binding:`Связывания`]</nobr>, 2 [Enhancement:`Повышения силы атаки`] и [ForwardToTheKing:`Пред ликом Короля`]\n[EndSkill] Даёт на следующий ход двум другим Идентичностям 20 [Binding:`Связывания`] и 3 [Enhancement:`Повышения силы атаки`] по возрастанию их порядкового номера в команде\n- Количество этих Идентичностей увеличивается на (Число грехов в наибольшем резонансе <color=#1cc7f1>Уныния</color> или <color=#014fd6>Гордыни</color> - 2) (До 2 дополнительных Идентичностей)",
           "coinlist": [
             {
               "coindescs": [
@@ -211,7 +211,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и 2 [Enhancement:`Повышения силы атаки`]\n[EndSkill] Даёт двум другим союзникам 20 [Binding:`Связывания`], 3 [Enhancement:`Повышения силы атаки`] <style=\"highlight\">и 1 <style=\"highlight\">[AzureDamageUp:`Повышение урона Унынием`]</style> на следующий ход в порядке их выбора в команду\n- Количество этих союзников повышается на (Число грехов в наибольшем резонансе <color=#1cc7f1>Уныния</color> или <color=#014fd6>Гордыни</color> - 2) (До <style=\"highlight\">3</style> дополнительных союзников)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[EndSkill] Получает на следующий ход <nobr>20 [Binding:`Связывания`]</nobr>, 2 [Enhancement:`Повышения силы атаки`] и [ForwardToTheKing:`Пред ликом Короля`]\n[EndSkill] Даёт на следующий ход двум другим Идентичностям <nobr>20 [Binding:`Связывания`]</nobr>, 3 [Enhancement:`Повышения силы атаки`] <style=\"highlight\">и 1 [AzureDamageUp:`Повышение урона Унынием`]</style> по возрастанию их порядкового номера в команде\n- Количество этих Идентичностей увеличивается на (Число грехов в наибольшем резонансе <color=#1cc7f1>Уныния</color> или <color=#014fd6>Гордыни</color> - 2) (До <style=\"highlight\">3</style> дополнительных Идентичностей)",
           "coinlist": [
             {
               "coindescs": [
@@ -235,7 +235,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Получает на следующий ход 20 [Binding:`Связывания`], [ForwardToTheKing:`Пред ликом Короля`] и <style=\"highlight\">3</style> [Enhancement:`Повышения силы атаки`]\n[EndSkill] Даёт двум другим союзникам 20 [Binding:`Связывания`], 3 [Enhancement:`Повышения силы атаки`] и <style=\"highlight\">2</style> [AzureDamageUp:`Повышения урона Унынием`] на следующий ход в порядке их выбора в команду\n- Количество этих союзников повышается на (Число грехов в наибольшем резонансе <color=#1cc7f1>Уныния</color> или <color=#014fd6>Гордыни</color> - 2) (До <style=\"highlight\">4</style> дополнительных союзников)",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[EndSkill] Получает на следующий ход <nobr>20 [Binding:`Связывания`]</nobr>, <style=\"highlight\">3</style> [Enhancement:`Повышения силы атаки`] и [ForwardToTheKing:`Пред ликом Короля`]\n[EndSkill] Даёт на следующий ход двум другим Идентичностям 20 [Binding:`Связывания`], 3 [Enhancement:`Повышения силы атаки`] и <style=\"highlight\">2</style> [AzureDamageUp:`Повышения урона Унынием`] по возрастанию их порядкового номера в команде\n- Количество этих Идентичностей увеличивается на (Число грехов в наибольшем резонансе <color=#1cc7f1>Уныния</color> или <color=#014fd6>Гордыни</color> - 2) (До <style=\"highlight\">4</style> дополнительных Идентичностей)",
           "coinlist": [
             {
               "coindescs": [
@@ -264,13 +264,13 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До 3)\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
+          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, то получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До 3)\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "На 5% больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До 35%)"
+                  "desc": "На 5% больше урона при Критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До 35%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
@@ -279,7 +279,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой Идентичности Хитклифа есть возможность использовать [Bullet:`Патроны`], получает 1 [Bullet:`Патрон`] (До 2 раз за битву)"
+                  "desc": "[CriticalTargetKill] Если у текущей Идентичности Хитклифа есть возможность использовать [Bullet:`Патроны`], то он получает 1 [Bullet:`Патрон`] (До 2 раз за битву)"
                 }
               ]
             }
@@ -289,13 +289,13 @@
           "level": 3,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">4</style>)\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
+          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, то получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">4</style>)\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">10%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)"
+                  "desc": "На <style=\"highlight\">10%</style> больше урона при Критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">70%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">4</style> [Laceration:`Кровотечения`]"
@@ -304,7 +304,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой Идентичности Хитклифа есть возможность использовать [Bullet:`Патроны`], получает 1 [Bullet:`Патрон`] (До 2 раз за битву)"
+                  "desc": "[CriticalTargetKill] Если у текущей Идентичности Хитклифа есть возможность использовать [Bullet:`Патроны`], то он получает 1 [Bullet:`Патрон`] (До 2 раз за битву)"
                 }
               ]
             }
@@ -314,13 +314,13 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">7</style>)\n<style=\"highlight\">[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1</style>\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
+          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, то получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">7</style>)\n<style=\"highlight\">[BeforeAttack] Повышает счётчик своего [Breath:`Дыхания`] на 1</style>\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">15%</style> больше урона при критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)"
+                  "desc": "На <style=\"highlight\">15%</style> больше урона при Критическом попадании за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">105%</style>)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style> [Laceration:`Кровотечения`]"
@@ -329,7 +329,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой Идентичности Хитклифа есть возможность использовать [Bullet:`Патроны`], получает 1 [Bullet:`Патрон`] (До <style=\"highlight\">3</style> раз за битву)"
+                  "desc": "[CriticalTargetKill] Если у текущей Идентичности Хитклифа есть возможность использовать [Bullet:`Патроны`], то он получает 1 [Bullet:`Патрон`] (До <style=\"highlight\">3</style> раз за битву)"
                 }
               ]
             }
@@ -344,7 +344,7 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Наносит на 2% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До 3)\n[BeforeAttack] Наносит на 3% больше урона за каждые 5 [Breath:`Дыхания`] (До 15%)\n[BeforeAttack] Тратит 5 [Breath:`Дыхания`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, то получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Наносит на 2% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До 3)\n[BeforeAttack] Наносит на 3% больше урона за каждые 5 [Breath:`Дыхания`] (До 15%)\n[BeforeAttack] Тратит 5 [Breath:`Дыхания`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -359,7 +359,7 @@
           "level": 3,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 3 и более [BoseProjektil:`Разорванных воспоминаниях`]</style>\n[BeforeAttack] Наносит на 2% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">4</style>)\n[BeforeAttack] Наносит на <style=\"highlight\">4%</style> больше урона за каждые 5 [Breath:`Дыхания`] (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Тратит 5 [Breath:`Дыхания`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, то получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n<style=\"highlight\">[BeforeAttack] Количество целей +1 при 3 и более [BoseProjektil:`Разорванных воспоминаниях`]</style>\n[BeforeAttack] Наносит на 2% больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До 14%)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">4</style>)\n[BeforeAttack] Наносит на <style=\"highlight\">4%</style> больше урона за каждые 5 [Breath:`Дыхания`] (До <style=\"highlight\">20%</style>)\n[BeforeAttack] Тратит 5 [Breath:`Дыхания`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -374,7 +374,7 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Количество целей +1 <style=\"highlight\">за каждые 3</style> [BoseProjektil:`Разорванных воспоминания`] <style=\"highlight\">(До 2 дополнительных целей)</style>\n[BeforeAttack] Наносит на <style=\"highlight\">3%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">21%</style>)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">7</style>)\n[BeforeAttack] Наносит на <style=\"highlight\">5%</style> больше урона за каждые 5 [Breath:`Дыхания`] (До <style=\"highlight\">25%</style>)\n[BeforeAttack] Тратит 5 [Breath:`Дыхания`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе + 1) [BoseProjektil:`Разорванных воспоминаний`] (До 7)\n- Если это абсолютный резонанс, то получает (Число грехов в этом резонансе + 2) [BoseProjektil:`Разорванных воспоминаний`] вместо этого\n[BeforeAttack] Количество целей +1 <style=\"highlight\">за каждые 3</style> [BoseProjektil:`Разорванных воспоминания`] <style=\"highlight\">(До 2 дополнительных целей)</style>\n[BeforeAttack] Наносит на <style=\"highlight\">3%</style> больше урона за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">21%</style>)\n[BeforeAttack] Получает 1 [Breath:`Дыхание`] за каждое [BoseProjektil:`Разорванное воспоминание`] (До <style=\"highlight\">7</style>)\n[BeforeAttack] Наносит на <style=\"highlight\">5%</style> больше урона за каждые 5 [Breath:`Дыхания`] (До <style=\"highlight\">25%</style>)\n[BeforeAttack] Тратит 5 [Breath:`Дыхания`]\n[EndSkill] Теряет все [BoseProjektil:`Разорванные воспоминания`]",
           "coinlist": [
             {
               "coindescs": [
@@ -394,7 +394,7 @@
           "level": 1,
           "name": "Асимметричная инерция",
           "abName": "Заводное перекати-поле",
-          "desc": "[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на число грехов в наибольшем резонансе (До 6; не более 20 за ход)\n- Если грехом резонанса является <color=#fed133>Леность</color>, [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на число грехов в наибольшем резонансе (До 6; не более 20 за ход)\n- Если грехом этого резонанса является <color=#fed133>Леность</color>, то [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -405,14 +405,14 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на этот ход\n- Если наибольший резонанс является абсолютным резонансом Лености из 4 и более грехов, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на этот ход\n- Если наибольший резонанс является абсолютным резонансом <color=#fed133>Лености</color> из 4 и более грехов, то наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -422,7 +422,7 @@
           "level": 3,
           "name": "Асимметричная инерция",
           "abName": "Заводное перекати-поле",
-          "desc": "[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">(</style>Число грехов в наибольшем резонансе <style=\"highlight\">+ 2)</style> (До <style=\"highlight\">8</style>; не более 20 за ход)\n- Если грехом резонанса является <color=#fed133>Леность</color>, [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">(</style>Число грехов в наибольшем резонансе <style=\"highlight\">+ 2)</style> (До <style=\"highlight\">8</style>; не более 20 за ход)\n- Если грехом этого резонанса является <color=#fed133>Леность</color>, то [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -433,14 +433,14 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">4</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <nobr>на 2</nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на этот ход\n- Если наибольший резонанс является абсолютным резонансом Лености <style=\"highlight\">из 3 грехов</style>, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на этот ход\n- Если наибольший резонанс является абсолютным резонансом <color=#fed133>Лености</color> <style=\"highlight\">из 3 грехов</style>, то наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -450,7 +450,7 @@
           "level": 4,
           "name": "Асимметричная инерция",
           "abName": "Заводное перекати-поле",
-          "desc": "[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">4</style>) (До 8; не более 20 за ход)\n- Если грехом резонанса является <color=#fed133>Леность</color>, [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
+          "desc": "[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">4</style>) (До 8; не более 20 за ход)\n- Если грехом этого резонанса является <color=#fed133>Леность</color>, то [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -461,14 +461,14 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">5</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <nobr>на <style=\"highlight\">3</style></nobr>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на этот ход\n- Если наибольший резонанс является абсолютным резонансом Лености из 3 <style=\"highlight\">и более</style> грехов, наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
+                  "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на 1\n- При [VibrationExplosion:`Провокации Тремора`] наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] на этот ход\n- Если наибольший резонанс является абсолютным резонансом <color=#fed133>Лености</color> из 3 <style=\"highlight\">и более</style> грехов, то наносит 1 [AmberTakeDamageUp:`Уязвимость к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -483,7 +483,7 @@
           "level": 1,
           "name": "Асимметричная инерция",
           "abName": "Заводное перекати-поле",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 2) (До 8; не более 20 за ход)\n- Если грехом резонанса является <color=#fed133>Леность</color>, [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 2) (До 8; не более 20 за ход)\n- Если грехом этого резонанса является <color=#fed133>Леность</color>, то [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -504,7 +504,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
                 },
                 {
-                  "desc": "- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености из 4 и более грехов, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
+                  "desc": "- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености из 4 и более грехов, то наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -514,7 +514,7 @@
           "level": 3,
           "name": "Асимметричная инерция",
           "abName": "Заводное перекати-поле",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">4</style>) (До 8; не более 20 за ход)\n- Если грехом резонанса является <color=#fed133>Леность</color>, [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">4</style>) (До 8; не более 20 за ход)\n- Если грехом этого резонанса является <color=#fed133>Леность</color>, то [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -525,7 +525,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">5</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 3</style>"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\"><nobr>на 3</nobr></style>"
                 }
               ]
             },
@@ -535,7 +535,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
                 },
                 {
-                  "desc": "- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености <style=\"highlight\">из 3 грехов</style>, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
+                  "desc": "- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености <style=\"highlight\">из 3 грехов</style>, то наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -545,7 +545,7 @@
           "level": 4,
           "name": "Асимметричная инерция",
           "abName": "Заводное перекати-поле",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 4) (До <style=\"highlight\">10</style>; не более 20 за ход)\n- Если грехом резонанса является <color=#fed133>Леность</color>, [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
+          "desc": "[CantIdentify] (Случайная цель)\n\n[BeforeAttack] Повышает счётчик своего [Vibration:`Тремора`] на (Число грехов в наибольшем резонансе + 4) (До <style=\"highlight\">10</style>; не более 20 за ход)\n- Если грехом этого резонанса является <color=#fed133>Леность</color>, то [Switch_Vibration:`Преобразует амплитуду`] своего [Vibration:`Тремора`] в [VibrationSpring:`Тремор — Часовые стрелки`]",
           "coinlist": [
             {
               "coindescs": [
@@ -556,7 +556,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит <style=\"highlight\">6</style> [Vibration:`Тремора`]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\">на 4</style>"
+                  "desc": "[OnSucceedAttackTail] Повышает счётчик [Vibration:`Тремора`] <style=\"highlight\"><nobr>на 4</nobr></style>"
                 }
               ]
             },
@@ -566,7 +566,7 @@
                   "desc": "[OnSucceedAttack] [VibrationExplosion:`Провоцирует Тремор`] дважды и понижает его счётчик на 2"
                 },
                 {
-                  "desc": "- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености из 3 <style=\"highlight\">и более</style> грехов, наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
+                  "desc": "- При [VibrationExplosion:`Провокации Тремора`] наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`]\n- Если наибольший резонанс был абсолютным резонансом Лености из 3 <style=\"highlight\">и более</style> грехов, то наносит 2 [AmberTakeDamageUp:`Уязвимости к Лености`] также и на следующий ход"
                 }
               ]
             }
@@ -691,7 +691,7 @@
           "level": 1,
           "name": "Регистрация заселения",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими <color=#00ff9c>ОЗ</color>\n[BeforeAttack] Если счётчик своего [Charge:`Заряда`] ниже 10, теряет 10% от максимальных <color=#00ff9c>ОЗ</color> и повышает его на 10 (Не может умереть или Оглушиться от этого эффекта)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + 1) (До 8)\n- При 5 и более грехах в резонансе <color=#9808de>Зависти</color> сразу повышает счётчик своего [Charge:`Заряда`] на 8 вместо этого\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До 50%)",
+          "desc": "[CantIdentify] (Нацеливается на участника битвы с наибольшими <color=#00ff9c>ОЗ</color>)\n\n[BeforeAttack] Если счётчик своего [Charge:`Заряда`] ниже 10, то тратит 10% <color=#00ff9c>ОЗ</color> для его повышения на 10 (Этот эффект не может Оглушить или опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + 1) (До 8)\n- При 5 и более грехах в резонансе <color=#9808de>Зависти</color> сразу повышает счётчик своего [Charge:`Заряда`] на 8 вместо этого\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -710,7 +710,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель имеет [IDMicroChip:`Микрочип регистрации резидента`], наносит ей на 20% больше урона"
+                  "desc": "На 20% больше урона, если цель уже имеет [IDMicroChip:`Микрочип регистрации резидента`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -722,7 +722,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1~2"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] ещё на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] ещё на 2"
                 }
               ]
             }
@@ -732,7 +732,7 @@
           "level": 3,
           "name": "Регистрация заселения",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими <color=#00ff9c>ОЗ</color>\n[BeforeAttack] Если счётчик своего [Charge:`Заряда`] ниже 10, теряет 10% от максимальных <color=#00ff9c>ОЗ</color> и повышает его на 10 (Не может умереть или Оглушиться от этого эффекта)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">2</style>) (До 8)\n- При 5 и более грехах в резонансе <color=#9808de>Зависти</color> сразу повышает счётчик своего [Charge:`Заряда`] на 8 вместо этого\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До <style=\"highlight\">55%</style>)",
+          "desc": "[CantIdentify] (Нацеливается на участника битвы с наибольшими <color=#00ff9c>ОЗ</color>)\n\n[BeforeAttack] Если счётчик своего [Charge:`Заряда`] ниже 10, то тратит 10% <color=#00ff9c>ОЗ</color> для его повышения на 10 (Этот эффект не может Оглушить или опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">2</style>) (До 8)\n- При 5 и более грехах в резонансе <color=#9808de>Зависти</color> сразу повышает счётчик своего [Charge:`Заряда`] на 8 вместо этого\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До <style=\"highlight\">55%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -751,7 +751,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель имеет [IDMicroChip:`Микрочип регистрации резидента`], наносит ей на 20% больше урона"
+                  "desc": "На 20% больше урона, если цель уже имеет [IDMicroChip:`Микрочип регистрации резидента`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -763,7 +763,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1~2"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] ещё на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] ещё на 2"
                 }
               ]
             }
@@ -773,7 +773,7 @@
           "level": 4,
           "name": "Регистрация заселения",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nВыбирает цель с наибольшими <color=#00ff9c>ОЗ</color>\n<style=\"highlight\">Сила монет +1 за каждые 6 [Combustion:`Огня`] на главной цели (До 3)</style>\n[BeforeAttack] Если счётчик своего [Charge:`Заряда`] ниже 10, теряет 10% от максимальных <color=#00ff9c>ОЗ</color> и повышает его на 10 (Не может умереть или Оглушиться от этого эффекта)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">3</style>) (До <style=\"highlight\">10</style>)\n- При 5 и более грехах в резонансе <color=#9808de>Зависти</color> сразу повышает счётчик своего [Charge:`Заряда`] на <style=\"highlight\">10</style> вместо этого\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До <style=\"highlight\">60%</style>)",
+          "desc": "[CantIdentify] (Нацеливается на участника битвы с наибольшими <color=#00ff9c>ОЗ</color>)\n\n<style=\"highlight\">Сила монет +1 за каждые 6 [Combustion:`Огня`] на главной цели (До 3)</style>\n[BeforeAttack] Если счётчик своего [Charge:`Заряда`] ниже 10, то тратит 10% <color=#00ff9c>ОЗ</color> для его повышения на 10 (Этот эффект не может Оглушить или опустить <color=#00ff9c>ОЗ</color> ниже 1)\n[BeforeAttack] Повышает счётчик своего [Charge:`Заряда`] на (Число грехов в наибольшем резонансе + <style=\"highlight\">3</style>) (До <style=\"highlight\">10</style>)\n- При 5 и более грехах в резонансе <color=#9808de>Зависти</color> сразу повышает счётчик своего [Charge:`Заряда`] на <style=\"highlight\">10</style> вместо этого\n[BeforeAttack] Тратит весь счётчик своего [Charge:`Заряда`] и наносит на (Потраченный счётчик × 3)% больше урона (До <style=\"highlight\">60%</style>)",
           "coinlist": [
             {
               "coindescs": [
@@ -792,7 +792,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель имеет [IDMicroChip:`Микрочип регистрации резидента`], наносит ей на 20% больше урона"
+                  "desc": "На 20% больше урона, если цель уже имеет [IDMicroChip:`Микрочип регистрации резидента`]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding:`Связывание`] на следующий ход"
@@ -804,7 +804,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик своего [Charge:`Заряда`] на 1~<style=\"highlight\">3</style>"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает счётчик своего [Charge:`Заряда`] ещё на 2"
+                  "desc": "[TargetKill] Повышает счётчик своего [Charge:`Заряда`] ещё на 2"
                 }
               ]
             }

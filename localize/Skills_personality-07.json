@@ -135,7 +135,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 30% больше урона при критическом попадании"
+                  "desc": "На 30% больше урона при Критическом попадании"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">50%</style> больше урона при Критическом попадании"
                 }
               ]
             }
@@ -676,7 +676,7 @@
         {
           "level": 2,
           "name": "Обезглавливание",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с <style=\"highlight\">6</style> и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Sinking:`Утопания`]</style>",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с <style=\"highlight\">6</style> и более [Sinking:`Утопания`]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чей счётчик [Sinking:`Утопания`] равен 3 и более</style>",
           "coinlist": [
             {},
             {
@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "Реквием",
-          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WinDuel] Восстанавливает 10 <color=#80c9ff>СД</color>\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует альтернативный третий навык <color=#1cc7f1>「Горе, плач, по​г​и​б​е​л​ь」</color> вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
+          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\n[WinDuel] Восстанавливает 10 <color=#80c9ff>СД</color>\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует альтернативный третий навык <color=#1cc7f1>「Горе, плач, по​г​и​б​е​л​ь」</color> вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[TargetKill] Получает 2 [Coffin:`Гроба`]",
           "coinlist": [
             {
               "coindescs": [
@@ -799,7 +799,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает её счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает счётчик её [Sinking:`Утопания`] на 2"
                 }
               ]
             },
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "Реквием",
-          "desc": "Наносит на <style=\"highlight\">12%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">120%</style>)\n[WinDuel] Восстанавливает 10 <color=#80c9ff>СД</color>\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует альтернативный третий навык <color=#1cc7f1>「Горе, плач, по​г​и​б​е​л​ь」</color> вместо этого\n[WhenUse] Сила монет +1 за каждые <style=\"highlight\">3</style> [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]",
+          "desc": "Наносит на <style=\"highlight\">12%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">120%</style>)\n[WinDuel] Восстанавливает 10 <color=#80c9ff>СД</color>\n[BeforeUse] Если Хитклиф оседлал [NightPathfinding:`Дуллахана`], использует альтернативный третий навык <color=#1cc7f1>「Горе, плач, по​г​и​б​е​л​ь」</color> вместо этого\n[WhenUse] Сила монет +1 за каждые <style=\"highlight\">3</style> [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[TargetKill] Получает 2 [Coffin:`Гроба`]",
           "coinlist": [
             {
               "coindescs": [
@@ -826,7 +826,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] <style=\"highlight\">на 4</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает её счётчик [Sinking:`Утопания`] на 2"
+                  "desc": "[OnSucceedAttack] Если цель ожидает [WanderingFootsteps:`Грядущая погибель`], повышает счётчик её [Sinking:`Утопания`] на 2"
                 }
               ]
             },
@@ -900,7 +900,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\nНаносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, то восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на 1 <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\nНаносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[TargetKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, то восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на 1 <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -930,7 +930,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\nНаносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на <style=\"highlight\">2</style> <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\nНаносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[TargetKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на <style=\"highlight\">2</style> <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -965,7 +965,7 @@
         {
           "level": 3,
           "name": "Горе, плач, погибель",
-          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\nНаносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[EnemyKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, то восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на 1 <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на 7% больше урона за каждый [Coffin:`Гроб`] (До 70%)\nНаносит на 10% больше урона за каждого [NightPathfinding:`Дуллахана`] (До 30%)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До 2)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает 1 [Coffin:`Гроб`]\n[TargetKill] Получает 2 [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, то восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на 1 <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До 25)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -995,7 +995,7 @@
         {
           "level": 4,
           "name": "Горе, плач, погибель",
-          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\nНаносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[EnemyKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, то восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на <style=\"highlight\">2</style> <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
+          "desc": "Наносит на <style=\"highlight\">10%</style> больше урона за каждый [Coffin:`Гроб`] (До <style=\"highlight\">100%</style>)\nНаносит на <style=\"highlight\">20%</style> больше урона за каждого [NightPathfinding:`Дуллахана`] (До <style=\"highlight\">60%</style>)\n[WhenUse] Теряет 15 <color=#80c9ff>СД</color>\n[WhenUse] Базовая сила +1 за каждые 5 [Sinking:`Утопания`] на цели (До <style=\"highlight\">4</style>)\n[WhenUse] Наносит на 0.3% больше урона за каждую недостающую до 45 единицу <color=#80c9ff>СД</color> (До 21%)\n[WhenUse] Получает <style=\"highlight\">2</style> [Coffin:`Гроба`]\n[TargetKill] Получает <style=\"highlight\">3</style> [Coffin:`Гроба`]\n[EndSkill] Если <color=#80c9ff>СД</color> ниже 0, то восстанавливает 10 <color=#80c9ff>СД</color>\n- Восстанавливает на <style=\"highlight\">2</style> <color=#80c9ff>СД</color> больше за каждую единицу <color=#80c9ff>СД</color> ниже 0 (До <style=\"highlight\">50</style>)\n[EndBattle] Спешивается с [NightPathfinding:`Дуллахана`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1150,7 +1150,7 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">На 30% больше урона при критическом попадании</style>"
+                  "desc": "<style=\"highlight\">На 30% больше урона при Критическом попадании</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (До 2 раз за ход)"
@@ -1173,7 +1173,7 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">50%</style> больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp:`Уязвимость к Пронзающему урону`] (До 2 раз за ход)"
@@ -1201,7 +1201,7 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "На 50% больше урона при критическом попадании"
+                  "desc": "На 50% больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Если сила своего [Breath:`Дыхания`] выше 30, то тратит до 10 [Breath:`Дыхания`] свыше 30 и наносит на (Потраченное [Breath:`Дыхание`] × 10)% больше урона"
@@ -1221,10 +1221,10 @@
                   "desc": "Тратит 1 [Bullet:`Патрон`]"
                 },
                 {
-                  "desc": "На <style=\"highlight\">80%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">80%</style> больше урона при Критическом попадании"
                 },
                 {
-                  "desc": "<style=\"highlight\">На (Сопротивление цели к Пронзающему урону × 50)% больше урона при критическом попадании</style>"
+                  "desc": "<style=\"highlight\">На (Сопротивление цели к Пронзающему урону × 50)% больше урона при Критическом попадании</style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Если сила своего [Breath:`Дыхания`] выше 30, то тратит до 10 [Breath:`Дыхания`] свыше 30 и наносит на (Потраченное [Breath:`Дыхание`] × 10)% больше урона"
@@ -1241,7 +1241,7 @@
         {
           "level": 1,
           "name": "Боевое дыхание",
-          "desc": "[TurnStartBattle] При отсутствии [Bullet:`Патронов`] использует альтернативный защитный навык <color=#014fd6>「Укрыться」</color>\n[WhenUse] Если <b>「Представитель Офиса «Точки»」</b> Хон Лу на поле боя, то запрашивает у него [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 в следующем ходе (Единожды за ход)",
+          "desc": "[TurnStartBattle] При отсутствии [Bullet:`Патронов`] использует альтернативный Защитный навык <color=#014fd6>「Укрыться」</color>\n[WhenUse] Если <b>「Представитель Офиса «Точки»」</b> Хон Лу на поле боя, то запрашивает у него [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 в следующем ходе (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": []
@@ -1251,7 +1251,7 @@
         {
           "level": 4,
           "name": "Боевое дыхание",
-          "desc": "[TurnStartBattle] При отсутствии [Bullet:`Патронов`] использует альтернативный защитный навык <color=#014fd6>「Укрыться」</color>\n[WhenUse] Если <b>「Представитель Офиса «Точки»」</b> Хон Лу на поле боя, то запрашивает у него [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 в следующем ходе (Единожды за ход)",
+          "desc": "[TurnStartBattle] При отсутствии [Bullet:`Патронов`] использует альтернативный Защитный навык <color=#014fd6>「Укрыться」</color>\n[WhenUse] Если <b>「Представитель Офиса «Точки»」</b> Хон Лу на поле боя, то запрашивает у него [MeleeCover:`Рукопашную поддержку`] (Единожды за ход)\n[EndBattle] Повышает свою [LogicAtelierAM:`Концентрацию`] на 1 в следующем ходе (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1278,7 +1278,7 @@
                   "desc": "Тратит [Bullet_LogicAtelier:`Патрон Ателье логики`]"
                 },
                 {
-                  "desc": "На 100% больше урона при критическом попадании"
+                  "desc": "На 100% больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Если сила своего [Breath:`Дыхания`] выше 30, то тратит до 10 [Breath:`Дыхания`] свыше 30 и наносит на (Потраченное [Breath:`Дыхание`] × 10)% больше урона"
@@ -1298,10 +1298,10 @@
                   "desc": "Тратит [Bullet_LogicAtelier:`Патрон Ателье логики`]"
                 },
                 {
-                  "desc": "На <style=\"highlight\">130%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">130%</style> больше урона при Критическом попадании"
                 },
                 {
-                  "desc": "<style=\"highlight\">На (Сопротивление цели к Пронзающему урону × 50)% больше урона при критическом попадании</style>"
+                  "desc": "<style=\"highlight\">На (Сопротивление цели к Пронзающему урону × 50)% больше урона при Критическом попадании</style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Если сила своего [Breath:`Дыхания`] выше 30, то тратит до 10 [Breath:`Дыхания`] свыше 30 и наносит на (Потраченное [Breath:`Дыхание`] × 10)% больше урона"
@@ -2144,7 +2144,7 @@
         {
           "level": 3,
           "name": "Кроваво-пламенная резня【血炎亂舞】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[BeforeUse] При максимальном значении [ChickenFightlust:`Кровавого боевого инстинкта`] использует альтернативный третий навык <color=#fe0101>「Неистовствующие клинки петуха под залитыми кровью небесами 【血天下鷄舞亂刀】」</color> вместо этого\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n[EndSkill] Счётчик своего [Combustion:`Огня`] повышается на 2",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[BeforeUse] При максимальном значении [ChickenFightlust:`Кровавого боевого инстинкта`] использует альтернативный третий навык <color=#fe0101>「Неистовствующие клинки петуха под залитыми кровью небесами 【血天下鷄舞亂刀】」</color> вместо этого\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n[EndSkill] Счётчик своего [Combustion:`Огня`] повышается на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2188,7 +2188,7 @@
         {
           "level": 4,
           "name": "Кроваво-пламенная резня【血炎亂舞】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">Наносит на (Сила [Combustion:`Огня`] на себе × 1.5)% больше урона (До 30%)</style>\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[BeforeUse] При максимальном значении [ChickenFightlust:`Кровавого боевого инстинкта`] использует альтернативный третий навык <color=#fe0101>「Неистовствующие клинки петуха под залитыми кровью небесами 【血天下鷄舞亂刀】」</color> вместо этого\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на главной цели (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> (До 3)</style>\n[EndSkill] Счётчик своего [Combustion:`Огня`] повышается на 2",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">Наносит на (Сила [Combustion:`Огня`] на себе × 1.5)% больше урона (До 30%)</style>\n[StartBattle] Если уже имеется [ChickenStance:`Кровавое пламя`] или свои текущие <color=#00ff9c>ОЗ</color> ниже 50% от максимальных, все монеты этого навыка становятся [SuperCoin:`Вечными`]\n[BeforeUse] При максимальном значении [ChickenFightlust:`Кровавого боевого инстинкта`] использует альтернативный третий навык <color=#fe0101>「Неистовствующие клинки петуха под залитыми кровью небесами 【血天下鷄舞亂刀】」</color> вместо этого\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на главной цели (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> (До 3)</style>\n[EndSkill] Счётчик своего [Combustion:`Огня`] повышается на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2287,7 +2287,7 @@
         {
           "level": 3,
           "name": "Неистовствующие клинки петуха под залитыми кровью небесами【血天下鷄舞亂刀】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n[WinDuel] Получает 10 [Combustion:`Огня`]\n[EndSkill] Теряет весь [ChickenFightlust:`Кровавый боевой инстинкт`]\n[EndSkill] Если на себе более чем 20 [Combustion:`Огня`], то снимает с себя до 25 [Combustion:`Огня`] свыше 20 и восстанавливает (Снятая сила × 2)% <color=#00ff9c>ОЗ</color>",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n[WinDuel] Получает 10 [Combustion:`Огня`]\n[EndSkill] Теряет весь [ChickenFightlust:`Кровавый боевой инстинкт`]\n[EndSkill] Если на себе более чем 20 [Combustion:`Огня`], то снимает с себя до 25 [Combustion:`Огня`] свыше 20 и восстанавливает (Снятая сила × 2)% <color=#00ff9c>ОЗ</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2337,7 +2337,7 @@
         {
           "level": 4,
           "name": "Неистовствующие клинки петуха под залитыми кровью небесами【血天下鷄舞亂刀】",
-          "desc": "Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">Наносит на (Сила [Combustion:`Огня`] на себе × 3)% больше урона (До 60%)\nНаносит на (Сумма потерянных вместе с целью процентов <color=#00ff9c>ОЗ</color> × 2)% больше урона (До 50%)</style>\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на главной цели (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> (До 3)</style>\n[WinDuel] Получает 10 [Combustion:`Огня`]\n[EndSkill] Теряет весь [ChickenFightlust:`Кровавый боевой инстинкт`]\n[EndSkill] Если на себе более чем 20 [Combustion:`Огня`], то снимает с себя до 25 [Combustion:`Огня`] свыше 20 и восстанавливает (Снятая сила × 2)% <color=#00ff9c>ОЗ</color>",
+          "desc": "※ Атакует [WideAreaRampage:`Нефокусированным залпом`]\n\n<style=\"highlight\">Наносит на (Сила [Combustion:`Огня`] на себе × 3)% больше урона (До 60%)\nНаносит на (Сумма потерянных вместе с целью процентов <color=#00ff9c>ОЗ</color> × 2)% больше урона (До 50%)</style>\n[WhenUse] Получает 3 [ChickenStance:`Кровавого пламени`]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Burst:`Разрыва`] на главной цели (До 2)\n[WhenUse] Сила в столкновении +1 за каждые 20% потерянных <color=#00ff9c>ОЗ</color> (До 3)</style>\n[WinDuel] Получает 10 [Combustion:`Огня`]\n[EndSkill] Теряет весь [ChickenFightlust:`Кровавый боевой инстинкт`]\n[EndSkill] Если на себе более чем 20 [Combustion:`Огня`], то снимает с себя до 25 [Combustion:`Огня`] свыше 20 и восстанавливает (Снятая сила × 2)% <color=#00ff9c>ОЗ</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2701,7 +2701,7 @@
         {
           "level": 4,
           "name": "ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!!!!",
-          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n\nНаносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 60)% больше урона (В фокусированных битвах считаются Части)\nНаносит на (Процент своих потерянных <color=#00ff9c>ОЗ</color>)% больше урона (До 30%)\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 5)\n[StartBattle] Поднимает Уровень Атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n[WhenUse] Итоговая сила +3, если на главной цели есть [RetaliationBook:`Метка возмездия`]\n[WhenUse] Количество целей +1 при 20 и более [VengeanceBookHeathcliff:`Книги мести 【Хитклиф】`](;VengeanceBookSinclair)\n[EndSkill] Добавляет 1 ЭГО Ресурс к случайному наименее имеющемуся греху за каждого противника, убитого этим навыком (До 4)\n[EndSkill] Теряет 15 единиц значения [MiddleFingerTattooID:`Татуировок мести`]",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\nНаносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 60)% больше урона (В фокусированных битвах считаются Части)\nНаносит на (Процент своих потерянных <color=#00ff9c>ОЗ</color>)% больше урона (До 30%)\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 5)\n[StartBattle] Поднимает Уровень Атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n[WhenUse] Итоговая сила +3, если на главной цели есть [RetaliationBook:`Метка возмездия`]\n[WhenUse] Количество целей +1 при 20 и более [VengeanceBookHeathcliff:`Книги мести 【Хитклиф】`](;VengeanceBookSinclair)\n[EndSkill] Добавляет 1 ЭГО Ресурс к случайному наименее имеющемуся греху за каждого противника, убитого этим навыком (До 4)\n[EndSkill] Теряет 15 единиц значения [MiddleFingerTattooID:`Татуировок мести`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2759,7 +2759,7 @@
         {
           "level": 2,
           "name": "Меч Палермо【La Spada di Palermo】",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2828,7 +2828,7 @@
         {
           "level": 2,
           "name": "Нижний удар【Colpi Sottani】",
-          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2889,7 +2889,7 @@
         {
           "level": 3,
           "name": "Охотник【Il Cacciatore】",
-          "desc": "[BeforeUse] Если цель имеет 5 [DuelEdgeAlly:`Обостряющейся дуэли`], то использует альтернативный третий навык <color=#fe0101>「Разделка оленя 【Sezionatura di Cervo】」</color> вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`]\n[WhenUse] Следующие эффекты активируются для этого навыка в зависимости от значения [DuelEdgeAlly:`Обостряющейся дуэли`] на цели:\n- 1+: наносит на 1 [Vibration:`Тремор`] больше\n- 2+: повышает счётчик [Vibration:`Тремора`] ещё на 1\n- 3+: наносит на 1 [Combustion:`Огонь`] больше\n- 4+: повышает счётчик [Combustion:`Огня`] ещё на 1\n[WhenUse] Если есть [EvolvingManual:`Взросление учебника`] или цель имеет 3 и более [DuelEdgeAlly:`Обостряющейся дуэли`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
+          "desc": "[BeforeUse] Если цель имеет 5 [DuelEdgeAlly:`Обостряющейся дуэли`], то использует альтернативный третий навык <color=#fe0101>「Разделка оленя 【Sezionatura di Cervo】」</color> вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 против целей, чья сумма силы [Combustion:`Огня`] и [Vibration:`Тремора`] равна 6 и более\n[WhenUse] Следующие эффекты активируются для этого навыка в зависимости от значения [DuelEdgeAlly:`Обостряющейся дуэли`] на цели:\n- 1+: наносит на 1 [Vibration:`Тремор`] больше\n- 2+: повышает счётчик [Vibration:`Тремора`] ещё на 1\n- 3+: наносит на 1 [Combustion:`Огонь`] больше\n- 4+: повышает счётчик [Combustion:`Огня`] ещё на 1\n[WhenUse] Если есть [EvolvingManual:`Взросление учебника`] или цель имеет 3 и более [DuelEdgeAlly:`Обостряющейся дуэли`], то все монеты этого навыка становятся [SuperCoin:`Вечными`]",
           "coinlist": [
             {
               "coindescs": [

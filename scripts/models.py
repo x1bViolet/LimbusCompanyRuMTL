@@ -30,7 +30,14 @@ class Reference(msgspec.Struct):
 
 class KeywordShorthands(msgspec.Struct):
     regex: str
+    regex_tuple: str
     apply_for: list[str]
+
+
+class IllegalSquareBracketsTweak(msgspec.Struct):
+    regex: str
+    open_skilltag: str
+    close_skilltag: str
 
 
 class Priority(msgspec.Struct):
@@ -54,6 +61,7 @@ class Config(msgspec.Struct):
     font: Font
     reference: Reference
     keyword_shorthands: KeywordShorthands
+    illegal_square_brackets_tweak: IllegalSquareBracketsTweak
     priority: Priority
     xml_escape: XmlEscape
 

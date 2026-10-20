@@ -125,12 +125,12 @@
         {
           "level": 1,
           "name": "Рассеивающий ветер",
-          "desc": "[OnSucceedEvade] Наносит атакующему 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1 ",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Наносит атакующему 3 [Laceration:`Кровотечения`] и повышает его счётчик на 1"
                 }
               ]
             }
@@ -323,7 +323,7 @@
                   "desc": "[OnSucceedAttack] Поднимает Границу Выносливости цели на 10% от нанесённого урона"
                 },
                 {
-                  "desc": "[EndSkill] Наносит 10 [Combustion:`Огня`] цели, которая была Оглушена этой монетой"
+                  "desc": "[EndCoin] Наносит 10 [Combustion:`Огня`] цели, которая была Оглушена этой монетой"
                 }
               ]
             }
@@ -559,12 +559,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Атакующий теряет 4 <color=#80c9ff>СД</color>",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Атакующий теряет 4 <color=#80c9ff>СД</color>"
                 }
               ]
             }

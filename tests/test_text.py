@@ -116,10 +116,10 @@ def test_font_conversion_handles_unmatched_nested_and_adjacent_markup(
     ],
 )
 def test_keyword_shorthands_expand_colors_and_sprite_overrides(
-    keyword_regex: re.Pattern[str], text: str, color: str, sprite: str
+    keyword_regex: re.Pattern[str], keyword_tuple_regex: re.Pattern[str], text: str, color: str, sprite: str
 ) -> None:
     keyword = "Unknown" if "Unknown" in text else "Burn"
-    assert replace_shorthands(text, {"Burn": "#123456"}, keyword_regex) == (
+    assert replace_shorthands(text, {"Burn": "#123456"}, keyword_regex, keyword_tuple_regex) == (
         f'<sprite name="{sprite}"><color={color}>'
         f'<u><link="{keyword}">Ожог</link></u></color>'
     )
@@ -127,15 +127,20 @@ def test_keyword_shorthands_expand_colors_and_sprite_overrides(
 
 def test_keywords_are_converted_in_nested_objects_and_arrays(
     keyword_regex: re.Pattern[str],
+    keyword_tuple_regex: re.Pattern[str],
 ) -> None:
-    data: JsonObject = {"nested": [["[Burn:`Ожог`]"], {"number": 1, "text": "plain"}]}
+    data: JsonObject = {"nested": [["[Burn:`Ожог`]"], ["[@Tuple(BearClawWound,EagleClawWound):`Истерзанные цвета`](#e30000)"], {"number": 1, "text": "plain"}]}
 
-    _ = convert_keywords(data, {"Burn": "#123456"}, keyword_regex)
+    _ = convert_keywords(data, {"Burn": "#123456"}, keyword_regex, converting_tuple=False)
+    _ = convert_keywords(data, {"Burn": "#123456"}, keyword_tuple_regex, converting_tuple=True)
 
     assert data == {
         "nested": [
             [
                 '<sprite name="Burn"><color=#123456><u><link="Burn">Ожог</link></u></color>'
+            ],
+            [
+                '<color=#e30000>(<u><link="BearClawWound"><sprite name="BearClawWound"></link></u>/<u><link="EagleClawWound"><sprite name="EagleClawWound"></link></u>)<u>Истерзанные цвета</u></color>'
             ],
             {"number": 1, "text": "plain"},
         ]

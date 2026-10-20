@@ -73,7 +73,7 @@
         {
           "level": 1,
           "name": "Льющаяся печаль",
-          "desc": "[WhenUse] Цель теряет 5 <color=#80c9ff>СД</color>\nНацеливается на противника с наибольшей силой [Sinking:`Утопания`]",
+          "desc": "※ Нацеливается на противника с наибольшей силой [Sinking:`Утопания`]\n\n[WhenUse] Цель теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -749,7 +749,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown:`Ослабление положительных монет`] на следующий ход"
                 }
               ]
             }
@@ -768,7 +768,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [PlusCoinValueDown:`Ослабления положительной монеты`] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [PlusCoinValueDown:`Ослабления положительных монет`] на следующий ход"
                 }
               ]
             },

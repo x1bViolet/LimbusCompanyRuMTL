@@ -50,7 +50,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration:`Кровотечения`] и повышает его счётчик на 2"
                 },
                 {
-                  "desc": "[EnemyKill] Восстанавливает 20 <color=#80c9ff>СД</color> всем союзникам"
+                  "desc": "[TargetKill] Восстанавливает 20 <color=#80c9ff>СД</color> всем союзникам"
                 }
               ]
             }

@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Подождите!",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 3 при [Discard:`Сбросе`] этого навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -20,7 +20,7 @@
         {
           "level": 2,
           "name": "Подождите!",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">4</style> при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">Итоговая сила +1, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2</style>",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на <style=\"highlight\">4</style> при [Discard:`Сбросе`] этого навыка\n\n<style=\"highlight\">Итоговая сила +1, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -34,7 +34,7 @@
         {
           "level": 4,
           "name": "Подождите!",
-          "desc": "Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\nИтоговая сила <style=\"highlight\">+2</style>, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
+          "desc": "※ Повышает счётчик своего [Vibration:`Тремора`] на 4 при [Discard:`Сбросе`] этого навыка\n\nИтоговая сила <style=\"highlight\">+2</style>, если счётчик своего [Vibration:`Тремора`] равен 6 и более\n[WhenUse] Повышает счётчик своего [Vibration:`Тремора`] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -53,7 +53,7 @@
         {
           "level": 1,
           "name": "На кусочки",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -81,7 +81,7 @@
         {
           "level": 2,
           "name": "На кусочки",
-          "desc": "<style=\"highlight\">Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка</style>\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков",
+          "desc": "<style=\"highlight\">※ Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка</style>\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -109,7 +109,7 @@
         {
           "level": 4,
           "name": "На кусочки",
-          "desc": "Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков",
+          "desc": "※ Получает 1 [AttackUp:`Повышение уровня атаки`] при [Discard:`Сбросе`] этого навыка\n\n[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {
               "coindescs": [
@@ -223,7 +223,7 @@
         {
           "level": 1,
           "name": "Средство от похмелья",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {}
           ]
@@ -231,7 +231,7 @@
         {
           "level": 4,
           "name": "Средство от похмелья",
-          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык низшего ранга из своих слотов навыков",
+          "desc": "[WhenUse] [Discard:`Сбрасывает`] навык низшего <link=\"MDcFcBe\"><u>Р</u>анга</link> из своих слотов навыков",
           "coinlist": [
             {}
           ]
@@ -385,7 +385,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На 50% больше урона при критическом попадании"
+                  "desc": "На 50% больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] [DuelDeclaration_Outis:`Вызывает на дуэль`]"
@@ -405,7 +405,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На <style=\"highlight\">70%</style> больше урона при критическом попадании"
+                  "desc": "На <style=\"highlight\">70%</style> больше урона при Критическом попадании"
                 },
                 {
                   "desc": "[OnSucceedAttack] [DuelDeclaration_Outis:`Вызывает на дуэль`]"
@@ -594,7 +594,7 @@
         {
           "level": 3,
           "name": "Выстрел магической пулей",
-          "desc": "Наносит на (Сила [Combustion:`Огня`] цели × 0.5)% больше урона (До 15%)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET] с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
+          "desc": "Наносит на (Сила [Combustion:`Огня`] цели × 0.5)% больше урона (До 15%)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится [@SquareBrackets:`Неуправляемым`](#fe0000) с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
           "coinlist": [
             {
               "coindescs": [
@@ -608,7 +608,7 @@
         {
           "level": 4,
           "name": "Выстрел магической пулей",
-          "desc": "Наносит на <style=\"highlight\">(</style>Сила [Combustion:`Огня`] цели<style=\"highlight\">)%</style> больше урона (До <style=\"highlight\">30%</style>)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится [CRIMSON]<color=#fe0000>Неуправляемым</color>[SCARLET] с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
+          "desc": "Наносит на <style=\"highlight\">(</style>Сила [Combustion:`Огня`] цели<style=\"highlight\">)%</style> больше урона (До <style=\"highlight\">30%</style>)\n\n[BeforeAttack] Получает 1 [FreischutzShotCount:`Магическую пулю`]\n- Теряет ((Количество имеющихся [FreischutzShotCount:`Магических пуль`] - 1) × 5) <color=#80c9ff>СД</color>\n- Количество целей навыка меняется на имеющееся количество [FreischutzShotCount:`Магических пуль`]\n[BeforeAttack] Если своя <color=#80c9ff>СД</color> равна 10 и ниже, то этот навык становится [@SquareBrackets:`Неуправляемым`](#fe0000) с шансом 50%\n\n[EndSkill] Если имеется 7 [FreischutzShotCount:`Магических пуль`], то теряет их все (Считается за трату последнего [Bullet:`Патрона`])",
           "coinlist": [
             {
               "coindescs": [
@@ -986,7 +986,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`], [Burst:`Разрыва`] или [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] При Оглушении или убийстве цели даёт 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] на следующий ход другой Идентичности с наибольшей <color=#80c9ff>СД</color>"
+                  "desc": "[EndCoin] При Оглушении или убийстве цели даёт 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] на следующий ход другой Идентичности с наибольшей <color=#80c9ff>СД</color>"
                 }
               ]
             }
@@ -1007,7 +1007,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Combustion:`Огня`], [Laceration:`Кровотечения`], [Vibration:`Тремора`], [Burst:`Разрыва`] или [Sinking:`Утопания`]"
                 },
                 {
-                  "desc": "[EndSkill] При Оглушении или убийстве цели даёт 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] на следующий ход другой Идентичности с наибольшей <color=#80c9ff>СД</color>\n<style=\"highlight\">- Если затронутая Идентичность принадлежит Безымянному пальцу, то даёт ей 1 [PenetrateResultUp:`Повышение силы Пронзающих атак`] вместе с этим</style>"
+                  "desc": "[EndCoin] При Оглушении или убийстве цели даёт 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] на следующий ход другой Идентичности с наибольшей <color=#80c9ff>СД</color>\n<style=\"highlight\">- Если затронутая Идентичность принадлежит Безымянному пальцу, то даёт ей 1 [PenetrateResultUp:`Повышение силы Пронзающих атак`] вместе с этим</style>"
                 }
               ]
             }
@@ -1312,7 +1312,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1</style>"
                 }
               ]
             },
@@ -1322,7 +1322,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1</style>"
                 }
               ]
             }
@@ -1339,7 +1339,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1"
                 }
               ]
             },
@@ -1349,7 +1349,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает его счётчик [Laceration:`Кровотечения`] на 1"
+                  "desc": "[OnSucceedAttack] Если противник является [LineCuttingPersonality:`Целью шитья`], повышает счётчик его [Laceration:`Кровотечения`] на 1"
                 }
               ]
             }
@@ -1726,7 +1726,7 @@
         {
           "level": 3,
           "name": "Исписанный проклятиями клинок",
-          "desc": "Если быстрее цели, то наносит на (Разница в Скорости × сила [Burst:`Разрыва`] цели)% больше урона (До 50%)\nЕсли своя Скорость выше Скорости цели на 2 и более, Сила <nobr>монет +1</nobr>\n[WhenUse] Получает 3 [LegStrength:`Стремительности`]\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 2",
+          "desc": "Если быстрее цели, то наносит на (Разница в Скорости × сила [Burst:`Разрыва`] цели)% больше урона (До 50%)\nЕсли своя Скорость выше Скорости цели на 2 и более, Сила <nobr>монет +1</nobr>\n[WhenUse] Получает 3 [LegStrength:`Стремительности 【Мао】`]\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1760,7 +1760,7 @@
         {
           "level": 4,
           "name": "Исписанный проклятиями клинок",
-          "desc": "Если быстрее цели, то наносит на (Разница в Скорости × сила [Burst:`Разрыва`] цели)% больше урона (До 50%)\n<style=\"highlight\">Если быстрее цели</style>, Сила монет +1 <style=\"highlight\">за каждые 2 единицы разницы в Скорости (До 2)\n[WhenUse] Сила монет +1 против целей с 15 более [Burst:`Разрыва`]</style>\n[WhenUse] Получает 3 [LegStrength:`Стремительности`]\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 2",
+          "desc": "Если быстрее цели, то наносит на (Разница в Скорости × сила [Burst:`Разрыва`] цели)% больше урона (До 50%)\n<style=\"highlight\">Если быстрее цели</style>, Сила монет +1 <style=\"highlight\">за каждые 2 единицы разницы в Скорости (До 2)\n[WhenUse] Сила монет +1 против целей с 15 более [Burst:`Разрыва`]</style>\n[WhenUse] Получает 3 [LegStrength:`Стремительности 【Мао】`]\n[OnDirectAttack] Повышает счётчик [Burst:`Разрыва`] цели на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1802,7 +1802,7 @@
         {
           "level": 1,
           "name": "Частичная мутация Хэйшоу",
-          "desc": "[DuelCounter]\nЕсли своя Скорость выше Скорости атакующего на 2 и более, Базовая сила +1\n[WhenUse] Получает 3 [LegStrength:`Стремительности`]",
+          "desc": "[DuelCounter]\nЕсли своя Скорость выше Скорости атакующего на 2 и более, Базовая сила +1\n[WhenUse] Получает 3 [LegStrength:`Стремительности 【Мао】`]",
           "coinlist": [
             {
               "coindescs": [
@@ -1816,7 +1816,7 @@
         {
           "level": 4,
           "name": "Частичная мутация Хэйшоу",
-          "desc": "[DuelCounter]\n<style=\"highlight\">Если быстрее атакующего</style>, Базовая сила +1 <style=\"highlight\">за каждые 2 единицы разницы в Скорости (До 2)</style>\n[WhenUse] Получает 3 [LegStrength:`Стремительности`]",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Если быстрее атакующего</style>, Базовая сила +1 <style=\"highlight\">за каждые 2 единицы разницы в Скорости (До 2)</style>\n[WhenUse] Получает 3 [LegStrength:`Стремительности 【Мао】`]",
           "coinlist": [
             {
               "coindescs": [
@@ -2860,7 +2860,7 @@
         {
           "level": 3,
           "name": "Удар в кишки【Леватэйн】",
-          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\nИтоговая сила +1 против целей с 4 и более единицами в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`]\n[WhenUse] Поднимает Уровень Атаки этого навыка на (Число грехов в наибольшем резонансе / 2) (До 3; округляется вниз)\n[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход\n[BeforeAttack] Получает 5 [Combustion:`Огня`]\n[EndSkill] Теряет 5 <color=#80c9ff>СД</color>",
+          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\nИтоговая сила +1 против целей, чья сумма силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] равна 4 и более\n[WhenUse] Поднимает Уровень Атаки этого навыка на (Число грехов в наибольшем резонансе / 2) (До 3; округляется вниз)\n[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход\n[BeforeAttack] Получает 5 [Combustion:`Огня`]\n[EndSkill] Теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2917,7 +2917,7 @@
         {
           "level": 4,
           "name": "Удар в кишки【Леватэйн】",
-          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\nИтоговая сила +1 против целей с 4 и более единицами в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`]\n[WhenUse] Поднимает Уровень Атаки этого навыка на (Число грехов в наибольшем резонансе / 2) (До 3; округляется вниз)\n[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход\n[BeforeAttack] Получает 5 [Combustion:`Огня`]\n[EndSkill] Теряет 5 <color=#80c9ff>СД</color>",
+          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\nИтоговая сила +1 против целей, чья сумма силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] равна 4 и более\n[WhenUse] Поднимает Уровень Атаки этого навыка на (Число грехов в наибольшем резонансе / 2) (До 3; округляется вниз)\n[WhenUse] Слот с этим навыком получает 5 [Aggro:`Провокации`] на следующий ход\n[BeforeAttack] Получает 5 [Combustion:`Огня`]\n[EndSkill] Теряет 5 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -3110,7 +3110,7 @@
         {
           "level": 1,
           "name": "Время распаковки!",
-          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
           "coinlist": [
             {
               "coindescs": [
@@ -3157,7 +3157,7 @@
         {
           "level": 3,
           "name": "Время распаковки!",
-          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки[TabExplain] мести 【<s>Великая Сестра</s>】`], то наносит монетами этого навыка дополнительный Рубящий урон, равный 25% от их итогового урона</style>\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
+          "desc": "※ Внешние эффекты не могут вызвать повторное использование этого навыка\n\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки[TabExplain] мести 【<s>Великая Сестра</s>】`], то наносит монетами этого навыка дополнительный Рубящий урон, равный 25% от их итогового урона</style>\n[EndSkill] Снимает следующую печать с [MiddleFatherSwordFourOutis:`Леватэйна`] ([MiddleFatherSwordOneOutis:`Запечатанный меч`] → [MiddleFatherSwordTwoOutis:`Первая печать снята`] → [MiddleFatherSwordThreeOutis:`Вторая печать снята`] → [MiddleFatherSwordFourOutis:`Леватэйн`])",
           "coinlist": [
             {
               "coindescs": [
@@ -3209,7 +3209,7 @@
         {
           "level": 3,
           "name": "Хорошая девочка. Твоя жертва ради семьи не будет забыта.",
-          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНе вызывает активацию Защитных навыков цели\n\n[CantDuel]\n[CantChangeTarget]\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 3)\n[WhenUse] Итоговая сила +1 и на 10% больше урона за каждую единицу текущего значения [ReinforcedTattooSpiderOutis:`Татуировок мести 【<s>Великая Сестра</s>】`] (До +3 к Итоговой силе; до +100% к урону)\n[WhenUse] Если среди целей этого навыка есть <b>「Дом Пауков: Ученица Среднего」</b> Измаил, то его урон увеличивается на 100%\n[EndSkill] Тратит всю имеющуюся [ResentmentSpiderOutis:`Злобу`], а затем восстанавливает 5 единиц её значения (Если являвшаяся дополнительной целью этого навыка Идентичность была им убита, то восстанавливает ещё 10 [ResentmentSpiderOutis:`Злобы`])",
+          "desc": "<b>Навык [MiddleFatherSwordFourOutis:`Леватэйна`]</b>\n\n※ Внешние эффекты не могут вызвать повторное использование этого навыка\n※ Не вызывает активацию Защитных навыков цели\n\n[CantDuel]\n[CantChangeTarget]\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion:`Огня`] и [Laceration:`Кровотечения`] на главной цели (До 3)\n[WhenUse] Итоговая сила +1 и на 10% больше урона за каждую единицу текущего значения [ReinforcedTattooSpiderOutis:`Татуировок мести 【<s>Великая Сестра</s>】`] (До +3 к Итоговой силе; до +100% к урону)\n[WhenUse] Если среди целей этого навыка есть <b>「Дом Пауков: Ученица Среднего」</b> Измаил, то его урон увеличивается на 100%\n[EndSkill] Тратит всю имеющуюся [ResentmentSpiderOutis:`Злобу`], а затем восстанавливает 5 единиц её значения (Если являвшаяся дополнительной целью этого навыка Идентичность была им убита, то восстанавливает ещё 10 [ResentmentSpiderOutis:`Злобы`])",
           "coinlist": [
             {
               "coindescs": [

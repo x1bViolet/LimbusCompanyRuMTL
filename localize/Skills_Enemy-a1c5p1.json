@@ -691,12 +691,12 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Получает 5 [Breath:`Дыхания`] на следующий ход\n[OnSucceedEvade] Даёт 2 [Breath:`Дыхания`] всем союзникам на следующий ход",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": ""
+                  "desc": "[OnSucceedEvade] Получает 5 [Breath:`Дыхания`] на следующий ход\n[OnSucceedEvade] Даёт 2 [Breath:`Дыхания`] всем союзникам на следующий ход"
                 }
               ]
             }

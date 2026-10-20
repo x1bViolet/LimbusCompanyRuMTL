@@ -51,7 +51,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Нацеливается на противников с [Laceration:`Кровотечением`]",
+          "desc": "※ Нацеливается на противников с [Laceration:`Кровотечением`]",
           "coinlist": [
             {
               "coindescs": [
@@ -148,7 +148,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Нацеливается на противников с [Laceration:`Кровотечением`]\n[TargetKill] Противник с наименьшей <color=#80c9ff>СД</color> теряет 10 <color=#80c9ff>СД</color>",
+          "desc": "※ Нацеливается на противников с [Laceration:`Кровотечением`]\n\n[TargetKill] Противник с наименьшей <color=#80c9ff>СД</color> теряет 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
@@ -251,7 +251,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Нацеливается на противников с [Laceration:`Кровотечением`]\n[TargetKill] Противник с наименьшей <color=#80c9ff>СД</color> теряет 10 <color=#80c9ff>СД</color>\n[TargetKill] Использует этот навык снова на случайной цели",
+          "desc": "※ Нацеливается на противников с [Laceration:`Кровотечением`]\n\n[TargetKill] Противник с наименьшей <color=#80c9ff>СД</color> теряет 10 <color=#80c9ff>СД</color>\n[TargetKill] Использует этот навык снова на случайной цели",
           "coinlist": [
             {
               "coindescs": [
@@ -377,7 +377,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Нацеливается на противников с [Laceration:`Кровотечением`]\n[TargetKill] Противник с наименьшей <color=#80c9ff>СД</color> теряет 15 <color=#80c9ff>СД</color>\n[TargetKill] Использует этот навык снова на случайной цели",
+          "desc": "※ Нацеливается на противников с [Laceration:`Кровотечением`]\n\n[TargetKill] Противник с наименьшей <color=#80c9ff>СД</color> теряет 15 <color=#80c9ff>СД</color>\n[TargetKill] Использует этот навык снова на случайной цели",
           "coinlist": [
             {
               "coindescs": [
