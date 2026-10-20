@@ -3252,7 +3252,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
                 }
               ]
             },
@@ -3273,7 +3273,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
                 }
               ]
             },
@@ -3294,7 +3294,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration:`Тремора`] цели на 2"
                 }
               ]
             },

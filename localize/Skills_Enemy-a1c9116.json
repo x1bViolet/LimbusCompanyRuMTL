@@ -636,7 +636,7 @@
                   "desc": "На 50% больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
+                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
                 }
               ]
             }
@@ -742,7 +742,7 @@
                   "desc": "На 50% больше урона, если на цель наложен [BurstAgility:`Смертный ритуал 【Скоротечность】`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности`]"
+                  "desc": "[OnSucceedAttack] Получает 3 [LegStrength:`Стремительности 【Мао】`]"
                 }
               ]
             }
