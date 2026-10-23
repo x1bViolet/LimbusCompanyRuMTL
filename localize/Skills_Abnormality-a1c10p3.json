@@ -903,7 +903,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [PenetrateResistDown:`Понижение сопротивления к Пронзающему урону`] на этот и следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [PenetrateResistDown:`Ослабление сопротивления к Пронзающему урону`] на этот и следующий ход"
                 }
               ]
             },

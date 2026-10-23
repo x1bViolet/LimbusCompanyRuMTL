@@ -935,7 +935,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Sinking:`Утопания`] на 1</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] и 1 [AzureResistDown:`Понижение сопротивления к Унынию`] на этот и следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] и 1 [AzureResistDown:`Ослабление сопротивления к Унынию`] на этот и следующий ход</style>"
                 }
               ]
             },
@@ -1093,7 +1093,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 Почивших [SinkingWhite:`Бабочки`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] и 1 [AzureResistDown:`Понижение сопротивления к Унынию`] на этот и следующий ход</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp:`Уязвимость к Унынию`] и 1 [AzureResistDown:`Ослабление сопротивления к Унынию`] на этот и следующий ход</style>"
                 }
               ]
             },

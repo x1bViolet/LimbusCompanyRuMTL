@@ -2350,7 +2350,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Burst:`Разрыва`]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [SlashResistDown:`Ослабление сопротивления к Рубящему урону`] на следующий ход (Единожды за ход)</style>"
                 },
                 {
                   "desc": "[TargetKill] Даёт 1 [Enhancement:`Повышение силы атаки`] на следующий ход и восстанавливает 10 <color=#80c9ff>СД</color> двум Идентичностям Стаи Хэйшоу с наименьшей <color=#80c9ff>СД</color>"
@@ -2392,7 +2392,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на следующий ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Ослабление сопротивления к Рубящему урону`] на следующий ход (Единожды за ход)"
                 },
                 {
                   "desc": "[TargetKill] Получает 1 [Enhancement:`Повышение силы атаки`] на следующий ход"
@@ -2429,7 +2429,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Burst:`Разрыв`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Понижение сопротивления к Рубящему урону`] на следующий ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashResistDown:`Ослабление сопротивления к Рубящему урону`] на следующий ход (Единожды за ход)"
                 },
                 {
                   "desc": "[TargetKill] Получает <style=\"highlight\">2</style> [Enhancement:`Повышения силы атаки`] на следующий ход"

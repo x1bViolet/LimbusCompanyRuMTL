@@ -2313,7 +2313,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [BlueSand:`Синего песка`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown:`Понижение сопротивления к Унынию`] (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown:`Ослабление сопротивления к Унынию`] (Единожды за ход)"
                 }
               ]
             },
@@ -2362,7 +2362,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [BlueSand:`Синего песка`] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown:`Понижение сопротивления к Унынию`] (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown:`Ослабление сопротивления к Унынию`] (Единожды за ход)"
                 }
               ]
             },
