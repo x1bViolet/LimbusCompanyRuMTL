@@ -795,7 +795,7 @@
         {
           "level": 1,
           "name": "Подрывной сокрущающий разрез【爆碎斬】",
-          "desc": "※ Выбирает целью [Prey_leiheng:`Добычу`](;Prey)\n\n<color=#ff6000><mark=#ff000040><b><u>[nxCenterLine]</u></b></mark></color>\n\nСила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 3)\n[DefeatDuel] Теряет 10 <color=#80c9ff>СД</color>",
+          "desc": "※ Выбирает целью [Prey_leiheng:`Добычу`](;Prey)\n\n[nxCenterLine]\n\nСила монет +1 за каждые 6 единиц в сумме силы [Combustion:`Огня`] и [Vibration:`Тремора`] на цели (До 3)\n[DefeatDuel] Теряет 10 <color=#80c9ff>СД</color>",
           "coinlist": [
             {
               "coindescs": [
