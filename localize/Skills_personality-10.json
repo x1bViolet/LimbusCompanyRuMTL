@@ -2703,7 +2703,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующй ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает 1 [ScarletTakeDamageUp:`Уязвимость к Похоти`] на следующий ход (Единожды за ход)"
                 }
               ]
             }
@@ -2727,7 +2727,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration:`Кровотечения`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующй ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает <style=\"highlight\">2</style> [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход (Единожды за ход)"
                 }
               ]
             }
@@ -2981,7 +2981,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает (Потерянное значение) [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующй ход (До 3)"
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает (Потерянное значение) [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход (До 3)"
                 }
               ]
             },
@@ -3047,7 +3047,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration:`Кровотечение`]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает (Потерянное значение) [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующй ход (До 3)"
+                  "desc": "[OnSucceedAttack] Цель теряет всё [BoneNailSinclair:`Отвращённое`] и получает (Потерянное значение) [ScarletTakeDamageUp:`Уязвимости к Похоти`] на следующий ход (До 3)"
                 }
               ]
             },
