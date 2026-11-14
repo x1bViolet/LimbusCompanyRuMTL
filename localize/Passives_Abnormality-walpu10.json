@@ -46,7 +46,7 @@
     {
       "id": 158104,
       "name": "Одинокий корректировщик",
-      "desc": "Конец хода: если на поле боя не осталось других союзников, то получает [LoneFixer:`Боевой инстинкт`].\n\nПолучает на 50% меньше урона от [Combustion:`Огня`]. (Округляется вниз)\n- Когда текущие <color=#00ff9c>ОЗ</color> ниже 50%, получает на 75% меньше урона от [Combustion:`Огня`] вместо 50%.\n\nИмеет [PanicChangeLock:`Неизменный тип паники`]. Если в Панике к концу хода, то восстанавливается от неё и сбрасывает <color=#80c9ff>СД</color> до 45.",
+      "desc": "Конец хода: если на поле боя не осталось других союзников, то получает эффект [LoneFixer:`Одинокого корректировщика`].\n\nПолучает на 50% меньше урона от [Combustion:`Огня`]. (Округляется вниз)\n- Когда текущие <color=#00ff9c>ОЗ</color> ниже 50%, получает на 75% меньше урона от [Combustion:`Огня`] вместо 50%.\n\nИмеет [PanicChangeLock:`Неизменный тип паники`]. Если в Панике к концу хода, то восстанавливается от неё и сбрасывает <color=#80c9ff>СД</color> до 45.",
       "summary": "Получает меньше урона от [Combustion:`Огня`]",
       "flavor": "\"Do you know what loneliness is? It's when someone you held dear has gone far away, and you can't sit down to lunch with them anymore. That's what loneliness means to me, anyway. I just hope... that you never have to find out what it feels like, Philip.\""
     },
