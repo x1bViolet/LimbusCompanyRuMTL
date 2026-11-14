@@ -90,7 +90,7 @@
     {
       "id": 158304,
       "name": "Клиновидная техника владения копьём",
-      "desc": "Поднятие Границ Выносливости противников от [VibrationExplosion:`Провокации Тремора`] навыками <b>Оскара</b> усиливается на 10%.\n\nНачало хода: получает 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] и 1 [PenetrateResultUp:`Повышение силы Пронзающих атак`].\n\nЕсли <color=#00ff9c>ОЗ</color> цели выше 50% или она имеет <color=#366ffb>OЗ Щита</color>, то наносит ей на 20% больше урона.\n\nКогда Уровень Защиты цели выше Уровня Атаки своего навыка: урон этого навыка повышается на (Разница в Уровне Защиты цели и Уровне атаки навыка × 2)%. (До 30%)",
+      "desc": "Поднятие Границ Выносливости противников от [VibrationExplosion:`Провокации Тремора`] своими навыками усилено на 10%.\n\nНачало хода: получает 1 [PenetrateDamageUp:`Повышение Пронзающего урона`] и 1 [PenetrateResultUp:`Повышение силы Пронзающих атак`].\n\nЕсли <color=#00ff9c>ОЗ</color> цели выше 50% или она имеет <color=#366ffb>OЗ Щита</color>, то наносит ей на 20% больше урона.\n\nКогда Уровень Защиты цели выше Уровня Атаки своего навыка: урон этого навыка повышается на (Разница в Уровне Защиты цели и Уровне атаки навыка × 2)%. (До 30%)",
       "summary": "Наносит больше урона целям с низким процентом <color=#00ff9c>ОЗ</color> или более высоким Уровнем Защиты",
       "flavor": "There is only so much piercing power to be gained from sharpening a spearhead. Spears forged from Patented alloys or rare materials recovered from the Ruins may offer greater results, but their price can rival several years' worth of an ordinary Fixer Office's budget. A far more economical approach is to harness the surrounding currents of wind and coil them around the weapon, granting it formidable piercing power at a fraction of the cost. The technique is well-established, with many Workshops offering their own implementations.\n\nWedge Office's spears are the handiwork of one such Workshop. Combined with the Office's distinctive spearwork, which makes masterful use of twisting and rotational movements, these weapons have run countless foes through."
     },
@@ -141,13 +141,13 @@
     {
       "id": 158701,
       "name": "Пыл",
-      "desc": "Конец хода: если в Оглушении, то наносит 2 Огня всем противникам\n\nИтоговая сила +1/+2/+3 при 20+/40+/45 <color=#80c9ff>СД</color> соответственно.\n\nИтоговая сила +1 при <color=#00ff9c>ОЗ</color> ниже 50%.",
+      "desc": "Конец хода: если в Оглушении, то наносит 2 [Combustion:`Огня`] всем противникам.\n\nИтоговая сила +1/+2/+3 при 20+/40+/45 <color=#80c9ff>СД</color> соответственно.\n\nИтоговая сила +1 при <color=#00ff9c>ОЗ</color> ниже 50%.",
       "summary": "Итоговая сила повышается в зависимости от <color=#80c9ff>СД</color> и <color=#00ff9c>ОЗ</color>"
     },
     {
       "id": 158702,
       "name": "Оболочка нестабильного ЭГО",
-      "desc": "Переодически менят состояние между [PhilipShield:`Перьевым щитом`] и [PhilipSword:`Обжигающим мечом`]: наносит [Combustion:`Огонь`] атаковавшему при получении урона или при попадании по цели соответственно.\n\nКогда значение [PhilipReady:`Подготови пылающего удара`] падает до 0, экипирует навык <color=#fe0101>「Пылающий удар」</color>. После использования этого навыка снова получает 4 [PhilipReady:`Подготовки пылающего удара`]."
+      "desc": "Переодически менят состояние между [PhilipShield:`Перьевым щитом`] и [PhilipSword:`Обжигающим мечом`]: наносит [Combustion:`Огонь`] атаковавшему при получении урона или цели при попадании по цели соответственно.\n\nКогда значение [PhilipReady:`Подготовки пылающего удара`] падает до 0, экипирует навык <color=#fe0101>「Пылающий удар」</color>. После использования этого навыка снова получает 4 [PhilipReady:`Подготовки пылающего удара`]."
     },
     {
       "id": 158703,
