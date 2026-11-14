@@ -67,19 +67,19 @@
       "id": "DawnOfficeStigmaYOne",
       "name": "Гроб огненной бабочки",
       "desc": "Максимальное значение: 30\n· Значение этого эффекта повышается на 3, когда <b>Юна</b> попадает своими навыками по противникам (Единожды за навык)\n  - Если используемым навыком является навык <color=#a5fe06>「Поддерживающее наступление」</color>, использованный через эффект своего пассивного умения <b>「Офис «Рассвета» - Старший」</b>, то значение повышается ещё на 1\n  - Если цель имеет [Combustion:`Огонь`], то значение повышается ещё на 1\n· При получении урона от [Combustion:`Огня`] значение этого эффекта повышается на половину от полученного урона",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to at least learn how it works.\"\n\n\"All those blades inside the coffin make it much easier to deal with multiple opponents at once. That way, you can even take on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "    Внутри гроба до температуры тления разогреты бабочки, калейдоскоп которых вырывается наружу, чтобы расплавить и разорвать цель на части.\n    «Этот тип оружия еще слишком сложен для тебя, Филип, но рекомендуется ознакомиться с его свойствами.»\n    «Множество клинков внутри гроба обеспечивает значительное удобство в ситуациях, когда нехватка времени делает невозможным выполнение запросов в одиночку, или в бою с несколькими противниками."
     },
     {
       "id": "DawnOfficeStigmaYTwo",
       "name": "Гроб огненной бабочки",
       "desc": "Максимальное значение: 30\n· Значение этого эффекта повышается на 3, когда <b>Юна</b> попадает своими навыками по противникам (Единожды за навык)\n  - Если используемым навыком является навык <color=#a5fe06>「Поддерживающее наступление」</color>, использованный через эффект своего пассивного умения <b>「Офис «Рассвета» - Старший」</b>, то значение повышается ещё на 1\n  - Если цель имеет [Combustion:`Огонь`], то значение повышается ещё на 1\n· При получении урона от [Combustion:`Огня`] значение этого эффекта повышается на половину от полученного урона",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to at least learn how it works.\"\n\n\"All those blades inside the coffin make it much easier to deal with multiple opponents at once. That way, you can even take on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "    Внутри гроба до температуры тления разогреты бабочки, калейдоскоп которых вырывается наружу, чтобы расплавить и разорвать цель на части.\n    «Этот тип оружия еще слишком сложен для тебя, Филип, но рекомендуется ознакомиться с его свойствами.»\n    «Множество клинков внутри гроба обеспечивает значительное удобство в ситуациях, когда нехватка времени делает невозможным выполнение запросов в одиночку, или в бою с несколькими противниками."
     },
     {
       "id": "DawnOfficeStigmaYThree",
       "name": "Гроб огненной бабочки",
       "desc": "Максимальное значение: 30\n· Значение этого эффекта повышается на 3, когда <b>Юна</b> попадает своими навыками по противникам (Единожды за навык)\n  - Если используемым навыком является навык <color=#a5fe06>「Поддерживающее наступление」</color>, использованный через эффект своего пассивного умения <b>「Офис «Рассвета» - Старший」</b>, то значение повышается ещё на 1\n  - Если цель имеет [Combustion:`Огонь`], то значение повышается ещё на 1\n· При получении урона от [Combustion:`Огня`] значение этого эффекта повышается на половину от полученного урона",
-      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Philip, but it shouldn't hurt to at least learn how it works.\"\n\n\"All those blades inside the coffin make it much easier to deal with multiple opponents at once. That way, you can even take on jobs that would normally be too much for a single Fixer to handle.\""
+      "flavor": "    Внутри гроба до температуры тления разогреты бабочки, калейдоскоп которых вырывается наружу, чтобы расплавить и разорвать цель на части.\n    «Этот тип оружия еще слишком сложен для тебя, Филип, но рекомендуется ознакомиться с его свойствами.»\n    «Множество клинков внутри гроба обеспечивает значительное удобство в ситуациях, когда нехватка времени делает невозможным выполнение запросов в одиночку, или в бою с несколькими противниками."
     },
     {
       "id": "LoneFixer",
@@ -105,7 +105,7 @@
       "id": "PhilipPower",
       "name": "Вставание на ноги посреди печали",
       "desc": "· Восстанавливает 5 <color=#80c9ff>СД</color> в конца использования навыков\n· Наносит на 20% больше урона противникам, имеющим [Vibration:`Тремор`]\n· Начало хода: если в Оглушении, то выходит из него и фиксирует значения всех своих [@Hint(MDHcFaBd):`Сопротивлений`] на x1.5 в течение хода",
-      "flavor": "'For me, who's feeling sadder than anyone...'"
+      "flavor": "'Ради меня, кто чувствует себя печальнее всех...'"
     },
     {
       "id": "PhilipWax",
@@ -146,19 +146,19 @@
       "id": "HistoryAshes",
       "name": "Страницы библиотеки — Пепел",
       "desc": "При получении урона наносит атаковавшему 1~3 [Combustion:`Огня`], а также получает с шансом 40% эффект <i>\"<color=#93f03f>[При ударе]</color> Наносит 1 [Combustion:`Огонь`]\"</i> для монет своих навыков в следующем ходе (Не складывается)",
-      "flavor": "\"The charred body represents the child's crumbled hope, while the ever-blazing flame represents the obsession for affection.\""
+      "flavor": "\"Обугленное тело символизирует рухнувшую надежду дитя, в то время как вечно пылающее пламя олицетворяет одержимость привязанностью.\""
     },
     {
       "id": "HistoryNostalgicEmbraceOfTheOldDays",
       "name": "Страницы библиотеки — Ностальгические объятия прошлого",
       "desc": "[HistoryNostalgicEmbraceOfTheOldDays:`Ностальгические объятия прошлого`]: при победе в столкновении [VibrationExplosion:`Провоцирует Тремор`] цели с шансом 20% (Шанс увеличивается на 2% за каждое комбо в этом столкновении (До 50%))",
-      "flavor": "Teddy was hugging someone tightly. Teddy loved hugs. But something was odd."
+      "flavor": "Тедди крепко обнимал кого-то. Тедди любил объятия. Но что-то было не так."
     },
     {
       "id": "HistoryGluttony",
       "name": "Страницы библиотеки — Чревоугодие",
       "desc": "[HistoryGluttony:`Чревоугодие`]: если цель своих атакующих навыков получает урон в течение хода, то этот урон дополнительно увеличивается на 1~3, а себе восстанавливается 2~5 <color=#00ff9c>ОЗ</color>",
-      "flavor": "The fairies were no more than carnivorous monsters, and their \"protection\" was their method to keep the meat fresh."
+      "flavor": "Феи были не более чем плотоядными чудовищами, и их \"защитой\" был способ сохранить мясо свежим."
     },
     {
       "id": "DawnOffice_LowMorale",
