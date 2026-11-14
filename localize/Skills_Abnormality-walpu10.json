@@ -1253,7 +1253,7 @@
                   "desc": "[SuperCoin:`Вечная монета`]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [PhilipWax:`Эмоции неопределенной печали`]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [PhilipWax:`Эмоции неопределённой печали`]"
                 }
               ]
             }
@@ -1281,7 +1281,7 @@
                   "desc": "[ReUseOnSucceedAttack] Повышает счётчик [Combustion:`Огня`] на 2"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Наносит 2 [PhilipWax:`Эмоции неопределенной печали`]"
+                  "desc": "[ReUseOnSucceedAttack] Наносит 2 [PhilipWax:`Эмоции неопределённой печали`]"
                 }
               ]
             }
